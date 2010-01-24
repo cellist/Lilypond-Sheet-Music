@@ -65,7 +65,7 @@ va = \relative c {
     gis,(\< h e h')\!
 
     c(\> a e c)\!
-    (d,\< f h d)\!
+    d,(\< f h d)\!
     f( h d h)
     e,,( h' d e)
     gis( h d c)
