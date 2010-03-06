@@ -1,6 +1,6 @@
 vb = \relative c'' {
     \voiceconsts
-    \clef "alto"
+    \clef "tenor"
 
     \repeat volta 2 {
     	    a32(\f g) fis8. a32( g) fis8. e8 a, a a
@@ -31,5 +31,42 @@ vb = \relative c'' {
 	    r
 	    r
 	    r8 cis\f d h a2
+    }
+
+    \repeat volta 2 {
+    	    e'32(\f d cis8.) e32( d cis8.) h8 e, e e
+    	    e'32( d cis8.) e32( d cis8.) h8 e, e e
+    	    e'32( d cis8.) e32( d cis8.) h4 r
+
+	    r1
+	    r
+	    r2 cis~\p
+
+	    cis1~
+	    cis2 cis8 fis16 gis a8 fis
+	    fis,1~
+	    fis~
+
+	    fis2 fis8 h16 cis d8 h
+	    r1
+	    r
+	    r2 r8 h16 cis d8 h
+
+	    r1
+	    r
+	    r2 r4 r8 a'\f
+	    a32( g fis8.) a32( g fis8.) e8 a, a a
+	    a'32( g fis8.) a32( g fis8.) fis32( e d8.) fis32( e d8.)
+	    cis4 r r2
+	    r1
+	    r
+
+	    r
+	    r
+	    r
+
+	    r2 d16\f e fis d cis d e cis
+	    d e fis d cis d e cis d e fis d cis d e cis
+	    d8 fis g e d2	    
     }
 }

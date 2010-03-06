@@ -1,7 +1,7 @@
 \version "2.12.2"
 \include "deutsch.ly"
 
-#(set-global-staff-size 16)
+#(set-global-staff-size 17)
 
 \header {
   title = "Konzert für Gitarre"
@@ -9,7 +9,7 @@
   composer = "Antonio Vivaldi (1675-1741)"
   arranger = "arr. O. Wasmuth"
   opus = "RV 93"
-  enteredby = "cellist (2010-02-21)"
+  enteredby = "cellist (2010-03-06)"
 }
 
 voiceconsts = {
