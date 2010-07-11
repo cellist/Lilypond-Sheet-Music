@@ -2,7 +2,7 @@ va = \relative c' {
    \voiceconsts
 
    f2.~
-   f4 d-1 b!-2
+   f4 d-1 as-2
    g4.-1 a!16-0 b c d-1 es-2 f
    g4-4 es-1 c-4
    es,4.-2\downbow f16-2\downbow g a b c-1 d-3
