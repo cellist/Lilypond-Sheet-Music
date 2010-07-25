@@ -1,0 +1,1 @@
+sed -e "s#bes#qq#g" -e "s# b# h#g" -e "s#qq#b#g" -e "s#ees#es#g" -e "s#aes#as#g" v1.ily > t
