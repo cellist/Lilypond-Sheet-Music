@@ -113,4 +113,46 @@ vb = \relative c'' {
      cis'(\f e, a e h' e,) cis'( a cis a d fis,)
      cis'( e, a e gis e) a( e cis e a8-.)
    }
+
+   \repeat volta 2 {
+     \time 4/4
+     cis8-.\p\downbow^"Var. IV: Allegro" \times 2/3 { d16( cis h) } cis8-.[ d-.] fis( e) d-.( cis-.)
+     h-. \times 2/3 { cis16( h ais) } h8-.[ cis-.] e( d) cis-.( h-.)
+     gis( a!) r ais-.\upbow r h-.\upbow r his-.\upbow\<
+     \acciaccatura d cis-. cis-. \acciaccatura e d-.[\! d-.] cis4(\> h!8)\! r
+
+     <a, e' a>4\f\downbow r <e' cis' a'>\downbow r
+     e r <e h' gis'>\downbow r
+     fis8\downbow fis gis gis a cis d gis,
+     a fis d e a,4 <cis' a'>
+   }
+
+   \repeat volta 2 { \mark \markup { \box E }
+     a,8(\p\< e' cis e)\! a,(\> fis' d fis)\!
+
+     a,(\< fis' d fis)\! a,(\> e' cis e)\!
+     <a, e' cis'>4\f r <h gis'> r
+     <cis a'> <d h'> <e gis> r
+     cis'8-.\p \times 2/3 { d16( cis h) } cis8-.[ d-.] fis( e) d-.( cis-.)
+     h-. \times 2/3 { cis16( h ais) } h8-.[ cis-.] e( d) cis-.( h-.)
+
+     gis( a) r h-. r \acciaccatura his cis-.\< r \acciaccatura e d-.\!
+     r \acciaccatura d cis-. r \acciaccatura cis h!-.\> h([ his\!] cis) r
+     a,16\f cis e a h, d gis h cis, e a cis d, fis h fis
+   }
+
+   \alternative {
+     { e a cis, e d h e d cis( e) cis e a,4 }
+     { e'16 a cis, e d h e gis, a8\p\< <cis e> <cis e > <cis e>\! }
+   }
+
+   a\> <d fis> <d fis> <d fis>\! a <cis e> <cis e> <cis e>
+   a <d fis> <d fis> <d fis> <cis e>4-. r
+
+   <d h'>-. r <e a>-. r
+   <d gis>-. r <cis a'>-.\f r
+   <d h'>-. r <e a>-. r
+   <d gis>-. r <cis a'>-. r
+   r e-.\f\upbow a8-. cis,16([\p a] e' d h gis
+   a8) r <e' h' e>4-.\f\downbow <a, e' a e'>-.\downbow r \bar "|."
 }

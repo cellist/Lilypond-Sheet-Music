@@ -112,4 +112,46 @@ va = \relative c'' {
      a,,-^\f cis''( d e) a,,-^ d,-^
      e-^ cis''( h a) a,-.[ a,-.]
    }
+
+   \repeat volta 2 {
+     \time 4/4
+     a(\p^"Var. IV: Allegro" e' h e) cis( e a, e')
+     gis,( e' a, e') h( e d e)
+     cis( e cis e) gis,(\< e' gis, e')
+     a,( e'\! h e) a,4(\> gis8)\! r
+
+     cis'16\f a e a cis a d h e cis e cis fis e d cis
+     h gis e gis h gis cis a d h d h e d cis h
+     a cis h a h d cis h cis e a e fis a h, d
+
+     cis e a, cis h d gis, h a( e) cis e a4
+   }
+
+   \repeat volta 2 { \mark \markup { \box E }
+     a16(\p\< h cis d e fis gis a)\! gis(\> fis eis fis eis fis eis fis)\!
+     a(\< gis a gis h a gis fis)\! fis(\> e! dis e dis e dis e)\!
+
+     e\f a cis h a gis fis e d gis h a gis fis e d
+     cis e a gis fis e d cis h\> a gis fis e d cis h\!
+     a8(\p e' h e) cis( e a, e')
+
+     gis,( e' a, e') h( e d e)
+     cis( e gis,\< e') a,( e' d fis)\!
+     e( a e gis)\> e4( a8)\! r
+     cis16\f a e' cis d h fis' d e cis a' e gis fis e d
+   }
+   \alternative {
+     { cis e a, cis h d gis, h a( e) cis e a4 }
+     { cis16 e a, cis h d gis, h a\p\< h cis d e fis gis a\! }
+   }
+   gis(\> fis eis fis)\! h( a) gis-. fis-. fis( e dis e) a,( cis) e-. a-.
+
+   gis( fis eis fis) h( a) gis-. fis-. e8.( e16) \appoggiatura { fis32[ e dis] } e4
+   r8. d!16\upbow \appoggiatura { e32[ d cis] } d4 r8. cis16\upbow \appoggiatura { d32[ cis his] } cis4
+   r8. h!16\upbow \appoggiatura { cis32[ h ais] } h4 r16 e(\upbow\f dis e fis e dis e)
+
+   r d!(\downbow cis d e d cis d) r cis(\upbow his cis d cis his cis)
+   r h!(\downbow ais h cis h ais h a8) cis16([ a] e' d cis gis
+   a8) r <d gis>4-.\f <cis a'>-. r
+   r <e, d' gis>-.\f\downbow <a, e' cis' a'>-.\downbow r \bar "|."
 }
