@@ -6,8 +6,8 @@
 \header {
   title = "Lautensuite in c-moll"
 %  subtitle = "Preludio"
-  composer = "Johann Sebastian Bach"
-  arranger = "(1685-1750)"
+  composer = "Johann Sebastian Bach (1685-1750)"
+  arranger = "arr.: P. Gardner"
   piece = "BWV 997"
   enteredby = "Olaf Wasmuth (2010-12-24)"
 }
@@ -24,6 +24,7 @@ voiceconsts = {
  \tempo "Preludio " 8=120
 }
 
+midilow = "bassoon"
 \include "v1.ily"
 
 \book {
@@ -31,6 +32,7 @@ voiceconsts = {
 
     <<
       \new Staff <<
+	\set Staff.midiInstrument = \midilow
 	\set Staff.instrumentName = #"Vc"
 %	\va
 	\transpose d c,, { \va }
