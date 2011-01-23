@@ -12,7 +12,7 @@ va = \relative c'' {
    r16 h32[ h h16 h] h h c gis
    h8 a r8. d32 e
 
-   f16[ f32 e d16 c] h c d e
+   f16[\mf f32 e d16 c] h c d e
    c h a e c e a c
    h h8 h16 \appoggiatura { a[ h] } a gis a c
    h8 r r r16 a32\p h

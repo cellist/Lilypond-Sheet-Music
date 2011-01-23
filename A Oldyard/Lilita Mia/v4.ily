@@ -28,7 +28,7 @@ vd = \relative c' {
    c-. a'16\mf h cis8 d \key a \major \bar "||"
 
    \mark \markup { \box B }
-   cis4 a~
+   cis4\segno a~
    a8 a16 h cis8 d
    h16 a gis4.~
    gis8 gis16 a h8 cis

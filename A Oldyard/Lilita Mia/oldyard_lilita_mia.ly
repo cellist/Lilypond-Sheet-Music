@@ -4,7 +4,7 @@
 #(set-global-staff-size 18)
 
 \header {
-  title = "Lilita Mia"
+  title = "Lilita Mia (Tango)"
   composer = "A. Oldyard"
   arranger = "arr.: Reinier van der Wal"
   enteredby = "cellist (2011-01-23)"
@@ -16,7 +16,7 @@ voiceconsts = {
  \clef "bass"
 % \numericTimeSignature
  \compressFullBarRests
- \tempo "Tango " 4=60
+ \tempo "Tempo di Tango " 4=60
 }
 
 dsaf = \markup { \bold { \italic "D.S. al Fine" } }

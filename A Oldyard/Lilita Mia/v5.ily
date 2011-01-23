@@ -28,7 +28,7 @@ ve = \relative c' {
    a,-. r r4 \key a \major \bar "||"
 
    \mark \markup { \box B }
-   a8. e'16 a8 e
+   a8.\mf\segno e'16 a8 e
    a,8. e'16 a8 e
    e,8. h'16 e8 h
    e,8. h'16 e8 h
