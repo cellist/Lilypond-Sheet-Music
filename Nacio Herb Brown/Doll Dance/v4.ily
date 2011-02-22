@@ -9,7 +9,7 @@ vd = \relative c'' {
    d4 d es2
 
    e?4 e f f
-   f f g-. r \bar "||"
+   fis? fis g-. r \bar "||"
    d,-.\segno r g-. r
    d-. r g-. r
    c-. r g-. r

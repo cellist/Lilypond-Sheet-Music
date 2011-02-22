@@ -56,7 +56,7 @@ vc = \relative c''' {
    \times 2/3 { h8 a h } d8.[ h16] a4-. r
    r8 r16 g' e8.[ d16] e8. g16 e8.[ d16]
    a'8. f16 d4 d-. r
-   r8 r16 a' e8.[ d16] fis?8. a16 fis8.[ e16]
+   r8 r16 a' fis?8.[ e16] fis8. a16 fis8.[ e16]
 
    \times 2/3 { h8 a h } d8.[ h16] a4-. r
    r8 r16 g' e8.[ d16] e8. g16 e8.[ d16]
