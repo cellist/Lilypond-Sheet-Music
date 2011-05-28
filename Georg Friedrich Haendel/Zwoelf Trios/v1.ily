@@ -297,4 +297,70 @@ va = \relative c' {
      d2.
    }
    \bar "|."
+
+   \repeat volta 2 {
+     \key d \minor \time 2/2
+     \tempo "10. Bourrée " 4=120
+     \partial 4 a'4\mf
+     b g a f
+     g8 f e g f4 a
+     b8 c d c b4 a
+     g2. a8 b
+
+     c4 a f g
+     e d8 c f4 b
+     g a b8 a g a
+     f4 e8 d c4 b
+
+     a f' g f8 e
+     f2.
+   }
+
+   \partial 4 a,8 g
+   f4 b8 a g4 c8 b
+   a4 d c d8 e
+   f4 e d8 e f4
+   e2. f8( e)
+   f4 g8 fis g4 b8( a)
+   b4 a8 g a4 g8 f
+
+   g f e g f4 g
+   e a, a' f8 e
+   d4 g8 f e4 a8 g
+   f e f g a4 b
+   a g8 f g f e f
+
+   d2 r4 a
+   b h c cis
+   d8 cis d e f g a b
+   g4 g8 f e4.\trill d8
+   d2. \bar "|."
+
+   \repeat volta 2 {
+     \key g \minor \time 3/4
+     \tempo "11. Menuett V - Grazioso " 4=120
+     d4\p es c
+     d2.
+     b4 c a
+     b8( a g a b c)
+     d4 es c
+     d2.
+
+     b4 c8( b a b)
+     g2.
+   }
+   \repeat volta 2 {
+     d'4\f g fis
+     g2 a4\trill
+     b a g
+     f8( e d e f g)
+
+     a4 g f
+     e8( d e f e f)
+     g4 e f
+     cis a d8 cis
+     d e f4 e8 d
+     d2.
+   }
+   \bar "|."
 }

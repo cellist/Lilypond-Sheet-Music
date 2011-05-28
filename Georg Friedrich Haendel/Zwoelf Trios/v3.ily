@@ -293,4 +293,70 @@ vc = \relative c {
      <d, a'> d,2
    }
    \bar "|."
+
+   \repeat volta 2 {
+     \key d \minor \time 2/2
+     \tempo "10. Bourrée " 4=120
+     \partial 4 d''4\mf
+     g, c f, b
+     g a d, d'
+     b g e f
+     c g' c b
+
+     a a, b g
+     c a d b
+     c f b, c
+     d f, e c'
+
+     f d b c
+     f, c' f
+   }
+   \partial 4 r
+   b, r c r
+   d b f' e
+
+   d c g' g,
+   c g' c b
+   a d, b d
+   g c, f b,
+
+   e a, d g,
+   a2 r4 d
+   g g, a' a,
+   b' a8 g f4 g
+   a d, g, a
+
+   d2. r4
+   g,2 a
+   b4 f'8 e d e f g
+   a4 d, a' a,
+   d,2. \bar "|."
+
+   \repeat volta 2 {
+     \key g \minor \time 3/4
+     \tempo "11. Menuett V - Grazioso " 4=120
+     g'4\p c, f
+     b, d b
+     es c d
+     g,2.
+     g'4 c, f
+     b, d b
+
+     es c d
+     g, b g
+   }
+   \repeat volta 2 {
+     g\f b d
+     g b, d
+     g b, c
+     f,2.
+
+     f'4 e d
+     g,2 f4
+     e cis' d
+     a f b
+     g a a
+     <d, a'>2.
+   }
+   \bar "|."
 }

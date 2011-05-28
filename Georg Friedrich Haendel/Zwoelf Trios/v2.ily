@@ -294,4 +294,70 @@ vb = \relative c {
      <fis, d'>2.
    }
    \bar "|."
+
+   \repeat volta 2 {
+     \clef "tenor" \key d \minor \time 2/2
+     \tempo "10. Bourrée " 4=120
+     \partial 4 f'4\mf
+     g e f d
+     e8 d cis e d4 f
+     g8 a b a g4 f
+     e2. f8 g
+
+     a4 f d b
+     g c a d
+     e f d e \clef "bass"
+     a,2 g
+
+     a4 b8 a d4 g,
+     a2.     
+   }
+   \partial 4 f8 e
+   d4 g8 f e4 a8 g
+   f4 b a g
+
+   a8 h c4 c h
+   c2. c4
+   c a d g8( fis)
+   g4 f?8 e f4 e8 d
+
+   e d cis e d4 e
+   cis2 r4 a
+   b h c cis
+   d8 cis d e f4 e8 d
+   cis4 d e8 d cis4
+
+   d c?8 b a g f e
+   d4 g8 f e4 a8 g
+   b4 a8 g f[ e] d'4
+   cis d d cis
+   <d, d'>2. \bar "|."
+
+   \repeat volta 2 {
+     \key g \minor \time 3/4
+     \tempo "11. Menuett V - Grazioso " 4=120
+     b'4\p c a
+     b2.
+     g4 a fis
+     d2.
+     b'4 c a
+     b2.
+
+     g4 a fis
+     g2.
+   }
+   \repeat volta 2 {
+     b4\f g a
+     b d2
+     d4 f e
+     a,2.
+
+     c2 d4
+     b2 a4
+     b g a
+     e f g
+     b d cis
+     <f, d'>2.
+   }
+   \bar "|."
 }
