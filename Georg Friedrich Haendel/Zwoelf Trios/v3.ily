@@ -179,4 +179,118 @@ vc = \relative c {
      { <a e'>2. }
    }
    \bar "|."
+
+   \repeat volta 2 {
+     \key g \major \time 4/4
+     \tempo "7. Gavotte - Allegretto " 4=120
+     \partial 4 r4
+     g' g, g' fis
+     e e, e' h
+     c h a g
+     d' a d, r
+     g' g, g' fis
+
+     e e, e' cis
+     d g a a,
+     d a d,
+   }
+   \repeat volta 2 {
+     \partial 4 d'
+     fis d e fis
+     g g, g' r
+
+     c? a h h,
+     e e, e' h
+     c h a g
+     a e' a g
+     fis e d cis
+
+     d a d, h'
+     c? c, d' d,
+     e' e, fis' fis,
+     g c d d,
+     g2.
+   }
+   \bar "|."
+
+   \repeat volta 2 {
+     \key b \major \time 3/8
+     \tempo "8. Air II - Allegretto " 4=120
+     b8\pp^\zmpz d f
+     b4 a8
+     b g es
+     f r r
+     f a c
+     b4 g8
+
+     g, h d
+     c4 e8
+     f4 e8
+     f e d
+     b c c,
+     f4.
+   }
+
+   \repeat volta 2 {
+     f8\pp^\zmpz a c
+     f4 e8
+     f a c
+     b r r
+     g, b? d
+
+     g4 g,8
+     c d d,
+     g r r
+     b'4.\p^\arco
+     c4( a8)
+     b4.~
+
+     b
+     g8(\f es? c)
+     es( c a)
+     es f f'
+   }
+   \alternative {
+     { b, d f }
+     { <b, d>4. }
+   }
+   \bar "|."
+
+   \repeat volta 2 {
+     \key d \major \time 3/4
+     \tempo "9. Menuett IV - Andantino " 4=80
+     d,4\mf d' cis
+     d d, a'
+     d h g
+     a e' a
+     <d,, a'>2 r4
+
+     <a' e'>2 r4
+     d,2\p r4
+     a'2 r4
+     a4\f cis8( d) e4
+     a2.
+   }
+
+   \repeat volta 2 {
+     a,2\p gis4
+     a a' e
+     a, fis d
+     e2 d'4
+     cis ais h
+
+     fis'( e) d
+     h fis' fis,
+     h8 h a? g fis e
+     d4\f fis a
+     d d, a'
+
+     fis2 e4
+     d d' a
+     d cis h
+     a fis e
+     d a' a'
+     <d, a'> d,2
+   }
+   \bar "|."
 }

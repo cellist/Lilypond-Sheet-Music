@@ -183,4 +183,118 @@ va = \relative c' {
      { a }
    }
    \bar "|."
+
+   \repeat volta 2 {
+     \key g \major \time 4/4
+     \tempo "7. Gavotte - Allegretto " 4=120
+     \partial 4 g8(\mf a
+     h4) a8( g d'4) e8( fis
+     g2.) g8( fis)
+     fis( e) e( d) d( c) c( h)
+     a2. g8( a
+     h4) a8( g d'4) e8( fis
+
+     g2.) a8( g)
+     fis4 e8( d) fis4 e8( d)
+     d2.
+   }
+   \repeat volta 2 {
+     \partial 4 fis8( g
+     a4) g8[ fis] g fis g a
+     h2. h,8 cis
+
+     e( dis e fis) g4 fis8( e)
+     e2. g8( fis)
+     fis( e) e( d) d( c) c( h)
+     c2. e8( d)
+     d( c) c( h) h( a) a( g)
+
+     fis2. g8( d)
+     e4 a8( e) fis4 h8( fis)
+     g4 c8( g) a4 d8( a)
+     h4 a8( g) h4 a8( g)
+     g2.
+   }
+   \bar "|."
+
+   \repeat volta 2 {
+     \key b \major \time 3/8
+     \tempo "8. Air II - Allegretto " 4=120
+     b'8\mf a16( g f es)
+     d4( es8)
+     f es16( d c b)
+     a4( b8)
+     c16( b c d es c
+     d4) d8(
+
+     g) d16( e f d
+     e4) g8(
+     a) g16( a b g
+     a8) c, f
+     g16( a) e8.(\trill f16)
+     f4.
+   }
+
+   \repeat volta 2 {
+     f8\p e16( d c b)
+     a4( b8)
+     c16( b c d es? c
+     d4.)
+     b'8 a16( g fis e)
+
+     d8( g) c,
+     b16( a) a8.[( g16])
+     g4.
+     g'16( f? es d c b
+     a4) d8(
+     f) d16( es f d
+
+     g4) a8
+     b16(\f a g f es d)
+     g( f es d c b)
+     c8 a8.(\trill b16)
+   }
+   \alternative {
+     { b4. }
+     { b }
+   }
+   \bar "|."
+
+   \repeat volta 2 {
+     \key d \major \time 3/4
+     \tempo "9. Menuett IV - Andantino " 4=80
+     fis'4(\mf e8 d) a'4
+     fis2( e4)
+     fis g8( fis e d)
+     e( d cis h) a4
+     fis-.\f a-. d-.
+
+     cis8( d) e4-. a-.
+     fis,-.\p a-. d-.
+     cis8( d) e4-. a-.
+     e\f a gis
+     a2.
+   }
+
+   \repeat volta 2 {
+     cis,4(\p h8 a) e'4
+     cis2( h4)
+     cis d8( cis h a)
+     h4( e,) e
+     e' fis8( e d cis)
+
+     cis4( fis,) fis
+     d'8( cis) cis4.( h8)
+     h2.
+     d4(\f a) g-.
+     fis2( e4)
+
+     d( a') g'-.
+     fis2( e4)
+     fis8( g a4) d,-.
+     cis8( h a4) g'-.
+     fis8( e) e4.( d8)
+     d2.
+   }
+   \bar "|."
 }

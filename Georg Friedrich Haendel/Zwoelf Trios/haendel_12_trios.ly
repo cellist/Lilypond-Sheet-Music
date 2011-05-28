@@ -19,7 +19,8 @@ voiceconsts = {
  \compressFullBarRests
 }
 
-accel = \markup \italic \bold "accel."
+arco = \markup \italic \bold "arco"
+zmpz = \markup \italic \bold "(2. x pizz)"
 
 %midilow = "harpsichord"
 midihi = "clarinet"
