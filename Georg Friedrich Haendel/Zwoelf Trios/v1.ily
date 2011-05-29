@@ -30,7 +30,7 @@ va = \relative c' {
      { d2. }
      { d }
    }
-   \bar "|."
+   % \bar "|."
 
    \repeat volta 2 {
      \key b \major
@@ -96,7 +96,7 @@ va = \relative c' {
      { b2 r4 }
      { b2. }
    }
-   \bar "|."
+   % \bar "|."
 
    \repeat volta 2 {
      \key d \major
@@ -128,7 +128,7 @@ va = \relative c' {
      a'~ a e8.[\trill d32 e fis8] e8.[\trill d32 e fis8]
      e8.[\trill d32 e fis8] e8. fis16 d8 g[ e8. d16] d4.
    }
-   \bar "|."
+   % \bar "|."
 
    \repeat volta 2 {
      \key c \major \time 3/4
@@ -153,7 +153,7 @@ va = \relative c' {
      d4) g, h
      c2
    }
-   \bar "|."
+   % \bar "|."
 
    \repeat volta 2 {
      \key c \major \time 3/4
@@ -182,7 +182,7 @@ va = \relative c' {
      { a2. }
      { a }
    }
-   \bar "|."
+   % \bar "|."
 
    \repeat volta 2 {
      \key g \major \time 4/4
@@ -215,11 +215,11 @@ va = \relative c' {
      h4 a8( g) h4 a8( g)
      g2.
    }
-   \bar "|."
+   % \bar "|."
 
    \repeat volta 2 {
      \key b \major \time 3/8
-     \tempo "8. Air II - Allegretto " 4=120
+     \tempo "8. Air II - Allegretto " 4=100
      b'8\mf a16( g f es)
      d4( es8)
      f es16( d c b)
@@ -258,7 +258,7 @@ va = \relative c' {
      { b4. }
      { b }
    }
-   \bar "|."
+   % \bar "|."
 
    \repeat volta 2 {
      \key d \major \time 3/4
@@ -296,11 +296,11 @@ va = \relative c' {
      fis8( e) e4.( d8)
      d2.
    }
-   \bar "|."
+   % \bar "|."
 
    \repeat volta 2 {
      \key d \minor \time 2/2
-     \tempo "10. Bourrée " 4=120
+     \tempo "10. Bourrée " 4=160
      \partial 4 a'4\mf
      b g a f
      g8 f e g f4 a
@@ -362,5 +362,37 @@ va = \relative c' {
      d e f4 e8 d
      d2.
    }
-   \bar "|."
+   % \bar "|."
+
+   \repeat volta 2 {
+     \clef "treble" \key d \major \time 4/4
+     \tempo "12. La Réjouissance - Allegro " 4=120
+     \partial 8 a8\f
+     d d d d d16[ e fis e] d8 d16 e
+     fis8 fis fis fis fis16[ g a g] fis8 fis16 g
+     a8 a a a a4. d8
+     a fis r d' a[ fis] r a
+
+     a h16 a g8[ fis] e4. a8
+     a h16 a g8[ fis] e8.[ fis16 e8. fis16]
+     e fis e fis e[ fis e fis] e4. e8
+     fis16 gis a h gis8.[ a16] a4.
+   }
+
+   \repeat volta 2 {
+     \partial 8 e8
+     e fis16 g? a8[ fis] e4~ e8 d16 fis
+     e4~ e8 d16 fis e4 r8 a
+     a h16 cis d8[ h] a4~ a8 g16 h
+
+     a4~ a8 g16 h a4. a8
+     h h~ h16[ a g h] a8 a~ a16[ g fis a]
+     g8 g~ g16[ fis e g] fis8 fis~ fis16[ e d fis]
+
+     e8 e~ e16[ fis g e] fis8 d d[ e16 fis]
+     g8 e e[ fis16 g] a8 fis fis[ g16 a]
+     h8.[ g16 a8. fis16] g8[ fis16 e] a8 g
+     fis8.[ e16 e8. d16] d4.
+   }
+   % \bar "|."
 }
