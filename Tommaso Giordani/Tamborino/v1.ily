@@ -31,7 +31,7 @@ va = \relative c' {
     <d h'>[\downbow\< <d h'>\upbow <d h'> <d h'>]\!
 
     <e c'>[ <e c'> <g d'> <g e'>]
-    \appoggiatura f' <g, e'>4\trill\> <e d'>8 r\fermata\!
+    \appoggiatura f' <g, e'>4\trill\> <g d'>8 r\fermata\!
     e16(\p c') e,( c') f,( c') f,( c')
     e,( c') e,( c') d,( h') d,( h')
     c8 a16( f) g8-. g,-.
