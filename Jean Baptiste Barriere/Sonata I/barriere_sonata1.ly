@@ -4,15 +4,15 @@
 #(set-global-staff-size 18)
 
 \header {
-  title = "Sonata Nr. 1"
-  subtitle = "aus: \"6 Sonaten für Cello und B.C. oder zwei Celli\""
+  title = "Sonata Nr. 1 in h-moll"
+  subtitle = "aus: \"6 Sonaten für Cello und B.C. oder zwei Celli\" (1733)"
   composer = "Jean-Baptiste Barrière"
   arranger = "(1707-1747)"
   enteredby = "cellist (2011-06-18)"
 }
 
 voiceconsts = {
- \key d \major
+ \key h \minor
  \time 4/4
  \clef "bass"
 % \clef "treble"
@@ -26,6 +26,7 @@ voiceconsts = {
 %minstr = "accordion"
 minstr = "bassoon"
 
+daca = \markup \bold "Da Capo."
 fin  = \markup \bold "Fin."
 plus = \markup \bold \italic "+"
 simi = \markup \italic "simile"
@@ -39,13 +40,13 @@ simi = \markup \italic "simile"
       \new Staff {
 	\set Staff.midiInstrument = \minstr
 	\set Staff.instrumentName = #"Cello"
-	\transpose d d { \va }
+	\transpose h h { \va }
       }
 
       \new Staff {
 	\set Staff.midiInstrument = \minstr
 	\set Staff.instrumentName = #"B.C."
-	\transpose d d { \vb }
+	\transpose h h { \vb }
       }
     >>
 

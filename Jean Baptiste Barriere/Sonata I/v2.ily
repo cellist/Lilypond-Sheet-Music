@@ -83,7 +83,7 @@ vb = \relative c {
   \partial 8 s8 \break
 
   \repeat volta 2 {
-    \tempo "3. Adagio" 4=60 \time 3/4
+    \tempo "3a. Adagio" 4=60 \time 3/4
     R2.*2
     d'4 h4.^\plus ais8
     h-. fis-. d-. h-. e fis
@@ -99,5 +99,50 @@ vb = \relative c {
     g2 d4
     e fis fis,
     h2.^\fin
+  }
+
+  \break
+
+  \repeat volta 2 {
+    \tempo "3b. Andante" 4=70
+    h16( d) fis( d) h( d) fis( d) h( d) fis( h,)
+    ais( cis) fis( cis) ais( cis) fis( cis) ais( cis) fis( ais,)
+    h( d) fis( d) h( d) fis( d) h( d) fis( h,)
+
+    fis( ais) cis( ais) fis( ais) cis( ais) fis( ais) cis( fis)
+    d( fis) a?( fis) d( fis) a( fis) d( fis) a( fis)
+    d( fis) a( fis) d( fis) a( fis) d( fis) a( fis)
+
+    d( fis) a( fis) d( fis) a( fis) d( fis) a( fis)
+    g,( g') h( g) g,( g') h( g) g,( g') h( g)
+    e( gis) h( gis) e( gis) h( gis) e( gis) h( gis)
+
+    e( gis) h( gis) e( gis) h( gis) e( gis) h( gis)
+    e( gis) h( gis) e( gis) h( gis) e( gis) h( gis)
+    a,( cis) e( cis) a( cis) e( cis) a( cis) e( cis)
+
+    a'( cis) e( cis) a( cis) e( cis) a( cis) e( cis)
+    a( cis) e( cis) a( cis) e( cis) a( cis) e( cis)
+    a( cis) e( cis) a( cis) e( cis) a( cis) e( cis)
+    d2 d,4
+
+    a'2.
+    d,
+    a'
+
+    d,
+    a'4 d,2
+    g4 e2
+
+    fis4 d2
+    e4 a,2
+    d2 r4
+
+    g,2 r4
+    a2.
+    h8 g a2
+
+    d4. e8 d^\plus cis^\daca
+    s2.
   }
 }

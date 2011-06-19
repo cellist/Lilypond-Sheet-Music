@@ -106,7 +106,7 @@ va = \relative c' {
   \partial 8 s8 \break
 
   \repeat volta 2 {
-    \tempo "3. Adagio" 4=60 \time 3/4
+    \tempo "3a. Adagio" 4=60 \time 3/4
     d'4 h4.^\plus ais8
     h-. fis-. d-. h-. d-. fis-.
     fis'4 d4.^\plus cis8
@@ -123,5 +123,61 @@ va = \relative c' {
     \appoggiatura d16 cis4 \appoggiatura h16 ais4 h~
     h8 cis cis4.^\plus h8
     h2.^\fin
+  }
+
+  \break
+
+  \repeat volta 2 {
+    \tempo "3b. Andante" 4=70
+    h8 fis4 d8 h d'
+    cis fis,4 cis8 ais e''
+    d fis,4 d8 h d'
+
+    cis4 fis,, \times 4/7 { d32( e fis g a h cis d e fis g a h cis) }
+    d8 a4 fis d8~
+    d c'4 fis, d,8~
+
+    d[ c''] <d,, a' fis' c'> <d a' fis' c'> <d a' fis' c'> d''16( c)
+    h8 g d h g16( \times 6/7 { e64 fis g a h cis d e fis g a h cis d) }
+    e8 h4 gis e8~
+
+    e d'4 gis, e,8~
+    e[ d''] <e,, h' gis' d'> <e h' gis' d'> <e h' gis' d'> e''16 d
+    cis8 a e cis a16(~ \times 6/7 { a64 h cis d e fis g a h cis d e fis g) }
+
+    \clef "tenor" a8 e4 cis a8~
+    a g'4 cis, a,8~
+    a[ g''] <a,, e' cis' g'>  <a e' cis' g'> <a e' cis' g'> a''16( g)
+    << { s4. fis8 fis fis } \\ { fis d4 d8 d d } >>
+
+    << { e a16( e) a( e) a( e) a( e) a( e) }
+    \\ { cis8 cis16( a) cis( a) cis( a) cis( a) cis( a) } >>
+    << { fis' fis fis fis fis fis fis fis fis fis fis fis }
+    \\ { d( a) d( a) d( a) d( a) d( a) d( a) } >>
+    << { e'8 a16( e) a( e) a( e) a( e) a( e) }
+    \\ { cis8 cis16( a) cis( a) cis( a) cis( a) cis( a) } >>
+
+    << { fis' fis fis fis fis fis fis fis fis fis fis fis }
+    \\ { d( a) d( a) d( a) d( a) d( a) d( a) } >>
+    << { e'8 fis16( e) fis( e) fis( e) fis( e) fis( e) }
+    \\ { cis8 d16( cis) d( cis) d( cis) d( cis) d( cis) } >>
+    << { d8 e16( d) e( d) e( d) e( d) e( d) }
+    \\ { h8 cis16( h) cis( h) cis( h) cis( h) cis( h) } >>
+
+    << { cis8 d16( cis) d( cis) d( cis) d( cis) d( cis) }
+    \\ { a8 h16( a) h( a) h( a) h( a) h( a) } >>
+    << { h8 cis16( h) cis( h) cis( h) cis( h) cis( h) }
+    \\ { g8 a16( g) a( g) a( g) a( g) a( g) } >>
+    << { a8 h16( a) h( a) h( a) h( a) h( a) }
+    \\ { fis8 g16( fis) g( fis) g( fis) g( fis) g( fis) } >>
+
+    << { h8 cis16( h) cis( h) cis( h) cis( h) cis( h) }
+    \\ { g8 g16 g g g g g g g g g } >>
+    << { <g cis>4. \times 6/5 { a64[( g fis e d cis h]) a( h cis d e fis g a h cis d e fis) } }
+    \\ { a,,4. s } >>
+    << { s4 fis''( e^\plus) } \\ { g8( fis16^\plus e) a,2 } >> \clef "bass"
+
+    d8~ \times 6/7 { d32 cis( h a g fis e d cis h a g fis e) } d4^\daca
+    s2.
   }
 }
