@@ -17,7 +17,7 @@ vb = \relative c {
   cis\fermata g fis2
   h1 \bar "||"
 
-  \break \tempo "2. Allegro" 4=100
+  \break \tempo "2. Allegro " 4=100
   \repeat volta 2 {
     \partial 8 h'8
     h8 fis d h h'4 h,
@@ -83,7 +83,7 @@ vb = \relative c {
   \partial 8 s8 \break
 
   \repeat volta 2 {
-    \tempo "3a. Adagio" 4=60 \time 3/4
+    \tempo "3a. Adagio " 4=60 \time 3/4
     R2.*2
     d'4 h4.^\plus ais8
     h-. fis-. d-. h-. e fis
@@ -104,7 +104,7 @@ vb = \relative c {
   \break
 
   \repeat volta 2 {
-    \tempo "3b. Andante" 4=70
+    \tempo "3b. Andante " 4=70
     h16( d) fis( d) h( d) fis( d) h( d) fis( h,)
     ais( cis) fis( cis) ais( cis) fis( cis) ais( cis) fis( ais,)
     h( d) fis( d) h( d) fis( d) h( d) fis( h,)
@@ -144,5 +144,137 @@ vb = \relative c {
 
     d4. e8 d^\plus cis^\daca
     s2.
+  }
+
+  \break \tempo "4. Allegro " 4=120 \time 2/4
+  \repeat volta 2 {
+    \partial 8 r8
+    h4 r8 h
+    fis4 r8 fis
+    h4 r
+    cis r
+    d e
+    fis8 fis16 g fis e d cis
+    h4 r8 h
+    fis4 r8 fis
+    h4 r
+    cis r
+
+    d r
+    e fis
+    h,4.^\fin
+  }
+
+  \repeat volta 2 {
+    \partial 8 r8
+    r4 r8 fis'
+    h16( ais h cis) h8 cis
+    d cis16 h e,8 g
+    fis8 fis,16 gis ais8 fis
+    h h h h
+
+    h( h) h( h)
+    e( e) e( e)
+    e( e) e( e)
+    h( h) h( h)
+    h( h) h( h)
+    e( e) e( e)
+
+    e( e) e( e)
+    a,( a) a( a)
+    a( a) a( a)
+    d( d) d( d)
+    d( d) d( d)
+    a( a) a( a)
+    a( a) a( a)
+
+    d( d) d( d)
+    d( d) d( d)
+    g,( g) g( g)
+    g( g) g( g)
+    cis( cis) cis( cis)
+    cis( cis) cis( cis)
+    fis,( fis) fis( fis)
+
+    fis( fis) fis( fis)
+    h( h) h( h)
+    h( h) h( h)
+    fis( fis) fis( fis)
+    fis( fis) fis( fis)
+    h( h) h( h)
+    h( h) h( h)
+
+    a( a) a( a)
+    a( a) a( a)
+    g( g) g( g)
+    g( g) g( g)
+    fis fis'16 e fis8 fis,
+  }
+  \repeat volta 2 {
+    d'2~
+    d~
+    d16 d cis h a g fis e
+    d8(\p d) d( d)
+    d( d) d( d)
+    g( g) g( g)
+    g( g) g( g)
+    d( d) d( d)
+    d( d) d( d)
+    g( g) g( g)
+    g( g) g( g)
+    e( e) e( e)
+    e( e) e( e)
+    a( a) a( a)
+    a( a) a( a)
+
+    e( e) e( e)
+    e( e) e( e)
+    a( a) a( a)
+    a( a) a( a)
+    d( d) d( d)
+    c( c) c( c)
+    h( h) h( h)
+    g( g) g( g)
+    d( d) d( d)
+    d( d) d( d)
+    a'( a) a( a)
+    a( a) a( a)
+    d,( d) d( d)
+    fis( fis) fis( fis)
+
+    g( g) g( g)
+    g( g) g( g)
+    d( d) d( d)
+    d( d) d( d)
+    a'( a) a( a)
+    a( a) a( a)
+    d,( d) d( d)
+    d( d) d( d)
+    a'( a) a( a)
+    a( a) a( a)
+    e( e) e( e)
+    e( e) e( e)
+    a2~^\taso
+    a~
+    a~
+
+    a~
+    a
+    d,~
+    d~
+    d~
+    d~
+    d~
+    d~
+    d~
+
+    d~
+    d~
+    d~
+    d~
+    d~
+    d~
+    d~
+    d4. r8
   }
 }

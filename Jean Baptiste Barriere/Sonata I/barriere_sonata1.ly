@@ -30,6 +30,7 @@ daca = \markup \bold "Da Capo."
 fin  = \markup \bold "Fin."
 plus = \markup \bold \italic "+"
 simi = \markup \italic "simile"
+taso = \markup \italic "Tasto Solo"
 
 \include "v1.ily"
 \include "v2.ily"
@@ -59,4 +60,33 @@ simi = \markup \italic "simile"
       }
     }
   }
+%{
+  \pageBreak
+
+  \score {
+    \new StaffGroup <<
+      \new Staff {
+	\set Staff.midiInstrument = \minstr
+	\set Staff.instrumentName = #"Cello"
+	\transpose h h { \va }
+      }
+    >>
+
+    \layout {}
+  }
+
+  \pageBreak
+
+  \score {
+    \new StaffGroup <<
+      \new Staff {
+	\set Staff.midiInstrument = \minstr
+	\set Staff.instrumentName = #"B.C."
+	\transpose h h { \vb }
+      }
+    >>
+
+    \layout {}
+  }
+%}
 }

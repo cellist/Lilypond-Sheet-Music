@@ -31,7 +31,7 @@ va = \relative c' {
   << { ais\fermata h2~ h8^\plus ais } \\ { g4 d8( e) fis2 } >>
   < h, fis' h>1 \bar "|."
 
-  \break \tempo "2. Allegro" 4=100
+  \break \tempo "2. Allegro " 4=100
   \repeat volta 2 {
     \partial 8 h'8
     h4. d16 cis h8 fis d h
@@ -106,7 +106,7 @@ va = \relative c' {
   \partial 8 s8 \break
 
   \repeat volta 2 {
-    \tempo "3a. Adagio" 4=60 \time 3/4
+    \tempo "3a. Adagio " 4=60 \time 3/4
     d'4 h4.^\plus ais8
     h-. fis-. d-. h-. d-. fis-.
     fis'4 d4.^\plus cis8
@@ -128,7 +128,7 @@ va = \relative c' {
   \break
 
   \repeat volta 2 {
-    \tempo "3b. Andante" 4=70
+    \tempo "3b. Andante " 4=70
     h8 fis4 d8 h d'
     cis fis,4 cis8 ais e''
     d fis,4 d8 h d'
@@ -179,5 +179,139 @@ va = \relative c' {
 
     d8~ \times 6/7 { d32 cis( h a g fis e d cis h a g fis e) } d4^\daca
     s2.
+  }
+
+  \break \tempo "4. Allegro " 4=120 \time 2/4
+  \repeat volta 2 {
+    \partial 8 fis''8
+    d h4 d8
+    cis fis,4 e8^\plus
+    d16( fis) h8~ h16-- d( cis h)
+    e,( g) ais8~ ais16-- cis( h ais)
+    d,( fis) h8~ h16-- d( cis h)
+    << { h4( ais8) fis' } \\ fis,2 >>
+    d'8 h4 d8
+    cis fis,4 e8^\plus
+    d16( fis) h8~ h16-- d( cis h)
+    e,( ais) cis8~ cis16-- e( d cis)
+
+    fis,( h) d8~ d16-- fis( e d)
+    cis( d e d) cis8.^\plus h16
+    << <fis h>4.^\fin \\ h,4. >>
+  }
+
+  \repeat volta 2 {
+    \partial 8 fis'8
+    h16( ais h cis) h8 cis
+    d16( cis d e) d8 e \clef "tenor"
+    fis e16( d) cis8 h
+    ais4^\plus r8 fis'
+    dis16 fis h, fis' dis fis h, fis'
+
+    dis fis h, fis' dis fis h, fis'
+    e g h, g' e g h, g'
+    e g h, g' e g h, g'
+    dis fis h, fis' dis fis h, fis'
+    dis fis h, fis' dis fis h, fis'
+    e g h, g' e g h, g'
+
+    e g h, g' e g h, g'
+    cis, e a, e' cis e a, e'
+    cis e a, e' cis e a, e'
+    d? fis a, fis' d fis a, fis'
+    d fis a, fis' d fis a, fis'
+    cis e a, e' cis e a, e'
+    cis e a, e' cis e a, e'
+
+    d? fis a, fis' d fis a, fis'
+    d fis a, fis' d fis a, fis'
+    h, d g, d' h d g, d'
+    h d g, d' h d g, d'
+    cis e g, e' cis e g, e'
+    cis e g, e' cis e g, e'
+    ais, cis fis, cis' ais cis fis, cis'
+
+    ais cis fis, cis' ais cis fis, cis'
+    h d fis, d' h d fis, d'
+    h d fis, d' h d fis, d'
+    ais cis fis, cis' ais cis fis, cis'
+    ais cis fis, cis' ais cis fis, cis'
+    h d fis, d' h d fis, d'
+    h d fis, d' h d fis, d'
+
+    a cis fis, cis' a cis fis, cis'
+    a cis fis, cis' a cis fis, cis'
+    g h e, h' g h e, h'
+    g h e, h' g h e, h'
+    << { ais4. s8 } \\ { fis4. fis'8 } >>
+  }
+  \repeat volta 2 {
+    r16 d, e fis g a h cis
+    d a h cis d e fis g
+
+    a4. a8
+    << <d, a'>2\p \\ fis, >>
+    << <d' a'> \\ fis, >>
+    << <d' h'> \\ g, >>
+    << <d' h'> \\ g, >>
+    << <d' a'> \\ fis, >>
+    << <d' a'> \\ fis, >>
+    << <d' h'> \\ g, >>
+    << <d' h'> \\ g, >>
+    << <e' h'> \\ gis, >>
+    << <e' h'> \\ gis, >>
+    << <e' cis'> \\ a, >>
+    << <e' cis'> \\ a, >>
+
+    << <e' h'> \\ gis, >>
+    << <e' h'> \\ gis, >>
+    << <e' cis'> \\ a, >>
+    << <e' cis'> \\ a, >>
+    << <d a'> \\ fis, >>
+    << <d' a'> \\ fis, >>
+    << <d' h'> \\ g,? >>
+    << <d' h'> \\ g, >>
+    << <d' a'> \\ fis, >>
+    << <d' a'> \\ fis, >>
+    << <cis' g'> \\ e, >>
+    << <cis' g'> \\ e, >>
+    << <a fis'> \\ d, >>
+    << <a' fis'> \\ d, >>
+
+    << <d' h'> \\ g, >>
+    << <d' h'> \\ g, >>
+    << <d' a'> \\ fis, >>
+    << <d' a'> \\ fis, >>
+    << <cis' g'> \\ e, >>
+    << <cis' g'> \\ e, >>
+    << <a fis'> \\ d, >>
+    << <a' fis'> \\ d, >> \clef "bass"
+    << <a' e'> \\ cis, >>
+    << <a' e'> \\ cis, >>
+    << <gis' d'> \\ h, >>
+    << <gis' d'> \\ h, >>
+    << { <e cis'>4 <fis d'> } \\ { a, a } >>
+    << { <g' e'> <fis d'> } \\ { a, a } >>
+    << { <e' cis'> <fis d'> } \\ { a, a } >>
+
+    << { <g' e'> <fis d'> } \\ { a, a } >>
+    << <e' cis'>2 \\ a, >> \clef "tenor"
+
+    d'16( d,) fis'( d,) d'( d,) fis'( d,)
+    d'( d,) fis'( d,) d'( d,) fis'( d,)
+    e'( d,) g'( d,) e'( d,) g'( d,)
+    e'( d,) g'( d,) e'( d,) g'( d,)
+    fis'( d,) a''( d,,) fis'( d,) a''( d,,)
+    fis'( d,) a''( d,,) fis'( d,) a''( d,,)
+    g'( d,) h''( d,,) g'( d,) h''( d,,)
+
+    g'( d,) h''( d,,) g'( d,) h''( d,,)
+    a''( d,,) cis''( d,,) a''( d,,) cis''( d,,)
+    a''( d,,) cis''( d,,) a''( d,,) cis''( d,,)
+    h''( d,,) d''( d,,) h''( d,,) d''( d,,)
+    h''( d,,) d''( d,,) h''( d,,) d''( d,,)
+    cis''( d,,) e''( d,,) cis''( d,,) e''( d,,)
+    cis''( d,,) e''( d,,) cis''( d,,) e''( d,,)
+    <d d''>4. r8
   }
 }
