@@ -1,7 +1,7 @@
 \version "2.12.3"
 \include "deutsch.ly"
 
-#(set-global-staff-size 21)
+#(set-global-staff-size 24)
 
 \header {
   title = "Cello Suite I"
@@ -17,7 +17,6 @@ voiceconsts = {
  \clef "bass"
 % \numericTimeSignature
  \compressFullBarRests
- \tempo "Prélude " 4=100
 }
 
 %minstr = "harpsichord"
@@ -30,22 +29,27 @@ bp  = \markup { \bold \italic "[" \dynamic p "]" }
 
 \include "v1.ily"
 
-\book {
-  \score {
-    \new StaffGroup <<
+music = \new StaffGroup <<
       \new Staff {
 	\set Staff.midiInstrument = \minstr
 	\set Staff.instrumentName = #"Vc"
 	\transpose g g { \va }
       }
-    >>
+>>
 
+\book {
+  \score {
+    \music
     \layout {}
+  }
+
+  \score {
+    \unfoldRepeats \music
 
     \midi {
       \context {
-	\Score
-	tempoWholesPerMinute = #(ly:make-moment 100 4)
+        \Score
+        tempoWholesPerMinute = #(ly:make-moment 100 4)
       }
     }
   }
