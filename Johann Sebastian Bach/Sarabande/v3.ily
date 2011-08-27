@@ -1,5 +1,6 @@
 vc = \relative c' {
   \voiceconsts
+  \clef "bass"
 
   \repeat volta 2 {
     a2_\modo a2. r4
