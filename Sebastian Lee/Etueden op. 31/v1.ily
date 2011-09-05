@@ -288,4 +288,86 @@ va = \relative c {
    c,(_\brp e g) c h c
    c,( f a) c h c
    c,2.\fermata \bar "|."
+
+
+   \pageBreak \key es \major \time 3/4 \tempo "Nr. 7: Moderato " 4=100
+   r8_\espr b'(\upbow a b c d-1)
+   es4.( a,8-3 b fis-3
+   g) d( es b g es)
+   es2( d4)
+   r8 b''( a b d-1 es)
+   f4.( a,8-3 b e,-1
+   f?) cis(-1 d b as? f)
+   f2( es?4)
+
+   r8 g''(-4 f es d-4 c?)
+   h2( c4)
+   r8 f(-4 es d c-2 b?)
+   a2( b4)
+   r8 as?-1( es'-3_\sii c-1 as-4 g-3)
+   fis2(-2 g4)
+   b8(-2 a g4-4 fis)
+   g2.
+   r8 b( a b c d-1)
+   es4.( a,8-3 b fis-3
+
+   g) d( es b g es)
+   es2( d4)
+   r8 b''( a b d-1 es)
+   f4.( a,8-3 b e,-1
+   f?) cis(-1 d b as? f)
+   f2( es?4)
+   r8 g''(-4 f es d-4 c?)
+   h2( c4)
+   r8 f(-4 es d c-2 b?)
+   a2( b4)
+
+   r8 es(-4 d c b-4 as?)
+   as2( g4)
+   c8(-4 b as g-4 f es)
+   d( c b as g f
+   es) es( d es f g
+   as) as( g as ces-4 as
+   g) es( d es f g
+   as) as( g as ces as
+   g) es'( d es f g-1
+
+   as) as( g as-1 b c
+   f,-2) f( e f g-1 as
+   b) b(-1 a b c d
+   g,) g( fis g as?-1 b
+   c) c(-2 h c d-1 es
+   as,) as( g as-1 b? c
+   d-\thumb-3) d(-4 cis d es-1 f)
+   g( fis g f es d-4
+   c?) c( h c d-1 es)
+
+   f(-4 e f es d c-2
+   b?) b( a b c d-1)
+   es( d es d c-2 b
+   as?-4) as( g as b-1 c)
+   d( cis d c b as-4
+   g) g( fis g as-1 b)
+   c( h c b a g-4
+   f e f es d c)
+   b( d-0 f-1 as-4 ces,-2 as')
+
+   b,(-1 d f as ces, as')
+   b,( as' ces, as' b, as')
+   ces,( as' b, as' ces, as')
+   b,2( d8 f)
+   as(-4 g f es-1 d c?)
+   b( d-1 f es d c-4)
+   b( as g as f b)
+   es,( b' a b c-1 d
+   es) b'(-1 a b c d-1)
+
+   es4.( a,8-3 b fis-3
+   g) d( es a, b g)
+   es( g b es g f?
+   es) c( b a b g)
+   es( g b es g f
+   es) c( b a b g)
+   es2.~
+   es4 r r \bar "|."
 }

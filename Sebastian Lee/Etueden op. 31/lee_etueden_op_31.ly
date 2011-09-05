@@ -1,7 +1,7 @@
 \version "2.12.3"
 \include "deutsch.ly"
 
-#(set-global-staff-size 19)
+#(set-global-staff-size 18)
 
 \header {
   title = "Etüden für das Violoncello"
@@ -27,6 +27,7 @@ minstr = "bassoon"
 
 brmf = \markup \bold \italic { "(" \dynamic mf ")" }
 brp  = \markup \bold \italic { "(" \dynamic p ")" }
+espr = \markup \bold \italic "espressivo"
 si   = \markup \bold \italic "I"
 sii  = \markup \bold \italic "II"
 
