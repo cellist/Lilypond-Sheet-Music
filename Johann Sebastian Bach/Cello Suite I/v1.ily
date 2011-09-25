@@ -68,50 +68,50 @@ va = \relative c {
   \repeat volta 2 {
     \tempo "2. Allemande " 4=100
     \partial 16 h'16
-    <g, d' h'~>4 h'16 a( g fis) g( d e fis) g( a h c)
+    <g, d' h'~>4_\vor h'16 a( g fis) g( d e fis) g( a h c)
     d( h g fis) g( e d c) h( c d e) fis( g a h)
 
-    c( a g fis)\( g\)( e fis g) a, d( fis g) a( h c) a
+    c( a g fis)\( g\)( e fis g) a,( d fis g) a( h c a)
     h( g) g( d) d( h) h( g) g8. h'16 c h a g
-    a( h c) a g( fis g) a dis,8.\trill c'16 h a g fis
+    a( h c a) g( fis g a) dis,8.\trill\downbow c'16\upbow h a g fis
 
-    g( e) e( h) h( g) g( e) e8. h'16 e g fis a
-    g\(( fis e) fis\) g cis g\(( fis) g\) cis e,( fis g) e a, g'
-    fis8\trill d16( e) fis d g e fis d( fis g) a( h c?) a
+    g( e) e( h) h( g) g( e) e8.\downbow h'16 e g fis a
+    g(\downbow fis e) fis\upbow g cis g( fis g) cis e, fis g e a, g'
+    fis8\trill\downbow d16( e) fis d g e fis d fis g a h c? a
 
-    h( d, g,) d' h' g a fis g e( g a) h( cis d) h
-    cis( e, g,) e' cis' a h d cis a( d h) cis a e'-4 g,
-    fis8.\trill d'16 a( g) fis( e) d a'( g e) fis d a' c,?
+    h(\downbow d, g,) d' h' g a fis g e( g a) h cis d h
+    cis(\downbow e, g,) e' cis' a h d cis a( d h) cis a e'-4 g,
+    fis8.\trill\downbow d'16 a( g fis e) d( a' g e) fis d a'-4 c,?
 
-    h8.\trill g'16 d( c) h( a) g d'( c a) h g d'-4 fis,-3
-    e( g a h cis d e fis g a cis-1 d e a,) g'8-4
-    d,16 g'( fis e) fis( d) a d d,( fis a) c? h8.(\trill a16)
+    h8.\trill\downbow g'16 d( c h a) g( d' c a) h g d'-4 fis,-3
+    e(--\downbow g a h cis d e fis) g(\upbow a cis-1 d) e--\downbow a,\upbow g'8-4\downbow
+    d,16 g'( fis e) fis( d a d) d,( fis a c?) h8.(\trill\upbow a16)
 
-    <g, d' h'>8. a'16 g( fis e) d'-2 cis e a,( g fis) d-0 a cis!
+    <g, d' h'>8.\downbow a'16 g( fis e) d'-2 cis e a,( g fis) d-0 a cis!
     d,8. a'16 d fis a cis d a fis d d,8.
   }
   \repeat volta 2 {
     \partial 16 a''16
-    <d, a'>4~ <d a'>16 fis(-1 g a) d,( e fis g) a( fis d c?)
+    <d, a'>4~_\vor <d a'>16 fis(-1 g a) d,( e fis g) a( fis d c?)
 
     h( d g fis) g( a h c) d( h a g) f( e f) d'\upbow
     e,8\trill \appoggiatura d16 c8 c'16 a,( h c) d, c''( h c) d h c a
-    gis8\trill e h'16 d,( c h) c e( fis gis?) a c( h a)
+    gis8\trill \appoggiatura fis16 e8 h'16 d,( c h) c( e fis gis?) a( c h a)
 
-    d8 h,16( c) d( e f) a, gis8.\trill e'16 h' d( c h)
-    <a, e' c'>8.( h'16) a( g? f e) f( d) b'( a) b( c d) a
-    gis( a h?) e, f d( c h) c( e a h) <e, h'>8.(\trill a16)
+    d8 h,16( c) d( e f a,) gis8.(\trill e'16) h'( d) c( h)
+    <a, e' c'>8.( h'16) a( g? f e) f( d b' a) b( c d a)
+    gis( a h?) e, f d c h c( e a h) <e, h'>8.(\<\trill\upbow a16)
 
-    <a, e' a>8. h'16 c( h c) g? fis?( g a) e d c h a
-    g d'( fis c') h( a g a) h( c d-1 e) d( e f) d
-    e8 g, c,16 d'( c h) a\(( h c)-1 e\)-- d8.( c16)
+    <a, e' a>8.\!\>\downbow h'16\! c h c g? fis?( g a) e d c h a
+    g( d' fis) c' h a g a h c d-1 e d e f d
+    e8 g, c,16 d'( c h) a( h c-1 e)-- d8.( c16)
 
-    d8 a h,16 c'\(( h a) g( fis e)\) g h d( c h)
-    c8 g a,16 e'( fis g) fis\( a( h c)\) d, c h a
-    g d'( fis a) c a fis d <g, d' h'>8. d'16 e g a cis
+    d8 a h,16\downbow c'(\upbow h a) g( fis e g) h( d c h)
+    c8 g a,16 e'( fis g) fis( a h c) d,( c h a)
+    g( d' fis a) c( a fis d) <g, d' h'>8.\downbow d'16 e( g a cis)
 
-    d a( fis e) d f g h c g( e d) c( e a c)
-    fis,?( a c-1 e) d8. c,16 h g' a,( g) d( a') g' fis
-    g g, h d g h d fis g d h g g,8.
+    d( a fis e) d( f g h) c( g e d) c( e a c)
+    fis,?( a c-1 e) d8.( c,16) h g' a, g d( a') g'( fis)
+    g g, h d g h d fis g( d) h( g) g,8.-0
   } \bar "|."
 }

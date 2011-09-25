@@ -1,7 +1,7 @@
 \version "2.12.3"
 \include "deutsch.ly"
 
-#(set-global-staff-size 24)
+#(set-global-staff-size 23)
 
 \header {
   title = "Cello Suite I"
@@ -26,6 +26,7 @@ minstr = "bassoon"
 
 bmf = \markup { \bold \italic "[" \dynamic mf "]" }
 bp  = \markup { \bold \italic "[" \dynamic p "]" }
+vor = \markup \italic "voran!"
 
 \include "v1.ily"
 
