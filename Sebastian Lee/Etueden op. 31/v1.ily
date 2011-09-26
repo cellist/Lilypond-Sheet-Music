@@ -69,9 +69,80 @@ va = \relative c {
    c4.(-2 h8 d c g-4 e-1)
    c1~
    c4 r r2 \bar "|."
+   \pageBreak \key g \major \tempo "Nr. 2: Allegro " 4=140
+   g'8(\downbow\mf a h c d e fis g)
+   g2( fis)
+   d8( e fis g a h c d)
+   c2( h)
+   h8( d g-4 fis e d-4 c h)
+   a( c fis-3 e d-4 c h a)
+
+   g( h e-4 d cis a fis'-3 e)
+   d(-4 cis c a fis d c a)
+   g( a h c d e fis g)
+   g2( fis)
+   d8( e fis g a h c d)
+   c2( h)
+
+   g8( a h c d e-1 fis g)
+   e(-4 d-2 c-1 h-1 a g fis e)
+   d( e fis g a-1 h c a)
+   h( g d h g4) r
+   c8( d e f g a-0 h c)
+
+   c2( h)
+   d,8( e f g a h cis d)
+   d2( cis)
+   a8( h cis d e-1 f g e)
+   f4(-2 a8-0 g-4 f e d-4 c?)
+   g( a h c d-1 e f d)
+
+   e4-1( g8 f e d-4 c h)
+   a(-0 c-4 f-2 c a-1 c f c)
+   gis(-1 h-4 f'-3 h, gis h e-2 h)
+   g?(-1 b-4 e-3 b g b e b)
+   fis?(-1 a-4 e'-4 a, fis a d-2 a)
+
+   f(-1 as-4 d-3 as f as d as)
+   e(-1 g d' g, e g c g)
+   es(-1 g c g es g c g)
+   es(-1 g cis g es g cis g)
+   d(\< e? fis? g a h? cis d)\!
+
+   cis(\> e-1 g e cis-3 a g e)\!
+   d(\< e fis g a h cis d)\!
+   cis(\> e-1 g e cis-3 a g e)\!
+   d( fis-1 a-4 fis d fis a fis)
+   c(-2 d a'-4 d, c d a' d,)
+
+   h(-1 d-0 g-2 d h d g d)
+   a(-1 d fis d a d fis d)
+   g,( a h c d e fis g)
+   g2( fis)
+   d8( e fis g a h c d)
+   c2( h)
+
+   a8( c fis-4 e d-4 c h a)
+   g( h e-4 d-2 c-1 h-1 a g)
+   fis( a d c h a g fis)
+   e( g c h a g fis e)
+   d( fis h a g fis e d)
+
+   c( e a-4 g fis e d c)
+   h( d g fis e d c h)
+   a( c fis e d c h a)
+   g( a h c d e fis g)
+   fis( a c a fis d c a)
+
+   g( a h c d e fis g)
+   fis( a c a fis d c a)
+   g( a h c d e fis g)
+   fis( g a h c d e-1 fis)
+   g4.(-4 d8-1 h g d h)
+   g4 r r2 \bar "|."
 
    \pageBreak \key b \major \time 3/4 \tempo "Nr. 3: Allegretto " 4=140
-   b''2(-2\f\downbow f4)-4
+   b'2(-2\f\downbow f4)-4
    d\((\< f b)
    d\)\( g( e
    f)\)\! r f,\mf
@@ -348,7 +419,7 @@ va = \relative c {
    as?-4) as( g as b-1 c)
    d( cis d c b as-4
    g) g( fis g as-1 b)
-   c( h c b a g-4
+   c( h c b as g-4
    f e f es d c)
    b( d-0 f-1 as-4 ces,-2 as')
 
