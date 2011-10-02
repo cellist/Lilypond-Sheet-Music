@@ -59,7 +59,7 @@ vc = \relative c' {
     d c d c d es f f,
     d' c d c d c d c
     d es f f, b,4.
-  }
+  } \bar ":|"
 
   \break \time 3/2 \tempo "3. Lentement - Larghetto " 4=84
   \repeat volta 2 {
@@ -134,4 +134,85 @@ vc = \relative c' {
   d8( es) c( d) b( c) a4
   b\< es, f f\!
   b,2 \bar "|."
+
+  \break \clef "tenor" \time 3/8 \tempo "5. Gayment - Allegro " 4.=69
+  \repeat volta 2 {
+    \partial 8 f'8_\flegg
+    b d16 c b d
+    c8 f c
+    d b b'~
+    b a4\prall
+    b8 f d
+    es c f
+
+    f8. es16 d8
+    es f \clef "bass" f,
+    b,4 r8
+    r b'16( c) d es
+    d( es) d c b8
+    b es,4
+    f r8
+
+    r f16( g) a b
+    a( b) a g f8
+    f b,4
+    c8 e c
+    f8. e16 f8
+    b, c4
+    f
+  }
+
+  \repeat volta 2 {
+    \partial 8 f8\mp
+    a f a
+    b b, b'
+    a f a
+    b4 b8\mf
+    h g h
+    c c, c'
+
+    h g h
+    c4 c8
+    f,4\< f8\!
+    g h g
+    c g' g,
+    c4 c,8\mp
+    e c e
+
+    f f f
+    e c e
+    f4 f8
+    fis d fis
+    g g g
+    fis d fis
+    g4 g8
+    c,4 c8
+
+    d4 fis8\mf
+    g fis d
+    g fis d
+    g fis d
+    g d' d,
+    g,4 r8
+    r c\f c
+    f4 r8
+
+    r d d
+    g4 r8
+    es4 r8
+    f4 f8\p
+    b a f
+    b a f\f
+    b a f
+    b d, d
+
+    es\> f4\!
+    b,\p b8
+    f'4 f8
+    b,4\< f'8\!
+    b,4\f b8
+    f'4 f8
+    b,4 f'8
+    b,4
+  } \bar ":|"
 }

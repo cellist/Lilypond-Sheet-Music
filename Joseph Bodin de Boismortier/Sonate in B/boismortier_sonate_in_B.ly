@@ -1,7 +1,7 @@
 \version "2.12.3"
 \include "deutsch.ly"
 
-#(set-global-staff-size 16)
+#(set-global-staff-size 17.25)
 
 \header {
   title = "Sonata in B"
@@ -27,6 +27,7 @@ voiceconsts = {
 minstr = "bassoon"
 
 cresc = \markup \italic "cresc."
+flegg = \markup { \dynamic f \italic " leggiero" }
 pdolc = \markup { \dynamic p \italic " dolce" }
 rit   = \markup \italic "rit."
 

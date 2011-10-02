@@ -58,7 +58,7 @@ va = \relative c' {
     f4 r16 b a b f8 es16 d c8.(\trill b16)
     b4 r16 b' a b f4 r16 b a b
     f8 es16 d c8.(\trill b16) b4.
-  }
+  } \bar ":|"
 
   \break \time 3/2 \tempo "3. Lentement - Larghetto " 4=84
   \repeat volta 2 {
@@ -134,4 +134,83 @@ va = \relative c' {
   b f d' c
   d8(\< es) f g\! c,4.\trill b8
   b2 \bar "|."
+
+  \break \time 3/8 \tempo "5. Gayment - Allegro " 4.=69
+  \repeat volta 2 {
+    \partial 8 r8
+    R4.*3
+    r8 r f_\flegg
+    b d16 c b d
+    c8 f c
+    d b b'~
+    b a4\prall
+
+    b8 d,16( es) f g
+    f4 r8
+    r d16( es) f g
+    f8 es16( d) c b
+    a8 a16( b) c d
+    c4 r8
+
+    r a16( b) c d
+    c8 b16( a) g f
+    e8 c' c
+    c16( d) c b a8
+    d g,8.\trill f16
+    f4
+  }
+
+  \repeat volta 2 {
+    \partial 8 f'8\mp
+    f16 c f c f c
+    f8 d f
+    f16 c f c f c
+    f4 g8\mf
+    g16 d g d g d
+    g8 es g
+
+    g16 d g d g d
+    g4 es8~
+    es\< f16( es) d c\!
+    h8 g' d
+    es16 f d8.\trill c16
+    c4 c8\mp
+    c16 g c g c g
+
+    c8 a c
+    c16 g c g c g
+    c4 d8
+    d16 a d a d a
+    d8 b d
+    d16 a d a d a
+    d4 b8~
+    b c16( b) a g
+
+    fis4 r8
+    r16 d'\mf c( es) d c
+    b8 a r
+    r16 d c( es) d c
+    b c a8.\trill g16
+    g8 b\f b
+    es4 r8
+    r c c
+    f4 r8
+
+    r d d
+    g16( f) es d c b
+    a8 f f'\p
+    d c16( d) es f
+    d8 c f\f
+    d c16( d) es f
+    d8 b'16( a) g f
+    es\> d c8.\trill b16\!
+
+    b\p f b d b d
+    c f, c' es c es
+    d\< c c8.\trill b16\!
+    b\f f b d b d
+    c f, c' es c es
+    d c c8.\trill b16
+    b4
+  } \bar ":|"
 }
