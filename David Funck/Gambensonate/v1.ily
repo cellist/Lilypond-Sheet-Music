@@ -123,4 +123,34 @@ va = \relative c {
   gis4. gis8 a4~
 
   a8 h h4. a8
+  a2. \bar "||"
+  e4 g4. g8
+  fis4. e8 d4
+  a' g4. fis8
+
+  e2.
+  d4 cis h
+  a4. d8 cis4
+
+  h' e,4. d8
+  d2. \bar "|." \mark \markup \box "E"
+  fis4 a d,
+  cis4. cis8 d4
+
+  e e4.\trill e8
+  fis2.
+  fis4 a4. h8
+  gis4. gis8 a4~
+  a8 h h4. a8
+
+  a2. \bar "||"
+  e4 g?4. g8
+  fis4. e4 d8
+  a'4 g4. fis8
+  e2.
+
+  d4 cis h
+  a4. d8 cis4
+  h' e,4.\trill d8
+  d2. \bar "|."
 }

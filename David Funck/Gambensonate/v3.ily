@@ -126,4 +126,34 @@ vc = \relative c {
   h cis a h gis a fis gis e8 a
 
   fis a a4. gis8
+  a2. \bar "||"
+  a8 cis h[ a] h cis
+  d h h[ fis] fis d
+  d' a h[ fis'] e d
+
+  a' a,16 h cis8[ e16 d] cis8 a16 g
+  fis d' cis h a g fis e d h' a g \clef "bass"
+  fis e d cis d cis h h a cis' h a
+
+  h fis' e d cis4.\trill d8
+  d a16 g fis8[ g] d d, \clef "tenor" \bar "|." \mark \markup \box "E"
+  a''4 e fis8 g
+  a4. a8 fis4
+
+  h e,2
+  d2.
+  a'4 a2
+  h4. h8 e,[ a]
+  a4 a4. gis8
+
+  a2. \bar "||"
+  a4 h4. h8
+  h2 fis4~
+  fis8 d' h4. d8
+  a2.
+
+  fis4 fis d
+  d4. d8 e4
+  e e2
+  fis2. \bar "|."
 }

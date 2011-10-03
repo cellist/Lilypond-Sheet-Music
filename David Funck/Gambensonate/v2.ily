@@ -125,4 +125,34 @@ vb = \relative c {
   d4. d8 cis4
 
   fis e2
+  cis2. \bar "||"
+  cis4 e4. e8
+  d4. cis8 h4
+  fis' e4. d8
+
+  cis2.
+  h4 a g
+  fis4. g8 a4
+
+  h a2
+  a2. \bar "|." \mark \markup \box "E"
+  d4 e h
+  e,4. e8 d4~
+
+  d8 d' a2
+  a2.
+  d4 e2
+  d4. d8 cis4
+  fis e2
+
+  cis2. \bar "||"
+  cis4 e4. e8
+  d4. cis8 h4
+  fis' e4. d8
+  cis2.
+
+  h4 a g
+  fis4. g8 a4
+  h a2
+  a2. \bar "|."
 }

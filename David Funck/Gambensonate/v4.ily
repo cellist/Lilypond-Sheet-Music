@@ -126,4 +126,34 @@ vd = \relative c {
   h a4
 
   d e2
+  a,2. \bar "||"
+  a4 e2
+  h'2.
+  fis4 g2
+
+  a2.
+  h4 fis g
+  d4. h'8 a4
+
+  gis a2
+  d,2. \bar "|."  \mark \markup \box "E"
+  d'4 cis h
+  a4. a8 h4
+
+  g a2
+  d,2.
+  d'4 cis2
+  h a4
+  d e2
+
+  a,2. \bar "||"
+  a4 e2
+  h'2.
+  fis4 g2
+  a2.
+
+  h4 fis g
+  d4. h'8 a4
+  gis a2
+  d,2. \bar "|."  
 }
