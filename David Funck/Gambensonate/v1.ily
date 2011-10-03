@@ -12,10 +12,10 @@ va = \relative c {
   h8. e16 fis8 a gis a a8.\trill gis16
   a4 r \clef "treble" a'8 a16 a a a a a
 
-  e8 e'16 d cis d h cis a fis d fis \clef "tenor" h,4
+  e8 e'16 d cis d h cis \clef "tenor" a fis d fis h,4
   r8 e e e fis4 r16 fis d fis
 
-  h,8 h h h cis4 r \clef "treble"
+  h,8 h h h cis4 r
   e8 e16 e e e e e a,8 a'16 g fis g e fis
   d2 fis8 fis16 fis fis fis fis fis
 
@@ -23,9 +23,9 @@ va = \relative c {
   h8 e fis h a4. g8
   g h16 a g a fis g e8 a16 g fis g e fis
 
-  d4 r \clef "tenor" h r
+  d4 r h r
   r8 e16 d cis d h cis a4 r
-  r16 a' fis a d,4 r16 e cis e a,4 \clef "treble"
+  r16 a' fis a d,4 r16 e cis e a,4
 
   r16 h' g h e,4 fis8 fis fis8. e16
   e4. d8 d2\fermata \bar "|."
@@ -90,8 +90,8 @@ va = \relative c {
   fis16 g a h g h, h cis d e fis g
 
   e d cis h a e' fis g a8~[ a32 h cis a]
-  d16 \clef "tenor" d, h d cis a fis cis' h g d h'
-  a fis e fis d d' h d cis h cis a \clef "treble"
+  d16 d, h d cis a fis cis' h g d h'
+  a fis e fis d d' h d cis h cis a
 
   h' cis d8 cis,4. d8 d2. \bar "|." \mark \markup \box "C"
   fis4 a d,

@@ -30,7 +30,7 @@ vc = \relative c {
   fis4 r16 fis' d fis h,4 r16 cis a cis
 
   fis,4 r16 cis' a cis fis,8 h a h
-  a2 fis\fermata \bar "|."
+  a2 fis\fermata \bar "|." \clef "bass"
 
   \break \time 3/4 \tempo "2. Sarabande - Grave " 4=60
   \repeat volta 2 {
@@ -136,7 +136,7 @@ vc = \relative c {
   fis e d cis d cis h h a cis' h a
 
   h fis' e d cis4.\trill d8
-  d a16 g fis8[ g] d d, \clef "tenor" \bar "|." \mark \markup \box "E"
+  d a16 g fis8[ g] d d, \bar "|." \mark \markup \box "E"
   a''4 e fis8 g
   a4. a8 fis4
 
