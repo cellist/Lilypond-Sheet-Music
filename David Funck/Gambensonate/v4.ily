@@ -31,4 +31,99 @@ vd = \relative c {
 
   d,4 r16 a' fis a d,8 h fis g
   a2 d\fermata \bar "|."
+
+  \break \time 3/4 \tempo "2. Sarabande - Grave " 4=60
+  \repeat volta 2 {
+    d4 cis h
+    a4. a8 h4
+    g a2
+    d,2.
+    d'4 cis2
+
+    h a4
+    d e2
+    a,2.
+  }
+  \repeat volta 2 {
+    a4 e2
+    h'2.
+    fis4 g2
+
+    a2.
+    h4 fis g
+    d4. h'8 a4
+    gis a2
+    d,2.
+  } \mark \markup \box "A"
+
+  d'8 fis cis16 e d cis h h' a gis
+  a e cis e a, e' d cis h8 d
+  g, h a[ a'16 g?] fis g e fis
+  d a' h cis d fis, g a fis8 d
+
+  d, d' cis16 e fis gis a8 cis,
+  h16 a' gis fis e d cis h a cis' h cis
+  d fis, e d e4. e,8
+  a' e cis e a,4 \bar "||"
+
+  r16 a' g? fis e8 e16 fis g8 fis16 e
+  h'8 d,16 e fis8 h,16 cis d h a g
+  fis d e fis g d' e fis g d' cis h
+
+  cis e, fis gis a cis, d e a, cis h a
+  h h' a h fis fis, e fis g? g' fis g
+  d fis d fis h, d h d a8 a'
+
+  gis16 h a gis a4 a,8. d,16
+  d2. \bar "|."  \mark \markup \box "B"
+  d'4 cis h
+  a4. a8 h4
+
+  g a2
+  d,2.
+  d'4 cis2
+
+  h a4
+  d e2
+  a,2. \bar "||"
+
+  a4 e2
+  h'2.
+  fis4 g2
+
+  a2.
+  h4 fis g
+  d4. h'8 a4
+
+  gis a2
+  d,2. \bar "|."  \mark \markup \box "C"
+  d'4 cis h
+  a4. a8 h4
+  g a2
+
+  d,2.
+  d'4 cis2
+  h a4
+  d e2
+  a,2. \bar "||"
+
+  a4 e2
+  h'2.
+  fis4 g2
+  a2.
+
+  h4 fis g
+  d4. h'8 a4
+  gis a2
+
+  d,2. \bar "|."  \mark \markup \box "D"
+  d'4 cis h
+  a4. a8 h4
+  g a2
+
+  d,2.
+  d'4 cis2
+  h a4
+
+  d e2
 }

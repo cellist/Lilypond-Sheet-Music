@@ -31,4 +31,99 @@ vc = \relative c {
 
   fis,4 r16 cis' a cis fis,8 h a h
   a2 fis\fermata \bar "|."
+
+  \break \time 3/4 \tempo "2. Sarabande - Grave " 4=60
+  \repeat volta 2 {
+    a4 e fis8. g16
+    a4. a8 fis4
+    h e,2
+    d2.
+    a'4 a2
+
+    h4. h8 e,[ a]
+    a4 a4.\trill gis8
+    a2.
+  }
+  \repeat volta 2 {
+    a4 h4. h8
+    h2 fis4~
+    fis8 d' h4. d8
+
+    a2.
+    fis4 fis d
+    d4. d8 e4
+    e e2
+    fis2.
+  } \mark \markup \box "A"
+
+  a4 e fis8. gis16
+  a4. a8 fis4
+  h e,2
+  d2.
+
+  a'4 a2
+  h4. h8 e,[ a]
+  a4 a4.\trill gis8
+  a2. \bar "||"
+
+  a4 h4. h8
+  h2 fis4~
+  fis8 d' h4. d8
+
+  a2.
+  fis4 fis d
+  d4. d8 e4
+
+  e e2
+  fis2. \bar "|." \mark \markup \box "B"
+  a4 e fis8. g16
+  a4. a8 fis4
+
+  h e,2
+  d2.
+  a'4 a2
+
+  h4. h8 e,[ a]
+  a4 a4. gis8
+  a2. \bar "||"
+
+  a4 h4. h8
+  h2 fis4~
+  fis8 d' h4. d8
+
+  a2.
+  fis4 fis d
+  d4. d8 e4
+
+  e e2
+  fis2. \bar "|." \mark \markup \box "C"
+  a4 e fis8. g16
+  a4. a8 fis4
+  h e,2
+
+  d2.
+  a'4 a2
+  h4. h8 e,[ a]
+  a4 a4. gis8
+  a2. \bar "||"
+
+  a4 h4. h8
+  h2 fis4~
+  fis8 d' h4. d8
+  a2.
+
+  fis4 fis d
+  d4. d8 e4
+  e e2
+
+  fis2. \bar "|." \mark \markup \box "D"
+  r16 a g fis e8[ a] fis gis
+  a cis16 h a h g? a fis8 d \clef "bass"
+  g, h' e,[ d'] d8.\trill cis16
+
+  d fis, e fis d d' cis h a g fis e
+  d8 fis'16 g e8[ cis16 h] a8 gis16 a \clef "tenor"
+  h cis a h gis a fis gis e8 a
+
+  fis a a4. gis8
 }

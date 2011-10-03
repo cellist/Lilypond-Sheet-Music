@@ -5,7 +5,7 @@
 
 \header {
   title = "Sonatensuite für vier Gamben"
-  subtitle = "Stricturae viola di gambicae"
+  subtitle = "Stricturae viola di gambicae (1677)"
   composer = "David Funck"
   arranger = "(1648-1701)"
   enteredby = "cellist (2011-10-02)"
