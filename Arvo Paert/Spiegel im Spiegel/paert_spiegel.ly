@@ -1,7 +1,7 @@
 \version "2.12.3"
 \include "deutsch.ly"
 
-#(set-global-staff-size 16)
+#(set-global-staff-size 16.75)
 
 \header {
   title = "Spiegel im Spiegel"
@@ -60,7 +60,6 @@ music = <<
     \midi {
       \context {
         \Score
-        tempoWholesPerMinute = #(ly:make-moment 100 4)
       }
     }
   }
