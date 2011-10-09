@@ -1,7 +1,7 @@
 \version "2.12.3"
 \include "deutsch.ly"
 
-#(set-global-staff-size 16)
+#(set-global-staff-size 16.5)
 
 \header {
   title = "Sonata in a"

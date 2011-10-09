@@ -65,4 +65,76 @@ vc = \relative c {
     a8 d, e4 e
     a,2
   }
+
+  \break \tempo "2. Courante - Allegro moderato " 4=152
+  \repeat volta 2 {
+    \partial 4 r4
+    a2\mf a'4~
+    a gis2
+    a4 a, a'
+    g?2 g4
+    c, d2
+    e gis4
+
+    a2 cis,4
+    d2 f4
+    g2 h,4
+    c2 c4
+    a2 a4
+    h2 r4
+    r g'8\f fis g fis
+
+    g4 r r
+    r g8\f fis g fis
+    g fis g a g fis
+    g4. e8 a, h
+    c a h2
+    e
+    
+  }
+  \repeat volta 2 {
+    \partial 4 r4
+    e2\mp e4~
+    e dis2
+    e e'4
+    d2_\cresc d,4
+    g a2
+    h4 fis'->\f fis->
+
+    h,-> e,8\mp d cis h
+    cis4 e'->\f e->
+    a,-> d,8\mp c? h a
+    h4 d'->\f d->
+    g,2.~->
+    g4 g g
+
+    c,4. e8 d c
+    f4 e8 d c d
+    e f g4 g
+    c,2 cis4
+    d2 d4
+    g a\> a,\!
+
+    d4.\mf d8 f d
+    g4 g4. h,8
+    c4. c8 e c
+    f4 f4. e8
+    d2 f4
+    e2 d4
+    c d e
+
+    a,2\> a'4\!\p
+    gis2_\cresc e4
+    f2 d4
+    d8( a') d, e f d
+    e2 r4
+    r c'8\f h c h
+
+    c4 r r
+    r c8\f h c h
+    c\< h c d c h\!
+    c a gis4 e
+    f8 d e4 e
+    a,2
+  }
 }
