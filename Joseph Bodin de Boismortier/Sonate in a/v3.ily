@@ -137,4 +137,41 @@ vc = \relative c {
     f8 d e4 e
     a,2
   }
+
+  \break \time 4/4 \tempo "3. Allemande - Gravement " 8=92
+  \repeat volta 2 {
+    \partial 8 r8
+    r1
+    r2 r4 r8 r16 a'_\pdol
+    a4~ a16 e c e a,8 a' a a
+
+    gis e16( fis) gis8 e a gis a a,
+    e'4 r8 c' e, a gis e
+    a16( g? f? e) d( e f d) g4 c,
+
+    g' r8 e'\< g, c h g\!
+    c, f g g c,4.
+  }
+  \repeat volta 2 {
+    \partial 8 r16 c'\mf
+    c8 c, e f g4 r8 g
+
+    c,4 cis8. cis16 d4. d8
+    g g a a, d d'16( c) h8 a
+    g4 dis e8 a h h,
+
+    e4 r8 e a4 r8 d,
+    g4 r8 c, f4 r8 d
+    e4 r8 e a16( c h d) c8 gis
+
+    a h16( c) gis8.(\trill a16) a4 c,_\fslg
+    f h, e a,
+    d e a,\> c\!\p
+    f h, e a8 d,
+
+    e f d e a,4 r8 a
+    e'4 r8 e_\cresc a,4 r8 a'
+    g4 r8 g c, c c c
+    d\> d e[ e]\! a,4.
+  }
 }

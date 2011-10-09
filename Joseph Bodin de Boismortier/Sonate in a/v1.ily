@@ -137,4 +137,41 @@ va = \relative c {
     c h h4.(\trill a8)
     a2
   }
+
+  \break \time 4/4 \tempo "3. Allemande - Gravement " 8=92
+  \repeat volta 2 {
+    \partial 8 r16 a_\pdol
+    a4~ a16 e c e a,8 a' a a
+    gis a16( h) e,8( d) c a' gis8.(\prall a16)
+    a( h c d) e8. e16 e8 d16( e) f8[ e]
+
+    d16(\prall c h c) d8. d16 d8 c16( h) c8.( d16)
+    h8 e e, a gis[ e'] e, e'16( h)
+    c8 a f'4. e16(\prall d) e8.( f16)
+
+    d8\< g g, c h[ g'] g, g'16( d)\!
+    e8 f16( e) d8.(\trill c16) c4.
+  }
+  \repeat volta 2 {
+    \partial 8 r16 g'\mf
+    g4~ g16 g( f e d c h c d e f d)
+
+    e8 c g'4. f16( e) f4~
+    f8 e16( d) cis8.(\trill d16) d( e d e) dis( e dis fis)
+    e( fis e g) fis( g fis a) g8 fis16( e) dis8.(\trill e16)
+
+    e8 g g c, c f? f h,
+    h e e a, a d d16( c h a)
+    gis8 e a16( c h d) c8 gis a h
+
+    c d16( e) h8.(\trill a16) a8 e'_\fslg e a
+    r d, d g r c, c f
+    h, a' gis8.( a16) a8 e\p e a
+    r d, d g r c, c f
+
+    h, c16 d h8.(\trill a16) a8 a_\cresc a a
+    h h h h c c c c
+    d d16( e) f8 e16( d) e2~
+    e8 d16(\> c) h8.(\trill a16)\! a4.
+  }
 }

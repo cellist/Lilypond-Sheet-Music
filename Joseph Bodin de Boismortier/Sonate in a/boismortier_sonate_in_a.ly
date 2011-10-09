@@ -4,7 +4,7 @@
 #(set-global-staff-size 16.5)
 
 \header {
-  title = "Sonata in a"
+  title = "Sonata in a-moll"
   composer = "Joseph Bodin de Boismortier (1689-1755)"
   arranger = "arr.: Jay Lichtmann"
   opus = "op. 7 Nr. 4"
@@ -27,7 +27,9 @@ minstr = "bassoon"
 
 cresc = \markup \italic "cresc."
 dim   = \markup \italic "dim."
+fslg  = \markup { \dynamic f \italic " sempre legato" }
 mpml  = \markup { \dynamic mp \italic " molto legato" }
+pdol  = \markup { \dynamic p \italic " dolce" }
 rit   = \markup \italic "rit."
 
 \include "v1.ily"
