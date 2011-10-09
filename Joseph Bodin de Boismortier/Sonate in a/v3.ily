@@ -174,4 +174,77 @@ vc = \relative c {
     g4 r8 g c, c c c
     d\> d e[ e]\! a,4.
   }
+
+  \break \time 3/4 \tempo "4a. Menuetto I - Moderato " 4=132
+  \repeat volta 2 {
+    \partial 2. a'2\f a4
+    d, g2
+    c, f4
+    d e2
+    a,2 a4
+    a'2\p a4
+    d, g2
+
+    c, f4
+    d e2
+    a,2.
+  }
+  \repeat volta 2 {
+    c'4\f h g
+    c h c
+    f,8( e) f g a f
+    g( f) g a h g
+
+    c4 h c
+    f,2 g4
+    c, g'4. g8
+    c,4 c'8( d) c h
+    a2\mp d,4
+    g2 c,4
+    f2 d4
+
+    e8 d e fis gis e
+    a2\mf a4
+    d, g?2
+    c,4.(\< a'8) h4\!
+    c8(\f a) e'4 e,
+    a c,8^\amii d e4
+    a,2._\fine
+  }
+
+  \break \key a \major \tempo "4b. Menuetto II - Meno mosso"
+  \repeat volta 2 {
+    a2_\mpdol e'4
+    a,2 e'4
+    a,2 e'4
+    a,2 e'4
+    cis fis d
+    a'2 d,4
+
+    a' d,8( e fis d)
+  }
+  \alternative {
+    { e( fis) e d cis h }
+    { e2. }
+  }
+  \repeat volta 2 {
+    e2\mf e4
+    e2 e4
+    e2 e4
+
+    e4. d8( cis h)
+    a4. h8( cis a)
+    h4 h' e,
+    a, h2
+    e8( d) e\> fis gis e\!
+    a2\mp a4
+
+    a2 a4
+    a2 a4
+    a4. g8( fis e)
+    d4. e8( fis d)
+    e4 e' a,
+    d, e2_\dcmi
+    a,2.
+  }
 }

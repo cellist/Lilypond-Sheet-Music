@@ -25,9 +25,13 @@ voiceconsts = {
 %minstr = "accordion"
 minstr = "bassoon"
 
+amii  = \markup \italic "(attacca Menuetto II)"
 cresc = \markup \italic "cresc."
+dcmi  = \markup \bold \italic "D.C. Menuetto I"
 dim   = \markup \italic "dim."
+fine  = \markup \bold \italic "Fine"
 fslg  = \markup { \dynamic f \italic " sempre legato" }
+mpdol = \markup { \dynamic mp \italic " dolce" }
 mpml  = \markup { \dynamic mp \italic " molto legato" }
 pdol  = \markup { \dynamic p \italic " dolce" }
 rit   = \markup \italic "rit."

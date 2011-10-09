@@ -174,4 +174,77 @@ vb = \relative c {
     h h16( c) d8 c16( h) c2~
     c8 h16(\> a) gis8.(\trill a16)\! a4.
   }
+
+  \break \time 3/4 \tempo "4a. Menuetto I - Moderato " 4=132
+  \repeat volta 2 {
+    \partial 2. c8(\f h) c d c4
+    d h2
+    c8( d) c h a4
+    h a\prall gis
+    a2 e4
+    c'8(\p h) c d c4
+    d h2
+
+    c8( d) c h a4
+    h a\prall gis
+    a2.
+  }
+  \repeat volta 2 {
+    c8(\f d) d4. c16( d)
+    e8 c d e c e
+    f( e) d e f e
+    d2 d4
+
+    e8 c d e c e
+    f( e) d c h4
+    c8( d) h4.(\trill c8)
+    c2.
+    cis8(\mp h) cis4 d
+    d8( c?) h4 c
+    a a d
+
+    h2 h4
+    c8(\mf h) c d c4
+    d h2
+    c4.(\< c8) d4\!
+    e\f gis,4.(\trill a8)
+    a4 c,8^\amii d e4
+    a,2._\fine
+  }
+
+  \break \key a \major \tempo "4b. Menuetto II - Meno mosso"
+  \repeat volta 2 {
+    a'4.(_\mpdol h8) gis[( h])
+    a2( gis4)
+    a4.( h8) gis[( h])
+    a2( gis4)
+    cis8( h a4) d
+    cis8( h a4) d
+
+    cis d8( cis h a)
+  }
+  \alternative {
+    { gis2. }
+    { gis }
+  }
+  \repeat volta 2 {
+    gis4.(\mf a8 gis a
+    gis a gis a gis a
+    gis a gis a gis a
+
+    gis2.)
+    cis8( h a gis fis e)
+    dis4 e8( fis gis4)
+    a dis,4.( e8)
+    e2.\>
+    cis'4.(\!\mp d?8 cis d
+    cis d cis d cis d
+
+    cis d cis d cis d
+    cis2.)
+    fis8( e d cis h a)
+    gis4 a8( h cis4)
+    d gis,4.(_\dcmi a8)
+    a2.
+  }
 }
