@@ -37,4 +37,40 @@ vc = \relative c' {
 
   a4 a8 b r r a r r b r r
   c4. c4 d8 b4. b4 c8
+
+  c4. c4 d8 b4. es8 r r
+  d r r es r r d r r g, r r
+
+  es r r as4 c8 b4. f
+  g b c g
+
+  as c d a
+  b a g es
+
+  fis4 g8 a4 a8 g4 es8 f4 g8
+  es4. d' c as
+
+  g4 es8 f4 d8 c4. as'8 g f
+  g as g as g f es4 g8 g4 g8
+
+  as4 as8 as4 des8 b4 g8 es4 es'8
+  c4 as8 des4 as8 r r es' c4 as8
+
+  r r des b4 g8 c,4. es
+  f c des f
+
+  g h c4 c8 b4 b8
+  g4. as b c
+
+  d?8 b es~ es c d es4 b8 b4 a8
+  b4. es, d b
+
+  f'4 f8 g4 f8 f4 d8 es4 b'8(~
+  b as4) f as8(~ as g4) es g8(~
+
+  g f4) d f8(~ f es4) c8 b as
+  b c b c b as b4 es8 es4 b'8(~
+
+  b as4) as as8(~ as g4) g g8(~
+  g f4) f f8(~ f es) es b4 d8 b4. r r r \bar "|."
 }

@@ -1,7 +1,7 @@
 \version "2.12.3"
 \include "deutsch.ly"
 
-#(set-global-staff-size 17)
+#(set-global-staff-size 16.4)
 
 \header {
   title = "Largo"
@@ -39,25 +39,25 @@ music = \new StaffGroup <<
       \new Staff {
 	\set Staff.midiInstrument = \mihi
 	\set Staff.instrumentName = #"Vc 1"
-	\transpose c c { \va }
+	\transpose c h, { \va }
       }
 
       \new Staff {
 	\set Staff.midiInstrument = \mihi
 	\set Staff.instrumentName = #"Vc 2"
-	\transpose c c { \vb }
+	\transpose c h, { \vb }
       }
 
       \new Staff {
 	\set Staff.midiInstrument = \milo
 	\set Staff.instrumentName = #"Vc 3"
-	\transpose c c { \vc }
+	\transpose c h, { \vc }
       }
 
       \new Staff {
 	\set Staff.midiInstrument = \milo
 	\set Staff.instrumentName = #"Vc 4"
-	\transpose c c { \vd }
+	\transpose c h, { \vd }
       }
 >>
 
