@@ -138,7 +138,7 @@ vc = \relative c {
     a,2
   }
 
-  \break \time 4/4 \tempo "3. Allemande - Gravement " 8=92
+  \pageBreak \time 4/4 \tempo "3. Allemande - Gravement " 8=92
   \repeat volta 2 {
     \partial 8 r8
     r1

@@ -138,7 +138,7 @@ vb = \relative c {
     a2
   }
 
-  \break \time 4/4 \tempo "3. Allemande - Gravement " 8=92
+  \pageBreak \time 4/4 \tempo "3. Allemande - Gravement " 8=92
   \repeat volta 2 {
     \partial 8 r8
     r2 r4 r8 r16 e'_\pdol
