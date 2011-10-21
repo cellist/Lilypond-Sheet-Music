@@ -27,6 +27,7 @@ milo = "harpsichord"
 %minstr = "accordion"
 %milo = "bassoon"
 
+legato = \markup \italic "legato"
 restez = \markup \italic "restez"
 
 \include "v1.ily"

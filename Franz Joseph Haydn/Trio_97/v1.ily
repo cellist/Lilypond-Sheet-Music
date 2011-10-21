@@ -92,4 +92,135 @@ va = \relative c' {
     d8 \clef "tenor" h(\p a g fis e)
     e4( fis) r
   }
+
+  \break \time 2/4 \tempo "2. Allegro di molto " 4=140
+  \repeat volta 2 {
+    fis(\f g) 
+    fis r
+    d' fis16( e d cis)
+    cis4( d8) r
+    fis,4(\downbow g)
+    fis r8 fis'
+    fis4(~ fis16 e d e)
+    d8 r g,\p d
+    fis d cis'16(\f d e) e
+
+    d8 d, g\p d
+    fis d cis'16(\f d e) e
+    d8 fis r fis,\upbow
+    r g r e
+    fis4 r
+    d' \grace d8( c h16 c)
+    h2
+    a16( c h c d c h c)
+
+    h2~\<
+    h16\! d( cis d e d cis d)
+    cis2
+    h16( d cis d e d cis d)
+    cis8\downbow\f e16 d cis h a g
+    fis8\upbow fis'16 e d cis h a
+    gis8 gis'!16 fis e d cis h
+
+    a8 a'16-3 gis fis e\thumb d cis
+    h8-1 h'16-3 a gis fis e d
+    cis4\upbow a'~
+    a8 h16 a a4~
+    a8 a,\upbow a a
+    gis4 e'(\upbow
+    es d
+    cis) c(
+    h a)
+
+    gis r
+    cis?(\p d)
+    cis8 d( cis) r
+    r gis(\downbow a) r
+    r d( cis) r
+    r d'(\downbow\cresc cis) a,
+    fis' fis16 d cis8 h\upbow
+    e16\f a, e' a, fis' a, fis' a,
+
+    e'8 d16 h a8 gis\upbow
+    e'16 a, e' a, fis' a, fis' a,
+    e'8 d16 h a8 gis\upbow
+    a r h'\upbow r
+    cis4 r
+  }
+  \repeat volta 2 {
+    a\f g?16 h a g
+    fis a g fis e8 r
+
+    a4\p g16 h a g
+    fis a g fis e8 r
+    d4\f c16 e d c
+    h d c h a8 r
+    d4\p c16 e d c
+    h d c h a8 r
+    h4\mp h16 c h a
+
+    g8 h\upbow h r
+    r h\< h\! r
+    r e e r
+    r e e r
+    r e(\upbow\> d) r
+    r cis(\downbow h) r\!
+    r e(\upbow\pp d) r
+    r cis(\downbow h) fis\p
+
+    h a g h
+    a g fis h
+    g fis e e'
+    d4 r
+    r8 cis h ais
+    h4 r
+    r8 cis h ais
+    h(\< fis') fis^\legato fis\!
+    fis2~\mf
+
+    fis8 g\upbow g4~
+    g8 fis fis fis
+    fis(\> e) e( d)
+    d cis\! r4
+    fis,(\f g)
+    fis r
+    d' fis16( e d cis)
+    cis4( d8) r
+    fis,4( g)
+    fis r8 fis'
+
+    fis4(~ fis16 e d e)
+    d8 r g,\p d
+    fis d cis'16(\f d e) e
+    d8 d, g\p d
+    fis d \clef "treble" cis'16(\f d e) e
+    d8 a'16-3 g fis e\thumb d cis
+    d8-1 h'16-3 a g fis\thumb e d
+
+    cis8 cis'16-3 h a g\thumb fis e
+    d8 d'16 cis h a g fis
+    e8 e'16 d cis h a g \clef "tenor"
+    fis4 d~_"I"
+    d8 e16 d d4~
+    d8 d, d d
+    cis4 a''(
+    gis g
+
+    fis) f(
+    e d)
+    cis r
+    fis,?(\f g)
+    fis8 g'( fis) r
+    r cis( d) r
+    r g( fis) r
+    r cis( d) a
+
+    h h'16 g fis8 e
+    a16-2 d, a' d, h'-3 d, h' d,
+    a'8 d,4-2_"II" cis8
+    a'16 d, a' d, h' d, h' d,
+    a'8 d,4-2_"I" cis8
+    d\downbow r <a e'>\downbow r
+    <a fis'>4\downbow r
+  }
 }
