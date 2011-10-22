@@ -86,7 +86,7 @@ vb = \relative c'' {
     cis4( d) r
   }
 
-  \break \time 2/4 \tempo "2. Allegro di molto " 4=140
+  \pageBreak \time 2/4 \tempo "2. Allegro di molto " 4=130
   \repeat volta 2 {
     d\f cis16 d e cis
     d8\upbow fis\upbow a, d
@@ -213,5 +213,97 @@ vb = \relative c'' {
     d8 d,16 g fis8 e\upbow \clef "tenor"
     d\downbow r cis-1\downbow r
     <fis, d'>4\downbow r
+  }
+
+  \break \time 3/4 \tempo "3. Menuet " 4=100
+  \repeat volta 2 {
+    d'2 \times 2/3 { fis8( e d) }
+    g4 e\upbow cis\upbow
+    d a8 d fis a
+    a( g) g( fis) fis4
+    r fis,\downbow fis
+    fis2.
+    e4\upbow cis' h\trill
+
+    a r r
+  }
+  \repeat volta 2 {
+    r fis dis
+    e r r
+    r e g
+    a a' a,\upbow
+    e'8( d?) d( cis) cis4
+
+    fis8( e) e( d) d4
+    h2 cis4
+    d fis,8 a d fis
+    \grace fis e4 d cis\trill
+    d r r \clef "bass"
+  }
+  \repeat volta 2 {
+    d,_\pizz^\trio r e
+    fis r r
+    g r a,
+    d r r
+    d r e
+    fis r r
+    e r r
+    a, r r
+
+    d e r
+    a, r r
+  }
+  \repeat volta 2 {
+    a \clef "tenor" \times 2/3 { e''8(\downbow_\arco d cis) d( e fis) }
+    g2 fis4 \clef "bass"
+    a,,_\pizz \clef "tenor" \times 2/3 { e''8(_\arco d cis) d( e fis) }
+    g2 fis4
+
+    e \times 2/3 { g8( fis e) fis( e d) }
+    d2( cis4) \clef "bass"
+    d,4_\pizz r e
+    fis r r
+    g r r
+
+    a h cis
+    d r r
+    d, r r
+    r r a
+    d^\mtdaca r r
+  }
+
+  \clef "tenor" \break \tempo "4. Polonaise " 4=100
+  \repeat volta 2 {
+    d'8 d16( fis) d8[-. a]-. a-. fis-.
+    g16( a h g) e8-. e16(\upbow g) fis8 d
+    e-. g-. h[-. e]-. g16( fis e d)
+    cis( d e fis) e( d cis h) a4
+    d8 d16( fis) d8[-. a]-. a-. fis-.
+
+    g16( a h g) e8[ g']\upbow g( fis)
+    h,-. e16( fis) g( fis-4 e d) g( fis e d)-2
+    cis( d e cis) d4-. d,-+
+  }
+  \repeat volta 2 {
+    a''8-. a16( gis) a8[-. fis]-. d-. fis-.
+
+    g?-. g16( fis) g( fis e d) cis8\upbow e
+    fis-.\upbow d16( cis) h8-. g'16( fis) e8-. e16( d)
+    cis( d e fis) e( d cis h) a4
+    a'8-. a16( gis) a8[-. fis]-. d-. fis-.
+
+    g?-. g16( fis) g( fis e d) cis8 e
+    fis-.\upbow d16( cis) h8-. g'16( fis) e8-. e16( d)
+    cis( d e fis) e( d cis h) a( h cis a)
+    <a d>8 d16( fis) d8[-. a]-. a-. fis-.
+
+    g16( a h g) e8-. e16(\upbow g) fis8 d
+    e-. g-. h[-. e]-. g16( fis e d)
+    cis( d e fis) e( d cis h) a4
+    d8-. d16( fis) d8[-. a]-. a-. fis-.
+
+    g16( a h g) e8[ g']\upbow g( fis)
+    h,-. e16( fis) g( fis e d) g( fis e d)
+    cis( d e cis) d4-. d,-+
   }
 }

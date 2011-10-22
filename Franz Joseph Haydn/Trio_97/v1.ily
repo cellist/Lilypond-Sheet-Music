@@ -42,7 +42,7 @@ va = \relative c' {
 
   \repeat volta 2 {
     \clef "treble" cis''8.(\f d32 e) d4 h8 gis
-    a cis e, a-0 cis,-1_"I" e
+    a cis e, a-0 \clef "tenor" cis,-1_"I" e
     d( e) cis( e a-3 cis,-2)_"II"
     h16( d e\thumb d) cis( e a e) cis( e a e)
 
@@ -57,7 +57,7 @@ va = \relative c' {
     h(\cresc d? h d) h( d h d) h( d cis h)
     ais(\thumb\f cis-2 fis-1 cis) ais( cis fis cis) ais( cis fis cis)
     h(^\restez d h d) h( d h d) h( d cis h)
-    ais4 fis' r \clef "tenor"
+    ais4 fis' r
 
     a,16(\thumb\p d fis d) a( d fis d) a( d fis d)
     a( e' g e) a,( e' g e) a,( e' g e)
@@ -93,7 +93,7 @@ va = \relative c' {
     e4( fis) r
   }
 
-  \break \time 2/4 \tempo "2. Allegro di molto " 4=140
+  \pageBreak \time 2/4 \tempo "2. Allegro di molto " 4=130
   \repeat volta 2 {
     fis(\f g) 
     fis r
@@ -222,5 +222,97 @@ va = \relative c' {
     a'8 d,4-2_"I" cis8
     d\downbow r <a e'>\downbow r
     <a fis'>4\downbow r
+  }
+
+  \break \time 3/4 \tempo "3. Menuet " 4=100
+  \repeat volta 2 {
+    d2 \times 2/3 { fis8( e d) }
+    g4 e\upbow cis\upbow
+    d a8 d fis a
+    a( g) g( fis) fis4
+    d2 \times 2/3 { fis8 e d }
+    cis( h) ais( h cis d)
+
+    e fis a,4 gis\trill
+    a? r r
+  }
+  \repeat volta 2 {
+    a2 \times 2/3 { c8( h a) }
+    a( g? fis e g h) \clef "treble"
+    e( fis g fis e d)
+    d2 cis4
+
+    g'8( fis) fis( e) e4
+    a8( g) g( fis) fis4
+    h2 cis4
+    d a,8( d) fis a
+    \grace a g4 fis\upbow e\upbow\trill
+    d r r
+  }
+  \repeat volta 2 {
+    \times 2/3 { d8(\thumb^\trio fis a) g( fis e) d( cis h) }
+    \times 2/3 { a( d fis) d( fis a) } d4
+    \times 2/3 { h8( a g) fis( e d) cis( e g) }
+    g2( fis4)
+    \times 2/3 { d8( fis a) g( fis e) d( cis h) }
+
+    \times 2/3 { a( d fis) d( fis a) } d4
+    \times 2/3 { h,8( d gis) d( gis h) } d4-2
+    \times 2/3 { cis8( e d) cis(-2 h a) gis(-4 fis e) }
+    \times 2/3 { fis( e d) } cis4 h\upbow
+    a r r
+  }
+  \repeat volta 2 {
+    r2.
+    a4 \times 2/3 { e'8(\downbow d cis) d( e fis) }
+    g2 fis4
+    a, \times 2/3 { e'8(\downbow d cis) d( e fis) }
+    g4 cis, \times 2/3 { d8( e fis) }
+    fis2( e4)
+    \times 2/3 { d8(\thumb fis a) g( fis e) d( cis h) }
+
+    \times 2/3 { a( d fis) d( fis a) } d4
+    \times 2/3 { h,8( d g) d( g h) } d4-2
+    \times 2/3 { cis8( d e) d(-3 cis h) a( h g) }
+
+    \times 2/3 { fis( a cis) d( a fis) a( fis d) }
+    \times 2/3 { fis( d a) a'( fis d) d'( a fis) }
+    \times 2/3 { h( a g) } fis4 e\upbow
+    d^\mtdaca r r
+  }
+
+  \clef "tenor" \break \tempo "4. Polonaise " 4=100
+  \repeat volta 2 {
+    d8 d16( fis) d8[-. a]-. a-. fis-.
+    g16( a h g) e8-. e16(\upbow g) fis8 d
+    e-. g-. h[-. e]-. g16( fis e d)
+    cis( d e fis) e( d cis h) a( g fis e)
+
+    fis8 d'16( fis) d8[-. a]-. a-. fis-.
+    g16( a h g) e8[ cis']\upbow cis( d)
+    h-. e16( fis) g( fis-4 e d) h(-4 a g fis)-3
+    e( fis g e) fis4-. \clef "treble" \appoggiatura cis''8 d4-.
+  }
+  \repeat volta 2 {
+    a8-.-3 a16( gis) a8[-. fis]-.-1 d-.-3 fis-.
+
+    g-. g16( fis) g( fis e\thumb d)-3 cis8\upbow e
+    fis-.\upbow d16( cis) h8-. g'16( fis) e8-. e16(-4 d)
+    cis(-1 d e fis) e( d cis h) a4
+    a'8-. a16( gis) a8[-. fis]-. d-. fis-.
+
+    g?-. g16( fis) g( fis e d) cis8 e
+    fis-.\upbow d16( cis) h8-. g'16( fis) e8-. e16( d)
+    cis( d e fis) e( d cis h) \clef "tenor" a( h cis a)
+    <fis d'>8 d'16( fis) d8[-. a]-. a-. fis-.
+
+    g16( a h g) e8-. e16(\upbow g) fis8 d
+    e-. g-. h[-. e]-. g16( fis e d)
+    cis( d e fis) e( d cis h) a( g fis e)
+
+    fis8-. d'16( fis) d8[-. a]-. a-. fis-.
+    g16( a h g) e8[ cis']\upbow cis( d)
+    h-. e16( fis) g( fis e d) h( a g fis)
+    e( fis g e) fis4-. \clef "treble" \appoggiatura cis''8 d4-.
   }
 }

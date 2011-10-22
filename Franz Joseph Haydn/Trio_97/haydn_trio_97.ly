@@ -1,6 +1,7 @@
 \version "2.14.2"
 \include "deutsch.ly"
 
+% #(set-global-staff-size 17.2)
 #(set-global-staff-size 17)
 
 \header {
@@ -27,8 +28,12 @@ milo = "harpsichord"
 %minstr = "accordion"
 %milo = "bassoon"
 
+arco   = \markup \italic "arco"
+mtdaca = \markup \italic "Menuet da capo"
 legato = \markup \italic "legato"
+pizz   = \markup \italic "pizz."
 restez = \markup \italic "restez"
+trio   = \markup \bold "Trio"
 
 \include "v1.ily"
 \include "v2.ily"

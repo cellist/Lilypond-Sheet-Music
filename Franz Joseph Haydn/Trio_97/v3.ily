@@ -87,7 +87,7 @@ vc = \relative c {
     d,2 r4
   }
 
-  \break \time 2/4 \tempo "2. Allegro di molto " 4=140
+  \pageBreak \time 2/4 \tempo "2. Allegro di molto " 4=130
   \repeat volta 2 {
     d'4\f a
     d, r
@@ -215,5 +215,87 @@ vc = \relative c {
     fis8 g a a,
     d\downbow r a\downbow r
     <d, a'>4\downbow r
+  }
+
+  \break \time 3/4 \tempo "3. Menuet " 4=100
+  \repeat volta 2 {
+    r fis' d
+    e g a
+    fis r d
+    e a, d
+    r d\downbow d
+    d2.
+    cis8 d e4 e
+    a,\upbow a'\downbow a,
+  }
+
+  \repeat volta 2 {
+    R2.*4
+    a4 a' a
+    d,, d' d
+    g,8 g'( fis e) a g
+    fis4 r d
+    g a a,
+    d a\downbow d,
+  }
+
+  \repeat volta 2 {
+    R2.*2^\trio
+    r4 r \times 2/3 { a''8(\upbow cis e) }
+    e2( d4)
+    R2.*2
+    gis,2.
+    a4 r r
+    \times 2/3 { d8( cis h) } a4 gis\upbow
+
+    a e\downbow a,
+  }
+  \repeat volta 2 {
+    a r r
+    a r r
+    a r r
+    a r r
+    a r r
+    a a'8[ g] fis e
+
+    d4 r r
+    R2.*3
+    d'2.~
+    d2 d,4
+    g a a,\upbow
+    d_\mtdaca a\downbow d,
+  }
+
+  \break \tempo "4. Polonaise " 4=100
+  \repeat volta 2 {
+    d' r d
+    e cis d
+    g, r e8 g
+    a4 r a'16(\upbow g fis e)
+    d4 r d
+    e a, d
+    g, r e8 g
+
+    a4 d d,
+  }
+  \repeat volta 2 {
+    <fis' d'> r r8 d
+    e4 r8 g, a[ cis]
+    d fis, g[ e] g gis
+    a4 r a'16(\upbow g fis e)
+    d4 r8 d fis[ d]
+
+    e4 r8 g, a[ cis]
+    d fis, g[ e] g gis
+    a4 r a'16(\upbow g? fis e)
+    d4-. r d-.
+    e cis d
+
+    g, r e8 g
+    a4 r a'16(\upbow g fis e)
+    d4 r d
+    e a, d
+    g, r e8 g
+    a4 d d,
   }
 }
