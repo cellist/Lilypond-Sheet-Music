@@ -1,7 +1,7 @@
 \version "2.14.2"
 \include "deutsch.ly"
 
-#(set-global-staff-size 17.75)
+#(set-global-staff-size 17.1)
 
 \header {
   title = "Kanon in D"
@@ -16,7 +16,7 @@ voiceconsts = {
  \time 4/4
 % \numericTimeSignature
  \compressFullBarRests
- \tempo "Largo " 4=40
+ \tempo "Largo " 2=40
 }
 
 %minstr = "harpsichord"
