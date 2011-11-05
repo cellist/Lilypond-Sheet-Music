@@ -315,4 +315,79 @@ va = \relative c' {
     h-. e16( fis) g( fis e d) h( a g fis)
     e( fis g e) fis4-. \clef "treble" \appoggiatura cis''8 d4-.
   }
+
+  \clef "tenor" \time 2/2 \break \tempo "5. Adagio " 4=60
+  d,,4( f8 a)-3 d( f e d)
+  cis a(-. a-. a)-. a2
+  d8\upbow d,( f a) d( f e d)
+  b' d,(-. d-. d)-. c2
+
+  r8 c\upbow c r r c c r
+  r c c r r c c r
+  c4 h?8\upbow f'\upbow e \clef "bass" f,( e f)
+  e2 r
+
+  c4(-4 es8 g)-3 c( d es g,)
+  fis? a(-. a-. a)-. a( b a c)
+  b4 r r8 des\upbow des des
+
+  r c c c r es es es
+  r d? d d r d d d
+  cis?( d cis d) cis( gis a d)
+  cis4 a a r^\attac \bar "||"
+
+  \break \clef "tenor" \time 3/4 \tempo "6. Menuett - Allegretto " 4=100
+  \repeat volta 2 {
+    \partial 4 a\f
+    d( fis) a-.
+    g( e) a-.
+    fis( d) e-.
+    a,2 e'4-.\p
+    g,2 e'4
+    fis,2 d'4
+    e,2 a4
+    d, r
+  }
+
+  \repeat volta 2 {
+    \partial 4 d'\f
+    a2 c4
+    h( g) e'
+    cis?( a) fis'
+    d g\upbow fis\upbow
+    e( cis) a
+    d( fis) a-.
+
+    g( e) a-.
+    fis( d) e-.
+    a,2 e'4\p
+    g,2 e'4
+    fis,2 d'4
+    e,2 cis'4\f
+    d r
+  }
+
+  \repeat volta 2 {
+    \partial 4 r^\trio
+    fis2.
+    g
+    cis,
+    d2 fis4\downbow
+    e cis fis
+    d h e
+    cis a e
+    a r
+  }
+
+  \repeat volta 2 {
+    \partial 4 e
+    a r a
+    g' r \clef "bass" a,
+    d r a,
+    d r d \clef "tenor"
+    fis'2.
+    g
+    cis,
+    d4^\mtdaca r
+  }
 }

@@ -306,4 +306,79 @@ vb = \relative c'' {
     h,-. e16( fis) g( fis e d) g( fis e d)
     cis( d e cis) d4-. d,-+
   }
+
+  \clef "tenor" \time 2/2 \break \tempo "5. Adagio " 4=60
+  r1
+  r8 g'(-.\upbow g-. g)-. g4( f8 e)
+  d4 r r2
+  r8 g(-.\upbow g-. g)-. f( e d c)
+  f4 r8 a,\upbow c( b) r g
+
+  b( a) r f'16( a,) c8( b) r g
+  b( a) f'\upbow h,\upbow c a( g a)
+  g2 r
+  r1
+  r8 d'(-. d-. d)-. d2~
+
+  d8 es\upbow es(-.\downbow es)-. e2
+  f fis
+  g gis
+  a8( f e f) e( d cis gis)
+  a4 a, a r^\attac \bar "||"
+
+  \break \clef "tenor" \time 3/4 \tempo "6. Menuett - Allegretto " 4=100
+  \repeat volta 2 {
+    \partial 4 a'\f
+    d( fis) a-.
+    g( e) a-.
+    fis( d) e-.
+    a,2 e'4-.\p
+    g,2 e'4
+    fis,2 d'4
+    e,2 a4
+    d, r
+  }
+
+  \repeat volta 2 {
+    \partial 4 d'\f
+    a2 c4
+    h( g) e'
+    cis?( a) fis'
+    d g\upbow fis\upbow
+    e( cis) a
+    d( fis) a-.
+
+    g( e) a-.
+    fis( d) e-. \clef "bass"
+    a,2 r4
+    r e\downbow\p cis
+    r d a'
+    r h\f g
+    fis r
+  }
+
+  \repeat volta 2 {
+    \partial 4 d'^\trio
+    c a c
+    h g h
+    g e g
+    fis d r
+    fis2.~\downbow
+    fis2 e4
+    e2 \clef "tenor" e'4
+    a r
+  }
+
+  \repeat volta 2 {
+    \partial 4 e
+    a r a,
+    e' r \clef "bass" a,
+    d r a,
+    d r \clef "tenor" d'
+
+    c a8[ h] c a
+    h4 g h
+    g e'8[ fis] g e
+    fis4 ^\mtdaca d
+  }
 }

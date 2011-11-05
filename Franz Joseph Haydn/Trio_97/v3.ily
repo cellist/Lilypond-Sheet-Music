@@ -298,4 +298,79 @@ vc = \relative c {
     g, r e8 g
     a4 d d,
   }
+
+  \time 2/2 \break \tempo "5. Adagio " 4=60
+  d( f8 a) d( f e d)
+  cis cis cis cis cis2
+  d8\upbow d,( f a) d( f e d)
+  b' b,(-. b-. b)-. b2
+  r8 a\upbow a r r e' e r
+
+  r f f r r e e r
+  f4\downbow d c8 c,(-. c-. c)-.
+  c2 r
+  c4( es8 g) c( d es g,)
+  fis fis(-. fis fis)-. fis( g fis a)
+
+  g4 r r8 b\upbow b b
+  r a a a r c c c
+  r h? h h r b b b
+  a1
+  a4 a a r^\attac \bar "||"
+
+  \break \time 3/4 \tempo "6. Menuett - Allegretto " 4=100
+  \repeat volta 2 {
+    \partial 4 r
+    r r fis'\f
+    e cis a
+    d h gis
+    a a' r
+    r cis\downbow\p a
+    r d fis,
+    r g, a
+
+    d, d'
+  }
+
+  \repeat volta 2 {
+    \partial 4 r
+    r fis\f d
+    g2 gis4
+    a a, ais
+    h cis d
+    a r g'
+    fis d fis
+
+    e cis a
+    d h gis
+    a a' r
+    r cis,\p\downbow a
+    r d fis,
+    r g\f a
+    d d,
+  }
+
+  \repeat volta 2 {
+    \partial 4 r^\trio
+    d2.~
+    d~
+    d~
+    d
+    ais'
+    h2 gis4\upbow
+    a? r e'
+    a r
+  }
+
+  \repeat volta 2 {
+    \partial 4 e
+    a r r
+    r r a
+    d r a,
+    d r r
+    d,2.~
+    d~
+    d~
+    d4 ^\mtdaca r
+  }
 }
