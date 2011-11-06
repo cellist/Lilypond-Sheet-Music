@@ -224,7 +224,7 @@ va = \relative c' {
     <a fis'>4\downbow r
   }
 
-  \break \time 3/4 \tempo "3. Menuet " 4=100
+  \pageBreak \time 3/4 \tempo "3. Menuet " 4=100
   \repeat volta 2 {
     d2 \times 2/3 { fis8( e d) }
     g4 e\upbow cis\upbow
@@ -336,7 +336,7 @@ va = \relative c' {
   cis?( d cis d) cis( gis a d)
   cis4 a a r^\attac \bar "||"
 
-  \break \clef "tenor" \time 3/4 \tempo "6. Menuett - Allegretto " 4=100
+  \pageBreak \clef "tenor" \time 3/4 \tempo "6. Menuett - Allegretto " 4=120
   \repeat volta 2 {
     \partial 4 a\f
     d( fis) a-.
@@ -390,4 +390,107 @@ va = \relative c' {
     cis,
     d4^\mtdaca r
   }
+
+  \break \clef "treble" \time 2/2 \tempo "7. Finale - Fuga - Presto " 2=100
+  \partial 1 r1
+  R1*8
+  r4 a'-3\upbow a a
+  a( fis) fis( d)
+  r h'-3\upbow h h
+  h( gis) gis( e)
+
+  r cis'-2\upbow cis cis
+  cis( a)\thumb a( fis)
+  r d'-2\upbow d d
+  d cis8 d e4 d
+  cis e8 d cis h-3 a g?
+
+  fis4\thumb fis8 g a4 g8 a
+  h4 h,\thumb h'2~-2
+  h4 g8\thumb a h4 a8 h
+  cis4 cis, cis'2~-2
+  cis4 a8\thumb h cis4 h8 cis
+  d4 d, d'2~-2
+
+  d4 cis8 d e4 d\upbow
+  cis \clef "tenor" a, e'2~
+  e4 fis8 e d2~\>
+  d4 e8 d cis2~
+  cis4 d8 cis h2~
+  h4 cis8 h a2~\!
+
+  a4\p gis8 a h2~
+  h4\< a8 h cis2~
+  cis4 h8 cis d2~
+  d4 cis8 d e2~
+  e4 d8 e fis2~\!
+  fis4\f e8 fis e4 d
+
+  cis\downbow h8 cis d4 cis8 d
+  e4 e8 fis gis4 fis8 gis
+  a2 e\downbow
+  fis1\>
+  e
+  d
+  cis
+  h\!
+
+  cis4\mf\downbow cis8 d e4 d8 e
+  fis4 fis, fis'2~
+  fis4 d8 e fis4 e8 fis
+  gis4 gis, gis'2~-2
+  gis4 e8\thumb fis gis4 fis8 gis
+  a4 a, a'2~-2
+
+  a4 fis8 gis a4 gis8 a
+  h2 h,
+  cis2. h4\downbow
+  ais1
+  h2 r
+  r4 d\upbow d d
+  d( h) h( g)
+
+  r e'\upbow e e
+  e( cis) cis( a)
+  r fis'\upbow fis fis
+  fis( d) d( h)
+  cis2 d
+  e2. cis4\downbow
+  d1
+
+  cis4 a\p a a
+  a( fis) fis( d)
+  r g\upbow g g
+  g(\< e) e( cis)
+  r a'\upbow a a
+  a( fis) fis( d)
+
+  r h'\upbow h h
+  h( g) g( e)
+  cis e' a, d\!
+  d2\f cis
+  d4 d\p d d
+  d( h) h( g)
+
+  r e'\upbow\< e e
+  e( cis) cis( a)
+  r fis'\upbow fis fis
+  fis( d) d( h)
+  r g'\upbow g g
+  g2 fis\!
+  e1\trill\f
+
+  d2 r
+  r4 h\f\upbow h h
+  h(\< g) g( e)
+  r cis'\upbow cis cis\!
+  cis( a) a( fis)
+  r d'\upbow d d
+
+  d( h) h( g)
+  e e' a, a'
+  h g \grace fis8 e4 d8 e
+  fis2 r
+  <a, e'>\downbow r
+  <d, a'>\downbow r \bar "|."
 }

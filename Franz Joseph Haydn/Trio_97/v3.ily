@@ -217,7 +217,7 @@ vc = \relative c {
     <d, a'>4\downbow r
   }
 
-  \break \time 3/4 \tempo "3. Menuet " 4=100
+  \pageBreak \time 3/4 \tempo "3. Menuet " 4=100
   \repeat volta 2 {
     r fis' d
     e g a
@@ -318,7 +318,7 @@ vc = \relative c {
   a1
   a4 a a r^\attac \bar "||"
 
-  \break \time 3/4 \tempo "6. Menuett - Allegretto " 4=100
+  \pageBreak \time 3/4 \tempo "6. Menuett - Allegretto " 4=120
   \repeat volta 2 {
     \partial 4 r
     r r fis'\f
@@ -373,4 +373,114 @@ vc = \relative c {
     d~
     d4 ^\mtdaca r
   }
+
+  \break \time 2/2 \tempo "7. Finale - Fuga - Presto " 2=100
+  \partial 1 d'2 fis
+  g r
+  e g
+  a r
+  fis a
+  h2. g4
+  cis,1
+
+  d2 cis
+  h gis'
+  a, cis
+  d r
+  h d
+  e r
+  cis e
+
+  fis r
+  d fis
+  e1
+  a,2 r
+  r4 d d d
+  d( h) h( g)
+  r e'\upbow e e
+
+  d( cis) cis( a)
+  r fis'\upbow fis fis
+  fis( d) d( h)
+  gis'1
+  a2. cis4\upbow
+  d d, h'\> a8 h
+
+  cis4 cis, a' gis8 a
+  h4 h, gis' fis8 gis
+  a4 a,\upbow fis' dis\!
+  e1~\p
+  e\<
+  e,~
+  e~
+  e~\!
+
+  e~\f
+  e2 r
+  r4 e'' e e
+  e( cis) cis( a)
+  d(\> h) h( gis)
+  cis( a) a( fis)
+  h( gis) gis( e)
+
+  a( e) e( cis)
+  d h e e,\!
+  a\mf a8 h cis4 h8 cis
+  d4 d, d'2~
+  d4 h8 cis d4 cis8 d
+  e4 e, e'2~
+
+  e4 cis8 d e4 d8 e
+  fis4 fis, fis'2~
+  fis4 d8 e fis4 e8 fis
+  gis1
+  a2. g?4\downbow
+  fis1
+  h2 r
+
+  r4 h,\upbow h h
+  h( g) g( e)
+  r cis'\upbow cis cis
+  cis( a) a( fis)
+  r d'\upbow d d
+  d( h) h( g)
+  a1~
+
+  a~
+  a~
+  a~\p
+  a~
+  a~
+  a~\<
+  a~
+  a~
+  a~
+  a~
+
+  a4 cis d\! fis
+  g\f e a a,
+  d d8\p e fis4 e8 fis
+  g4 g, g'2~
+  g4 e8\< fis g4 fis8 g
+  a4 a, a'2~
+
+  a4 fis8 g a4 g8 a
+  h4 h, h'2~
+  h4 g8 a h4 a8 h
+  cis4 a d fis,\!
+  g\f e a a,
+  d2 r
+
+  r4 g,\mf\upbow g g
+  g(\< e) e( cis)
+  r a'\upbow a a\!
+  a(\f fis) fis( d)
+  r h'\upbow h h
+
+  h( g) g( e)
+  cis cis' d fis
+  g e a a,
+  d2 r
+  <a e'>\downbow r
+  d,\downbow r \bar "|."
 }

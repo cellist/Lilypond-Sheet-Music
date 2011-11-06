@@ -1,7 +1,6 @@
 \version "2.14.2"
 \include "deutsch.ly"
 
-% #(set-global-staff-size 17.2)
 #(set-global-staff-size 17)
 
 \header {
