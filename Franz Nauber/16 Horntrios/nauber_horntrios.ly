@@ -1,4 +1,4 @@
-\version "2.12.3"
+\version "2.14.2"
 \include "deutsch.ly"
 
 %#(set-global-staff-size 22.5)
@@ -244,7 +244,7 @@ taso = \markup \italic "Tasto Solo"
 
     \score {
       \new StaffGroup <<
-	\new Staff {
+	\new Staff { 
 	  \set Staff.midiInstrument = \minstr
 	  \set Staff.instrumentName = #"Vc 1"
 	  \transpose c c, { \vaa }
