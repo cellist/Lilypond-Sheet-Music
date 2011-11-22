@@ -1,7 +1,7 @@
-\version "2.12.3"
+\version "2.14.2"
 \include "deutsch.ly"
 
-#(set-global-staff-size 23)
+#(set-global-staff-size 22)
 
 \header {
   title = "Cello Suite I"
@@ -26,6 +26,7 @@ minstr = "bassoon"
 
 bmf = \markup { \bold \italic "[" \dynamic mf "]" }
 bp  = \markup { \bold \italic "[" \dynamic p "]" }
+fro = \markup \italic "am Frosch"
 vor = \markup \italic "voran!"
 
 \include "v1.ily"
@@ -50,7 +51,6 @@ music = \new StaffGroup <<
     \midi {
       \context {
         \Score
-        tempoWholesPerMinute = #(ly:make-moment 100 4)
       }
     }
   }
