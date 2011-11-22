@@ -1,4 +1,4 @@
-\version "2.12.3"
+\version "2.14.2"
 \include "deutsch.ly"
 
 #(set-global-staff-size 18)
@@ -30,6 +30,7 @@ brp  = \markup \bold \italic { "(" \dynamic p ")" }
 espr = \markup \bold \italic "espressivo"
 si   = \markup \bold \italic "I"
 sii  = \markup \bold \italic "II"
+siii = \markup \bold \italic "III"
 
 \include "v1.ily"
 music = \new StaffGroup <<

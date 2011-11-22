@@ -360,7 +360,6 @@ va = \relative c {
    c,( f a) c h c
    c,2.\fermata \bar "|."
 
-
    \pageBreak \key es \major \time 3/4 \tempo "Nr. 7: Moderato " 4=100
    r8_\espr b'(\upbow a b c d-1)
    es4.( a,8-3 b fis-3
@@ -441,4 +440,29 @@ va = \relative c {
    es) c( b a b g)
    es2.~
    es4 r r \bar "|."
+
+   \pageBreak \clef "tenor" \key h \minor \time 4/4 \tempo "Nr. 9: Moderato " 4=100
+   fis''2\(~-4\downbow\mf\< \times 2/3 { fis8\! e\> d d-4 cis h\!\) }
+   fis4(~-1 fis8. a32-4 g fis4) r
+   fis'2\(~-4\downbow\< \times 2/3 { fis8\! e\> d d-4 cis h\!\) }
+   cis4(~-1 cis8. e32 d cis4) r
+   g'2\(~\< \times 2/3 { g8\! fis\> e e-4 d cis\!\) }
+
+   fis2\(~-4\downbow\< \times 2/3 { fis8\! e\> d d-4 cis h\!\) }
+   h'2\(~-3\< \times 2/3 { h8\! a\> g g-4 fis-3 eis-2\!\) }
+   fis2.-3 \clef "bass" r4
+   fis,2\(~-4_\siii\< \times 2/3 { fis8\! e\> d d-4 cis h\!\) }
+   fis4(~-1 fis8. a32 g fis4) r
+
+   fis'2\(-4\< \times 2/3 { fis8\! e\> d d-4 cis h\!\) }
+   cis4(~-1 cis8. e32 d cis4) r
+   g'2\(~-3\< \times 2/3 { g8\! fis-4\> e-2 e-4 d-2 cis-1\!\) }
+   d2\(-2\< \times 2/3 { a8-1 d-0 fis a \clef "tenor" d-1 fis-3\!\) }
+   g2\(~-4\> \times 2/3 { g8 fis e e-4 d cis\) }
+
+   d2.(-4 his4)-3_\sii\!
+   cis2\(~-4\p \times 2/3 { cis8 h? a a-4 gis fis\) } \clef "bass"
+   cis2\(~-4 \times 2/3 { cis8 h a a-4 gis fis\) }
+   cis2\( \times 2/3 { d8 cis his cis a'-4 gis\) }
+   fis2. r4
 }
