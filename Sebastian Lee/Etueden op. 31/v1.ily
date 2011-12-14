@@ -457,12 +457,47 @@ va = \relative c {
    fis'2\(-4\< \times 2/3 { fis8\! e\> d d-4 cis h\!\) }
    cis4(~-1 cis8. e32 d cis4) r
    g'2\(~-3\< \times 2/3 { g8\! fis-4\> e-2 e-4 d-2 cis-1\!\) }
-   d2\(-2\< \times 2/3 { a8-1 d-0 fis a \clef "tenor" d-1 fis-3\!\) }
+   d2\(-2\< \times 2/3 { a8-1 d-0 fis \clef "tenor" a d-1 fis-3\!\) }
    g2\(~-4\> \times 2/3 { g8 fis e e-4 d cis\) }
 
    d2.(-4 his4)-3_\sii\!
-   cis2\(~-4\p \times 2/3 { cis8 h? a a-4 gis fis\) } \clef "bass"
+   cis2\(~-4\p \times 2/3 { cis8_\sii h? a a-4 gis fis\) } \clef "bass"
    cis2\(~-4 \times 2/3 { cis8 h a a-4 gis fis\) }
    cis2\( \times 2/3 { d8 cis his cis a'-4 gis\) }
-   fis2. r4
+   fis2. r4 \clef "tenor"
+   fis''2\(~-4\mf \times 2/3 { fis8 e d d-4 cis h\) }
+
+   a4(~ a8. cis32 h a4) r
+   d2\(~-3_\sii \times 2/3 { d8 cis h h-4 a g\) }
+   fis4(~-1 fis8. a32 g fis4) r
+   e2\(~-1 \times 2/3 { e8 fis g g-1 a h\) }
+   fis2\(~-1 \times 2/3 { fis8 gis ais h-1_\sii cis d\) }
+
+   fis2\(~-1_\si \times 2/3 { fis8 g? fis fis-4 cis d\) }
+   h2.-1 r4 \clef "bass"
+   fis2\(~-4_\siii \times 2/3 { fis8 e d d-4 cis h\) }
+   a4(~-1 a8. cis32 h a4) r
+   d2\(~-4 \times 2/3 { d8 cis h h-4 a g\) }
+
+   fis4(~ fis8. a32 g fis4) r
+   e2\(~-1 \times 2/3 { e8 fis g g-1 a h\) }
+   fis2\(-1 \times 2/3 { fis8 gis ais h-1_\siii cis-2 d-3\) }
+   fis2\(~-2_\siii \times 2/3 { fis8 g? fis e-4 cis d\) }
+   h2\(~-1 \times 2/3 { h8 d cis h d fis\) }
+
+   h2\(~-4 \times 2/3 { h8 a g g-4 fis e\) }
+   fis2\(~-3 \times 2/3 { fis8 e d-0 d-4 cis h\) }
+   e2\(~-4 \times 2/3 { e8 d cis cis-4 h ais\) }
+   h2\(~ \times 2/3 { h8 d-0 fis-1 \clef "tenor" h-4 d-1 fis-4\) }
+
+   h2\(~-3 \times 2/3 { h8 a g-1 g-4 fis e\) }
+   fis2\(~-4\> \times 2/3 { fis8 e d d-4 cis h\) }
+   e2\(~-4 \times 2/3 { e8 d cis cis-4 h ais\)\! } \clef "bass"
+   h2\(~-1\p \times 2/3 { h8 d cis h d cis\) }
+
+   h2\(~ \times 2/3 { h8 g fis eis fis d\) }
+   h2\(~-1\> \times 2/3 { h8 d cis h d cis\) }
+   h2\(~-1\> \times 2/3 { h8 d cis h d fis-1\)\! }
+   h4-4 r <h, fis' d'>\downbow\f r
+   h r r2 \bar "|."
 }
