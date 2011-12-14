@@ -1,7 +1,7 @@
-\version "2.12.3"
+\version "2.14.2"
 \include "deutsch.ly"
 
-#(set-global-staff-size 21)
+#(set-global-staff-size 23.2)
 
 \header {
   title = "Jesus bleibet meine Freude"

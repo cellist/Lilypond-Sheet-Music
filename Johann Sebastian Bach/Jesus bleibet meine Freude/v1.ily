@@ -1,64 +1,65 @@
-va = \relative c'' {
+va = \relative c'' \scaleDurations #'(2 . 3) {
   \voiceconsts
+  \set Staff.timeSignatureFraction = #'(9 . 8)
   \clef "treble"
 
-  \times 2/3 { h8(\f g a) h[( d c]) c( e d) }
-  \times 2/3 { d( g fis) g[( d h]) g( a h) }
-  \times 2/3 { c( d e) d[( c h]) a( h g) }
-  \times 2/3 { fis( g a) d,[( fis a]) c( h a) }
-  \times 2/3 { h( g a) h[( d c]) c( e d) }
+  h8(\f g a) h[( d c]) c( e d)
+  d( g fis) g[( d h]) g( a h)
+  c( d e) d[( c h]) a( h g)
+  fis( g a) d,[( fis a]) c( h a)
+  h( g a) h[( d c]) c( e d)
 
-  \times 2/3 { d( g fis) g[( d h]) g( a h) }
-  \times 2/3 { e,( d' c) h[( a g]) d( g fis) }
-  \times 2/3 { g( h d) g[(\> d h]) g( h d)\! }
-  h2\p c4
-  d2 d4
-  c2 h4
+  d( g fis) g[( d h]) g( a h)
+  e,( d' c) h[( a g]) d( g fis)
+  g( h d) g[(\> d h]) g( h d)\!
+  h2.\p c4.
+  d2. d4.
+  c2. h4.
 
-  \times 2/3 { a8( d, e) fis[( a g]) a( c h) }
-  \times 2/3 { c( a fis) d[( fis a]) c( h a) }
-  h2 c4
-  d2 h4
-  a8( h16 c) h4 a
-  \times 2/3 { g8(\f h a) h[( d c]) c( e d) }
+  a8( d, e) fis[( a g]) a( c h)
+  c( a fis) d[( fis a]) c( h a)
+  h2. c4.
+  d2. h4.
+  a4( h16 c) h4. a
+  g8(\f h a) h[( d c]) c( e d)
 
-  \times 2/3 { d( g fis) g[( d h]) g( a h) }
-  \times 2/3 { c( d e) d[( c h]) a( h g) }
-  \times 2/3 { fis( g a) d,[( fis a]) c( h a) }
-  \times 2/3 { h( g a) h[( d c]) c( e d) }
-  \times 2/3 { d( g fis) g[( d h]) g( a h) }
+  d( g fis) g[( d h]) g( a h)
+  c( d e) d[( c h]) a( h g)
+  fis( g a) d,[( fis a]) c( h a)
+  h( g a) h[( d c]) c( e d)
+  d( g fis) g[( d h]) g( a h)
 
-  \times 2/3 { e,( d' c) h[(\> a g]) d( g fis)\! }
-  \acciaccatura g h2\p c4
-  d2 d4
+  e,( d' c) h[(\> a g]) d( g fis)\!
+  \acciaccatura g h2.\p c4.
+  d2. d4.
   c a h
-  \times 2/3 { a8( d, e) fis[( a g]) a( c h) }
-  \times 2/3 { c( a fis) d[( fis a]) c( h a) }
-  h2 c4
+  a8( d, e) fis[( a g]) a( c h)
+  c( a fis) d[( fis a]) c( h a)
+  h2. c4.
 
-  d2 h4
-  a8( h16 c) h4 a
-  \times 2/3 { g8(\f h a) h[( d c]) c( e d) }
-  \times 2/3 { d( g fis) g[( d h]) g( a h) }
-  \times 2/3 { c( d e) d[( c h]) a( h g) }
+  d2. h4.
+  a4( h16 c) h4. a
+  g8(\f h a) h[( d c]) c( e d)
+  d( g fis) g[( d h]) g( a h)
+  c( d e) d[( c h]) a( h g)
 
-  \times 2/3 { fis( g a) d,[( fis a]) c( h a) }
-  \times 2/3 { h( g a) h[( d c]) c( e d) }
-  \times 2/3 { d( g fis) g[( d h]) g( a h) }
-  \times 2/3 { e,( d' c) h[( a g]) d( g fis) }
+  fis( g a) d,[( fis a]) c( h a)
+  h( g a) h[( d c]) c( e d)
+  d( g fis) g[( d h]) g( a h)
+  e,( d' c) h[( a g]) d( g fis)
 
-  \times 2/3 { g( h d) g[( d h]) g( h d) }
-  \times 2/3 { f( d h) g[( h d]) e( c a) }
-  \times 2/3 { fis?( a c) d[( h g]) e( g h) }
-  \times 2/3 { c( a fis) d[( fis a]) c( h a) }
+  g( h d) g[( d h]) g( h d)
+  f( d h) g[( h d]) e( c a)
+  fis?( a c) d[( h g]) e( g h)
+  c( a fis) d[( fis a]) c( h a)
 
-  \times 2/3 { h( g a) h[( d c]) c( e d) }
-  \times 2/3 { d( g fis) g[( d h]) g( a h) }
-  \times 2/3 { c( d e) d[( c h]) a( h g) }
-  \times 2/3 { fis( g a) d,[( fis a]) c( h a) }
+  h( g a) h[( d c]) c( e d)
+  d( g fis) g[( d h]) g( a h)
+  c( d e) d[( c h]) a( h g)
+  fis( g a) d,[( fis a]) c( h a)
 
-  \times 2/3 { h( g a) h[( d c]) c( e d) }
-  \times 2/3 { d( g fis) g[( d h]) g( a h) }
-  \times 2/3 { e,( d' c) h[( a g]) d( g fis) }
-  g2. \bar "|."
+  h( g a) h[( d c]) c( e d)
+  d( g fis) g[( d h]) g( a h)
+  e,( d' c) h[( a g]) d( g fis)
+  g2.~ g4. \bar "|."
 }
