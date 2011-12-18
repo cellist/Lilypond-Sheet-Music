@@ -6,7 +6,7 @@ va = \relative c' {
   d4.( f8) f( es) d( c)
   c( b a b) b4( h)
   c g' f8( es d c)
-  b4.( c16 b) a4 r8. a16
+  b4.( c16 b) a4 r8. f16
 
   es'2( c4) r8. f,16
   d'2( b4) r8. b16
@@ -16,10 +16,10 @@ va = \relative c' {
 
   c( b a b) b4( h)
   c g' f8( es d c)
-  b4.( c16 b) a4 r8. a16
-  es'2( c4) r8. a16
+  b4.( c16 b) a4 r8. f16
+  es'2( c4) r8. f,16
 
-  d2( b4) r8. b16
+  d'2( b4) r8. b16
   c4.( d16 es) d4 \grace d8( c8)( b16 c)
   c2( b4) r \bar "||"
   d2( es8 d) c( b)
@@ -37,7 +37,7 @@ va = \relative c' {
   f2.( a8 g)
 
   g4. b8 b( g \clef "tenor" d e)
-  \grace g8( f2.)\trill e16( f fis es) \bar "||"
+  \grace g8( f2.)\trill \times 4/5 { e16( f fis g es) } \bar "||"
   d4. d8 es( d cis d)
   g2( f4) r8 b,
   c4.( d16 es) es8( d) d( c)
@@ -62,7 +62,7 @@ va = \relative c' {
   c4.( d8) es4( d)
   g( f) b( a)
   g4. g8 \grace a( g f) f f
-  \grace { e16[( f g] } f8)( e) es4.( g16 es) b'( g f es)
+  \grace { e16[( f g] } f8)( e) e4.( g16 e) b'( g f e)
 
   \grace g8( f8)( e16 f f4) r8 c d es
   f4.( d8) g( f) es( d)
@@ -72,7 +72,7 @@ va = \relative c' {
   c4 r a16( b a b) c8 c
   c4( a8) r c16( d c d) es8 es
   es4( c8) r es16( f es f) g8 g
-  g( a,) a4. c8( d es)
+  g( a,) a4. c8( es d)
 
   f( es) r g f( es) r g
   f( es) es2.

@@ -1,6 +1,6 @@
 vc = \relative c' {
   \voiceconsts
-  \clef "tenor"
+  \clef "bass"
   \compressFullBarRests
 
   b2( a)
@@ -62,14 +62,14 @@ vc = \relative c' {
   es2 des
   c4 c, c c
 
-  f f' r8 a b c
+  f f' r8 \clef "tenor" a b c
   d4.( b8) es( d) c( b)
   a4 c r8 a b c
   d4.( b8) es( d) c( b)
 
   a4 r r2
   f1
-  a16( b a b) c8 c c4 r
+  a16( b a b) c8 c c4 r \clef "bass"
   f,, f' f r
 
   f1~

@@ -1,7 +1,12 @@
 \version "2.14.2"
 \include "deutsch.ly"
 
-#(set-global-staff-size 20.25)
+%{
+  \paper {
+    #(set-default-paper-size "a4")
+    #(set-global-staff-size 18)
+  }
+%}
 
 \header {
   title = "Cellokonzert Nr. 1 (G-Dur)"
@@ -9,25 +14,23 @@
   composer = "Carl Philipp Stamitz"
   arranger = "(1745-1801)"
   piece = "Romanze"
-  enteredby = "cellist (2009-10-10)"
+  enteredby = "Olaf Wasmuth (2009-10-10)"
 }
 
 voiceconsts = {
  \key b \major
+ \numericTimeSignature
  \time 4/4
- \clef "bass"
-% \numericTimeSignature
- \compressFullBarRests
  \tempo "Andantino " 4=80
 }
 
-%minstr = "harpsichord"
+minstr = "harpsichord"
 mihi = "clarinet"
 %minstr = "accordion"
 milo = "bassoon"
 
 cresc = \markup \italic "cresc."
-
+fmarc = \markup { \dynamic f \bold \italic " marcato" }
 
 \include "v1.ily"
 \include "v2.ily"
@@ -35,21 +38,21 @@ cresc = \markup \italic "cresc."
 
 music = \new StaffGroup <<
       \new Staff {
-	\set Staff.midiInstrument = \mihi
-	\set Staff.instrumentName = #"Vc I"
-	\transpose b b { \va }
+        \set Staff.midiInstrument = \mihi
+        \set Staff.instrumentName = #"Cl"
+        \transpose b g' { \va }
       }
 
       \new Staff {
-	\set Staff.midiInstrument = \mihi
-	\set Staff.instrumentName = #"Vc II"
-	\transpose b b { \vb }
+        \set Staff.midiInstrument = \mihi
+        \set Staff.instrumentName = #"Cl"
+        \transpose b g' { \vb }
       }
 
       \new Staff {
-	\set Staff.midiInstrument = \milo
-	\set Staff.instrumentName = #"Vc III"
-	\transpose b b { \vc }
+        \set Staff.midiInstrument = \milo
+        \set Staff.instrumentName = #"Vlc"
+        \transpose b f' { \vc }
       }
 >>
 
@@ -65,6 +68,7 @@ music = \new StaffGroup <<
     \midi {
       \context {
         \Score
+        tempoWholesPerMinute = #(ly:make-moment 80 4)
       }
     }
   }

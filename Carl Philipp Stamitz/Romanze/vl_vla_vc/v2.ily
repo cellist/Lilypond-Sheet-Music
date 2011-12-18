@@ -30,7 +30,7 @@ vb = \relative c' {
   b
 
   a8( c a c) a( c a c)
-  a( c a c) a( c a c)
+  b( c b c) b( c b c)
   a1
   b2. g4
   a1
@@ -49,7 +49,7 @@ vb = \relative c' {
 
   d( h) es8( d) c( h)
   h4( c8) r c4 c
-  c( b?) d8( c) b( a)
+  c( a) d8( c) b( a)
   a4( b8) r b2
   b2. c4
 
