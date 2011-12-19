@@ -1,7 +1,7 @@
 \version "2.14.2"
 \include "deutsch.ly"
 
-#(set-global-staff-size 20)
+#(set-global-staff-size 19)
 
 \header {
   title = "Sixième Sonate"
@@ -23,7 +23,8 @@ voiceconsts = {
 %minstr = "accordion"
 minstr = "bassoon"
 
-iitwo = { \bar "||" \partial 2 }
+fine = \markup \italic \bold "Fine"
+rond = \markup \italic "Rondeau"
 
 \include "v1.ily"
 \include "v2.ily"

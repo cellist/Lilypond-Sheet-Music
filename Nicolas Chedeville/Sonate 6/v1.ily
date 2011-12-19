@@ -78,4 +78,84 @@ va = \relative c'' {
     a4 e-+
     g4.
   }
+
+  \pageBreak \tempo "2. La Signoria - Gracieusement " 8=100 \time 3/8
+  \repeat volta 2 {
+    \partial 4. g'8\segno d4
+    c8( h-+ a)
+    g( fis-+ e)
+    d4.
+    \times 2/3 { g'16( fis e) } a4
+    g8( fis-+ e)
+    \times 2/3 { g16( fis e) fis[( e d]) e( d cis) }
+    d4.
+
+    g8 d4
+    c?8( h-+ a)
+    g( fis-+ e)
+    d4.
+    \times 2/3 { g'16( fis e) fis[( e d]) fis( e d) }
+    g8 d4
+
+    \times 2/3 { c16( h a) h[( a g]) a( g fis) }
+    g4._\fine
+  }
+  \repeat volta 2 {
+    a8 d,4
+   \times 2/3 { c'16( h a) } h4
+   \times 2/3 { e16( d cis) d[( e fis]) e( fis g) }
+   cis,4-+ a8
+
+   a' h,4
+   g'8 a,4
+   g8( fis e)-+
+   d16 e fis g a h
+   d, e fis g a h
+   a8 d4
+
+   fis16 e d cis h a
+   g4-+ fis8
+   g16( fis) g( fis) h8
+   g16( fis) g( e) a8
+   g16( fis) e( d) e( fis)
+   d4.
+   a'8 d,16 a' d, d'
+
+   h4.-+
+   d16 g, d' g, g'8
+   fis4.-+
+   g8 d16 g d g
+   c, g' h, g' a, g'
+   g, g' fis, g' e, g' 
+
+   d,4.\segno
+  }
+  \repeat volta 2 {
+   d'8 g,4
+   e'16 fis g a d,8
+   c h8.-+ a16
+   h4-+ \appoggiatura a8 g
+   h a4
+   d8 fis,4-+
+
+   g'8 e4-+
+   a8 fis4-+
+   \appoggiatura { e16[ fis] } g fis e fis32( g) d8
+   g16 fis e fis32( g) c,8
+   g'16 fis e fis32( g) h,8
+   g'16 fis e fis32( g) a,8
+
+   g'16 fis e fis32( g) g,8
+   c16 h a g fis e
+   fis4-+ d8
+   g' f4-+
+   e4.
+   a8 g4
+
+   fis?4.-+
+   \appoggiatura { g16[ fis e] } d4.
+   \appoggiatura { e16[ d c] } h4.
+   d32 c h a g fis g a h c d e
+   fis,8.-+_\rond e16 d8
+  }
 }
