@@ -159,7 +159,7 @@ vb = \relative c'' {
     d16[_\rond c d e fis d]
   }
 
-  \pageBreak \tempo "3. Les Syncopes - Légèrement" 2=70 \time 2/2
+  \break \tempo "3. Les Syncopes - Légèrement " 2=70 \time 2/2
   \repeat volta 2 {
     \partial 4 r4
     R1*5
@@ -299,4 +299,70 @@ vb = \relative c'' {
     c h8-+ a a4.-+ g8
     g2. \bar "|."
   }
+
+  \pageBreak \tempo "4. Loure " 4=90 \time 6/4
+  \repeat volta 2 {
+    \partial 8*9 r8 r2 r
+    r4 r8 g a4 h4. a8 g fis
+    g4 d4. g8 fis h a g fis e
+
+    d4 fis4. g8 fis4 e4.-+ fis8
+    e4 d8 cis d e fis g a h cis d
+    cis4 a d~ d cis4.-+ d8
+
+    d4.
+  }
+  \repeat volta 2 {
+    \partial 8*9 r8 r2 r8 d c?4
+    h4.-+ h8 a4 g4.-+ fis8 g a
+    fis4-+ d r2 r8 g h c
+
+    d4. c8 d e c4-+ h8 g h4
+    a4. g8 a4 g4. fis8 g4
+    d d8 e fis4 fis g8 a h4~
+    h c8 d e c d4 a8 h c4
+
+    h4. d8 c h a4 g g~
+    g fis8 g a h a4 r d~
+    d r c~ c h8-+ a h c
+
+    h4. g8[ a h c] h a g fis e
+    d c' h4.-+ a8 g fis fis4.-+ g8
+    g4.
+  }
+
+  \break \tempo "5. Menuet italien " 8=120 \time 3/8
+  \repeat volta 2 {
+    \partial 4. r
+    g8 g g
+    d'4 c8
+    h16 a g a h g
+    c8 h16 a g8
+    c16 a h g fis d
+    g8 d' d,
+
+    g4.
+  }
+  g8 g g
+  g fis16 e fis8
+  d g16 a h8
+  g16 fis e fis g e
+  a8 g fis
+  e16 fis g8 fis
+  h g a
+
+  d,4 r8
+  d16 e fis8 d
+  g fis r
+  d16 e fis8 g
+  c h r
+  r4.
+  d,16 e fis g a h
+  d,8 d d
+
+  d16 e fis g a fis
+  g4 fis8
+  g16 a h g fis d
+  g8 d' d,
+  g4. \bar "|."
 }
