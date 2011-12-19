@@ -156,6 +156,151 @@ va = \relative c'' {
    \appoggiatura { g16[ fis e] } d4.
    \appoggiatura { e16[ d c] } h4.
    d32 c h a g fis g a h c d e
-   fis,8.-+_\rond e16 d8
+   fis,8.[-+_\rond e16 d8]
+  }
+
+  \pageBreak \tempo "3. Les Syncopes - Légèrement" 2=70 \time 2/2
+  \repeat volta 2 {
+    \partial 4 g4
+    d' d d( c8-+ h)
+    c4 h2 e4
+    a, d g, c
+    fis, h e, a
+    d, g h8 a g fis
+    g a h c d4 d
+    h-+ h h a8 g
+    fis4-+ g2 g'4~
+    g fis2 e4~
+
+    e d2 c4~
+    c h8(-+ a) a4.-+ g8
+    g2 r4 g
+    h h h cis8 d
+    cis4-+ a r d
+    a' a a g8 fis
+    a4 fis2 e8 d
+    e4 a d, g
+    cis, fis h, e
+
+    a, d fis8 e d cis
+    d4 d, d a''
+    fis fis fis e8 d
+    cis4 d d, d'~
+    d cis2 h4~
+    h a2 g4~
+    g fis8-+ e e4.-+ d8
+    d4 a'2 h4~
+
+    h cis2 d4~
+    d a2 g4~
+    g fis8-+ e e4.-+ d8
+    d4 fis2 g4~
+    g a2 h4~
+    h fis2 e4~
+    e d8 e e4.-+ d8
+    d2.
+  }
+  \repeat volta 2 {
+    \partial 4 a'4
+    h h h a8-+ g
+
+    a4 d, g2~
+    g4 a8 g fis g a d,
+    fis4-+ d r d'
+    e e e d8 c
+    d4 g, c2~
+    c4 d8 c h c d a
+    h4-+ g r d
+
+    g g g fis8 e
+    d4 d'8 c h cis d e
+    cis4-+ a d c~
+    c d8 c h4 g
+    c c c( h8-+ a)
+    g2 e8 fis g a
+    fis4-+ d g fis-+
+
+    g2 r4 d'
+    g g g fis8 e
+    fis4 d g2~
+    g4 a8 g fis g a e
+    fis2-+ r4 d
+    g g g g
+    g8 fis e d c h a g
+
+    g'1
+    g8 fis e d c h a g
+    e'4 d c8 h a g
+    fis4-+ d r g8 a
+    h4 g c2~
+    c4 d8 c h cis d e
+    cis4-+ a d cis
+
+    d a d c?
+    h-+ g r d'
+    g g g g
+    g8 fis e d c h a g
+    g'2 r8 g, a h
+    c4 h fis g
+    d2 r4 g
+
+    h h h h
+    h8 a g fis e g a h
+    c4 c c c
+    c8 h a g fis a h c
+    d4 d d d
+    d8 c h a g h c d
+
+    e4 d e d
+    e d r e8 fis
+    g c, h c g' c, h c
+    e4 d r e8 fis
+    g c, h c g' c, h c
+    e4 d e8 fis g c,
+    h2-+ e8 fis g h,
+
+    a2-+ e'8 fis g c,
+    h2-+ e8 fis g h,
+    a2-+ g8 fis g a
+    fis4-+ d g8 a h g
+    e4-+ d8 e fis g a h
+    c4 c c c
+
+    c e2 d4~
+    d c2 h4~
+    h a2 g4~
+    g2 fis-+
+    g4 a8 h c d e fis
+    g4 g g fis8 e
+    fis4 d r a'
+    d, g c, fis
+    h, e a, d
+
+    g, c h8 a g fis
+    g a h c d4 e~
+    e fis2 g4~
+    g d2 c4~
+    c h8-+ a a4.-+ g8
+    g a h c d4 e~
+    e fis2 g4~
+    g d2 c4~
+    c h8-+ a a4.-+ g8
+
+    g4. d8 e fis g a
+    h4 cis8 d cis a h cis
+    d4 d, r c'?~
+    c h2 a4~
+    a g2 fis4
+    e fis g8 a h c
+    h4.-+ a8 g4 c~
+    c d2 e4~
+
+    e h2 c4
+    d g,8-+ a fis4.-+ g8
+    g fis g a h4 c~
+    c d2 e4~
+    e h2 c4
+    d g,8 a fis4.-+ g8
+    g2. \bar "|."
   }
 }
