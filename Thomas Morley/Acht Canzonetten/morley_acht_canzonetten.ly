@@ -1,7 +1,7 @@
 \version "2.14.2"
 \include "deutsch.ly"
 
-#(set-global-staff-size 18.4)
+#(set-global-staff-size 19)
 
 \header {
   title = "Acht Canzonetten"
@@ -33,15 +33,15 @@ music = \new StaffGroup <<
       \new Staff {
 	\set Staff.midiInstrument = \minstr
 	\set Staff.instrumentName = #"Vc I"
-%	\transpose c c { \va }
-	\transpose c d, { \va }
+%	\transpose es es { \va }
+	\transpose es b,, { \va }
       }
 
       \new Staff {
 	\set Staff.midiInstrument = \minstr
 	\set Staff.instrumentName = #"Vc II"
-%	\transpose c c { \vb }
-	\transpose c d, { \vb }
+%	\transpose es es { \vb }
+	\transpose es b,, { \vb }
       }
 >>
 
