@@ -209,7 +209,7 @@ vb = \relative c' {
   as g f es f4 \time 4/4
   g1\fermata \bar "|."
 
-  \pageBreak \tempo "Nr. 5" \key c \major \time 4/4
+  \break \tempo "Nr. 5" \key c \major \time 4/4
   d4 d8 cis d4 e
   f2 r
   d4 d8 cis d4 e
@@ -311,4 +311,125 @@ vb = \relative c' {
     f8 es es2 d?4
     es1
   }
+
+  \break \tempo "Nr. 7" \key c \major
+  r2 d
+  f4. g8 a2
+  r4 d2 c4
+  h2 a
+  r4 a, c4. d8
+  e4 cis d2
+  a r4 a'
+
+  c?4. h8 a4 e
+  f8 e f g a4 g~
+  g8 f f e16 d e2
+  fis4 d f4. g8
+  a2 r4 d,
+  c h a a'~
+
+  a gis a a
+  c4 . h8 a2
+  g?4 a8[ g] f e f4
+  e a c4. h8
+  a4 e f g
+  a d,8[ e] f d e4~
+
+  e8 d d2 cis4 \bar "||" \time 3/4
+  d f e
+  a4. g8 c4 \bar "||" \time 2/4
+  h a \bar "||" \time 3/4
+  r a g
+  a4. g8 f4 \bar "||" \time 4/4
+  e d r a
+
+  h cis d8 c d e
+  f4 d c h
+  a a'2 gis4 \bar "||" \time 3/4
+  a f2
+  d4. e8 f[ d] \bar "||" \time 4/4
+  e4 f2 e4
+  f2 r4 a
+
+  f4. g8 a2
+  d,1
+  r4 a'2 a4
+  g d f4. e8
+  d e f4 e2
+  r4 d'2 d4
+  c a c2
+
+  h4 d a4. h8
+  c4. h8 a h c a
+  h4 a2 gis4
+  a a d,4. e8
+  f4 d8 e f e f g
+
+  a h c h a h c4
+  h4. a8 h[ c] d4
+  cis d2 cis4
+  d d, f4. g8
+  a2 r4 d,
+  c? h a a'~
+
+  a gis a a
+  c4. h8 a2
+  g4 a8 g f[ e] f4
+  e a c4. h8
+  a4 e f g
+  a d,8[ e] f d e4~
+
+  e8 d d2 cis4
+  d2 r4 d
+  f4. g8 a2
+  r4 d2 c4
+  h2 a
+  r4 a, c4. d8
+
+  e4 cis d2
+  a r4 a'
+  c4. h8 a4 e
+  f8 e f g a4 g~
+  g8 f f e16 d e2
+  fis1 \bar "|."
+
+  \break \tempo "Nr. 8" \key g \major
+  r1
+  a2 d,4 d'~
+  d8 d cis4 d2
+  a4 a d, d'~
+  d8 d cis4 d d,
+
+  r d' d8 c? h a
+  h4 g d8 e fis g \bar "||" \time 3/2
+  a4 a, e'4. h8 cis4 d \bar "||" \time 4/4
+  d cis d2~
+  d r
+
+  a' d,4 d'~
+  d8 d cis4 d2
+  a4 a d, d'~
+  d8 d cis4 d d,
+  r d' d8 c? h a
+
+  h4 g d8 e fis g \bar "||" \time 3/2
+  a4 a, e'4. h8 cis4 d \bar "||" \time 4/4
+  d cis d2
+  \repeat volta 2 {
+    r4 d a'4. h8
+
+    c4 g8 a h a h c
+    d2 a
+    r4 a, c4. d8
+    e4 e h8 a h c
+    d2 a4 a' \bar "||" \time 3/2
+
+    c4. d8 e4 c h2 \bar "||" \time 4/4
+  }
+  \alternative {
+    { a4 fis e8 d d4~ | d cis d2 }
+    { a'4 a fis4. g8 }
+  }
+  e4 d d cis
+  d1\fermata \bar "|."
 }

@@ -1,7 +1,7 @@
 \version "2.14.2"
 \include "deutsch.ly"
 
-#(set-global-staff-size 19)
+#(set-global-staff-size 19.5)
 
 \header {
   title = "Acht Canzonetten"

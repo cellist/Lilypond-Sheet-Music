@@ -208,7 +208,7 @@ va = \relative c' {
   c es d c d4 \time 4/4
   es1 \fermata \bar "|."
 
-  \pageBreak \tempo "Nr. 5" \key c \major \time 4/4
+  \break \tempo "Nr. 5" \key c \major \time 4/4
   r1
   d4 d8 cis d4 e
   f2 r
@@ -311,4 +311,125 @@ va = \relative c' {
     as g f2
     g1
   }
+
+  \break \tempo "Nr. 7" \key c \major
+  d2 f4. g8
+  a2 r4 d,
+  c h a a'~
+  a gis a a
+  c4. h8 a2
+  g4 a8[ g] f e f4
+  e a c4. h8
+
+  a4 e f g
+  a d,8[ e] f d e4~
+  e8 d d2 cis4
+  d2 r4 d
+  f4. g8 a2
+  r4 d2 c4
+
+  h2 a
+  r4 a, c4. d8
+  e4 cis d2
+  a r4 a'
+  c4. h8 a4 e
+  f8 e f g a4 g~
+
+  g8 f f e16 d e2 \bar "||" \time 3/4
+  fis4 a g
+  c4. h8 a4 \bar "||" \time 2/4
+  gis a \bar "||" \time 3/4
+  r f? e
+  f4. e8 d4 \bar "||" \time 4/4
+  cis d a'2
+
+  g?4 e f8 e f g
+  a4 a2 g4
+  c2 h \bar "||" \time 3/4
+  r4 a2
+  b a4 \bar "||" \time 4/4
+  g f g2
+  f4 a f4. g8
+
+  a2 d,
+  r4 d'2 d4
+  c a c2
+  h r4 a~
+  a a g e
+  f8 e d f f e f g
+  a4 a e4. f8
+
+  g4 d8 e f e f g
+  a4 a,2 a'4
+  g c h2
+  a1
+  r4 d a4. h8
+
+  c h a h c4 a~
+  a g2 f4
+  e d e2
+  d r4 d
+  f4. g8 a2
+  r4 d2 c4
+
+  h2 a
+  r4 a, c4. d8
+  e4 cis d2
+  a r4 a'
+  c?4. h8 a4 e
+  f8 e f g a4 g~
+
+  g8 f f e16 d e2
+  fis4 d f4. g8
+  a2 r4 d,
+  c h a a'~
+  a gis a a
+  c4. h8 a2
+
+  g4 a8[ g] f e f4
+  e a c4. h8
+  a4 e f g
+  a d,8[ e] f d e4~
+  e8 d d2 cis4
+  d1 \bar "|."
+
+  \break \tempo "Nr. 8" \key g \major
+  a'2 d,4 d'~
+  d8 d cis4 d2
+  a4 a d, d'~
+  d8 d cis4 d2
+  a r4 d
+
+  d8 c h a h4 g
+  g8 a h c d4 d,~ \bar "||" \time 3/2
+  d a'4. g8 g2 fis4 \bar "||" \time 4/4
+  e2 fis
+  a d,4 d'~
+
+  d8 d cis4 d2
+  a4 a d, d'~
+  d8 d cis4 d2
+  a r4 d
+  d8 c? h a h4 g
+
+  g8 a h c d4 d,~ \bar "||" \time 3/2
+  d a'4. g8 g2 fis4 \bar "||" \time 4/4
+  e2 fis4 d
+  \repeat volta 2 {
+    a'4. h8 c4 a
+
+    e8 d e fis g2
+    d4 d fis4. g8
+    a4 a e8 d e fis
+    g2 d
+    r4 a' c4. d8 \bar "||" \time 3/2
+
+    e4 a, gis a2 gis4 \bar "||" \time 4/4
+  }
+  \alternative {
+    { a a g8 fis fis e16 d | e2 fis4 d }
+    { a' a, d4. h8 }
+  }
+  cis4 d e2
+  fis1\fermata \bar "|."
 }
