@@ -50,15 +50,15 @@ vc = \relative c'' {
    r8.
 
    \mark \markup { \box C }
-   e16[\pp e32_"cresc. poco a poco" e e16 dis] e c a h
-   c8 c16 d e8 r
-   f16[ f32 f f16 e] d[ f32 e d16 c]
-   h a h c h8 r
+   e8\pp e_"cresc. poco a poco" e a,
+   c c e r
+   f f d d
+   h h h r
 
-   e16[ e32 e e16 dis] e c a h
-   c8 c16 d e[ e32 e d16 e]
-   d[ d32 d d16 c] h a h c
-   a8 r r4
+   e e e a,
+   c c e d
+   d d h h
+   a r r4
 
    a'8\ff d~ d16 a8 f16
    e8 c'~ c16 a8 e16

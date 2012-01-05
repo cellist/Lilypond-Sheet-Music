@@ -59,9 +59,9 @@ vb = \relative c'' {
    c[ c32 c c16 h] c a e gis
    a e a h c[ c32 c h16 c]
    h[ h32 h h16 a] gis a gis a
-   e8 r r4
+   a8 r r4
 
-   d'8\ff f~ f16 d8 a16
+   d8\ff f~ f16 d8 a16
    c8 e~ e16 c8 a16
    gis8. e16 gis8 d16 e
    c8^\dsaf r r4 \bar "|."

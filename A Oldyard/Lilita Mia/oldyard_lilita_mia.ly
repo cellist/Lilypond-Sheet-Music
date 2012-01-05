@@ -6,7 +6,7 @@
 \header {
   title = "Lilita Mia (Tango)"
   composer = "A. Oldyard"
-  arranger = "arr.: Reinier van der Wal"
+  arranger = "arr.: Reinier van der Wal / M. W."
   enteredby = "cellist (2011-01-23)"
 }
 
