@@ -33,20 +33,20 @@ fine = \markup \bold \italic "Fine"
 music = \new StaffGroup <<
       \new Staff {
 	\set Staff.midiInstrument = \mihi
-	\set Staff.instrumentName = #"Vc I"
-	\transpose b g { \va }
+	\set Staff.instrumentName = #"Vl"
+	\transpose b b { \va }
       }
 
       \new Staff {
 	\set Staff.midiInstrument = \mihi
-	\set Staff.instrumentName = #"Vc II"
-	\transpose b g { \vb }
+	\set Staff.instrumentName = #"Vla"
+	\transpose b b { \vb }
       }
 
       \new Staff {
 	\set Staff.midiInstrument = \milo
-	\set Staff.instrumentName = #"Vc III"
-	\transpose b g { \vc }
+	\set Staff.instrumentName = #"Vlc"
+	\transpose b b { \vc }
       }
 >>
 
