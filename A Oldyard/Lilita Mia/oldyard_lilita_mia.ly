@@ -1,4 +1,4 @@
-\version "2.12.3"
+\version "2.14.2"
 \include "deutsch.ly"
 
 #(set-global-staff-size 18)
@@ -22,7 +22,8 @@ voiceconsts = {
 dsaf = \markup { \bold { \italic "D.S. al Fine" } }
 fine = \markup { \bold { \italic "Fine" } }
 
-midilow = "harpsichord"
+midilow = "accordion"
+%midilow = "harpsichord"
 %midilow = "bassoon"
 
 \include "v1.ily"

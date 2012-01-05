@@ -25,29 +25,30 @@ vb = \relative c'' {
    d16[ d32 c h16 a] gis a h c
    a e c a a c e a
    gis e d8 e gis
-   e r r4 \key a \major \bar "||"
+   e a16\mf h cis8 d \key a \major \bar "||"
 
    \mark \markup { \box B }
-   cis16\mf\segno cis8 cis16 cis8 r
-   cis16 cis8 cis16 cis8 r
-   h16 h8 h16 h8 r
-   h16 h8 h16 h8 r
+   cis4\segno a~
+   a8 a16 h cis8 d
+   h16 a gis4.~
+   gis8 gis16 a h8 cis
 
-   h16 h8 h16 h8 r
-   h16 h8 h16 h8 r
-   cis16 cis8 cis16 cis8 cis
-   cis r r4
+   h4 gis~
+   gis8 gis16 a gis fis8 gis16
+   a2~
+   a8 a16 h cis8 d
 
-   cis16 cis8 cis16 cis8 r
-   cis16 cis8 cis16 e8 r
-   d16 d8 d16 d8 d
-   d r r4
+   cis4 a~
+   a8 a16 gis a a h cis
+   d4 fis~
+   fis8 fis16 fis e8 d
 
-   cis16 cis8 cis16 cis8 cis
-   cis16 cis8 cis16 d8 d
-   cis16 cis8 cis16 c4
-   cis?8^\fine h(-> cis16) \bar "||"
-   c'32\pp c c16 h \key c \major \bar "||"
+   cis4 a~
+   a8 gis16 a fis e8 d'16
+   cis16 cis8 cis16 c8 r
+   cis?^\fine d(-> cis16) \key c \major \bar "||"
+
+   c32\pp c c16 h
 
    \mark \markup { \box C }
    c[_"cresc. poco a poco" c32 c c16 h] c a e gis

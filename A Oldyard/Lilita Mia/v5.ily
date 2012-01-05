@@ -10,7 +10,7 @@ ve = \relative c' {
    a-.\p a-. a-. a-.
    e'-. e-. d16 c h a
    gis8-. e-. e-. e-.
-   a-. a-. a16 a h16. c32
+   a-. a-. a16 a[ h16. c32]
 
    d8-.\mf d-. d-. d-.
    a-. a-. a-. a-.
@@ -20,7 +20,7 @@ ve = \relative c' {
    a8-.\p a-. a-. a-.
    e'-. e-. d16 c h a
    gis8-. e-. e-. e-.
-   a-. a-. a16 a h16. c32
+   a-. a-. a16 a[ h16. c32]
 
    d8-.\mf d-. d-. d-.
    a-. a-. a-. a-.
@@ -46,10 +46,11 @@ ve = \relative c' {
    a8. e'16 a8 e
    a,8. e'16 gis8 e
    a,8. e'16 f8 e
-   a,^\fine e(-> a) r \key c \major \bar "||"
+   a,^\fine e(-> a16) \key c \major \bar "||"
+   r8.
 
    \mark \markup { \box C }
-   a-.\pp_"cresc. poco a poco" e-. a-. e-.
+   a8-.\pp_"cresc. poco a poco" e-. a-. e-.
    a-. e-. a-. r
    d-. a-. d-. f-.
    e-. h-. e16 d c h
@@ -61,6 +62,6 @@ ve = \relative c' {
 
    d8\ff f~ f16 f8 d16
    c8 a~ a16 a8 a16
-   e'8-. e-. e-. e-.
-   a,-.^\dsaf r r4 \bar "|."
+   e8-. e-. e-. e-.
+   a-.^\dsaf r r4 \bar "|."
 }

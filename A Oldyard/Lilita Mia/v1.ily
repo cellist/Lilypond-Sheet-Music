@@ -25,29 +25,29 @@ va = \relative c'' {
    f16[ f32 e d16 c] h c d e
    c h a e c e a c
    h gis e fis gis a h c
-   a8 r r4 \key a \major \bar "||"
+   a8 cis16\mf d e8 fis \key a \major \bar "||"
 
    \mark \markup { \box B }
-   e16\mf\segno e8 e16 e8 r
-   e16 e8 e16 e8 r
-   d16 d8 d16 d8 r
-   d16 d8 d16 d8 r
+   e4\segno cis~
+   cis8 cis16 d e8 fis
+   d16 cis h4.~
+   h8 h16 cis d8 e
 
-   d16 d8 d16 d8 r
-   d16 d8 d16 d8 r
-   e16 e8 e16 e8 e
-   e r r4
+   d4 h~
+   h8 h16 cis h a8 h16
+   cis2~
+   cis8 cis16 d e8 fis
 
-   e16 e8 e16 e8 r
-   e16 e8 e16 g8 r
-   fis16 fis8 fis16 fis8 fis->
-   fis r r4
+   e4 cis~
+   cis8 a16 h cis cis d e
+   fis4 a~
+   a8 a16 a gis8 fis
 
-   e16 e8 e16 e8 e
-   e16 e8 e16 e8 e
-   e16 e8 e16 f4
-   e8^\fine d(-> e16) \bar "||"
-   e'32\pp e e16 dis \key c \major \bar "||"
+   e4 cis~
+   cis8 h16 cis d cis8 h16
+   a2~
+   a8^\fine e(-> a16) \key c \major \bar "||"
+   e'32\pp e e16 dis
 
    \mark \markup { \box C }
    e[_"cresc. poco a poco" e32 e e16 dis] e c a h

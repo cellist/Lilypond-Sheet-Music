@@ -4,49 +4,50 @@ vc = \relative c'' {
    r2
    r4 a8-.\ff a-.
    a-. a-. gis-. gis-.
-   a-. h,(-> c) r \bar "||"
- 
+   a-. h(-> c) r \bar "||"
+
    \mark \markup { \box A }
-   e-.\p e-. e-. e-.
-   d-. d-. r4
-   d8-. d-. d-. d-.
-   e-. e-. e16-. r r8
+   c-.\p c-. c-. c-.
+   h-. h-. r4
+   h8-. h-. h-. h-.
+   c-. c-. c16-. r r8
 
-   f-.\mf f-. f-. f-.
-   e-. e-. e-. e-.
-   fis-. fis-. fis-. fis-.
-   gis-. r r4
+   a-.\mf a-. a-. a-.
+   c-. c-. c-. c-.
+   es-. es-. es-. es-.
+   e?-. r r4
 
-   e8-.\p e-. e-. e-.
-   d-. d-. r4
-   d8-. d-. d-. d-.
-   e-. e-. e16-. r r8
+   c8-.\p c-. c-. c-.
+   h-. h-. r4
+   h8-. h-. h-. h-.
+   c-. c-. c16-. r r8
 
-   f-.\mf f-. f-. f-.
-   e-. e-. e-. e-.
-   d-. d-. d-. d-.
-   e-. cis'16\mf d e8 fis \key a \major \bar "||"
+   a-.\mf a-. a-. a-.
+   c-. c-. c-. c-.
+   h-. h-. h-. h-.
+   e,-. r r4 \key a \major \bar "||"
 
    \mark \markup { \box B }
-   e4\segno cis~
-   cis8 cis16 d e8 fis
-   d16 cis h4.~
-   h8 h16 cis d8 e
+   e16\mf\segno e8 e16 e8 r
+   e16 e8 e16 e8 r
+   h'16 h8 h16 h8 r
+   h16 h8 h16 h8 r
 
-   d4 h~
-   h8 h16 cis h a8 h16
-   cis2~
-   cis8 cis16 d e8 fis
+   h16 h8 h16 h8 r
+   h16 h8 h16 h8 r
+   e,16 e8 e16 e8 e
+   e r r4
 
-   e4 cis~
-   cis8 a16 h cis cis d e
-   fis4 a~
-   a8 a16 a gis8 fis
+   e16 e8 e16 e8 r
+   e16 e8 e16 g8 r
+   fis16 fis8 fis16 fis8 fis->
+   fis r r4
 
-   e4 cis~
-   cis8 h16 cis d cis8 h16
-   a2~
-   a8^\fine e(-> a) r \key c \major \bar "||"
+   e16 e8 e16 e8 e
+   e16 e8 e16 e8 e
+   e16 e8 e16 f4
+   e8^\fine d(-> e16) \key a \minor \bar "||"
+   r8.
 
    \mark \markup { \box C }
    e16[\pp e32_"cresc. poco a poco" e e16 dis] e c a h
