@@ -86,7 +86,7 @@ va = \relative c''' {
    d cis
    d\breve \bar "||"
 
-   \tempo "Capriccio Nr. 2 " 4=80
+   \break \tempo "Capriccio Nr. 2 " 4=80
    d4 d8 c d4 e
    f f8 e f4 g
    a8 d, d[ c16 h] a4 g

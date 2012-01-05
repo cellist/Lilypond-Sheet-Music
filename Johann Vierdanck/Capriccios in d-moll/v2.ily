@@ -86,7 +86,7 @@ vb = \relative c'' {
    e
    d\breve \bar "||"
 
-   \tempo "Capriccio Nr. 2 " 4=80
+   \break \tempo "Capriccio Nr. 2 " 4=80
    r1
    d'4 d8 c d4 e
    f f8 e f4 g

@@ -1,7 +1,7 @@
-\version "2.12.3"
+\version "2.14.2"
 \include "deutsch.ly"
 
-#(set-global-staff-size 16)
+#(set-global-staff-size 20.5)
 
 \header {
   title = "Capriccios à 2 Cornetti soli"
