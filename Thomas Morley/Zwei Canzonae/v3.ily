@@ -41,4 +41,50 @@ vc = \relative c' {
     { b, r4 b' }
     { b,1 }
   } \bar "|."
+
+  \break \tempo "Nr. 2 " 4=120 \key es \major
+  R1*4
+  es2 es4 f
+  g es g as
+
+  b b f4. g8
+  as4 b f2
+  b1
+  R1*2
+  b2 b4 b
+
+  c2 as
+  b es,
+  c f
+  b,1~
+  b2 b
+  f'1
+  b2 r4 b
+
+  c d es c
+  d2 es4. d8
+  c4 b c c
+  b2 a4 b
+  f b es, f
+  b b2 b4
+  f2 g
+
+  as? es
+  b'4 as8 g f4 g
+  as c b2
+  es,1
+  es4 es8 es as,4 b
+  es2 f
+  b,1
+
+  es4 es8 es es4 es
+  as1
+  r4 b b8 as g f
+  es2 r4 es
+
+  es8 des c b as4 as
+  des8 des c b as2
+  b1
+  b
+  es \bar "|."
 }

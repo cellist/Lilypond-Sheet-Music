@@ -1,7 +1,7 @@
 \version "2.14.2"
 \include "deutsch.ly"
 
-#(set-global-staff-size 20)
+#(set-global-staff-size 24)
 
 \header {
   title = "Zwei Canzonae"
@@ -35,18 +35,21 @@ music = \new StaffGroup <<
 	\set Staff.midiInstrument = \minstr
 	\set Staff.instrumentName = #"Vc I"
 	\transpose b g { \va }
+%	\transpose b b { \va }
       }
 
       \new Staff {
 	\set Staff.midiInstrument = \minstr
 	\set Staff.instrumentName = #"Vc II"
 	\transpose b g { \vb }
+%	\transpose b b { \vb }
       }
 
       \new Staff {
 	\set Staff.midiInstrument = \minstr
 	\set Staff.instrumentName = #"Vc III"
 	\transpose b g { \vc }
+%	\transpose b b { \vc }
       }
 >>
 
