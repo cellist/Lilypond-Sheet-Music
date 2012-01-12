@@ -28,4 +28,31 @@ va = \relative c'' {
   }
 
   R1.*4 r2. g
+  a h
+  c h
+  a gis
+
+  a1.~
+  a2. r
+  R1.*2
+
+  r2. a
+  h c
+
+  d c
+  h a
+  h1.~
+
+  h2. r
+  R1.*4
+  r2. g?
+
+  a h
+  c4. h a2.
+  g4. e fis2.
+
+  g1.~
+  g~
+  g4 a8 d, g fis g2. \bar "|." 
 }
+   

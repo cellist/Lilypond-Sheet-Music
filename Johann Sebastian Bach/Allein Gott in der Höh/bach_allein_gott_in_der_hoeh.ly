@@ -1,7 +1,7 @@
 \version "2.14.2"
 \include "deutsch.ly"
 
-#(set-global-staff-size 18)
+#(set-global-staff-size 20)
 
 \header {
   title = "Allein Gott in der Höh' sei Ehr'"
