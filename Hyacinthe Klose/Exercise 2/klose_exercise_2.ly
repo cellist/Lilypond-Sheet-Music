@@ -1,4 +1,4 @@
-\version "2.12.3"
+\version "2.14.2"
 \include "deutsch.ly"
 
 #(set-global-staff-size 22)
@@ -6,7 +6,7 @@
 \header {
   title = "Exercise II"
   subtitle = "aus: \"25 tägliche Übungen\""
-  composer = "Hyacinthe Klosé"
+  composer = "Hyacinthe Eléonore Klosé"
   arranger = "(1808-1880)"
   enteredby = "cellist (2011-08-06)"
 }
