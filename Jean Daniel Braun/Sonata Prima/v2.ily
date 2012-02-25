@@ -129,4 +129,139 @@ vb = \relative c {
     f a, b c
     f,2
   }
+
+  \break \tempo "3. Aria - Andante " 4=70 \time 3/4
+  \repeat volta 2 {
+    \partial 4 \mark \markup \box "A" f4
+    f g a
+    b2 b8 a
+    g4 a b
+    c2 f,4
+    b2 b4
+    a2 a4
+    g c c,
+    f a8 b a g
+
+    f4 g a
+    b2 b8 a
+    g4 a b
+    c2 f,4
+    b2 b'4
+    b a g
+    f c c,
+    f2\fermata_\fine
+  }
+  \partial 4 \mark \markup \box "B" f'4
+
+  f e c
+  f f, f'~
+  f e2
+  f a8 g
+  fis2 d4
+  g g, g'~
+  g fis2
+  g,4 g' f?
+
+  e d c
+  d e f
+  g, a h
+  c d e
+  f,2 f'4
+  f e c
+  g' g,2
+  c_\dcac \bar "||"
+
+  \partial 4 \mark \markup \box "C" d4
+  f, g a
+  b?8 c b a g4
+  f f' d
+  a a' g
+  f e d
+  e f g
+  a, h cis
+  d e f
+
+  g, a b?
+  f e f
+  g a2
+  d4 c? b
+  a f b8 a
+  g4 f f'
+  e2 f4
+  c2_\dcaf \bar "|."
+
+  \break \tempo "4. Allegro " 4=120 \time 4/4
+  \repeat volta 2 {
+    \partial 2. \mark \markup \box "A" f,4 a f
+    g b c c,
+    f c' f a,
+    b g e c
+    f f a f
+    g b c c,
+    f c' f a,
+
+    b8 a g f c4 c
+    f\fermata_\fine
+  }
+  \partial 2. \mark \markup \box "B" f' e c
+  f, f' e c
+  f a8 g fis4 d
+  g, g' fis d
+  g, g' e c
+
+  d h g h
+  c f e f
+  g e f g
+  c,_\dcac \bar "||"
+  \partial 2. \mark \markup \box "C" f d b?
+  es d c es
+  d d g b,
+
+  c a d, d
+  g2. g'8 f
+  e?4 c e c
+  f c'8 b a g f e
+  d c b a g4 b
+  c_\dcaf \bar "|."
+
+  \break \tempo "5. Minoetto " 4=100 \time 3/4
+  \repeat volta 2 {
+    \partial 2. f,2.
+    c'4 g'8 f e d
+    c2.
+    f8 g a b a g
+    f2 f4
+    f e c
+    f d b
+    c c' b
+
+    a2.
+    e8 f g f e d
+    c2.
+    f8 g a b a g
+    f2 f4
+    f e8 d e4
+    f g g,
+    c2.
+  }
+
+  \repeat volta 2 {
+    a4 c a
+    d2.
+    d,4 d d
+    g8 a b c b a
+    g4 b g
+    c2.
+    c4 c c
+    f,8 g a b a g
+
+    f4 a f
+    b2 g4
+    c c' b
+    a2.
+    e2 c4
+    f8 e f g a4
+    a, b c
+    f,2.
+  }
 }

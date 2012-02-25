@@ -128,4 +128,139 @@ va = \relative c' {
     a8-+ g16 f g8 e
     f2
   }
+
+  \break \tempo "3. Aria - Andante " 4=70 \time 3/4
+  \repeat volta 2 {
+    \partial 4 \mark \markup \box "A" f8 g
+    a4 b c
+    d,2 g8 a
+    b4 c d
+    e,2-+ c'8 a
+    d4 \appoggiatura c8 b4 \appoggiatura a8 g4
+    c \appoggiatura b8 a4 \appoggiatura g8 f4
+    b8 a g a b c
+    a2-+ f8 g
+
+    a4 b c
+    d,2 g8 a
+    b4 c d
+    e,2-+ c'8 a
+    d4 \appoggiatura c8 b4 \appoggiatura a8 g4
+    c f b,
+    a4.-+ g8 f4
+    f2\fermata_\fine
+  }
+  \partial 4 \mark \markup \box "B" a8 f
+
+  g4 c, c'
+  a-+ f a
+  g8 f g a b c
+  a2-+ f8 g
+  a4 d, d'
+  h-+ g h
+  a8 g a h c d
+  h4.-+ g8 a h
+
+  c4 d e
+  f,2 d'8 c
+  h4 c d
+  e,2-+ g8 e
+  a4 \appoggiatura g8 f4 \appoggiatura e8 d4
+  h' g c
+  e,4.-+ d8 c4
+  c2_\dcac \bar "||"
+
+  \partial 4 \mark \markup \box "C" f8 g
+  a4 d, cis
+  d g8 a b4
+  a d2
+  cis4.-+ a8 h c
+  d4 e f
+  g,2 e'8 d
+  c4 d e
+  f,2 d'8 c
+
+  b a g f e d
+  a'4 cis, d~
+  d8 e e4.-+ d8
+  d2 d'8 e
+  f( e f) c d c
+  b4 a a8 b
+  c( b c) g a f
+  e4-+_\dcaf c \bar "|."
+
+  \break \tempo "4. Allegro " 4=120 \time 4/4
+  \repeat volta 2 {
+    \partial 2. \mark \markup \box "A" c4 f a,
+    b g'8 f e d c b
+    a4 c'8 b a g f e
+    d c b a g4 c
+    a c f a,
+    b g'8 f e d c b
+    a4 c'8 b a g f e
+
+    d c b a g4 e'-+
+    f\fermata_\fine
+  }
+  \partial 2. \mark \markup \box "B" a8 b c4 b
+  a8 g a b c d c b
+  a4-+ f d' c
+  h8 a h c d e d c
+  h4-+ g c e,
+
+  f d'8 c h a g f
+  e g f a g h a c
+  h g c e, d4 h'-+
+  c_\dcac \bar "||"
+  \partial 2. \mark \markup \box "C" a b a
+  g b a g
+  fis d'8 c b a g f?
+
+  es d c b a4 fis'
+  g g8 a b4 g,
+  c8 d e? f g a b c
+  a4 a8 b c4 a,
+  b d'8 c b a g f
+  e4_\dcaf \bar "|."
+
+  \break \tempo "5. Minoetto " 4=100 \time 3/4
+  \repeat volta 2 {
+    \partial 2. f8 a g f e f
+    g4 e c
+    g'8 b a g f g
+    a4 f f,
+    c''8 a d c b a
+    b g c b a g
+    a f b a g f
+    e4-+ d8 e c4
+
+    f8 a g f e f
+    g4 e c
+    g'8 b a g f g
+    a4 f f,
+    a'8 f b a g f
+    g4 c8 h c4
+    f, e d-+
+    c2.
+  }
+
+  \repeat volta 2 {
+    c'8 b a4 g
+    fis-+ e8 fis d4
+    a'8 c b a g a
+    b4 d, g,
+    b'8 a g4 f?
+    e-+ d8 e c4
+    g'8 b a g f g
+    a4 f f,
+
+    c' c2-+
+    d4 g f
+    e c8 d e c
+    f a g f e f
+    g b a g f g
+    a g a b c4
+    f, g e-+
+    f2.
+  }
 }

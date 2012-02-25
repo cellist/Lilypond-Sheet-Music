@@ -1,7 +1,7 @@
 \version "2.14.2"
 \include "deutsch.ly"
 
-#(set-global-staff-size 20)
+#(set-global-staff-size 19)
 
 \header {
   title = "Sonata prima"
@@ -22,7 +22,9 @@ voiceconsts = {
 %minstr = "accordion"
 milo = "bassoon"
 
-dim = \markup \italic "dim."
+dcac = \markup \italic \bold "D.C. A / C"
+dcaf = \markup \italic \bold "D.C. A / Fine"
+fine = \markup \italic \bold "Fine"
 
 \include "v1.ily"
 \include "v2.ily"
