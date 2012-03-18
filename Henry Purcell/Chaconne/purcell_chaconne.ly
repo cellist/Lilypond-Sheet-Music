@@ -1,7 +1,7 @@
 \version "2.14.2"
 \include "deutsch.ly"
 
-#(set-global-staff-size 18)
+#(set-global-staff-size 17.1)
 
 \header {
   title = "Chaconne"
@@ -34,25 +34,25 @@ music = \new StaffGroup <<
       \new Staff {
 	\set Staff.midiInstrument = \mihi
 	\set Staff.instrumentName = #"Ob"
-	\transpose a a { \va }
+	\transpose a e { \va }
       }
 
       \new Staff {
 	\set Staff.midiInstrument = \mihi
 	\set Staff.instrumentName = #"Vla"
-	\transpose a a { \vb }
+	\transpose a e { \vb }
       }
 
       \new Staff {
 	\set Staff.midiInstrument = \milo
 	\set Staff.instrumentName = #"Vc I"
-	\transpose a a { \vc }
+	\transpose a e { \vc }
       }
 
       \new Staff {
 	\set Staff.midiInstrument = \milo
 	\set Staff.instrumentName = #"Vc II"
-	\transpose a a { \vd }
+	\transpose a e { \vd }
       }
 >>
 

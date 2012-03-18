@@ -88,4 +88,95 @@ vd = \relative c' {
   a8\ff gis a[ h] c a
   gis e gis[ a] h gis
   a g? f[ e] f d'
+
+  e, f e[ d'] e, h'
+  cis d cis[ h] cis a
+  d cis d[ e,] f d'
+  e, f e[ d'] c? h
+  a2.
+
+  a2\< a4\!
+  gis4 gis4. gis8
+  a4 f2
+  e4 e4. e8
+
+  cis'4 cis4. cis8
+  d4 d2
+  e,2.\>
+  a\!
+  r \mark \markup \box "G"
+
+  R2.*7
+  a2\f a4
+  gis4 gis4. gis8
+  a4 f2
+  e4 e4. e8
+  cis'4 cis4. cis8
+  d4 d2 \mark \markup \box "H"
+
+  e,2.\>
+  a\!\<
+  a2\! a4
+  gis gis4. gis8
+  a4 f2
+
+  e4\< e4. e8\!
+  cis'4 cis4. cis8
+  d4 d2
+  e,2.
+  a2\< a4\!
+
+  h2.
+  c?4 f,2
+  g?2.
+  a
+  h
+  a2 a4
+
+  g2.
+  a4 a2
+  d8\< e, d'[ a] d h
+  e, f e[ d'] e, c'\!
+  f, g f[ e] f d'
+
+  g, f g[ a] h g
+  c\< h c[ d] c h\!
+  a2\f a4
+  gis gis4. gis8
+  a4 f2
+
+  e4 e4. e8
+  cis'4 cis4. cis8
+  d4\> d2
+  e,2.\!
+  a
+
+  h2 a4
+  gis gis4. gis8
+  a4 f2
+  e4 e4. e8 \mark \markup \box "I"
+  cis'4 cis4. cis8
+
+  d4 d2
+  e,2.
+  a
+  a2 a4
+  gis gis4. gis8
+
+  a4 f2
+  e4 e4. e8
+  cis'4 cis2
+  d4 d2
+  e,2.\>
+
+  a\!\pp
+  a2 a4
+  gis gis4. gis8
+  a4 f2
+
+  e4 e4. e8
+  cis'4 cis4. cis8
+  d4 d2
+  e,2.
+  a \bar "|."
 }
