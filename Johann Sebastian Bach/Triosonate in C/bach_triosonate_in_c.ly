@@ -54,7 +54,6 @@ music = \new StaffGroup <<
 	\set Staff.instrumentName = #"Cello III"
 	\transpose g g { \vc }
       }
-%}
 >>
 
 \book {

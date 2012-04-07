@@ -272,4 +272,107 @@ vc = \relative c' {
     { c a h e g h }
     { c, a h e,4. }
   } \bar "|."
+
+  \break \tempo "3. Allegro " 4=100 \time 4/4
+  g4\f g'2 fis4
+  g r8 g, d' e fis g
+  a h a g fis a cis, d-.\p
+
+  a-. a'-. cis,-. e-. a,-. a'-. cis,-. e-.
+  a,-. a'-. cis,-. e-. a,-. g'-. fis-. a-.
+  d,-. d'-. fis,-. a-. d,-. d'-. fis,-. a-.
+
+  d,-. d'-. fis,-. a-. d,-. c'-. h-. d-.
+  g,4._\papc a8 d, c' h a
+  h d c h a d, r dis
+
+  e4. fis8 h, a' g fis
+  g h a g fis h, r h
+  c4. d8 g, f' e d
+
+  e g fis? e fis a g fis
+  g\f e d c h a g fis
+  g g' e a fis d r fis
+
+  g g, c e fis fis, h d
+  e h c a d d, r a'
+  h g d' d, g g' fis e\p
+
+  a, a' g fis e h' g h
+  e, dis e cis d a' fis a
+  d, cis d h c c, r h'
+  c a' cis, ais' d, h' dis, h'
+
+  e,, e' d? cis h fis' d fis
+  h, ais' h gis a e cis e
+  a, gis' a fis g g, r fis
+
+  g_\papc e' gis, eis' a, fis' ais, fis'
+  h, fis' cis e d h' dis, h'
+  e, h' fis a g fis gis e
+
+  a e h' e, c' h cis a
+  d, a' e g fis e fis d
+  g d d' d, g\f fis g a
+
+  h c d c h a g fis
+  g h a g fis g a g
+  fis e d cis d a' cis, d
+  a4\> r e r
+
+  h' r fis8 r h\! r
+  e,\p r a r d r e r
+  a, r d r g r a r
+
+  d, r g r cis, r d r
+  g r cis, r d r dis r
+  e r eis r fis fis, r4
+
+  r r8 fis' h, fis' d fis
+  h, ais h gis a e' cis e
+  a, gis a fis g r a r
+
+  g r fis r e g c h
+  a g4 fis8 e h'' g h
+  e, dis e cis d a' fis a
+
+  d, cis d h c_\papc r d r
+  c r h r a r g' r
+  fis r e r d r c r
+
+  h r a r g r f r
+  e r d r c4 c'~
+  c\f h c r8 c,
+
+  g' a h c d e d c
+  h d fis, g\p d-. d''-. fis,-. a-.
+  d,-. d'-. fis,-. a-. d,-. d'-. fis,-. a-.
+
+  d,-. c-. h-. d-. g,-. a-. h-. c-.
+  d\f e d c h d fis, g
+  d' e fis g a h a g
+  fis\> a cis, d-.\!\p a-. a'-. cis,-. e-.
+
+  a,-. a'-. cis,-. e-. a,-. a'-. cis,-. e-.
+  a,-. g'-. fis-. a-. d,-. a'-. dis,-. fis-.
+  h,-. h'-. dis,-. fis-. h,-. h'-. dis,-. fis-.
+
+  h,-. a'-. g-. h-. e,-. d-. cis-. a-.
+  d-. c?-. h-. g-. c-. e,-. fis-. d-.
+  g-. d'-. fis,-. g-. d4 r
+
+  g'4._\papc a8 d, c' h a
+  h d c h a d, r dis
+  e4. fis8 h, a' g fis
+
+  g h a g fis h, r h
+  c4. d8 g, f' e d
+  e g fis? e fis a g fis
+
+  g\f e d c h a g fis
+  g g' e a fis d r fis
+  g g, c e fis fis, h d
+
+  e h c a d d, r a'
+  h g d' d, g2\fermata \bar "|."
 }

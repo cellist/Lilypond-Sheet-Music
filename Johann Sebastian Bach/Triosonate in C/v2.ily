@@ -271,4 +271,107 @@ vb = \relative c'' {
     { g32( fis e16) fis8-. dis e r fis }
     { g32( fis e16) fis8-. dis e4. }
   } \bar "|."
+
+  \break \tempo "3. Allegro " 4=100 \time 4/4
+  g4~\f g16 fis e a d,8 a'32( h c16) h8-. a-.
+  h16 g h d c8-. h-. a d, d'4~
+  d8 cis16 h cis8.\prall h32 cis d4 r8 d\p
+
+  cis16 a cis e g fis g8 r16 a, cis e g fis g8
+  r16 a, cis e g fis e d cis a cis e a g fis e
+  fis8 d r16 d, fis a c? h c8 r16 d, fis a
+
+  c h c8 r4 r r8 fis
+  g16_\papc a g fis e d c h a g a h c d e fis
+  g8 d g4~ g8 fis16 e d c h a
+
+  g8 h e4~ e8 dis r a~
+  a16 fis g a h d c h a g fis e d8 d'~
+  d16 g, c h a g f e d c d e f g a h
+
+  c8 g c4~ c16 h a h c e d c
+  h g a h c d e fis? g8 r r4
+  g,4~\f g16 fis e a d,8 a'32( h c16) h8-. a-.
+
+  h16 g h d c4~ c16 a c e d4~
+  d16 h d f e d c h a fis! a c h a g fis
+  g8 h, a fis' g4 r8 h\p
+
+  c32( h a16) h8-. e, fis\mordent g fis16 g e h fis' h,
+  g' h, fis' h, g' e a8-. fis\prall e16 fis d a e' a,
+  fis' a, e' a, fis' d g8-. fis16-. e( dis e) gis-. e( dis e)
+  a-. e( dis e) ais-. e( dis e) h'2~
+
+  h8 ais r4 r8 ais h ais
+  h fis r4 r8 gis a? gis
+  a e r4 r2
+
+  r r16 cis'(_\papc d e) fis,-. e'( d cis)
+  d-. h( cis d) ais-. cis( h ais) h2~
+  h~ h16 h( c? d?) e,-. d'( c h)
+
+  c-. a( h c) gis-. h( a gis) a2~
+  a~ a16 a( h c) d,-. c'( h a)
+  h-. g( a h) fis-. a( g fis) g4~\f g16 fis e a
+
+  d,8 a'32( h c16) h8-. a-. g r r4
+  d'~ d16 cis h e a,8 e'32( fis g16) fis8-. e-.
+  d r r4 r r8 d~\>
+  d16 h cis e d8 cis h e, r e'~
+
+  e16 cis d fis e8 d cis fis,\! r fis~\p
+  fis e r e'~ e16 cis d h gis fis gis h
+  d h c? a fis e fis a c8 h r e,~
+
+  e d r d'~ d16 h c a fis e fis a
+  c a h g e d e g b8 a r fis~
+  fis e r gis~ gis16 eis fis cis ais gis! ais cis
+
+  e? cis d h? gis fis gis ais h8 ais'-. h-. ais-.
+  h-. fis-. r4 r8 gis-. a?-. gis-.
+  a-. e-. r4 r8 e fis( dis)
+
+  g?( e) a( fis) h16( ais h) g-. e( dis e) h'-.
+  c32(\mf h a16) h8-. e, fis g\prall fis16\p g e h fis' h,
+  g' h, fis' h, g' e a8-. fis\prall e16 fis d a e' a,
+
+  fis' a, e' a, fis' d g8-. f16-._\papc e( dis e) gis-. e( dis e)
+  a-. e( dis e) h'-. e,( dis e) c'8( d,?) e( cis)
+  fis( d) g( e) a16-. d,( cis d) fis-. d( cis d)
+
+  g-. d( cis d) a'-. d,( cis d) h'-. h( c! h) d,-. h'( c h)
+  e,-. h'( c h) f-. h( c h) g h c g e g c,8
+  r1
+
+  g'4~\f g16 fis e a d,8 a'32( h c16) h8-. a-.
+  h16 g h d\> c8-. h-. a d,\! r16 d\p fis a
+  c h c8 r16 d, fis a c h c8 r4
+
+  r16 fis, a d fis a g fis g8 d, g4~
+  g8 fis16 e fis8.\prall e32 fis g4 r
+  d4~\f d16 cis h e a,8 e'32( fis g16) fis8-. e-.
+  fis16\> d fis a g8-. fis-. e a,\! r16 a' cis e
+
+   g fis g8 r16 a, cis e g fis g8 r4
+   r16 cis,, e g cis e d cis d a, d fis a g a8
+   r16 h, dis fis a g a8 r16 h, dis fis a g fis e
+
+   dis h dis fis h a g fis g e g h a8 g
+   fis a d4~ d16 h c? e d8 c
+   h16 a h d c8 h h a r16 a d fis
+
+   g a g fis e d c h a g a h c d e fis
+   g8 d g4~ g8 fis16 e d c h a
+   g fis g h e4~ e8 dis r a~
+
+   a16 fis g a h d c h a g fis e d8 d'~
+   d16 g, c h a g f e d c d e f g a h
+   c8 g c4~ c16 h a h c e d c
+
+   h g a h c d e fis? g8 r r4
+   g,4~\f g16 fis e a d,8 a'32( h c16) h8-. a-.
+   h16 g h d c4~ c16 a c e d4~
+
+   d16 h d f e d c h a fis? a c h a g fis
+   g8 h, a fis' g,2\fermata \bar "|."
 }
