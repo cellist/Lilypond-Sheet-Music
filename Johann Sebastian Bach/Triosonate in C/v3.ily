@@ -1,6 +1,6 @@
 vc = \relative c' {
   \voiceconsts
- 
+
   \tempo "1. Vivace " 8=180 \time 2/4
   g8\f fis g a
   h a h c
@@ -207,4 +207,69 @@ vc = \relative c' {
   c h8 c
   d4 d,
   g2\fermata \bar "|."
+
+  \break \tempo "2. Lento " 8=76 \time 6/8
+  \repeat volta 2 {
+    \partial 8 r8
+    e'-.\p^\stase fis-. g-. a-. g-. a-.
+    h c d e, a g
+    fis a c dis, e fis
+    g a h e, d? cis
+
+    h cis d e d e
+    fis g a h, e d
+    cis e g ais, h cis
+
+    d e fis h, c? d
+    e fis gis a,? h c
+    d e fis g,? a h
+
+    c8. h16 a8 dis e fis
+    g8. fis16 e8 ais h cis,
+    d8. cis16 h8 eis fis r
+
+    dis e? r cis d r
+    h c? r ais h r
+  }
+  \alternative {
+    { a e fis h4 }
+    { \partial 2. a8 e fis h d fis }
+  }
+
+  \repeat volta 2 {
+    a a a fis fis fis
+    dis dis dis e g h
+    d? d d h h h
+    gis gis gis a c, e
+
+    a,8. h16 cis8 a f r
+    h8. cis16 dis8 a g r
+
+    gis'8. a16 h8 f e r
+    e dis r e e, gis
+    a h c? d c d
+
+    e f g? a, d c
+    h d f gis, a h
+    c d e a, g fis?
+    e fis g a g a
+
+    h c d e, a g
+    fis a c dis, e fis
+    g a h e, f g
+
+    a h cis d? e f
+    g a h c,? d e
+    f,8. e16 d8 gis a h
+
+    c8. h16 a8 dis e fis?
+    g8. fis16 e8 ais h r
+    gis a r fis g r
+
+    e f r dis e r
+  }
+  \alternative {
+    { c a h e g h }
+    { c, a h e,4. }
+  } \bar "|."
 }

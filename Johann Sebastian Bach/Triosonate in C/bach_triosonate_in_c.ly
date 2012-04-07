@@ -29,6 +29,7 @@ milo = "bassoon"
 
 dim    = \markup \bold \italic "dim."
 papc   = \markup \bold \italic "poco a poco cresc."
+stase  = \markup \bold \italic "staccato sempre"
 trillb = \markup { \bold \italic "tr" " b" }
 
 \include "v1.ily"
@@ -53,6 +54,7 @@ music = \new StaffGroup <<
 	\set Staff.instrumentName = #"Cello III"
 	\transpose g g { \vc }
       }
+%}
 >>
 
 \book {

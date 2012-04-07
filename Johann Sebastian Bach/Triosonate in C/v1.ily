@@ -1,7 +1,7 @@
 va = \relative c'' {
   \voiceconsts
   \clef "treble"
- 
+
   \tempo "1. Vivace " 8=180 \time 2/4
   g4\f g
   g8 fis16 e d8 c
@@ -208,4 +208,67 @@ va = \relative c'' {
   a, h16 c d8 c
   h4 a\prall
   g2\fermata \bar "|."
-}
+
+  \break \tempo "2. Lento " 8=76 \time 6/8
+  \repeat volta 2 {
+    \partial 8 h8\p
+    \grace { e16[( fis] } g8. fis16 e8) dis-. e-. r
+    a,16( gis8) a32( h a gis fis e) d'?( cis h16) cis8-. r
+    c?32( h c8) dis fis16 a c, h8. ais16
+    h32( dis e16) e, a?8 g?32 fis g16 g' fis h,8 ais16
+
+    h32( a? g16) fis4~ fis8. fis'16 e32( dis cis dis)
+    a'16[( c,? h8) r16 g'] fis32( e dis16) e d32( cis h ais h16)
+    e,( h' ais8) r cis16( e, d fis ais8)
+
+    r16 fis'( g e cis ais') h h,8 a!16(~ a32 gis a16)
+    gis32( a h16) r8 h'(~ h16 a8) g?16(~ g32 fis e16)
+    fis32( g a16) r8 a,~ a16 g8 f16(~ f32 e d16)
+
+    e8 a4~ a32( g fis?16) g8 a'~
+    a32( g fis16) g4~ g8. fis32( e d cis h16)
+    ais8 h h'(~ h32 ais gis16) ais8-. a~
+
+    a32( gis fis16) gis8-. g(~ g32 fis e16) fis8-. f~
+    f32( e dis16) e8-. e,(~ e32 d! cis16) d8-. d'!~
+  }
+  \alternative {
+    { d32( cis h16) cis8-. ais h4 }
+    { \partial 2. d32( cis h16) cis8-. ais! h4 r8 }
+  }
+
+  \repeat volta 2 {
+    r2.
+    r4. r4 h8
+    a16( gis8) e32( fis gis a h16) d8. gis,32( a h c d16)
+    f16 e8 d32( c h c d16)~ d16 c8 h32( a gis a h16)
+
+    a8 r e'~ e32 b( a g) a[-. es'( d cis)] d-. b'!( a gis)
+    a8-. dis,-. fis~ fis32 c( h? a) h[-. f'( e dis!)] e-. c'( h ais)
+
+    h8 r16 f32( e d? c h a) gis4.~\prall
+    gis32 h( a gis a[ cis e gis]) a8~ a gis-. r
+    R2.*3
+
+    r4. r4 a,8
+    \grace { e'16([ fis] } g8. fis16 e8) dis-. e-. r
+
+    a,16( gis8) a32( h a gis fis e) d'?( cis h16) cis8-. r
+    c?32( h c8) dis fis16 a c, h8. ais16
+    h32( dis e16) e, a?8 g?32 fis g8 r b'~
+
+    b16 a8 g16(~ g32 f e16) f32( g a16) r8 a,~
+    a16 g8 f16(~ f32 e d16) e32( f g16) r8 g'~
+    g32( f e16) f4~ f8. e32( fis gis a h16)
+
+    e,8 a4(~ a32 g? fis16) g8 a,~
+    a32( g fis16) g4~ g8. fis32( e fis gis a16)
+    h8. a32( gis a h c16) dis8. e32( dis e fis g!16)
+
+    cis,8. d32( e d c h16) c8. h32( ais h dis e16)
+  }
+  \alternative {
+    { e,8-. a-. fis e4 r8 }
+    { e8-. a-. fis e4. }
+  }
+} \bar "|."
