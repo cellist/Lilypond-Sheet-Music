@@ -96,7 +96,7 @@ va = \relative c'' {
     e2.\< d4 e2)
 
     fis2.( e4 fis2\!
-    g4\mf a g fis a2)
+    g4\mf a g fis g2)
   } \mark \markup \box "D"
   \repeat volta 2 {
     g2(\p c,2. c4
