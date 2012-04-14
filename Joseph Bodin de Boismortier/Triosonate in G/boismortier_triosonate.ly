@@ -1,6 +1,7 @@
 \version "2.14.2"
 \include "deutsch.ly"
-
+\include "merge-rests.ily"
+  
 #(set-global-staff-size 18)
 
 \header {
@@ -49,7 +50,10 @@ music = \new StaffGroup <<
 	\new Staff {
 	  \set Staff.midiInstrument = \mihi
 	  <<
-             \transpose g g { \vc }
+             \transpose g g {
+	       \mergeRestsOn %% in one of the voices if sufficient
+	       \vc
+	     }
 	  \\
 	     \transpose g g { \vd }
 	  >>

@@ -74,4 +74,93 @@ vc = \relative c'' {
     a h16 c a4-+
     h2
   }
+
+  \break \tempo "2. Courante " 4=120 \time 3/4
+  \repeat volta 2 {
+    \partial 8 r8
+    g2 fis4
+    g2 h4
+    c a a
+    h2 c4~
+    c d2
+    h c4~
+    c a2
+    h h4
+
+    c2 d4
+    h2 c4~
+    c h2
+    c d4
+    d2 c4
+    h2 cis4
+    d d4. cis8
+    d2
+  }
+
+  \repeat volta 2 {
+    \partial 4 r4
+    a2 a4
+
+    g2 fis4
+    e fis2
+    fis h4
+    a8 g fis2
+    g a4
+    g8 f e2
+    d r4
+
+    r d' d
+    h r r
+    r c c
+    a r r
+    r h h
+    gis2 a4~
+    a gis2
+
+    a r4
+    d2 d4
+    h2 d4
+    d c2
+    c h4
+    a a2
+    a4 g? h
+
+    h a c
+    c h d
+    d c h
+    a2 h4
+    a a2
+    h h4
+    d2.
+
+    h2 d4
+    e2 e4
+    d2 d4
+    c8 h a4. h8
+    h2 d4
+    c8 h a4. h8
+    h2
+  }
+
+  \break \tempo "3. Sarabande " 4=80
+  \repeat volta 2 {
+    \partial 2. h c4
+    h4. a8 g4
+    a fis2
+    g g4
+    h2 a4
+    g h a
+    a g fis
+    e2 fis4
+  }
+  \repeat volta 2 {
+    fis2 g4
+    e fis2
+    g4 c2
+    a d4
+    d2 c4
+    c2 h4~
+    h a2
+    h2.
+  }
 }

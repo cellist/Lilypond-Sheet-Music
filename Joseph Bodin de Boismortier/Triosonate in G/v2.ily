@@ -73,4 +73,94 @@ vb = \relative c' {
     fis g g8. fis16
     g2
   }
+
+  \break \tempo "2. Courante " 4=120 \time 3/4
+  \repeat volta 2 {
+    \partial 8 r8
+    r2.
+    r4 r r8. g'16
+    g4. a8 fis a
+    g4. d8 e h
+    c4 a d
+    h g g'~
+    g g4. fis8
+    g2 g,4
+
+    a4. g8 a4
+    h4. g8 a4
+    d,2 h'4
+    c a d
+    d g, c
+    h4. h8 cis4
+    d d4. cis8
+    d2
+  }
+
+  \repeat volta 2 {
+    \partial 4 r8. fis16
+    fis4. fis8 g a
+
+    d, c h c d4
+    g, c8 h a g
+    fis4 dis h'
+    a8 g fis2
+    e a4
+    g8 f e2
+    d r4
+
+    r a'8 d a d
+    h4 r r
+    r g8 c g c
+    a4 r r
+    r h8 c a h
+    gis4. gis8 a4~
+    a8 h gis4. a8
+
+    a2 r4
+    r d d
+    d8 c h a g fis?
+    e4 e'8 d c h
+    a2 r4
+    a2.~
+    a8 h g a h g
+
+    c2.~
+    c8 d h c d h
+    e4. fis8 g a
+    fis4 d g~
+    g g4. fis8
+    g4. g,8 h g
+    d'2.~
+
+    d2 d4
+    g,2 c4
+    a4. d8 g, h
+    a g fis4. g8
+    g4. d'8 g, h
+    a g fis4. g8
+    g2
+  }
+
+  \break \tempo "3. Sarabande " 4=80
+  \repeat volta 2 {
+    \partial 2. h4. h8 c4
+    h4. a8 g4
+    a fis4. e16 fis
+    g2 d4
+    h'8 c h c d4
+    e4. d8 cis4
+    fis e d
+    cis2 d4
+  }
+
+  \repeat volta 2 {
+    fis,4. fis8 g4
+    e fis2
+    g4 c8 h a g
+    fis2 h4
+    e,2 a4
+    fis d g~
+    g8 a fis4. g8
+    g2.
+  }
 }
