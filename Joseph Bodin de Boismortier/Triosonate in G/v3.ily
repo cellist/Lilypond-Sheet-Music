@@ -142,7 +142,7 @@ vc = \relative c'' {
     h2
   }
 
-  \break \tempo "3. Sarabande " 4=80
+  \pageBreak \tempo "3. Sarabande " 4=80
   \repeat volta 2 {
     \partial 2. h c4
     h4. a8 g4
@@ -162,5 +162,68 @@ vc = \relative c'' {
     c2 h4~
     h a2
     h2.
+  }
+
+  \break \tempo "4. Gavotte " 2=60 \time 2/2
+  \repeat volta 2 {
+    \partial 2 g2
+    a g
+    a h
+    c c
+    h d
+
+    e e
+    d d
+    c4 h d2
+    h h4 d
+    d d a a
+    h h h d
+
+    e e h h
+    cis cis d d
+    e e e cis
+    d cis d d
+    h d cis2
+    d
+  }
+  \repeat volta 2 {
+    \partial 2 d
+
+    d d
+    e e
+    e e
+    dis e
+    h h
+
+    e4 dis e2
+    e dis
+    e h
+    d? e
+    d d
+    d d4 c
+    h2 e
+
+    c4 h a h
+    c2 c4 d
+    h c h2
+    cis e
+    d h
+    e d
+
+    e4 d c? h
+    a2 d
+    d c
+    c h
+    h a
+    h r4 c
+    c h r c
+
+    c h r h
+    c c a2
+    h r4 c
+    c h r c
+    c h r h
+    c c a2
+    h
   }
 }

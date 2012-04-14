@@ -2,7 +2,7 @@
 \include "deutsch.ly"
 \include "merge-rests.ily"
   
-#(set-global-staff-size 18)
+#(set-global-staff-size 19)
 
 \header {
   title = "Triosonate in G"

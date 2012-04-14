@@ -141,7 +141,7 @@ va = \relative c'' {
     g2
   }
 
-  \break \tempo "3. Sarabande " 4=80
+  \pageBreak \tempo "3. Sarabande " 4=80
   \repeat volta 2 {
     \partial 2. g'4 d e
     d4. c8 h4
@@ -162,5 +162,67 @@ va = \relative c'' {
     c4. d8 h4~
     h8 a a4. g8
     g2.
+  }
+
+  \break \tempo "4. Gavotte " 2=60 \time 2/2
+  \repeat volta 2 {
+    \partial 2 \times 2/3 { g8[ a h] h a g }
+    d'2 \times 2/3 { e8[ fis g] e fis g }
+    fis2 d8 g d h
+    c2 a8 fis' c a
+    h2 d8 g, h f'
+
+    e2 e8 a, cis g'
+    fis?4 d h'8 d, e h
+    c fis g h, a2
+    g h4 d
+    d a a d
+    h g d' g
+
+    g h, h e
+    cis a d8 a d fis
+    e4 a, e'8 a, e' a
+    fis4 e a8 d, fis a
+    h a g fis e4. d8
+    d2
+  }
+  \repeat volta 2 {
+    \partial 2 \times 2/3 { a'8[ g fis] fis e d }
+    g2 \times 2/3 { g,8[ a h] h a g }
+    e'2 \times 2/3 { e8[ fis g] g fis e }
+    a h g a fis g e fis
+    dis4 h e8 h e g
+    fis4 h, fis'8 h, fis' h
+
+    g4 fis h8 e, g h
+    c h a g fis4. e8
+    e2 g,8 a h c
+    d2 c8 h a g
+    fis4 d d' d
+    d8 h g a g h a c
+    h4 g e' e
+
+    e8 a, gis h a c h d
+    c4 a e' d8 c
+    h4 c h4. a8
+    a2 e'8 a g a
+    fis2 d8 g fis g
+    e g fis g d g fis g
+
+    e f d e c d h c
+    a2 d8 g, d' d
+    d e c h c e, c' c
+    c d h a h d, h' h
+    h a h c a4. g8
+    g4 d' d e
+    r d d e
+
+    r d d g8 fis
+    e d c h a4. g8
+    g4 d' d e
+    r d d e
+    r d d g8 fis
+    e d c h a4. g8
+    g2
   }
 }
