@@ -165,4 +165,63 @@ va = \relative c'' {
     h a fis2. g4
     g1.
   }
+
+  \introe
+  \repeat volta 2 {
+    g4_\aii fis8 e d c
+    h g' h, g' a, fis'
+    g4 fis8 e d c
+    h g' h, g' a, d
+    h d h d a d
+
+    h e cis g' fis e
+    fis16 g a8 cis,4. d8
+    d2.
+  }
+  \repeat volta 2 {
+    a'4 g8 fis e d
+    g2 fis4
+    e c'?8 h a g
+
+    fis4 e8 fis d c
+    h d g fis g c,
+    h d g fis g4
+    a8 h fis4. g8
+    g2.\fermata
+  }
+
+  \introf
+  \repeat volta 2 {
+    \partial 4 d8_\aii e
+    d4 g, g d'8 e
+    d4 g, g g'
+    fis e d8 e d c
+    h4 a8 h g4 h'8 c
+    h4 e, e a8 h
+    a4 d, d g
+
+    g fis8 e e4. d8
+    d2 r4
+  }
+  \repeat volta 2 {
+    \partial 4 a'8 g
+    fis4 d d e8 fis
+    g4 h, h g'
+    fis a, g e'
+    dis h h h'8 c
+
+    h4 h, a' h,
+    g' fis8 e dis4 h
+    e8 a g fis fis4. e8
+    e2 r4 d?8 c
+    h4 g g d'8 e
+    d4 a a d
+
+    g8 fis g a g h a g
+    fis4 e8 fis d4 d8 e
+    f4 g, g f'
+    e d2 g4
+    h, g' a, fis'?
+    g2.
+  }
 }

@@ -165,4 +165,63 @@ vd = \relative c' {
     h a a
     h1.
   }
+
+  \introe
+  \repeat volta 2 {
+    h4 a2
+    h a4
+    h a a
+    h2 d4
+    h d d
+
+    d cis d
+    h cis cis
+    d2.
+  }
+  \repeat volta 2 {
+    d2 d4
+    h2 a4
+    a c? e
+
+    d2 d4
+    d2 r4
+    d2 d4
+    e d d
+    h2.\fermata
+  }
+
+  \introf
+  \repeat volta 2 {
+    \partial 4 r4
+    h2 h
+    d d
+    fis d
+    d h4 r
+    d2 r4 d
+    d2 r4 e
+
+    e d cis cis
+    d2 r4
+  }
+  \repeat volta 2 {
+    \partial 4 e
+    d2 d
+    d r4 h
+    c?2 a
+    h h
+
+    h dis
+    e4 e dis dis
+    e e dis dis
+    e2 d?
+    d d
+    d d
+
+    d4 c d e
+    d h d d
+    d2 r4 d
+    c2 h
+    h4 c a a
+    h2.
+  }
 }

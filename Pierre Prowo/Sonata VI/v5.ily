@@ -166,4 +166,63 @@ ve = \relative c {
     g2 d' d,
     g1.
   }
+
+  \introe
+  \repeat volta 2 {
+    g4 d' d,
+    g2 d'4
+    g d d,
+    g2 d'4
+    g g, fis
+
+    g a d
+    g, a a
+    d,2.
+  }
+  \repeat volta 2 {
+    d'2 d4
+    e e, d'
+    c a c
+
+    d e fis
+    g2 r4
+    g,2 h8 g
+    c4 d d,
+    g2.\fermata
+  }
+
+  \introf
+  \repeat volta 2 {
+    \partial 4 r4
+    g1
+    g
+    d'4 e fis d
+    g d g, r
+    g'2 r4 g
+    fis2 r4 e
+
+    a, d a' a,
+    d2 r4
+  }
+  \repeat volta 2 {
+    \partial 4 cis
+    d2 c?
+    h4 g r e'
+    d2 c
+    h4 cis dis h
+
+    g'2 fis
+    e4 a, h a
+    g a h h,
+    e e' fis d?
+    g1
+    fis2. d4
+
+    h a h c?
+    d e fis d
+    g2 r4 g,
+    c2 h4 g
+    d' c d d,
+    g2.
+  }
 }

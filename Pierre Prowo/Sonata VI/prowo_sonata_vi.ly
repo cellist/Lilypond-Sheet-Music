@@ -2,7 +2,7 @@
 \include "deutsch.ly"
 \include "../../snippets/merge-rests.ily"
   
-#(set-global-staff-size 18)
+#(set-global-staff-size 18.25)
 
 \header {
   title = "Sonata Nr. VI á 3"
@@ -21,14 +21,16 @@ voiceconsts = {
 introa = { \tempo "1. Adagio " 2=70 \time 3/2 }
 introb = { \break \tempo "2. Allegro " 4=110 \time 4/4 }
 introc = { \break \tempo "3. Courante " 4=100 \time 3/4 }
-introd = { \break \tempo "4. Sarabande " 2=70 \time 3/2 }
+introd = { \pageBreak \tempo "4. Sarabande " 2=70 \time 3/2 }
+introe = { \break \tempo "5. Menuet et Bourrée alternativement " 4=90 \time 3/4 }
+introf = { \break \tempo "6. Bourrée " 4=140 \time 4/4 }
 
 %minstr = "harpsichord"
 mihi = "clarinet"
 %minstr = "accordion"
 milo = "bassoon"
 
-dim = \markup \italic "dim."
+aii = \markup \italic "à 2"
 
 \include "v1.ily"
 \include "v2.ily"

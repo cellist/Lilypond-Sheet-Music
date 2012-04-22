@@ -166,4 +166,63 @@ vc = \relative c'' {
     g fis fis
     g1.
   }
+
+  \introe
+  \repeat volta 2 {
+    g4 fis2
+    g fis4
+    g fis fis
+    g2 fis4
+    g h a
+
+    h a fis
+    fis e e
+    fis2.
+  }
+  \repeat volta 2 {
+    fis2 fis4
+    g2 fis4
+    e a g
+
+    fis g a
+    h2 r4
+    h2 g4
+    g g fis
+    g2.\fermata
+  }
+
+  \introf
+  \repeat volta 2 {
+    \partial 4 r4
+    g2 g
+    h h
+    a a
+    h g4 r
+    h2 r4 h
+    a2 r4 g
+
+    g fis e e
+    fis2 r4
+  }
+  \repeat volta 2 {
+    \partial 4 a
+    fis2 fis
+    g r4 g
+    fis2 e
+    dis fis
+
+    h a
+    g4 fis fis fis
+    g fis fis fis
+    g2 a
+    h h
+    a a
+
+    g4 fis g g
+    fis g a fis
+    f2 r4 f
+    e2 g
+    g4 e fis? fis
+    g2.
+  }
 }
