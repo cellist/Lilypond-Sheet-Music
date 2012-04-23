@@ -75,4 +75,92 @@ ve = \relative c {
   d, g cis, fis
   h, r8 fis' g2
   fis1 \bar "|."
+
+  \introc
+  \repeat volta 2 {
+    d8 cis4
+    d4.
+    cis8 d4
+    a4.
+    d8 g4
+    d4.
+    cis8 d4
+    a4.
+    a'4 r8
+    d,4 r8
+    e4 r8
+    a,4 r8
+    a4 d8
+    a4 r8
+
+    e'4 a,8
+    e'4 r8
+    d4 r8
+    d4 r8
+    d4 r8
+    a e' e,
+    a4.
+  }
+  g'8 g h,
+  e h4
+  e4.
+  e8 g4
+  e r8
+  h4 r8
+
+  e h4
+  fis' r8
+  r4.
+  fis4 r8
+  r4.
+  fis4 h,8
+  e4 fis8
+  d4 g8
+  e fis fis,
+  h4.
+  r
+  fis'4 r8
+  r4.
+  fis4 h,8
+
+  e4 fis8
+  d4 g8
+  e fis fis,
+  h4.
+  h4 d8
+  cis4 fis,8
+  h cis cis,
+  fis4.
+  fis'8 cis a
+  d4 r8
+  d g4
+  d4.
+  cis8 d4
+
+  a4.
+  a'
+  d,
+  e
+  a,4 d8
+  a4.
+  r
+  a'4 d,8
+  g4 a8
+  fis4 h8
+  g a a,
+  d cis h
+  a4 r8
+  a'4 r8
+  r4.
+
+  a4 d,8
+  g4 a8
+  fis4 h8
+  g a a,
+  d,4.
+  R4.*2
+  d'8 fis a
+  d, fis a
+  d, g, a
+  d,4. \bar "|."
 }

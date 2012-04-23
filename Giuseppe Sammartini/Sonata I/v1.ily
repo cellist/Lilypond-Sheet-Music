@@ -76,4 +76,96 @@ va = \relative c'' {
   fis4. g16( fis) e?4. fis16( e)
   d8 h fis'4~ fis8 e16 d e4\prall
   fis1 \bar "|."
+
+  \introc
+  \repeat volta 2 {
+    d16 e e8.\prall d32( e)
+    fis16( g) fis e d8
+    g fis8.\prall e32( fis)
+    e16( d cis h) a8
+    fis'16 g g8.\prall fis32( g)
+    a16 h a( g) fis8
+    e d8.\prall cis32( d)
+
+    cis4.
+    e8 d16( cis h a)
+    fis'8 e16( d cis h)
+    gis'8 fis16( e d cis)
+    a'8 e fis
+    cis4 d8
+    e a, h
+    gis4 a8
+
+    h16 a h cis h cis
+    d cis d e d e
+    fis e fis gis fis gis
+    a8 gis16 fis e d
+    cis a' h,4\prall
+    a4.
+  }
+  e'16 fis fis8. e32( fis)
+
+  g?16( fis) e8 dis
+  e h4
+  g'8 fis4
+  g16 fis g a g a
+  fis e fis g fis g
+  e8 d?4
+  cis16 h ais gis fis8
+
+  fis' cis d
+  ais4 h8
+  cis fis, d'
+  ais4 fis'8
+  g fis16 e d cis
+  fis8 e16 d cis h
+  cis8 ais4
+  h4.
+  fis'8 cis d
+  ais4 h8
+
+  cis fis, d'
+  ais4 fis'8
+  g fis16 e d cis
+  fis8 e16 d cis h
+  cis8 ais4
+  h4.
+  d16 cis d8 h
+  eis8. eis16 fis eis
+
+  fis gis eis8.\prall fis16
+  fis4.
+  d16 e e8.\prall d32( e)
+  fis16( g) fis e d8
+  fis16 g g8.\prall fis32( g)
+  a16 h a( g) fis8
+  e d8.\prall cis32( d)
+  cis4.
+
+  e8 d16( cis h a)
+  fis'8 e16( d cis h)
+  gis'8 fis16( e d cis)
+  a'8 e fis
+  cis4 d8
+  e a, fis'
+  cis4 a'8
+  h a16 g fis e
+
+  a8 g16 fis e d
+  e8 cis4\prall
+  d4.
+  a'8 e fis
+  cis4 d8
+  e a, fis'
+  cis4 a'8
+  h a16 g fis e
+  a8 g16 fis e d
+
+  e8 cis4\prall
+  d16 cis d e d e
+  fis e fis g fis g
+  a g a h a g
+  fis4.~
+  fis\prall
+  R4.*2 \bar "|."
 }

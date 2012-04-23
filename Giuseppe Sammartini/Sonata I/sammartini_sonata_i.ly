@@ -19,7 +19,8 @@ voiceconsts = {
 }
 
 introa = { \tempo "1. Allegro " 4=120 \time 4/4 }
-introb = { \break \tempo "2. Adagio " 4=40 }
+introb = { \pageBreak \tempo "2. Adagio " 4=40 }
+introc = { \break \tempo "3. Allegro " 4.=60 \time 3/8 }
 
 %minstr = "harpsichord"
 mihi = "clarinet"
