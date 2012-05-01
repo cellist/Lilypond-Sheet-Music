@@ -62,4 +62,46 @@ g fis4 a8 g fis4 r8
   a8 g16( fis) g8 e fis4 r8 g'~
   g fis16( e) fis8 h, d4 cis
   d1 \bar "|."
+
+  \introb
+  h4 h h
+  h2.
+  cis4 cis cis
+  cis2.
+  cis4 cis cis
+  h8 a'~ a16 g a h a8 g
+
+  fis a~ a16 g a h a8 g
+  fis4 fis e
+  dis r r
+  e e dis
+  e e d?
+  cis8 h'~ h16 a h cis h8 a
+
+  gis h~ h16 a h cis h8 a
+  gis4 gis fis
+  eis r r
+  fis eis4.\prall fis8
+  fis2 r4
+  his,8 cis dis4 dis~
+
+  dis cis h?
+  ais8 h cis4 cis~
+  cis h a
+  gis8 a h4 h~
+  h a a
+  d? d d
+  d cis ais
+
+  h h h
+  h2.
+  h4 r r
+  cis r r
+  h ais4.\prall h8
+  h d~ d16 cis d e d8 cis
+
+  h d~ d16 cis d e d8 cis
+  h4 r r
+  h cis ais4\prall 
+  h2. \bar "|."
 }

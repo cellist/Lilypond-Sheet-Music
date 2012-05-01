@@ -61,4 +61,46 @@ vc = \relative c'' {
   a g a8 r h r
   g r g r fis r e r
   fis1 \bar "|."
+
+  \introb
+  dis4 dis dis
+  e2 r4
+  eis4 eis eis
+  fis2.
+  g4 fis e?
+  dis a' g
+
+  fis a g
+  fis r r
+  r2.
+  g4 g a
+  g r r
+  gis h a
+
+  gis h a
+  gis r r
+  r2.
+  a4 a gis
+  a2.
+  a4 gis fis
+
+  e r r
+  g? fis e
+  d r r
+  fis e d
+  cis c2
+  d2 s4
+  d cis? fis
+
+  fis e2
+  eis2.
+  e?
+  e
+  d4 fis2
+  d4 d cis
+
+  d d cis
+  d2.
+  fis4 g fis
+  d2. \bar "|."
 }

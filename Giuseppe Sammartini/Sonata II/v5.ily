@@ -63,4 +63,46 @@ ve = \relative c {
   d a d8 r a r
   a r h r a r a r
   d,1 \bar "|."
+
+  \introb
+  a'4 a a
+  g2 r4
+  h h h
+  a2.
+  ais4 ais ais
+  h h h
+
+  h h h
+  h r r
+  r2.
+  e4 h' h,
+  e r r
+  cis cis cis
+
+  cis cis cis
+  cis r r
+  r2.
+  fis4 cis' cis,
+  fis2.
+  gis4 his,2
+
+  cis4 r r
+  fis ais,2
+  h4 r r
+  e gis,2
+  a?4 fis2
+  g?4 eis2
+  fis4 fis fis
+
+  g g g
+  g g g
+  gis gis gis
+  ais ais ais
+  h fis' fis,
+  h fis fis
+
+  h fis fis
+  h2.
+  h4 e fis
+  h,2. \bar "|."
 }

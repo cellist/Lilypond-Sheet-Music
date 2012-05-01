@@ -61,4 +61,46 @@ vd = \relative c' {
   fis g fis8 r d r
   cis r d r d r cis r
   d1 \bar "|."
+
+  \introb
+  h4 h h
+  h2 r4
+  cis cis cis
+  cis2.
+  cis4 cis cis
+  h fis' e
+
+  dis fis e
+  dis r r
+  r2.
+  e4 e dis
+  e r r
+  eis gis fis
+
+  eis gis fis
+  eis r r
+  r2.
+  fis4 fis eis
+  fis2.
+  dis
+
+  cis4 r r
+  cis2.
+  h4 r r
+  h2.
+  h4 a2
+  c4 h2
+  h4 ais ais
+
+  h2.
+  h
+  h
+  cis?
+  h4 cis2
+  h4 h ais
+
+  h h ais
+  h2.
+  d4 cis ais
+  h2. \bar "|."
 }

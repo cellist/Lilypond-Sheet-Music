@@ -63,4 +63,46 @@ va = \relative c'' {
   fis e16( d) e8 cis d r h r
   cis r g' r fis r e r
   d1 \bar "|."
+
+  \introb
+  dis4 dis dis
+  e8 fis( g4) r
+  eis eis eis
+  fis8 gis( a4) r
+  g? fis( e?)
+  dis8 fis~ fis16 e fis g fis8 e
+
+  dis fis~ fis16 e fis g fis8 e
+  dis4 a a
+  a r r
+  e'8( fis) g4 fis
+  e g fis
+  eis8 gis~ gis16 fis gis a gis8 fis
+
+  eis gis~ gis16 fis gis a gis8 fis
+  eis4 h h
+  h r r
+  a'8. gis16 gis4.\prall fis8
+  fis gis a4 a~
+  a gis fis
+
+  e8 fis g?4 g~
+  g fis e
+  d8 e fis4 fis~
+  fis e d
+  cis c c
+  c h h
+  h ais fis'
+
+  fis e g
+  eis2 r4
+  e?4 r r
+  e r r
+  d8 cis cis4.\prall h8
+  h fis'~ fis16 e fis g fis8 e
+
+  d fis~ fis16 e fis g fis8 e
+  d16 h( cis h) d fis( g fis) h4
+  d, e cis\prall
+  h2. \bar "|."
 }
