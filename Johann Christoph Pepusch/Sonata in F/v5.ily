@@ -178,4 +178,89 @@ ve = \relative c, {
   c2 a4
   b c2
   f,2. \bar "|."
+
+  \introc
+  d'8 f e d b' a g f
+  e g a a, d4 r8 d'
+  c b c f, b2
+
+  a8 a, cis a h4 cis
+  d r8 e f g a a,
+  d e f d e d e c?
+
+  f g a f d' c b a
+  g b c c, f4 r8 f
+  e d e c d2
+
+  c8 d e c d4 e
+  f r8 g a b c c,
+  f4 r8 d g f e c
+
+  f e d h e d cis a
+  d c? b? a g4 r
+  g'8 a b g a4 r
+
+  d, r c r
+  f8 g a a, d4 c
+  b2 a \bar "|."
+
+  \introd
+  \repeat volta 2 {
+    \partial 4 r4
+    f'2 f,
+    e' e,
+    f' f,
+    c' r4 d
+    e2 r4 e
+
+    f e f c
+    d2 c
+    b a
+    b c
+    f2. f4
+    e2. e4
+
+    d2 g
+    c, r4 h'
+    c h c g
+    a2 g
+    f e
+    f g
+
+    c,2.
+  }
+  \repeat volta 2 {
+    \partial 4 r4
+    d2 d,
+    cis' cis,!
+    d' d,
+    a' r4 h
+    cis2. cis4
+
+    d cis d a
+    b2 a
+    g f
+    g a
+    d4 a' d cis
+    d a d cis
+
+    d cis d a
+    d g, a a,
+    d2 g
+    e c
+    f a,
+    b b'~
+
+    b4 a8 g c4 c
+    a g f e
+    d c b a
+    b2 c
+    f, r4 e'
+
+    f e f c
+    d2 c
+    b a
+    b c
+    f,2.
+  }
 }

@@ -178,4 +178,89 @@ vd = \relative c' {
   e4 f8 g a g
   f g e2
   f2. \bar "|."
+
+  \introc
+  d2 d
+  g4 g f r8 f
+  e4 e8 f d2
+
+  cis4 e d e
+  d r8 g a b e,4
+  f8 g a b g4 g
+
+  f f f d
+  g g f r8 a
+  g4 g f2
+
+  e8 f g e f4 g
+  f r8 e f4 e
+  f r8 f g4 g
+
+  f f e e
+  d f b r
+  d, d cis r
+
+  f r e r
+  a e f e
+  d2 cis \bar "|."
+
+  \introd
+  \repeat volta 2 {
+    \partial 4 r4
+    s1
+    s
+    s
+    s
+    s
+
+    s
+    s
+    s
+    s
+    s
+    g'8 d' g, d' s2
+
+    s1
+    s
+    e8 g, d' g, e' g, h g
+    s1
+    s
+    s
+
+    s2.
+  }
+  \repeat volta 2 {
+    \partial 4 r4
+    s1
+    s
+    s
+    s
+    s
+
+    s
+    s
+    s
+    s
+    s2 f8 d' a e'
+    f a, cis e f a, e' a,
+
+    f' a, e' a, f' a, e' a,
+    s1
+    s2 g8 d' b d
+    s1
+    s
+    a8 d a d g, d' g, d'
+
+    g, e' c e g, e' c e
+    s1
+    s
+    s
+    a,8 c a c s2
+
+    s1
+    s
+    s
+    s
+    f,8 a c f s4
+  }
 }

@@ -177,4 +177,89 @@ vc = \relative c'' {
   g,4 a8 b c b
   a b g2
   a2. \bar "|."
+
+  \introc
+  f8 a g f d' c b a
+  d4 cis d r8 b
+  b4 a a g
+
+  a a g g
+  f r8 cis' d4 cis
+  d d b c?
+
+  a8 b c a a4 b
+  b b a r8 d
+  d4 c c h
+
+  c c b b
+  a r8 b a4 g
+  a r8 a b4 b
+
+  a a g g
+  f d' d r
+  b b a r
+
+  a r c r
+  d cis d a
+  a g a2 \bar "|."
+
+  \introd
+  \repeat volta 2 {
+    \partial 4 r4
+    a8 c f, c' a c f, c'
+    g c c, c' g c c, c'
+    a c f, c' a c f, c'
+    e, c' g c d, b' f b
+    g c c, c' e, c' g c
+
+    a c, g' c, a' c, c' c,
+    f d' a d f, c' a c
+    f, d' a d f, c' a c
+    f, d' a d f, c' a c
+    f, c' a c d, d' a d
+    s2 g,8 c g c
+
+    f, c' f, c' f, h f h
+    e, c' g c c, g' d' g,
+    s1
+    c8 a e a c a e a
+    c a e a c g e g
+    c a e a h g d g
+
+    c g e g c,4
+  }
+  \repeat volta 2 {
+    \partial 4 r
+    f8 a d, a' f a d, a'
+    e a a, a' e a a, a'
+    f a d, a' f a d, a'
+    cis, a' e a h, g' d g
+    e a a, a' e a a, a'
+
+    f a, e' a, f' a, e' a,
+    d d' b? d f, d' a d
+    f, d' b d f, d' a d
+    f, d' b d e, cis' a cis
+    f, d' a d s2
+    s1
+
+    s
+    f,8 d' b d e, a cis a
+    f d' a d s2
+    g,8 c g c e, c' g c
+    a c f, c' a c f, c'
+    s1
+
+    s
+    f,8 c' a c f, c' a c
+    f, d' a d f, d' a d
+    f, d' a d e, c' g c
+    s2 e,8 c' g c
+
+    a c g c a c e, c'
+    f, d' a d f, d' a d
+    f, d' a d f, c' a c
+    f, d' a d e, c' g c
+    s2 f,4
+  }
 }

@@ -2,7 +2,7 @@
 \include "deutsch.ly"
 \include "../../snippets/merge-rests.ily"
   
-#(set-global-staff-size 18.5)
+#(set-global-staff-size 18)
 
 \header {
   title = "Trio-Sonate Nr. 1"
@@ -21,14 +21,13 @@ voiceconsts = {
 
 introa = { \tempo "1. Largo " 4=70 \time 3/4 }
 introb = { \break \tempo "2. Allegro " 4=140 }
-introc = { \break \tempo "3. Allegro " 8=200 \time 3/8 }
+introc = { \break \tempo "3. Adagio " 4=70 \time 4/4 }
+introd = { \break \tempo "4. Allegro " 4=140 }
 
 %minstr = "harpsichord"
 mihi = "clarinet"
 %minstr = "accordion"
 milo = "bassoon"
-
-aii = \markup \italic "à 2"
 
 \include "v1.ily"
 \include "v2.ily"
