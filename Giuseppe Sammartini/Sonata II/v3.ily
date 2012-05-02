@@ -103,4 +103,83 @@ vc = \relative c'' {
   d2.
   fis4 g fis
   d2. \bar "|."
+
+  \introc
+  \repeat volta 2 {
+    a'4.
+    a
+    a
+    a
+    a
+    a4 a8
+    a4 g8
+    g fis r
+    a g fis
+
+    h a g
+    fis e d
+    cis4.
+    e
+    fis8 e4
+    e4.
+    fis8 e4
+    e4.
+
+    R4.*3
+    a4.
+    a
+    a
+    a
+    a
+    fis
+
+    h8 a gis
+    a4.
+  }
+  \repeat volta 2 {
+    fis
+    fis
+    fis4 a8
+    a g?4
+    h4.
+    h
+
+    h
+    h8 a4
+    a4.
+    a
+    a
+    fis8 e r
+    g4.	 
+    g
+    g
+    g8 fis r
+
+    fis4.
+    fis
+    fis8 e d
+    cis4.
+    fis
+    e
+    fis
+    g4 fis8
+    g e4
+    fis4.
+
+    fis
+    g8 fis r
+    a4.
+    h8 a r
+    fis4.
+    R4.*3
+    a4.
+
+    h
+    g8 fis e
+    fis4.
+    fis
+    fis
+    d'4 cis8
+    d4.
+  }
 }

@@ -105,4 +105,87 @@ va = \relative c'' {
   d16 h( cis h) d fis( g fis) h4
   d, e cis\prall
   h2. \bar "|."
+
+  \introc
+  \repeat volta 2 {
+    d8 d d
+    d d d
+    d d d
+    d4.
+    d8 cis h
+    a g fis
+    g a g
+    g fis r
+    a' g fis
+
+    h a g
+    fis e d
+    cis4.
+    e16 cis e cis e cis
+    fis8 e4
+    e16 cis e cis e cis
+    fis8 e4
+    a8 gis fis
+
+    e d cis
+    d h e
+    a,4.
+    a'8 a a
+    a a a
+    a a a
+    a4.
+    a16 gis fis e d cis
+    fis e d cis h a
+
+    d8 cis h
+    a4.
+  }
+  \repeat volta 2 {
+    a'16 h a8 g?
+    fis16 g fis8 e
+    d16 e d8 c
+    c h4
+    h'16 cis? h8 a
+    gis16 a gis8 fis
+
+    e16 fis e8 d
+    d cis4
+    a8 d4
+    a8 e'4
+    a,8 fis'4
+    fis8 e r
+    g g g
+    g g g
+    g g g
+    g fis r
+
+    fis fis fis
+    fis fis fis
+    fis e d
+    cis4.
+    d
+    e
+    fis
+    g8.\prall a16 fis8
+    g e4\prall
+    d4.
+
+    a'16 fis a fis a fis
+    h8 a r
+    a16 fis a fis a fis
+    h8 a r
+    d, cis h
+    a g fis
+    g e a
+    d,4.
+    a''8 g16 fis e d
+
+    h' a g fis e d
+    g8 fis e
+    d d d
+    d d d
+    d cis16 h a g
+    fis8 g a
+    d,4.
+  }
 }

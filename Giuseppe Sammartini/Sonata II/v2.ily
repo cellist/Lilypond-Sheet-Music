@@ -104,4 +104,87 @@ g fis4 a8 g fis4 r8
   h4 r r
   h cis ais4\prall 
   h2. \bar "|."
+
+  \introc
+  \repeat volta 2 {
+    fis'8 fis fis
+    fis fis fis
+    fis fis fis
+    fis4.
+    fis8 e d
+    cis4 d8
+    e cis4
+    d4.
+    fis8 e d
+
+    g fis e
+    d cis h
+    a4.
+    cis16 a cis a cis a
+    d8 cis4
+    cis16 a cis a cis a
+    d8 cis4
+    a'8 gis fis
+
+    e d cis
+    d h e
+    a,4.
+    fis'8 e d
+    cis4.
+    fis8 e d
+    cis4.
+    cis
+    a
+
+    h8 a gis
+    a4.
+  }
+  \repeat volta 2 {
+    r4.
+    a'16 h a8 g?
+    fis16 g a8 a,
+    a g4
+    r4.
+    h'16 cis h8 a
+
+    gis16 a h8 h,
+    h a4
+    fis'8 a4
+    e8 a4
+    fis8 a4
+    d,8 cis r
+    e e e
+    e e e
+    e e e
+    e d r
+
+    d d d
+    d d d
+    h g' g
+    g4.
+    fis
+    cis
+    d
+    e8.\prall fis16 d8
+    e cis4\prall
+    d4.
+
+    fis16 d fis d fis d
+    g8 fis r
+    fis16 d fis d fis d
+    g8 fis r
+    d cis h
+    a g fis
+    g e a
+    d,4.
+    d'
+
+    d
+    e8 d cis
+    d d d
+    d d d
+    d cis16 h a g
+    fis8 g a
+    d,4.    
+  }
 }
