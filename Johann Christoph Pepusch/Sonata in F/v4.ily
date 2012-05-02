@@ -89,4 +89,93 @@ vd = \relative c' {
   f2 a4
   f e2
   f2. \bar "|."
+
+  \introb
+  c2 c4
+  c f2
+  c2 e4
+  f f2
+  e r4
+  r e e
+  f f2
+  f e4
+
+  e d2
+  e c4~
+  c c2
+  a f'4
+  c2 a'4
+  d,2 g4
+  c,2 h4
+
+  c2 c4
+  c h2
+  c d4
+  e d h
+  e d h
+  c2 c4
+  c h h
+
+  h a h
+  c2 c4
+  c h c
+  c2 e4
+  a g e
+  a g e
+  f2 f4
+
+  f e e
+  e d d
+  c2 f4
+  f e e
+  f2 e4
+  f e cis
+  d cis2
+
+  d fis4
+  h a fis
+  g2.
+  f?
+  f4 e e
+  e d d
+  d cis2
+
+  d d4
+  d c? c
+  h2 g'4
+  g f f
+  e2 a4~
+  a g2
+  f g4
+
+  a g e
+  f g2
+  f f4
+  f f2
+  f4 f2
+  e f4
+
+  f e2
+  f g4
+  a g e
+  a g e
+  f2 f4
+  f e2
+  e4 d2
+  c f4~
+
+  f e2
+  f e4
+  f g g
+  f2 a4
+  a g g
+  g f f
+  f e2
+
+  a4 g e
+  a g e
+  f f2
+  e4 f8 g a g
+  f g e2
+  f2. \bar "|."
 }

@@ -89,4 +89,93 @@ ve = \relative c, {
   f2 a,4
   b c2
   f,2. \bar "|."
+
+  \introb
+  f'2 e4
+  f2 d4
+  e2 c4
+  d2 b4
+  c2 r4
+  r c' c
+  a d2
+  g,4 a8 b c4
+
+  f, b2~
+  b4 a8 g a4~
+  a8 b c4 c,
+  f2 d4
+  a'2 f4
+  g2 e4
+  f2 d4
+
+  e2 c4
+  f g g,
+  c2 h4
+  c h g
+  c h g
+  a2 f'4
+  g2 e4
+
+  f2 d4
+  e2 c4
+  f g g
+  e2 c4
+  f e c
+  f e c
+  d2 b4
+
+  c2 a4
+  b2 g4
+  a2 f4
+  b c c,
+  f f' cis
+  d cis a
+  d a' a
+
+  fis2 d4
+  g fis d
+  g e c?
+  f?2 d4
+  e2 cis4
+  d2 f4
+  g a a,
+
+  d2 h4
+  e fis d
+  g2 e4
+  a h g
+  c2 a4
+  d, e c?
+  f?2 e4
+
+  f e c
+  d e2
+  f d4
+  g a2
+  b4 b8 a b c
+  b c a g a b
+
+  g4 c c,
+  f2 e4
+  f e c
+  f e c
+  d2 b4
+  c2 a4
+  b2 g4
+  a2 f4
+
+  b c c,
+  f2 c'4
+  d e c
+  f2 f4
+  g2 g4
+  a2 a4
+  b c c,
+
+  f e c
+  f e c
+  d2 b4
+  c2 a4
+  b c2
+  f,2. \bar "|."
 }

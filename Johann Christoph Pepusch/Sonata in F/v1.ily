@@ -71,4 +71,88 @@ va = \relative c''' {
   a8 g a b a4
   g g4. f8
   f2. \bar "|."
+
+  \introb
+  R2.*6
+  r4 f'8 e f g
+  f g e d e f
+
+  e f d c d e
+  c c d e f e
+  f g, g4. f8
+  f4 f' f
+  e a2
+  d,4 e8 f g4
+  c, f2~
+
+  f4 e8 d e4~
+  e8 f d4. c8
+  c2 r4
+  r g' g
+  e d h
+  c c'8 h c d
+  c d h a h c
+
+  h c a g a h
+  g g a h c h
+  c d h4. c8
+  c4 c c
+  a g e
+  f c' c
+  a d2
+
+  g,4 a8 b? c4
+  f, b2~
+  b4 a8 g a4~
+  a8 b g4. f8
+  f2 r4
+  r a a
+  f e cis
+
+  d d' d
+  b a fis
+  g b8 a b c
+  b c a g a b
+  a b g f g a
+  g a f e f g
+  f g e4. d8
+
+  d2 d4
+  g a fis
+  r g8 fis g a
+  g a f? e f g
+  e4 c'8 h c d
+  c d h a h c
+  a4 c c
+
+  a g e
+  f g2
+  c,4 f8 e f g
+  f g es d es f
+  d4 b'2
+  e,? f4~
+
+  f8 g e4. f8
+  f2 r4
+  r c' c
+  a g e
+  r f8 e f g
+  f g e d e f
+  e f d c d e
+  c c d e f e
+
+  f g e4. f8
+  f4 c'8 b c d
+  c d b a b c
+  b c a g a b
+  a b g f g a
+  g a f e f g
+  f g e4. f8
+
+  f2 r4
+  r c c
+  a d2
+  g,4 a8 b c b
+  a b g4. f8
+  f2. \bar "|."
 }

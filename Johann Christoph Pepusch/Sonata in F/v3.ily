@@ -88,4 +88,93 @@ vc = \relative c'' {
   a2 c4
   d c2
   a2. \bar "|."
+
+  \introb
+  a2 g4
+  a a2
+  g c4
+  c b2
+  b4 a r
+  r g g
+  a a2
+  b b4
+
+  a a2
+  g f4~
+  f f e
+  f2 a4
+  a2 c4
+  c h2
+  h4 a2
+
+  g e4
+  e d2
+  e g4
+  g2.
+  g
+  e2 a4
+  g2 g4
+
+  f2 f4
+  f e e
+  e d g
+  g2 c4
+  c2.
+  c
+  a2 d4
+
+  c2 c4
+  b2 b4
+  b a a
+  a g g
+  a2 a4
+  a2.
+  f4 a2
+
+  a d4
+  d2.
+  b
+  b4 a2
+  a4 g g
+  g f f
+  f e2
+
+  f g4
+  g a fis
+  g2 c4
+  c d h
+  c2 c4~
+  c b?2
+  a c4
+
+  c2.
+  c4 b2
+  a d4
+  b c2
+  d4 d2
+  c c4
+
+  b g2
+  a c4
+  c2.
+  c
+  a2 d4
+  c2 c4
+  b2 b4
+  b a a~
+
+  a g2
+  a c4
+  c b b
+  b a c
+  c b b
+  b a a
+  a c2
+
+  c2.
+  c
+  a4 d2
+  g,4 a8 b c b
+  a b g2
+  a2. \bar "|."
 }
