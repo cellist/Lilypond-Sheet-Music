@@ -73,4 +73,45 @@ vc = \relative c'' {
     s1
     s2 s4.
   }
+
+  \introb
+  \partial 2. h4 c h
+  h ais r
+  a? h a
+  a gis r
+  g? a g
+  g fis h
+  h a g
+  fis g d'
+  d c c
+
+  c h h
+  h a g
+  a h c
+  h a2
+  h4 r a
+  gis2 a4~
+  a gis2
+  a c4
+  c h h
+
+  h ais r
+  a? r r
+  a gis r
+  g? r r
+  g fis r
+  f r r
+  f e a
+  a2 g4~
+
+  g g2
+  cis d4
+  d cis h
+  ais2 h4
+  h ais a
+  a r g
+  g fis fis
+  g2 h4
+  h a2
+  h2. \bar "|."
 }

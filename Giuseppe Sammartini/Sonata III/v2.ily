@@ -73,4 +73,45 @@ vb = \relative c''' {
     h g' fis e d c h a
     g16 a h c d8 d g,4.
   }
+
+  \introb
+  \partial 2. g'4 g g
+  fis fis r
+  fis fis fis
+  e e r
+  e e e
+  d r g
+  e c'2~
+  c8 h h h h h
+  g g g g g g
+
+  fis fis fis fis fis fis
+  e e e e e e
+  d4 r a'
+  g fis4. g8
+  g4 r h8 a
+  gis4.\prall gis8 a4~
+  a8 h gis4.\prall a8
+  a2 a4~
+  a g?8 fis g4
+
+  fis r r
+  fis r r
+  h, r r
+  e r r
+  a, r r
+  d r r
+  g,2 e'4
+  dis4.\prall dis8 e4~
+
+  e e e
+  e2 a4
+  g2.
+  fis4 r gis
+  cis,2 fis4
+  fis4.\prall dis8 e4~
+  e8 fis dis4.\prall e8
+  e4 g? fis
+  e2.\prall
+  dis \bar "|."
 }

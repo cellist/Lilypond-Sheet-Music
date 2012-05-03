@@ -73,4 +73,45 @@ va = \relative c''' {
     h g' fis e d c h a
     g16 a h c d8 d g,4.
   }
+
+  \introb
+  \partial 2. h'4 c h
+  h\prall ais r
+  a? h a
+  a\prall gis r
+  g? a g
+  g\prall fis h~
+  h8. c16 a8. h16 g8. a16
+  fis8 d' d d d d
+  d c c c c c
+
+  c h h h h h
+  h a a a a g
+  fis4 g c
+  h8 a a4.\prall g8
+  g4 d'2~
+  d4. h8 c4~
+  c8 d h4.\prall a8
+  a4 h c~
+  c h8 ais h4~
+
+  h ais fis8 g
+  a? fis( e fis) a4
+  a\prall gis8 e( dis e)
+  g? e( dis e) g4
+  g fis8 d?( cis d)
+  f d( c? d) f4
+  f\prall e a
+  a4.\prall fis?8 g4~
+
+  g g g
+  cis4. cis8 d4~
+  d cis h
+  ais4. ais8 h4~
+  h ais a
+  a4.\prall fis8 g4~
+  g8 a fis4.\prall e8
+  e4 h'2~
+  h8 c? a4.\prall h8
+  h2. \bar "|."
 }

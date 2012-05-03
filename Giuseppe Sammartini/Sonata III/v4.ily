@@ -73,4 +73,45 @@ vd = \relative c' {
     h g' fis e d c h a
     g16 a h c d8 d g,4.
   }
+
+  \introb
+  \partial 2. g4 g g
+  fis fis r
+  fis fis fis
+  e e r
+  e e e
+  d s g
+  e2.
+  c4 h h'
+  g2.
+
+  fis
+  e
+  fis4 g a
+  g fis2
+  g4 r d
+  d2 c4~
+  c h2
+  c a'4
+  a g g
+
+  fis s r
+  fis r r
+  e s r
+  e r r
+  d s r
+  d r r
+  c s e
+  dis2 e4~
+
+  e e2
+  e a4
+  g2.
+  fis2 gis4
+  cis,2 fis4
+  fis r e
+  e e dis
+  h2 fis'4
+  e e2
+  dis2. \bar "|."
 }
