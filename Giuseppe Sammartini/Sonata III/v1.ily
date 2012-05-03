@@ -114,4 +114,120 @@ va = \relative c''' {
   e4 h'2~
   h8 c? a4.\prall h8
   h2. \bar "|."
+
+  \introc
+  \repeat volta 2 {
+    g16( a) h8 a
+    g h( a)
+    g h( a)
+    g d4
+    h'16( c) d8 c
+    h d( c)
+    h d( c)
+    h g4
+    h8 h h
+    h a4
+    g8 g g
+    g fis4
+    h8 g e
+    cis a'a
+
+    a g g
+    fis d' d
+    d c16 h c d
+    h8 e d
+    cis8. cis16 d8
+    fis, g e
+    d e f~
+    f e d
+    h' f f~
+    f e d
+    h' f f~
+    f e d
+    cis a' a
+
+    a gis g
+    g8. a16 fis8
+    g e4\prall
+    d4.    
+  }
+  \repeat volta 2 {
+    fis16( g) a8 g
+    fis a( g)
+    fis a( g)
+    g fis4
+    h16( c) d8 c
+    h d( c)
+    h d( c)
+    c h r
+    h c h
+    ais4.
+
+    a?
+    gis
+    g?
+    fis
+    f?
+    e8 f e
+    dis8. dis16 e8
+    e d? h'
+    gis8.\prall gis16 a8
+    a g?16( fis) g8
+    g16( fis) g a f8
+
+    e c'16 h a g
+    fis?8 g g
+    g g g
+    fis e e
+    ais8. ais16 h8~
+    h ais4\prall
+    h8 fis fis
+    fis e e
+    e8. fis16 d8
+    e cis4\prall
+    h4.
+    g'16( a) h8 a?
+
+    g h( a)
+    g h( a)
+    g d4
+    h'16( c) d8 c
+    h d( c)
+    h d( c)
+    h g4
+    h8 h h
+    h a4
+    g8 g g
+    g fis4
+    e8 e e
+    e d g
+    c h16 a h8
+    h a4
+
+    d,8 e f~
+    f e16 d e8
+    e fis? g~
+    g fis16 e fis8
+    fis g a~
+    a g16 fis g8
+    c c c
+    d,4 h'8
+    c a4\prall
+    g8 a b~
+    b a g
+    cis b b~
+
+    b a g
+    e' b b~
+    b a g
+    fis d' d
+    d cis c
+    c8. d16 h?8
+    c a4\prall
+    g8 d c
+    h d c
+    h d g
+    h, c d
+    g,4.
+  }
 }
