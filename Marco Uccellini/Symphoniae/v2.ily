@@ -45,4 +45,35 @@ vb = \relative c'' {
     g a16 g f4 f4. e8
     f2 f
   }
+
+  \introb
+  \repeat volta 2 {
+    e8 c16 e d8[ h16 d] c8 a16 c h8[ g16 h]
+    c4 e,8 g f e d4
+    e h'8 d c h a4
+
+    h c8 d16 e a,8[ h16 c] h8 c16 d
+    g,8 a16 h a8[ h16 c] h4 h~
+    h8 g c4. a8 d4~
+    d8 h c4. h8 h8.[ a16]
+
+    g8 a16 h a8[ g] g4. fis8
+    g4. f'?8 f8.[ e16] e8. d16
+    c8 d16 e d8[ c] c4. h8
+    c2 c
+  }
+  \repeat volta 2 {
+    c8 a16 c h8[ g16 h] a8 fis16 a gis8[ e16 gis]
+    a4 f'? f8 e16 d d8.[ cis16]
+    d4 e e8 d16 c? c8.[ h16]
+
+    c4 g'?8 a16 b a4 f8 g16 a
+    g4 e8 f16 g f4 d8 e16 f
+    e4 c8 d16 e d4 h?8 c16 d
+
+    c8 d16 e d8[ e16 f] e8 f16 g f8[ g16 a]
+    g4 g, g8[ a16 g] g8. fis16
+    g4 e' e8[ d16 c] c8. h16
+    c2 c
+  }
 }

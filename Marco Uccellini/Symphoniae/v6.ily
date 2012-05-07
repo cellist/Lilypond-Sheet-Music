@@ -46,4 +46,36 @@ vf = \relative c {
     c4 f b c
     f,2 f
   }
+
+  \introb
+  \repeat volta 2 {
+    c'4 d e8 f g g,
+    c4 e f8 c g' g,
+    c4 h c8 g d' d,
+
+    g4 c d h
+    c2 g4 g'~
+    g8 e a4. f8 b4~
+    b8 g c c, c d e f
+
+    g4 c, d2
+    g,4. f8 f g a b
+    c4 f, g2
+    c c
+  }
+
+  \repeat volta 2 {
+    a4 h c8 d e e,
+    a4 d8 e f g a a,
+    d4 c8 d e f g g,
+
+    c4 c' a8 b16 c b4
+    g8 a16 b a4 f8 g16 a g4
+    e8 f16 g f4 d8 e16 f e4
+
+    c g' e f
+    c g8 a h? c d d,
+    g4 c8 d e f g g,
+    c2 c
+  }
 }

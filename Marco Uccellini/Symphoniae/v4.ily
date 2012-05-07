@@ -45,4 +45,35 @@ vd = \relative c'' {
     g as g g
     a?2 a
   }
+
+  \introb
+  \repeat volta 2 {
+    c4 a c h
+    c c a8 c h4
+    c d e8 h a4
+
+    h g f g
+    g a h h
+    h c c d
+    d e e h
+
+    h c a a
+    h c a g
+    g a d, d
+    e2 e
+  }
+  \repeat volta 2 {
+    a4 g g gis
+    a f a e
+    fis c' c c8 h
+
+    c4 g? c d
+    b c d d
+    c c h? c
+
+    c h c d
+    e h d a
+    h c c c8 h
+    c2 c
+  }
 }
