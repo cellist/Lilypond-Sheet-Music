@@ -76,4 +76,48 @@ ve = \relative c' {
     g4 e g d
     e2 e
   }
+
+  \introc
+  \repeat volta 2 {
+    e4. f8 g4 e
+    f g d2
+    e4. f8 g2
+    f d
+    e4 g e d
+
+    e g g4. fis8
+    g4 e f d
+    g f f g
+
+    e a g e
+    fis e f f
+
+    g e f d
+    e f f e
+
+    f d g f
+    f g e f
+
+    d g d d
+    e2 e
+  }
+  \repeat volta 2 {
+    g4 g e g
+    a a f f
+    e g g g
+
+    f a a d,
+    e e f g
+    a a g e
+
+    fis g e fis
+    g g a g
+    e e f? g
+    a a g e
+
+    f fis g fis
+    g g a f?
+    g a f d
+    e2 e
+  }
 }

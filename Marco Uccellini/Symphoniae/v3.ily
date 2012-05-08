@@ -77,4 +77,48 @@ vc = \relative c'' {
     h4 e8 f g a h d,
     e2 e
   }
+
+  \introc
+  \repeat volta 2 {
+    g4. g8 g4 e
+    f c d2
+    e4. f8 g4. g8
+    f e d c g'4. f8
+    e f g a h4. h8
+
+    g a h c d4. d8
+    h16 c d h c8[ c] c, c g' g
+    c c f, f a a e e
+
+    cis16[ d e cis] d e fis d e4. fis8
+    d16 e fis d e8[ e] c? c f f
+
+    g g c, c f f b, b
+    e16[ f g e] a b c a d8[ d] c8. b16
+
+    a b c a b8[ b] c c f, f
+    a a e e g g d d
+
+    g g g g a[ a] g8. f16
+    e2 e
+  }
+  \repeat volta 2 {
+    h'?8 h h h c d c h
+    a4. h16 c d8 c d h
+    e, f g a d, c d e
+
+    f4. d8 a'[ a] g4
+    g c8 h16 c d8[ d] e d16 e
+    f8 f d,4 g8 a e4
+
+    fis h a8 g fis a
+    g d e4 d8 c h d
+    c4 e d8 c h4
+    a a h cis8 a
+
+    d4 a8 h c?4 c
+    h d8 c f4 f
+    e8. d16 c4 f8 a d,4
+    e2 e
+  }
 }

@@ -76,4 +76,48 @@ va = \relative c''' {
     g4 g' g8 f16 e d8[ c]
     c2 c
   }
+
+  \introc
+  \repeat volta 2 {
+    e4. f8 g4 g
+    a g f2
+    e4. d8 c h a g
+    a h c4 c4. h8
+    c4. a'8 g f e d
+
+    e fis g4 g4. fis8
+    g4 e16 f? g e f8[ f] d16 e f d
+    e8 e c16[ d e c] d8 d h16[ c d h]
+
+    cis8 a d2 cis4
+    d g16 a b g a8[ a] f16 g a f
+
+    g8 g e16[ f g e] f8 f d16[ e f d]
+    e8 c f2 e4
+
+    f d16 e f d e8[ e] c16 d e c
+    d8 d h16[ c d h] c8 c a16[ h c a]
+
+    h8 g c2 h4
+    c2 c
+  }
+  \repeat volta 2 {
+    r g'8 g g g
+    a4. g8 f e f d
+    e4. e8 d d d e
+
+    a,4. h8 c[ c] c8. h16
+    c4 e8 d16 e f8[ f] g f16 g
+    a8 a fis4 g8 f e4
+
+    d d8 c16 d e8[ e] fis e16 fis
+    g8 g g4 f8 e d4
+    e e8 d16 e f8[ f] g f16 g
+    a8 a a4 g8 f e4
+
+    d fis,8 e16 fis g8[ g] a g16 a
+    h8 h h[ a16 h] c8 c d[ c16 d]
+    e8. g16 a8[ g] f? e d4
+    c2 c
+  }
 }

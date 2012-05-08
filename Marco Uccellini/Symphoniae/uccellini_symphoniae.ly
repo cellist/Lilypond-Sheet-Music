@@ -2,7 +2,7 @@
 \include "deutsch.ly"
 \include "../../snippets/merge-rests.ily"
   
-#(set-global-staff-size 18.5)
+#(set-global-staff-size 18)
 
 \header {
   title = "Symphoniae"
@@ -20,7 +20,7 @@ voiceconsts = {
 
 introa = { \tempo "Nr. 1: \"A Rovetta\". Allegro " 8=180 \time 2/2 }
 introb = { \break \tempo "Nr. 9: \"A Gurana\". Allegro " 8=200 \key c \major }
-introc = { \break \tempo "3. Allegro " 8=200 \time 3/8 }
+introc = { \break \tempo "Nr. 10: \"A Gallana\". Allegro " 8=180 }
 
 %minstr = "harpsichord"
 mihi = "clarinet"
