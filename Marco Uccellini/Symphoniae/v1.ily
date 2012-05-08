@@ -120,4 +120,34 @@ va = \relative c''' {
     e8. g16 a8[ g] f? e d4
     c2 c
   }
+
+  \introd
+  \repeat volta 2 {
+    h4 ais h4. cis8
+    d d cis8.[ h16] ais4 fis
+    h ais h4. cis8
+
+    d d e e fis2
+    fis4 eis fis4. gis8
+    a a gis fis eis4 cis
+    fis eis fis4. gis8
+
+    a a h h cis2
+    d4 cis h a
+    h4. cis8 a4. h8
+    cis4 cis d8( cis) h( a)
+
+    gis4. fis8 fis2
+  }
+  \repeat volta 2 {
+    fis4 g? a g8 fis
+    e4. d8 cis2
+    d4 e fis g8 fis
+    e4. d8 d2
+
+    a'4 e a d,
+    fis cis e h
+    d e fis e8 d
+    cis4. h8 h2
+  }
 }

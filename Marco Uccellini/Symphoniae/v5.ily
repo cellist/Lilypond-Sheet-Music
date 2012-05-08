@@ -120,4 +120,34 @@ ve = \relative c' {
     g a f d
     e2 e
   }
+
+  \introd
+  \repeat volta 2 {
+    h'4 ais h g
+    a? g ais ais
+    fis ais h g
+
+    fis h a?2
+    a4 gis a h
+    cis h eis, eis
+    a gis a h
+
+    cis h a2
+    h4 a gis a
+    h gis a a
+    a a fis fis
+
+    fis4. eis8 fis2
+  }
+  \repeat volta 2 {
+    a4 g? fis2
+    g cis,
+    d4 e? fis g
+    e2 fis
+
+    fis4 g e fis
+    d e e d
+    g g h g8 h
+    h4. ais8 h2
+  }
 }

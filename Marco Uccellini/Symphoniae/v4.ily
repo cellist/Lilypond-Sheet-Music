@@ -120,4 +120,34 @@ vd = \relative c'' {
     e f d c8. h16
     c2 c
   }
+
+  \introd
+  \repeat volta 2 {
+    d4 cis d e
+    fis e cis cis
+    d cis d e
+
+    d e fis2
+    fis4 eis fis d
+    e? d cis cis
+    fis eis fis d
+
+    fis eis fis2
+    fis4 cis e? e
+    d h cis cis
+    cis cis d h
+
+    gis2 a
+  }
+  \repeat volta 2 {
+    d4 cis d2
+    h ais
+    h4 cis d e
+    d4. cis8 d2
+
+    d4 h a? h
+    h a cis h
+    h e fis e
+    cis2 d
+  }
 }

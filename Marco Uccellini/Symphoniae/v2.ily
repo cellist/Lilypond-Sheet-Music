@@ -120,4 +120,34 @@ vb = \relative c'' {
     c8. e16 f8[ e] d c c8.[ h16]
     c2 c
   }
+
+  \introd
+  \repeat volta 2 {
+    d4 cis h4. g'8
+    fis fis e8.[ d16] cis4 ais
+    d cis h4. g'8
+
+    fis fis g g a?2
+    a4 gis a4. h8
+    cis cis h8.[ a16] gis4 eis
+    a gis fis4. eis8
+
+    fis fis gis gis a2
+    h4 a gis a
+    a4. gis8 a4. gis8
+    a4 a h8( a) gis( fis)
+
+    fis4. eis8 fis2
+  }
+  \repeat volta 2 {
+    d4 e? fis e8 d
+    cis4. h8 ais2
+    h4 cis d e8 d
+    d4. cis8 d2
+
+    fis4 cis e h
+    d a cis gis
+    h c? h h
+    h4. ais8 h2
+  }
 }

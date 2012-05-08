@@ -121,4 +121,34 @@ vc = \relative c'' {
     e8. d16 c4 f8 a d,4
     e2 e
   }
+
+  \introd
+  \repeat volta 2 {
+    fis4 fis fis e
+    fis8 fis g g fis2
+    fis4 fis fis e
+
+    fis8 fis h h cis2
+    cis4 cis cis h
+    e8 e d e cis2
+    cis4 cis cis h
+
+    cis8 cis d e fis2
+    fis4 cis e a,
+    d h cis2
+    fis4 fis fis eis8 fis
+
+    cis2 cis
+  }
+  \repeat volta 2 {
+    a4 g fis2
+    g4. a8 fis2
+    fis4. g8 a4 h8 cis
+    a2 a
+
+    d4 g, c fis,
+    h e, a d,
+    g e d g8 a
+    fis2 fis
+  }
 }

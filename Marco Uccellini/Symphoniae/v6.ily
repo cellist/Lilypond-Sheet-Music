@@ -122,4 +122,34 @@ vf = \relative c {
     c f,2 g4
     c,2 c
   }
+
+  \introd
+  \repeat volta 2 {
+    h''4 fis h, e
+    d e fis2
+    h4 fis h, e
+
+    h' g fis2
+    fis4 cis' fis, h
+    a h cis2
+    fis,4 cis' fis, h
+
+    a gis fis2
+    d4 a' e cis
+    d e a, a'
+    fis2 h
+
+    cis fis,
+  }
+  \repeat volta 2 {
+    fis4 e d2
+    e fis
+    h4 a8 g? fis4 e
+    a a, d2
+
+    d4 e c d
+    h cis? a h
+    g c d e
+    fis2 h,
+  }
 }
