@@ -150,4 +150,71 @@ ve = \relative c' {
     g g h g8 h
     h4. ais8 h2
   }
+
+  \introe
+  \repeat volta 2 {
+    f f4 a
+    a a f h
+    e,2 f4 g
+    f g f e
+
+    cis2 cis
+    d f
+    f4 e e4. g8
+    g4 f f2
+    f f
+
+    e4 f f4. e8
+    f1
+  }
+  \repeat volta 2 {
+    f4 e d cis
+    d2 c?
+    e d
+
+    c f
+    a f
+    g g
+    a f
+
+    g g
+    f f
+    d4 f e2
+    fis1
+  }
+
+  \introf
+  \repeat volta 2 {
+    e
+    e4 e f e
+    f c d e
+    d f g f
+
+    g e c d
+    e e f g
+    a f d e
+    d f g f
+
+    g g f d
+    c e f g
+    f f8 g a4 g
+    e1
+  }
+  \repeat volta 2 {
+    e4 e g8 a h4
+
+    fis a a4. gis8
+    a2 f?4 a
+    a a g? f
+    e2 fis4 fis8 a
+
+    g4 e g g
+    e f? e a
+    f f f f
+
+    g g a f
+    g g a a
+    g8 e' d c c4. h8
+    c1
+  }
 }

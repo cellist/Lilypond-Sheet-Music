@@ -150,4 +150,71 @@ vb = \relative c'' {
     h c? h h
     h4. ais8 h2
   }
+
+  \introe
+  \repeat volta 2 {
+    f'8 e d cis d4 f,
+    e e f e8 d
+    d4. cis8 d4 b'8 c!
+    d4 c8 b a4 e'8 d
+
+    cis4. h8 a2
+    r4 b?8 c d2~
+    d4 c8 d e2~
+    e4 d8 e f2~
+    f4 b,8 c d e f d
+
+    e4 f f4. e8
+    f1
+  }
+  \repeat volta 2 {
+    f4 e d cis
+    d2 a4 f'
+    e f8 e d4. d8
+
+    c b c b a4. c8
+    d c d c b4. d8
+    e d e d c4. e8
+    f e f e d4. f8
+
+    g f g d e4. e8
+    f e f c d a f'4
+    e d d4. cis8
+    d1
+  }
+
+  \introf
+  \repeat volta 2 {
+    r4 g e c
+    g c8 c d d e e
+    f4 c,8 c d d e e
+    f4 f'8 f g g a a
+
+    b8. a16 g8[ b] a g f4
+    e c8 c d d e e
+    f4 c,8 c d d e e
+    f4 f'8 f g g a a
+
+    b8. a16 g8[ g] f e d4
+    c c8 c b[ a] g4
+    f8 c' c c c4 h?
+    c1
+  }
+  \repeat volta 2 {
+    c8 c c c c c c c
+
+    h4 a a4. gis8
+    a2 f'8 f f f
+    f f f f e4 d
+    d4. cis8 d8[ a16 g] fis e d c!
+
+    h8 h' c d e[ d16 c] h a g f
+    e8 e f g a[ c16 h] a g f e
+    d4. c'8 d4. d8
+
+    e4. e8 f16[ g f e] d c h a
+    g8 e'16 d c[ h a g] f8[ f'16 e] d c h a
+    g8 e' d c c4. h8
+    c1
+  }
 }

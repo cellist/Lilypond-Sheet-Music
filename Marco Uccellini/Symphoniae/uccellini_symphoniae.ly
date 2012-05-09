@@ -22,6 +22,8 @@ introa = { \tempo "Nr. 1: \"A Rovetta\". Allegro " 8=180 \time 2/2 }
 introb = { \break \tempo "Nr. 9: \"A Gurana\". Allegro " 8=200 \key c \major }
 introc = { \break \tempo "Nr. 10: \"A Gallana\". Allegro " 8=180 }
 introd = { \break \tempo "Nr. 11: \"A Todeschina\". Moderato " 4=80 \key d \major }
+introe = { \break \tempo "Nr. 26: \"A Cretense\". Allegro " 4=120 \key f \major }
+introf = { \break \tempo "Nr. 27: \" 'Arcadicha\". Moderato " 4=70 \key c \major }
 
 %minstr = "harpsichord"
 mihi = "clarinet"
