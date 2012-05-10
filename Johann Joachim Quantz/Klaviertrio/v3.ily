@@ -96,4 +96,95 @@ vc = \relative c'' {
     a4 g
     a r
   }
+
+  \introc
+  d1 d2
+  d cis cis
+  d1 d2~
+  d cis e
+  a,1 c?2
+  b b1
+  a c2
+
+  b b1
+  a c2
+  b b1
+  b2 a r
+  d d1
+  gis, a2~
+  a gis h
+
+  a1 c2
+  d d d
+  d cis cis
+  d a d
+  d cis1
+  d2 d1
+
+  cis cis2
+  d1 d2
+  d cis1
+  d \adagio a2
+  a g1
+  a1.\fermata \bar "|."
+
+
+  \introd
+  \repeat volta 2 {
+    a4 r8
+    c b a
+    d c4
+    a r8
+    a4 c8
+    b b4
+    a r8
+    c4 r8
+    a4 r8
+
+    b4 r8
+    a4 r8
+    a4 r8
+    d4 r8
+    h e4
+    c8 h4
+    c8 h4
+    c8 h c
+    d h4
+
+    c r8
+  }
+  \repeat volta 2 {
+    c4 r8
+    c h c
+    b? a4
+    g r8
+    c4 r8
+    b a4
+    g8 a4
+    a a8
+
+    a g b
+    a4.
+    a4 a8
+    b a4
+    f8 h a
+    a gis4
+    a4.
+    c
+    b
+
+    b
+    a4 r8
+    c4 r8
+    a4 r8
+    g4 r8
+    a4 r8
+
+    R4.*3
+    a8 g4
+    a8 g4
+    a8 b c
+    d c4
+    a r8
+  }
 }

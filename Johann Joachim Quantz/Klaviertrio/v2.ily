@@ -91,4 +91,88 @@ vb = \relative c'' {
     f4 e
     f r
   }
+
+  \introc
+  R1.*2
+  r2 a d~
+  d cis4 d e2
+  a, d c?
+  b b4 a b c
+  a2 c f~
+
+  f e4 f g2
+  c, f a
+  b g4 a b2~
+  b a4 g f e
+  f g f e d c
+  h2 r r
+  R1.*4
+
+  r2 a d~
+  d cis4 d e2
+  a, f'4 e f g
+
+  e2 cis4 d e cis
+  d2 a d~
+  d cis2. d4
+  d1 \adagio e2
+  d d1
+  cis1.\fermata \bar "|."
+
+  \introd
+  \repeat volta 2 {
+    R4.*3
+    r8 f,16 g a b
+    c8 b a
+    d e4\trill
+    f8 a,16 b c a
+    b8 g16 a b g
+    a8 f'16 g a f
+
+    g8 e16 f g e
+    f8 a g
+    f f e\trill
+    d d c\trill
+    h g'16 f e d
+    e8 d16 e f d
+    e8 d16 e f d
+    e8 d c
+    d h4
+
+    c r8
+  }
+  \repeat volta 2 {
+    R4.*3
+    r8 c16 d e f
+    g8 f e
+    b' a4\trill
+    g8 a16 g f e
+    f8 e d
+
+    cis d4
+    a8 d16 cis d e
+    f8 e d~
+    d cis4
+    d8. e16 c?8
+    f h,4\trill
+    a r8
+    r4.
+    r8 g'4~
+
+    g8 a16 g f e
+    f c( b c) f g
+    \afterGrace e4.\(\trill { d16[ e]\) }
+    f c( b c) f g
+    \afterGrace e4.\(\trill { d16[ e]\) }
+    f e f d e f
+    g f g e f g
+
+    a g a f g a
+    b a b g a b
+    a8 g16( a b g)
+    a8 g16( a b g)
+    a8 g f
+    g e4
+    f r8
+  }
 }
