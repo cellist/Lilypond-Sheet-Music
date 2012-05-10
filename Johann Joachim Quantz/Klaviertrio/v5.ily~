@@ -1,0 +1,8 @@
+ve = \relative c' {
+  \voiceconsts
+  \clef "bass"
+
+  \introa
+  \repeat volta 2 {
+  }
+}

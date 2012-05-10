@@ -1,0 +1,7 @@
+vc = \relative c'' {
+  \voiceconsts
+
+  \introa
+  \repeat volta 2 {
+  }
+}
