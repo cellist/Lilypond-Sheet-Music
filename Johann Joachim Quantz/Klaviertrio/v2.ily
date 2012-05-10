@@ -21,4 +21,74 @@ vb = \relative c'' {
 
   f4 r8 f~ f e16 f d8. c16
   c8 d h8. c16 c4 r \bar "||"
+
+  \introb
+  \repeat volta 2 {
+    R2*3
+    c8 a f d'
+    c4 f~
+    f8 e16 f g8 b,
+
+    a4 r8 e'
+    f c4 f8
+    e16 c e g e c e g
+    f8 c4 f8
+
+    e16 c e g e c e g
+    f e f g e d e f
+    d8 g, r e'
+
+    f16 e f g e d e f
+    d8 g, r e'
+    f e d c
+    h a16 g g'8 f
+    e4 d
+
+    c r
+  }
+  \repeat volta 2 {
+    R2*2
+    g'8 e c a'
+    g4 f
+    e8. d16 c d e f
+    g8 c,4 b8
+
+    a4 r
+    R2*3
+
+    c16 b a b c f e f
+    d c b c d f e f
+    d c h c d g f g
+    e d c d e g f g
+
+    e d cis d e a g a
+    f8 d r4
+    r2
+    a'8 f d b'
+    a4 g
+
+    f r8 f
+    e a16 g a8 g
+    f4 e
+    d r
+    r2
+    r8 f4 d8
+
+    c16 d e f g8 b,
+    a4 r8 f'
+    e16 d e8~ e16 c d e
+    f e f4 a8
+
+    e16 d e8~ e16 c d e
+    f e f4 a8
+    g16 f g a f e f g
+    e c b c f c b c
+
+    g' f g a f e f g
+    e c b c f c b c
+    g'8 c, b a
+    g b a g
+    f4 e
+    f r
+  }
 }

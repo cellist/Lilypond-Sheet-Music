@@ -2,7 +2,7 @@
 \include "deutsch.ly"
 \include "../../snippets/merge-rests.ily"
   
-#(set-global-staff-size 22)
+#(set-global-staff-size 18.5)
 
 \header {
   title = "Trio"
@@ -20,7 +20,7 @@ voiceconsts = {
 }
 
 introa = { \tempo "1. Adagio " 4=50 \time 4/4 }
-introb = { \break \tempo "2. Allegro " 8=200 \time 3/8 }
+introb = { \break \tempo "2. Allegro " 8=180 \time 2/4 }
 
 %minstr = "harpsichord"
 mihi = "clarinet"
