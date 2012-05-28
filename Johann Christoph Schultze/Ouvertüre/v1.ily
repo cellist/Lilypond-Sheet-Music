@@ -211,4 +211,87 @@ va = \relative c' {
     g c, e
     f4_\dc
   }
+
+  \introd
+  \repeat volta 2 {
+    \partial 2 f16. g32 a16. b32 c8. f16
+    c16. b32 a16. b32 c8. f16
+    c16. b32 a16. b32 \times 2/3 { c16 d c c[ b a] }
+    \times 2/3 { g a b a[ b g] } a8. c16
+    g16. f32 e16. f32 g8. c16
+
+    g16. f32 e16. f32 g8. a16
+    \times 2/3 { g f e f[ e d] } e16. c'32 d,16. h'32
+    c4 r
+  }
+  \repeat volta 2 {
+    c16. b?32 a16. g32 f8. c'16
+    es,16. d32 es16. c32 d8. b'16
+
+    es,16. d32 es16. c32 \times 2/3 { d16 g b g[ a b] }
+    c8 a b8. d16
+    b16. a32 b16. c32 b8. c16
+    a16. c32 b16. a32 g4
+    f16. g32 a16. b32 c8. f16
+
+    c16. b32 a16. b32 c8. f16
+    c,16. b32 a16. b32 c8. c16
+    \times 2/3 { d e f e[ f g] f g a g[ a b] }
+    a16. b32 c16. d32 g,8. f16
+    f4 r
+  }
+
+  \introe
+  \repeat volta 2 {
+    f c8 f a[ f]
+    g4 c,8 g' b[ g]
+    a4 c d
+    b2 a4
+    g c8 g a[ f]
+    g4 c8 g a[ f]
+    g c e,4 d
+    c2.
+  }
+
+  \repeat volta 2 {
+    f4 c8 f a[ es]
+    es4 d8 c d4
+    b' d g,
+    fis8 g a2
+    d4 g,8 b a[ g]
+    d'4 a8 c b[ a]
+    b d g,4 fis
+
+    g2.
+    b4 c,8 g' b[ g]
+    a4 f8 g a[ b]
+    c4 b a
+    g2 c,4
+    f c'8 f, a[ f]
+    g4 c8 g b[ g]
+    a c f,4 e?
+
+    f2.\fermata
+  }
+  \repeat volta 2 {
+    c4 b2\trill
+    a4. b8 c4
+    d e f
+    e4. d8 c4
+    d c b
+    c8 b c4 r
+    f e d
+    c2.
+  }
+
+  \repeat volta 2 {
+    d4 c2\trill
+    b4. c8 d4
+    b c b
+    a4. b8 c4
+    d e f
+    e8 c f4 r
+    g f e
+    f2._\dc
+  }
 }

@@ -1,7 +1,7 @@
 \version "2.14.2"
 \include "deutsch.ly"
 
-#(set-global-staff-size 18)
+#(set-global-staff-size 17.75)
 
 \header {
   title = "Ouvertüre"
@@ -17,9 +17,11 @@ voiceconsts = {
  \compressFullBarRests
 }
 
-introa = { \tempo "1. Allegretto " 4=100 \time 4/4 }
-introb = { \break \tempo "2. Rigaudon " 4=120 \time 4/4 }
+introa = { \tempo "1. ??? " 4=100 \time 4/4 }
+introb = { \break \tempo "2. Rigaudon " 4=140 \time 4/4 }
 introc = { \break \tempo "3. Passepied " 8=140 \time 3/8 }
+introd = { \break \tempo "4. Aria " 8=90 \time 2/4 }
+introe = { \break \tempo "5. Menuett " 4=110 \time 3/4 }
 
 %minstr = "harpsichord"
 mihi = "clarinet"

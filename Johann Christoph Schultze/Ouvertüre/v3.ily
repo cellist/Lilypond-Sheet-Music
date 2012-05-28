@@ -210,4 +210,87 @@ vc = \relative c {
     b c c,
     f4_\dc
   }
+
+  \introd
+  \repeat volta 2 {
+    \partial 2 r \times 2/3 { f'16[ c a] } f8
+    r4 \times 2/3 { f'16[ c a] } f8
+    r4 f'8 f,
+    c' c, \times 2/3 { f'16[ c a] } f8
+    r4 \times 2/3 { c''16[ g e] } c8
+
+    r4 \times 2/3 { c'16[ g e] } c8
+    c' g c,16. e32 f16. g32
+    \times 2/3 { c,16[ g e] } c8 r4
+  }
+  \repeat volta 2 {
+    r \times 2/3 { f'16[ c a] } f8
+    r4 \times 2/3 { b'16[ f d] } b8
+
+    r4 b'8 es,
+    es f \times 2/3 { b16[ f d] } b8
+    r4 \times 2/3 { e?16[ f g] } c,16. e32
+    f8 b, \times 2/3 { c16[ g e] } c8
+    r4 \times 2/3 { f'16[ c a] } f8
+
+    r4 \times 2/3 { f'16[ c a] } f8
+    r4 \times 2/3 { f'16[ c a] } f8
+    b c d e
+    f16. g32 a16. b32 c8 c,
+    \times 2/3 { f16[ c a] } f8 r4
+  }
+
+  \introe
+  \repeat volta 2 {
+    a'2 f4
+    e2 c4
+    f a b
+    g c, f
+    e2 f4
+    e2 f4
+    e8 f g4 g,
+    c c' b
+  }
+
+  \repeat volta 2 {
+    a2 f4
+    b b, b'
+    g b, c
+    d d' c
+    b2 g4
+    fis2 d4
+    g, b d
+
+    g g,8 g' b[ g]
+    e2 c4
+    f2 f,8 g
+    a4 g f
+    c' c' b
+    a2 f4
+    e2 c4
+    f a,8 b c4
+
+    f,\fermata f' g
+  }
+  \repeat volta 2 {
+    f2 e8 c
+    f4 f, f
+    b2 a8 b
+    c4 c c
+    b a g
+    f f r
+    f'2 g4
+    c, d e
+  }
+
+  \repeat volta 2 {
+    fis2 d4
+    g g, g
+    d' e2
+    f4 f, f
+    b2 a4
+    g a r
+    b2 c4
+    f,_\dc f' a
+  }
 }

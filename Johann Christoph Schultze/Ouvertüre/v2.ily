@@ -1,5 +1,6 @@
 vb = \relative c' {
   \voiceconsts
+%  \clef "tenor"
 
   \introa
   \repeat volta 2 {
@@ -210,5 +211,88 @@ vb = \relative c' {
     a8 b c
     d c b
     a4_\dc
+  }
+
+  \introd
+  \repeat volta 2 {
+    \partial 2 a16. c32 f16. g32 a8. a16
+    a16. g32 f16. g32 a8. a16
+    a16. g32 f16. g32 \times 2/3 { a16 b a a[ g f] }
+    \times 2/3 { e f g f[ g e] } f8. a16
+    e16. d32 c16. d32 e8. e16
+
+    e16. d32 c16. d32 e8. f16
+    \times 2/3 { e d c d[ c h] } c16. g'32 a,16. d32
+    e4 r
+  }
+  \repeat volta 2 {
+    a16. g32 f16. c32 a4
+    c16. b?32 c16. a32 b4
+
+    c16. b32 c16. a32 b8 b
+    g' c, d8. b'16
+    g16. f32 g16. a32 g8. g16
+    f16. a32 g16. f32 e4
+    a,16. c32 f16. g32 a8. a16
+
+    a16. g32 f16. g32 a4
+    a,16. g32 f16. g32 a4
+    b16. d32 g,16. e'32 d16. f32 c8
+    c16. g'32 f16. f32 e8. f16
+    f4 r
+  }
+
+  \introe
+  \repeat volta 2 {
+    c2 c4
+    c4. c8 g'[ e]
+    f4 f f
+    f8 d e[ g] f4
+    c2 c4
+    c2 c4
+    c c h
+    c2.
+  }
+
+  \repeat volta 2 {
+    c2 c4
+    c b?8 a b4
+    d g es
+    d8 e? fis2
+    g g4
+    a2 fis4
+    g d8 es a,[ c]
+
+    b2.
+    g'2 e?4
+    c a c
+    f f8 e f4
+    e2.
+    c2 c4
+    c2 g'8 e
+    f c c[ d] g,4
+
+    a2.\fermata
+  }
+  \repeat volta 2 {
+    a4 g2\trill
+    f4. g8 a4
+    b g c8 d
+    c4 g g
+    f f g
+    a8 g a4 r
+    d c h
+    c2.
+  }
+
+  \repeat volta 2 {
+    a4 a2\trill
+    g4. a8 b4
+    f g2
+    f4. g8 a4
+    f c' c
+    b c r
+    d2 g,4
+    a2._\dc
   }
 }
