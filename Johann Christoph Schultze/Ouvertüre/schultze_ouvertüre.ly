@@ -1,7 +1,7 @@
 \version "2.14.2"
 \include "deutsch.ly"
 
-#(set-global-staff-size 17.75)
+#(set-global-staff-size 18.5)
 
 \header {
   title = "Ouvertüre"
@@ -19,9 +19,11 @@ voiceconsts = {
 
 introa = { \tempo "1. ??? " 4=100 \time 4/4 }
 introb = { \break \tempo "2. Rigaudon " 4=140 \time 4/4 }
-introc = { \break \tempo "3. Passepied " 8=140 \time 3/8 }
+introc = { \pageBreak \tempo "3. Passepied " 8=140 \time 3/8 }
 introd = { \break \tempo "4. Aria " 8=90 \time 2/4 }
 introe = { \break \tempo "5. Menuett " 4=110 \time 3/4 }
+introf = { \break \tempo "6. Marsch " 4=120 \time 4/4 }
+introg = { \break \tempo "7. Gigue " 4.=80 \time 6/8 }
 
 %minstr = "harpsichord"
 mihi = "clarinet"
@@ -37,19 +39,19 @@ dc = \markup \italic \bold "D.C."
 music = \new StaffGroup <<
       \new Staff {
 	\set Staff.midiInstrument = \mihi
-	\set Staff.instrumentName = #"Vl"
+	\set Staff.instrumentName = #"Vc I"
 	\transpose f f { \va }
       }
 
       \new Staff {
 	\set Staff.midiInstrument = \mihi
-	\set Staff.instrumentName = #"Cl"
+	\set Staff.instrumentName = #"Vc II"
 	\transpose f f { \vb }
       }
 
       \new Staff {
 	\set Staff.midiInstrument = \milo
-	\set Staff.instrumentName = #"Vc"
+	\set Staff.instrumentName = #"Vc III"
 	\transpose f f { \vc }
       }
 >>

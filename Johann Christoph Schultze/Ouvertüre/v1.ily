@@ -294,4 +294,83 @@ va = \relative c' {
     g f e
     f2._\dc
   }
+
+  \introf
+  \repeat volta 2 {
+    \partial 4 c'4
+    f c8. b16 a4 d
+    c f,8. e16 f4 g
+    a8. g16 a8 b c4 f,8 a
+    g f e d c4 a'8. a16
+    g8. g16 c8. c16 c,4 a'8. a16
+
+    g8. g16 c8. c16 c,4 a'
+    h8 g c d h4. c8
+    c4 g8. f16 e8 c e g
+    c2.
+  }
+  \repeat volta 2 {
+    \partial 4 g4
+    c g8. f16 e4 a
+
+    g8. f16 e8. d16 c4 a'
+    d a8. g16 f4 b?
+    a8. g16 f8. e16 d4 b'8. b16
+    a8. a16 d8. d16 d,4 b'8. b16
+    a8. a16 d8. d16 d,4 a'
+
+    b8. a16 g8 f e4. d8
+    d2. c4
+    f8 c a' f c'4 d
+    c f,8. e16 f4 c'
+    f c8. b16 a8. c16 b8 a
+    g8. f16 e8. d16 c4 d'8. d16
+
+    c8. c16 f8. f16 f,4 d'8. d16
+    c8. c16 f8. f16 f,4 c'
+    d8. c16 b8 a g4. f8
+    f4 c'8. b16 a8 f a c
+    f2.
+  }
+
+  \introg
+  \repeat volta 2 {
+    f,8 c f f4.
+    g8 c, g' g4.
+    a8 f c' c a f
+    g4 c,8 c4.
+    a'8 f a a f a
+    h a g c4 f8
+
+    e d c d c h
+    c4. r4 r8
+  }
+  \repeat volta 2 {
+    g8 c, g' g4.\trill
+    a8 c, a' a4.\trill
+    g8 a b? a b g
+    f e d d4.
+
+    f'8 e d d c h
+    h a gis gis fis e
+    a e a a4.\trill
+    h8 e, h' h4.\trill
+    c8 h a h a gis
+
+    a4. r4 c8~
+    c a c d, a' c
+    b? c a g? a b~
+    b g b c, g' b
+    a b g f? g a~
+    a f a c b a
+
+    g f g c, d e
+    f c f f4.\trill
+    g8 c, g' g4.\trill
+    a8 b c c, f e
+  }
+  \alternative {
+    { f4. r4 r8 }
+    { f2. }
+  }
 }
