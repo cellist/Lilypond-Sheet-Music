@@ -4,7 +4,7 @@
 #(set-global-staff-size 18.5)
 
 \header {
-  title = "Duette in B"
+  title = "Drei Duette"
   composer = "Joseph Bodin de Boismortier"
   arranger = "(1689-1755)"
   enteredby = "cellist (2012-06-01)"
