@@ -630,4 +630,277 @@ vb = \relative c' {
     a4 g8 f e4. f8
     f2
   }
+
+  \introcc
+  \repeat volta 2 {
+    \partial 2. f4 f8 f g a
+    e4 e8 e d c
+    f4 f8 f g a
+    e4.~ e
+  }
+
+  \repeat volta 2 {
+    f4 f8 f e d
+    e d c c'4 b8
+    a g f e d c
+
+    f4. c8 d e
+    f4 f8 f e d
+    e d c e f g
+
+    a g f e4 f8
+    f4 g8 a b a
+    a f g a b a
+
+    a4.~ a4 e8
+    f g f e4 f8
+    f4.~ f
+  }
+
+  \introcd
+  \repeat volta 2 {
+    \partial 4 r4
+    r2.
+    r4 r c
+    f4. g8 a4
+
+    a8 g f g a4
+    a b8 a g f
+    e4 d8 c f g
+
+    a4 b8 a g f
+    e2
+  }
+  \repeat volta 2 {
+    \partial 4 e4
+    f4. e8 d4
+    e d8 c e4
+
+    f4. e8 d4
+    c2 a'4
+    d,2 e4
+    f4. g8 a4
+    g8 f e4. f8
+
+    f2 a4
+    d,2 e4
+    f4. g8 a4
+    g8 f e4. f8
+    f2
+  }
+
+  \introce
+  \repeat volta 2 {
+    \partial 4 r4
+    r1
+    r2 r4 f
+    g c, c d8 e
+
+    f e f g f4 a
+    b a g f
+    e f8 g a4 c8 b
+    a4 b8 a g4 f
+
+    c2.
+  }
+  \repeat volta 2 {
+    \partial 4 r4
+    r2 r4 g'
+    g8 f e d c4 c
+    c2. c'4
+
+    c8 b a g f4 f
+    f a a g8 a
+    b4 g g f8 g
+    a4 b8 a g4 f
+
+    e8 d e f e4 r
+    r c' e, f
+    g a e f
+    g e f2
+
+    e4 d8 e c4 f8 g
+    a4 d, e f
+    e d e c
+    f4. g8 e4. f8
+    f2.
+  }
+
+  \introcf
+  \repeat volta 2 {
+    \partial 1 r1
+    c'2 c
+    f,4 e f g
+    f2 c4 f8 g
+    a g a b a4 f8 g
+
+    a g a b a4 f8 g
+    a4 g8 f e4 d
+    c1
+  }
+  \repeat volta 2 {
+    e4 c8 d e4 e
+    e d8 e c4 e8 f
+
+    g4 f e d
+    c2. c8 d
+    e d e f e4 c8 d
+    e4 d8 e f4 e8 d
+    e2 f
+
+    e4. d8 c2
+    a'4 f8 g a4 a
+    a g8 a f4 c'8 b
+    a4 b8 a g4 f
+    e d e f
+
+    e f g f
+    e d e f
+    c d b c
+    f1
+  }
+
+  \introcg
+  \repeat volta 2 {
+    \partial 2 f4 e
+    f e d2
+    c4 c'8 b a4 e
+    f8 g a4 a g8 f
+
+    e2
+  }
+  \repeat volta 2 {
+    \partial 2 r
+    c'4 b a g
+    c8 d b c a4 e
+
+    f g8 a g4. f8
+    e2 r
+    r e4 d8 c
+
+    f4 c a' a
+    a8 g f g a4 a
+    e c a'8 g a b
+
+    g4 f a8 g a b
+    g2 a4 g8 f
+    e4 f8 g e4. f8
+    f2
+  }
+
+  \introch
+  \repeat volta 2 {
+    \partial 2. f g4
+    a8 g a b a4
+    b a g
+    a2 e4
+    f g a
+
+    d, e f
+    g f2
+  }
+  \alternative {
+    { e8 c e f e4 }
+    { e2. }
+  }
+  \repeat volta 2 {
+    r
+    a4. g8 f4
+
+    r2.
+    g4. f8 e4
+    r2.
+    c'4. b8 a4
+    a g f
+
+    e4. d8 c4
+    r2.
+    a'4. g8 f4
+    r2.
+    g4. f8 e4
+
+    r2.
+    c'4. b8 a4
+    b e,4. f8
+    f2.
+  }
+
+  \introci
+  \repeat volta 2 {
+    \partial 4. d8. es16 c8
+    d4 b8 es8. d16 c8
+    b4. d8. es16 c8
+    d4 b8 es8. d16 c8
+
+    b4.
+  }
+  \repeat volta 2 {
+    \partial 4. d8. es16 d8
+    d8. c16 b8 c4 c8
+    c4. b8. c16 b8
+
+    b8. c16 d8 d8. c16 b8
+    f'4. d8. es16 f8
+    g4. es8. d16 c8
+
+    f8. g16 f8 es4.
+    d8. es16 d8 c4 f8
+    b,4.
+  }
+
+  \introck
+  \repeat volta 2 {
+    \partial 2 d8. c16 d8. es16
+    d4 es
+    es d8. c16
+    d4 b
+    es8. f16 d8. f16
+
+    es8. f16 d8. es16
+    c4. b8
+    f'2
+  }
+  \repeat volta 2 {
+    r
+    c8. b16 c8. d16
+
+    es8. d16 c8. b16
+    f'8. g16 a8. f16
+    b4 a8. g16
+    f4 es
+
+    d8. es16 c8. b16
+    f'8. g16 f8. es16
+    d8. c16 d8. es16
+    d4. c8
+    b8. c16 a8. c16
+
+    b8. a16 b8. c16
+    d4 c8. b16
+    es8. d16 es8. f16
+    c4. b8
+    b2
+  }
+
+  \introcl
+  \repeat volta 2 {
+    \partial 4 b4
+    d b b c
+    d8 c d es d4 b
+    d b b c
+    d2.
+  }
+  \repeat volta 2 {
+    \partial 4 d4
+
+    d c es d
+    c f es d
+    c2 b
+    f'2. d4
+
+    d c8 b c4 d
+    es d es f
+    d2 c
+    b2.
+  }
 }
