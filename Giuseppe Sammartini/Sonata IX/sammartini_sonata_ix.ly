@@ -1,7 +1,7 @@
 \version "2.14.2"
 \include "deutsch.ly"
 
-#(set-global-staff-size 17.25)
+#(set-global-staff-size 17.4)
 
 \header {
   title = "Andante und Allegro"
@@ -18,7 +18,8 @@ voiceconsts = {
  \clef "tenor"
 }
 
-introa = { \tempo "1. Andante " 4=70 \time 4/4 }
+introa = { \tempo "1. Andante " 4=65 \time 4/4 }
+introb = { \break \tempo "2. Allegro " 4=130 \time 3/4 }
 
 %minstr = "harpsichord"
 mihi = "clarinet"
