@@ -1,6 +1,6 @@
 va = \relative c' {
   \voiceconsts
-%  \clef "tenor"
+  \clef "tenor"
 
   \partial 8 f8\f
   \repeat volta 2 {
@@ -46,5 +46,57 @@ va = \relative c' {
     g4 a8( h)
     c4 r
     r2
+    f,8 f' f f
+
+    f es d c
+    c d d d
+    d c b a
+    g g' r f
+    es, es' r d
+    c16( d es c) b8 b
+    a a b b
+    c b a( b)
+    c b es( d)
+
+    c f( e es)
+    d f( e es)
+    d d r d
+    d d r d
+    c f, f f
+    f\< f g a\!
+    b\f b b b
+    b b' a g
+    f d g f
+
+    f( es) d4
+    c8 c a( b)
+    es es es( d)
+    c16( d es f g8) b,
+    d4( c8) f,
+    b b b b
+    b b' a g
+    f d g f
+    f( es) d4
+
+    c8 c a( b)
+    es es es( d)
+    c es16( g) f8 a,
+    b4 b'8 a
+    g( f) b a
+    g( f) b b
+    c c a a
+    b4 b8 a
+
+    g( f) g f
+    es( d) b' b
+    c c a a
+    b4. a8
+    b4. a8
+    b a b a
+    b4 b
   }
+  \alternative {
+    { b r }
+    { b r8 }
+  } \bar "|."
 }

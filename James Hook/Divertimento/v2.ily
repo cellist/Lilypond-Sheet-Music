@@ -44,5 +44,57 @@ vb = \relative c'' {
     g f es d
     c es es es
     es d c b
+    a f f f
+    f4 g8( a)
+
+    b4 r
+    r2
+    c16( d es c) b8 b
+    a a b b
+    g g' r f
+    es, es' r d
+    g, f es( f)
+    g f a( b)
+    a a b( c)
+
+    b a b( c)
+    b b r b
+    b b r b
+    a f f f
+    f4 r
+    r2
+    r8 b\f b b
+    b b4 b8
+    g( a) b4
+
+    g8 g f4
+    a8 a a b
+    g c4 g8
+    b4( a8) r
+    r2
+    r8 b b b
+    b b4 b8
+    g( a) b4
+    g8 g f4
+
+    a8 a a( b)
+    g c d f,
+    b4 g'8 f
+    es( d) g f
+    es( d) d d
+    es es c c
+    d4 g8 f
+    es( d) es d
+
+    c( b) b b
+    b b es es
+    d f16( es) d8 es
+    d f16( es) d8 es
+    d es d es
+    d4 d
   }
+  \alternative {
+    { d r }
+    { d r8 }
+  } \bar "|."
 }
