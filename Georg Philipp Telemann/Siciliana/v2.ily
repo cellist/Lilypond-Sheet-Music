@@ -1,14 +1,14 @@
 vb = \relative c'' {
   \voiceconsts
-  \clef "tenor"
+%  \clef "tenor"
 
   \partial 4 r4
   g2\mf fis4 g2.
   h2 a4g2 h4
   d2 c4 h2 a4
-  g2. g2 a4
+  g2.~ g2 a4
 
-  g2. g2 fis4\<
+  g2.~ g2 fis4\<
   g2 a4 h2.\!
   cis4.\f h8 a4 d2 cis4
   d2 d4 d2 cis4

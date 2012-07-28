@@ -1,12 +1,12 @@
 \version "2.14.2"
 \include "deutsch.ly"
 
-#(set-global-staff-size 18.25)
+#(set-global-staff-size 18.6)
 
 \header {
   title = "Siciliana"
   composer = "Georg Philipp Telemann (1681-1767)"
-  arranger = "arr.: Julian M. Blakeston"
+  arranger = "arr.: Julian M. Blakeston & M.W."
   enteredby = "cellist (2012-07-23)"
 }
 
@@ -36,31 +36,31 @@ music = \new StaffGroup <<
       \new Staff {
 	\set Staff.midiInstrument = \milo
 	\set Staff.instrumentName = #"Vc I"
-	\transpose g c { \va }
+	\transpose g g, { \va }
       }
 
       \new Staff {
 	\set Staff.midiInstrument = \milo
 	\set Staff.instrumentName = #"Vc II"
-	\transpose g c { \vb }
+	\transpose g g, { \vb }
       }
 
       \new Staff {
 	\set Staff.midiInstrument = \milo
 	\set Staff.instrumentName = #"Vc III"
-	\transpose g c { \vc }
+	\transpose g g, { \vc }
       }
 
       \new Staff {
 	\set Staff.midiInstrument = \milo
 	\set Staff.instrumentName = #"Vc IV"
-	\transpose g c { \vd }
+	\transpose g g, { \vd }
       }
 
       \new Staff {
 	\set Staff.midiInstrument = \milo
 	\set Staff.instrumentName = #"Vc V"
-	\transpose g c { \ve }
+	\transpose g g { \ve }
       }
 >>
 

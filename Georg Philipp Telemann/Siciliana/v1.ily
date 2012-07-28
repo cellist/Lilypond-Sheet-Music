@@ -1,6 +1,6 @@
 va = \relative c'' {
   \voiceconsts
-  \clef "tenor"
+%  \clef "tenor"
 
   \partial 4 g4\mf
   d'2.~ d2 e4

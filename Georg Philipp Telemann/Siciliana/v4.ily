@@ -33,6 +33,6 @@ vd = \relative c' {
   g2\p r4 fis2 r4
 
   r2 r4 c2\f d4
-  d2.^\rit d2 d4
+  d2.^\rit d2 d'4
   h2.~ h2\fermata \bar "|."
 }

@@ -23,10 +23,10 @@ vc = \relative c' {
   d2 c4 d2 e4
   g2 fis4 g2 d4
 
-  g2 g4 g2 fis4
+  g,2 g4 g2 fis4
   e2. d2 fis4
   e2. d
-  e2 g4 a2 fis4
+  e2 g4 a2 fis'4
   r2 r4 fis2 fis4
 
   g2. a
