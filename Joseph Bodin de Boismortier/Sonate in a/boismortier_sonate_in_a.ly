@@ -1,7 +1,7 @@
-\version "2.12.3"
+\version "2.14.2"
 \include "deutsch.ly"
 
-#(set-global-staff-size 18)
+#(set-global-staff-size 19)
 
 \header {
   title = "Sonata in a-moll"
@@ -14,8 +14,8 @@
 voiceconsts = {
  \key a \minor
 % \time 4/4
-% \clef "bass"
- \clef "tenor"
+ \clef "bass"
+% \clef "tenor"
 % \numericTimeSignature
  \compressFullBarRests
 }
@@ -35,6 +35,12 @@ mpdol = \markup { \dynamic mp \italic " dolce" }
 mpml  = \markup { \dynamic mp \italic " molto legato" }
 pdol  = \markup { \dynamic p \italic " dolce" }
 rit   = \markup \italic "rit."
+
+introa = { \time 3/4 \tempo "1. Doucement - Andante " 4=92 }
+introb = { \break \tempo "2. Courante - Allegro moderato " 4=152 }
+introc = { \pageBreak \time 4/4 \tempo "3. Allemande - Gravement " 8=92 }
+introd = { \break \time 3/4 \tempo "4a. Menuetto I - Moderato " 4=132 }
+introe = { \break \key a \major \tempo "4b. Menuetto II - Meno mosso" }
 
 \include "v1.ily"
 \include "v2.ily"

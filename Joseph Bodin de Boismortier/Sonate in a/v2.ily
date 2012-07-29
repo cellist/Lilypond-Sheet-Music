@@ -1,7 +1,7 @@
 vb = \relative c {
   \voiceconsts
 
-  \time 3/4 \tempo "1. Doucement - Andante " 4=92
+  \introa
   \repeat volta 2 {
     \partial 4 r4
     r2.
@@ -67,7 +67,7 @@ vb = \relative c {
     a2
   }
 
-  \break \tempo "2. Courante - Allegro moderato " 4=152
+  \introb
   \repeat volta 2 {
     \partial 4 r4
     r2.
@@ -138,7 +138,7 @@ vb = \relative c {
     a2
   }
 
-  \pageBreak \time 4/4 \tempo "3. Allemande - Gravement " 8=92
+  \introc
   \repeat volta 2 {
     \partial 8 r8
     r2 r4 r8 r16 e'_\pdol
@@ -175,7 +175,7 @@ vb = \relative c {
     c8 h16(\> a) gis8.(\trill a16)\! a4.
   }
 
-  \break \time 3/4 \tempo "4a. Menuetto I - Moderato " 4=132
+  \introd
   \repeat volta 2 {
     \partial 2. c8(\f h) c d c4
     d h2
@@ -212,7 +212,7 @@ vb = \relative c {
     a,2._\fine
   }
 
-  \break \key a \major \tempo "4b. Menuetto II - Meno mosso"
+  \introe
   \repeat volta 2 {
     a'4.(_\mpdol h8) gis[( h])
     a2( gis4)

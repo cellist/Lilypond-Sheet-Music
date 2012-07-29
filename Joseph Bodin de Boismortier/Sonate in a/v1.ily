@@ -1,7 +1,7 @@
 va = \relative c {
   \voiceconsts
 
-  \time 3/4 \tempo "1. Doucement - Andante " 4=92
+  \introa
   \repeat volta 2 {
     \partial 4 a4_\mpml
     e'4. f8 d e
@@ -9,7 +9,7 @@ va = \relative c {
     a8 h) gis4.( a8)
     a4.( h8) c4
     h4.( a8) h4
-    e,2 e'4
+    e,2 \clef "tenor" e'4
 
     f h,4.( a8)
     a4 e'8(\mf f) g4~
@@ -23,21 +23,21 @@ va = \relative c {
     e d d4.(\trill\> c8)\!
     c4 r r
     r2.
-    r8 e\p f_\cresc e d c
+    r8 \clef "bass" e\p f_\cresc e d c
     h( d) e d c h
     c d d4.(\trill e8)
     e2\mf
   }
   \repeat volta 2 {
     \partial 4 r4
-    r r e\mf
+    r r \clef "tenor" e\mf
     cis8( d) e4 a,
     d2 f4~
     f e8( f) g4
     cis, d e
     f8( g) e4.(\trill d8)
 
-    d4 f2~_\dim
+    d4 \clef "bass" f2~_\dim
     f4 e2~
     e4 d2~
     d4 c?2~
@@ -67,7 +67,7 @@ va = \relative c {
     a2
   }
 
-  \break \tempo "2. Courante - Allegro moderato " 4=152
+  \introb
   \repeat volta 2 {
     \partial 4 e4\mf
     a8 gis a c h a
@@ -138,7 +138,7 @@ va = \relative c {
     a2
   }
 
-  \pageBreak \time 4/4 \tempo "3. Allemande - Gravement " 8=92
+  \introc
   \repeat volta 2 {
     \partial 8 r16 a_\pdol
     a4~ a16 e c e a,8 a' a a
@@ -175,7 +175,7 @@ va = \relative c {
     e8 d16(\> c) h8.(\trill a16)\! a4.
   }
 
-  \break \time 3/4 \tempo "4a. Menuetto I - Moderato " 4=132
+  \introd
   \repeat volta 2 {
     \partial 2. e'8(\f d) e f e4
     f d2
@@ -212,7 +212,7 @@ va = \relative c {
     a,2._\fine
   }
 
-  \break \key a \major \tempo "4b. Menuetto II - Meno mosso"
+  \introe
   \repeat volta 2 {
     cis'4.(_\mpdol d8) h[( d])
     cis2( h4)
