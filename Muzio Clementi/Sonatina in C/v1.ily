@@ -85,4 +85,41 @@ va = \relative c''' {
     d'-. r g,-.\p g-. h-. r g-.\< g-.\!
     c4-.\f c-. c-. r
   }
+
+  \introb
+  g4.(_\pdol fis8) g4.( a8)
+  h4.( a8) g2
+  d'4.(\< e8) d4.( c8)
+  h4.( c8) d4\! r
+  g,4.(\p fis8) g8.( fis16) g8.( fis16)
+  g4.(\< a8) h8.(\! a16) g8.( fis16)
+
+  e8.(\> d16) c8.( h16) a8.( g16) fis8.( g16)
+  h2( a4)\! r
+  r8 d,(_\pdol h'[ c] d h g fis)
+  g( d' g fis g d h g)
+  fis(\< a c d a c d fis)
+
+  g( d g a h)\! e,(\> d c)
+  h2(\!\p c)
+  h4.( c8 d2)
+  a( c)
+  g( fis4) r \mark \markup \box "D"
+
+  R1*4
+  g'4.(\mp fis8) g8.(\< a16 h8. c16)\!
+  d4.(\mf c8) h8.(\> a16) g8.( fis16)
+
+  e'8.( d16) c8.(\! h16) \acciaccatura h8 a8.(\p g16) a8.( h16)
+  a2( g4) r
+  c4.(\pp d8) c4.( h8)
+  a4.( h8) c4.( cis8)
+  d4.( e8) d4.( c?8)
+
+  h8.( \times 2/3 { c32[ h a] } h8 c) d4 r
+  g,4.(\mp fis8) g8.(\< a16 h8. c16)\!
+
+  d4.(\mf c8) h8.(\> a16) g8.( fis16)
+  e'8.( d16) c8.( h16) \acciaccatura h8 a8.( g16) a8.( h16)\!
+  a2(\p g4) r \bar "|."
 }

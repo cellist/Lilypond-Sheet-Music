@@ -85,4 +85,44 @@ vc = \relative c'' {
     c,8-. c'-. r4 c,8-.\p c'-. r4
     c,4-.\f c-. c-. r
   }
+
+  \introb
+  g'(_\pdol d' h d)
+  g,( d' h d)
+  fis,(\< d' a d)
+  g,( d' h\! d)
+  e,(\p g d c')
+  h( d, g) r
+
+  c,2(\> cis)
+  d4( cis d)\! r
+  r8 d(_\pdol g[ a] h d, h' c)
+  d( d, g a h d, g h)
+  d,(\< fis a c fis a, c d)
+
+  g,( h d fis\! g)\> c,( h a)
+  g4(\!\p d) g8.( a16) g8.( a16)
+  g4( d) g8.( a16) h8.( d16)
+  c8.(\> h16) a8.( g16) fis8.( e16) d8.( cis16)
+  d4( cis d)\! r \mark \markup \box "D"
+
+  a'( d, a' g)
+  fis( d a' d,)
+  h'( d, h' a)
+  g( d h' d,)
+  e(\mp g d\< c'?)
+  h(\!\mf d, g) r
+
+  c,2(\p d4) d
+  d'( c h) r
+  e8(\pp c e d fis d c d)
+  c( fis, a d, e g a e')
+  d( fis g fis g a g fis)
+
+  d d( e dis d) d(\< e fis)\!
+  g(\mp g,) g g c(\< d,) d( fis)\!
+
+  g\mf g g g d'(\> d,) d( a')
+  g g( fis g) d d( c d)\!
+  g4(\p fis g) r \bar "|."
 }
