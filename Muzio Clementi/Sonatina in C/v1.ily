@@ -60,7 +60,7 @@ va = \relative c''' {
 
     e-.\f e-. e-. e-. e-. e-. e-.\ff e-.
     f?-. f-. g-. g-. a( g f e
-    d) r f'-. f-. e-| r fis,-. fis-.
+    d) r \clef "tenor" f'-. f-. e-| r fis,-. fis-.
     g-| r f?-. f-. e-| r g-. g-.
     g-| r g-. r g-. r r4 \mark \markup \box "C"
 
@@ -81,7 +81,7 @@ va = \relative c''' {
     r a16(\< gis a h c h a g f e d) c'( h a)\!
     g\f c e g f( e d c) d4..(\trill c32 d)
 
-    c8 r g-. g-. c-. r g-. g-.
+    c8 r \clef "bass" g-. g-. c-. r g-. g-.
     d'-. r g,-.\p g-. h-. r g-.\< g-.\!
     c4-.\f c-. c-. r
   }
@@ -122,4 +122,96 @@ va = \relative c''' {
   d4.(\mf c8) h8.(\> a16) g8.( fis16)
   e'8.( d16) c8.( h16) \acciaccatura h8 a8.( g16) a8.( h16)\!
   a2(\p g4) r \bar "|."
+
+  \introc
+  c,4.(\p e8)
+  d16( c d e c8-.) r
+  c16( d c h c d e f
+  g8-.) g-. g-. r \clef "tenor"
+  c16( d e d c h a g)
+  f( h d) c h a g f
+  e( g c) h a g f e
+
+  d8 r r4
+  e16\f c( h c) g c( h c)
+  d8 d e e
+  e e e e
+  e16( d e f) g( f e d)
+  \acciaccatura c8 c'16( d e d c h a gis)
+
+  a( h c h a g? f e
+  d) c'( h a g f e d
+  c8) \clef "bass" g\p g g \mark \markup \box "E"
+  h( d) d d
+  c( g) g g
+  g g g g
+  g g g e
+  g'4.\sfz g8\mp
+
+  a16( g f e) e'4(\sfz
+  fis,8-.) fis16( g a8) d-.
+  g,-. r r4
+  a,8( c) c c
+  c16 h a g g4(
+  fis8-.) fis16( g a8) h
+  g g g g \clef "tenor"
+  d''16(\sfz d, d' d, d'8-.) d-.
+
+  d16( e d c h c h a)
+  g( a g fis g a g fis
+  g a h c d c h a)
+  g( a g fis g a g fis
+  g a h c d c h a)
+
+  g(\< a g fis g a\! g fis)
+  g(\f h g d d g d h)
+  R2*4
+  r4 a''8-.\mp a-.
+
+  h,-. h-. h'-. h-. \clef "bass"
+  R2*2 \mark \markup \box "F"
+  e,,16(\p c h c) g( c h c)
+  d8 d e e
+  e e e e
+  e16(\< d e f?) g( a h d)\!
+
+  \acciaccatura c,8\mf c'16( d e d c h a g)
+  f( h d) c h a g f
+  e( g c) h a g f e
+  d8 r r4
+  e16\f c( h c) g c( h c)
+  d8 d e e
+
+  e e e e
+  e16( d e f) g( f e d)
+  \acciaccatura c8\mf c'16( d e d c h a gis)
+  a( h c h a g? f e
+  d) c'( h a g f e d
+  c8) g\p g g \mark \markup \box "G"
+
+  h( d) d d
+  c g g g
+  g g g g
+  g g g g
+  e( c') c c
+  f,( d') d d
+  g, d' d d
+  c16( h c e d c h a)
+
+  \acciaccatura g8 g'4.\sfz g8\mp
+  a16( g f e) e4(
+  d8-.) d16( e f8) g
+  f4( e8-.) r
+  c16\f d e f g a h c
+  a8-. a16( f) d8-. f16( d)
+  h8-. d16( h g8-.) h'-.
+
+  c16(\p d c h c d c h
+  c d c h c d c h
+  c d c h c d c h
+
+  c d c h c d c h
+  c8-.) r r g,16(\ff c
+  e8-|) c16( e g8-|) e16( g
+  c8-|) r r4 \bar "|."
 }

@@ -125,4 +125,97 @@ vc = \relative c'' {
   g\mf g g g d'(\> d,) d( a')
   g g( fis g) d d( c d)\!
   g4(\p fis g) r \bar "|."
+
+  \introc
+  e8\p e e ( c)
+  c c c c
+  c c c c
+  c c c c
+  c r r4
+  g'8 r r4
+  g8 r r4
+
+  d16\< g h d e( d) c h\!
+  c\f g( f g) e g( f g)
+  c8 c c c
+  c c c c
+  c16( h c d) e( d c h)
+  c8 r r4
+
+  f,8 r r4
+  g8 r r4
+  c,8(\p e) e e \mark \markup \box "E"
+  g g g g
+  c,( e) e e
+  d d d d
+  c c c c
+  d( g) g g
+
+  c,( e) e e
+  d( a') a a
+  g( h) h h
+  fis( a) a a
+  g( d) d d
+  d d d d
+  d d d d
+  d(\sfz fis) fis fis
+
+  g-> r r4
+  e'8-. r c-. r
+  h-. r r4
+  h16( c h a h c h a
+  h c d e fis e d c)
+
+  h(\< c h a h c h a)\!
+  h(\f g' d h h d h g)
+  g'( h g d d g d h
+  c8) r c'16( e c a
+  g8-. g-.) a16( c a fis
+  g8-. g-.) r4
+
+  R2*4 \mark \markup \box "F"
+  c,16(\p g f? g) e( g f g)
+  c8 c c c
+  c c c c
+  c'-. c-. c-. r
+
+  c, r r4
+  g8 r r4
+  g8 r r4
+  d16\< g h d e( d) c h\!
+  c\f g( f g) e g( f g)
+  c8 c c c
+
+  c c c c
+  c16( h c d) e( d c h)
+  c8 r r4
+  f,8 r r4
+  g8 r r4
+  c,8(\p e) e e \mark \markup \box "G"
+
+  g g g g
+  c,( e) e e
+  d d d' d
+  c c c e16( g) \clef "treble"
+  c8-.\mp c16( d e8-.) c-.
+  a-. a'16( f) d8-. f16( d)
+  h8-. d16( h g8-.) h-.
+  c r r4 \clef "bass"
+
+  h,8( d) d d
+  c( g) g g
+  h( g) g g
+  c( g) g g
+  e(\f g) g g
+  f( a) a f
+  g( d) d d'-.
+
+  c-.\p r r4
+  e8-. r d-. r
+  c-. r r4
+
+  e,8-. r d-. r
+  c-.-| r r4
+  c'8-|\ff r c-| r
+  c-| r r4 \bar "|."
 }

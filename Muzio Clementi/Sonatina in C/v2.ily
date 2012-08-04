@@ -37,9 +37,9 @@ vb = \relative c'' {
     h4\f h h r
   }
 
-  \repeat volta 2 { \mark \markup \box "B"
+  \repeat volta 2 { \mark \markup \box "B" \clef "treble"
     g'4.(\p h8 d g-.) g-. g-.
-    a,16( h c h a h c h a8) r r4
+    a,16( h c h a h c h a8) r r4 \clef "bass"
     g,4.(\< h8 d f-.) f-. f-.\!
     e16(\f c) h c d( e) f g e8 r r4
 
@@ -126,4 +126,100 @@ vb = \relative c'' {
   h4.(\mf a8) g8.(\> fis16) e8.( d16)
   c'8.( h16) a8.( g16) \acciaccatura g8 fis8.( e16) d8.( c16)\!
   c2(\p h4) r \bar "|."
+
+  \introc
+  g8\p g g g
+  f f e e
+  e e e e
+  e e e e
+  e r r4
+  h'8 r r4
+  c8 r r4
+
+  g16\< h d f g( f) e d\! \clef "tenor"
+  \acciaccatura c8 c'4.(\f e8)
+  d16( c h d c8-.) r
+  c16( d c h c d e f
+  g8-.) g-. g-. r \clef "bass"
+  e, r r4
+
+  f8 r r4
+  h,8 r r4
+  c8 r r4 \mark \markup \box "E"
+  g'4.\sfz g8\mp
+  a16( g f e) e4(
+  d8-.) d16( e f8) g
+  f4( e8-.) r
+  h( d) d d
+
+  c c c c
+  a( c) c c
+  h( d) d d
+  d16(\sfz d' d, d' d,8-.) d-.
+  e16(\p d c h) h4(
+  a8-.) a16( h c8) d
+  c4( h8-.) r
+  fis(\sfz a) a a
+
+  h-> r r4
+  g'8-. r e-. r
+  d-. r r4
+  d8-. r d-. r
+  d-. r r4
+
+  g,8-.\< r g-. r
+  g\!\f r r4 \clef "tenor"
+  h'16( d h g g h g d
+  e8) r r4
+  r2
+  r4 g'8-.\mf g-.
+  a,-. a-. r4
+
+  r2
+  r8 g(\pp fis g
+  gis\< a b h\! \mark \markup \box "F"
+  c4.)\p e8(
+  d16 c h d c8-.) r
+  c16( d c h c d e f
+  g8-.) g-. g-. r
+
+  e, r r4
+  h8 r r4
+  c8 r r4
+  g16\< h d f g( f) e d\!
+  \acciaccatura c8 c'4.(\f e8)
+  d16( c h d c8-.) r
+
+  c16( d c h c d e f
+  g8-.) g-. g-. r \clef "bass"
+  e, r r4
+  f8 r r4
+  h,8 r r4
+  c8 r r4
+
+  g'4.\sfz g8\mp
+  a16( g f e) e4(
+  d8-.) d16( e f8) g
+  f4( e8-.) r
+  r g, g g
+  r a a a
+  r g g f
+  e r r4
+
+  r8 g g g
+  r c c c
+  r d d d
+  r c c c
+  g(\f c) c c
+  a( d) d a
+  r f f f'-.
+
+  e-.\p r r4
+  g8-. r f-. r
+  e-. r r4
+
+  g,8-. r f-. r
+  e-. r r e16(\ff g
+  c8-|) g16( c e8-|) c16( e
+  g8-|) r r4 \bar "|."
 }

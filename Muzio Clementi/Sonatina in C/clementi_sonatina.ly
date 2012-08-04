@@ -1,7 +1,7 @@
 \version "2.14.2"
 \include "deutsch.ly"
 
-#(set-global-staff-size 17.75)
+#(set-global-staff-size 16.8)
 
 \header {
   title = "Sonatina in C"
@@ -15,7 +15,7 @@ voiceconsts = {
  \key c \major
  \time 4/4
  \clef "bass"
-% \numericTimeSignature
+ \numericTimeSignature
  \compressFullBarRests
 }
 
@@ -25,7 +25,8 @@ mihi = "clarinet"
 milo = "bassoon"
 
 introa = { \tempo "1. Spiritoso " 4=112 }
-introb = { \break \tempo "2. Un poco adagio " 4=80 \key g \major }
+introb = { \pageBreak \tempo "2. Un poco adagio " 4=80 \key g \major }
+introc = { \break \tempo "3. Rondo " 4=100 \key c \major \time 2/4 }
 
 mpdol = \markup { \dynamic mp \italic " dolce" }
 pdol  = \markup { \dynamic p \italic " dolce" }
@@ -39,21 +40,18 @@ music = \new StaffGroup <<
 	\set Staff.midiInstrument = \milo
 	\set Staff.instrumentName = #"Cello I"
 	\transpose c f,, { \va }
-%	\transpose c c { \va }
       }
 
       \new Staff {
 	\set Staff.midiInstrument = \milo
 	\set Staff.instrumentName = #"Cello II"
 	\transpose c f,, { \vb }
-%	\transpose c c { \vb }
       }
 
       \new Staff {
 	\set Staff.midiInstrument = \milo
  	\set Staff.instrumentName = #"Cello III"
 	\transpose c f,, { \vc }
-%	\transpose c c { \vc }
       }
 >>
 
