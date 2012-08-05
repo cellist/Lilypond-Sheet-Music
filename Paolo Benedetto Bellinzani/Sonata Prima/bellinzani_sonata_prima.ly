@@ -1,7 +1,7 @@
 \version "2.14.2"
 \include "deutsch.ly"
 
-#(set-global-staff-size 20)
+#(set-global-staff-size 21)
 
 \header {
   title = "Sonata Prima"
@@ -12,7 +12,6 @@
 
 voiceconsts = {
  \key b \major
- \time 4/4
  \clef "bass"
 % \numericTimeSignature
  \compressFullBarRests
@@ -23,9 +22,12 @@ mihi = "clarinet"
 %minstr = "accordion"
 milo = "bassoon"
 
-moral = \markup \italic "molto rall."
+sim = \markup \italic "simile"
 
-introa = { \tempo "1. Largo " 8=90 }
+introa = { \tempo "1. Largo " 4=45 \time 4/4 }
+introb = { \break \tempo "2. Presto " 4=150 }
+introc = { \break \tempo "3. Largo " 4=60 \time 3/4 }
+introd = { \break \tempo "4. Allegro " 4=110 \time 2/4 }
 
 \include "v1.ily"
 \include "v2.ily"
