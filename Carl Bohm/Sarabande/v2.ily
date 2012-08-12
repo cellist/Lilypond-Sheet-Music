@@ -83,4 +83,37 @@ vb = \relative c' {
   d( c) b
   g2_\ritar g4
   g8( e?) fis4\fermata r \bar "||" \key g \minor \tempo 4=86
+
+  b\ff\downbow b4.\downbow b8
+  fis4 fis r
+  g es?-> cis->
+  d\> fis8 g a4
+
+  d\mf g, g
+  f?8( e) d e f d
+  g4 es? g
+  d8( c?) b c d b
+
+  es2 es4
+  d\< r8 d-- cis-- d--
+  d-- fis-- g-- g-- g-- a--\!
+  fis---> r d'( c) b a
+
+  g\ff\downbow fis g\upbow a b g
+  d' cis c a d c
+  b\downbow a g es d cis
+  d\> cis c b a d,\!
+  g\mf a b d g b
+
+  d2 a4
+  g es g
+  d8( c) b c d b
+  c4 g' a
+  d,8\< d' c b a g\!
+
+  fis es d d e fis
+  g8.(^\pesan\ff a16 g4) g
+  g8.( a16 g4) g
+  g\< g fis
+  g\! g\sfz r \bar "|."
 }

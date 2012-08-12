@@ -83,4 +83,37 @@ vc = \relative c' {
   g4( fis) g
   b,2_\ritar es4
   d2\fermata r4 \bar "||" \key g \minor \tempo 4=86
+
+  d4\ff\downbow d4.\downbow d8
+  d4 c8 a d c
+  b'4\downbow b4.\downbow b8
+  a4\> d,8 d c4\!
+
+  d\mf b d
+  d2 a'4
+  b2 b4
+  b2 b4
+
+  b2 a4
+  a\< r8 d,-- e-- fis--
+  g-- d-- d-- d-- c-- cis--\!
+  d---> r d4.\downbow d8
+
+  b'4\ff\downbow b b
+  a a a
+  g b b
+  a\> fis8 g a4\!
+  d,\mf g b
+
+  f?8( e) d e f d
+  es?4 g es
+  b'2 b4
+  g es g
+  d2 r4
+
+  a'2\downbow d,4
+  b2^\pesan\ff b4
+  b2 e4
+  d\< c d
+  b\! b\sfz r \bar "|."
 }

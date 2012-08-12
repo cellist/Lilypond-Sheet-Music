@@ -81,4 +81,37 @@ vd = \relative c {
   b( a) g
   es2_\ritar es4
   d2\fermata r4 \bar "||" \key g \minor \tempo 4=86
+
+  g4\ff\downbow g\downbow g
+  d' d d
+  d es-> cis->
+  d\> c?8 b a4\!
+
+  g\mf d' g
+  f2 f4
+  es g es
+  d2 d4
+
+  c2 c4
+  d\< r8 d-- cis-- c--
+  b-- a-- g-- f-- e-- es--\!
+  d---> r r4 r
+
+  g\ff\downbow g\upbow g
+  d' d d
+  d es g,
+  d'\> d8 d c4\!
+  d\mf d d
+
+  d2 d4
+  b2 b4
+  d2 d4
+  c,2 c4
+  d2 r4
+
+  d2\downbow d4
+  g2^\pesan\ff es4
+  d2 cis4
+  d\< d2
+  g4\! <g d'>\sfz r \bar "|."
 }

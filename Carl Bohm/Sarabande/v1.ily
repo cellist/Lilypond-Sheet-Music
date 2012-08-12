@@ -86,4 +86,36 @@ va = \relative c'' {
   g( d) d4 d
   d8(_\ritar c) b4\> c\!
   a2\p\fermata r4 \bar "||" \key g \minor \tempo 4=86
+
+  g'\downbow\ff g4.\downbow g8
+  fis e fis4.-> d8
+  g4\downbow g4.\downbow g8
+  fis\> g a4.-> d,8\!
+  b'(\mf a) g a b g
+  a4 d,4.-> d8
+
+  g( f?) es? f g es
+  f4 b,4. b8
+  es( d) c b a g
+  fis(\< g) a d,---> e---> f--->
+  g---> a---> b---> h---> c---> cis--->\!
+  d---> r d4.--->\downbow\sfz d8
+
+  g4\downbow\ff g4.\downbow g8
+  fis e fis4.-> d8
+  g4 g4.\downbow g8
+  fis\> g a4.-> d,8\!
+  b'(\mf a) g a b g
+
+  a4 d,4. d8
+  g( f) es f g es
+  f4 b,4. b8
+  es d c g' f es
+  d\< d' c b a g\!
+
+  fis es d c b a
+  g4 r8 g'\ff\downbow r g\upbow
+  r4 r8 g r g
+  g,4\<^\pesan a2
+  g4\! <b g'>\sfz r \bar "|."
 }
