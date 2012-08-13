@@ -1,7 +1,7 @@
 \version "2.14.2"
 \include "deutsch.ly"
 
-#(set-global-staff-size 19)
+#(set-global-staff-size 20.2)
 
 \header {
   title = "El Choclo"
@@ -24,7 +24,7 @@ mihi = "clarinet"
 %minstr = "accordion"
 milo = "bassoon"
 
-moral = \markup \italic "molto rall."
+gliss = \markup \italic "gliss."
 
 \include "v1.ily"
 \include "v2.ily"
@@ -32,13 +32,13 @@ moral = \markup \italic "molto rall."
 music = \new StaffGroup <<
       \new Staff {
 	\set Staff.midiInstrument = \milo
-	\set Staff.instrumentName = #"Violoncello I"
+	\set Staff.instrumentName = #"Cello I"
 	\transpose f f { \va }
       }
 
       \new Staff {
 	\set Staff.midiInstrument = \milo
-	\set Staff.instrumentName = #"Violoncello II"
+	\set Staff.instrumentName = #"Cello II"
 	\transpose f f { \vb }
       }
 >>
