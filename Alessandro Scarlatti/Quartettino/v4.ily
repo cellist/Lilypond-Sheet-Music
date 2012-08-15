@@ -34,4 +34,48 @@ vd = \relative c'' {
    s1
    s2 <e g>
    s2 r \bar "|."
+
+   \introb
+   \repeat volta 2 {
+     s1
+
+     s8 f8 g s s2
+     s a8 g f4
+     s1
+
+     s
+     f8 g s4 d8 e s4
+     s1
+
+     s
+     <c c'>4 c'8 h s4 <a c>8 <g h>
+     s1
+
+     s
+     s8 <f a> <e gis> s8 s2
+
+     \repeat unfold 8 { s1 }
+     s2 s8 <f a> <e g> s8
+     s1
+   }
+   \repeat volta 2 {
+     s
+     s8 <c e> <d f> s8 s2
+
+     \repeat unfold 3 { s1 }
+     s2 s8 f e s8
+
+     s f e s s2
+     \repeat unfold 2 { s1 }
+
+     s8 a4 s8 s2
+     e8 f16 g a8 g f4. <e g>8
+     s2 s8 a g s8
+
+     \repeat unfold 3 { s1 }
+     s2 s4 s8 c,
+     s1
+     s8 <f a> <g b> s s a g s
+     s1
+   }
 }
