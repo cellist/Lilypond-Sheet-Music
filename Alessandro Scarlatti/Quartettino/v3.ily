@@ -1,6 +1,6 @@
 vc = \relative c'' {
   \voiceconsts
-%  \clef "treble"
+  \clef "tenor"
 
    \introa
    r1
@@ -93,5 +93,25 @@ vc = \relative c'' {
      f8 f d c c a d c
 
      c4. b8 a4 r
+   }
+
+   \introc
+   \repeat volta 2 {
+     R4.*2
+     c'8 a f
+     e4 f8
+     R4.*2
+     c'8 a f
+
+     c4.
+   }
+   \repeat volta 2 {
+     R4.*2
+     g'8 e c
+     b'4 a8
+     f c16 c c c
+     c8 a16 a a a
+     c8 c c
+     c4.
    }
 }

@@ -93,4 +93,27 @@ ve = \relative c'' {
 
      <c f a> <a c f>4 <g c e>8 <a c f>4 r
    }
+
+   \introc
+   \repeat volta 2 {
+     <c f a>4.
+     <c f a>
+     <c f a>
+     <c f a>4 <a f'>8
+     <c f a>4.
+     <c f a>
+     <c f a>4 <c f a>8
+
+     <c e g>4.     
+   }
+   \repeat volta 2 {
+     <c e g>
+     <c e g>
+     <c e g>4 <f b>8
+     <e g b>4 <f a>8
+     <c f a>4 <c f a>8
+     <c f a>4 <c f a>8
+     <c f a> <a c f> <g c e>
+     <a c f>4.
+   }
 }

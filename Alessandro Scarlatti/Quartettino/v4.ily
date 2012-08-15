@@ -1,6 +1,5 @@
 vd = \relative c'' {
   \voiceconsts
-%  \clef "treble"
 
    \introa
    f4. f8 g2
@@ -77,5 +76,13 @@ vd = \relative c'' {
      s1
      s8 <f a> <g b> s s a g s
      s1
+   }
+
+   \introc
+   \repeat volta 2 {
+     \repeat unfold 8 { s4. }
+   }
+   \repeat volta 2 {
+     \repeat unfold 8 { s4. }
    }
 }

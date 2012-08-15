@@ -2,7 +2,7 @@
 \include "deutsch.ly"
 \include "../../snippets/merge-rests.ily"
 
-#(set-global-staff-size 18)
+#(set-global-staff-size 17)
 
 \header {
   title = "Quartettino"
@@ -14,6 +14,7 @@
 voiceconsts = {
  \key f \major
  \time 4/4
+ \clef "treble"
 % \numericTimeSignature
  \compressFullBarRests
 }
@@ -27,6 +28,7 @@ moral = \markup \italic "molto rall."
 
 introa = { \tempo "1. Adagio " 4=46 }
 introb = { \break \tempo "2. Allegro " 4=105 }
+introc = { \break \tempo "3. Minuet " 4=48 \time 3/8 }
 
 \include "v1.ily"
 \include "v2.ily"
@@ -39,19 +41,19 @@ music = \new StaffGroup <<
       \new Staff {
 	\set Staff.midiInstrument = \mihi
 	\set Staff.instrumentName = #"Vl I"
-	\transpose f f { \va }
+	\transpose f c { \va }
       }
 
       \new Staff {
 	\set Staff.midiInstrument = \mihi
 	\set Staff.instrumentName = #"Vl II"
-	\transpose f f { \vb }
+	\transpose f c { \vb }
       }
 
       \new Staff {
 	\set Staff.midiInstrument = \milo
 	\set Staff.instrumentName = #"Vlc"
-	\transpose f f { \vc }
+	\transpose f c, { \vc }
       }
 
       \new PianoStaff <<
@@ -59,18 +61,18 @@ music = \new StaffGroup <<
 	\new Staff {
 	  \set Staff.midiInstrument = \mipn
 	  <<
-	    \transpose f f {
+	    \transpose f c {
 	      \mergeRestsOn %% in one of the voices if sufficient
 	      \vd
 	    }
 	    \\
-	    \transpose f f { \ve }
+	    \transpose f c { \ve }
 	  >>
 	}
 
 	\new Staff {
 	  \set Staff.midiInstrument = \mipn
-	  \transpose f f { \vf }
+	  \transpose f c { \vf }
 	}
     >>
 >>

@@ -1,6 +1,5 @@
 va = \relative c'' {
   \voiceconsts
-%  \clef "treble"
 
    \introa
    f2 g
@@ -93,5 +92,28 @@ va = \relative c'' {
      c, f g f16 e f8 f b a16 g
 
      a8 f c e f4 r
+   }
+
+   \introc
+   \repeat volta 2 {
+     c'8 a f
+     f8. g16 a8
+     a8. b16 a8
+     g4 f8
+     c' a f
+     f8. g16 a8
+     a8. b16 a8
+
+     g4.
+   }
+   \repeat volta 2 {
+     g8 e c
+     b'8. a16 b8
+     g8. a16 f8
+     e4 f8
+     c' a16 a a a
+     a8 f16 f f f
+     f8 c e
+     f4.
    }
 }

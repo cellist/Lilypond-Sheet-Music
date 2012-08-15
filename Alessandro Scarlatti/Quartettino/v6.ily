@@ -94,4 +94,27 @@ vf = \relative c {
 
      f,16 g a b c8 c, f4 r
    }
+
+   \introc
+   \repeat volta 2 {
+     f'4.
+     f
+     f
+     c4 f,8
+     f'4.
+     f
+     f8 f,16 g a b
+
+     c4.
+   }
+   \repeat volta 2 {
+     c
+     c
+     c
+     c4 f8
+     f f16 f f f
+     f8 f,16 f f f
+     f8 a c
+     f,4.
+   }
 }
