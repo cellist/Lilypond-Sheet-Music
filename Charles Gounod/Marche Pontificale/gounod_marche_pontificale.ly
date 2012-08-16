@@ -1,7 +1,7 @@
 \version "2.14.2"
 \include "deutsch.ly"
 
-#(set-global-staff-size 16.5)
+#(set-global-staff-size 20.25)
 
 \header {
   title = "Marche Pontificale"
