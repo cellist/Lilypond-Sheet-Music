@@ -3,232 +3,224 @@ va = \relative c'' {
 
   \introa
   \repeat volta 2 {
-    \partial 8 r8
-    h(\p g) g g
-    h( d) h( g)
-    a( fis) a d,
-    g4 r8 g'
-    g(\< d) d( h')\!
-    h4.\sfz g16( e)
-    d8-. d-. d16( cis h cis)
+    \partial 8 d8\p
+    d(\< h) h( g')\!
+    g4.\sfz fis16(\p e)
+    d8-. d-. d16( e d c)
+    h8( d) r4
+    R2*2
+    a8-. a-. a-. a-.
+    fis4-. r8 a'16( g)
 
-    d4 r
-    d,8-. a'-. g-. g-.
-    fis4-. r8 a'16(\< g)
     fis( e d cis) h( cis d) h-.
-    a8-.\! r a'16(\f fis d a)
-    h8-. h-. cis-. cis-.
-    e4( d8) r
+    a8-. r r4
+    r2
+    fis16(\< a d fis)\! d'(\f a fis d)
+    e8-. e-. a-. a-.
+    g4( fis8) r
 
-    d,-.\p d-. d-. d-.
-    d-. d-. d-. a''16(\< g)
-    fis( e d cis) h( cis d h)\!
-    a8-.\f r fis16( a d fis)
-    a( g fis e d cis h a
-    fis) d'( fis d) fis( d) e( cis)
+    R2*3
+    d,16(\f fis a d) d( fis a d)
+    cis( h a g fis e d cis
+    d) fis( a fis) a( fis) g( e
+    d) a( fis a) fis( a) e( cis)
 
-    d fis( a fis) a( fis) g( e)
     d4 r8
   }
   \repeat volta 2 {
-    \partial 8 r
-    r4 r8 d\p
-    h(\< d)\! d(\> h)\!
-    a-. r r4
-    r e'16(\p f e d
+    \partial 8 d'\p
+    d( h) h( f')
+    f4. e16( d)
+    c?8-. c-. c16( h a h
+    c8)-. a'-. r4
+    r e16(\< f e d)
+    c( d c h) a( h c d)\!
 
-    c?8)-. a'-. r4
+    e4.\sfz d16(\p c)
+    h(\< d c h) a( c h a)\!
+    g(\f a g fis g a h cis
+    d8)-. r r4
+    R2*3
+    r4 r8 d-.\p
+    d( h)\< h( g')\!
+
+    g4.\sfz fis16(\p e)
+    d8-. d-. d16( e d c)
+    h8( d) r4
     r2
-    a,8(\f\< c)\! c(\> a)\!
-    g-.\p\< r fis?-.\! r
-    e4\f g16( fis g a
-    e8)-. r fis16( g fis e
-    d8)-. r e16(\> fis e d
-
-    cis8)-.\! r a'16(\mp\> h a g)
-    fis(\! g fis\p e fis g a h
-    c?8)-. r r4
-    h8(\p g) g g
-    h( d) h( g)
-    a( fis) a( d,)
-    g( d') h g
-
-    c,( e a e)
-    c( e a) r
-    d,-. d-. d-. d-.
-    g-. g-. g-. h'16( a)
-    g( fis e d) c( d e c
-    h8)-. r r d'16(\< c)
+    r4 c16(\p e) a,( c)
+    h8-. h-. a-. a-.
+    h4 r8 d'16(\p c)
 
     h( a g fis) e( fis g e
-    d8)-.\! d,-.\f g-. d-.
-    c-. c-. d-. d-.
-    g-. g-. g-. h'16(\p a)
-    g( fis e dis) e( fis g e)
-    d?( c h c d8)-. g16(\< fis)
+    d8)-. r r4
+    r2
+    r8 g'16(\f fis) e( d c h
+    a8)-. a(-. d)-. d-.
+    c4( h8) r
+    r2
 
-    e( d c h) e( dis e c
-    h)\! d?\f g h a( g fis e)
-    d( c h a) g( fis e d
+    r4 r8 h16(\< a)
+    g( fis e dis) e( fis g e
+    d?)\! g\f h d c( h a g)
+    fis( e d c) h( a g fis
 
-    g) g'( h g) h( g a fis
-    g,) h( d h) d( h c a
-    g8)-. r h'-. r
-    h-. r r4
+    g) h'( d h) d( h c a
+    g,) g( h g) h( g a fis
+    g8)-. r g''-. r
+    g4 r
   }
 
   \introb
-  c,2(\pp h4)
-  c2( h4)
-  c2(\< a4)\!
-  g2\mf r4
-  h8.(\pp d16) g,8.( h16) c8.( e16)
-  d,2(\sfz c4)
-  a'8.(\pp h16) g8.( c16) f,8.( h16)
+  e,8.(_\ppdol g16) c8.( a16) g8.( f16)
+  e8.( g16) c8.( a16) g8.( f16)\<
+  e8.( g16) a8.( f16)\! d8.( c16)
+  h8.(\mf d16) c4 r
+  f,2(\sfz e4)
+  f2(\sfz e4)
+  f( e) d
 
-  d2(\> c4)\!
-  e,(\p f-> e)
-  f(-> d e)
-  d8.( d'16 c8. a16 h8. g16)
-  fis8.( d'16 g,8. d'16 a8. d16)
-  r2.
-  c4 d g8.( h,16)
+  h'2(\> c4)\!
+  e,8.(\p e'16 d8. h16 c8. a16)
+  gis8.( h16 e,8. gis16 a8. c16)
+  d,4( es-> d)
+  c'(\> h a)\!
+  h8.(\f g'16 c,8. g'16 d8. g16)
 
-  h8.( a16 g4) fis
-  g8. g'16\> r8. g16 r8. g16\!
-  e,2(\pp f?4)
-  e8.( g16) c8.( a16) g8.( f16)
-  e4( d) f8.( e16)
-  d4( c) r
-  h'8.(\pp d16) g,8.( h16) c8.( e16)
+  e8.( c'16) fis,8.( a16) g8.( d16)
+  d8.( c16 h4) a
+  g\> fis( f)\!
+  e'8.(_\ppdol g16) c8.( a16) g8.( f16)
+  e2( f4)
+  e8.( g16) a8.( f16) d8.( c16)
 
-  d2(\sfz c4)
-  a'8.(\pp h16) g8.( c16) f,8.( h16)
-  c8. a16( g8. f16 e8. dis16)
-  d?2(\sfz c4)
-  d,2(\sfz c4)
-  a'8.(\pp^\rit h16) g8.( c16) f,8.( h16)
-  d2(\> c4)\! \bar "|."
+  h8.( d16) c4 r
+  f2(\sfz e4) \clef "treble"
+  f'2(\sfz e4)
+  f(\pp e d
+  e8.) c'16( h8. a16 g8. fis16)
 
-  \introc
-  d(_\mpdol h8)
-  fis( a d)
-  d4( h8)
-  fis( a d)
-  h(\< d h)\!
+  f?2(\sfz e4) \clef "bass"
+  f,2(\sfz e4)
+  f^\rit e d
+  f2(\> e4)\! \bar "|."
+
+  \introc \clef "treble"
+  g8-._\mpdol g-. g-.
+  a d( c
+  h)-. g16( a) h g
+  a8-. r r
+  g'-.\< g-. g-.\!
+  a16(\> g fis e d c
+  h8)-. g16( a) h g
+  a8-.\! r r \clef "bass"
+
+  r4.
+  r8 c,-. c-.
+  h4.->
+  r
+  c'16(\sfz d,\> h' d, a' d,)\!
+  g8-.-> fis-. e-.
+  fis16(\sfz e\> d e fis g)\!
+  r4.
+  g,8(\p h d)
+
+  d4( fis,8)
+  g( h d)
+  d4.
+  h8(\< d h)\!
   d\> d'16( c h a
   g8)-. d-. d-.
   d-.\! r r
   r16 e(\mf fis gis a h
-
   c d e8)-. e-.
-  r r16 d,( e fis
-  g? a h8)-. h-.
-  a-.->\sfz g-. fis-.
-  g-. r c,-.
-  d4.
-  a'16(\mp h\> d c h a)\!
-  g8-.\p r r
-  fis,( a d)
-  d4.
 
-  fis8( a d)
-  g-.\< g-. g-.\!
-  a16(\> g fis e d c
-  h8)-. g16( a) h g
-  a8-.\! r r
-  r16 c,(\mf d e fis gis
-  a h c8)-. c-.
-  r16 d,(\mp e fis g? a
-
-  h c d e fis g)\!
-  fis(\f e d c h a)
-  g4( h16 a)
-  g4 r8
-  r4.
-  d8.\sfz h16 d h
+  r16 h,(\mp c d e fis
+  g?\< a h c d e)\!
+  d(\f c h a g fis)
+  g( d) h( d) d( c)
+  h4 r8
+  d'8.\sfz h16 d h
   g8-. g-. g-.
+
   h8.\sfz g16 h g
-
-  e8( g cis)
-  d16( fis e d cis h)
-  a( g fis e d cis)
+  e8-. e-. e-.
+  fis16( e dis e fis g)
+  h( a g fis e d?)
+  cis( h a g fis e)
   d4( cis8)
-  r4.
-  fis'4(\p a8)
-  e4( a8)
-  g4( fis8)
+  R4.*5
 
+  fis'4(\pp h16 a)
+  e4( h'16 a)
+  g4( fis8)
+  e r r \clef "tenor"
+  r16 d(\f cis d e d
+  h d a d g, d')
+  r d'(\sfz cis d e d
+
+  h d a d gis, d')
+  a8( d) fis,-.
+  \acciaccatura fis e4.(\trill\>
+  d8)\! r r
+  r4.
+
+  fis4(\pp h16 a)
+  e4( h'16 a)
+  g4( fis8)
   e r r
   R4.*4
-  fis,4.\f
-  g8-. fis-. g-.
-  fis'4.\sfz
-  gis8-.\sfz a-. h-.
-  a-. a,-. d-.
-  d4(\> cis8)
-  d\! r r
 
-  r4.
-  d4(\pp g16 fis)
-  cis4( g'16 fis)
-  e4( d8)
-  cis r r
-  fis16( a gis a h a)
-  e( a gis a h a)
-  g?4( fis8)
+  r16 d(\f cis d e d
+  g, d' a d h d)
+  r d'( cis d e d
+  gis,\sfz d' a d h d)
+  a8( d) fis,-.
+  a( g? e16 fis
+  d8)-. d-.\> d-.
+  e-. e-. e-.
 
-  e r r
-  fis,4.\f
-  g8-. fis-. g-.
-  fis'4.
-  e8-.\sfz fis-. gis-.
-  a( fis) d-.
-  cis4 cis8
-  d-. d-. d-.
-  cis-. cis-. cis-.
-  d-. d-. d-.
+  fis-. fis-. fis-.\!
   r4.\fermata
+  g8-._\mpdol g-. g-.
+  a d( c?
+  h)-. g16( a) h g
+  a8-. r r
+  g'-.\< g-. g-.\!
+  a16(\> g fis e d c
+  h8)-. g16( a) h g
 
-  d4(_\mpdol h8)
-  fis( a d)
-  d4( h8)
-  fis( a d)
-  h(\< d h)\!
+  a8-.\! \clef "bass" r r
+  r4.
+  r8 c,-. c-.
+  h4.->
+  r
+  c'16(\sfz d,\> h' d, a' d,)\!
+  g8-.-> fis-. e-.
+  fis16(\sfz e d\> e fis g)\!
+  r4.
+
+  g,8(\p h d)
+  d4( fis,8)
+  g( h d)
+  d4. \clef "tenor"
+  h8(\< d h)\!
   d\> d'16( c h a
-  g8)-. d-. d-.\!
-  d-. r r
+  g8)-. d-. d-.
+  d-.\! r r
   r16 e(\mf fis gis a h
   c d e8)-. e-.
 
-  r r16 d,( e fis
-  g a h8)-. h-.
-  a-.->\sfz g-. fis-.
-  g-. r c,-.
-  d4.
-  a'16(\mp h\> d c h a)\!
-  g8-.\p r r
-  fis,( a d)
-  d4.
-  fis8( a d)
-
-  g-.\< g-. g-.\!
-  a16(\> g fis e d c
-  h8)-. g16( a) h g
-  a8-.\! r r
-  r16 c,(\mf d e fis gis
-  a h c8)-. c-.
-  r16 h,(\mp c d e fis
-  g\< a h c d e)\!
-
-  d(\f c\> h a g fis)
-  g( d h d g fis)\!
+  r16 d,(\mp e fis g? a
+  h\< c d e fis g)\!
+  fis(\f e\> d c h a)
+  g4( h16 a)\!
   h(\f a g fis g a)
-  h( c d e fis g)
 
+  h( c d e fis g)
   fis( e d c h a)
-  g( d h d c d)
-  h8 r r
-  d'-.\ff r r
-  d,4. \bar "|."
+  g4( h16 a)
+  g8 r r
+  g'-.\ff r r
+  g,4. \bar "|."
 }
