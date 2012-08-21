@@ -1,7 +1,7 @@
 \version "2.14.2"
 \include "deutsch.ly"
 
-#(set-global-staff-size 15.9)
+#(set-global-staff-size 17.5)
 
 \header {
   title = "Trio"
@@ -26,7 +26,7 @@ pdol = \markup { \dynamic p \italic " dolce" }
 psub = \markup { \dynamic p \italic " subito" }
 rit  = \markup \bold \italic "rit."
 
-introa = { \tempo "1. Allegro " 4=120 \key d \major \time 2/4 }
+introa = { \tempo "1. Allegro " 4=120 \key d \major \time 4/4 }
 introb = { \break \tempo "2. Andante " 4.=56 \key g \major \time 6/8 }
 introc = { \break \tempo "3. Rondo " 4=120 \key d \major \time 2/4 }
 
