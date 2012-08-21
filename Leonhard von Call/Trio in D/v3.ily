@@ -320,4 +320,193 @@ vc = \relative c' {
     g4) r8 r4^\rit a8
     fis4.( g)
   }
+
+  \introc
+  \repeat volta 2 {
+    d8\p d d d
+    g g g g
+    e e e e
+    d d d d
+    d d d d
+    g g g g
+    e e e e
+    d d' d,4
+  }
+  \repeat volta 2 {
+    a'8 a a a
+    a a a a
+    a a a a
+    a a a a
+    a a a a
+    a a a a
+    a a a a
+    a4 r
+
+    d,8\p d d d
+    g g g g
+    e e e e
+    d d d d
+    d d d d
+    g g g g
+    e e e e
+    d d' d,4
+  } \key g \major \mark \markup \box "N"
+
+  \repeat volta 2 {
+    g8-.\f g-. c?-. c-.
+    h4 a
+    h8-. h-. fis-. fis-.
+    g4 fis
+    g8-. g-. fis-. fis-.
+    e4 d
+    h'8 h g g
+    cis,4( d8) r
+  }
+  \repeat volta 2 {
+    d'-.\p d-. d-. d-.
+
+    d, d' d d
+    d,-. d'-. d,-. d'-.
+    d, d' d d
+    d-. d-. d-. d-.
+    d, d' d d
+    d, g a a
+    d,16 e fis g a h c h
+    a4 h8 c
+
+    e d c h
+    c c h h
+    a4 r
+    d, g8 a
+    c h a g
+    a\< a g g\!
+    d\f d g g
+    d d g g
+    d d g g
+
+    d4 r
+    g8-.\p g-. c-. c-.
+    h4 a
+    h8-. h-. fis-. fis-.
+    g4 fis
+    g16\f d' h g f g f g
+    e8 g c c
+    d d d, d
+
+    fis?4( g8) r
+  } \mark \markup \box "O"
+  d'-.\p d-. d-. d-.
+  d-. d-. d-. c-.
+  c c c c
+  c c c c
+  c c c c
+  c c c c
+  h h h h
+
+  h h h h
+  g g g g
+  g g g g
+  fis fis fis fis
+  fis fis fis fis
+
+  h h h h
+  e, e e e
+  a4 r
+  R2*2 \bar "||" \mark \markup \box "P" \key d \major
+
+  d,8\p d d d
+  g g g g
+  e e e e
+  d d d d
+  d d d d
+  g g g g
+  e e e e
+  d d' d,4
+
+  a'8 a a a
+  a a a a
+  a a a a
+  a a a a
+  a a a a
+  a a a a
+  a a a a
+
+  a4 r
+  d,8\p d d d
+  g g g g
+  e e e e
+  d d d d
+  d d d d
+  g g g g
+  e e e e \mark \markup \box "Q"
+
+  d(\f d') d d
+  d cis? h a
+  g2~\p
+  g
+  d8(\f d') d d
+  d cis h a
+  g2(\p
+  e)
+  d8(\f d') d d
+  d cis h a
+
+  g4 r
+  e8(\f fis g gis)
+  a4 r
+  r g?(  
+  fis) r
+  r fis
+  e8-. e-. d-. d-.
+  g-. g-. fis-. fis-.
+  r g\p g g
+
+  r e e e
+  d(\f d') d-. d-.
+  d cis h a
+  g4 r
+  e8(\f fis g gis)
+  a4 r
+  r g?(
+  fis) r
+  r2
+
+  h8 h h h
+  cis cis cis cis
+  d4 r
+  fis,8\p fis fis fis
+  g g a a
+  h4(\sfz a)
+  g8-. g-. a-. a-.
+
+  h4(\sfz a)
+  g(\< a8 h)
+  h4( a8 g)\!
+  a4 r
+  R2*5
+  a8 cis a cis
+  a8 cis a cis \mark \markup \box "R"
+
+  d,\f e16 fis g a h cis
+  d8-. d-. d-. d-.
+  d-. d-. fis-. fis-.
+  e e d d
+  e e e e
+  e16 d cis h a g fis e
+  d8 e16 fis g a h cis
+
+  d8 d d d
+  d d fis fis
+  e e d d
+  e e e e
+  e16 d cis h a g fis e
+  d8-.\p fis-. d-. fis-.
+
+  fis( e) e-. e-.
+  d(\pp fis) fis-. fis-.
+  fis( e) e-. e-.
+  d-. fis-. d-. fis-.
+  d-. fis-. d-. fis-.
+  d-. fis-. d-. fis-.
+  d4 r \bar "|."
 }

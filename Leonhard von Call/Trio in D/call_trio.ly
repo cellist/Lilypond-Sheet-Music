@@ -12,8 +12,6 @@
 }
 
 voiceconsts = {
- \key d \major
- \time 4/4
  \clef "bass"
 % \numericTimeSignature
  \compressFullBarRests
@@ -28,8 +26,9 @@ pdol = \markup { \dynamic p \italic " dolce" }
 psub = \markup { \dynamic p \italic " subito" }
 rit  = \markup \bold \italic "rit."
 
-introa = { \tempo "1. Allegro " 4=120 }
+introa = { \tempo "1. Allegro " 4=120 \key d \major \time 2/4 }
 introb = { \break \tempo "2. Andante " 4.=56 \key g \major \time 6/8 }
+introc = { \break \tempo "3. Rondo " 4=120 \key d \major \time 2/4 }
 
 \include "v1.ily"
 \include "v2.ily"
