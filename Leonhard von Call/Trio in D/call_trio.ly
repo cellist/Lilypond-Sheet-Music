@@ -1,7 +1,7 @@
 \version "2.14.2"
 \include "deutsch.ly"
 
-#(set-global-staff-size 15.8)
+#(set-global-staff-size 15.9)
 
 \header {
   title = "Trio"
@@ -26,8 +26,10 @@ milo = "bassoon"
 
 pdol = \markup { \dynamic p \italic " dolce" }
 psub = \markup { \dynamic p \italic " subito" }
+rit  = \markup \bold \italic "rit."
 
 introa = { \tempo "1. Allegro " 4=120 }
+introb = { \break \tempo "2. Andante " 4.=56 \key g \major \time 6/8 }
 
 \include "v1.ily"
 \include "v2.ily"
@@ -37,18 +39,21 @@ music = \new StaffGroup <<
       \new Staff {
 	\set Staff.midiInstrument = \mihi
 	\set Staff.instrumentName = #"Cello I"
+%	\transpose d d { \va }
 	\transpose d f,, { \va }
       }
 
       \new Staff {
 	\set Staff.midiInstrument = \milo
 	\set Staff.instrumentName = #"Cello II"
+%	\transpose d d { \vb }
 	\transpose d f,, { \vb }
       }
 
       \new Staff {
 	\set Staff.midiInstrument = \milo
 	\set Staff.instrumentName = #"Cello III"
+%	\transpose d d { \vc }
 	\transpose d f,, { \vc }
       }
 >>

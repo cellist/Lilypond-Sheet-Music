@@ -227,4 +227,88 @@ vb = \relative c' {
   fis4\! r r g(\f
   fis) r r g,(
   fis) fis fis r \bar "|."
+
+  \introb
+  \repeat volta 2 {
+    \partial 8 r8
+    h\p h h h4.
+    a8 a a a4.
+    g8 g g g4.\<
+    fis4\! r8 r4 a16( h)
+    c8 c c c h a
+    h\< h h h a h\!
+
+    a4.( g)
+    g( fis4)
+  }
+  \repeat volta 2 {
+    \partial 8 a16(\p h)
+    c8 c c c h a
+    d d d d c h
+    c r c( h) r h(
+    a)-. h-. g-. fis4 a16( h)
+
+    c8 c c c h fis
+    d' d d d c h
+    c r c( h) r h(
+    e) r c-. h4
+  }
+  \repeat volta 2 {
+    \partial 8 r8
+    r4 h8\p h4.
+    c4 cis8 h4 r8
+
+    r4 h8 h4.
+    c?8 r a g4
+  }
+  \repeat volta 2 {
+    \partial 8 r8
+    r4 d'8\f d4.
+    e16-. d-. c-. h-. a-. g-. g8( fis) r
+    r4 d'8 d4.
+    e16-. d-. c-. d-. e-. c-. c8( h) r
+
+    r4 h8\p h4.
+    c4 cis8 h4 r8
+    r4 h8 h4.
+    c8 r a g4
+  }
+  \repeat volta 2 {
+    \partial 8 r8
+    g-.\p\< g-. g-. g-. a-. h-.\!
+    c2.(
+
+    h8)-.\p\< g-. g-. g-. a-. h-.\!
+    c2.(
+    h8)-.\p\< g-. g-. g-. a-. h-.\!
+    c\f c c c4.
+    h8 h h h4.
+    d8 d d d( e) e-.
+
+    h4.( a4) r8
+    h\p h h h4.
+    a8 a a a4.
+    g8 g g g\< g g
+    fis4\! r8 r4 a16(\p h)
+    d( c) c( h) h( a) a4 r8
+
+    e'16( d) d( c) c( h) h4 r8
+    g'\f g g g fis d
+    e( d c) h4 r8
+    d4\p d8 e4 e8
+    g fis e e( d) d-.
+
+    d4 d8 e16-. e-. e-. e-. e-. e-.
+    h h h h c c h4 r8
+    d4\f d8 e4 e8
+    g f e e( d) d-.
+    d4 d8 e16 e e e e e
+
+    h4 c8 r4.
+    h8(\p c d e d c)
+    h(\pp c d e\< d c)\!
+    h4\p r8 r4 c8(\pp
+    h4) r8 r4^\rit c8
+    c4.( h)
+  }
 }

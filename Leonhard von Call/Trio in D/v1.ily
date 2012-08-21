@@ -231,4 +231,89 @@ va = \relative c'' {
   d4\! r r cis(\f
   d) r r cis,(
   d) d d r \bar "|."
+
+  \introb
+  \repeat volta 2 {
+    \partial 8 g,16(\p h)
+    d8 d d d8. e16 d8
+    d d d d8. e16 d8
+    cis cis16 d e-. fis-. g(\< gis a ais h cis)\!
+    d a? fis d a fis d4 r8
+
+    r4. r8. d'16 e fis
+    g?8\< g g a16( g32) r32 g16( fis32) r32 fis16( e32)\! r32
+    d16( e fis g gis a) a,8 h cis
+    e8. fis16 e8 d4
+  }
+
+  \repeat volta 2 {
+    \partial 8 r8
+    R2.*2
+    r16 d\p fis d fis a r d, g d g h
+    d8-. e-. cis-. d4 r8
+    R2.*2
+
+    r16 d, fis d fis a r d, g d g h
+    a8( c?) fis,-. g4
+  }
+  \repeat volta 2 {
+    \partial 8 h16(\p ais)
+    a? g fis e dis8 e a g
+    fis4 e8 dis4 h'16( ais)
+
+    a? g fis e dis8 e a g
+    fis r dis e4
+  }
+  \repeat volta 2 {
+    \partial 8 d'?16(\f cis)
+    c? h a g fis8 g c h
+    a16-. g-. fis-. e-. d-. cis-. cis8( d) d'16( cis)
+
+    c? h a g fis8 g c h
+    a16-. g-. fis-. g-. a-. fis-. fis8( g) h16(\p ais)
+    a? g fis e dis8 e a g
+    fis4 e8 dis4 h'16( ais)
+
+    a? g fis e dis8 e a g
+    fis r dis e4
+  }
+  \repeat volta 2 {
+    \partial 8 g16(\p fis)
+    e8-.\< e-. e-. e-. e-. e-.\!
+    e( dis) dis dis c' dis,
+    e-.\< e-. e-. e-. e-. e-.\!
+
+    e( dis) dis dis c' dis,
+    e-.\< e-. e-. e-. e-. e-.\!
+    e(\f d?) d d e fis
+    a( g) g g a h
+    d cis c h d16 c h a
+
+    g8. a16 g8 fis4 r8
+    d\p d d d8. e16 d8
+    d d d d8. e16 d8
+    cis cis16 d e-. fis-. g( gis a ais h cis)\!
+    d a? fis d a fis d4 r8
+
+    r4. r16 cis'(\p d dis e) fis
+    g4 r8. g?16 fis g a h
+    d(\f c?) c( h) h( a) e'( d) d( c) c( h)
+    h( a) a( g) g( fis) g4 r8
+
+    h4\p h8 c4 c8
+    e( d c) c( h) h-.
+    h4 h8 a c e
+    g,4 \acciaccatura h8 a g4 r8
+    h4\f h8 c4 c8
+    e( d c) c( h) h-.
+
+    h4 h8 a c e
+    g,4 h16( a) r4.
+    e'16(\p d) d( c) c( h) h( a) a( g) g( fis)
+    e'16(\pp d) d( c) c( h) h( a) a( g) g( fis)
+
+    g(\p h) d-. d-. d-. d-. d d,( cis d e fis)
+    g(\pp h) d-. d-. d-. d-. d d,(^\rit cis d e fis)
+    a4.( g)
+  }
 }
