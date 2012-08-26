@@ -1,7 +1,7 @@
 \version "2.14.2"
 \include "deutsch.ly"
 
-#(set-global-staff-size 17.5)
+#(set-global-staff-size 19)
 
 \header {
   title = "Sonata II"
@@ -27,7 +27,8 @@ mibc = "harpsichord"
 moral = \markup \italic "molto rall."
 
 introa = { \tempo "1. Largo " 4=50  \time 3/8 }
-introb = { \break \tempo "2. Allegro " 4=110  \time 4/4 }
+introb = { \break \tempo "2. Allegro " 4=110 \time 4/4 }
+introc = { \break \tempo "3. Largo " 4=50 }
 
 \include "v1.ily"
 \include "v2.ily"

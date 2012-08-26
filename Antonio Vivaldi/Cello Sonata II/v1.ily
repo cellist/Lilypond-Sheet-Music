@@ -96,5 +96,29 @@ va = \relative c {
 
     e'4( f8) b, a16 c a f g b g e
     f \clef "bass" c a c f c a c f,2\fermata
+  } \clef "tenor"
+
+  \introc
+  \repeat volta 2 {
+    c''16 b a4 d8 c16 b a4 f'8
+    e16( d) c4 b8 a16( g) f4 f'8
+    f16 e d4 d8 d16 c h4 f'8
+    f-+ e r e a,16 c8 f d a16
+    h d8 g d h16 \appoggiatura d8 c16 h( c8) \appoggiatura d c16 h( c8)
+    \appoggiatura h a16 f' d f \appoggiatura c8 h8. c16 c2
+  }
+  \repeat volta 2 {
+    c16( b?) a4 es'8 es16 d c4 d8
+    b16 a g4 d'8 es,16 a8 c es g,16
+    fis a8 d fis a,16 b? b8 g16 d' d8 b16
+
+    g' d c b a8. g16 g4 r8 d'
+    cis16 h a4 g8 f?16 e d4 f'8
+    e16( d) c4 b?8 a16 g f4 c'8
+    d16 f8 d b d16 c f8 c a c16
+
+    b g'8 b, g b16 a a8 f16 c' c8 a16
+    f' c-+ b a f' c b a f'8 a, b4~
+    b16 e f f, g8. f16 f2\fermata
   }
 }

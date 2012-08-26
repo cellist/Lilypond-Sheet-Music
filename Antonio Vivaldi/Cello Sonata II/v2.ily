@@ -96,4 +96,29 @@ vb = \relative c {
     c' a8 g f4 c
     d r f,2\fermata
   }
+
+  \introc
+  \repeat volta 2 {
+    r8 f'16 e f8 f, r f'16 e f8 f,
+    r c''16 b c8 c, r f16 e f8 f,
+    r g'16 f g8 g, r g'16 f g8 g,
+    r c'16 b c8 c, r f16 e f8 f,
+    r g'16 f g8 g, r c'16 h c8 c,
+
+    r f g g, c2
+  }
+  \repeat volta 2 {
+    r8 fis16 e fis8 fis, r fis'16 e fis8 fis,
+    r g'16 fis g8 g, r c16 b? c8 c,
+    r d'16 c d8 d, r g'16 fis g8 g,
+
+    r g' d d, g g'16 fis g8 g,
+    r a'16 g a8 a, r d16 cis d8 d,
+    r c'?16 b c8 c, r f'?16 e f8 f,
+    b' a b b, r a'16 g a8 a,
+
+    r g'16 f g8 g, r f'16 e f8 f,
+    r f' f f, r f' g e
+    c f c c, f2\fermata
+  }
 }
