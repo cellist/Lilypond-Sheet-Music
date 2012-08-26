@@ -135,5 +135,46 @@ va = \relative c' {
     f8 es16 d c b
     c8 a4-+
     b4.
+  } \clef "bass"
+
+  \introc
+  \repeat volta 2 {
+    <g, es' b'>4. c'8 d4
+    es8. b16 g8. b16 es,8. g16
+    f8. as16 d,8. f16 b,8. as'16
+    g4. f8 es4
+    <g, es' c'>4. d''8 es4
+    \appoggiatura b8 a?4. g8 f4
+    <a, f' c'>4. d'8 es4
+    \appoggiatura es8 d4. c8 b4
+    c8. es16 a,8. c16 f,8. a16
+    es8. g16 c,8. es16 a,8. f'16
+
+    b8( c d c) b4
+    es c4.-+ b8
+    b2.
+  }
+  \repeat volta 2 {
+    <g, d' h'>4. c'8 d4
+    es4. d8 c4
+    f, d'4. c8
+    h4. a8 g4
+    \times 2/3 { as8( g f) g[( f es)] f( es d) }
+    \times 2/3 { es d c } d4. c8
+    c2 r4
+    <g es' b'?>4. c'8 d4
+    es8. b16 g8. b16 es,8. g16
+
+    f8. as16 d,8. f16 b,8. as'16
+    \appoggiatura as8 g4. f8 es4
+    \times 2/3 { es8( b' as) g[( f es)] } des4
+    \times 2/3 { c8 c'( b as[ g f]) } es4
+    \times 2/3 { d8 d'( c b[ as g]) } f4
+    \times 2/3 { es8 es'( d c[ b as]) g( f es) }
+    b'2.
+    <g, es' b'>4. c'8 d4
+    es8. b16 g8. b16 es,8. g16
+    b,8. as'16 f4.-+ es8
+    es2.\fermata 
   }
 }

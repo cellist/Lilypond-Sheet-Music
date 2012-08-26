@@ -138,4 +138,45 @@ vb = \relative c {
     es f f,
     b4.
   }
+
+  \introc
+  \repeat volta 2 {
+    es2 b4
+    es r r
+    f b,2
+    es2.
+    es
+    f
+    a,
+    b
+    f'4 r r
+    f r r
+
+    b, r r
+    g' f f,
+    b2.
+  }
+  \repeat volta 2 {
+    g2 h4
+    c2.
+    as4 f'2
+    g2.
+    f4 es d
+    c g2
+    c4. b?8 c d
+    es2 b4
+    es2 r4
+
+    f b,2
+    es2.
+    g,
+    as
+    b
+    es
+    d4 c b
+    es2 b4
+    es2.
+    b
+    es,\fermata
+  }
 }
