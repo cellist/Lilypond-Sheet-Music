@@ -177,4 +177,73 @@ va = \relative c' {
     b,8. as'16 f4.-+ es8
     es2.\fermata 
   }
+
+  \introd
+  \repeat volta 2 {
+    f4 b
+    b a8 b
+    c16 b a g f es d c
+    d8 c b4 \clef "tenor"
+    d'8 f4 d8
+    c f4 c8
+    b16 c d es f8 b,
+    a g f4
+    c'16 d c d c a b c
+    d es d es d b c d
+
+    e f e f e c d e
+    f8 e16 d c8 b
+    a16 f a b c( b) c8
+    r16 e, g b c( b) c8
+    r16 f, a b c( b) c8
+    r16 e, g b c( b) c8
+    r f e( d)
+    c d c b
+
+    a f' e d
+    c d c b
+    a g16 f g4-+
+    f2    
+  }
+  \repeat volta 2 {
+    c'4 f
+    f e8 f
+    g16 f e d c b a g
+    a8 g f4
+    d'8 f16 e f8 g
+
+    e16-+ d e8~ e f
+    d16 cis d8~ d e
+    \appoggiatura d cis4-+ r8 e
+    f16 d e8 f16 d e8
+    g f4 e8
+    f16 e d8 e cis-+
+    d4 r \clef "bass"
+    f, b
+
+    b a8 b
+    c16 b a g f es? d c
+    d8 c b4 \clef "tenor"
+    b'16 c d es f d c b
+    a b c d es c b a
+    g a b c d b a g
+    a f a b c b c8
+
+    r16 f, b c d c d8
+    r16 f, a b c b c8
+    r16 f, b c d c d8
+    r f es d
+    c d c b
+    a f' es d
+    c d c b
+    a16 f a8 c16 a c8
+
+    es4~ es16 c d es
+    d b c d c a b c
+    b8 \clef "bass" f b, \clef "tenor" b'
+    a16 g a8 c16 a c8
+    es4~ es16 c d es
+    d b c d c a b c
+    b2\fermata    
+  }
 }

@@ -179,4 +179,73 @@ vb = \relative c {
     b
     es,\fermata
   }
+
+  \introd
+  \repeat volta 2 {
+    b'8 c-- d es
+    f4. b,8
+    a2
+    b8 c-- d b
+    b'4 b,
+    a' a,
+    g' g,
+    f' f,
+    f' r
+    b, r
+
+    c r
+    f e
+    f f
+    e e
+    f f
+    e e
+    f8 d' c b
+    a b a g
+
+    f d' c b
+    a b-- a g
+    f4 c
+    f,2
+  }
+  \repeat volta 2 {
+    f'8 g-- a b
+    c4 f,
+    e2
+    f8 g-- a f
+    d'4 d
+
+    cis c
+    h b
+    a8 h-- cis a
+    d, cis d cis
+    e d a' a,
+    d f g a
+    d, es?-- d c
+    b? c-- d es
+
+    f4. b,8
+    a2
+    b8 c-- d b
+    d4 d
+    c c
+    b e
+    f f
+
+    f f
+    f f
+    f f
+    f8 d' c b
+    a b a g
+    f d' c b
+    a b a g
+    f4 f
+
+    f f
+    b, f'
+    b, r
+    f' f
+    f f
+    b, f'
+    b,2\fermata
+  }
 }
