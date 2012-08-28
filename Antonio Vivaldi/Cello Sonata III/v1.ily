@@ -110,5 +110,49 @@ va = \relative c' {
     c8 h16 a h8 gis \clef "bass" a, a' c h16 a
     e,8 h'' d c16 h c8 a a, a'
     d,, a'' e, gis' a,2\fermata 
+  } \clef "tenor"
+
+  \introc
+  \repeat volta 2 {
+    \times 2/3 { a'8( h c) } c4( h8) a
+    e' dis e4 r
+    \times 2/3 { e,8( f g) } g4 f8 e
+    a8. gis16 a4 r
+    \times 2/3 { a8( h c) } c4 d8 e
+    gis,4. fis8 e4
+    \times 2/3 { c'8( d e) } e4( d8) c
+    g'?8. fis16 g4 r
+    \times 2/3 { c,8( d e) } e4( d8) c
+
+    h4. a8 g4
+    g16( a) h8 h16( c) d8 d16( e) f?8
+    e4~ e16 c( d e) d h( a g)
+    e'4~ e16 c( d e) d h( a g)
+    f'8 d h4. c8
+    c2.
+  }
+  \repeat volta 2 {
+    \times 2/3 { a8( h cis) } cis4( h8) a
+    g'8. fis16 g4 r
+    a,16( h) cis8 cis16( d) e8 e16( f?) g8
+
+    f4. e8 d4
+    \times 2/3 { g,8( a h) } h4( a8) g
+    \times 2/3 { c( d e) } e4( d8) cis
+    \times 2/3 { e( f g) } g4( f8) e
+    f e16 d cis4. d8
+    d2 r4
+    \times 2/3 { a8( e' d) c?( h a) e'( c a) }
+    e'8. dis16 e4 r
+    \times 2/3 { a,8( e' d?) c( h a) e'( c a) }
+
+    gis4. fis8 e4
+    e gis h
+    d~ d8 e16 d e( d c h)
+    c4~ c8 d16 c d c h a
+    f'?4 gis,4. a8
+    d,4. f'16( e f d c h)
+    c8 a h4.-+ a8
+    a2.\fermata
   }
 }

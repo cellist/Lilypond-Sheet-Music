@@ -112,4 +112,48 @@ vb = \relative c' {
     e r r8 a' a, a'
     d,,4 e a2\fermata
   }
+
+  \introc
+  \repeat volta 2 {
+    a2.
+    gis
+    g?
+    fis
+    f?
+    e
+    c''
+    h
+    a
+
+    g~
+    g
+    c,4 c' g
+    c, c' g
+    a8 f g4 g,
+    c2.
+  }
+  \repeat volta 2 {
+    cis
+    a
+    cis
+
+    d
+    e
+    a,
+    cis
+    d8 g a4 a,
+    d8 f d h a gis
+    a2.
+    gis
+    a
+
+    e'
+    e
+    e4 gis e
+    a a, r
+    d e2
+    gis2.
+    a4 e e,
+    a2.\fermata
+  }
 }
