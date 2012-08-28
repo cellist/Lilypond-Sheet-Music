@@ -48,5 +48,67 @@ va = \relative c' {
     d,4. d'8 c h
     c a h4. a8
     a2.\fermata
+  } \clef "bass"
+
+  \introb
+  \repeat volta 2 {
+    \partial 8 a8
+    a, a' c h16 a h8 e, e, h''
+    e,, h'' d c16 h c8 a a, a'
+    c16( h) a8 c16( h) a8 e' gis, e h'
+    c16( h) a8 c16( h) a8 e4 r8 e'
+    cis g? a, cis' d f,, d d''
+    h f g, h' h e,, c a''
+    c16( h) a8 c16( h) a8 gis16( fis) e8 gis16( fis) e8
+
+    c'16( h) a8 c16( h) a8 gis16( fis) e8 gis16( fis) e8
+    f?16( e) d8 f16( e) d8 c e a c
+    h a16 gis a8 d c4 h-+
+    a r8 a a, a' c h16 a
+    h8 e, e, h'' e,, h'' d c16 h
+    c8 a a, a' g16( h) d8 f,16( h) d8
+
+    e, c'4 a8 g16( h) d8 f,16( h) d8
+    e,4 r8 \clef "tenor" g a16 c( h a) g8 f
+    h16 d( c h) a8 g c16 e( d c) h8 a
+    d16 f( e d) c8 h e16 g f e d8 c
+    f,4. d'8 e d16 c d8 c16 h
+    e8-+ d16 c d8 c16 h \appoggiatura h8 c4.
+  }
+  \repeat volta 2 {
+    \partial 8 c8
+    c, c' e d16 c d8 \clef "bass" d, g, d''
+    g,, \clef "tenor" d'' f16 e d8 e c c, c'
+    e16( d) c8 g'16( f) e8 d g, r g
+    c e( c b) a c( b a)
+    d f( d c) h? d( c h)
+    e g( e d) c e( d c)
+    f a f e e dis r h
+    c16 h8 a16 dis cis8 h16 e dis8 cis16 fis e8 dis16
+    g (e dis e) g (e dis e) h (e dis e) g (e dis e)
+    a,4~ a16 c?( h a) dis4 dis16 fis e dis
+    fis4~ fis16 a g fis g8 fis16 e fis8 dis
+
+    e4 r8 \clef "bass" a, a, a' c h16 a
+    h8 e, e, h'' e,, h'' d? c16 h
+    c8 a a, a' c16( h) a8 c16( h) a8
+    e'8 gis, e h' c16( h) a8 e'16( d) c8
+    h4 \clef "tenor" r8 h c e16( d) c( h) a( g)
+    f8 a d f h, d16( c) h( a) g( f)
+
+    e8( g c e) a, c16( h) a( g) f( e)
+    d8 f h d gis, e r h'
+    c16 e gis,4 a8 c16 e gis,4 a8
+    d c16( d) e( d) c( h) c8 h16( c) d( c) h( a)
+    e8 gis h d c h16 a h8 a16 gis
+    a8 f e d h' gis fis e
+    c' a gis fis d' h a gis
+
+    e' c h a d16 cis d8 d16 cis d8
+    f8 d cis d d16 cis d8 d16 cis d8
+    e,16 gis fis a? gis h a c? h d c e d f e d
+    c8 h16 a h8 gis \clef "bass" a, a' c h16 a
+    e,8 h'' d c16 h c8 a a, a'
+    d,, a'' e, gis' a,2\fermata 
   }
 }
