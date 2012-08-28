@@ -156,4 +156,96 @@ vb = \relative c' {
     a4 e e,
     a2.\fermata
   }
+
+  \introd
+  \repeat volta 2 {
+    a4 a'
+    gis8 e c a
+    e' a h e,
+    a e c h
+    a4 a'
+    gis8 e c a
+    c4 d
+    e8 fis gis e
+    c4 c'
+    h h,
+    c c'
+    h h,
+
+    g g'
+    c c,
+    h' h,
+    c' c,
+    h' h,
+    c8 d es d
+    c d es c
+    g'4 r
+    c,8 d es d
+    c d es c
+    g'4 r8 d
+
+    h4 h
+    h h
+    h h
+    c8 es f g
+    c,4 h
+    c h
+    c8 e? f g
+    c,2
+  }
+  \repeat volta 2 {
+    c4 c'
+    h8 g e c
+    h c d g,
+    c g' e d
+
+    c4 c'
+    h8 g e d
+    c4 c'
+    g8 a b c,
+    d4 d'
+    cis8 a f d
+    cis d e a,
+    d a' f e
+    d4 d'
+    cis8 a f e
+    d4 g,8 gis
+    a h cis a
+
+    fis' e fis d
+    g4 h,
+    c8 c' gis e
+    a4 cis,
+    d gis
+    a r8 a,
+    d4 a
+    d8 e f? gis,
+    a4 a'
+    gis8 e c? a
+    gis a h e,
+
+    a e' c h
+    a4 a
+    a a
+    d r
+    d d
+    d d
+    e r
+    a, a'
+    gis e
+
+    a, a'
+    e gis~
+    gis gis
+    gis gis
+    gis gis
+    a8 c,d e
+    a,4 r
+    e' gis
+    gis gis
+    gis gis
+    gis gis
+    a8 a d, e
+    a,2
+  }
 }
