@@ -143,9 +143,140 @@ va = \relative c' {
     a4-. b-. a-. b-.
 
     a8-. e-. f-. g-. a-. g-. a-. b-.
-    c4-. c-. b-. f-.
+    c4-. c-. b-. f-. \clef "bass"
     d-. b-. g-. <c, g' e'>-.\upbow
     <c a' f'>-.\downbow r <c a' f'>-.\downbow r
     <c a' f'>2-.\downbow r
   }
+
+  \introb
+  \repeat volta 2 { \clef "tenor"
+    \partial 4 c'4-.\upbow\p
+    f( e f)
+    g2( a4)
+    f( e f)
+    g2 c,4
+    f( e d)
+    c( b a)
+
+    << { g( b a) } \\ c,2. >>
+    <c g'>4 r c'-.\upbow
+    f( e f)
+    g2( a4)
+    f( e f)
+    g2 c,4-.\f
+    f( e d)
+    c( e f)
+
+    g2( e4)
+    f2
+  }
+  \repeat volta 2 {
+    \partial 4 a4-.\upbow\p
+    d( e d)
+    cis2( a4)
+    c?( d c)
+    h2( g4)
+    b?( c b)
+
+    a2( g4)
+    f( e d)
+    cis2( c4)
+    f( e f)
+    g2( a4)
+    f( e f)
+    g2 c,4-.\f
+    f( e d)
+
+    c( e f)
+    g2( e4)
+    f2
+  } \mark \markup \box "C"
+  \partial 4 a,4(\p
+  d)-. r a(
+  e')-. r a,(
+  g')-. r a,(
+  f')-. r a,(
+  e')-. r cis(\<
+
+  d g, gis)\!
+  a-. cis-.\f cis-.
+  c?2 a4(\p
+  d)-. r a(
+  e')-. r a,(
+  fis')-. r g,(
+  g')-. r g,(
+  cis,2.)
+
+  d4(\< g a)\!
+  d,-. <f a>-.\f <f a>-.
+  <f a>-. r r
+  r d''2\p\downbow
+  r4 cis2
+  r4 b2
+  r4 a2
+  r4 g( e)
+
+  f(\< e d)\!
+  cis-. a-.\f a-.
+  a-. r r
+  r d'2\p\downbow
+  r4 cis2
+  r4 c2
+  r4 b2
+  r4 a( g)
+
+  e(\< d cis)\! \mark \markup \box "D"
+  d-. a-.\f f-.
+  d-. r r
+  r fis'2\downbow
+  r4 g2\>
+  r4 e2\!
+  r4 r c?-.\p\upbow
+  f( e f)
+
+  g2( a4)
+  f( e f)
+  g2 c,4-.
+  f( e d)
+  c( b a)
+  << { g( b a) } \\ c,2. >>
+  <c g'>4 r c'-.\upbow
+  f( e f)
+
+  g2( a4)
+  f( e f)
+  g2 c,4-.\f
+  f( e d)
+  c( e f)
+  g2( e4)
+  f-. r a-.\p
+  d( e d)
+
+  cis2( a4)
+  c?( d c)
+  h2( g4)
+  b?( c b)
+  a2( g4)
+  f( e d)
+  cis2( c4)
+  f( e f)
+
+  g2( a4)
+  f( e f)
+  e2 c4-.\f
+  f( e d)
+  c( e f)
+  g2( e4)
+  f8( g a b c d)
+  c2( b4)
+
+  a-. g-. e-.
+  f8( g a b c d)
+  c2( b4)
+  a-. g-. e-.
+  f-. r \clef "bass" <c, g' e'>\downbow
+  <c a' f'>\downbow r <c g' e'>\downbow
+  <c a' f'>\downbow <a' f'>-. <a f'>-.
+  <a f'>2 \bar "|."
 }

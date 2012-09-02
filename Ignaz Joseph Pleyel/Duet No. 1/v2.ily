@@ -149,4 +149,131 @@ vb = \relative c {
     <f a>-.\downbow r <f a>-.\downbow r
     <f a>2\downbow r
   }
+
+  \introb
+  \repeat volta 2 {
+    \partial 4 r4
+    << { a4(\downbow g a) } \\ c,2.\p >>
+    << { b'4( g c) } \\ c,2. >>
+    << { a'4( g f) } \\ c2. >>
+    e4( c) b'-.
+    a( c b)
+    a( g f)
+    e( g f)
+
+    e-. c-. r
+    << { a'4(\downbow g a) } \\ c,2. >>
+    << { b'4( g c) } \\ c,2. >>
+    << { a'4( g f) } \\ c2. >>
+    e4( c) b'-.\f
+    a( c b)
+    a( g a)
+    b( g c)
+    a f
+  }
+  \repeat volta 2 {
+    \partial 4 r
+    r r d'-.\p\upbow
+    g( a g)
+    fis2( d4)
+    f?( g f)
+    e2( c4)
+    f( c cis)
+    d( g, gis)
+    a( a') r
+    << { a,4(\downbow g a) } \\ c,2. >>
+    << { b'4( g c) } \\ c,2. >>
+    << { a'4( g f) } \\ c2. >>
+    e4( c) b'-.\f
+    a( c b)
+    a( g a)
+    b( g c)
+    a-. f-.
+  } \mark \markup \box "C"
+  \partial 4 r
+  r d''2\downbow
+  r4 cis2
+
+  r4 b2
+  r4 a2
+  r4 g-. e(\<
+  f e d)\!
+  cis <a e'> <a e'>
+  <a e'>2 r4
+  r d'2\p
+  r4 cis2
+  r4 c?2
+  r4 b2
+  r4 a( g)
+
+  f(\< e cis)\!
+  d-. <d, d'>-.\f <d d'>-.
+  <d d'>-. r a'(\p
+  d)-. r a(
+  e')-. r a,(
+  g')-. r a,(
+  f')-. r a,(
+  e')-. r cis(
+  d\< g, gis\!
+
+  a)-. <e cis'>-.\f <e cis'>-.
+  <e cis'>-. r a(\p
+  d)-. r a(
+  e')-. r a,(
+  fis')-. r g,(
+  g')-. r g,(
+  cis,2.)
+  d4(\< g a)\! \mark \markup \box "D"
+  d,-. <f a>-.\f <f a>-.
+
+  <f a>-. r d(
+  c')-. r d,(
+  b')-. r c,(\>
+  b')-. r c,(\!
+  b'2.)
+  << { a4( g a) } \\ c,2.\p >>
+  << { b'4( g c) } \\ c,2. >>
+  << { a'4( g f) } \\ c2. >>
+  e4( c) b'-.
+  a( c b)
+
+  a( g f)
+  e( g f)
+  e-. c-. r
+  << { a'4(\downbow g a) } \\ c,2. >>
+  << { b'4( g c) } \\ c,2. >>
+  << { a'4( g f) } \\ c2. >>
+  e4( c) b'-.\f
+  a( c b)
+  a( g a)
+
+  b( g c)
+  a-. f-. r
+  r r d'-.\p\upbow
+  g( a g)
+  fis2( d4)
+  f?( g f)
+  e2( c4)
+  f( c cis)
+  d( g, gis)
+  a( a') r
+
+  << { a,( g? a) } \\ c,2. >>
+  << { b'4( g c) } \\ c,2. >>
+  << { a'4( g f) } \\ c2. >>
+  e4( c) b'-.\f
+  a( c b)
+  a( g a)
+  b( g c)
+  f,2 r4
+  e8( f g a b c)
+
+  d4-. b-. c-.
+  f,2 r4
+  e8(\downbow f g a b c)
+  d4-. b-. c-.
+  f,-. a-. c-.
+  f,-. a-. c-.
+  f,-. <f a>-. <f a>-.
+  <f a>2 \bar "|."
 }
