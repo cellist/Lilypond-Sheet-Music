@@ -146,4 +146,118 @@ va = \relative c' {
     <c c'>4 r <g' d' h'>-.\f\downbow r
     <c, g' e' c'>2-.\downbow r
   }
+
+  \introb
+  \repeat volta 2 {
+    \partial 4 e'8-.\p\downbow f-.
+    g-. e-. c'-. a-.
+    g4 e8-. f-.
+    g-. e-. d-. e-.
+    c4 e8-. f-.
+    g-. e-. c'-. a-.
+    g4 c8-. e-.
+    d-. c-. h-. a-.
+    g4-.
+  }
+  \repeat volta 2 {
+    \partial 4 g8-. h-.
+    c( e) c-. h-.
+    a4 a8-. g-.
+    f( d') e,(-. c')-.
+    d,4-. e8-. f-.
+    g-. e-. c'-. a-.
+    g4 c8-. e-.
+    a,-. d-. c-. h-.
+    c4-.
+  } \key es \major
+
+  \partial 4 r
+  r g(\sfz
+  es8)\f d-. c-. es-.
+  g-. g,-. g'4(\sfz
+  es8) d-. c-. e-.
+  f r f4(\sfz\downbow
+  d8) c-. b-. d-.
+  es?-. g,-. as-. b-.
+  es,4 r
+
+  b''(_\pdol\downbow es
+  c as)
+  f( b
+  g es)
+  b'8( c d es)
+  c( b as g)
+  f( g as b)
+  g4 r
+  r b(\sfz
+
+  as8)\p g-. f-. as-.
+  c r c4(\sfz\downbow
+  h8) a-. g-. h-.
+  c-. d-. es-. c-.
+  h-. a-. g-. h-.
+  c-. d-. es-. d-.
+  c4 d8-. c-.
+
+  h4-. <g, g'>-.\f
+  <g g'>-. <g g'>-.
+  <h fis'>2^\uprt
+  <h fis'>4-. <h fis'>-.
+  <g f'?>2(\>\fermata
+  <g f'>8)\! r\fermata \bar "||" \key c \major
+  \partial 4 e'-.\p\downbow^\atem f-.
+  g-. e-. c'-. a-.
+  g4 e8-. f-.
+  g-. e-. d-. e-.
+
+  c4 e8-. f-.
+  g-. e-. c'-. a-.
+  g4 c8-. e-.
+  d-. c-. h-. a-.
+  g-. r g-. h-.
+  c( e) c-. h-.
+  a-. r a g
+
+  f( d') e,-. c'-.
+  d,-. r e-. f-.
+  g-. e-. c'-. a-.
+  g4 c8-. e-.
+  a,-. d-. c-. h-.
+  c4 r
+  g(\downbow_\dolc c
+  a f)
+
+  d8( e f g
+  e4 c)
+  g'8( e' d c)
+  h( a g f)
+  e( d g f)
+  e4 r
+  r g(\sfz\downbow
+  f8) e-. d-. e-.
+
+  a-. r a4(\sfz\downbow
+  gis8) fis-. e-. gis-.
+  a-. h-. c-. a-.
+  f?-. e-. d-. fis-.
+  g?-. a-. g-. f?-.
+  e-.\cresc c'-. f,-. d'-.
+
+  e,-. c'-. f,-. d'-.
+  e,-.\fp e'-. d4(
+  c h)
+  a(\cresc g
+  fis f)
+  e8-. c'-. d,-. h'-.
+  c\fp c4 h8~
+  h a4 g8~
+
+  g f4( e8)
+  d-.\cresc a-. h-. g-.
+  c-. a-. f-. g-.
+  c,-.\f e-. g-. h-.
+  c-. e-. g-. h-.
+  c4-. r
+  <e, c'>-.\ff\downbow <e c'>\upbow
+  <e c'>-.\downbow \bar "|."
 }

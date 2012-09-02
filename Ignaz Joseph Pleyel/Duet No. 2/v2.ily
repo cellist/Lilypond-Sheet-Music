@@ -151,4 +151,119 @@ vb = \relative c' {
     e-. r <g f'>\f\downbow r
     <c, g' e'>2\downbow r
   }
+
+  \introb
+  \repeat volta 2 {
+    \partial 4 c'8-.\p\downbow d-.
+    e-. c-. a-. f-.
+    e-. c-. c'-. d-.
+    e-. c-. f,-. g-.
+    e-. c-. c'-. d-.
+    e-. c-. a-. f-.
+    e-. c-. e'-. c-.
+
+    h-. c-. d-. d,-.
+    g-. g'-.
+  }
+  \repeat volta 2 {
+    \partial 4 r4
+    r c,8-.\downbow e-.
+    f( a) f-. e-.
+    d( h) c-. fis,-.
+    g-. g'-. c,-. d-.
+    e-. c-. a-. f-.
+
+    e-. c-. e'-. c-.
+    f-. d-. g-. g,-.
+    c-. c,-.
+  } \key es \major
+  \partial 4 c'4(\sfz
+  h8)\f a-. g-. h-.
+  c-. c,-. c'4(\sfz
+  h8) a-. g-. h-.
+  c-. r c'4(\sfz\downbow
+
+  as?8) g-. f-. a-.
+  b?-. r b4(\sfz
+  g8) es-. f-. d-.
+  <es, g>-.\fp <es g>-. <es g>-. <es g>-.
+  <es g>-. <es g>-. <es g>-. <es g>-.
+  <es as>-. <es as>-. <es as>-. <es as>-.
+  <d b'>-. <d b'>-. <d b'>-. <d b'>-.
+
+  <es b'>-. <es b'>-. <es b'>-. <es b'>-.
+  <es g>-. <es g>-. <es g>-. <es g>-.
+  <es as>-. <es as>-. <es as>-. <es as>-.
+  <d b'>-. <d b'>-. <d b'>-. <d b'>-.
+  <es b'>4-. es'(\sfz\downbow
+  d8) c-.\p b-. d-.
+  f-. r f4(\sfz\downbow
+  es8) d-. c-. es-.
+
+  g4. f8-.
+  es-. d-. c-. es-.
+  g4. f8-.
+  es-. d-. c-. b-.
+  as?4( fis')-.
+  g-. <h, d>-.\f
+  <h d>-. <h d>-.
+  <c es>2-.^\uprt
+  <c es>4-. <c es>-.
+  <h d>2~\>\fermata
+  <h d>8\! r \bar "||" \key c \major
+
+  \partial 4 c-.\p\downbow^\atem d-.
+  e-. c-. a-. f-.
+  e-. c-. c'-. d-.
+  e-. c-. f,-. g-.
+  e-. c-. c'-. d-.
+  e-. c-. a-. f-.
+  e-. c-. e'-. c-.
+  h-. c-. d-. d,-.
+
+  g-. g'-. r4
+  r c,8-. e-.
+  f( a) f-. e-.
+  d( h) c-. fis,-.
+  g-. g'-. c,-. d-.
+  e-. c-. a-. f-.
+  e-. c-. e'-. c-.
+  f-. d-. g-. g,-.
+
+  c,-. <e g>-. <e g>-. <e g>-.
+  <e g>-. <e g>-. <e g>-. <e g>-.
+  <f a>-. <f a>-. <f a>-. <f a>-.
+  <g h>-. <g h>-. <g h>-. <g h>-.
+  <c, c'>-. <c c'>-. <c c'>-. <c c'>-.
+  <e g>-. <e g>-. <e g>-. <e g>-.
+  <f a>-. <f a>-. <f a>-. <f a>-.
+
+  <g h>-. <g h>-. <g h>-. <g h>-.
+  <c, c'>-. r c'4(\sfz\downbow
+  h8) a-. g-. h-.
+  d r d4(\sfz\downbow
+  c8) h-. a-. c-.
+  e4. d8
+  c-. h-. a-. cis-.
+  d4. c?8-.
+  h-. g-. a-. h-.
+
+  c-.\cresc g-. h-. g-.
+  c-. g-. h-. g-.
+  c \clef "tenor" c'4\fp h8~
+  h a4 g8~
+  g\cresc f4( e8)
+  d-. a-. h-. g-.
+  c-. a-. f-. g-.
+
+  c,-. e''-.\fp d4(
+  c h)
+  a(\cresc g
+  fis f)
+  e8-. c'-. d,-. h'-.
+  c-.\f r \clef "bass" g-. f-.
+  e r g,-. <f g>-.
+  <e g>4-. r
+  <c g'>\ff\downbow <c g'>-.\upbow
+  <c g'>-.\downbow \bar "|."
 }
