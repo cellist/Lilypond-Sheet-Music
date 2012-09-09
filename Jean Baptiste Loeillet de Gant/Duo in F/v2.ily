@@ -92,4 +92,43 @@ vb = \relative c {
     c b a e' f b16 a g4
     f8 f e8. f16f4 r8
   }
+
+  \introc
+  \partial 1. r1.
+  d'2-2 d d
+  cis a cis
+  d d, d
+  cis c c
+  h b b
+  a1 a'2
+  g1.~
+
+  g2 a4 g f e
+  f d cis2.( d4)
+  d2 d d
+  cis a cis
+  d1 r2\fermata
+  e2 c? e
+  f1 e2
+  d1 d2
+  e f g,
+
+  b1 b2~
+  b c4 d c b
+  a2 r r
+  g' e f(~
+  f4 g) e2.( f4)
+  f1 f2
+  e1 cis2
+  d1 d2
+  g,1 g'2~
+
+  g a4 b a g
+  fis1 fis2
+  g e d
+  cis1 a2
+  b b'4 a g f
+  e2. e4 f e
+  d2 cis2.( d4)
+  d1. \bar "|."
 }

@@ -92,4 +92,43 @@ va = \relative c' {
     e8 c f g a g16 f c8 e
     f16 g a b g8. f16 f4 r8
   }
+
+  \introc
+  \partial 1. a2 a a
+  f d r
+  a' a a
+  f d b'~
+  b a1~
+  a2 g1~
+  g2 f f
+  f g4 f e d
+
+  cis2 a a'(~
+  a4 b) e,2.( d4)
+  d1.
+  a'2 a4 b a g
+  f2 d r\fermata
+  c' c4 d c b
+  a2 f c'~
+  c b b~
+  b a1~
+
+  a2 g4 a g f
+  e2 c1
+  f2 g a
+  b2.( c4) a g
+  a b g2.( f4)
+  f2 a a
+  a g g
+  g f f
+  f g4 f e d
+
+  cis2 a r
+  a' a4 b c a
+  b2 g a4 b
+  e,2 a cis,
+  d g4 f e d
+  cis2 a d(~
+  d4 e) e2.( d4)
+  d1. \bar "|."
 }
