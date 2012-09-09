@@ -27,6 +27,7 @@ moral = \markup \italic "molto rall."
 introa = { \tempo "1. Largo " 4=50 \time 4/4 }
 introb = { \break \tempo "2. Allegro " 8=200 }
 introc = { \break \tempo "3. Largo " 2=60 \time 3/2 }
+introd = { \break \tempo "4. Allegro staccato " 8=200  \time 3/4 }
 
 \include "v1.ily"
 \include "v2.ily"

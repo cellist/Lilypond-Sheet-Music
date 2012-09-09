@@ -131,4 +131,70 @@ va = \relative c' {
   cis2 a d(~
   d4 e) e2.( d4)
   d1. \bar "|."
+
+  \introd
+  \repeat volta 2 {
+    \partial 8 f8
+    f c f a g c
+    a f c a' g c
+    a f c a' g c
+    a f g a f g
+    e g e g c, e
+    f c f a f c
+
+    f c a c a c
+    d b d f g d
+    e g e g c, e
+    f c' a c f, a
+    d, d' b d g, b
+    e,4. g8 c[ g]
+
+    a f c f g e
+    f4 r8 a f[ d]
+    e g e g d g
+    e g e g d g
+    e g c e, d h'
+    c,2 r8
+  }
+  \repeat volta 2 {
+    \partial 8 g'
+
+    g f e g d g
+    e g e g c, c'
+    c b? a c g c
+    a c a c f, a
+    b d b g e g
+    cis, e cis e a, a'
+
+    f a f a e a
+    f a e a d, a'
+    cis, a' f a e a
+    f a e a d, a'
+    cis,4 r8 a'\downbow f[ e]
+    f g e4. d8
+
+    d4 r8 d\upbow c?[ b]
+    a f a c f c
+    d b d f g d
+    e c e g a e
+    f d f a b f
+    g e g b c g
+    a f a c g c
+
+    a c a c g c
+    a c g c f, c'
+    e, c' a c g c
+    a c g c f, c'
+    e,4 r8 g\upbow c[ g]
+    a f c f g e
+    f4 r8 c'\upbow g[ c]
+
+    a c a c g c
+    a c g c f, c'
+    e, c' a c g c
+    a c g c f, c'
+    e,4 r8 g\downbow c[ g]
+    a d g,4. f8
+    f2 r8
+  }
 }

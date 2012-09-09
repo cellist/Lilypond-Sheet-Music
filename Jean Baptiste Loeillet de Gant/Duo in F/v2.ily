@@ -131,4 +131,69 @@ vb = \relative c {
   e2. e4 f e
   d2 cis2.( d4)
   d1. \bar "|."
+
+  \introd
+  \repeat volta 2 {
+    \partial 8 r8
+    f,4 f' e
+    r8 f a[ f] e c
+    r f a[ f] e c
+    f4 e d
+    r8 e g[ e] e c
+    a'4 a, a'
+
+    r8 a c[ a] f a
+    b,4 b' g
+    c, c' b
+    a f r
+    b g r
+    c,8 g' c4 e,
+    f8 b, c4 c
+    f f, r
+    c' c h
+    c c h
+    c8 e c g' f d
+    e2 r8
+  }
+  \repeat volta 2 {
+    \partial 8 r
+
+    c4 c h
+    c c' b?
+    a8 g f4 e
+    f f, r
+    g'8 b g e c e
+    a, cis e cis a cis
+
+    d4 d cis
+    d c? b
+    a d cis
+    d c? b
+    a8 e' cis4. cis8
+    d e cis4. d8
+
+    d4 d e
+    f4. f8 a[ f]
+    b4 b, r
+    c'? c, r
+    r d' d,
+    r e e
+    f f e
+
+    f f, e'
+    f e d
+    c f e
+    f e d
+    c8 g' c4 e,
+    f8 a g f e g
+    f4 f, e'
+
+    f f e
+    f e d
+    c f e
+    f e d
+    c8 g' c4 e,
+    f e4. f8
+    f2 r8
+  }
 }
