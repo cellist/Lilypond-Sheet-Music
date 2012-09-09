@@ -29,4 +29,67 @@ vb = \relative c {
   f8. f16 g8. g16 a4 r8 c,\downbow
   d16 e f g e8.\trill f16 f4 a,\upbow
   b8 c16 d g,8.\trill f16 f2 \bar "|."
+
+  \introb
+  \repeat volta 2 {
+    \partial 8 r8
+    r4 r8 c'\upbow f g a e
+    f f, r c'\upbow f g a f
+    b b, r b' a f r a
+
+    g b16 a g8 e f f16 g a8 f
+    b a b a g f e f
+    b a b a g f e f
+    c4 d e8 c'16 b a8 e
+
+    f16( e) d c h8. c16 c8 c'16 d c8 h!
+    a4 r8 a, b? b'16 c b8 a
+    g4 r8 h, c c'16 d c8 b!
+    a4. a8 b4. b8
+
+    g c16 b a8 f d b' g4
+    f8 f16 g a8 e f e f d
+    e d e f e16 d c d h8. c16
+    c8 c16 d e8 d c4 r8
+  }
+  \repeat volta 2 {
+    \partial 8 r
+
+    r4 r8 g c d e h
+    c4 r8 g c d e c
+    f f, r f' e c r c
+    d f16 e d8 h c c16 d e8 c
+
+    f e f e d c h c
+    f e f e d c h c
+    g4 a h8 g'16 f e8 h'!
+
+    c16 h a g fis8. g16 g8 g16 a g8 f
+    e4 r8 c f, f'16 g a8 g
+    f4 r8 d g, g'16 a h8 a
+    g4 r8 e a, a'16 b? a8 g
+
+    f4 r8 a, d cis d e
+    f e f cis d e f g
+    f e16 d cis8. d16 d8 d16 e d8 c
+    h4. h8 c4. d8
+
+    e4. e8 f f, r f'
+    e c16 d e g f e d4 r8 h
+    c c'16 d c8 b? a4 r8 a,
+
+    b b'16 c b8 a g4 r8 h,
+    c c'16 d c8 b a4 r8 f
+    e16 d e f e g f e f8 b16 a g4
+    f8 f16 g a8 f b a b a
+
+    g f e f b a b a
+    g f e f c b a e'
+    f g16 a g4 f8 f16 g a8 f
+    b a b a g f e f
+
+    b a b a g f e d
+    c b a e' f b16 a g4
+    f8 f e8. f16f4 r8
+  }
 }
