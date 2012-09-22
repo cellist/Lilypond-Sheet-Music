@@ -36,10 +36,10 @@ vb = \relative c' {
     a' a,8. c?16 h8. a16
     e'4 e, r
     c'2.
-    d~
+    d
     d
 
-    e~
+    e
     e
     a,
     f'4 e d
@@ -152,8 +152,8 @@ vb = \relative c' {
     e4 gis e
     a a, r
     d e2
-    gis2.
-    a4 e e,
+    gis,2.
+    a4 e' e,
     a2.\fermata
   }
 
@@ -213,7 +213,7 @@ vb = \relative c' {
     a h cis a
 
     fis' e fis d
-    g4 h,
+    g4 b,
     c8 c' gis e
     a4 cis,
     d gis
@@ -235,7 +235,7 @@ vb = \relative c' {
     gis e
 
     a, a'
-    e gis~
+    e gis
     gis gis
     gis gis
     gis gis

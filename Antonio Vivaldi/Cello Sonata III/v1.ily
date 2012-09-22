@@ -25,9 +25,9 @@ va = \relative c' {
     c4 e?8. d16 c4
     h4. a8 g4
     d' f8. e16 d4
-    cis h4. a8
+    cis4. h8 a4
 
-    f'4( d) a
+    f'( d) a
     b4. a8 g4
     g'( e) d
     cis4. a8 d g
@@ -102,7 +102,7 @@ va = \relative c' {
     d c16( d) e( d) c( h) c8 h16( c) d( c) h( a)
     e8 gis h d c h16 a h8 a16 gis
     a8 f e d h' gis fis e
-    c' a gis fis d' h a gis
+    c' a g? fis d' h a gis
 
     e' c h a d16 cis d8 d16 cis d8
     f8 d cis d d16 cis d8 d16 cis d8
@@ -114,8 +114,9 @@ va = \relative c' {
 
   \introc
   \repeat volta 2 {
+    \set tupletSpannerDuration = #(ly:make-moment 1 4)
     \times 2/3 { a'8( h c) } c4( h8) a
-    e' dis e4 r
+    e'8. dis16 e4 r
     \times 2/3 { e,8( f g) } g4 f8 e
     a8. gis16 a4 r
     \times 2/3 { a8( h c) } c4 d8 e
@@ -228,7 +229,7 @@ va = \relative c' {
     c16 h a8~ a16 g? f e
     f8 a16 g f e d8
     h'16 d f8~ f16 e d8~
-    d16 c h8 h16 a gis fis
+    d16 c h8~ h16 a gis fis
     gis8 h16 a gis fis e8
     c'16 d e8~ e16 c h a
     h c d8~ d16 h a gis
@@ -236,13 +237,13 @@ va = \relative c' {
     c d e8~ e16 c h a
     gis8 h4 e,8~
     e d'4 h8~
-    h f'4 d8
+    h f'4 d8~
     d c16 d e d c h
     c8 h16 a h8 a16 gis
     a8 e'16 d c8 h16 a
-    gis a h4 e,8
+    gis a h4 e,8~
     e16 h' d4 h8~
-    h16 d f4 d8
+    h16 d f4 d8~
     d c16 d e d c h
     c8 \clef "bass" a d, e
     a,2
