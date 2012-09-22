@@ -8,8 +8,8 @@ vb = \relative c {
     b a2 g4~
 
     g f~ f e
-    f8 f a-- f b, f' a-- f
-    b, f' a-- f g f g c,
+    f8 f a f b, f' a f
+    b, f' a f g f g c,
     f f, c' c, f2
   }
 
@@ -20,7 +20,7 @@ vb = \relative c {
     f8 g h,[ g] c f g g,
 
     c c' fis,[ d] g8. b,16 c8 cis
-    d e fis d g a b c!
+    d e fis d g a b c
     d g, d[ d,] g d' c a
     b4. a8 g4 r8 g'
 
@@ -28,7 +28,7 @@ vb = \relative c {
     b4 d es8 f g f
     es4 e f8 f a f
 
-    b, f' a-- f b, f' a-- f
+    b, f' a f b, f' a f
     b b, f'[ f,] b2
   }
 
@@ -70,10 +70,10 @@ vb = \relative c {
     \partial 16 r16
     f'4.
 
-    fis8 a c--
+    fis8 a c
     fis,4.
     g4 r8
-    e g-- e
+    e g e
     a,4.
     d
     a
@@ -81,7 +81,7 @@ vb = \relative c {
     a,4.
     d
     g4 a8
-    f e-- d
+    f e d
 
     g4 a8
     d,4.
@@ -93,7 +93,7 @@ vb = \relative c {
     g4 r8
     g4 r8
     g4 r8
-    g h-- g
+    g h g
 
     c g' g,
     c g' g,
@@ -119,11 +119,11 @@ vb = \relative c {
     a4 r8
     b4 r8
     es f f,
-    b d-- f
-    b,4-- d8
-    e d-- c
-    f4-- es?8
-    d c-- b
+    b d f
+    b,4 d8
+    e d c
+    f4 es?8
+    d c b
     es4 d8
 
     c b a
@@ -141,18 +141,18 @@ vb = \relative c {
 
   \introc
   \repeat volta 2 {
-    es2 b4
+    es,2 b'4
     es r r
     f b,2
     es2.
-    es
+    es,
     f
-    a,
+    a
     b
     f'4 r r
-    f r r
+    f, r r
 
-    b, r r
+    b r r
     g' f f,
     b2.
   }
@@ -174,7 +174,7 @@ vb = \relative c {
     b
     es
     d4 c b
-    es2 b4
+    es,2 b'4
     es2.
     b
     es,\fermata
@@ -182,10 +182,10 @@ vb = \relative c {
 
   \introd
   \repeat volta 2 {
-    b'8 c-- d es
+    b'8 c d es
     f4. b,8
     a2
-    b8 c-- d b
+    b8 c d b
     b'4 b,
     a' a,
     g' g,
@@ -203,29 +203,29 @@ vb = \relative c {
     a b a g
 
     f d' c b
-    a b-- a g
+    a b a g
     f4 c
     f,2
   }
   \repeat volta 2 {
-    f'8 g-- a b
+    f'8 g a b
     c4 f,
     e2
-    f8 g-- a f
+    f8 g a f
     d'4 d
 
     cis c
     h b
-    a8 h-- cis a
+    a8 h cis a
     d, cis d cis
     e d a' a,
     d f g a
-    d, es?-- d c
-    b? c-- d es
+    d, es? d c
+    b? c d es
 
     f4. b,8
     a2
-    b8 c-- d b
+    b8 c d b
     d4 d
     c c
     b e

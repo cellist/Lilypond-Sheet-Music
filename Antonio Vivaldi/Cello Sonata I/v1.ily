@@ -6,6 +6,7 @@ va = \relative c' {
   \repeat volta 2 {
     b8 d16 c b8 f b16( a) b8 r b
     c d es[ d16 c] d c b8 r d
+    \set tupletSpannerDuration = #(ly:make-moment 1 8)
     \times 2/3 { c16([ d c)] e([ f e)] f([ es d)] c([ b a)]  b([ c b)] d([ es d)] es([ d c)]  b([ a g)] }
     \times 2/3 { a([ b a)] c([ d c)]  d([ c b)]  a([ g f)]  g([ a b)]  c([ d e)]  g([ f e!)]  d([ c b)] }
     b8-+ a r a b-+ a r c
@@ -17,14 +18,14 @@ va = \relative c' {
     c'8 d16 es! d8[ c] b g r g
     es' es es[ f16 g] \appoggiatura d8 cis d r a
     d d d[ es16 f] \appoggiatura c8 h c r g
-    \times 2/3 { as16([ g f]) h( as g)  d'([ c h])  f'( es d) } es![ c d as] h8.-+ c16
+    \times 2/3 { as16([ g f]) h( a g)  d'([ c h])  f'( es d) } e[ c d a] h8.-+ c16
 
     c4 r8 d16 c b8[ a16 g] \times 2/3 { es'16[( d c])  b( a g) }
     g8 fis r a b16.( g32) c16.( a32) d16.( b32) es16.( c32)
-    fis8 g16 g, a8.[ g16] g4 r8 fis
+    fis8 g16 g, a8.[ g16] g4 r8 f!
     b d16 c b8[ f] b16 a b8 r b
 
-    \times 2/3 { c16 es d c[ b a] f c' d es[ d c] } d c b8 r \times 2/3 { f16 f b }
+    \times 2/3 { c16 es d c[ b a] f c' d es[ d c] } d c b8 r16 f f b
     b( d) d( f) f( b,) b( as) as8 g r16 g g c
     c( es) es( g) g( c,) c( b) b8-+ a? r a
     b-+ a r c d c r es
@@ -73,20 +74,20 @@ va = \relative c' {
     es8 d16( c) b( a)
     b( d) c( b) a( g)
     cis4.~
-    cis16 e d cis b a
+    cis16 e d cis h a
     f'8( e) d
     cis( b) a
     g4.~
     g16 b a g f e
     f( d f a) d8
     es? d cis
-    \appoggiatura c? d4.
+    \appoggiatura cis d4.
 
     es8 d cis
-    \appoggiatura c? d4.
+    \appoggiatura cis d4.
     d16( es f4)
     h,16( c d4)
-    g,16 a b? c d es
+    g,16 a h c d es
     f8 es d
     es16 g f es d c \clef "bass"
     g,8 \clef "tenor" g''( f) \clef "bass"
@@ -127,7 +128,7 @@ va = \relative c' {
     es( d c)
     d16( b a b) d( b)
     d( b a b) d( b)
-    g'8 f16( es d c)
+    g'8 f16 es d c
     f8 es16 d c b
     es8 c4-+
     b16 d f, d' es, c'
@@ -159,6 +160,7 @@ va = \relative c' {
     es4. d8 c4
     f, d'4. c8
     h4. a8 g4
+    \set tupletSpannerDuration = #(ly:make-moment 1 4)
     \times 2/3 { as8( g f) g[( f es)] f( es d) }
     \times 2/3 { es d c } d4. c8
     c2 r4
@@ -232,16 +234,16 @@ va = \relative c' {
     r16 f, b c d c d8
     r16 f, a b c b c8
     r16 f, b c d c d8
-    r f es d
+    r f e d
     c d c b
-    a f' es d
+    a f' e d
     c d c b
     a16 f a8 c16 a c8
 
-    es4~ es16 c d es
+    es!4~ es16 c d es
     d b c d c a b c
     b8 \clef "bass" f b, \clef "tenor" b'
-    a16 g a8 c16 a c8
+    a16 f a8 c16 a c8
     es4~ es16 c d es
     d b c d c a b c
     b2\fermata    
