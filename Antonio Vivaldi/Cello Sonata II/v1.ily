@@ -8,7 +8,7 @@ va = \relative c {
     \appoggiatura f e8. d16 c8 \clef "bass"
     c,16. e32 g8 b
     \appoggiatura b a8. g16 f8 \clef "tenor"
-    f16.( a32 c8) f
+    f16.( a32) c8 f
     f( d) e
 
     e,16.( g32) c8 e
@@ -75,7 +75,7 @@ va = \relative c {
     c8 c, d' h, e'? c, f' d,
     g' f16 e d8 c h16 a g8 r d'
     d h4 c16 d c a c d e c h a
-    e'8 h4 c16 d c a c d e d cis h
+    e'8 h4 c16 d c a c d e c h a
 
     f'8 d gis,8. a16 a4 \clef "bass" r16 a b? c
     fis,8 d, c'' d,, b'' g,? r16 b' a g
@@ -118,7 +118,7 @@ va = \relative c {
     d16 f8 d b d16 c f8 c a c16
 
     b g'8 b, g b16 a a8 f16 c' c8 a16
-    f' c-+ b a f' c b a f'8 a, b4~
+    f' c b a f' c b a f'8 a, b4~
     b16 e f f, g8. f16 f2\fermata
   }
 
@@ -176,7 +176,7 @@ va = \relative c {
     g,16 b a g f e
     d4.
     d'16 e e f f gis,
-    g? a a h h c?
+    gis a a h h c?
     c d d e e f
     f8 e d
     c16 e d c h a \clef "bass"

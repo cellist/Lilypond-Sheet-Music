@@ -32,15 +32,15 @@ vb = \relative c {
 
     d8 es c
     d d,4
-    g' r8
-    f4 r8
-    c4.
+    g r8
+    f'4.
+    c
     c
     f
     f8 a4
 
     b?4.
-    g4 h8
+    g8 h4
     c4.
     f,16. e32 d16. c32 b?16. a32
     g16. f32 e16. d32 c8
@@ -80,15 +80,15 @@ vb = \relative c {
     d, d g? r
     a g f8 d r d'
     a' d, a' d, d f g a
-    d,4 c16 b? a g f4 f
+    d,4 c16 b? a g f4 e
 
     f g a b
     c d8 e f4 g8 c,
     f g a f f f f f
     f, f' a f b, b b b
 
-    g h' h g c h a g
-    f4 g a b?
+    g h' h g c b a g
+    f4 g a b
     g e f c
     g' e f c
     c' a8 g f4 c
@@ -115,7 +115,7 @@ vb = \relative c {
     r g' d d, g g'16 fis g8 g,
     r a'16 g a8 a, r d16 cis d8 d,
     r c'?16 b c8 c, r f'?16 e f8 f,
-    b' a b b, r a'16 g a8 a,
+    r b'16 a b8 b, r a'16 g a8 a,
 
     r g'16 f g8 g, r f'16 e f8 f,
     r f' f f, r f' g e
@@ -194,7 +194,7 @@ vb = \relative c {
     c16 b c d e c
     f4.
     a
-    b16 g? b g b g
+    b16 g b g b g
     g4.
     h
     c16 g c g c g
@@ -203,8 +203,8 @@ vb = \relative c {
     c,4.
     a'16 f a f a f
 
-    f4 r8
-    f4 r8
+    f4.
+    f
     f4 e8
     f c4
     f16 f a f a f
