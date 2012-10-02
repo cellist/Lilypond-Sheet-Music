@@ -1,8 +1,94 @@
-va = \relative c {
+va = \relative c' {
   \voiceconsts
 
+  \introa
+  c4.(_\dolc e,8 g c)
+  c4.( e,8 g c)
+  d4.( f,8 a d)
+  d4.( f,8 a d)-2
+
+  e(-4 d-2 c-2 h a g)
+  f( e d c h a)
+  g4.(\< a8 h c)\!
+  d(\> e f g a h)\!
+  c4.( e,8 g c)
+
+  c4.( e,8 g c)
+  d4.( f,8 a d)
+  d4.( f,8 a d)-2
+  e(-4 d-2 c-2 h a g)
+  f( e d c h a)
+  gis4.(-1\< a8-1 h c)\!
+
+  d(\> f e a-1 c-4 h)-3\!
+  a4.(-1 e8-1 a-0 h)
+  c( h d c h a)
+  h4.( e,8 e' c)
+  d( h e-4 d-2 c-2 h)
+
+  cis4.( a8\< cis-1 d)-2
+  e(-4 a,-0 a'\flageolet g-1 f-2 e)-1
+  f4.(-2 a,8-0 d-1 e)-3\!
+  f(-4\> e-3 g-4 f-2 e-1 d)-4
+  cis4.(\! e,8\p a cis)
+
+  h4.( e,8 gis-1 h)-4
+  a4.(-2 e8-1 a-0 cis)
+  cis( h e, eis-1 fis-2 gis)
+  a4.(\< c?8 h a\!
+  a'4.)\flageolet c,8(-2\p h a
+
+  f4.)\< c'8( h a
+  a'4.)\flageolet\! c,8(-2\p h a
+  e4.) c'8(\< h a
+  a'4.)\flageolet\! dis,,8(\< a'-0 h-1
+  c h d? c h a)\!
+
+  e'4.(-2\f gis,8-1 h-4 e)-2
+  f4.(-2 a,8-1 c-4 f)-2
+  e4.(-2 gis,8-1 h-4 e)-2
+  f4.(-2 a,8-1 c-4 f)-2
+  e4.(-2 gis,8-1\p h-4 e)-2
+
+  e4.(-2 gis,8-1 h-4 e)-2
+  e2.~\<
+  e4 f(-2 fis)-3\!
+  g?2(~-4\> g8 f?-2
+  d-4 h g f d h)\!
+
+  g2.\p
+  r
+  c'4.(_\dolc e,8 g c)
+  c4.( e,8 g c)
+  d4.( f,8 a d)
+  d4.( f,8 a d)-2
+
+  e(-4 d-2 c-2 h a g)
+  f( e d c h a)
+  g4.(\< a8 h c)\!
+  d8(\> e f fis g a)\!
+  b4.(-1\p e,8-2 g-1 b)-4
+
+  b4.(-4 e,8-1 g-4 b)-1
+  a4.(-0 f8 a h?)
+  h4.( f8 g h)
+  c4.( g8 e c)
+  b4.(-> g'8 e b)
+
+  a4.(-> f8 a c)
+  h4.(-> f8 g h)
+  c4.(-> e,8 g c)
+  c4.(-> f,8 a c)
+  c4.( e,8\p a c)
+
+  c4.( f,8 as c)
+  c4 r r
+  c r r
+  c,2.~\pp
+  c4 r r \bar "|."
+
   \introk
-  d16(_\cong e fis g fis g a h a8.[ cis16)-.-1 d8.-2 fis,16]-1
+  d'16(_\cong e fis g fis g a h a8.[ cis16)-.-1 d8.-2 fis,16]-1
   a2(-4 g4)-2 r
   a,16(-1 h cis-1_\trza d-2 cis d e-1 fis-2 g8.[\flageolet gis16-._\scda)-1 a8.-2 e16-.-1]
   
@@ -44,7 +130,7 @@ va = \relative c {
   fis!2~-4 fis8[ h(-2 d8.-2 cis?16)]-1
 
   h2.-3 r4
-  d16(-^_\cong e fis g e fis a h a8.[ cis16)-1 d8.-2 fis,16]-.-1
+  d16(-^_\cong e fis g fis g a h a8.[ cis16)-1 d8.-2 fis,16]-.-1
   a2(-4 g4)-2 r
   a,16(-1 h cis-1_\trza d-2 cis d e-1 fis-2 g8.[\flageolet gis16-._\scda)-1 a8.-2 e16-.-1]
   

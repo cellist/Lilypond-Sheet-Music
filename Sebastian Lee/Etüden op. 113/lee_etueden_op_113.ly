@@ -1,7 +1,7 @@
 \version "2.14.2"
 \include "deutsch.ly"
 
-#(set-global-staff-size 18)
+#(set-global-staff-size 22)
 
 \header {
   title = "Etüden für das Violoncello"
@@ -23,10 +23,22 @@ voiceconsts = {
 minstr = "bassoon"
 
 cong = \markup \bold \italic "con grazia"
+dolc = \markup \bold \italic "dolce"
 scda = \markup \concat { "2" \super "da" }
 trza = \markup \concat { "3" \super "za" }
 
-introk = { \break \tempo "Nr. 10 Allegro moderato " 4=110 \key d \major \time 4/4 }
+introa = {
+  \tempo "Nr. 1 Andante " 4=90
+  \key c \major
+  \time 3/4
+}
+
+introk = {
+  \break
+  \tempo "Nr. 10 Allegro moderato " 4=100
+  \key d \major
+  \time 4/4
+}
 
 \include "v1.ily"
 music = \new StaffGroup <<
