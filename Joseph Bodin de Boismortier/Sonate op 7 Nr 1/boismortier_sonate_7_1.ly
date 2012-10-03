@@ -1,7 +1,7 @@
 \version "2.14.2"
 \include "deutsch.ly"
 
-#(set-global-staff-size 18)
+#(set-global-staff-size 17.5)
 
 \header {
   title = "Sonate"
@@ -28,6 +28,8 @@ moral = \markup \italic "molto rall."
 introa = { \tempo "1. Gravement " 4=40 \time 4/4 }
 introb = { \break \tempo "2. Allemande - Grayment " 4=100 }
 introc = { \break \tempo "3. Lentement " 2=60 \time 3/2 }
+introd = { \break \tempo "4. Gavotte en Rondeau " 4=140 \time 4/4 }
+introe = { \break \tempo "5. Gayment " 8=180 \time 3/8 }
 
 \include "v1.ily"
 \include "v2.ily"

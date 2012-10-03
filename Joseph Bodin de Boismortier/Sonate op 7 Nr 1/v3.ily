@@ -84,4 +84,136 @@ vc = \relative c'' {
     g4 c, d1
     g,1.
   }
+
+  \introd
+  \partial 2 r2
+  r d''4 c
+  h8( c) a( h) g( a) fis4\prall
+  g d g c,
+  d2 r
+
+  r d'4 c
+  h8( c) a( h) g( a) fis4\prall
+  g c, d d
+  g,2 r
+  r h'4 a
+
+  g8( a) fis( g) e( fis) dis4\prall
+  e a, h h
+  e2 e4 e
+  fis fis fis e8 fis
+  g2 fis4 fis
+  g g g c,
+
+  d2 r
+  r d'4 c
+  h8( c) a( h) g( a) fis4\prall
+  g d g c,
+  d2 r
+
+  r d'4 c
+  h8( c) a( h) g( a) fis4\prall
+  g c, d d
+  g,2 r
+  r h'8 c d4
+
+  g, d d' a8 h
+  fis d e fis g fis e d
+  cis2-+ a4 a
+  h h h a8 h
+  cis4 a d d
+
+  g,2 a
+  d r
+  r d'4 c?
+  h8( c) a( h) g( a) fis4
+  g d g c,
+
+  d2 r
+  r d'4 c
+  h8( c) a( h) g( a) fis4\prall
+  g c, d d
+  g,2 \bar "|."
+
+  \introe
+  \repeat volta 2 {
+   \partial 4 r8 d'
+   g h16 a g h
+   a8 d a
+   h g g'~
+   g fis4-+
+   g8 d h
+   c a d
+   d8. c16 h8
+
+   c d d,
+   g4.
+   r8 g16 a h c
+   h c h a g8
+   g c,4
+   d r8
+
+   r d16 e fis g
+   fis g fis e d8
+   d g,4
+   a8 cis a
+   d8. cis16 d8
+   g, a4
+
+   d
+  }
+  \repeat volta 2 {
+   \partial 8 d8
+   fis d fis
+   g g, g'
+   fis d fis
+   g4 g8
+   gis e gis
+   a a, a'
+
+   gis e gis
+   a4 a8
+   d,4 d8
+   e gis e
+   a e' e,
+   a a, a
+   cis a cis
+
+   d d d
+   cis a cis
+   d4 d8
+   dis8 h dis
+   e e e
+   dis h dis
+   e4 e8
+
+   a,4 a8
+   h4 dis8
+   e dis h
+   e dis h
+   e dis h
+
+   e h' h,
+   e4 r8
+   r a, a
+   d4 r8
+   r h h
+   e4 r8
+   c4 r8
+   d4 d8
+
+   g fis d
+   g fis d
+   g fis d
+   g h, h
+   c d4
+   g, g8
+
+   d'4 d8
+   g,4 d'8
+   g,4 g8
+   d'4 d8
+   g,4 d'8
+   g,4
+  }
 }

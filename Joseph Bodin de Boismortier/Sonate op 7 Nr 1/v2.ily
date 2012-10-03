@@ -84,4 +84,136 @@ vb = \relative c'' {
     b4( a8\prall g) fis2.-+ g4
     g1.
   }
+
+  \introd
+  \partial 2 r2
+  d'4 c h8( c) a( h)
+  g( a) fis4\prall g d
+  d' fis, g8( a16 h) a8\prall g
+  fis2-+ r
+
+  d'4 c h8( c) a( h)
+  g( a) fis4\prall g d
+  g8 a h c fis,4.-+ g8
+  g2 r
+  h4 a g8( a) fis( g)
+
+  e( fis) dis4\prall e h
+  e8 fis g a dis,4.-+ e8
+  e2 g4 g
+  a a a g8 a
+  h2 a4 a
+  a d,? g a8 g
+
+  fis2-+ r
+  d'4 c h8( c) a( h)
+  g( a) fis4\prall g d
+  d' fis, g8( a16 h) a8\prall g
+  fis2-+ r
+
+  d'4 c h8( c) a( h)
+  g( a) fis4\prall g d
+  g8 a h c fis,4.-+ g8
+  g2 r
+  h8 c d4 g, d
+
+  d' fis, g c,
+  d8 c h a g a h g
+  a2 cis4 cis
+  d d d cis8 d
+  e4 cis d8 e fis d
+
+  g fis e d cis4.-+ d8
+  d2 r
+  d'4 c? h8( c) a( h)
+  g( a) fis4 g d
+  d' fis, g8( a16 h) a8 g
+
+  fis2-+ r
+  d'4 c h8( c) a( h)
+  g( a) fis4\prall g d
+  g8 a h c fis,4.-+ g8
+  g2 \bar "|."
+
+  \introe
+  \repeat volta 2 {
+    \partial 4 r4
+    r4.
+    r4 d8
+    g h16 a g h
+    a8 d a
+    h g g'~
+    g fis4-+
+    g8 h,16 c d8
+
+    e a,4-+
+    g4.
+    r8 h16 c d e
+    d8 g,16 a h c
+    h8 e16 d c h
+    a4-+ r8
+
+    r fis16 g a h
+    a8 d,16 e fis g
+    fis8 h16 a g fis
+    e4-+ e8
+    fis16 g fis e d8~
+    d16 e cis8.-+ d16
+
+    d4
+  }
+  \repeat volta 2 {
+    \partial 8 a'8
+    a fis a
+    h g h
+    a fis a
+    h4 h8
+    h gis h
+    c a c
+
+    h gis h
+    c4 e8~
+    e f16 e d c
+    h4 gis8
+    a16 h gis8.-+ a16
+    a4 e8
+    e cis e
+
+    fis? d fis
+    e cis e
+    fis4 fis8
+    fis dis fis
+    g? e g
+    fis dis fis
+    g4 h8~
+
+    h c?16 h a g
+    fis h a c h a
+    g8\prall fis r
+    r16 h a c h a
+    g8 fis dis
+
+    e16 fis dis8.-+ e16
+    e4 r8
+    r e a
+    fis4\prall r8
+    r fis h
+    g4 r8
+    g'16 fis e d? c h
+    a4-+ fis8
+
+    g d fis
+    g d fis
+    g d fis
+    g8. a16 h8
+    a16 g fis8.-+ g16
+    g8. g16 h d
+
+    fis,4\prall fis8
+    g16 a fis8.-+ g16
+    g8. g16 h d
+    fis,4\prall fis8
+    g16 a fis8.-+ g16
+    g4
+  }
 }
