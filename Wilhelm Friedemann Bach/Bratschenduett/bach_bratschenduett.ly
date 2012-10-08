@@ -1,7 +1,7 @@
 \version "2.14.2"
 \include "deutsch.ly"
 
-#(set-global-staff-size 17.75)
+#(set-global-staff-size 18)
 
 \header {
   title = "Duett für zwei Bratschen"
@@ -23,10 +23,13 @@ mihi = "clarinet"
 %minstr = "accordion"
 milo = "bassoon"
 
+alla = \markup \bold \italic "allargando"
 dolc = \markup \bold \italic "dolce"
+legg = \markup \bold \italic "leggiero"
 
 introa = { \tempo "1. Allegro " 4=66 \time 4/4 }
-introb = { \break \tempo "2. Lamento " 4=104 \time 3/4 \key a \minor }
+introb = { \pageBreak \tempo "2. Lamento " 4=104 \time 3/4 \key a \minor }
+introc = { \break \tempo "3. Presto " 4.=104 \time 6/8 \key g \major }
 
 \include "v1.ily"
 \include "v2.ily"

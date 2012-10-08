@@ -169,4 +169,143 @@ vb = \relative c'' {
   gis4.\mf h8 d?4
   c8 a' \appoggiatura a gis2(\trill
   \appoggiatura { fis8[ g?] } a2) r4 \bar "|."
+
+  \introc
+  R2.*8
+  d,8 fis a cis,( e) a
+  d,( fis) a a,4\trill r8
+  d fis a h( g) e
+  d4.( cis8) e g
+  fis d a' h( g) e
+
+  d4.( cis8)[ e] cis
+  d4 c?8 h4 g8
+  fis4\> r8 r r c'\!
+  h4 r8 g_\legg h d
+  d,4 r8 fis a d
+  g,4 r8 e' g h
+
+  h,4 r8 d fis h
+  e,,2 r8 c'
+  g4 r8 h d g
+  c,4 e8 g4 r8
+  a(\mf g fis e d c)
+  h4 d8 fis4 a8
+
+  g( fis e d c h)
+  a c e a4 r8
+  a, c e a4 r8
+  c,4 r8 cis4 r8
+  d(\< fis) a a, h c\!
+  h4 r8 c4 r8
+
+  h4 r8 c( fis) a
+  h,4 r8 c4 r8
+  d,( a') h c4 d,8
+  g4 r8 c,4 r8
+  d( a') h c4 d,8
+  g4.~ g4 r8
+
+  c,4 r8 d d'( c)
+  h g'( fis) e4.~
+  e dis
+  e4 fis8 e4.~
+  e d~
+  d c~
+
+  c h~
+  h a
+  h8( fis) ais\> h fis' a,\!
+  g(\mf h) e e4.~
+  e8\< dis( cis dis e fis)\!
+  g2.~
+
+  g8\< fis( e fis g a)\!
+  h2.~
+  h8 a g fis4 e8
+  dis4.~ dis4 r8
+  e, g h h4 r8
+  e(\f g) h dis,( fis) h
+
+  e,( g) h h,4\trill r8
+  e( g) h c( a) fis
+  e4.( dis8) fis a
+  g( e) h' c( a) fis
+  e4.( dis8) fis h,
+  e,4 r8 e'4.(~
+
+  e~ e8 dis) r
+  e4 d?8 c( e) g
+  a( f) e d( g) f
+  e4 d8 c( e) g
+  a( f)\> e d g f\!
+  e4\mf g,8 c4 e8
+
+  c' a( g f e d
+  e4) r8 c,4 e8
+  g4 r8 r4 h8
+  c4 h8 a c e
+  f d c h( e) d
+  c e, gis a4.~
+
+  a gis
+  a8\p c e c,4 r8
+  c'4 r8 c, e a
+  h2.~
+  h8\< a( gis a h c
+  d2.)~\!
+
+  d8\< c( h c d e
+  f,4.)~\! f8 e d
+  c4 h'8 a e h'
+  c4 cis8 d a' c,
+  h4 a8 g d a'
+  h4 r8 e4\> c8
+
+  f,4 a8 c4\! r8
+  d(\p c h a g f
+  e4) g8 h4 d8
+  c( h a g f e)
+  d f a d4 r8
+  d, f a d4 r8
+
+  f,4 r8 fis4 r8
+  g h d d,( e) f
+  e4\f r8 f4 r8
+  e4 r8 f( h) d
+  e,4 r8 f4 r8
+  g d' e f4 g,8
+
+  c4 r8 f,4 r8
+  g d' e f4 g,8
+  c,4 r8 c'4 r8
+  h4 r8 r4 c8
+  h4\ff r8 c4 r8
+  h4 r8 c fis? a
+
+  h,4 r8 c4 r8
+  d, a' h c4 d,8
+  g4 r8 c,4 r8
+  d( a') h c4 d,8
+  g4.~ g4 r8
+  c,4 r8 d( d') dis
+
+  e( g) h h,4 r8
+  c( e) g h,4\p r8
+  c( e) g cis,4\mf r8
+  d fis a cis,4\p r8
+  d fis a c,?4\mf r8
+  h d g fis4 r8
+
+  g4 r8 h,4 r8
+  c( e) g h,4\p r8
+  c( e) g cis,4\mf r8
+  d fis a cis,4\p r8
+  d\mf fis a c,?4 r8
+
+  g'( d) h a( fis) d
+  g h d fis,4 r8
+  e( e') c h4 r8
+  c4_\alla a'8 \appoggiatura g fis4.\trill
+  g4.~ g4 r8 \bar "|."
 }

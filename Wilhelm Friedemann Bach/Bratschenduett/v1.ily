@@ -67,8 +67,8 @@ va = \relative c'' {
     g16 h g'4 fis8 g16 g, h d g8 r
   }
 
-  \introb
-  \clef "bass" e4(_\dolc f) e
+  \introb \clef "bass"
+  e4(_\dolc f) e
   dis( e) h
   cis( d?) a
   h( c?) gis
@@ -168,4 +168,150 @@ va = \relative c'' {
   f4\mf e4. gis8
   a d, \appoggiatura c h2(
   \appoggiatura { a8[ h] } a2) r4 \bar "|."
+
+  \introc \clef "tenor"
+  g'8( h) d fis,( a) d
+  g,( h) d d,4 r8
+  g( h) d e( c) a
+  g4.( fis8) a, c
+  h( g) d' e( c) a
+  g4.( fis8) a c
+  c( h) d d( cis) e
+
+  e( d) fis fis( e) g
+  fis4 r8 e4 r8
+  fis4 r8 e cis g
+  fis4 r8 g4 r8
+  a e' fis g4 cis,8
+  d4 r8 g,4 r8
+
+  a e' fis g4 g8
+  g( fis) a a( g) h
+  h\> a c? c[( a)]\! fis\p
+  g_\legg h d h,4 r8
+  fis' a d d,4 r8
+  e g h g,4 r8
+
+  d' fis h h,4 r8
+  c e g e4 r8
+  h d g g,4 r8
+  e''(\mf d c h a g)
+  fis4 a8 c4 e8
+  d( c h a g fis)
+
+  e4 g8 h4 d8
+  c4.~ c8 e h
+  c4.~ c8 e h
+  a( c) e e, fis g
+  fis4 r8 r4 r8
+  g( h) d fis,( a) d
+
+  g,( h) d d,4\trill r8
+  g( h) d e( c) a
+  g4.( fis8) a c
+  h( g) d' e( c) a
+  g4.( fis8) a c
+  c( h) cis cis( d) dis
+
+  dis( e) c? \appoggiatura h a4.
+  g8 h( a) g( h) e
+  c( a) g fis( h) a
+  g h( a) g( h) e
+  c( a) g fis( h) a
+  gis( e) gis a( e') g,
+
+  fis( d) fis g d' fis,
+  e c e fis( c') fis,
+  e4.(\> dis4)\! r8
+  e4 r8 g,\mf h e
+  fis2.~
+  fis8\< e( dis e fis g)
+
+  a2.~\!
+  a8\< g( fis g a h)\!
+  c2.~
+  c8 h ais h( fis) a
+  g4 r8 fis dis a
+  g4 r8 a4 r8
+
+  g4 r8 a dis fis
+  g,4 r8 a4 r8
+  h fis' g a4 h,8
+  e4 r8 a,4 r8
+  h fis' g a4 a8
+  a( g) c c( h) e
+
+  c( h) a \appoggiatura g fis4.\(
+  e8( g)\) h c4.~
+  c h
+  c8( g) h c4.~
+  c h
+  c8 g( f e d c
+
+  h) r r r r h'
+  c g( f e d c)
+  h f'( e d c gis)
+  a( c) e a4.~
+  a gis
+  a8 c, h a( c) e
+
+  f d c h e d
+  c4 r8 a'\p c e
+  a,, c e\> a4.~
+  a8\!\< gis( fis? gis a h
+  c2.)~\! c8\< h( a h c d\!
+
+  e2.)~
+  e8 dis a gis4 r8
+  a e h' c4 h8
+  a e' g,? fis4 r8
+  g d a' h4 a8
+  g d' f, c\> e g\!
+
+  a(\p g f e d c)
+  h4 d8 f4 a8
+  g( f e d c h
+  a4) c8 e4 g8
+  f4.~ f8 a e
+  f4.~ f8 a e
+
+  d f a a, h c
+  h4 r8 r4 r8
+  c(\f e) g h,( d) g
+  c,( e) g g,4 r8
+  c e g a( f) d
+  c4( h8)[ d f] r
+
+  e( c) g' a( f) d
+  c4. h8 d f
+  f( e) g g( fis) a
+  a( g) h h( a) r
+  g(\ff h) d fis,( a) d
+  g,( h) d d,4\trill r8
+
+  g( h) d e( c) a
+  g4.( fis8) a d
+  h g d' e( c) a
+  g4.( fis8) a c
+  c( h) cis cis( d) dis
+  dis( e) c \appoggiatura h a4.
+
+  g4 r8 d'? g, g,
+  \appoggiatura f' e4. d8(\p d') g,
+  \appoggiatura f e4. e'8\mf a, a,
+  \appoggiatura g' fis?4. e8\p e' a,
+  \appoggiatura g fis4. d'8( a) fis
+  g4 r8 a( d,) c
+
+  h( d) g d'( g,) g,
+  \appoggiatura fis' e4. d8(\mf d') g,
+  \appoggiatura fis e4. e'8\mf a, a,
+  \appoggiatura f' e4. e8\p e' a,
+  \appoggiatura g fis?4. d'8( a) fis
+
+  h,( d) g fis( a) c
+  h4.~ h8 d fis,
+  a4.( g8) d^\alla f
+  e( d) c \appoggiatura h a4.\trill
+  g~ g4 r8 \bar "|."
 }
