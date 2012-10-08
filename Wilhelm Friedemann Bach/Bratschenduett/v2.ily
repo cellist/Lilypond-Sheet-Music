@@ -65,4 +65,108 @@ vb = \relative c'' {
     c,16 e g c c, e g c d,8. cis16 d a' h c!
     h g' e c \appoggiatura h a4\trill g16 g' d h g8 r
   }
+
+  \introb
+  a2.(~_\dolc
+  a4 gis) r
+  g?( fis) r
+  f?( e) r
+  f f ( e)
+  d2 dis4
+  e f'( e
+  d? c h)
+  c a e'(~
+
+  e dis) r
+  d?( cis) r
+  c?( h) r
+  c, c'( h)
+  a2 ais4
+  h2.~
+  h4 r h(
+  c) c( h
+  a? g fis)
+
+  e2.
+  fis(\trill
+  \appoggiatura { e8[ f?] } g2) fis4
+  e2 r4
+  a' a,( h
+  cis d e)
+  f( a) e
+  d( cis) g'
+  f( a) e\pp
+
+  d( cis)\< g'
+  f\! e(\p\< d
+  c? h\! a)\mf
+  gis2.~
+  gis4 r r
+  a2.(~\p
+  a4 gis) r
+  g?( fis) r
+  f?( e) r
+
+  f f( e)
+  d2 eis4
+  e?2.
+  fis2 gis4
+  a c2
+  cis2.\trill
+  d,4 es'( d)
+  c( b a)
+  b2.
+
+  h?\trill
+  c,4 des'( c
+  b a g)
+  a2 c4~
+  c b a
+  g2 b4~
+  b a g
+  f e d
+  cis' h? a
+
+  d,2.
+  e(\trill
+  \appoggiatura { d8[ e] } f2) d4
+  cis e g\pp
+  f2 d4
+  cis e g'\p
+  g d2(~
+  d4 cis) r
+  c?( h) r
+
+  b( a) r
+  b b( a)
+  g2 gis4
+  a2.~
+  a4 r r
+  d d, a'(~
+  a gis) r
+  g?( fis) r
+  f?( e) r
+
+  f f( e)
+  d2 dis4
+  e2.~
+  e4 r r
+  c'( h) a
+  h( a) gis
+  a f dis
+  e gis h
+  c( h) a
+
+  h( a) gis
+  a( f) dis
+  \appoggiatura dis8 e2 e4
+  a2 r4
+  c( e) h
+  a( gis) d'?\pp
+
+  c( e) h\<
+  a d h8( a)\!
+  gis4.\mf h8 d?4
+  c8 a' \appoggiatura a gis2(\trill
+  \appoggiatura { fis8[ g?] } a2) r4 \bar "|."
 }

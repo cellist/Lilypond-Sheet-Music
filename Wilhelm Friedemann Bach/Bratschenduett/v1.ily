@@ -66,4 +66,106 @@ va = \relative c'' {
     e' c e8~ e c~ c16 a g4 fis8
     g16 h g'4 fis8 g16 g, h d g8 r
   }
+
+  \introb
+  \clef "bass" e4(_\dolc f) e
+  dis( e) h
+  cis( d?) a
+  h( c?) gis
+  \appoggiatura g?8 a2 c4~
+  c b a
+  gis r r
+  r2.
+  a'4 c h?
+
+  ais( h) fis
+  gis( a?) e
+  fis( g?) dis
+  \appoggiatura dis8 e2 g4~
+  g f? e
+  dis c'( h
+  a g fis)
+  e2.
+  fis(\trill
+
+  \appoggiatura { e8[ fis] } g4) fis( e
+  dis cis h)
+  e2 fis,4(
+  gis a h)
+  c2 h4
+  a2 r4
+  d?2 r4
+  f?( a) e
+  d( cis)\pp g'
+
+  f( a)\< e
+  d2 f4
+  e2\! a4\mf h f( e
+  d c h)
+  e(\p f) e
+  dis( e) h
+  cis( d?) a
+  h( c?) gis
+
+  \appoggiatura g?8 a2 c4~
+  c b a
+  gis f'( e
+  d c h?)
+  c b'( a g? f e)
+  f2.
+  fis\trill
+  g,4 as'( g
+
+  f? e d)
+  e2.
+  g~
+  g4 f e
+  d2 f4~
+  f e d
+  cis2 r4
+  d2.
+  e\trill
+
+  f4 e d
+  cis h a
+  d f gis
+  a2 cis,4\pp
+  d f gis
+  a2 r4
+  a4(\p b) a
+  gis( a) e
+  fis( g?) d
+
+  e( f?) cis
+  \appoggiatura cis8 d2 f4~
+  f es d
+  cis b'( a
+  g f e?)
+  f2 e?4
+  dis( e) h?
+  cis( d?) a
+  h( c?) gis
+
+  \appoggiatura gis8 a2 c4~
+  c b a
+  gis f'( e
+  d c h?)
+  e2 \appoggiatura g8 f4
+  \appoggiatura e8 d2 \appoggiatura f8 e4
+  \appoggiatura d8 c2.\turn
+  \appoggiatura c8 h2 r4
+  e2 \appoggiatura g8 f4
+
+  \appoggiatura e8 d2 \appoggiatura f8 e4
+  \appoggiatura d8 c2.\turn
+  h4 gis r
+  c( e) h
+  a( gis) d'
+  c( e) h\pp
+
+  a( gis) d'\<
+  c f2~\!
+  f4\mf e4. gis8
+  a d, \appoggiatura c h2(
+  \appoggiatura { a8[ h] } a2) r4 \bar "|."
 }
