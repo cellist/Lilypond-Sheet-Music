@@ -1,7 +1,7 @@
 \version "2.14.2"
 \include "deutsch.ly"
 
-#(set-global-staff-size 17)
+#(set-global-staff-size 16.5)
 
 \header {
   title = "Solfeggietto"
@@ -13,19 +13,18 @@
 voiceconsts = {
  \key g \major
  \time 4/4
- \clef "treble"
-% \clef "bass"
+ \clef "bass"
 % \numericTimeSignature
  \compressFullBarRests
  \tempo "Prestissimo " 8=200
 }
 
-%minstr = "harpsichord"
+milo = "harpsichord"
 mihi = "clarinet"
 %minstr = "accordion"
-milo = "bassoon"
+%milo = "bassoon"
 
-moral = \markup \italic "molto rall."
+ffp = \markup { \dynamic ff \dynamic p }
 
 \include "v1.ily"
 \include "v2.ily"
@@ -34,31 +33,27 @@ moral = \markup \italic "molto rall."
 
 music = \new StaffGroup <<
       \new Staff {
-	\set Staff.midiInstrument = \mihi
+	\set Staff.midiInstrument = \milo
 	\set Staff.instrumentName = #"Cello I"
-	\transpose g g { \va }
-%	\transpose g es, { \va }
+	\transpose g f, { \va }
       }
 
       \new Staff {
-	\set Staff.midiInstrument = \mihi
+	\set Staff.midiInstrument = \milo
 	\set Staff.instrumentName = #"Cello II"
-	\transpose g g { \vb }
-%	\transpose g es, { \vb }
+	\transpose g f, { \vb }
       }
 
       \new Staff {
 	\set Staff.midiInstrument = \milo
 	\set Staff.instrumentName = #"Cello III"
-	\transpose g g { \vc }
-%	\transpose g es, { \vc }
+	\transpose g f, { \vc }
       }
 
       \new Staff {
 	\set Staff.midiInstrument = \milo
 	\set Staff.instrumentName = #"Cello IV"
-	\transpose g g { \vd }
-%	\transpose g es, { \vd }
+	\transpose g f, { \vd }
       }
 >>
 

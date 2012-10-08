@@ -24,4 +24,32 @@ vc = \relative c' {
 
   e,4--\f r16 h'( g e d4--) r
   c'?16(\p e c e c e c e d e d e d e d e)
+
+  c8-. r r4 e,,8-. e16( gis h8)-. r
+  a16( e a c e a gis fis gis8)-. r r4
+
+  a,16( e a c e a gis fis e8)[-. r e]-. r
+  c-. r c'16( e d c d8)-. r r4
+
+  a16( e' c a e c' a e c a' e c a e' c a)
+  r2 e''16(\f c h c d c h c)
+  r2 e,16(\p c h c d c h c)
+
+  r2 dis'16(\f fis g? a g fis e dis
+  e h e8)-. d?16( c h a g4) \times 4/5 { a16( h a g a) }
+
+  g4-.->\p g-.-> fis-.-> fis-.->
+  e-.-> e-.-> a-.->\f a-.->
+
+  fis16(\p a fis a fis a fis a f\f g f g f g f g)
+  e(\p g e g e g e g e\f g e g e g e g)
+
+  e4-- r h''16( g e h fis' dis h8)-.
+  g[-.-> r e]-.-> r dis16( h dis fis h8)-. r
+
+  e,16( h e g h e dis cis h8)-. r r4
+  e,16( h e g h e dis cis h8)[-. r h]-. r
+
+  g-. r g'16( h a fis g8)-. r r16 g,(\> e dis
+  e8)-.\! r r4 r2 \bar "|."
 }

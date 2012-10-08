@@ -24,4 +24,32 @@ vd = \relative c' {
 
   e4--\f r e-- r
   c''-.\p c-. h-. h-.
+
+  r8 e,,16( a c e d c h8)-. r gis16( h a gis
+  a8)[-. r a']-. r gis16( fis e d c h a gis!
+
+  c8)[-. r a']-. r e16( h d e gis fis e d
+  c e a c e8)-. r gis,16( fis e d c h a gis
+
+  c8)-. r a'16( e' c a e8)-. r c16( a' e c
+  f,1)->\ff
+  e->_\ffp
+
+  <\parenthesize es es'>->_\ffp
+  e!4-> a-> h-> h->
+
+  g'16(\p h g h g h g h a h a h a h a h)
+  gis( h gis h gis h gis h g\f a g a g a g a)
+
+  d,4-.->\p d-.-> g-.->\f g-.->
+  c,-.->\p c-.-> h-.->\f h-.->
+
+  h-- r e'16( h g e dis8)-. r
+  e,(-. e16 g h e dis cis h8)-. a16( h dis fis e dis
+
+  e8)[-. r e']-. r dis16( cis h a g fis e dis
+  e8)[-. r h']-. r fis16( dis fis h dis fis e dis
+
+  e h e g h8)-. r g16(\> e h a g8)-.\! r
+  e-. r r4 r2 \bar "|."
 }
