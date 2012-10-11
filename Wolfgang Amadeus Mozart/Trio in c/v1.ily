@@ -26,7 +26,6 @@ va = \relative c' {
     r es( g c,) r d( f h,) \clef "alto"
     c2\f es4-. g-.
     c-. es-. r8. es,16 es8(\trill d16 es)
-    \set tupletSpannerDuration = #(ly:make-moment 1 4)
     \times 2/3 { as8 b c b as g f g as g f es }
 
     \times 2/3 { d es f es d c b c b as b as }

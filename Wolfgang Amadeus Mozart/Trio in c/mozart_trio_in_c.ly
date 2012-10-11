@@ -15,6 +15,7 @@ voiceconsts = {
   \time 4/4
   \clef "alto"
 %  \numericTimeSignature
+  \set tupletSpannerDuration = #(ly:make-moment 1 4)
   \compressFullBarRests
   \tempo "Allegro " 4=140
 }
@@ -24,10 +25,11 @@ mihi = "clarinet"
 %minstr = "accordion"
 milo = "bassoon"
 
-moral = \markup \italic "molto rall."
+arco = \markup \italic "arco"
+pizz = \markup \italic "pizz."
 
 \include "v1.ily"
-%\include "v2.ily"
+\include "v2.ily"
 %\include "v3.ily"
 
 music = \new StaffGroup <<
@@ -35,6 +37,12 @@ music = \new StaffGroup <<
 	\set Staff.midiInstrument = \mihi
 	\set Staff.instrumentName = #"Cello I"
 	\transpose c c { \va }
+      }
+
+      \new Staff {
+	\set Staff.midiInstrument = \milo
+	\set Staff.instrumentName = #"Cello II"
+	\transpose c c { \vb }
       }
 >>
 
