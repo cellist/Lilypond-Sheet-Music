@@ -1,7 +1,7 @@
 \version "2.14.2"
 \include "deutsch.ly"
 
-#(set-global-staff-size 20)
+#(set-global-staff-size 17)
 
 \header {
   title = "Trio in c-moll"
@@ -30,7 +30,7 @@ pizz = \markup \italic "pizz."
 
 \include "v1.ily"
 \include "v2.ily"
-%\include "v3.ily"
+\include "v3.ily"
 
 music = \new StaffGroup <<
       \new Staff {
@@ -43,6 +43,12 @@ music = \new StaffGroup <<
 	\set Staff.midiInstrument = \milo
 	\set Staff.instrumentName = #"Cello II"
 	\transpose c c { \vb }
+      }
+
+      \new Staff {
+	\set Staff.midiInstrument = \milo
+	\set Staff.instrumentName = #"Cello III"
+	\transpose c c { \vc }
       }
 >>
 
