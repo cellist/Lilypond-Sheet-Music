@@ -1,6 +1,6 @@
 va = \relative c' {
   \voiceconsts
-  \clef "treble"
+  \clef "tenor"
 
   \repeat volta 2 {
     c2\f es4-. g-.
@@ -23,7 +23,7 @@ va = \relative c' {
     as g) r8. f,16 h8.( f'16)
 
     es8 g,(\p c es,) r f( as d,)
-    r es( g c,) r d( f h,) \clef "alto"
+    r es( g c,) r d( f h,)
     c2\f es4-. g-.
     c-. es-. r8. es,16 es8(\trill d16 es)
     \times 2/3 { as8 b c b as g f g as g f es }
@@ -34,7 +34,7 @@ va = \relative c' {
     g4( as16 g f? g) as4( d,
 
     es8) es'( d c b a as fis)
-    g4( b) r8 b-. b-. b-. \clef "treble" f'( es) es4 r8 es-. es-. es-.
+    g4( b) r8 b-. b-. b-. f'( es) es4 r8 es-. es-. es-.
     es8(\f f16 g f8) es-. d-. c-. b-. a-.
     c4( b) r es,8-.\p es-.
 
@@ -57,12 +57,12 @@ va = \relative c' {
     es2.(\> g8 f)\!
     es4\p r8 es'(\< d des c ces)\!
     b2(\f h)
-    c?4-. des-^ r2
+    c?4-. des-^ r2 \clef "bass"
 
-    \times 2/3 { c8( f) g,-. as( c) e,-. f( as) h,-. c( f) g,-. } \clef "alto"
+    \times 2/3 { c8( f) g,-. as( c) e,-. f( as) h,-. c( f) g,-. }
     \times 2/3 { as'(\> c) e,-. f( as) h,-. c( f) g,-. as( c) e,-. }
     f4.\f c8( as') f( c') as(
-    f') c(\cresc as') f,( c') as( f') c( \clef "treble"
+    f') c(\cresc as') f,( c') as( f') c( \clef "tenor"
 
     as') f( c') as( f') c( as') f(
     c'4)\f r es r
@@ -70,7 +70,7 @@ va = \relative c' {
     f( es) es2 g?8( f) es4 r r2
     r1
 
-    r4 r8 \clef "alto" b8-.\mp h( c) r es-.
+    r4 r8 b8-.\mp h( c) r es-.
     es-. es,-. es2( g8 f)
     es-.\f es-. es(\trill d16 es) f8-. f-. f(\trill es16 f)
     g8-. g-. g(\trill f16 g) as8-. as-. as(\trill g16 as)
@@ -97,7 +97,7 @@ va = \relative c' {
     f8-. as-. c4~ c8 h( b g)
 
     as4( b16 as g as) c4( e,)
-    f8-. f'( es? des) c( h b g)
+    f8-. f'( es? des) c( h b g) \clef "bass"
     f2\f f4-. c-.
     as-. f-. r2
     \times 2/3 { c''8 d? es d c b a b c b a g }
@@ -111,12 +111,12 @@ va = \relative c' {
     c-. es-. r2
 
     h,4( c h a)
-    h-. d-. r2
+    h-. d-. r2 \clef "tenor"
     f'4-.\p as-. r2
     d,4-. f-. r2
     h,4-.\pp d-. r2
     as?1(
-    g4) r r2\fermata \clef "treble"
+    g4) r r2\fermata
 
     c,\f es4-. g-.
     c-. es-. r8. es16\p es8(\trill d16 es)
@@ -153,13 +153,13 @@ va = \relative c' {
     g'4 g(-. g-. g)-.
     g8( fis f d) g( fis f d)
     c4 r r2
-    r1 \clef "alto"
+    r1 \clef "bass"
 
     f,4.(\< e16 f) g8( f es d)\!
     c2(\> h4)\! r
     R1*2
     g4.(\< fis16 g) as8( g f es)\!
-    d2(\> c4)\! r \clef "treble"
+    d2(\> c4)\! r \clef "tenor"
 
     c''2(\f des)
     c4-. es-^ r8 es(\p d? c)
@@ -170,12 +170,12 @@ va = \relative c' {
     c2.( es8 d)
     c2(\f des)
     c4-. es-^ r8 es(\p d? c)
-    h-. d-. f,4 r8 \clef "alto" as( g f)
-    e-. g-. b,4 r8 des'( c b)
+    h-. d-. f,4 r8 as( g f)
+    e-. g-. b,4 r8 des'( c b) \clef "bass"
 
     \times 2/3 { as(\f c) e, f( as) h, c( f) g, as( c) e, }
     \times 2/3 { f c f as f as c as c f c f }
-    \times 2/3 { as, f as c as c f c f as f as } \clef "treble"
+    \times 2/3 { as, f as c as c f c f as f as } \clef "tenor"
     \times 2/3 { c as c f c f as f as } c g(
 
     as) e(\p f) cis( d) as'( f d)
@@ -197,11 +197,11 @@ va = \relative c' {
 
     \times 2/3 { as' g f es d c h as g f es d }
   }
-  c4 r r2 \clef "alto"
+  c4 r r2
   c2 es4-. g-.
   c-. es-. r2
   r1
-  r2 r4 \times 2/3 { c8 es c }
+  r2 r4 \clef "bass" \times 2/3 { c8 es c }
 
   \times 2/3 { a c a fis a fis es fis es c es c }
   g4 g'2 f16( es d c)

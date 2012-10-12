@@ -1,7 +1,7 @@
 \version "2.14.2"
 \include "deutsch.ly"
 
-#(set-global-staff-size 17)
+#(set-global-staff-size 18.75)
 
 \header {
   title = "Trio in c-moll"
@@ -13,14 +13,14 @@
 voiceconsts = {
   \key c \minor
   \time 4/4
-  \clef "alto"
+  \clef "bass"
 %  \numericTimeSignature
   \set tupletSpannerDuration = #(ly:make-moment 1 4)
   \compressFullBarRests
-  \tempo "Allegro " 4=140
+  \tempo "Allegro " 4=130
 }
 
-%minstr = "harpsichord"
+mipn = "harpsichord"
 mihi = "clarinet"
 %minstr = "accordion"
 milo = "bassoon"
@@ -34,21 +34,21 @@ pizz = \markup \italic "pizz."
 
 music = \new StaffGroup <<
       \new Staff {
-	\set Staff.midiInstrument = \mihi
+	\set Staff.midiInstrument = \mipn
 	\set Staff.instrumentName = #"Cello I"
-	\transpose c c { \va }
+	\transpose c c, { \va }
       }
 
       \new Staff {
-	\set Staff.midiInstrument = \milo
+	\set Staff.midiInstrument = \mipn
 	\set Staff.instrumentName = #"Cello II"
-	\transpose c c { \vb }
+	\transpose c c, { \vb }
       }
 
       \new Staff {
-	\set Staff.midiInstrument = \milo
+	\set Staff.midiInstrument = \mipn
 	\set Staff.instrumentName = #"Cello III"
-	\transpose c c { \vc }
+	\transpose c c, { \vc }
       }
 >>
 
