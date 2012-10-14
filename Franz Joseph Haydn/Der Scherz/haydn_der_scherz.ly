@@ -30,7 +30,7 @@ introc = { \tempo "3. Presto " 4.=140 \time 6/8 }
 gp = \markup \bold \italic "GP"
 
 \include "v1.ily"
-%\include "v2.ily"
+\include "v2.ily"
 %\include "v3.ily"
 %\include "v4.ily"
 
@@ -39,6 +39,12 @@ music = \new StaffGroup <<
 	\set Staff.midiInstrument = \mipn
 	\set Staff.instrumentName = #"Cello I"
 	\transpose c c { \va }
+      }
+
+      \new Staff {
+	\set Staff.midiInstrument = \mipn
+	\set Staff.instrumentName = #"Cello II"
+	\transpose c c { \vb }
       }
 >>
 
