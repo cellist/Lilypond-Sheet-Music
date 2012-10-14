@@ -4,8 +4,9 @@
 #(set-global-staff-size 18)
 
 \header {
-  title = "Quartett Nr. 30 in Es-Dur, op. 33, Nr. 2, Hoboken-Nr. 38"
-  subtitle = "\"Der Scherz\""
+  title = "\"Der Scherz\""
+  subtitle = "aus den \"Russischen Quartetten\" (1781)"
+  subsubtitle = "Quartett Nr. 30 in Es-Dur, op. 33, Nr. 2, Hoboken-Nr. 38"
   composer = "Franz Joseph Haydn (172-1809)"
   arranger = "arr.: Ross A. Cohen"
   enteredby = "cellist (2012-10-14)"
@@ -31,7 +32,7 @@ gp = \markup \bold \italic "GP"
 
 \include "v1.ily"
 \include "v2.ily"
-%\include "v3.ily"
+\include "v3.ily"
 %\include "v4.ily"
 
 music = \new StaffGroup <<
@@ -45,6 +46,12 @@ music = \new StaffGroup <<
 	\set Staff.midiInstrument = \mipn
 	\set Staff.instrumentName = #"Cello II"
 	\transpose c c { \vb }
+      }
+
+      \new Staff {
+	\set Staff.midiInstrument = \mipn
+	\set Staff.instrumentName = #"Cello III"
+	\transpose c c { \vc }
       }
 >>
 
