@@ -1,6 +1,6 @@
 va = \relative c'' {
   \voiceconsts
-  \clef "treble"
+  \clef "tenor"
 
   \introa
   \repeat volta 2 {
@@ -53,7 +53,7 @@ va = \relative c'' {
   }
   \alternative {
     { c4 r8 r4 d8 }
-    { c4 r8 r4 \clef "alto" c8\f }
+    { c4 r8 r4 c8\f }
   }
   b( c) a-. g( a) f-.
   e( f) g-. g4 c8
@@ -95,7 +95,7 @@ va = \relative c'' {
   fis4-- r8 r4.
 
   f?4-- r8 r4.
-  r r4 \clef "treble" e'8
+  r r4 e'8
   e4( f8) d-. e-. f-.
   g( e) c-. c r d
   d4( e8) c-. h-. a-.
@@ -185,13 +185,13 @@ va = \relative c'' {
   f4 r8 \acciaccatura e d(\> c h)-.\!
   c4 r8 r4\fermata r8 \bar "||"
 
-  \introb
-  \partial 8 r16 \clef "alto" a\f
+  \introb \clef "bass"
+  \partial 8 r16 a\f
   a4-> g32(\p f16) r32 e( d16) r32
   g8 r r8. <f, f'>16\f
 
   <f f'>4-> e'32(\p d16) r32 c( h16) r32
-  c8 r r\fermata \clef "treble" e' \bar "||"
+  c8 r r\fermata \clef "tenor" e' \bar "||"
 
   \introc
   e4( f8) d-. e-. f-.

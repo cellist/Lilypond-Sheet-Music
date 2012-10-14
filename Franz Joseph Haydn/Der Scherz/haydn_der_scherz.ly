@@ -1,7 +1,7 @@
 \version "2.14.2"
 \include "deutsch.ly"
 
-#(set-global-staff-size 18)
+#(set-global-staff-size 17.5)
 
 \header {
   title = "\"Der Scherz\""
@@ -14,7 +14,7 @@
 
 voiceconsts = {
   \key c \major
-  \clef "alto"
+  \clef "bass"
 % \numericTimeSignature
   \compressFullBarRests
 }
@@ -33,25 +33,31 @@ gp = \markup \bold \italic "GP"
 \include "v1.ily"
 \include "v2.ily"
 \include "v3.ily"
-%\include "v4.ily"
+\include "v4.ily"
 
 music = \new StaffGroup <<
       \new Staff {
 	\set Staff.midiInstrument = \mipn
 	\set Staff.instrumentName = #"Cello I"
-	\transpose c c { \va }
+	\transpose c c, { \va }
       }
 
       \new Staff {
 	\set Staff.midiInstrument = \mipn
 	\set Staff.instrumentName = #"Cello II"
-	\transpose c c { \vb }
+	\transpose c c, { \vb }
       }
 
       \new Staff {
 	\set Staff.midiInstrument = \mipn
 	\set Staff.instrumentName = #"Cello III"
-	\transpose c c { \vc }
+	\transpose c c, { \vc }
+      }
+
+      \new Staff {
+	\set Staff.midiInstrument = \mipn
+	\set Staff.instrumentName = #"Cello IV"
+	\transpose c c, { \vd }
       }
 >>
 
