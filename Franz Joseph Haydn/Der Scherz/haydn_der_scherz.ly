@@ -7,7 +7,7 @@
   title = "\"Der Scherz\""
   subtitle = "aus den \"Russischen Quartetten\" (1781)"
   subsubtitle = "Quartett Nr. 30 in Es-Dur, op. 33, Nr. 2, Hoboken-Nr. 38"
-  composer = "Franz Joseph Haydn (172-1809)"
+  composer = "Franz Joseph Haydn (1732-1809)"
   arranger = "arr.: Ross A. Cohen"
   enteredby = "cellist (2012-10-14)"
 }
