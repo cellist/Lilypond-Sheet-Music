@@ -1,30 +1,14 @@
 va = \relative c' {
     \voiceconsts
 
-    r2.
-    r
-    r
-    r
-    r
-    r
-    r
-
-    r
-    r
-    r
-    r
-    r
-    r
-    r
+    R2.*14
     a4(\p\<-0\downbow d-1 f)\! \bar "||"\mark \markup { \musicglyph #"scripts.segno" }
 
     e4.\>( d8) d4\!
-    r2.
-    r
+    R2.*2
     a4(-2\downbow d-0-3 a-1)
     b2( b4--)
-    r2.
-    r
+    R2.*2
     d4(-0-3\downbow f,-2 g)
     a4.-2 a8 a4\fermata
 
@@ -38,7 +22,7 @@ va = \relative c' {
 
     d4( a) r
     a(\downbow d-1 f)
-    f(_"cresc." es) r
+    f(_\crsc es) r
     b(\downbow es g)
     g(\< fis) r8\! fis(\downbow
     g4.\f\> f!8 e! d)\!
@@ -53,18 +37,18 @@ va = \relative c' {
     d8(\downbow f e d) cis( d)
     \appoggiatura e d8.( cis16) d4 r
 
-    d-1\downbow_"cresc." f,-1 f'
+    d-1\downbow_\crsc g,-1 f'
     f2( e4)
     e\< a,-0 g'--\!
     g8(_"ritard." f) f( e) e(-3 d)-1
     f( e) d4--( \afterGrace cis--)(\trill {h16[ cis])}
-    d2^"a tempo" r4
+    d2^\atem r4
     r r a\p-2_"II"\upbow
 
     b-- b-- r
     r r a\upbow
     g-- g-- r
-    d'-1\downbow_"I cresc." f,-1 f'
+    d'-1\downbow_"I cresc." g,-1 f'
     f2( e4)
     e\< a, g'--\!
     g8(_"ritard." f) f( e) e( d)
@@ -72,7 +56,7 @@ va = \relative c' {
     f( e) d4--( \afterGrace cis--\trill)({h16[ cis])}
     d2 f,4\f
     g a2
-    d,^"a tempo" r4
+    d,^\atem r4
     r2.
     r
     r^\fermata \bar "||"
@@ -87,16 +71,16 @@ va = \relative c' {
     a8.( g16) g4 r
     g(\downbow c-2_"I" e-4)
     e( d2)
-    a4(_"cresc." d-1 f)
+    a4(_\crsc d-1 f)
     f( e2)
     f8( e h4) a---2_"II"
-    a8( gis) gis4_"dim." r
+    a8( gis) gis4_\dim r
 
     c8(-1\downbow\p d e4 a,-0)
     a8(-2_"II" gis h2)
     c8(-1_"I" d e4 a,)
     gis8(-1 h-4_"II" d2-0-3)
-    d4.(-1_"cresc." e8 f[ e])
+    d4.(-1_\crsc e8 f[ e])
     dis2 dis4(
     e h d!)
 
@@ -105,6 +89,6 @@ va = \relative c' {
     d2.\>
     e8(\!\p f a,4 c8 h)
     a2 r4
-    R2.*3_"dal Segno al Fine"
+    R2.*3_\dsaf
     a4(-0\downbow\p\< d-1 f-4)\! \bar "||"
 }

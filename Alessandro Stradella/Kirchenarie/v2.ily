@@ -1,5 +1,6 @@
 vb = \relative c' {
     \voiceconsts
+    \clef "tenor"
 
     f2.~\pp
     f
@@ -25,13 +26,13 @@ vb = \relative c' {
     r
     g~
     g
-    d4(_"cresc." f g)
+    d4(_\crsc f g)
     a2\sfz r4\fermata
 
     r8 d,\p\< e e f f\!
     r g g g f f
     r f\> f e d e\!
-    r f_"dim." f f f f
+    r f_\dim f f f f
     r d\pp e e f f
     r e e e d d
     r d d cis h cis
@@ -53,26 +54,26 @@ vb = \relative c' {
     r d d d d d
     r d d d d d
 
-    r d_"cresc." d d f f
+    r d_\crsc d d f f
     r f f f e e
     r e\< e e g g\!
-    r f_"colla parte" r e r d
+    r f_\colp r e r d
     r e f f e e
-    d-.\<^"a tempo" f( a\! g\> f e)\!
-    d(\mf^"espressivo" f e d cis d)
+    d-.\<^\atem f( a\! g\> f e)\!
+    d(\mf^\espr f e d cis d)
 
     \appoggiatura e d( cis d4) r
     d8( f e d cis d)
     \appoggiatura e d( cis d4) r
-    r8 d\p_" cresc." d d f f
+    r8 d\p_\crsc d d f f
     r f f f e e
     r e\< e e g g\!
-    r f_"colla parte" r e r d
+    r f_\colp r e r d
 
     r e f f e e
     d2 f,4\f
     g a2
-    d2.^"a tempo"
+    d2.^\atem
     f\>
     e4\!\p f( e)
     d2.\fermata \bar "||"
@@ -87,16 +88,16 @@ vb = \relative c' {
     g( c e)
 
     e( d2)
-    a4(_"cresc." d f)
+    a4(_\crsc d f)
     r8 e e e e e
     r f f f f f
-    e(_"dim." h e d c h)
+    e(_\dim h e d c h)
     c c e2~
     e2.
 
     r8 c e2~
     e2.
-    r8 d_"cresc." d e f e
+    r8 d_\crsc d e f e
     r dis\sfz dis dis dis dis
     e\p e h h d? d
     c c d d e e

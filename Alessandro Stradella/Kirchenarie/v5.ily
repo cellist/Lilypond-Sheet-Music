@@ -25,20 +25,20 @@ ve = \relative c {
     r
     g8( a b a b a
     g fis g4. a8)
-    b2._"cresc."
+    b2._\crsc
     a2\sfz r4\fermata
 
     d2\p r4
     g,2 r4
     c2 r4
-    f,2_"dim" r4
+    f,2_\dim r4
     b2 r4
     e,2 r4
     a2 r4
 
     d,8( cis d cis d cis
     d2) r4
-    d8(_"cresc." cis d cis d cis
+    d8(_\crsc cis d cis d cis
     d2) r4
     d8(\< cis d cis d) d-.\!
     g2\f\> r4\!
@@ -56,9 +56,9 @@ ve = \relative c {
     h2 r4
     c2 r4
     cis2\< r4\!
-    d8_"colla parte" r a r b r
+    d8_\colp r a r b r
     g4 a a
-    d,2^"a tempo" r4
+    d,2^\atem r4
     f2 r4
 
     g2 r4
@@ -67,12 +67,12 @@ ve = \relative c {
     h2 r4
     c2 r4
     cis2\< r4\!
-    d8_"colla parte" r a r b r
+    d8_\colp r a r b r
 
     g4 a a
     b2 f4
     g a2
-    d,8(^"a tempo" e f e f e
+    d,8(^\atem e f e f e
     d' cis d c b a)
     g4 a a
     d,2.\fermata \bar "||"
@@ -87,16 +87,16 @@ ve = \relative c {
     c2) r4
 
     c8( h c h c h
-    c2.)_"cresc."
+    c2.)_\crsc
     h2 c4
     d2 d,4
-    e2_"dim." r4
+    e2_\dim r4
     a2\p r4
     e2 r4
 
     a2 r4
     e2 r4
-    f4._"cresc." e8 d c
+    f4._\crsc e8 d c
     h'2.\sfz
     e,\p
     a4 h c
