@@ -1,7 +1,7 @@
 \version "2.14.2"
 \include "deutsch.ly"
 
-#(set-global-staff-size 18)
+#(set-global-staff-size 17.25)
 
 \header {
   title = "Chaconne"
@@ -13,10 +13,11 @@
 voiceconsts = {
  \key f \major
  \time 3/4
- \clef "alto"
+% \clef "alto"
+ \clef "bass"
 % \numericTimeSignature
  \compressFullBarRests
- \tempo "Allegro " 4=120
+ \tempo "Allegro " 4=130
 }
 
 mipn = "harpsichord"
@@ -24,7 +25,10 @@ mihi = "clarinet"
 %minstr = "accordion"
 milo = "bassoon"
 
-moral = \markup \italic "molto rall."
+cpap = \markup \italic "cresc. poco a poco"
+pesa = \markup \italic " pesante"
+piuf = \markup { \italic "più " \dynamic f }
+rit  = \markup \italic "rit."
 
 \include "v1.ily"
 \include "v2.ily"
@@ -34,19 +38,19 @@ music = \new StaffGroup <<
       \new Staff {
 	\set Staff.midiInstrument = \mipn
 	\set Staff.instrumentName = #"Cello I"
-	\transpose f f { \va }
+	\transpose f f, { \va }
       }
 
       \new Staff {
 	\set Staff.midiInstrument = \mipn
 	\set Staff.instrumentName = #"Cello II"
-	\transpose f f { \vb }
+	\transpose f f, { \vb }
       }
 
       \new Staff {
 	\set Staff.midiInstrument = \mipn
 	\set Staff.instrumentName = #"Cello III"
-	\transpose f f { \vc }
+	\transpose f f, { \vc }
       }
 >>
 
