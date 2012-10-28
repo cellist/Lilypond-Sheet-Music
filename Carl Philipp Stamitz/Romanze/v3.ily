@@ -1,7 +1,6 @@
 vc = \relative c' {
   \voiceconsts
   \clef "bass"
-  \compressFullBarRests
 
   b2( a)
   g( d)

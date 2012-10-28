@@ -15,7 +15,7 @@
 voiceconsts = {
  \key b \major
  \time 4/4
- \clef "bass"
+ \clef "tenor"
 % \numericTimeSignature
  \compressFullBarRests
  \tempo "Andantino " 4=80
