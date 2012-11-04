@@ -1,7 +1,7 @@
 \version "2.14.2"
 \include "deutsch.ly"
 
-#(set-global-staff-size 18)
+#(set-global-staff-size 19)
 
 \header {
   title = "Allegro moderato in C-Dur"
@@ -26,6 +26,7 @@ mihi = "clarinet"
 milo = "bassoon"
 
 arco = \markup \italic "arco"
+fmar = \markup { \dynamic f \italic " (marcato)" }
 pdol = \markup { \dynamic p \italic " dolce" }
 pizz = \markup \italic "pizz."
 
