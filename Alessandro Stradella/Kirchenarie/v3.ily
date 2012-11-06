@@ -25,13 +25,13 @@ vc = \relative c' {
     r
     d~
     d
-    d_"cresc."
+    d_\crsc
     cis2\sfz r4\fermata
 
     r8 d\p\< d d d d\!
     r d d d d d
     r c\> c c c c\!
-    r c_"dim." c c c c
+    r c_\dim c c c c
     r b\pp b b b b
     r b b b b b
     r a a a a a
@@ -53,26 +53,26 @@ vc = \relative c' {
     r a a a a a
     r b b b b b
 
-    r h_"cresc." h h d d
+    r h_\crsc h h d d
     r c c c c c
     r cis\< cis cis e e\!
-    r d_"colla parte" r cis r d
+    r d_\colp r cis r d
     r d d d cis cis
-    d\<^"a tempo" d( f\! e\> d cis\!)
-    r a\mf^"espressivo" a a a a
+    d\<^\atem d( f\! e\> d cis\!)
+    r a\mf^\espr a a a a
 
     r b b b b b
     r f f f f f
     r g g g g g
-    r h\p_"cresc." h h d d
+    r h\p_\crsc h h d d
     r c c c c c
     r cis\< cis cis e e\!
-    r d_"colla parte" r cis r d
+    r d_\colp r cis r d
 
     r d d d cis cis
     d2 f,4
     g a2
-    a2.^"a tempo"
+    a2.^\atem
     d\>
     d4\p d( cis)
     a2.\fermata \bar "||"
@@ -87,16 +87,16 @@ vc = \relative c' {
     g2 r4
 
     a2.
-    a2_"cresc." r4
+    a2_\crsc r4
     r8 d d d c c
     r h h h h h
-    gis2(_"dim." a8 gis)
+    gis2(_\dim a8 gis)
     a[\p a] c( a c a)
     r h d( h) d( h)
 
     r a c[( a c a)]
     r h d[( h) d( h)]
-    r a_"cresc." a a a a
+    r a_\crsc a a a a
     r h\sfz h h h h
     r4 h8\p h h h
     a a a a a a
@@ -105,5 +105,5 @@ vc = \relative c' {
     r a\sfz\> a a a a\!
     a\p a a4 a8( gis)
     a2 r4
-    R2.*4^"dal Segno al Fine" \bar "||"
+    R2.*4^\dsaf \bar "||"
 }
