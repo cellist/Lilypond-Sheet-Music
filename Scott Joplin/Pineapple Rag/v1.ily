@@ -1,5 +1,6 @@
 va = \relative c''' {
   \voiceconsts
+  \clef "tenor"
 
   R2*2
   d16\f d8 cis16 d e f8

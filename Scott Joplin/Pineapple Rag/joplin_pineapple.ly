@@ -35,25 +35,25 @@ music = \new StaffGroup <<
       \new Staff {
 	\set Staff.midiInstrument = \milo
 	\set Staff.instrumentName = #"Cello I"
-	\transpose f f,, { \va }
+	\transpose f a,, { \va }
       }
 
       \new Staff {
 	\set Staff.midiInstrument = \milo
 	\set Staff.instrumentName = #"Cello II"
-	\transpose f f,, { \vb }
+	\transpose f a,, { \vb }
       }
 
       \new Staff {
 	\set Staff.midiInstrument = \milo
 	\set Staff.instrumentName = #"Cello III"
-	\transpose f f,, { \vc }
+	\transpose f a,, { \vc }
       }
 
       \new Staff {
 	\set Staff.midiInstrument = \milo
 	\set Staff.instrumentName = #"Cello IV"
-	\transpose f f,, { \vd }
+	\transpose f a,, { \vd }
       }
 >>
 
