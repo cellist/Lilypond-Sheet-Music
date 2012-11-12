@@ -4,19 +4,18 @@
 #(set-global-staff-size 18.5)
 
 \header {
-  title = "Pineapple Rag"
-  composer = "Scott Joplin (1867-1917)"
+  title = "Allegro con spirito"
+  composer = "Henry Purcell (1659-1695)"
   arranger = "arr.: Steven L. Heitzer"
-  enteredby = "cellist (2012-11-06)"
+  enteredby = "cellist (2012-11-07)"
 }
 
 voiceconsts = {
- \key f \major
- \time 2/4
- \clef "bass"
+ \key g \major
+ \time 3/8
 % \numericTimeSignature
  \compressFullBarRests
- \tempo "Slow March " 4=92
+ \tempo "Allegro " 4.=66
 }
 
 %minstr = "harpsichord"
@@ -24,6 +23,8 @@ mihi = "clarinet"
 %minstr = "accordion"
 milo = "bassoon"
 
+fsub = \markup { \dynamic f \italic " subito" }
+rall = \markup \bold \italic "rall"
 solo = \markup \bold \italic "solo"
 
 \include "v1.ily"
@@ -33,27 +34,27 @@ solo = \markup \bold \italic "solo"
 
 music = \new StaffGroup <<
       \new Staff {
-	\set Staff.midiInstrument = \milo
+	\set Staff.midiInstrument = \mihi
 	\set Staff.instrumentName = #"Cello I"
-	\transpose f a,, { \va }
+	\transpose g f, { \va }
       }
 
       \new Staff {
-	\set Staff.midiInstrument = \milo
+	\set Staff.midiInstrument = \mihi
 	\set Staff.instrumentName = #"Cello II"
-	\transpose f a,, { \vb }
+	\transpose g f, { \vb }
       }
 
       \new Staff {
 	\set Staff.midiInstrument = \milo
 	\set Staff.instrumentName = #"Cello III"
-	\transpose f a,, { \vc }
+	\transpose g f, { \vc }
       }
 
       \new Staff {
 	\set Staff.midiInstrument = \milo
 	\set Staff.instrumentName = #"Cello IV"
-	\transpose f a,, { \vd }
+	\transpose g f, { \vd }
       }
 >>
 

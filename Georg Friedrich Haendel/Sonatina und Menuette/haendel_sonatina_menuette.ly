@@ -1,22 +1,17 @@
 \version "2.14.2"
 \include "deutsch.ly"
 
-#(set-global-staff-size 18.5)
+#(set-global-staff-size 24)
 
 \header {
-  title = "Pineapple Rag"
-  composer = "Scott Joplin (1867-1917)"
-  arranger = "arr.: Steven L. Heitzer"
-  enteredby = "cellist (2012-11-06)"
+  title = "Sonatina, Menuett I+II"
+  composer = "Georg Friedrich Händel (1685-1759)"
+  enteredby = "cellist (2012-11-08)"
 }
 
 voiceconsts = {
- \key f \major
- \time 2/4
- \clef "bass"
 % \numericTimeSignature
  \compressFullBarRests
- \tempo "Slow March " 4=92
 }
 
 %minstr = "harpsichord"
@@ -24,36 +19,26 @@ mihi = "clarinet"
 %minstr = "accordion"
 milo = "bassoon"
 
-solo = \markup \bold \italic "solo"
+introa = { \tempo "1. Sonatina " 4=90 \key c \major \time 4/4 }
+introb = { \break \tempo "2. Menuett Nr. I " 4=140 \key f \major \time 3/4 }
+introc = { \break \tempo "3. Menuett Nr. II " 4=120 }
+
+moral = \markup \italic "molto rall."
 
 \include "v1.ily"
 \include "v2.ily"
-\include "v3.ily"
-\include "v4.ily"
 
 music = \new StaffGroup <<
       \new Staff {
 	\set Staff.midiInstrument = \milo
 	\set Staff.instrumentName = #"Cello I"
-	\transpose f a,, { \va }
+	\transpose c c, { \va }
       }
 
       \new Staff {
 	\set Staff.midiInstrument = \milo
 	\set Staff.instrumentName = #"Cello II"
-	\transpose f a,, { \vb }
-      }
-
-      \new Staff {
-	\set Staff.midiInstrument = \milo
-	\set Staff.instrumentName = #"Cello III"
-	\transpose f a,, { \vc }
-      }
-
-      \new Staff {
-	\set Staff.midiInstrument = \milo
-	\set Staff.instrumentName = #"Cello IV"
-	\transpose f a,, { \vd }
+	\transpose c c, { \vb }
       }
 >>
 
