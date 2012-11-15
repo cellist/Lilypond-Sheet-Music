@@ -2,7 +2,7 @@ va = \relative c {
   \voiceconsts
   \clef "tenor"
 
-  \tempo "1. Allegro con spiritu " 4=120
+  \introa
   \partial 8 g8\mf
   \repeat volta 2 {
     c c c c
@@ -101,7 +101,7 @@ va = \relative c {
     c2
   }  
 
-  \break \tempo "2. Andante e sempre piano " 4=60 \time 3/4
+  \introb
   \repeat volta 2 {
     e,4\p e f
     g2 f16( e d c)
@@ -164,7 +164,7 @@ va = \relative c {
     f2 e4
   }
 
-  \break \tempo "3. Rondo allegretto " 4.=120 \time 6/8
+  \introc
   \repeat volta 3 {
     c\mf c8 e4 e8
     g4 d8 g4 f8

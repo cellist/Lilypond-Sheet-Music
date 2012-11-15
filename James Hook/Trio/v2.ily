@@ -1,7 +1,7 @@
 vb = \relative c {
   \voiceconsts
 
-  \tempo "1. Allegro con spiritu " 4=120
+  \introa
   \partial 8 r8
   \repeat volta 2 {
     r2
@@ -99,7 +99,7 @@ vb = \relative c {
    e2
   }
 
-  \break \tempo "2. Andante e sempre piano " 4=60 \time 3/4
+  \introb
   \repeat volta 2 {
     c4\p c h8.( a16)
     g2 a8 c
@@ -162,7 +162,7 @@ vb = \relative c {
     d2 c4
   }
 
-  \break \tempo "3. Rondo allegretto " 4.=120 \time 6/8
+  \introc
   \repeat volta 3 {
     r2.
     g4\mf g8 h4 h8
