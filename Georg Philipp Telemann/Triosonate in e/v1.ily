@@ -1,6 +1,7 @@
 va = \relative c'' {
   \voiceconsts
-  \clef "treble"
+%  \clef "treble"
+  \clef "tenor"
 
   \introa
   r4 d8 d g, g es' es
@@ -74,4 +75,56 @@ va = \relative c'' {
     a es' d c b a g4~
     g fis\trill g r
   }
+
+  \introc
+  b4 r8 b h4 r8 h
+  c es16( d) es( d) es( d) c4 r
+  es4 r8 es e4 r8 e
+  f a16( g) a( g) a( g) f4 r
+
+  f2 es?
+  d1
+  d8 b' g es c4.\trill d8
+  d1 \bar "||"
+
+  \introd
+  R2.*3
+  r8 g g f f16( es) d( c)
+  b8 d d c c16( b) a( g)
+  fis8 b b a16( g) fis4\trill
+
+  g8 g'16( f?) es( d) es4 r8
+  r f16( es) d( c) d4 r8
+  r b'16( a) g( f) e8 a16( g) f( e)
+  f8 d' d c c16( b) a( g)
+
+  f8 a a g g16( f) e( d)
+  cis8 f f e16( d) cis4\trill
+  d8 f f f c?16( d) es?( f)
+  d4 r8 r4.
+  r8 g g g f16( es) f( d)
+
+  es4 r8 r4.
+  c d
+  es f
+  g f16( es) d4\trill
+  c r8 r es16( f) d( es)
+
+  c8 f16( g) es( f) d( c) d( es) c d
+  b4. c
+  d es~
+  es8 c d~ d16 es c8.\trill b16
+  b8 d f b4 r8
+
+  r e, g c4 r8
+  r fis, a d4 r8
+  r g, g f f16( es) d( c)
+  b4. c
+  d c16( b) a4\trill
+
+  g r8 r g16( a) g( fis)
+  g4. a
+  b8 d d c c16( b) a( g)
+  fis8 b b a16( g) fis4\trill
+  g4. r \bar "|."
 }

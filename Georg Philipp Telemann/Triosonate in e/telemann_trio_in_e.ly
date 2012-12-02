@@ -1,7 +1,7 @@
 \version "2.14.2"
 \include "deutsch.ly"
 
-#(set-global-staff-size 18)
+#(set-global-staff-size 16.25)
 
 \header {
   title = "Triosonate in e-moll"
@@ -24,6 +24,8 @@ milo = "bassoon"
 
 introa = { \tempo "1. Andante " 4=50 }
 introb = { \break \tempo "2. Vivace " 4=100 }
+introc = { \break \tempo "3. Grave " 4=40 }
+introd = { \break \tempo "4. Vivace " 4.=63 \time 6/8 }
 
 moral = \markup \italic "molto rall."
 
@@ -33,21 +35,21 @@ moral = \markup \italic "molto rall."
 
 music = \new StaffGroup <<
       \new Staff {
-	\set Staff.midiInstrument = \mihi
+	\set Staff.midiInstrument = \milo
 	\set Staff.instrumentName = #"Cello I"
-	\transpose g g { \va }
+	\transpose g e, { \va }
       }
 
       \new Staff {
 	\set Staff.midiInstrument = \milo
 	\set Staff.instrumentName = #"Cello II"
-	\transpose g g { \vb }
+	\transpose g e, { \vb }
       }
 
       \new Staff {
 	\set Staff.midiInstrument = \milo
 	\set Staff.instrumentName = #"Cello III"
-	\transpose g g { \vc }
+	\transpose g e, { \vc }
       }
 >>
 
