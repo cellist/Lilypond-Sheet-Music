@@ -150,4 +150,99 @@ vb = \relative c' {
   d4( <cis e> d <cis e>
   d8) d-.\f fis-. d-. a-. d-. fis,-. a-.
   d,2 r \bar "|."
+
+  \introb
+  \repeat volta 2 {
+    r2.
+    a'4(\downbow\p h8 \acciaccatura d cis h a)
+    d4.( g,)
+    a8( b? gis a g e)
+    d4 r8 r4 r8
+    a'4(\downbow h8 \acciaccatura d cis h a)
+
+    d4 f,8-. g4( a8)
+    d,( f a) d4 r8
+  }
+  \repeat volta 2 {
+    <d, a'>(\downbow <f a>) <f a>-. <d a'>( <f a>) <f a>-.
+    <e a>( <g a>) <g a>-. <e a>( <g a>) <g a>-.
+    <d a'>( <f a>) <f a>-. <d a'>( <f a>) <f a>-.
+    <cis a'>( <e a>) <e a>-. <cis a'>( <e a>) <e a>-.
+
+    <d a'>( <f a>) <f a>-. <d a'>( <f a>) <f a>-.
+    <e c'?>(\< <g c>) <g c>-. c,( <g' b>) <g b>-.\!
+    c,(\mf <f a>) <f a>-. c( <e b'>) <e b'>-.
+    f( a c) a( g f)
+    e-.\p a-. cis-. e,-. a-. cis-.
+
+    d,-. f-. a-. d,-. f-. a-.
+    g( b) b-. f( b) b-.
+    e,-.\< b'( a) f-. b( a)\!
+    g(\> b) b-. f( b) b-.\!
+    f-. b( a) f-.\mf b( a)
+
+    cis,-. e-. a-. d,-. f-. a-.
+    d( a d) cis(\> a cis)\!
+    d4 r8 r4 r8
+    a4(\p h8 \acciaccatura d cis h a)
+    d4 f,8-. g4( a8)
+    d,( f a) d4 r8
+  } \key d \major
+  \repeat volta 2 {
+    <d, a'>-._\dolc\downbow <d a'>-. <d a'>-. <d a'>4-. r8
+    <cis a'>-. <cis a'>-. <cis a'>-. <cis a'>4-. r8
+    d(\< e fis)\! g(\> h g)\!
+    fis( a cis) d( a fis)
+    <d a'>-. <d a'>-. <d a'>-. <d a'>4 r8
+    <e d'>-.\< <e d'>-. <e d'>-. <e d'>4\! r8
+
+    <e cis'>4\mf r8 <e d'>-. <e d'>-. <e d'>-.
+    <e cis'>-. e'( cis) a4 r8
+  }
+  \repeat volta 2 {
+    d( a fis') d4.
+    cis8( a e') cis4.
+    d4(\< fis,8)\! g4(\> h8)\!
+    <fis a>4.( <e a>4) r8
+    <d a'>-.\downbow <d a'>-. <d a'>-. <d a'>4 r8
+
+    <cis a'>-.\< <cis a'>-. <cis a'>-. <cis a'>4\! r8
+    <d a'>4\mf r8 <g a>-. <g a>-. <g a>-.
+    <fis a>-. <fis a>-. <fis a>-. <fis a>4 r8    
+  } \key d \minor
+  r2.
+  a4(\downbow\p h8 \acciaccatura d cis h a)
+  d4.( g,)
+  a8( b? gis a g e)
+
+  d4 r8 r4 r8
+  a'4(\downbow h8 \acciaccatura d cis h a)
+  d4 f,8-. g4( a8)
+  d,( f a) d4 r8
+  <d, a'>( <f a>) <f a>-. <d a'>( <f a>) <f a>-.
+  <e a>( <g a>) <g a>-. <e a>( <g a>) <g a>-.
+
+  <d a'>( <f a>) <f a>-. <d a'>( <f a>) <f a>-.
+  <cis a'>( <e a>) <e a>-. <cis a'>( <e a>) <e a>-.
+  <d a'>( <f a>) <f a>-. <d a'>( <f a>) <f a>-.
+  <e c'?>(\< <g c>) <g c>-. c,( <g' b>) <g b>-.\!
+  c,(\mf <f a>) <f a>-. c( <e b'>) <e b'>-.
+  a( c b) a( g f)
+
+  e-.\p a-. cis-. e,-. a-. cis-.
+  d,-. f-. a-. d,-. f-. a-.
+  g( b) b-. f( b) b-.
+  e,-.\< b'( a) f-. b( a)\!
+  g(\> b) b-. f( b) b-.\!
+  e,-. b'( a) f-.\mf b( a)
+  cis,-. e-. a-. d,-. f-. a-.
+
+  d4.( cis4) r8
+  r2.
+  a4(\downbow\p h8 \acciaccatura d cis h a)
+  d4 f,8-. g4( a8)
+  f( a d) cis( e a,)
+  d4(\cresc f,8) g( b g)
+  <f a>4 r8 <a g'>4\downbow\f r8
+  <d, a' f'>4\downbow r8 r4 r8 \bar "|."
 }

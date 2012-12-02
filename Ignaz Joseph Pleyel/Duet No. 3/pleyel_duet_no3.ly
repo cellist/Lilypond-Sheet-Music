@@ -1,7 +1,7 @@
 \version "2.14.2"
 \include "deutsch.ly"
 
-#(set-global-staff-size 17)
+#(set-global-staff-size 16.3)
 
 \header {
   title = "Duett Nr. 3"
@@ -13,8 +13,8 @@
 
 voiceconsts = {
  \key d \minor
- \clef "alto"
-% \clef "bass"
+% \clef "alto"
+ \clef "bass"
 % \numericTimeSignature
  \compressFullBarRests
 }
@@ -24,14 +24,11 @@ mihi = "clarinet"
 %minstr = "accordion"
 milo = "bassoon"
 
-atem = \markup \italic "a tempo"
-crsc = \markup \italic "cresc."
 dolc = \markup \italic "dolce"
 pdol = \markup {\dynamic p \italic " dolce" }
-uprt = \markup \italic "un poco rit."
 
 introa = { \tempo "1. Allegro " 4=140 \time 4/4 }
-introb = { \break \tempo "2. Rondo - Allegretto " 4=120 \time 2/4 }
+introb = { \tempo "2. Andantino grazioso " 4.=60 \time 6/8 \key d \minor }
 
 \include "v1.ily"
 \include "v2.ily"
@@ -40,13 +37,13 @@ music = \new StaffGroup <<
       \new Staff {
 	\set Staff.midiInstrument = \milo
 	\set Staff.instrumentName = #"Cello I"
-	\transpose d d { \va }
+	\transpose d d, { \va }
       }
 
       \new Staff {
 	\set Staff.midiInstrument = \milo
 	\set Staff.instrumentName = #"Cello II"
-	\transpose d d { \vb }
+	\transpose d d, { \vb }
       }
 >>
 

@@ -148,4 +148,101 @@ va = \relative c' {
   << { fis'4( g fis g) } \\ a,1 >>
   <a fis'>4-. r <fis' d'>-.\downbow\f <fis d'>-.
   <fis d'>2 r \bar "|."
+
+  \introb
+  \repeat volta 2 {
+    d4(\p e8 \acciaccatura g f e d)
+    a'4.( g)
+    f8( a f e g e)
+    d4.( cis4) r8
+    d4( e8 \acciaccatura g f e d)
+    a'4.( g)
+
+    f8\(( a) d,\)-. \acciaccatura f e( d cis)
+    d( a f') d4 r8
+  }
+  \repeat volta 2 {
+    f4.( \acciaccatura g8 f e d)
+    cis4.( a)
+    d( \acciaccatura g8 f e d)
+
+    a'4.~ a4 r8
+    f4.( \acciaccatura g8 f e d)
+    c?4.(~\< c8 d e)\!
+    f4.(\mf g8 a g)
+    f4 r8 r4 r8
+
+    a4.(~\p a8 g e)
+    f4.( d)
+    es( d)
+    cis(\< d8 cis d)\!
+    es4.(\> d)\!
+    cis4.( d8\mf f a)
+    a( g e? g f d)
+
+    <a f'>4.( <a e'>4) r8
+    d4(\downbow\p e8 \acciaccatura g f e d)
+    a'4.( g)
+    f8\(( a) d,\)-. \acciaccatura f e( d cis)
+    d( a f') d4 r8
+  } \key d \major
+  \repeat volta 2 {
+    fis4._\dolc a8( fis d)
+    e4.\< a8( g fis)
+    fis( g a)\! h(\> d h)\!
+    a4( g8) fis4-. r8
+    fis4. a8( fis d)
+
+    gis4.\< e'8( d h)\!
+    e(\mf cis a) e( fis gis)
+    a4.~ a4 r8
+  }
+  \repeat volta 2 {
+    a4.\downbow fis8( d' a)
+    g?4. e8(\< e' g,)
+
+    fis( a d)\! h(\> g e)\!
+    d4.( cis4) r8
+    fis4.\downbow a8( fis d)
+    e4.\< a8( g e)\!
+    a(\mf fis d) a( h cis)
+    d( a fis') d4 r8
+  } \key d \minor
+
+  d4(\p e8 \acciaccatura g f e d)
+  a'4.( g)
+  f8( a f e g e)
+  d4.( cis4) r8
+  d4( e8 \acciaccatura g f e d)
+
+  a'4.( g)
+  f8( a d,) \acciaccatura f e( d cis)
+  d( a f') d4 r8
+  f4.( \acciaccatura g8 f e d)
+  cis4.( a)
+
+  d( \acciaccatura g8 f e d)
+  a'4.~ a4 r8
+  f4.( \acciaccatura g8 f e d)
+  c?4.(~\< c8 d e)\!
+  f4.(\mf g8 a g)
+  f4 r8 r4 r8
+
+  a4.(~\p a8 g e)
+  f4.( d)
+  es( d)
+  cis(\< d8 cis d)\!
+  es4.(\> d)\!
+
+  cis4.( d8\mf f a)
+  a( g e? g f d)
+  <a f'>4.( <a e'>4) r8
+  d4(\downbow\p e8 \acciaccatura g f e d)
+  a'4.( g)
+
+  f8\(( a) d,\)-. \acciaccatura f e( d cis)
+  a'4.( g)
+  f8(\cresc a d) b( g e)
+  a4-. r8 <a, e' cis'>4-.\downbow\f r8
+  <d, a' f' d'>4-.\downbow r8 r4 r8 \bar "|."
 }
