@@ -1,7 +1,7 @@
 \version "2.14.2"
 \include "deutsch.ly"
 
-#(set-global-staff-size 17)
+#(set-global-staff-size 16)
 
 \header {
   title = "Sinfonia"
@@ -21,8 +21,9 @@ mihi = "clarinet"
 %minstr = "accordion"
 milo = "bassoon"
 
-introa = { \tempo "1. Allegro " 8=180 \time 4/4 }
-introb = { \break \tempo "2. Adagio " 4=50 \time 3/4 }
+introa = { \tempo "1. Allegro " 4=90 \time 4/4 }
+introb = { \pageBreak \tempo "2. Adagio " 4=50 \time 3/4 }
+introc = { \pageBreak \tempo "3. Allegro " 4=90 \time 4/4 }
 
 cpap = \markup \italic "cresc. poco a poco"
 dolc = \markup \italic "dolce"
@@ -40,25 +41,25 @@ music = \new StaffGroup <<
       \new Staff {
 	\set Staff.midiInstrument = \mihi
 	\set Staff.instrumentName = #"Cello I"
-	\transpose d d { \va }
+	\transpose d g, { \va }
       }
 
       \new Staff {
 	\set Staff.midiInstrument = \mihi
 	\set Staff.instrumentName = #"Cello II"
-	\transpose d d { \vb }
+	\transpose d g, { \vb }
       }
 
       \new Staff {
 	\set Staff.midiInstrument = \milo
 	\set Staff.instrumentName = #"Cello III"
-	\transpose d d { \vc }
+	\transpose d g, { \vc }
       }
 
       \new Staff {
 	\set Staff.midiInstrument = \milo
 	\set Staff.instrumentName = #"Cello IV"
-	\transpose d d { \vd }
+	\transpose d g, { \vd }
       }
 >>
 

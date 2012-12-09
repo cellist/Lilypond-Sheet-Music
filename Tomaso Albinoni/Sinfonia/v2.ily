@@ -1,12 +1,12 @@
 vb = \relative c'' {
   \voiceconsts
-  \clef "treble"
+  \clef "tenor"
 
   \introa
   \partial 8 r8
   r4 r8 a\mf cis e cis h16 a
   fis'8\< e d d\! cis\> cis16 d\! e a, g a
-  fis4\cresc r8 \clef "alto" a d, h' r h
+  fis4\cresc r8 a d, h' r h
 
   e, cis' r cis d fis, a fis
   fis'\f d a d h g h d
@@ -69,7 +69,7 @@ vb = \relative c'' {
   fis a d, c' c\prall h16( a) h4
   g, g cis? r
   h h h r
-  e cis a' r8 \clef "treble" fis'\p
+  e cis a' r8 fis'\p
 
   e4 d\trill cis16 e d cis d fis e d
   g8 a, fis' a, e' a, d a
@@ -79,7 +79,7 @@ vb = \relative c'' {
   cis,4 r8 a'\mf d a fis e16( d)
   a' h cis d e8 d16 cis fis8\< e d d\!
 
-  cis\> cis16 d e a, g a\! fis4\p r8 \clef "alto" a
+  cis\> cis16 d e a, g a\! fis4\p r8 a
   d,\< h' r h e, cis' r cis\!
   d\f fis, a fis fis' d a d
 
@@ -100,12 +100,12 @@ vb = \relative c'' {
   fis16(\p\< ais gis fis) ais( cis h ais) cis( e d cis)\!
 
   e4.\mp\< e8 d( cis)\!
-  d4_\psub r r \clef "treble"
+  d4_\psub r r
   fis,\mp\< fis fis\!
   e16(\p\< g fis e) g( h a g) cis( e d cis)\!
 
   g'4.\mp\< g8 fis( e)\!
-  fis4\p r r \clef "alto"
+  fis4\p r r
   h,,\mf h' g
   e\< a, d~\!
   d\f d4.( cis8)
@@ -133,4 +133,102 @@ vb = \relative c'' {
   d4 r fis16( ais gis fis)
   h4\> e,4.( fis8)\!
   fis2.\p\fermata \bar "|."
+
+  \introc
+  a2\f d,4 fis
+  e8 fis16 g a8 cis, d fis16 g a8 d,
+  e fis16 g a8 cis, d e16 fis g4(~
+  g8 fis) e4\trill d8 fis a d,
+
+  cis16 e fis gis a h cis d e8 e e e
+  e e e e e e e e
+  e d16 cis h( cis) a( h) gis8 a4( gis8)
+  a4 a2 g?4~
+
+  g8 fis16 e fis8 g16 fis e4 a
+  fis d e cis8 d16 e
+  fis8 a a fis g fis e a
+  a g16 fis h8 e,16 d cis8 a' g4\trill
+
+  fis8 d fis d e fis16 gis a4~
+  a8 gis16 fis gis8 fis16 e fis4. h8
+  e, a4( gis8) a4 r8 a
+  h4 r8 h cis a16 h cis8 a
+
+  a gis16 fis gis8 e' a, e fis fis,
+  h\> cis d e cis d4( cis8)\!
+  d\mp a'16 g fis g a h e,4 cis8 d16 e
+  fis8 a e d'-> cis->\< fis, e a,\!
+
+  a' g16 fis h8\> e,16 d cis8( a') g4\trill\!
+  fis16\mp fis\< gis a\! h\> a gis fis\! gis8 a h gis
+  a cis d h cis\> a h gis
+  a fis gis e fis16 gis a4( gis8)\!
+
+  a4\p a2 g?4~
+  g8 fis16 e fis8\< d e fis16 g a g fis e\!
+  fis8\mp d d'2 cis4
+  h a g fis8 e
+  d\< g16 fis e8 e'16 d cis4\! d~\f
+
+  d8 cis16 h cis4~ cis8\> h16 ais h4(~\!
+  h\p ais) h r
+  fis8\f ais cis ais h4 r
+  fis8\p ais cis ais h4 r
+
+  e16\f h gis h e d cis h cis e a, e a h cis a
+  e'\p h gis h e d cis h cis( d) h( cis) a( h) g( a)
+  fis4\mp r a,\cresc a
+
+  a fis'8 d d4 e
+  e\f d a a
+  a d e cis8 d16 e
+  fis8 a4 fis8 g fis e4\trill
+  d8 g16 fis e d cis h a8 d4( cis8)
+
+  d16\dim a' h d, e g a cis, d fis g h, cis e fis a,
+  h d e gis, a cis d fis, gis8\p a4( gis8)
+  a16\< e' fis gis a h cis d\! e8\f e e e
+
+  e e e e e e e e
+  e d16 cis h( cis) a( h) gis8 a4( gis8)
+  a4 r r2
+  r a\mf
+  fis4 fis e8 fis16 g? a8 cis,
+
+  d fis16 g a8 d, e fis16 g a8 cis,
+  d e16 fis g4~\> g8 fis16 e fis8 e16 d\!
+  e4\mp a~\cresc a8 g16 fis g8 fis16 e
+  fis4 h~ h8 a16 gis a8 gis16 fis
+
+  gis4 cis2 h4~
+  h a gis2\trill\f
+  fis8 cis gis' eis fis cis cis4
+  fis8 cis h h h4 h
+  gis'16 e? gis h e h e d cis a cis d e h e d
+
+  cis8 a, e' a, a a4 a8
+  d fis d g g4\> fis
+  a2\! d,4\p\< <fis a>\!
+  a8\!\f fis16 g a8 cis, d fis16 g a8 d,
+  e fis16 g a8 cis, d e16 fis g4~
+
+  g8 fis e4\trill d8 d fis d
+  e\< fis16 gis a h cis d\! e8_\piuf e e e
+  e e e e e e e e
+  e d16 cis h( cis) a( h) gis8 a4( gis8)
+
+  a4 a2\mp g?4~
+  g8 fis16 e fis8 g16 fis e4( a)
+  fis d e cis8 d16 e
+  fis8\< a a fis g fis e4\trill\!
+
+  d8\f g16 fis e d cis h a8 d4( cis8)
+  d4\cresc r8 h'~ h16 g fis e fis g a8~
+  a16 fis e d e fis g8~ g\ff fis16 e fis8 d'
+
+  cis4 d\trill e8 cis d a
+  e' a, fis'-> e16 d cis8 a r d
+  cis4_\rall d\trill cis8 a16 g fis8 g16 fis
+  e2 fis\fermata \bar "|."
 }

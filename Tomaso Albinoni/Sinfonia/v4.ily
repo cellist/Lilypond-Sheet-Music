@@ -1,6 +1,6 @@
 vd = \relative c' {
   \voiceconsts
-  \clef "alto"
+  \clef "bass"
 
   \introa
   \partial 8 r8
@@ -131,4 +131,92 @@ vd = \relative c' {
   h16( d cis h) d8( cis16 h) ais4(
   h)\> g2\!
   fis2.\p\fermata \bar "|."
+
+  \introc
+  R1*8
+  r2 a\f
+  d,4 fis e8 fis16 g a8 cis,
+  d fis16 g a8 d, e fis16 g a8 cis,
+
+  d e16 fis g4(~ g8 fis) e4
+  d d' cis a
+  e'2 h4. gis8
+  a a e' e, a4 a~
+  a gis8 e' cis4 a
+
+  e e' cis8 h16 a d8 d,
+  e\> a h e, a2\!
+  d,4\mp fis e8 fis16 g a8 cis,
+  d fis16 g a8 d, e\< fis16 g a8 cis,\!
+
+  d e16 fis g4(~\> g8 fis) e4\!
+  d\mp d'8 h e,4 gis8 e'
+  a a,4 gis\> fis e8~
+  e d4 cis'8 h a e' e,\!
+
+  a4\p r8 cis d fis, g? e
+  a cis,\< d2 cis4\!
+  d2\mp a'
+  h4 fis g8 e a a16 g
+  fis8\< h g e a4\! d,\f
+
+  a' ais\> h g\!
+  e\p fis h r
+  ais\f fis <h d> r
+  ais\p fis <h d> r
+  gis\f e a r
+
+  gis\p e a cis
+  d\mp r cis\cresc a
+  d, fis g e
+  a2\f a
+  d,8 a' fis4 e8 fis16 g a8 cis,
+
+  d fis16 g a8 d, e fis16 g a8 cis,
+  d e16 fis g4~ g8 fis e4
+  d8\dim d'4 cis h a8~
+  a gis4 fis8 e\p a e' e,
+
+  a4\< a\! gis8\f fis gis e
+  cis' h cis a gis fis gis e
+  cis' h16 a d8 cis16 h e8 a, e' e,
+  a4 a2\mf g?4~
+
+  g fis8 g a4 a
+  h d, cis'8 h cis a
+  fis e fis d cis' h cis a
+  fis e16 d g8\> fis16 e a4 d,\!
+  a'2\mp e4\cresc e
+
+  h'2 fis
+  cis4~ cis8 cis' d cis d h
+  cis cis d a h\f gis cis, cis'
+  fis,4 eis8 cis fis4 r8 cis'
+
+  a'16 fis gis a h fis h a gis e? gis a h fis h a
+  e8 h gis e a4 gis
+  a8 a4 a8 d,4 cis
+  d g? a8\> cis d d,
+
+  a'2\! d,4\p fis16\< g a h\!
+  cis8\f h cis a fis e fis d
+  cis' h cis a fis d16 cis g'8 fis16 e
+  a8 d, a'4 d, d
+
+  cis'\< a\! gis8_\piuf fis gis e
+  cis' h cis a gis fis gis e
+  cis' h16 a d8 cis16 h e8 a, e' e,
+  a4 r r2
+
+  r a\mp
+  d,4 fis e8 fis16 g? a8 cis,
+  d\< fis16 g a8 d, e fis16 g a8 cis,\!
+  d\f e16 fis g4~ g8 fis e4
+
+  d\cresc g cis, fis
+  h e, a2~\ff
+  a1
+  a~
+  a2._\rall d,4
+  a'2 d,\fermata \bar "|."
 }
