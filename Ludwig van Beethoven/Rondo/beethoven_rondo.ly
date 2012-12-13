@@ -1,7 +1,7 @@
 \version "2.14.2"
 \include "deutsch.ly"
 
-#(set-global-staff-size 16)
+#(set-global-staff-size 18.5)
 
 \header {
   title = "Rondo"
@@ -15,8 +15,8 @@ voiceconsts = {
  \key g \major
  \time 6/8
  \tempo "Allegro " 4.=90
- \clef "alto"
-% \clef "bass"
+% \clef "alto"
+ \clef "bass"
 % \numericTimeSignature
  \compressFullBarRests
  \set tupletSpannerDuration = #(ly:make-moment 1 4)
@@ -40,19 +40,19 @@ music = \new StaffGroup <<
       \new Staff {
 	\set Staff.midiInstrument = \mihi
 	\set Staff.instrumentName = #"Cello I"
-	\transpose g g { \va }
+	\transpose g g, { \va }
       }
 
       \new Staff {
 	\set Staff.midiInstrument = \milo
 	\set Staff.instrumentName = #"Cello II"
-	\transpose g g { \vb }
+	\transpose g g, { \vb }
       }
 
       \new Staff {
 	\set Staff.midiInstrument = \milo
 	\set Staff.instrumentName = #"Cello III"
-	\transpose g g { \vc }
+	\transpose g g, { \vc }
       }
 >>
 

@@ -1,6 +1,5 @@
 va = \relative c' {
   \voiceconsts
-%  \clef "tenor"
 
   r4 d8-.\p d-.\< g-.\upbow a-.\upbow\!
   h(\> g) e-.\! e-.\< a-.\upbow h-.\upbow\!
@@ -39,7 +38,7 @@ va = \relative c' {
   g,( c g c g c) c( es c es c es)
   d4 r8 r4.
   r2.
-  r4. \clef "treble" \acciaccatura es'16 d8(\downbow_\dolc c d)
+  r4. \acciaccatura es'16 d8(\downbow_\dolc c d)
   es4. \acciaccatura d16 c8(\< b c)
   f4.(~ f8\!\> es d)\!
   c( d) b-. a( b) g-.
@@ -48,7 +47,7 @@ va = \relative c' {
 
   \acciaccatura d16 c8( h c) f,( b c)\!
   \acciaccatura es16 d8( c d)\> es( f g)
-  c,4.\! \clef "alto" f,8-.\upbow\p f-.\upbow f~
+  c,4.\! f,8-.\upbow\p f-.\upbow f~
   f f-. f-. f-.\upbow f-.\upbow f~
   f f-. f-. f-.\upbow f-.\upbow f~
   f f-. f-. r e-. e-.
@@ -57,7 +56,7 @@ va = \relative c' {
   d8( f) f-.\upbow f-.\< f-. f~
   f f-. f-. f-. f-. f-.\!
   es(\> g,) c-.\! f(\p d) es-.
-  d4. \clef "treble" \acciaccatura c'16 b8( a) b-.\upbow
+  d4. \acciaccatura c'16 b8( a) b-.\upbow
   f'4(\< f8)-. f4( f8)-.\!
 
   f4(\> e8)\! \acciaccatura d16 c8(\p h) c-.
@@ -66,7 +65,7 @@ va = \relative c' {
   es4. \acciaccatura d16 c8( h\< c)
   f4.~ f8 fis( g)\!
   b,?\(~\p \times 4/5 { b16\< c b a b\)\! } d4(\> c8)\!
-  b4. r \clef "alto"
+  b4. r
 
   d,8(\< f) f-. des( f) f-.\!
   c(\> g') g~\! g g-. g-.
@@ -115,13 +114,13 @@ va = \relative c' {
   a4 r8 r fis-.\upbow\< g-.
   a-. h-. c-.\! d,4\> d8-.\!
   g4 r8 r c'-.\upbow\p h-.
-  a-. g-. fis-. \clef "treble" h( e) dis-.
+  a-. g-. fis-. h( e) dis-.
   fis( e) a-. g-. f-. e-.
   d?-. c-. d-.\f g,( c) h-.
 
   d( c) c-. e,( a) gis-.
   h( a) a-. d,( g?) fis-.
-  a( g) g-. d(-> cis) cis-. \clef "alto"
+  a( g) g-. d(-> cis) cis-.
   d\p d-. d-. d-.\upbow d-.\upbow d~
   d d-. d-. d-.\upbow d-.\upbow d~
   d d-. d-. d-.\upbow d-.\upbow d~
@@ -168,10 +167,10 @@ va = \relative c' {
   h( a) e-. e-. a-.\upbow h-.\upbow
   c( a) e'-. d-. c-.\upbow h-.\upbow
 
-  a( g)-. r r \clef "treble" e'-.\f g-.
+  a( g)-. r r e'-.\f g-.
   fis(\sf g) e-.\p d-. c-.\upbow h-.\upbow
   a( g) r r e'-\f g-.
-  fis(\sf g) r \clef "alto" gis,(\p a) r
+  fis(\sf g) r gis,(\p a) r
   ais(\< h) r h( c)\! r
   c4.(~\fp^\rall c4 h8
 

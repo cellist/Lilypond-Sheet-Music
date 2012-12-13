@@ -1,6 +1,5 @@
 vb = \relative c' {
   \voiceconsts
-%  \clef "tenor"
 
   r4. r8 d-.\p c-.
   h4 r8 r e-. d-.
@@ -48,7 +47,7 @@ vb = \relative c' {
    d( f) f-. f-.\< f-. f~
    f f-. f-. f-. f-. f-.\!
    b,( d f) es(\> c g)
-   a( f')\! f-. \clef "treble" \acciaccatura es'16 d8(\p c d)
+   a( f')\! f-. \acciaccatura es'16 d8(\p c d)
    es4. \acciaccatura d16 c8(\< h c)
 
    f4.(~\! f8\> es d)\!
@@ -58,7 +57,7 @@ vb = \relative c' {
    \acciaccatura d16 c8( h c) \acciaccatura es16 d8( c d)\!
 
    es(\> f g)\! b,4(\p d16 c)
-   b4. r \clef "alto" <d, b'>(\< <f h>)\!\>
+   b4. r <d, b'>(\< <f h>)\!\>
    c'\! r
    c(\< <ges c>)\!\>
    b?\! r8 f-.\upbow\p f~

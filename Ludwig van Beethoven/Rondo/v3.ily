@@ -1,6 +1,5 @@
 vc = \relative c' {
   \voiceconsts
-%  \clef "tenor"
 
   r4. r8 h-.\p a-.
   g4 r8 r c-. h-.
@@ -27,7 +26,7 @@ vc = \relative c' {
   g) fis(\!
 
   g)\f g(
-  a4)\> cis8-. d,4\! \clef "treble" d''8-.\p
+  a4)\> cis8-. d,4\! d''8-.\p
   \acciaccatura es16 d8(-> cis) d-. \acciaccatura es16 d8(->\< cis) d-.
   \acciaccatura es16 d8(-> cis) d-.\! \acciaccatura f16 es8(->\f d) es-.
   f4.~\p f8 es-.\upbow d-.\upbow
@@ -37,7 +36,7 @@ vc = \relative c' {
   \acciaccatura d16 c8-.->\< h-. c-.\! es-.\> c-. a-.\!
   b?(\< d c\! b\> a g)
   f( e f) fis( g es)\!
-  d4. \clef "alto" b(
+  d4. b(
 
   c) es(
   d) b(
@@ -64,7 +63,7 @@ vc = \relative c' {
   c( es)\<
   d es,(\!
   f)\p f(
-  b) \clef "treble" \acciaccatura c'16 b8(\downbow a) b-.
+  b) \acciaccatura c'16 b8(\downbow a) b-.
   f'4(\< f8)-. f4( f8)-.\!
   f4(\> e8)\! \acciaccatura d16 c8( h) c-.\upbow
   es?4(\< es8)-. es4( es8)-.\!
@@ -73,7 +72,7 @@ vc = \relative c' {
   es4.\< \acciaccatura d16 c8( h c)
   f4.~\! f8\f fis( g)
   b,?\(~\p \times 4/5 { b16\< c b a b\!\) } d4(\> c8)\!
-  b4 \clef "alto" d,8-.\f \acciaccatura es16 d8( cis) d-.
+  b4 d,8-.\f \acciaccatura es16 d8( cis) d-.
   es4\sf d8-. c?-. b-.\upbow a-.\upbow
 
   d4\sf c8-. b-. a-.\upbow g-.\upbow
@@ -81,7 +80,7 @@ vc = \relative c' {
   g4.\p fis(\<
   g) fis(\!
   g)\f g(
-  a4)\> cis8-.\upbow d,4\! \clef "treble" d''8-.\p
+  a4)\> cis8-.\upbow d,4\! d''8-.\p
   \acciaccatura es16 d8(-> cis) d-. \acciaccatura es16 d8(->\< cis) d-.
 
   \acciaccatura es16 d8(-> cis) d-.\! \acciaccatura f16 es8(\f d) es-.
@@ -92,7 +91,7 @@ vc = \relative c' {
   g4 r8^\rall r4.
   r2.
 
-  r4\breathe r8^\atem r \clef "alto" h,-.\p a-. \bar "||" \key g \major
+  r4\breathe r8^\atem r h,-.\p a-. \bar "||" \key g \major
   g4 r8 r c-. h-.
   a4 r8 r fis-.\upbow\< g-.
   a-. h-. c-.\! cis4.(\sf\>
