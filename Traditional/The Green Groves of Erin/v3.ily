@@ -77,16 +77,72 @@ vc = \relative c' {
   \times 2/3 { e( fis e) gis( fis e) h'( gis e) gis( fis e) }
   \times 2/3 { fis( dis cis) h( dis fis) } e4-. e~->
   e <e, h'>-. r <h' gis'>-.
-%{
-  \times 2/3 {}
-  \times 2/3 {}
-  \times 2/3 {}
-  \times 2/3 {}
-  \times 2/3 {}
-  \times 2/3 {}
-  \times 2/3 {}
-  \times 2/3 {}
-  \times 2/3 {}
-  \times 2/3 {}
-%}
+
+  r <fis d'>2-> <fis d'>4-.
+  e-. <h' e>-. r <gis e'>-.
+  r <h fis'>2-> h4-.
+  e,-. <h' gis'>-. r <h gis'>-.
+  r <fis d'>2-> <fis d'>4-.
+  r <h gis'>-. <h e>-. <h gis'>-.
+
+  r <a dis>-. <h gis'>-. d4\(~->\f
+  \times 2/3 { d8 e d\) } fis d \times 2/3 { a'( fis d) } fis d
+  \times 2/3 { c( d c) } e g? c-. g16( fis e8) c
+  \times 2/3 { d( e d) } fis d a'( d,) fis d
+
+  e( a,) a g a g' fis-. fis16( e
+  d4)-. <fis, a>-. r <fis a>-.
+  r <e c'>2-> <e c'>4-.
+  r <fis a>-. <d a'>-. <fis a>-.
+  r <cis g'>-. <d a'>-. r
+  d'\mp fis8 d \acciaccatura c'? a d, fis d
+
+  c4 e8 g c g e c
+  d4 fis8 d \acciaccatura c' a d, fis d
+  e a, a g a_\dimi g'( fis e)
+  d4 fis8 d \acciaccatura c' a d, fis d
+
+  c4 e8 g c g e c
+  d\pp e fis g a( d,) d( fis)
+  e\< a, a g a d d4~->\!
+  d-.\f d,-. r fis-.
+  r <e c'>2-> <e c'>4-.
+
+  d -. a'-. r d,-.
+  c'8( fis,) fis e fis4-. a-.
+  a-. fis-. r fis-.
+  r e2-> e4-.
+  r fis-. d-. fis-.
+  r <cis g'>-. <d a'>-. r
+
+  d'-._\piuf <d, a'>-. r <a' fis'>-.
+  r <e c'>2-> <e c'>4-.
+  d-. <a' d>-. r <fis d'>-.
+  r <a e'>2-> a4-.
+  d,-. <a' fis'>-. r <a fis'>-.
+  r <e c'>2-> <e c'>4-.
+
+  r <a fis'>-. <a d>-. <a fis'>-.
+  r <g cis>-. <a fis'>-. d'4\(->\glissando
+  \times 2/3 { e8 h e\) h( e h) e( h e) d( h d) }
+  \times 2/3 { d( e d) fis,( gis a) d( a g) fis( e d) }
+
+  \times 2/3 { h'( e h) e( h e) h( e h) d( h a) }
+  \times 2/3 { fis( e dis) dis( cis h) a( fis a) gis( a fis') }
+  e4-. <h gis'>-. r <h gis'>-.
+  r <fis d'>2-> <fis d'>4-.
+
+  r <h gis'>-. <e, h'>-. <h' gis'>-.
+  r <a dis>-.\< e'8-.->\! r e4(->\sf\glissando
+  d?)-. <d, a'>-. <a' fis'>-. <a fis'>-.
+  r <e c'>2-> <e c'>4-.
+  d-. <d a'>-. <a' fis'>-. <a fis'>-.
+  r e2-> a4-.
+
+  d,-. <fis a>-. r <fis a>-.
+  r <e c'>2-> <e c'>4-.
+  r <fis a>-. <d a'>-. <fis a>-.
+  r <cis g'>-. <d a'>8-. r <d' a'>4->\ff
+  r g,(-> a)-. <c, g'>~->
+  <c g'>1\fermata \bar "|."
 }

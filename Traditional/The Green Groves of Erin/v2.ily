@@ -55,7 +55,7 @@ vb = \relative c' {
   h4\> cis-. cis2->
   r e->\!
   r4 d2->\< fis,4~->
-  fis r \clef "treble" c'?4->\! d\(~->\f
+  fis r c'?4->\! d\(~->\f
   \times 2/3 { d8 e fis\) g( fis e) d( fis a) d( cis d) }
 
   \times 2/3 { c?( h a) g( e d) c( e g) c( h c) }
@@ -63,7 +63,7 @@ vb = \relative c' {
   \times 2/3 { g( es c) b( g f) es( d c) h!( d fis) }
 
   \times 2/3 { e( fis e) gis( e a) e( h' e,) h'( cis d) }
-  \times 2/3 { e( e, e') fis,( e' g,) e'( a, e') h( e d) } \clef "alto"
+  \times 2/3 { e( e, e') fis,( e' g,) e'( a, e') h( e d) }
   \times 2/3 { h( a g) fis( d a) fis( a d) fis( g a) }
 
   \times 2/3 { g( e d) cis( d cis) d( fis g) } a4

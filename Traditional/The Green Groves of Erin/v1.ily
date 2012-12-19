@@ -102,7 +102,7 @@ va = \relative c' {
   d~
   d~
   d~\pp
-  d2\< \clef "treble" c(\glissando\!
+  d2\< c(\glissando\!
   d4)\f fis8 d a' d, fis d~->
 
   d2 c(\glissando
@@ -112,7 +112,7 @@ va = \relative c' {
   d2 <g, c>(\glissando
   <a d>4) fis'8 d a' d, fis d~->
 
-  d2 \clef "alto" c,\(->\glissando\<
+  d2 c,\(->\glissando\<
   \times 2/3 { d8_\piuf e fis\)\f g( fis e) d( fis a) d( cis d) }
   \times 2/3 { c?( h a) g( e d) c( e g) c( h c) }
   \times 2/3 { d,( e fis) g( fis e) d( fis a) d( c d) }
