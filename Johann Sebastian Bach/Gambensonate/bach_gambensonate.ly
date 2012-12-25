@@ -23,8 +23,10 @@ mihi = "clarinet"
 milo = "harpsichord"
 
 introa = { \tempo "1. Adagio " 4.=40 \key g \major \time 12/8 }
+introb = { \break \tempo "2. Allegro, ma non tanto " 4=90 \time 3/4 }
+introc = { \break \tempo "3. Andante " 4=50 \key g \major \time 4/4 }
 
-moral = \markup \italic "molto rall."
+pizz = \markup \bold \italic "pizz."
 
 \include "v1.ily"
 \include "v2.ily"
