@@ -12,9 +12,10 @@
 }
 
 voiceconsts = {
+ \key g \major
 % \numericTimeSignature
  \compressFullBarRests
- \clef "alto"
+ \clef "bass"
 }
 
 mihi = "clarinet"
@@ -22,9 +23,10 @@ mihi = "clarinet"
 %milo = "bassoon"
 milo = "harpsichord"
 
-introa = { \tempo "1. Adagio " 4.=40 \key g \major \time 12/8 }
-introb = { \break \tempo "2. Allegro, ma non tanto " 4=90 \time 3/4 }
-introc = { \break \tempo "3. Andante " 4=50 \key g \major \time 4/4 }
+introa = { \tempo "1. Adagio " 4.=40 \time 12/8 }
+introb = { \pageBreak \tempo "2. Allegro, ma non tanto " 4=90 \time 3/4 }
+introc = { \pageBreak \tempo "3. Andante " 4=50 \time 4/4 }
+introd = { \pageBreak \tempo "4. Allegro moderato " 4=80 \time 4/4 }
 
 pizz = \markup \bold \italic "pizz."
 
@@ -36,19 +38,19 @@ music = \new StaffGroup <<
       \new Staff {
 	\set Staff.midiInstrument = \mihi
 	\set Staff.instrumentName = #"Cello I"
-	\transpose g g { \va }
+	\transpose g g, { \va }
       }
 
       \new Staff {
 	\set Staff.midiInstrument = \milo
 	\set Staff.instrumentName = #"Cello II"
-	\transpose g g { \vb }
+	\transpose g g, { \vb }
       }
 
       \new Staff {
 	\set Staff.midiInstrument = \milo
 	\set Staff.instrumentName = #"Cello III"
-	\transpose g g { \vc }
+	\transpose g g, { \vc }
       }
 >>
 

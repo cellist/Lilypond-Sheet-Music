@@ -157,14 +157,14 @@ vb = \relative c' {
   fis16 d c h a( g) fis e d8 r
   R2.*2
 
-  r4 r8 \clef "treble" d' g16 a h8-.
+  r4 r8 d' g16 a h8-.
   h(\trill a) a fis16 g a h c8-.
   c(\trill h) h d c16( h a g)
   e'8 g16 fis e8 d c16( h) a( g)
 
   a8 d16( c) d8-. d-. d-. d-.
   d c16( h) c8-. c-. c-. c-.
-  c h16 a h8 \clef "alto" g, a h
+  c h16 a h8 g, a h
   c4 r e~
 
   e16 e( d c) d e fis d g, c( h a)
@@ -206,4 +206,167 @@ vb = \relative c' {
   e~
   e8 g fis16( e) d( cis) \appoggiatura h16 ais8. h64( ais gis ais) ais8.( gis32 ais)
   h1\fermata \bar "|."
+
+  \introd
+  \partial 4 r4
+  R1*7
+  r2 r4 a8 g
+  fis4 d d' a
+  fis\trill e8( d) a'4 a
+  a g8 fis g a h4
+  h e, e g~
+  g fis8 e fis g a4
+
+  a d, d d'~
+  d c2 h4~
+  h a8 g fis d e fis
+  g d e fis g a h c
+  d e d c h a g fis
+
+  e4 e'8 d c h a g
+  fis e d e fis g a fis
+  d'4 d2 e4
+  fis2 r4 h,
+  a8 h cis d g, a h cis
+  fis,4 fis'2 e4~
+
+  e d8 e cis4.\trill d8
+  d4 a d fis
+  a d, fis a
+  fis dis h dis
+  fis a fis dis
+  e8 g( fis e) h' g( fis e)
+
+  d? f( e d) h' f( e d)
+  d( c h) a gis fis? e fis
+  gis a h c d( c d) h
+  c d e f c4 a
+  h8 c d e gis,4 e
+
+  a8 h c d c4 a
+  gis8 a h e, gis h e4
+  e1~
+  e~
+  e2 d~
+  d8 e d c h a gis h
+
+  a4 e'8 d c4 a
+  a' e c' h8( a)
+  d,2 r4 d,(
+  g2) r4 h
+  e8 d e f e d c h
+  a h c d e fis? gis e
+
+  a4. h8 gis4. a8
+  a h, c d e h e d
+  c( h c) a h cis dis h
+  e, h' e2 d?4~
+  d cis8 h ais4 fis
+
+  d'8 cis d e fis cis fis e
+  d( cis d) h cis dis eis cis
+  fis4 fis2 e?4~
+  e d?2 cis4~
+  cis h e8 fis g? e
+  fis4 e d cis
+
+  h h h' fis
+  d\trill cis8( h) fis'4 fis
+  fis e8 dis e fis g4
+  g cis, cis e~
+  e d?8 cis d e fis4
+  fis h, h e
+
+  \appoggiatura e8 d4. cis8 cis4.\trill h8
+  h( d) cis h fis'( e) d cis
+  h( fis') e dis a'( g) fis e
+  dis( a') g fis c'?( h) a g
+  fis e dis cis h a g fis
+
+  e4 h' g e
+  r d' h gis
+  r f' d h
+  gis8 a h c d f e d
+  a( cis) h a e'( d) cis h
+
+  a( e') d cis g'( fis) e d
+  cis( g') fis e b'( a) g fis
+  e d cis h? a g fis e
+  d4 a' fis d
+  r c'? a fis
+
+  r es' c a
+  fis8 g a h c4 fis,
+  g8 d e fis g a h c
+  d e d c h a g fis
+  e4 e'8 d c h a g
+
+  fis e d e fis g a fis
+  d'4 d,2 fis4(
+  g2.) r4
+  r8 c d e f( e f) g
+  a2 r4 g8 f
+  e4 c c g
+
+  e d8( c) g'4 g
+  g f8 e f g a4
+  a d, d f~
+  f e8 d e f g4
+  g c, c c'~
+  c h2 a4~
+
+  a g8 f e( d) e fis
+  g fis g a h c d e
+  d g fis e d c h a
+  g h c d e fis g e
+  a g fis g a g fis e
+
+  fis a g fis e d c d
+  h a h c d e fis g
+  cis,4 a' h, g'
+  a,8 c?( h a) g4 g'
+  \appoggiatura g8 fis4. e8 e4.\trill d8
+
+  d4 a d fis
+  a fis d a
+  fis a d,8 e fis g
+  a( h c) h a g a fis
+  g h( a g) d' h( a g)
+
+  f a( g f) d' a( g f)
+  e gis( fis? e) d'( c h) a
+  gis a h c d( c d) h
+  c4 c'2( h4~
+  h) a8 g fis4 d
+
+  g,8 a h c d a d cis
+  h( a h) g a h cis a
+  d,4 d''2( c4~
+  c) h8 a gis4 e,
+  a8 h c d e h e d
+
+  c( h c) a h cis dis h
+  e dis e2( d4~
+  d) c?2 h8 a
+  g fis e fis g h a g
+  fis( g) a fis d4 <d' d'>
+
+  <d d'>1~
+  <d d'>~
+  <d d'>~
+  <d d'>2~  <d d'>8 c h a
+  h c d e e,4 g
+  a8 h c d d,4 fis
+
+  g8 a h c a4 c
+  fis,2~ fis8 d e fis
+  g h d c h g fis g
+  g'4 d h a8( g)
+  e' d e f e d c h
+
+  a h c h a g fis e
+  d' c d e d c h a
+  g a h c d e fis d
+  g4. a8 fis4.\trill g8
+  <g, g'>2. r4 \bar "|."
 }
