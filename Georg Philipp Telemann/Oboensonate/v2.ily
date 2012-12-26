@@ -190,4 +190,95 @@ vb = \relative c' {
   e fis? g
   c,? d d,
   g4._\daca \bar "|."
+
+  \introd
+  \partial 8 b'8
+  a g a f g g, g' es
+  d d' c f, b b,16. a32 b8 b'
+  a a, g g' f a16. g32 f8 b
+
+  a f d b' c, c'16. b32 a8 g
+  f a16. b32 c8 c, f d16. c32 h8 h'
+  c es,16. as32 g8 f es c16. b?32 a?8 a'
+
+  b d,16. g32 f8 f, es' g16. f32 es8 e
+  f f16. g32 a8 b a g a f
+  g g, c f d es? f f,
+  b b' a f b a b a
+
+  b f r d es d es d
+  es b r h c a b b'
+  a a, g g' f f, r a
+  b16. es32 d16. es32 f8 f, b4 r \bar "|." 
+
+  \introe
+  \repeat volta 2 {
+    g'4 r fis
+    g8 a b a b g
+    c a d c d d,
+    g4 fis d
+    g r fis
+    g8 a b g fis d
+
+    g g, g' f? es es'
+    d4 r8 b a g
+    fis g16 a d,8\p b' a g
+    fis g16 a d,4\f fis
+    g r g
+    c, c'8 c, c' b
+
+    a4 r a
+    d, d'8 d, cis d
+    a'4 r8 f? cis d
+    a'4 f8 d f d
+    cis a' cis, a' cis, a'
+    d, d' d, d' d, d'
+
+    e,4 f g8 a
+    f f f f f f
+    b b b b b b
+    g4 g g
+    g, g g
+    e' r8 e f cis
+
+    d g a g a a,
+    d4 d'8 c? b a
+  }
+  \repeat volta 2 {
+    b4 r a
+    b8 b, d c d b
+    es c f es f f,
+    b4 a f
+
+    b r a
+    b8 c d b a f
+    b4 b'8 a g c
+    f,4 r8 d' c b
+    a b16 c f,8\p d' c b
+    a b16 c h8 g\f a h
+
+    c4 es, f8 g
+    c,4 c'8 b? a f
+    b4 d, es8 f
+    b,4 es c
+    f r b,
+    es r a,
+
+    d r g,
+    d' d, d'
+    b b b
+    es es r
+    d d, c'
+    b8 b b b b b
+
+    es es es es es es
+    b4 g r
+    c c' r
+    fis, r8 fis g es
+    d c b c d d,
+  }
+  \alternative {
+    { g4 g'8 fis g a }
+    { g,2. }
+  } \bar "|."
 }

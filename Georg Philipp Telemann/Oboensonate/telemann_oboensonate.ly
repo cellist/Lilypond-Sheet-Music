@@ -1,7 +1,7 @@
 \version "2.14.2"
 \include "deutsch.ly"
 
-#(set-global-staff-size 17)
+#(set-global-staff-size 19)
 
 \header {
   title = "Sonate für Oboe"
@@ -23,8 +23,10 @@ mihi = "clarinet"
 milo = "bassoon"
 
 introa = { \tempo "1. Largo " 4.=45 \time 12/8 }
-introb = { \break \tempo "2. Presto " 4=120 \time 4/4 }
-introc = { \break \tempo "3. Tempo giusto " 4=50 \time 3/8 \key g \major }
+introb = { \break \tempo "2. Presto " 4=140 \time 4/4 }
+introc = { \break \tempo "3. Tempo giusto " 4.=50 \time 3/8 \key g \major }
+introd = { \break \tempo "4. Andante " 4=60 \time 4/4 \key g \minor }
+introe = { \break \tempo "5. Allegro " 4=120 \time 3/4 }
 
 daca = \markup \bold \italic "da capo"
 
