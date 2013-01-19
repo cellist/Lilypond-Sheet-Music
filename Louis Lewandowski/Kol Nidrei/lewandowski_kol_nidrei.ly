@@ -1,14 +1,14 @@
-\version "2.12.3"
+\version "2.14.2"
 \include "deutsch.ly"
 
-#(set-global-staff-size 27)
+#(set-global-staff-size 19.25)
 
 \header {
   title = "Kol Nidrei"
   subtitle = "eingerichtet für Solo Cello"
   subsubtitle = "(transponiert in f-moll bzw. c-moll)"
   composer = "Louis Lewandowski (1821-1894)"
-  arranger = "arr. Elaine Fine"
+  arranger = "arr.: Elaine Fine"
   enteredby = "cellist (2010-09-27)"
 }
 
@@ -18,45 +18,39 @@ voiceconsts = {
  \numericTimeSignature
  \compressFullBarRests
  \time 4/4
- \tempo "Langsam, sehr frei " 4 = 80
+ \tempo "Langsam, sehr frei " 4=80
 }
 
-midihi  = "ocarina"
-midimid = "english horn"
-midipno = "harpsichord"
-midilow = "bassoon"
+%minstr = "harpsichord"
+mihi = "clarinet"
+%minstr = "accordion"
+milo = "bassoon"
+
+moral = \markup \italic "molto rall."
 
 \include "v1.ily"
 
-\book {
-    \score {
-        \new StaffGroup <<
-          \new Staff {
-	    \set Staff.midiInstrument = \midilow
-            \set Staff.instrumentName = "Vc "
+music = \new StaffGroup <<
+      \new Staff {
+	\set Staff.midiInstrument = \milo
+	\set Staff.instrumentName = \markup \center-column { "Violon-" "cello" }
             \transpose f c' \va
-	  }
- 	>>
-
-    \layout {}
-
-    \midi {
-      \context {
-	\Score
-	tempoWholesPerMinute = #(ly:make-moment 80 4)
       }
-    }
+>>
+
+\book {
+  \score {
+    \music
+    \layout {}
   }
 
   \score {
-        \new StaffGroup <<
-          \new Staff {
-	    \set Staff.midiInstrument = \midilow
-            \set Staff.instrumentName = "Vc "
-            \va
-	  }
- 	>>
+    \unfoldRepeats \music
 
-    \layout {}
+    \midi {
+      \context {
+        \Score
+      }
+    }
   }
 }
