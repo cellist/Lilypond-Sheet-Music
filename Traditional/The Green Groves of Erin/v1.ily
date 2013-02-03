@@ -23,7 +23,7 @@ va = \relative c' {
   << { a4 s2. } \\ { \times 2/3 { d,8( e d) } fis d a'( d,) fis d } >>
   \times 2/3 { c( d c) } e g c-. g16( fis e8) c
   << { s2 a'4 a8 a } \\ { \times 2/3 { d,( e d) } fis g a( d,) d d16( fis) } >>
-  <e a>8( a,) a g <a d>2
+  \clef "bass" <e a>8( a,) a g <a d>2
 
   r4 <d a'>-._\piuf r <d a'>-.
   r <c g'>2-> e,4-.
@@ -42,7 +42,7 @@ va = \relative c' {
   d4 \acciaccatura a'8 fis( d) a' d, fis d
   c4 \acciaccatura g'8 e( g) c g e c
   \acciaccatura fis d e fis g a( d,) d \acciaccatura a' fis
-  e( a,) a g a e' a_\piuf h~->
+  e( a,) a g a e' \clef "tenor" a_\piuf h~->
 
   h e e d h( e) e d
   h( d) d cis h cis d4
@@ -52,7 +52,7 @@ va = \relative c' {
 
   h( d) d cis e cis d( h)
   << { a( h) d e fis4 s } \\ { d, d8 d d4 e'8 d } >>
-  \times 2/3 { h8( cis d) } cis e d( h a) fis~->
+  \times 2/3 { h8( cis d) } cis e d( h a) \clef "bass" fis~->
   fis1~\>
   fis~\!
   fis2 e~\<
@@ -75,7 +75,7 @@ va = \relative c' {
 
   r d-. a'-. d,-.
   r h-. e-. h-.
-  r h-. e-. r
+  r h-. e-. r \clef "tenor"
   \times 2/3 { e8( fis gis) a( gis fis) gis( fis e) cis'( h cis) }
   \times 2/3 { d,( e fis) fis( gis a) } d cis16\( h \times 2/3 { a8 gis fis\) }
   \times 2/3 { e( h e) } gis h\(~-> \times 2/3 { h gis e\) gis( fis gis) }
@@ -85,7 +85,7 @@ va = \relative c' {
 
   \times 2/3 { h8( e gis) a( h cis) } h( e,) e( gis)
   \times 2/3 { fis( d h) h( cis h) h( e fis) a( h cis) }
-  <fis, d'>4\f <d, a'>-. <a' fis'>-. <a fis'>-.
+  <fis, d'>4\f \clef "bass" <d, a'>-. <a' fis'>-. <a fis'>-.
   r <e c'>2-> <e c'>4-.
 
   d-. <d a'>-. <a' fis'>-. <a fis'>-.
@@ -93,7 +93,7 @@ va = \relative c' {
   \times 2/3 { d8 e d\) } fis d a'( d,) g e
   \times 2/3 { c( d c) } e g c-. g16( fis e8) c
   \times 2/3 { d( e d) } fis g a( d,) d d16( fis)
-  e8(\> a,) a g a c16\( d \times 4/6 { e16 fis g a h c }
+  e8(\> a,) a g a c16\( d \clef "tenor" \times 4/6 { e16 fis g a h c }
   d1\)~\mp
   d~
 
@@ -123,11 +123,11 @@ va = \relative c' {
 
   \times 2/3 { h( a g) fis( d a) fis( a d) fis( g a) }
   \times 2/3 { g( e d) cis( d cis) d( fis g) a( c d) }
-  e4-. <e,, h'>-. <h' gis'>-. <h gis'>-.
+  e4-. \clef "bass" <e,, h'>-. <h' gis'>-. <h gis'>-.
   r <fis d'>2-> <fis d'>4-.
 
   e-. <e h'>-. <h' gis'>-. <h gis'>-.
-  r fis2-> e'4
+  r fis2-> \clef "tenor" e'4
   \times 2/3 { e8( fis e) h'( gis e) h'( gis e) a( fis d) }
   \times 2/3 { fis( gis fis) a( h cis) d( cis h) a( gis fis) }
 

@@ -1,5 +1,6 @@
 vc = \relative c' {
   \voiceconsts
+  \clef "bass"
 
   a4-.\mf d,-. r fis-.
   r e2 e4-.
@@ -123,11 +124,11 @@ vc = \relative c' {
   r <e c'>2-> <e c'>4-.
 
   r <a fis'>-. <a d>-. <a fis'>-.
-  r <g cis>-. <a fis'>-. d'4\(->\glissando
+  r <g cis>-. <a fis'>-. \clef "tenor" d'4\(->\glissando
   \times 2/3 { e8 h e\) h( e h) e( h e) d( h d) }
   \times 2/3 { d( e d) fis,( gis a) d( a g) fis( e d) }
 
-  \times 2/3 { h'( e h) e( h e) h( e h) d( h a) }
+  \times 2/3 { h'( e h) e( h e) h( e h) d( h a) } \clef "bass"
   \times 2/3 { fis( e dis) dis( cis h) a( fis a) gis( a fis') }
   e4-. <h gis'>-. r <h gis'>-.
   r <fis d'>2-> <fis d'>4-.

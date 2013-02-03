@@ -1,7 +1,7 @@
 \version "2.14.2"
 \include "deutsch.ly"
 
-#(set-global-staff-size 17.4)
+#(set-global-staff-size 17.2)
 
 \header {
   title = "The Green Groves of Erin"
