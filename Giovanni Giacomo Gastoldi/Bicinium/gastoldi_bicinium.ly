@@ -1,7 +1,7 @@
 \version "2.14.2"
 \include "deutsch.ly"
 
-#(set-global-staff-size 17.5)
+#(set-global-staff-size 21)
 
 \header {
   title = "Bicinium"
@@ -24,6 +24,7 @@ milo = "bassoon"
 moral = \markup \italic "molto rall."
 
 introa = { \tempo "Nr. 1 " 4=80 \time 4/4 \key d \minor }
+introb = { \break \tempo "Nr. 4 " 4=70 \key b \major }
 
 \include "v1.ily"
 \include "v2.ily"
@@ -32,13 +33,13 @@ music = \new StaffGroup <<
       \new Staff {
 	\set Staff.midiInstrument = \mihi
 	\set Staff.instrumentName = #"Geige"
-	\transpose c c { \va }
+	\transpose c d { \va }
       }
 
       \new Staff {
 	\set Staff.midiInstrument = \milo
 	\set Staff.instrumentName = #"Cello"
-	\transpose c c { \vb }
+	\transpose c d { \vb }
       }
 >>
 
