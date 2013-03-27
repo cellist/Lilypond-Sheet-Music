@@ -12,11 +12,8 @@
 }
 
 voiceconsts = {
-  \time 4/4
-  \key f \major
   %\numericTimeSignature
   \compressFullBarRests
-  \tempo "Allegro moderato " 4=120
 }
 
 %minstr = "harpsichord"
@@ -24,8 +21,17 @@ mihi = "clarinet"
 %minstr = "accordion"
 milo = "bassoon"
 
+arco  = \markup \bold \italic "arco"
+atem  = \markup \bold \italic "a tempo"
+crsc  = \markup \italic "cresc."
+espr  = \markup \italic "espressivo"
 mfgra = \markup { \dynamic mf \italic " grazioso" }
 pcrsc = \markup \italic "poco cresc."
+pizz  = \markup \bold \italic "pizz."
+pral  = \markup \italic "poco rall."
+
+introa = { \tempo "1a. Allegro moderato " 4=120 \time 4/4 \key f \major }
+introb = { \break \tempo "1b. Andantino " 4=90 \time 6/8 }
 
 \include "v1.ily"
 \include "v2.ily"
