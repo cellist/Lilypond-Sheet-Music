@@ -1,20 +1,18 @@
 \version "2.14.2"
 \include "deutsch.ly"
 
-#(set-global-staff-size 18)
+#(set-global-staff-size 19)
 
 \header {
-  title = "Gavotte en Boutade"
-  composer = "Le Page (um 1690)"
+  title = "Zwei Duette"
+  composer = "Le Page"
+  arranger = "(um 1690)"
   enteredby = "cellist (2013-03-27)"
 }
 
 voiceconsts = {
-  \time 2/2
-  \key a \major
   %\numericTimeSignature
   \compressFullBarRests
-  \tempo "Gavotte " 2=50
 }
 
 %minstr = "harpsichord"
@@ -23,6 +21,9 @@ mihi = "clarinet"
 milo = "bassoon"
 
 moral = \markup \italic "molto rall."
+
+introa = { \tempo "1. Gavotte en boutade " 2=50 \time 2/2 \key a \major }
+introb = { \break \tempo "2. Allemande " 2=70 \key f \major }
 
 \include "v1.ily"
 \include "v2.ily"
