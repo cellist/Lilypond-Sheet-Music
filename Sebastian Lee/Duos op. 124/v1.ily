@@ -96,4 +96,93 @@ va = \relative c'' {
   d a(\dim cis) d a( cis)
   d2.
   d,4\pp^\pizz r8 r4 r8 \bar "|."
+
+  \introc
+  \partial 8 c'(_\legg
+  a'[)-. e( f)-. cis](
+  d[)-. a( b)-. fis](
+  g[)-. e( d') c?]-.
+  b4(-> a8) c(
+  a'[)-. e( f?)-. cis](
+  d[)-. a( b)-. fis](
+
+  g[)-. e( d') c]-.
+  f,4 r
+  h,2\p
+  c
+  f8 r g, r
+  c[( h c]) r
+  h2
+  c
+  f8 r g, r
+
+  c4 r8 c'(
+  a'[)-. e( f)-. cis](
+  d[)-. a( b)-. fis](
+  g[)-. e( d') c]-. 
+  b4(-> a8) c(
+  a'[)-. e( f)-. cis](
+  d[)-. a( b)-. fis](
+
+  g[)-. e( d') c]-.
+  f,4 r \bar "||" \key b \major
+  b,8[(\p d c es])
+  d[( f d a])
+  b2
+  f'4( es)
+  b8[( d c es])
+  d[( f d a])
+
+  b2
+  c8[( b a]) fis''(
+  g4.) d8(_\crsc
+  f es) r e(\<
+  f4.) c8(
+  es d)\! r b(\p
+  es[)-. es( d)-. d](
+  g[)-. g( f)-. f](
+  es[) g( c b])
+  a[-. g-. f-.] r
+  b,,[(\p d c es])
+  d[( f d a])
+  b2
+  f'4( es)
+  b8[( d c es])
+  d[( f d_\crsc f])
+  es4( f8 a,)
+
+  b4\f r8 c'(_\legg \bar "||" \key f \major
+  a'[)-. e( f)-. cis](
+  d[)-. a( b)-. fis](
+  g[)-. e( d') c]-.
+  b4(-> a8) c(
+  a'[)-. e( f)-. cis](
+  d[)-. a( b)-. fis](
+
+  g[)-. e( d') c]-.
+  f,4 r
+  h,2\p
+  c
+  f8 r g, r
+  c[( h c]) r
+  h2
+  c
+  f8 r g, r
+
+  c4 r8 c'(
+  a'[)-. e( f)-. cis](
+  d[)-. a( b)-. fis](
+  g[)-. e( d') c]-.
+  b4(-> a8) c(
+  a'[)-. e( f)-. cis](
+  d[)-. a( b)-. fis](
+
+  g[)-. e( d') c]-.
+  f,4 r8 a(_\sdim
+  c b) r e(
+  g f) r a,(\>
+  c b) r e(
+  g f)\! r4
+  <a,-0 f'-1>\p r
+  <a f'>2\pp \bar "|."
 }

@@ -96,4 +96,94 @@ vb = \relative c {
   d\dim f( e) d f( e)
   d2.
   d,4\pp^\pizz r8 r4 r8 \bar "|."
+
+  \introc
+  \partial 8 r
+  f'4\p a
+  b2
+  c,
+  f8 d'( c) r
+  f,4 a
+  b2
+  c,4 e(
+  f8[)-. c-. f,]-. a'(
+
+  g[) e'( d) f,](
+  e[) d'( c) e,](
+  d[)-. a'-. h,-. g']-.
+  f4(-> e8) a(
+  g[) e'( d) f,](
+  e[) d'( c) e,](
+  d[)-. a'-. h,-. g']-.
+
+  c,[ g c,] r
+  f'4\downbow\p a
+  b2
+  c,
+  f8 d'( c) r
+  f,4 a
+  b2
+  c,4 e(
+  f8[) c f,] f' \bar "||" \key b \major
+
+  d'4_\dolc a
+  b4. c8
+  d[( b es d])
+  d[( c a f])
+  d'4 a
+  b4. c8
+  d[( b d g])
+
+  f[( e f]) r
+  r g,[_\crsc\upbow a h]
+  c[ g c,] r
+  r f[\< g a]\!
+  b?[ f b,] r
+  g'[(\downbow\p b) f( b])
+  es,[( b') d,( b'])
+
+  c, es4 e8(
+  f[) c f,] f'_\dolc
+  d'4 a
+  b4. c8
+  d[( b es d])
+  d[( c a f])
+  d'4 a
+  b4._\crsc h8
+
+  c[ g( a) f'](
+  b,[) f b,] r \bar "||" \key f \major
+  f'4\downbow\p a
+  b2
+  c,
+  f8 d'( c) r
+  f,4 a
+  b2
+  c,4 e(
+
+  f) r8 a(
+  g[) e'( d) f,](
+  e[) d'( c) e,](
+  d[)-. a'-. h,-. g']-.
+  f4(-> e8) a(
+  g[) e'( d) f,](
+  e[) d'( c) e,](
+
+  d[)-. a'-. h,-. g']-.
+  c,[-. g-. c,]-. r
+  f'4\downbow\p a
+  b2
+  c,
+  f8 d'( c) r
+  f,4 a,
+  b2
+
+  c,
+  << { r4 es'\( } \\ { f,2~_\sdim } >>
+  << { d'4 des\) } \\ { f,2 } >>
+  << { c'4\( es } \\ { f,2~ } >>
+  << { d'4 des\) } \\ { f,2\> } >>
+  << c'4 \\ f,\! >> r
+  <f' c'>\p r
+  <f c'>2\pp \bar "|."
 }
