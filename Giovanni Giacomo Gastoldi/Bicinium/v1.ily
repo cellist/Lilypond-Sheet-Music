@@ -129,4 +129,33 @@ va = \relative c'' {
   b4 a g c~
   c8 b b2 a4
   b1\fermata \bar "|."
+
+  \introc
+  g'4 b8. c16 d4 r8 g~
+  g f16 e f e d c b8 c4 d8~
+  d16 c b a g8 a~ a16 g f e d8 b'~
+
+  b16 a g4 fis8 g4 r8 d'
+  d es d8. d16 c8 a b c
+  d8. e?16 f?8 e a8. g16 f8 e
+
+  d8 e16 f g8. f16 e8 d c d16 e
+  f8. e16 d8 c b g16 a b c d e
+  f8 e16 d c d e8~ e16 d d4 cis8
+
+  d2 r8 d~ d16 c? g b
+  c d e f g g, b c d c b a g8 c16 b
+  a g f e d e f g a b c8~ c16 a d8~
+
+  d16 c f8~ f16 e d8 c d4 cis8
+  d2 r8 d~ d16 e f g
+  a8 f4 e16 d c? d e f g8 g,~
+
+  g16 a b c d8 b~ b a16 g f g a b
+  c d c8~ c16 b b a32 g a8 b4 a8
+  b4 r16 d b c d4 r16 f d e
+
+  f4 r16 c g b c4 r16 g' e f \time 6/4
+  g4 r16 d b c d8. c16 b8 a~ a16 g g4 fis8 \time 4/4
+  g1\fermata \bar "|."
 }

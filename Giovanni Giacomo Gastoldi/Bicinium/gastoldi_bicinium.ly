@@ -1,7 +1,7 @@
 \version "2.14.2"
 \include "deutsch.ly"
 
-#(set-global-staff-size 21)
+#(set-global-staff-size 19)
 
 \header {
   title = "Bicinium"
@@ -23,8 +23,9 @@ milo = "bassoon"
 
 moral = \markup \italic "molto rall."
 
-introa = { \tempo "Nr. 1 " 4=80 \time 4/4 \key d \minor }
-introb = { \break \tempo "Nr. 4 " 4=70 \key b \major }
+introa = { \tempo "Bicinium Nr. 1 " 4=80 \time 4/4 \key d \minor }
+introb = { \break \tempo "Bicinium Nr. 4 " 4=70 \key b \major }
+introc = { \break \tempo "Bicinium Nr. 5 " 4=60 \key d \minor }
 
 \include "v1.ily"
 \include "v2.ily"

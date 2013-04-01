@@ -129,4 +129,34 @@ vb = \relative c' {
   g4. f8 es?4 d8 c
   d4 es c2
   b1\fermata \bar "|."
+
+  \clef "tenor"
+  \introc
+  r2 g'4 b8. c16
+  d4 r8 g~ g f16 e f e d c
+  b4 c d8. c16 b a g8
+
+  b c a4 g2
+  r8 g' g b a8. a16 g8 e
+  f g a8. g16 f8 e d e16 f
+
+  g8. f16 e8 d c d16 e f8. e16
+  d8 c b a g g'4 f16 e
+  d e f g a8. g16 f8 e16 d e4
+
+  d r8 g~ g16 f d e f8. g16
+  a4 g8 g, b4 c
+  d8. c16 b8 a16 g f g a b c d b c
+
+  d a b c d e f g a8 f e4
+  r8 d~ d16 e f g a8 b4 a16 g
+  f8. e16 d8 e f e16 d c8. d16
+
+  e f g8 g,16 a b c d e f g a8 f~
+  f16 d e f g4 f8 d c4
+  b2 r16 b' g a b4
+
+  r16 f d e f4 r16 c a b c4 \time 6/4
+  r16 g' e f g4 r16 d b c d8. c16 b8 a16 g a4 \time 4/4
+  g1\fermata \bar "|."
 }
