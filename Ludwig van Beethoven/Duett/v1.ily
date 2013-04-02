@@ -184,4 +184,125 @@ va = \relative c''' {
   c8( d_\crsc es e f fis)
   g2.\trill
   \grace { fis8[( g)] } g,2^\atrd r4\fermata \bar "|."
+
+  \introc
+  e'8.(\segno_\dolc f16 d8. e16) c4-. c-.
+  cis( d) c8( h a g)
+  c( h c d) e( d e f)
+  d4-. d-. h8( c d dis)
+  e8.( f16 d?8. e16) c4-. c-.
+
+  cis( d) c8( h a g)
+  c( e) d-. f-. e( g) h,-. d-.
+  c4 c8(\mf e16 g) c4.( a8)
+  g4 c,8 e16( g) c4.( a8)
+  g4 c,8 e16( g) c8-. h-. a-. g-.
+
+  f-. e-. d-. c-. h-. c-. d-. dis-.
+  e4 c8( e16 g) c4.( a8)
+  g4 c,8( e16 g) c4.( a8)
+  g4. e16( g) c8-. h-. a-. g-.
+  gis( a) h-. c-. e,4 \appoggiatura gis8 f e16 d
+
+  c4 r8 c(_\dolc f4) r8 f(
+  e4) r8 e( d4) r8 d(
+  c4) r8 c( f4) r8 f(
+  e4) r8 e( d4) r8 d
+  c4^\fine c' c r \bar "||"
+
+  g2\f e4.\trill f8
+  g4-. g-. \appoggiatura h8 a4 g8 f
+  g4( e8.) f16 g4( e8.) f16
+  g4.( f8) e4 r
+  \times 2/3 { f8( g f)-. e-. d-. c-. h( c d) c-. h-. a-. }
+
+  g r h r d r g r
+  h4 d2( f,8\trill e16 f)
+  \times 2/3 { e8( f g) f-. e-. d-. } c4 r8 c
+  h-. a'(\> g fis)\! g-. f-. e-. d-.
+  c-. a'(\> g fis)\! g-. a-. h-. c-.
+
+  g( fis) f2( e4)
+  \times 2/3 { d8( e d) c-. h-. a-. } g4 r
+  \times 2/3 { d'8( e d) c-. h-. a-. } g4 r
+  \times 2/3 { c8( d c) h-. a-. g-. } fis4 r
+  \times 2/3 { c'8 d( c) h-. a-. g-. } fis4 r
+
+  \times 2/3 { g8( a h) a-. h-. c-. } h4 r
+  \times 2/3 { h8( c d) c-. d-. e-. } d4 r
+  \times 2/3 { c8( d e) d-. e-. f-. } e4 r
+  d8( c) c2 e8-. c-.
+  h2( a4) r
+
+  \times 2/3 { d8-.\f fis( g a g fis) c'-. a-. fis-. e-. d-. c-. }
+  h r d r g r h r
+  \times 2/3 { a( g fis) c'-. h-. a-. g( fis e) d-. e-. c-. }
+  h r d r g r h r
+
+  \times 2/3 { c, e d c e d c d e fis g a }
+  \times 2/3 { h-. fis( g) g-. dis( e) e-. h( c) a-. c( e) }
+  \times 2/3 { d? e fis g a h a g fis e d c }
+  h d4 g h d8
+
+  d,2 a'\trill
+  g4 r r g_\dolc
+  fis( g d e)
+  f?1
+  f8( g16 f e8 d c h d f)
+  e4 r r8 h-. c-. d-.
+
+  e4 r r8 h-. c-. d-.
+  e4 r r8 h-. c-. d-.
+  e-. g,-. a-. h-. c-. d-. e-. f-.
+  g8.( a16) f8.( g16) e4-. e-.
+  g( f) e8( d c d)
+  e4-. c-. c'2(
+
+  h4) g, d'8( e f fis)
+  g8.( a16) f?8.( g16) e4-. e-.
+  g( f) r f(
+  e) r r d8. g16
+  e8-. e-.\cresc f,-. g-. a-. h-. c-. d-.
+
+  e8.(\f f16) d8.( e16) c4-. c-.
+  cis( d) c8( h a) g
+  c(\trill h c d) e(\trill d e f)
+  d4-. d-. d8( e f fis)
+  g8.( a16) f?8.( g16) e4-. e-.
+
+  g( f) e8( d c d)
+  e( g) f-. a-. g( c) d,-. h'-. \bar "||" \key c \minor
+  c4 g( es d)
+  c2~ c8 es( d c
+  h4) as'(-> f es)
+
+  d2~ d8 f( es d)
+  c4 r c8( d es f)
+  fis( g as g) f( es d c)
+  as'4 as8.( g16) f4-. f8.( es16)
+  d4 d8.( es16) \appoggiatura g8 f4 es8 d
+
+  c4( h) r g''(->
+  es c g es)
+  d r r g'(->
+  f d h f)
+  es r r2
+  r4 es8.( c16) a4 d8.( c16)
+
+  h4 h8.( g'16) c,4 c8.( g'16)
+  f8( as!) g-. fis-. g r g, r
+  c2\ff es4. c8
+  a2 c4. a8
+  fis2 r4 es'8.(_\pdol d16)
+  d4 es8.( d16) d4. c8
+
+  h8.( c16) d4 r d
+  c8.( d16) es4 r es
+  d8.( es16) f4 r f
+  es( e f fis)
+
+  g2(_\crsc h)
+  d2. c4
+  h2. a4
+  g2.^\dsaf f?4 \bar "|."
 }
