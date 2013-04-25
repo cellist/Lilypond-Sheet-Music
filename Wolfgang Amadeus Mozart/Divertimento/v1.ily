@@ -1,6 +1,6 @@
 va = \relative c''' {
   \voiceconsts
-  \clef "tenor"
+  \clef "treble"
 
   \repeat volta 2 {
     \partial 4 a8(\p fis
