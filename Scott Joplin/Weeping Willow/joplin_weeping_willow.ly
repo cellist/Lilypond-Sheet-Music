@@ -1,7 +1,7 @@
 \version "2.14.2"
 \include "deutsch.ly"
 
-#(set-global-staff-size 18)
+#(set-global-staff-size 17.25)
 
 \header {
   title = "Weeping Willow"
@@ -13,6 +13,7 @@
 voiceconsts = {
   \key g \major
   \time 2/4
+  \clef "bass"
   %\numericTimeSignature
   \compressFullBarRests
   \tempo "Not fast " 4=80
@@ -38,25 +39,25 @@ music = \new StaffGroup <<
       \new Staff {
 	\set Staff.midiInstrument = \milo
 	\set Staff.instrumentName = \markup \center-column { "Violon-" "cello I" }
-	\transpose g g { \va }
+	\transpose g g, { \va }
       }
 
       \new Staff {
 	\set Staff.midiInstrument = \milo
 	\set Staff.instrumentName = \markup \center-column { "Violon-" "cello II" }
-	\transpose g g { \vb }
+	\transpose g g, { \vb }
       }
 
       \new Staff {
 	\set Staff.midiInstrument = \milo
 	\set Staff.instrumentName = \markup \center-column { "Violon-" "cello III" }
-	\transpose g g { \vc }
+	\transpose g g, { \vc }
       }
 
       \new Staff {
 	\set Staff.midiInstrument = \milo
 	\set Staff.instrumentName = \markup \center-column { "Violon-" "cello IV" }
-	\transpose g g { \vd }
+	\transpose g g, { \vd }
       }
 >>
 

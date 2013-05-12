@@ -1,11 +1,10 @@
 vb = \relative c' {
   \voiceconsts
-  \clef "alto"
 
   d16\mf cis d e fis8 g\upbow
   d-. d~ d16 e c? a
   g fis g a h8 c\upbow
-  d,-.\upbow d~ d r \clef "treble"
+  d,-.\upbow d~ d r
   \repeat volta 2 {
     h''4--_\fop h--
     g8 g16 <f h>~ <f h>8 <f h>
@@ -28,7 +27,7 @@ vb = \relative c' {
   \alternative {
     { h4~\> h8\! r }
     { h d'16\f d d8-> d-> }
-  } \clef "alto"
+  }
   \repeat volta 2 {
     a,-._\mfof d-. fis,-. d'-.
     d,-. d'-. fis,-. d'-.
@@ -50,7 +49,7 @@ vb = \relative c' {
   \alternative {
     { h8 d(\glissando d')-. fis,,-.\upbow }
     { h4. r8 }
-  } \clef "treble"
+  }
   h'4--\mp h--
   g8 g16 h~ h8 h
   g8. e16~ e8 es
@@ -77,14 +76,14 @@ vb = \relative c' {
     f'-.-> f-.-> f-.-> dis-.->
     e-.-> e,-. r e-.
     r e-. r dis-.
-    <g, e'>-. r g'4--\downbow\sf
+    <g, e'>-. r \clef "tenor" g'4--\downbow\sf
 
     e16( g c) d e g8 e16~
     e dis e8 f e16 c~
     c h c8 c16-> c8-> c16~->
     c4~ c16 a( c) f(\glissando
     a8)-. a-.-> a-.-> as-.->
-    g8.-> e16 c d e8
+    g8.-> e16 c d e8 \clef "bass"
     c4 d16 d8 c16~
   }
   \alternative {

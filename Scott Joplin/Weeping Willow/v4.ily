@@ -1,6 +1,5 @@
 vd = \relative c'' {
   \voiceconsts
-  \clef "alto"
 
   r4 r8 g^\pizz\f
   d4 r
@@ -28,7 +27,7 @@ vd = \relative c'' {
   \alternative {
     { g-.\> d-> e?-> d->\! }
     { g r h->\f g-> }
-  } \clef "treble"
+  }
   \repeat volta 2 {
     fis'4~_\mfof fis16 gis a8
     eis16 fis8 gis16 a8-. c-.
@@ -49,7 +48,7 @@ vd = \relative c'' {
   }
   \alternative {
     { g8 d'16\downbow d d,8-. eis-. }
-    {  g \clef "alto" d,-.->\> e-.-> d-.->\! }
+    {  g d,-.->\> e-.-> d-.->\! }
   }
   g-.\mp d'-. d,-. d'-.
   g,-. d'-. h-. d-.
