@@ -1,5 +1,6 @@
 va = \relative c''' {
   \voiceconsts
+  \clef "tenor"
 
   d16\f e c a~ a h g8
   d16 e c a~ a h g8
@@ -84,5 +85,44 @@ va = \relative c''' {
     a4 b?
     a16\f gis a8~ a c
     d2
+
+    f,16 e f8~ f a
+    b g16 fis g a b8
+    d, g16 d~ d g d8
+    c4-.\< f8.->\!\f f16
+
+    a c8 b16~ b c, d e
   }
+  \alternative {
+    { f8 h,16 c d e f g }
+    { f4-. f'8 r }
+  } \bar "||" \key c \major
+
+  c a16 c~ c a c a
+  g c e g~g e c g
+  a8 c e16 d8 c16~
+  c4 c8 r
+  \repeat volta 2 {
+    f, e16 f~ f e f8
+    r16 a, d a c d c a
+
+    g'8 fis16 g~ g fis g8
+    r16 c, e c d e d c
+    d8 cis16 d~ d cis d8
+    r16 f? a f g a g f
+    c' c c4 c8
+    g r r4
+
+    f8 e16 f~ f e f8
+    r16 a, d a c d c a
+    g'8 fis16 g~ g fis g8
+    r16 c, e c d e d c
+    a gis a g'!~ g f?8 c16
+
+    e es e a~ a c g f
+  }
+  \alternative {
+    { c8 c e16 d8 c16~ | c4 r }
+    { c8 c' e16 d8 c16~ | c4 c8 r }
+  } \bar "|."
 }

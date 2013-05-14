@@ -83,5 +83,44 @@ vd = \relative c'' {
     a4 b?
     f-.\f f-.
     b-. b-.
+
+    d-. d-.
+    g,-. b-.
+    b-. g-.
+    a-.\< cis->\!\f
+
+    c!-. e,-.    
   }
+  \alternative {
+    { f-. r }
+    { f-. f8 r }
+  } \bar "||" \key c \major
+
+  f f fis fis
+  g g g g
+  d d g g
+  e4 c8 r
+  \repeat volta 2 {
+    d cis16 d~ d cis d8~
+    d4 d8 a'
+
+    g8 fis16 g~ g fis g8~
+    g4 e8 e
+    h' ais16 h~ h ais h8
+    r16 f? a? f g a g f
+    fis fis fis4 fis8
+    g g16 g g8 g
+
+    d4-. f?-.
+    a-. f-.
+    c'-. g-.
+    c-. g-.
+    f8 d e f
+
+    g g fis g
+  }
+  \alternative {
+    { a d, g f? | c' e,16 e e8 e }
+    { a8 d, g h | c g c, r }
+  } \bar "|."
 }

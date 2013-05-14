@@ -84,5 +84,44 @@ vb = \relative c''' {
     a g8 c,
     a'16\f gis a8~ a c
     d2
+
+    f16 e f8~ f a
+    b2
+    b,8 d g, as
+    a!16\> f e d\! cis4->\f
+
+    a'16 c8 b16~ b8 b
   }
+  \alternative {
+    { a h16 c d e f g }
+    { f8 r f r }
+  } \bar "||" \key c \major
+
+  a, a a a
+  g g g g
+  c a h h
+  c4 c8 r
+  \repeat volta 2 {
+    d4-. f,-.
+    d'-. f,-.
+
+    c'-. g-.
+    c-. g-.
+    g-. h-.
+    g-. h-.
+    dis8 dis4 dis8
+    e r r4
+
+    f,8 e16 f~ f e f8~
+    f4 a8 a
+    e dis16 e~ e dis e8~
+    e4 c'8 c
+    f, f a a
+
+    g g fis g
+  }
+  \alternative {
+    { a fis g16 f8 e16 | e8 g16 g g8 g }
+    { c c e16 d8 c16~ | c4 g'8 r }
+  } \bar "|."
 }

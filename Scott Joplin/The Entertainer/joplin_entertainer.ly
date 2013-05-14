@@ -1,7 +1,7 @@
 \version "2.14.2"
 \include "deutsch.ly"
 
-#(set-global-staff-size 18)
+#(set-global-staff-size 17)
 
 \header {
   title = "The Entertainer"
@@ -13,7 +13,7 @@
 voiceconsts = {
   \key c \major
   \time 2/4
-  \clef "treble"
+  \clef "bass"
   %\numericTimeSignature
   \compressFullBarRests
   \tempo "Not fast " 4=68
@@ -39,25 +39,25 @@ music = \new StaffGroup <<
       \new Staff {
 	\set Staff.midiInstrument = \milo
 	\set Staff.instrumentName = \markup \center-column { "Violon-" "cello I" }
-	\transpose c c { \va }
+	\transpose c g,, { \va }
       }
 
       \new Staff {
 	\set Staff.midiInstrument = \milo
 	\set Staff.instrumentName = \markup \center-column { "Violon-" "cello II" }
-	\transpose c c { \vb }
+	\transpose c g,, { \vb }
       }
 
       \new Staff {
 	\set Staff.midiInstrument = \milo
 	\set Staff.instrumentName = \markup \center-column { "Violon-" "cello III" }
-	\transpose c c { \vc }
+	\transpose c g,, { \vc }
       }
 
       \new Staff {
 	\set Staff.midiInstrument = \milo
 	\set Staff.instrumentName = \markup \center-column { "Violon-" "cello IV" }
-	\transpose c c { \vd }
+	\transpose c g,, { \vd }
       }
 >>
 
