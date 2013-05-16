@@ -29,7 +29,7 @@ va = \relative c'' {
   }
   \alternative {
     { g4 d'8 c }
-    { g4~ g16 h' c cis }
+    { g4~ g16 \clef "treble" h' c cis }
   }
   \repeat volta 2 {
     d8.\f cis16 d e d8
