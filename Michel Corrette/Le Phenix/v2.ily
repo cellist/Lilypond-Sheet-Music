@@ -119,4 +119,133 @@ vb = \relative c' {
   g fis r4
   r8 e'( d cis-+)
   d4 r \bar "|."
+
+  \introc
+  \repeat volta 2 {
+    d,8 d, d'
+    d16 d fis fis a a
+    d8 cis d
+    h-+ a r
+    d, d, d'
+    d16 d fis fis a a
+    h8 a h
+    g-+ fis r
+
+    cis' cis cis
+    cis4 r8
+    a4 r8
+    a4 r8
+    a4 r8
+    cis4 r8
+    d d16 cis h a
+    g fis e d cis h
+    a8 a'16 h cis a
+    d8 fis,16 g a fis
+
+    h8 g a
+    d, fis d
+    a' cis, a
+    d d d
+    cis cis d
+    a a16( h) cis( a)
+    d4 h8
+    e8. d16 cis8
+    h e e,
+    a4 r8
+    d4 r8
+
+    cis fis fis,
+    h e e,
+    a4 e8
+    fis4 gis8
+    a a16( h) cis8
+    d e e,
+    a cis' cis
+    d d d
+
+    d4 cis8~
+    cis a gis
+    a cis,16 d e cis
+    fis8 gis16 a h gis
+    a8 a,16 h cis a
+    d8 e e
+    a,4.
+  }
+  \repeat volta 2 {
+    a16 gis a h cis a
+    e'8 d cis
+    d cis h
+    a a'16( h) cis8
+    h gis a
+    e gis e
+    a4 r8
+    d,4 r8
+    e4 r8
+    e4 r8
+    eis4.
+
+    fis8 cis'4-+
+    d8 h, h'
+    cis cis, cis'
+    d d, d'
+    e16 cis( d) h( cis) ais(
+    h4) r8
+    e16( cis) d( h) cis( ais)
+    h8 fis fis,
+    h16 h d d fis fis
+
+    h h fis fis d d
+    h8 h' h
+    ais16 ais cis cis ais ais
+    h h d d h h
+    cis cis e e cis cis
+    a? a fis fis a a
+    h h d d h h
+
+    cis cis a a cis cis
+    e4 r8
+    e e e
+    r4.
+    d8 d d
+    r4.
+    e4.
+    d8 d  cis
+    d d,, d'
+
+    d16 d fis fis a a
+    d8 cis d
+    h-+ a r
+    d, d, d'
+    d16 d fis fis a a
+    h8 a h
+    g-+ fis r
+    R4.*2
+
+    a16( g fis) a g a
+    h( a g) h a h
+    cis( h a) cis h cis
+    d( cis h) d cis d
+    e( d cis) e d e
+    fis4 fis,8
+    g g g,
+    d'4.
+
+    e8 e cis
+    d4 fis,8
+    g a4
+    d,8 fis'16 g a fis
+    h8 cis16 d e cis
+    d8 d,16 e fis d
+    g8 a a
+    d,4 r8
+
+    r d'16 d d a
+    d8( e cis)
+    d e16( d) e( cis)
+    d8 fis,16 g a fis
+    h8 cis16 d e cis
+    d8 d,16 e fis d
+    g8 a a
+    d,4.
+  }
 }

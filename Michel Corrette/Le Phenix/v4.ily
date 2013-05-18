@@ -75,4 +75,85 @@ vd = \relative c {
   d d r4
   g4 a
   d, r4 \bar "|."
+
+  \introc
+  \repeat volta 2 {
+    d'8 d, d'
+    d4 r8
+    d e fis
+    g d r
+    d d, d'
+    d4 r8
+    g fis g
+    cis, d r
+    a a a
+    a4 a'8
+
+    fis e d
+    cis4 r8
+    d4 r8
+    e4 r8
+    fis d'16 cis h a
+    g fis e d cis h
+    a8. h16 cis a
+    d8 fis,16 g a fis
+    h8 g a
+    d,4 r8
+
+    R4.*15
+    r8 a' a
+    d d h
+    e4 fis8
+    cis16 d e8 e,
+    a cis16 d e cis
+    fis8 gis16 a h gis
+    a8 a,16 h cis a
+
+    d8 e e
+    a,4.
+  }
+  \repeat volta 2 {
+    R4.*19
+    h8 h h
+    h h h
+    h h h
+    fis fis fis
+    h h h
+    a a a
+
+    d d, d
+    g g g
+    a a a
+    a4 r8
+    a8 a a
+    r4.
+    a8 a a
+    r4.
+    a
+    d8 a' a,
+    d d, d'
+
+    d4 r8
+    d e fis
+    g d r
+    d d, d'
+    d4 r8
+    g fis g
+    cis, d r
+    d,4 r8
+    R4.*12
+
+    r8 fis16 g a fis
+    h8 cis16 d e cis
+    d8 d,16 e fis d
+    g8 a a
+    d,4 r8
+    R4.*3
+
+    r8 fis16 g a fis
+    h8 cis16 d e cis
+    d8 d,16 e fis d
+    g8 a a
+    d,4.
+  }
 }
