@@ -193,7 +193,7 @@ va = \relative c {
     d8( cis h)
     d( cis-+ h)
     ais fis, ais'
-    g h, d'
+    h h, d'
     e cis, e'
     fis d, \clef "tenor" fis'
     g16 e( fis) d( e) cis(
