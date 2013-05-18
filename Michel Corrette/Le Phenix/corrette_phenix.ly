@@ -1,7 +1,7 @@
 \version "2.14.2"
 \include "deutsch.ly"
 
-#(set-global-staff-size 20)
+#(set-global-staff-size 17)
 
 \header {
   title = "Concert"
@@ -16,6 +16,7 @@ voiceconsts = {
   \clef "bass"
   %\numericTimeSignature
   \compressFullBarRests
+  \set tupletSpannerDuration = #(ly:make-moment 1 8)
 }
 
 %minstr = "harpsichord"
@@ -23,7 +24,8 @@ mihi = "clarinet"
 %minstr = "accordion"
 milo = "bassoon"
 
-introa = { \tempo "1. Allegro " 4=90 \time 4/4 \set tupletSpannerDuration = #(ly:make-moment 1 8) }
+introa = { \tempo "I. Allegro " 4=90 \time 4/4 }
+introb = { \pageBreak \tempo "II. Adagio " 8=60 \time 2/4 }
 
 \include "v1.ily"
 \include "v2.ily"

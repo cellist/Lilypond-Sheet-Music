@@ -6,7 +6,7 @@ va = \relative c {
   d( cis d8) r d e16 d cis h a g fis g
   g8-+ fis r16 a fis' d e d cis h a g fis g
 
-  fis d fis g a a d e \clef "alto" fis8 fis fis g16 fis
+  fis d fis g a a d e \clef "tenor" fis8 fis fis g16 fis
   e8 e e fis16 e d8 d d e16 d
   cis8 a16 h cis h cis a d cis d e fis8 e16 fis
 
@@ -15,9 +15,9 @@ va = \relative c {
   e fis16 g fis8 e d \clef "bass" fis, g a
   h e, fis g a d16 cis h a g fis
 
-  e d cis h a g fis e d \clef "alto" d'' d d fis fis fis fis
-  e e e e e e e e fis8 a, d \clef "bass" fis,
-  g fis16 g a8 a, d16 fis e d a' cis h a \clef "alto"
+  e d cis h a g fis e d d'' d d fis fis fis fis
+  e e e e e e e e fis8 a, d fis,
+  g fis16 g a8 a, d16 fis e d a' cis h a \clef "tenor"
 
   d fis e d e g fis e fis8 d, fis' e16 d
   e8 cis, e' d16 cis d8 cis16 d e8 d
@@ -36,12 +36,12 @@ va = \relative c {
   \times 2/3 { cis( h a) }  d[ h] \times 2/3 { cis( h a) } d[ h] cis8 h16 a cis8 h-+
 
   a4 e'-+ \grace { d16[ e] } fis e d cis h cis h a
-  gis e a e h' e, d' e, cis' e, e' e, d' e, cis' e, \clef "alto"
+  gis e a e h' e, d' e, cis' e, e' e, d' e, cis' e,
   h' h( cis) d( e) fis( d) e( cis) a cis a d a fis' a,
 
   e' a, g' a, fis' a, e' a, fis'8 a, d fis
   h, cis16 d e( fis g) h, ais8 h4 cis8~
-  cis d16( cis) d8 e16( d) e8 \clef "bass" fis,,16 fis ais ais cis cis
+  cis d16( cis) d8 e16( d) e8 fis,,16 fis ais ais cis cis
 
   fis8 fis, fis' fis, e''16( fis e dis) e4~
   e8 fis16 e d8 cis16 h d4 cis-+
@@ -56,7 +56,7 @@ va = \relative c {
   h e e e e, d' d d cis? a a a a, g' g g
 
   fis fis e fis d fis e fis g g fis g e g fis g
-  a a g a fis a g a h h a h g h a h \clef "alto"
+  a a g a fis a g a h h a h g h a h \clef "tenor"
   cis cis h cis a cis h cis d d cis d h d cis d
 
   e e d e cis e d e fis fis e fis g g fis g
@@ -66,13 +66,63 @@ va = \relative c {
 
   a8 a \times 2/3 { a16[( h cis)] h( cis a) } d8 fis, g a
   h e, fis g a d16 cis h a g fis
-  e d cis h a g fis e d \clef "alto" d'' d d fis fis fis fis
+  e d cis h a g fis e d d'' d d fis fis fis fis
 
-  e e e e e e e e fis8 a, d \clef "bass" fis,
+  e e e e e e e e fis8 a, d fis,
   g fis16 g a8 a d, fis g a
   h e, fis g a d16 cis h a g fis
 
   e d cis h a g fis e d8 h'' a16 g fis e
   fis a d cis d8 fis, g fis16 g a8 a
   d,1 \bar "|."
+
+  \introb
+  r8 d' d d
+  cis cis r4
+  r8 h h h
+  a a r4
+  r8 g fis-+ e
+  d16 \clef "tenor" a' d( e) fis( d) e( fis)
+
+  g8. fis16 e32( d e fis) e( g, fis g)
+  fis( e fis d) a' d( cis d) fis( e fis d) a'16. d,32
+  e a,, a( cis) cis( e) e( a) a( cis) cis( e) e( a) a( cis,)
+  d8 d4~ d16 e32 h
+
+  \times 2/3 { cis16( h a) d[( cis h)] e( d cis) fis[( e d)] }
+  gis8( a) r a,
+  \times 2/3 { cis16( h a) d[( cis h)] } cis8 h-+
+  a fis'4 fis8
+  eis16( fis gis4) h,8
+  a16( gis fis4) fis'8
+
+  eis16( gis) \clef "bass" h,4( a16 gis)
+  a16. fis,32 h'16. gis,32 cis'16. a,32 dis'16. h,32
+  eis'16. cis,32 fis'16. dis,32 gis'16 h,,( a gis)
+  a fis''( gis a) gis8 eis
+  fis fis,4 fis'8
+
+  dis8.-+ e16 dis32( e dis e) fis( a, gis a)
+  gis8-+ e,4 e''8
+  cis8.-+ d16 cis32( d cis d) e( g,? fis g)
+  fis16. d,32 g'16. e,32 a'16. fis,32 h'16. g,32
+  cis'16. a,32 d'16. h,32 e'16 g,,( fis e)
+
+  fis d'' e fis e8 cis-+
+  \times 2/3 { g16( a fis) g\([ a fis] } g8.\) g16
+  g32 a, a( cis) cis( e) e( g) g( cis) cis( e) e( g) g( a,)
+  fis'16[ d,] \times 2/3 { fis( e d) } g[ e,] \times 2/3 { g( fis e) }
+  a fis''( e d) e8 cis
+
+  d f f f
+  f8.( e32 d e8.) h16
+  cis8.( h32 a d8.) d,16
+  fis?8.( g32 e fis8) e-+
+  d d' d d
+
+  cis cis r4
+  r8 h h h
+  a a r4
+  r8 g( fis-+ e)
+  d4 r \bar "|."
 }

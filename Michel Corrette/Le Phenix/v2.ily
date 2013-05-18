@@ -14,9 +14,9 @@ vb = \relative c' {
 
   d8. e16 d8 cis-+ d fis, g a
   h e, fis g a d16 cis h a g fis e
-  d cis h a g fis e d \clef "alto" d'' d d d d d d
+  d cis h a g fis e d d'' d d d d d d
 
-  d d d d cis cis cis cis d4 r8 \clef "bass" fis,
+  d d d d cis cis cis cis d4 r8 fis,
   g fis16 g a8 a, d4 r
   d cis-+ d r
   cis r h8 a gis4-+
@@ -54,17 +54,17 @@ vb = \relative c' {
   d4 r r2
 
   r16 fis, e fis d fis e fis g g fis g g, g' fis g
-  a a g a fis a g a h h a h h, h' a h \clef "alto"
+  a a g a fis a g a h h a h h, h' a h
   cis cis h cis a cis h cis d d cis d e e d e
 
   fis2~ fis4. e16 d
-  e4. d16 cis d8 d d \clef "bass" d,
+  e4. d16 cis d8 d d d,
   g,4 a d'8 d, r a'
   e' e4 e8 fis fis, g a
 
   h e, fis g a d16 cis h a g fis
-  e d cis h a g fis e d \clef "alto" d'' d d d d d d
-  d d d d cis cis cis cis d4 r8 \clef "bass" fis,
+  e d cis h a g fis e d d'' d d d d d d
+  d d d d cis cis cis cis d4 r8 fis,
 
   g fis16 g a8 a d, fis g a
   h e, fis g a d16 cis h a g fis
@@ -72,4 +72,51 @@ vb = \relative c' {
   e d cis h a g fis e d8 g' fis16 e d cis
   d4 r8 fis g fis16 g a8 a
   d,1 \bar "|."
+
+  \introb
+  r8 h' h h
+  h a r4
+  r8 a g g
+  g fis r4
+  r8 e' d cis
+  d d, d d
+  d d cis cis
+  d d d d
+
+  a a a a
+  a a gis gis
+  a h cis d
+  d cis cis fis
+  e e e e,
+  a d d d
+  cis cis cis cis
+  fis, gis a fis
+
+  cis' cis cis cis
+  fis, gis a h
+  cis dis eis16 gis( fis eis)
+  fis4 h,8 cis
+  fis, gis a fis
+  h h h h
+  e fis gis e
+  a a, a a
+
+  d, e fis g
+  a h cis16 e'( d cis)
+  d8 d, g, a
+  r e'16 d cis8 h
+  a a a a
+  d4 r
+  r16 a'( g fis) g,8 a
+  d d d d
+
+  gis,2
+  g!4 fis8 h
+  a a a a
+  d, h'' h h
+  h a r4
+  r8 a g g
+  g fis r4
+  r8 e'( d cis-+)
+  d4 r \bar "|."
 }

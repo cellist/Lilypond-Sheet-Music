@@ -58,4 +58,20 @@ vc = \relative c {
   e d cis h a g fis e d4 r
   r r8 fis g fis16 g a8 a
   d,1 \bar "|."
+
+  \introb
+  r8 fis' fis fis
+  fis fis r4
+  r8 d d d
+  d d r4
+  g,4 a
+  d, r
+
+  R2*29
+  r8 fis' fis fis
+  fis fis r4
+  r8 d d d
+  d d r4
+  g,4 a
+  d, r \bar "|."
 }
