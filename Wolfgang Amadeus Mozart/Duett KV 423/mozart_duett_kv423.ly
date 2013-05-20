@@ -14,8 +14,8 @@
 voiceconsts = {
   \key g \major
   \time 4/4
-  \clef "bass"
-%  \clef "treble"
+%  \clef "bass"
+  \clef "treble"
   %\numericTimeSignature
   \compressFullBarRests
   \set tupletSpannerDuration = #(ly:make-moment 1 4)
@@ -36,23 +36,27 @@ music = \new StaffGroup <<
       \new Staff {
 	\set Staff.midiInstrument = \milo
 	\set Staff.instrumentName = \markup \center-column { "Violon-" "cello I" }
-	\transpose g f, { \va }
+	\transpose g g { \va }
+%	\transpose g f, { \va }
       }
 
       \new Staff {
 	\set Staff.midiInstrument = \milo
 	\set Staff.instrumentName = \markup \center-column { "Violon-" "cello II" }
-	\transpose g f, { \vb }
+	\transpose g g { \vb }
+%	\transpose g f, { \vb }
       }
 >>
 
 \book {
   \score {
+    \keepWithTag #'print
     \music
     \layout {}
   }
 
   \score {
+    \keepWithTag #'midi
     \unfoldRepeats \music
 
     \midi {
