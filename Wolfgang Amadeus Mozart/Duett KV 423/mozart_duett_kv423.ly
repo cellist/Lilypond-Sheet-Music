@@ -1,7 +1,7 @@
 \version "2.14.2"
 \include "deutsch.ly"
 
-#(set-global-staff-size 18)
+#(set-global-staff-size 16.75)
 
 \header {
   title = "Duett KV 423"
@@ -14,8 +14,7 @@
 voiceconsts = {
   \key g \major
   \time 4/4
-%  \clef "bass"
-  \clef "treble"
+  \clef "bass"
   %\numericTimeSignature
   \compressFullBarRests
   \set tupletSpannerDuration = #(ly:make-moment 1 4)
@@ -36,15 +35,13 @@ music = \new StaffGroup <<
       \new Staff {
 	\set Staff.midiInstrument = \milo
 	\set Staff.instrumentName = \markup \center-column { "Violon-" "cello I" }
-	\transpose g g { \va }
-%	\transpose g f, { \va }
+	\transpose g g, { \va }
       }
 
       \new Staff {
 	\set Staff.midiInstrument = \milo
 	\set Staff.instrumentName = \markup \center-column { "Violon-" "cello II" }
-	\transpose g g { \vb }
-%	\transpose g f, { \vb }
+	\transpose g g, { \vb }
       }
 >>
 

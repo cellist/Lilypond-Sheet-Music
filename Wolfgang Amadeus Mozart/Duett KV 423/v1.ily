@@ -1,5 +1,6 @@
 va = \relative c'' {
   \voiceconsts
+  \clef "tenor"
 
   \repeat volta 2 {
     \tag #'midi {}
@@ -40,7 +41,7 @@ va = \relative c'' {
     cis-. a'-. e-. cis-. a-. e-. cis-. e-. a,4 r
     fis''4.(_\dolc g8) e[(-. r a)]-. r
     d,4.( h'8) cis,4 r8 a'
-    h,( g') a,( fis') g,( e') fis,( d')
+    h,( g') a,( fis') g,( e') fis,( d') \clef "bass"
     e,( h') a16( g fis e) d4( cis8) r
 
     d(\p cis d h) cis( h cis a)
@@ -51,7 +52,7 @@ va = \relative c'' {
     cis-. a'-. cis-. e-. g( fis) g( fis) g-.\> fis-. e-. d-. cis-. h-. a-. g-.\!
     fis-.\p a-. d-. e-. fis( d) fis( d) fis-. d-. a-. fis-. d'-. a-. fis-. d-.
 
-    cis-. a'-. cis-. e-. g( fis) g( fis) g-. fis-. e-. d-. cis-. h-. a-. g-.
+    cis-. \clef"tenor" a'-. cis-. e-. g( fis) g( fis) g-. fis-. e-. d-. cis-. h-. a-. g-.
     fis8-. d'16( e fis8)\< fis16( g a8) a16( h c?8 fis,)-.\!
     g\f r g4(\p fis e)
 
@@ -88,9 +89,9 @@ va = \relative c'' {
     a16( e a c) e( c e c) a4 r
     r16 a,-.\f c-. e-. a-. c-. e-. a-. c( d) c-. h-. a-. g-. fis?-. e-.
 
-    dis4 r h,16( fis h dis) fis( dis fis dis)
+    dis4 r \clef "bass" h,16( fis h dis) fis( dis fis dis)
     h4 r r2
-    r16 e-. g-. h-. e-. h-. e-. fis-. g( e) g-. a-. h-. g-. e-. d?-.
+    r16 e-. g-. h-. \clef "tenor" e-. h-. e-. fis-. g( e) g-. a-. h-. g-. e-. d?-.
 
     cis4-. e-. a-. r
     r16 d,,-. fis-. a-. d-. a-. d-. e-. fis( d) fis-. g-. a-. fis-. d-. c?-.
@@ -105,11 +106,11 @@ va = \relative c'' {
     fis-.\f d'16( cis d cis d cis) d( es c d b c a b)
 
     g8-. g'16( fis g fis g fis) g( fis g fis g b a g)
-    fis8-. d,-. fis-. d-. fis-. d-. fis-. d-.
+    fis8-. \clef "bass" d,-. fis-. d-. fis-. d-. fis-. d-.
     g-. d-. g-. d-. es-. cis-. es-. cis-.
 
     d r d16(\p fis) a-. a-. a8 r fis16( a) c-. c-.
-    c8\cresc r a16( c) fis-. fis-. fis( c) a'-. a-. a( fis) c'-. c-.
+    c8\cresc r \clef "tenor" a16( c) fis-. fis-. fis( c) a'-. a-. a( fis) c'-. c-.
     c8( a) fis-. d-. c r r4
 
     \appoggiatura { g8[\f h d] } g4 r8 \afterGrace g\trill { fis16[( g)] } h a g fis e d c h
@@ -136,7 +137,7 @@ va = \relative c'' {
     \appoggiatura { d,[ d'] } a'4(~\f a16 g) fis e d cis h a g fis e d
     e8-. \acciaccatura fis e16( dis e8 fis)-. g4 r
 
-    g'16( a h a g fis e d) cis( d e d cis h a g)
+    g'16( a h a g fis e d) \clef "bass" cis( d e d cis h a g)
     fis( g fis g a h a h) c?4 r
     \appoggiatura { g,8[ d'] } d'4~\sfz d16 c h a g fis e d c h a g
 
@@ -148,9 +149,9 @@ va = \relative c'' {
     d( e c d h c a h) g?4.( a16 h)
     c(\< d) e-. c-. h( c) d-. h-. a( h) c-. a-. g( a) h-. g-.\!
 
-    fis(\f a) fis-. d-. d'-. c-. h-. a-. h( c) cis-. d-. c-. h-. a-. g-.
+    fis(\f a) fis-. d-. d'-. c-. h-. a-. h( c) cis-. d-. c-. h-. a-. g-. \clef "tenor"
     fis( d') fis-. a-. d-. c-. h-. a-. h( c) cis-. d-. c-. h-. a-. g-.
-    fis( d') a-. fis-. d-. a-. fis-. a-. d,4 r
+    fis( d') a-. fis-. \clef "bass" d-. a-. fis-. a-. d,4 r
 
     h'4.(_\dolc c8) a r d r
     g,4.( e'8) fis,4 r8 d'
@@ -160,7 +161,7 @@ va = \relative c'' {
     g( fis g e) fis( e fis d)
     e( d e c) d( c d h)
 
-    c( a) h( g) a( a'') h,( g')
+    c( a) h( g) a( \clef "tenor" a'') h,( g')
     a,( f') g,( e') f,( h,) c( a)
     d( gis,) a( a'') h,( g') a,( fis'?)
     g,( e') fis,( d'') e,( c') d,( h')

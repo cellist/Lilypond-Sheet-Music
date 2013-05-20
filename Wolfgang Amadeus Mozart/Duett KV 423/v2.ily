@@ -15,17 +15,17 @@ vb = \relative c' {
     r8 h,( d g) r g,( h e)
     c( e) a4~ a16(\< fis g e fis d e c)\!
     h8\f g c g d' g, a fis
-    g4 r g''16(\sfz h)\> g-. d-. h-. g'-. d-. h-.\!
+    g4 r \clef "tenor" g''16(\sfz h)\> g-. d-. h-. g'-. d-. h-.\! \clef "bass"
 
     g8(\p d g d) fis( d fis d)
     g-. g,( h c d) fis,( d' c)
     h(\< h' a g)\! fis(\> e d c)\!
     h(\p g c a) d-. d16(\< cis d cis d cis)\!
 
-    d8-.\f d-. fis,-. a-. d4-. r
+    d8-.\f d-. fis,-. a-. d4-. r \clef "tenor"
     \appoggiatura { g8[ e'] } h'4(~\sfz h16 a)-. g-. fis-. e( fis g fis e d cis h)
     a4 r r2
-    a'16( h c? h a g fis e) d( e fis e d c h a)
+    a'16( h c? h a g fis e) d( e fis e d c h a) \clef "bass"
 
     g4 r r16 dis( e d cis h a g)
     fis4.( g16 a) h( c? a h g a fis g)
@@ -33,7 +33,7 @@ vb = \relative c' {
     a4 r8 cis d4 r8 gis,
 
     a4 r8 cis d4 r8 gis,
-    a4 r r16 gis''(\> a h a fis g e)\!
+    a4 r r16 \clef "tenor" gis''(\> a h a fis g e)\! \clef "bass"
     d8(_\dolc cis d h) cis( h cis a)
     h( a h g) a( g a fis)
 
@@ -74,17 +74,17 @@ vb = \relative c' {
     r a\cresc a a r g? a g
 
     fis(\f a) g( h a d) cis( a)
-    d4 r d'16( a d f) a( f a f)
+    d4 r \clef "tenor" d'16( a d f) a( f a f)
     d4 r r2
     e16( h e gis) h( gis h gis) e4 r
 
     r16 e,-.\f gis-. h-. e-. gis-. h-. e-. d( c) h-. a-. gis-. f-. e-. d-.
-    c4 r a,16( e a c) e( c e c)
-    a4 r r2
+    c4 r \clef "bass" a,16( e a c) e( c e c)
+    a4 r r2 \clef "tenor"
     h'16( fis h dis) fis( dis fis dis) h4 r
 
     r16 dis,-. fis-. h-. dis-. h-. fis'-. dis-. h'( ais) h-. c-. h-. a-. g-. fis-.
-    e4-. g8-. h-. e4 r
+    e4-. g8-. h-. e4 r \clef "bass"
     r16 a,,,-. c-. e-. a-. e-. a-. h-. c( a) c-. d-. e-. c-. a-. g-.
     fis4 a d r
 
@@ -96,11 +96,11 @@ vb = \relative c' {
     g2.( f'4)
     e8\< r d r c r cis\! r
     d-.\f d-. fis?-. d-. fis-. d-. fis-. d-.
-    g-. d-. g-. d-. ais'-. d,-. cis'-. d,-.
+    g-. d-. g-. d-. ais'-. d,-. cis'-. d,-. \clef "tenor"
 
     d'-. d16( cis d cis d cis) d( es c d b c a b)
     g8-. g'16( fis g fis g fis) g( fis g fis g b a g)
-    fis8 r r4 r d,16(\p fis) a-. a-.
+    fis8 \clef "bass" r r4 r d,16(\p fis) a-. a-.
 
     a4 r8 c\cresc a( c fis, a)
     d,4 r8 d'-. c-. a-. fis-. d-.
@@ -118,13 +118,13 @@ vb = \relative c' {
     c( e) a4(~\< a16 fis g e fis d e c)\!
     h8\f g c g d' g, a fis
 
-    g4 r g''16( h) g-. d-. h-. g'-. d-. h-.
+    g4 r \clef "tenor" g''16( h) g-. d-. h-. g'-. d-. h-. \clef "bass"
     g8(\p d g d) fis( d fis d)
     g-. g,( h c d) fis,( d' c)
     h( h' a g) fis( e d c)
 
     h( g c a) d-. d16(\< cis d cis d cis)\!
-    d8-.\f d fis,-. a-. d4 r
+    d8-.\f d fis,-. a-. d4 r \clef "tenor"
     \appoggiatura { g8[ e'] } h'4(~\sfz h16 a) g-. fis-. e( fis g fis e d cis h)
     a4 r r2
 
@@ -133,7 +133,7 @@ vb = \relative c' {
     \appoggiatura { c,8[ e] } e'4(~\sfz e16 d) c-. h-. a( h c h a g fis e)
     d4 r r2
 
-    d'16( e f e d c h a) g( a h a g f e d)
+    d'16( e f e d c h a) \clef "bass" g( a h a g f e d)
     c4 r r16 f(\p fis e d c h a)
     h4.( c16 d) e( f d e c d h c)
     a8_\< r h r c r cis\! r
