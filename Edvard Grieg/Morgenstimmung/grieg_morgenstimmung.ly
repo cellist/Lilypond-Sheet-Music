@@ -7,7 +7,7 @@
   title = "Morgenstimmung"
   subtitle = "- aus der \"Peer Gynt\" Suite -"
   composer = "Edvard Hagerup Grieg (1843-1907)"
-  arranger = "arr.: Kirsty Devarey"
+  arranger = "arr.: Kirsty Hall Devaney"
   enteredby = "cellist (2013-05-25)"
 }
 
