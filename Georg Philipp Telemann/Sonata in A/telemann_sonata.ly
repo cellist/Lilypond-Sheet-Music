@@ -28,9 +28,15 @@ boxa = \mark \markup \box "A"
 boxb = \mark \markup \box "B"
 boxc = \mark \markup \box "C"
 boxd = \mark \markup \box "D"
+boxe = \mark \markup \box "E"
+boxf = \mark \markup \box "F"
+boxg = \mark \markup \box "G"
+boxh = \mark \markup \box "H"
+boxi = \mark \markup \box "I"
+boxk = \mark \markup \box "K"
 
-introa = { \tempo "1. Cantabile " 4=60 \time 4/4 }
-introb = { \time 3/2 }
+introa = { \tempo "1. Cantabile "  4=60 \time 4/4 }
+introb = { \break \tempo "2. Alla breve " 2=60 \time 2/2 }
 
 \include "v1.ily"
 \include "v2.ily"
@@ -40,20 +46,20 @@ music = \new StaffGroup <<
       \new Staff {
 	\set Staff.midiInstrument = \milo
 	\set Staff.instrumentName = \markup \center-column { "Violon-" "cello I" }
-	\transpose g g, { \va }
+	\transpose g d, { \va }
       }
 
       \new Staff {
 	\set Staff.midiInstrument = \milo
 	\set Staff.instrumentName = \markup \center-column { "Violon-" "cello II" }
-	\transpose g g, { \vb }
+	\transpose g d, { \vb }
       }
 
       \new Staff {
 	\set Staff.midiInstrument = \milo
 	\set Staff.instrumentName = \markup \center-column { "Violon-" "cello III" }
 %	\transpose g c' { \vc }
-	\transpose g g, { \vc }
+	\transpose g d, { \vc }
       }
 >>
 
