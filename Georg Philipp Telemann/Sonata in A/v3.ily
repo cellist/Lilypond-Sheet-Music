@@ -141,4 +141,89 @@ vc = \relative c'' {
   g a h c
   d2 d
   g,1 \bar "|."
+
+  \introc
+  g8 g' d[ c] b a g[ d']
+  g, g' d[ c] b a g[ d']
+  g, g g[ g] c c c[ c]
+  f, f f[ f] b d es[ es]
+
+  f b, f'[ f,] b b b[ b]
+  a a a[ a] d d' a[ g]
+  f e d[ a'] d, d a[ g]
+  f' e d[ a] d g, a[ a] \boxj
+
+  d d h[ g] c c a[ f]
+  b? b g' es? a a f[ d]
+  g b c[ c,] d g d'[ d,]
+  g b c[ c,] d g d'[ d,]
+  g,2 r \bar "|."
+
+  \introd
+  \repeat volta 2 {
+    \partial 4. g4.
+    d' c
+    g' g4 g,8
+    g'4 g,8 c4 d8
+    g4. g,
+    d' c
+    g' h,4 g8
+    d'4 d8 fis4 d8
+
+    a'4 a,8 cis4 a8
+    e'4 e8 g4 e8
+    h'4 h8 gis4 e8
+    a4 a8 fis4 d8
+    g4 g8 e4 d8
+    cis4 a8 d4 g,8
+    a4. d \boxk
+
+    a' g
+    d d4 fis8
+    d4 fis8 a4 a,8
+    d4. d
+    a' g
+    d d4 fis8
+    d4 fis8 a4 a,8
+    d4.
+  } \boxl
+  \repeat volta 2 {
+    \partial 4. r
+    d' d,
+    g r
+    g g,
+    c c4 e8
+    f4 f,8 f'4 d8
+    g4 g,8 g'4 e8
+    a4 a,8 a'4 f8
+
+    h4 g8 c,4.~
+    c2.~
+    c~
+    c~
+    c4. a'4 g8
+    f4 g8 a4 g8
+    f4 g8 a4 f8
+    e4 f8 g4 g,8
+
+    c4. e4 c8 \boxm
+    g'4 g,8 h4 g8
+    d'4 d8 fis?4 d8
+    a'4 a,8 c4 a8
+    e'4 e8 cis4 a8
+    d4. h4 g8
+    c?4 h8 a4 g8
+
+    fis4 d'8 g4 c,8
+    d4. g
+    d c
+    g' g4 g,8
+    g'4 g,8 c4 d8
+
+    g,4. g
+    d' c
+    g' g4 g,8
+    g'4 g,8 d'4 d8
+    g,4.
+  }
 }

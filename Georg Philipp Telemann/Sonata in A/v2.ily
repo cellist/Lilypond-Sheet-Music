@@ -144,4 +144,90 @@ vb = \relative c'' {
   g2 g,~
   g fis
   g1 \bar "|."
+
+  \introc
+  r
+  r16 d' g, g' f b, a es' d g, fis c' b a32( g) a16 g32( fis)
+  g16 d b' g r b d b r g c e g, c e g,
+
+  a c a f? r a c a b d b f g es' c g
+  a f d' b a8.\trill b16 b d f8 r16 d b g
+  cis a e'8 r16 e cis a f' d f8 r16 a b e,
+
+  r f g cis, r a' g f32( e) f16 a, d, d' c f, e b'
+  a d, cis g' f e32( d) e16 d32( cis) d16 f g a e8.(\trill d16) \boxj
+
+  d fis a8 r16 d h d g, g' e c f! f, c' es
+  d b? f'8 r16 b, g b es, es' c a d d, a' c
+
+  b g d'8~ d16 es c8~ c16 fis g b, a8.\trill g16
+  g b g d es c' a e fis d b' g fis8.\trill g16
+  g2 r \bar "|."
+
+  \introd
+  \repeat volta 2 {
+    \partial 4. h8. c16 h8
+    a4 h8 c8. d16 c8
+    h4. g8. a16 h8
+    g8. a16 h8 a8. g16 fis8
+    g4. h8. c16 h8
+    a4 h8 c8. d16 c8
+    h4. r
+
+    a d~
+    d cis
+    h e~
+    e d
+    cis2.
+    h
+    a4 cis8 d4 e8
+    cis4.\trill fis,8. g16 fis8 \boxk
+
+    e4 fis8 g8. a16 g8
+    fis4 d8 d'4.~
+    d cis\trill
+    d fis,8. g16 fis8
+    e4 fis8 g8. a16 g8
+    fis4 d8 d'4.~
+    d cis\trill
+    d
+  } \boxl
+  \repeat volta 2 {
+    \partial 4. r
+    a'8. h16 a8 fis8. g16 fis8
+    d8. e16 d8 h4.
+    d8. e16 d8 h8. c16 h8
+    g8. a16 g8 e4 g8
+    a4 c8 a8. h16 c8
+    h4 d8 h4 g8
+
+    c4 e8 c8. d16 e8
+    d4 h8 c8. d16 e8
+    f4 e8 g4 e8
+    f4 e8 c8. d16 e8
+    f4 e8 g4 e8
+    e4.\trill c~
+    c c~
+    c c~
+
+    c4 d8 g,4 h8
+    c,4. c'~ \boxm
+    c h
+    a d~
+    d c
+    h e~
+    e d~
+    d c~
+    c h4 c8
+    a4.\trill h8. c16 h8
+    a4 h8 c8. d16 c8
+
+    h4. g8. a16 h8
+    g8. a16 h8 a8. g16 fis8
+    g4 d8 h'8. c16 h8
+    a4 h8 c8. d16 c8
+    h4. g8. a16 h8
+    g8. a16 h8 fis4.\trill
+    g
+  }
 }
