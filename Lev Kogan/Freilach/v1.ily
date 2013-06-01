@@ -63,7 +63,7 @@ va = \relative c'' {
 
   g r8 f? r4 g
   fis r8 fis r4 fis
-  es r8 es r4 \clef "tenor" es'
+  es r8 es r4 \clef "treble" es'
 
   d4 g f8 e?4 e8
   d e f a gis\prall f e d \boxb
