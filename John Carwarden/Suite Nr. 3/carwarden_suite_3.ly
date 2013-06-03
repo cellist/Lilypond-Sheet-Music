@@ -23,8 +23,10 @@ mihi = "clarinet"
 %minstr = "accordion"
 milo = "bassoon"
 
-introa = { \tempo "1. Pavan " 2=70 \time 2/2 }
-introb = { \time 3/2 }
+introa = { \tempo "1. Pavane " 2=70 \time 2/2 }
+introb = { \break \tempo "2. Air " 2=60 }
+introc = { \break \tempo "3. Sarabande " 4=80 \time 3/4 }
+introd = { \break \tempo "4. Air " 2=60 \time 2/2 }
 
 \include "v1.ily"
 \include "v2.ily"
