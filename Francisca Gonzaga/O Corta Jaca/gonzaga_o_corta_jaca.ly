@@ -1,7 +1,7 @@
-\version "2.12.3"
+\version "2.14.2"
 \include "deutsch.ly"
 
-#(set-global-staff-size 16)
+#(set-global-staff-size 16.5)
 
 \header {
   title = "O Corta Jaca"
@@ -15,8 +15,8 @@
 voiceconsts = {
  \key f \major
  \time 2/4
- \clef "treble"
-% \clef "bass"
+% \clef "treble"
+ \clef "bass"
 % \numericTimeSignature
  \compressFullBarRests
  \tempo "Tango " 4=80
@@ -37,37 +37,37 @@ midilow = "accordion"
     \new StaffGroup <<
       \new Staff {
 	\set Staff.midiInstrument = \midilow
-	\set Staff.instrumentName = #"Vc 1"
-	\va
-%	\transpose f b,, { \va }
+	\set Staff.instrumentName = \markup \center-column { "Violon-" "cello I" }
+%	\va
+	\transpose f f, { \va }
       }
 
       \new Staff {
 	\set Staff.midiInstrument = \midilow
-	\set Staff.instrumentName = #"Vc 2"
-	\vb
-%	\transpose f b,, { \vb }
+	\set Staff.instrumentName =  \markup \center-column { "Violon-" "cello II" }
+%	\vb
+	\transpose f f, { \vb }
       }
 
       \new Staff {
 	\set Staff.midiInstrument = \midilow
-	\set Staff.instrumentName = #"Vc 3"
-	\vc
-%	\transpose f b,, { \vc }
+	\set Staff.instrumentName = \markup \center-column { "Violon-" "cello III" }
+%	\vc
+	\transpose f f, { \vc }
       }
 
       \new Staff {
 	\set Staff.midiInstrument = \midilow
-	\set Staff.instrumentName = #"Vc 4"
-	\vd
-%	\transpose f b,, { \vd }
+	\set Staff.instrumentName = \markup \center-column { "Violon-" "cello IV" }
+%	\vd
+	\transpose f f, { \vd }
       }
-
+%}
       \new Staff {
 	\set Staff.midiInstrument = \midilow
-	\set Staff.instrumentName = #"Vc 5"
-	\ve
-%	\transpose f b,, { \ve }
+	\set Staff.instrumentName = \markup \center-column { "Violon-" "cello V" }
+%	\ve
+	\transpose f f, { \ve }
       }
     >>
 

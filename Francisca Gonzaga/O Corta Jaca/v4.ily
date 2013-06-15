@@ -29,7 +29,7 @@ vd = \relative c' {
 
    r16 a\p a a r8 a
    r16 a a a r8 a
-   a'4\f a' \bar "||"
+   \clef "tenor" a'4\f a' \bar "||"
    \mark \markup \box B
    c,\mf b'
    r16 e,8( es16 b8) b
@@ -70,7 +70,7 @@ vd = \relative c' {
    a,2
    a8 r g'4\f \bar "||"
    \mark \markup \box C
-   r16 a,, a a r8 a
+   r16 \clef "bass" a,, a a r8 a
    r16 a a a r8 a
    r16 a\p a a r8 a
 

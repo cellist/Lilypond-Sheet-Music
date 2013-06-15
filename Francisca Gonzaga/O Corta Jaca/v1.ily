@@ -6,7 +6,7 @@ va = \relative c'' {
    r16 a a a r8 a
    r16 a\p a a r8 a
    r16 a a a r8 a
-   r16 d8\( e16 f g a b
+   r16 \clef "treble" d8\( e16 f g a b
 
    a gis a cis e f8 e16~
    e d8 a16 c? b8 f16
@@ -24,7 +24,7 @@ va = \relative c'' {
    r16 d8( es16 d cis d a'
    g fis g b d8) d
    r16 a8( b16 a gis a fis'!
-   d4) r8 a,
+   d4) r8 \clef "bass" a,
    r16 a a a r8 a
 
    r16 a\p a a r8 a
@@ -75,7 +75,7 @@ va = \relative c'' {
    r16 a\p a a r8 a
 
    r16 a a a r8 a
-   r16 d8\(\mf e16 f g a b
+   r16 \clef "treble" d8\(\mf e16 f g a b
    a gis a cis e f8 e16~
    e d8 a16 c? b8 f16
    a8. e16 a4\)

@@ -16,7 +16,7 @@ vb = \relative c' {
    r16 f\p f f r8 f
 
    r16 g g g r8 g
-   r16 d'8\(\mf es16 d cis d a'
+   r16 \clef "treble" d'8\(\mf es16 d cis d a'
    g fis g b d8\) d
    r16 a8\( b16 a gis a cis
    e? d a f? d8\) d
@@ -24,7 +24,7 @@ vb = \relative c' {
    r16 d8\( es16 d cis d a'
    g fis g b d8\) d
    r16 a8\( b16 a gis a f
-   d\)\f f, f f r8 f
+   d\)\f \clef "bass" f, f f r8 f
    r16 g g g r8 g
 
    r16 f f f r8 f
@@ -84,7 +84,7 @@ vb = \relative c' {
    r16 g g g r8 g
    r16 f\p f f r8 f
    r16 g g g r8 g
-   r16 d'8\(\mf es16 d cis d a'
+   r16 \clef "treble" d'8\(\mf es16 d cis d a'
 
    g fis g b d8\) d
    r16 a8\( b16 a gis a cis
@@ -93,7 +93,7 @@ vb = \relative c' {
    g fis g b d8\) d
    r16 a8\( b16 a gis a f?
 
-   d\)\f f, f f r8 f
+   d\)\f \clef "bass" f, f f r8 f
    r16 g\p g g r8 g
    r16 f f f r8 f
    r16 g g g r8 g

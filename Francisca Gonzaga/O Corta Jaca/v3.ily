@@ -29,7 +29,7 @@ vc = \relative c' {
 
    r16 d\p d d r8 d
    r16 cis cis cis r8 cis
-   d'4\f d' \bar "||"
+   \clef "treble" d'4\f d' \bar "||"
    \mark \markup \box B
    c,\mf d'
    r16 c8( h16 b8) d,
@@ -69,7 +69,7 @@ vc = \relative c' {
    f,2
    f8 r a4\f \bar "||"
    \mark \markup \box C
-   r16 d,, d d r8 d
+   r16 \clef "bass" d,, d d r8 d
    r16 cis cis cis r8 cis
    r16 d\p d d r8 d
 
