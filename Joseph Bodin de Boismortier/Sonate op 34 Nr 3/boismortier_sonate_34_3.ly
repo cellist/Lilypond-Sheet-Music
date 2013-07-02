@@ -1,7 +1,7 @@
 \version "2.14.2"
 \include "deutsch.ly"
 
-#(set-global-staff-size 18)
+#(set-global-staff-size 17)
 
 \header {
   title    = "Sonate op. 34 Nr. 3"
@@ -24,11 +24,30 @@ mihi = "clarinet"
 %minstr = "accordion"
 milo = "bassoon"
 
-introa = { \tempo "1. Andante " 4=60 \time 4/4 }
+introa = {            \tempo "1. Andante "  4=60 \time 4/4 }
+introb = { \break     \tempo "2. Presto "  4=120 \time 2/4 }
+introc = { \pageBreak \tempo "3. Adagio "   2=60 \time 3/2 }
+introd = { \break     \tempo "4. Allegro " 4.=80 \time 6/8 }
 
 boxa = { \bar "||" \mark \markup \box "A" }
 boxb = { \bar "||" \mark \markup \box "B" }
 boxc = { \bar "||" \mark \markup \box "C" }
+boxd = { \bar "||" \mark \markup \box "D" }
+boxe = { \bar "||" \mark \markup \box "E" }
+boxf = { \bar "||" \mark \markup \box "F" }
+boxg = { \bar "||" \mark \markup \box "G" }
+boxh = { \bar "||" \mark \markup \box "H" }
+boxi = { \bar "||" \mark \markup \box "I" }
+boxj = { \bar "||" \mark \markup \box "J" }
+boxk = { \bar "||" \mark \markup \box "K" }
+boxl = { \bar "||" \mark \markup \box "L" }
+boxm = { \bar "||" \mark \markup \box "M" }
+boxn = { \bar "||" \mark \markup \box "N" }
+boxo = { \bar "||" \mark \markup \box "O" }
+boxp = { \bar "||" \mark \markup \box "P" }
+boxq = { \bar "||" \mark \markup \box "Q" }
+boxr = { \bar "||" \mark \markup \box "R" }
+boxs = { \bar "||" \mark \markup \box "S" }
 
 \include "v1.ily"
 \include "v2.ily"
