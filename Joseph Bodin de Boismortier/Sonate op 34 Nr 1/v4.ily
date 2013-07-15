@@ -145,4 +145,87 @@ vd = \relative c {
   d4. b?8 c a d d,
   g4. g8 f4. d8
   es2 d \bar "|."
+
+  \introd
+  R4.*8
+  r8 d' d
+  g, g' g
+  f f d
+
+  es es4-+
+  d es8
+  c d d, \boxj
+  g g' g
+  d d' d
+  c c a
+  b b4-+
+  a b8
+  g a a,
+  d, fis d
+  g h g
+  c e, c
+
+  f? a f
+  b? d, b'
+  es?4 c8
+  d h4
+  c c'8~
+  c h4
+  c es,8
+  f g g, \boxk
+  c e c
+  f a f
+  b d, b
+  es?4 c8
+  f4 g8
+
+  es f f,
+  b4 r8
+  R4.*4
+  r8 d d
+  g, g' g
+  f f d
+  es es4-+
+  d8 g g
+  c, f f
+  b,4 b'8~
+  b a f
+
+  b c c, \boxm
+  f4 r8
+  r b, b
+  e,4 r8
+  r a a
+  d8. es?16 f8
+  g a a,
+  d h g
+  c h g
+  c a f
+  b? a f
+
+  b d b
+  es g es
+  f4 g8
+  es f f, \boxn
+  b4 r8
+  r es es
+  a,4 r8
+  r d d
+  g,8. a16 b8
+  c d d,
+  g g' g
+  c, c'4~
+
+  c8 b4
+  a8 d d
+  g, g' g
+  f f d
+  es es4-+
+  d es8
+  c d d,
+  g4 f8\p
+  es es4-+
+  d es8
+  c d d,
+  g4. \bar "|."
 }

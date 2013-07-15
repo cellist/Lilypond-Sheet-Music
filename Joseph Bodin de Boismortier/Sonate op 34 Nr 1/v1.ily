@@ -150,4 +150,98 @@ va = \relative c {
   c8 b16 a b4 a a8.-+ g16
   g4 es'2 d4~
   d c d2 \bar "|."
+
+  \introd
+  r8 g, g
+  d d' d
+  c c a
+  b b4-+
+  a8 d4~
+  d8 c4~
+  c8 b4
+  a b8
+  a a4-+
+  g8 es4~
+  es8 d4~
+
+  d8 g, c
+  c4 b8
+  a a4-+ \boxj
+  g g'8
+  a b4~
+  b8 a4~
+  a8 d, g
+  g4 f8
+  e e4-+
+  d8 d'16 es? d c
+
+  h c d8 h
+  c c16 d c b?
+  a b c8 a
+  b f'4~
+  f8 es4~
+  es8 d d
+  g, g' g
+  f f d
+  es es4-+
+  d8 d4-+ \boxk
+
+  c r8
+  R4.
+  r8 f, f
+  b, b'4
+  a8 f b~
+  b a4-+
+  b8 d,8 d
+  c4 r8
+  r es es
+  d g4
+  fis8 d g~ \boxl
+
+  g f?4~
+  f8 es es
+  es-+ d d'~
+  d c4~
+  c8 b4~
+  b8 a4~
+  a8 g f
+  es c f~
+  f e4-+ \boxm
+  f8 a16 g f es?
+  d8 b r
+
+  r g'16 f e d
+  cis8 a r
+  r f'' f
+  e e4-+
+  d4 g8
+  es?-+ d g
+  es c f
+  d-+ c f
+  d b f'~
+  f b, es
+  es4 d8
+
+  c c4-+ \boxn
+  b r8
+  r b16( a) b8
+  c4 r8
+  r a16( g) a8
+  b d g~
+  g fis4-+
+  g r8
+  r g, g
+  d d' d
+
+  c c a
+  b b4-+
+  a8 d4~
+  d8 g, c
+  c b4
+  a8 a4-+
+  g8 d'4~\p
+  d8 g, c
+  c4 b8
+  a a4-+
+  g4. \bar "|."
 }

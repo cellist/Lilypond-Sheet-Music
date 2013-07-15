@@ -24,10 +24,10 @@ mihi = "clarinet"
 %minstr = "accordion"
 milo = "bassoon"
 
-introa = {            \tempo "1. Adagio "   4=60  \time 4/4 }
-introb = { \break     \tempo "2. Presto "   8=180 \time 2/4 }
-introc = { \break     \tempo "3. Adagio "   4=60  \time 4/4 }
-introd = { \break     \tempo "4. Allegro "  4=120 \time 2/2 }
+introa = {            \tempo "1. Adagio "   4=50  \time 4/4 }
+introb = { \break     \tempo "2. Presto "   8=210 \time 2/4 }
+introc = { \pageBreak \tempo "3. Adagio "   4=60  \time 4/4 }
+introd = { \break     \tempo "4. Allegro "  4=110 \time 3/8 }
 
 boxa = { \bar "||" \mark \markup \box "A" }
 boxb = { \bar "||" \mark \markup \box "B" }
@@ -43,11 +43,6 @@ boxk = { \bar "||" \mark \markup \box "K" }
 boxl = { \bar "||" \mark \markup \box "L" }
 boxm = { \bar "||" \mark \markup \box "M" }
 boxn = { \bar "||" \mark \markup \box "N" }
-boxo = { \bar "||" \mark \markup \box "O" }
-boxp = { \bar "||" \mark \markup \box "P" }
-boxq = { \bar "||" \mark \markup \box "Q" }
-boxr = { \bar "||" \mark \markup \box "R" }
-boxs = { \bar "||" \mark \markup \box "S" }
 
 \include "v1.ily"
 \include "v2.ily"
@@ -56,13 +51,13 @@ boxs = { \bar "||" \mark \markup \box "S" }
 
 music = \new StaffGroup <<
       \new Staff {
-	\set Staff.midiInstrument = \milo
+	\set Staff.midiInstrument = \mihi
 	\set Staff.instrumentName = \markup \center-column { "Violon-" "cello I" }
 	\transpose b b { \va }
       }
 
       \new Staff {
-	\set Staff.midiInstrument = \milo
+	\set Staff.midiInstrument = \mihi
 	\set Staff.instrumentName = \markup \center-column { "Violon-" "cello II" }
 	\transpose b b { \vb }
       }

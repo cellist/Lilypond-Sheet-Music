@@ -148,4 +148,92 @@ vb = \relative c' {
   fis4 g2 fis8. g16
   g4 r8 b a4 r8 a
   g2 fis \bar "|."
+
+  \introd
+  R4.*6
+  r8 g g
+  d d' d
+  c c a
+  b b4-+
+  a d8
+  g,16 fis g b a g
+
+  fis8 d g~
+  g fis4-+ \boxj
+  g8 d' e
+  f?16 e f g f g
+  e d e f e f
+  d cis d f e d
+  cis8 a d~
+  d cis4-+
+  d r8
+
+  R4.*3
+  r8 d d
+  g, g' g
+  f f d
+  es? es4-+
+  d8 d4~
+  d8 g, c~
+  c h4-+ \boxk
+
+  c8 c16 d c b?
+  a b c8 a
+  b b16 c b a
+  g4 c8
+  c4 b8
+  g' f es
+  d b b
+  a4 r8
+  r c, c
+  b b'4
+  a16 fis g a b d, \boxl
+
+  es8 d'4~
+  d8 g, c~
+  c f, b~
+  b es4
+  a,8 g4~
+  g8 f4~
+  f8
+  b4
+  g8 a4
+  g8 g4-+ \boxm
+  f r8
+  r f'16( e) f8
+  g4 r8
+
+  r e16( d) e8
+  f a, d~
+  d cis4-+
+  d8 g d
+  r g d
+  r f c
+  r f c
+  r f, f
+  g g g
+  a f b~
+  b a4-+ \boxn
+
+  b r8
+  r g16( fis) g8
+  a4 r8
+  r fis16( e) fis8
+  g d d'
+  es? d c
+  h d16( c) d8
+  es e16( d) e8
+  fis d g~
+  g fis4-+
+
+  g8 es,?4~
+  es8 d d
+  g, g' g
+  fis d g~
+  g fis4-+
+  g8 b\p a
+  g16 fis g b a g
+  fis8 d g~
+  g fis4-+
+  g4. \bar "|."
 }

@@ -145,4 +145,97 @@ vc = \relative c {
   a8 d g, d' es4 d8 a
   b4 r8 g c4 b~
   b a8. a16 a2 \bar "|."
+
+  \introd
+  R4.*2
+  r8 d d
+  g, g' g
+  f f d
+  es es4-+
+  d e8
+  fis d g~
+  g fis4-+
+  g g,8
+  c b4~
+
+  b8 es?4
+  a, g8
+  es' d a \boxj
+  b4 b8
+  a d4
+  g,8 c4
+  f,8 b4
+  e, d8
+  b' a16 b a g
+  fis g a8 fis
+  g g16 a g f?
+
+  e f g8 e
+  f f16 g f es?
+  d8 b'4~
+  b8 c4~
+  c8 d4~
+  d8 g, c
+  as-+ g g'
+  g4 g,8
+  as g16 as g f \boxk
+
+  e f g8 e
+  f f16 g f es?
+  d es f8 d
+  es4 es'8
+  es4 d8
+  c c4-+
+  b r8
+  r f' f
+  c4 r8
+  r g g
+  d d' d \boxl
+
+  c c b
+  b b4-+
+  a8 d d
+  g, g' g
+  f f d
+  es es4-+
+  d d8
+  c f c
+  d c b \boxm
+  a4 r8
+  r d16( cis) d8
+
+  e4 r8
+  r cis16( h) cis8
+  d4 a8
+  b a g
+  fis d h'
+  c? g h
+  c4 a8
+  b? f a
+  b4 d8
+  d4 c8
+  c4 b8
+  g-+ f es? \boxn
+
+  d d'16 c b a
+  g8 es r
+  r c'16 b a g
+  fis8 d r
+  r b' b
+  a a4-+
+  g8 h16( a) h8
+  c c16( b?) c8
+  a b g
+
+  es' d4~
+  d8 g, c~
+  c f, b~
+  b es4
+  a, g8
+  es' d a
+  b g\p a
+  b es4
+  a, g8
+  es d a
+  b4. \bar "|."
 }
