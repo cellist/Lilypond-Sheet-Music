@@ -1,4 +1,4 @@
-va = \relative c'' {
+va = \relative c' {
   \voiceconsts
 
   \introa
@@ -112,4 +112,130 @@ va = \relative c'' {
     e8 e r fis g g r a32(\f g fis e)
     d4 a d, \bar "|."
   }
+
+  \introb
+  \repeat volta 2 {
+    \partial 2 fis'( a16 g fis g)
+    a8.( h16) a8-. g-.
+    fis-. e-. d-. e-.
+    fis16( g a fis) e8 r
+    e16( fis g a) h8-. h-.
+    h16( a gis a) h( d cis e)
+    e( d cis d cis h a g?)
+
+    fis4( e16) cis( d e)
+    fis4( a16 g fis g)
+    a8.( h16) a8-. g-.
+    fis-. e-. d-. e-.
+    fis16( g a fis) e8-. r
+    cis16( e a) h-. a-. g-. fis-. e-.
+    d( e) fis g fis8-. r
+    cis16( e a) h-. a-. g-. fis-. e-.
+    d( e) fis g fis8-. d'-.
+
+    e,4. fis8
+    a16( g h a cis h d cis)
+    e( d cis h) a8-. gis-.
+    e'( a,) d-. g,?-.
+    cis( fis,) h-. e,-.
+    a( d,) cis16 d e fis
+    \grace a8 g fis4 e8
+    e'( a,) d-. g,-.
+    cis( fis,) h-. e,-.
+    a( d,) cis16( d e fis)
+    \grace a8 g fis4 e8
+    d a d,4 \bar "||"
+
+    fis16( a d a)-. g-. h-. a-. g-.
+    fis( a d a)-. g-. h-. a-. g-.
+    fis a g fis e g fis e
+    d fis a d fis d a fis
+    d fis a d fis a d cis
+    h8 h r e
+    e d r cis
+    h16-| gis( fis\trill e) gis-. e-. a-. e-.
+    h' e, cis' e, \grace e' d( cis32 d e16 d)
+
+    cis a e cis a cis e a(
+    gis) h( a) cis( h) d( cis) a-.
+    h-. gis( fis\trill e) gis-. e-. a-. e-.
+    h' e, cis' e, \grace e' d( cis32 d e16 d)
+    cis a e cis a cis e a(
+    gis) h( a) cis( h) d( cis) e
+    d4( cis8\trill h16 cis)
+    \times 4/6 { h( cis) d cis-. h-. a-. gis( a) h a-. gis-. fis-. }
+    \times 4/6 { e( fis gis) fis-. e-. d-. cis( d e) d-. cis-. h-. }
+    \times 4/6 { a( h cis) h-. a-. g?-. fis( g a) g-. fis-. e-. }
+    d fis a d fis-. a-. d-. fis-.
+    e8-.\p e-. r e
+    e( d cis his)
+    d( cis) r cis
+    cis( h? a gis)
+    h16( a gis a) d8.(\< h16)
+    cis8-. a-. h8.( cis32 d)\!
+
+    cis8-. a-. h8.( cis32 d)
+    cis16( a fis h) a8 gis16\trill fis32 gis
+    a4 r16 a(\p h cis)
+    d( e d cis) h8-. e-.
+    d cis r16 a( h cis)
+    d( e d cis) h8-. e-.
+    d( cis4 h8)~
+    h(-. a4 gis8)~
+    gis( a4 g8~
+    g fis4 e8)
+  }
+
+  \introc
+  a4.(_\dolc d8)
+  \grace e d cis r e
+  a,4.( d8)
+  \grace e d cis r e~
+  e d cis4~
+  cis16( d e d c? b a g)
+  f( g gis a b a g f)
+  \grace { e[ f] } f8.( e32 f e8)-. r
+  f,16 a c? f a f c a
+  g-. b?-. g-. b-. g-. b-. g-. b-.
+
+  a-. c-. f-. a-. g( f) c b
+  g-. c-. g-. e-. c c'32\trill h c16-. d-.
+  e\< e32(\trill d) e16-. f-. g g32(\trill f) g16-. a-.\!
+  b8-. g-. a-. f-.
+  d4( g)
+  e( f)
+  b,( a
+  b a)
+  c8-. b-. a-. g-.
+  f r r4
+  <a f' a>8 r r4
+  b8-. g-. d'-. c-.
+
+  b r d r
+  << { f f e e } \\ \repeat tremolo 4 c8 >>
+  f16( g a b) c4~
+  c16( d32 c b16 a) b8-. b-.
+  \grace b16 a( g a b) c4~
+  c16( d32 c b16 a) b8-. b-.
+  a d4 c8~
+  c b4 a8~
+  a g4 f8~
+  f e4 d8
+
+  \times 4/6 { cis16 e a cis e d cis b a g f e }
+  \times 4/6 {  d a d f a g f e d c? b a }
+  g b'8 a g fis16
+  a( g fis g) r b(_\dolc a fis)
+  a( g fis g) r b( a g)
+  f?(\trill e32 f)-. g16-. e-. e4\trill
+
+  d r8 d'(\p
+  cis[ e a, g])
+  \grace a g f r d'(
+  cis[ e a, g])
+  \grace a g f r cis'
+  d8.( e16 f8) gis,-.
+  a-. r gis-. r
+  a-. r gis-. r
+  a-._\dcar r g?-. r \bar "|."
 }
