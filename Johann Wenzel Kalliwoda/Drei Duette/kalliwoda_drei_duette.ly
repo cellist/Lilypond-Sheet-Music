@@ -1,7 +1,7 @@
 \version "2.14.2"
 \include "deutsch.ly"
   
-#(set-global-staff-size 17)
+#(set-global-staff-size 16.8)
 
 \header {
   title    = \markup \italic "Drei Duette"
@@ -40,18 +40,25 @@ boxm = { \bar "||" \mark \markup \box "M" }
 boxn = { \bar "||" \mark \markup \box "N" }
 boxo = { \bar "||" \mark \markup \box "O" }
 boxp = { \bar "||" \mark \markup \box "P" }
+boxq = { \bar "||" \mark \markup \box "Q" }
+boxr = { \bar "||" \mark \markup \box "R" }
+boxs = { \bar "||" \mark \markup \box "S" }
+boxt = { \bar "||" \mark \markup \box "T" }
 
 atp = \markup \bold \italic "a tempo"
+dlc = \markup \bold \italic "dolce"
 rit = \markup \bold \italic "rit."
 sst = \markup \bold \italic "sempre staccato"
 
-introa = {            \tempo "1a. Allegro moderato " 4=120 \time 4/4 }
-introb = { \break     \tempo "1b. Adagio "           4=60  \time 3/4 }
-introc = { \break     \tempo "1c. Allegro "          4=120 \time 2/4 }
-introd = { \break     \tempo "2a. Allegro "          4=120 \time 3/4 \key g \major }
-introe = { \break     \tempo "2b. Allegretto "       4=100 \time 2/4 }
-introf = { \break     \tempo "2c. Andantino "        4=90  \time 3/8 }
-introg = { \break     \tempo "3a. Allegro "          4=120 \time 4/4 \key d \major }
+introa = {        \tempo "1a. Allegro moderato " 4=120 \time 4/4 }
+introb = { \break \tempo "1b. Adagio "           4=60  \time 3/4 }
+introc = { \break \tempo "1c. Allegro "          4=120 \time 2/4 }
+introd = { \break \tempo "2a. Allegro "          4=120 \time 3/4 \key g \major }
+introe = { \break \tempo "2b. Allegretto "       4=100 \time 2/4 }
+introf = { \pageBreak \tempo "2c. Andantino "    4=90  \time 3/8 }
+introg = { \break \tempo "3a. Allegro "          4=120 \time 4/4 \key d \major }
+introh = { \break \tempo "3b. Allegretto "       4=100 \time 6/8 }
+introi = { \break \tempo "3c. Allegro "          4=120 \time 2/4 }
 
 \include "v1.ily"
 \include "v2.ily"

@@ -464,4 +464,111 @@ va = \relative c' {
   a4.(--\p g8)-. fis2
   h4(-.\< g')-. fis8( e d cis)\!
   d4-. d,-. <d d'>-. r \bar "|."
+
+  \introh
+  \repeat volta 2 {
+    d'8-.\downbow\p h-. fis-. g\(( fis) fis\)-.
+    fis-. ais-. cis-. fis4-. r8
+    e-. cis-. fis,-. g\(( fis) fis\)-.
+    fis-. h-. d-. fis4-. r8
+    d-.\f e-. fis-. g4.
+    cis,8-. d-. e-. fis4.
+
+    h,8-. cis-. d-. g,-. a?-. h-.
+    e,-.\> fis-. g-. fis-. e-. cis-.\! \boxp
+    h-.\p r r d4(-- h8)-.
+    c4. a8-. c-. fis-.
+    a-. r r c,4(-- a8)-.
+    h4. g8-. h-. d-.
+    g4. e8-. a-. g-.
+
+    fis4. d8-. g-. fis-.
+    e4. cis?8-. e-. g-.
+    fis-.\< a-. d-. fis-. e-. d-.\! \boxq
+    cis-.\f e-. g-. h-. a-. g-.
+    fis-. g-. a-. e4.
+    e8-. fis-. g-. d4.
+    d8-. e-. fis-. e-. d-. cis-.
+
+    d4.\> ais\!
+    h_\dlc fis'
+    g8-. fis-. e-. e-. d-. cis-.
+    h4. fis'
+    g8-. fis-. e-. e-. d-. cis-.
+    h-. d-. fis-. h4(-- fis8)-.
+    h,4 r8 r4 r8
+  }
+
+  \introi
+  a[-.\downbow\f d-. d-. d]-.
+  h[_\sst e e e]
+  cis[ e a g]
+  fis[ d h cis]
+  a[ d d d]
+  h[ e e e]
+  cis[ a' h, gis']
+  a[ e cis a]
+
+  a'[\p c, c c]
+  h[ d e fis]
+  g[ h, h h]
+  a[ cis? d e]
+  fis[ a, a a]
+  g?[ h cis d]
+  e[ g, g g]
+  g4(\< fis)
+  gis8[-.\upbow h(\downbow e) gis]-.\! \boxr
+
+  a4\f <cis, e>
+  <d e> <d e>
+  <cis e> <cis a'>8\downbow <cis a'>
+  <h a'>[ <h a'> <h gis'> <h gis'>]
+  <a a'> r r4
+  e8[\downbow a a a]
+  g4-> g->
+  fis8[ h h h]
+  g4-> g->
+  e8[ a a a]
+
+  fis4-> fis->
+  e8[ a d, a']
+  cis,4-> a->
+  a a'8(-. a)-.
+  a4-. a8(-. a)-.
+  a4-. a8(-. a)-. \boxs
+  a[-. d-. d-. d]-.
+  h[_\sst e e e]
+  cis[ e a g]
+  fis[ d h cis]
+
+  a[ d d d]
+  h[ e e e]
+  cis[ a' h, gis']
+  a[ e cis a]
+  d,[\p fis g? a]
+  g[ fis e d]
+  cis[ e fis g]
+  fis[\< e d cis]\!
+  d4\f <fis a>8(-. <fis a>)-.
+
+  <g a>4 <g a>
+  <fis a>8[ a fis d]
+  cis[ e a, cis]
+  d4 h8(-. h)-.
+  g[ g a a]
+  d[\p fis a d]
+  fis[ <a, a'> <a a'> <a a'>] \boxt
+  <a a'>4 <a g'>8(-. <a g'>)-.
+  <a fis'>4 <a e'>8(-. <a e'>)-.
+  <a a'>4 <a g'>8(-. <a g'>)-.
+
+  <a fis'>4 <a e'>8(-. <a e'>)-.
+  <a a'>4 <a fis'>8(-. <a fis'>)-.
+  <a fis'>4\< d8-. d,-.
+  d'[ d, <d a'> <d h'>]
+  <d a'>4\! r
+  a'8[\downbow\p d d d]
+  h[ e e e]
+  cis[\f e a, cis]
+  d4 r \bar "|."
 }

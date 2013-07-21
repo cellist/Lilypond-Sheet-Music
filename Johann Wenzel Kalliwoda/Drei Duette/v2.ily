@@ -458,8 +458,115 @@ vb = \relative c {
   e a g a e a g a
   e a g a e a g a
   fis4-. d\f-. fis-. a-.
-  d4.(-- a8) fis2
-  fis4.(-- e8)-. d2
+  d4.(-- a8)-. fis2
+  fis4.(--\p e8)-. d2
   g4-.\< e-. a-. a,-.\!
   d8-. fis-. a-. fis-. d4-. r \bar "|."
+
+  \introh
+  \repeat volta 2 {
+    h8\downbow\p r r d4(-- h8)-.
+    ais4. ais8-. cis-. fis-.
+    fis r r e4(-- cis8)-.
+    d4. h8-.\< d-. fis-.\!
+    h4.\f e,8-. fis-. g-.
+    a?4. d,8-. e-. fis-.
+
+    g4(-- fis8)-. e4(-- d8)-.
+    cis4(--\> h8)-. ais-. cis-. fis-.\! \boxp
+    d'-.\p h-. fis-. g\(( fis) fis\)-.
+    fis-. a-. e'-. d4 r8
+    c-. a-. d, e\(( d) d\)-.
+    g-. h-. e-. d4 r8
+    h-. e-. d-. cis?4.
+
+    a8-. d-. cis-. h4.
+    g8-. cis-. h-. a-. g-. e-.
+    d4. h8-.\< e-. gis-.\! \boxq
+    a4. e8-. a-. cis-.
+    d4. cis8-. h-. a-.
+    c4. h8-. a-. g?-.
+    fis4. g8-. fis-. e-.
+
+    d-.\> e-. fis-. e-. d-. cis-.\!
+    <h d>_\dlc <h d> <h d> \repeat tremolo 3 <h d>
+    \repeat tremolo 3 <h e> \repeat tremolo 3 <h e>
+    \repeat tremolo 3 <h d> \repeat tremolo 3 <h d>
+    \repeat tremolo 3 <h e> \repeat tremolo 3 <h e>
+    <h d>4 r8 h-. d-. fis-.
+    h4 r8 r4 r8
+  }
+
+  \introi
+  fis[-.\downbow\f d-. e-. fis]-.
+  g[_\sst e fis g]
+  a[ g fis e]
+  d[ fis g e]
+  fis[ d e fis]
+  g[ e fis gis]
+  a[ fis d e]
+  a,[ cis e a]
+
+  d,[\p fis g? a]
+  g[ fis e d]
+  cis[ e fis g]
+  fis[ e d cis]
+  h[ d e fis]
+  e[ d cis h]
+  cis4 a
+  a8[\< d d d]
+  d4 h\! \boxr
+
+  a8[\f cis e a]
+  gis[ h e, gis]
+  a4( fis8) fis-.
+  d[ d e e]
+  a,[ a' a a]
+  c4-> c->
+  h8[ e e e]
+  dis4-> dis->
+  e8[ h' h h]
+  cis,?4-> cis->
+
+  d8[ a' a a]
+  g4-> fis->
+  e8[ a, d a]
+  cis[ a, h cis]
+  d[ h cis d]
+  e[ cis d e] \boxs
+  fis[-. d-. e-. fis]-.
+  g[_\sst e fis g]
+  a[ g fis e]
+
+  d[ fis g e]
+  fis[ d e fis]
+  g[ e fis gis]
+  a[ fis d e]
+  a,[ cis e a]
+  a'[\p c, c c]
+  h[ d e fis]
+  g[ h, h h]
+  a[\< cis? d e]\!
+
+  fis[\f a fis d]
+  cis[ e a, cis]
+  d4 <a fis'>8 <a fis'>
+  <a g'>4 <a g'>
+  <a fis'> <d fis>8-. <d fis>-.
+  <d e>[ <d e> <cis e> <cis e>]
+  d4 r
+  R2 \boxt
+  fis,8[\p d' e, cis']
+  d,[ d' cis g]
+
+  fis[ d' e, cis']
+  d,[ d' cis a]
+  d[ d, d' d,]
+  d'[\< d, <fis a> <fis a>]
+  <fis a>4 fis8 g
+  fis4\! r
+  fis8[\downbow d e fis]
+  g[ e fis g]
+  a[\f g fis e]
+  d4 r \bar "|."
 }
