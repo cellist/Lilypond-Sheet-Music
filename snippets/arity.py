@@ -4,6 +4,7 @@
 #
 
 import os
+import sys
 
 class Walker:
     def __init__(self, dirpath, dirnames, filenames):
@@ -23,9 +24,14 @@ class Walker:
             self.display()
         
 def demo():
-    for dirpath, dirnames, filenames in os.walk(".."):
-        walker = Walker(dirpath, dirnames, filenames)
-        walker.do(2) # find duets
+    try:
+        voices = int(sys.argv[-1])
+        print "Looking for pieces with exactly %d voices." % voices
+        for dirpath, dirnames, filenames in os.walk(".."):
+            walker = Walker(dirpath, dirnames, filenames)
+            walker.do(voices) # find duets if voices==2
+    except ValueError:
+        print "Usage: %s <voices>  search for pieces with given number of voices" % sys.argv[0]
     
 if __name__ == "__main__":
     demo()
