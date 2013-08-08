@@ -82,4 +82,142 @@ vb = \relative c {
     f4 g2
     c,2.
   }
+
+  \introc
+  \repeat volta 2 {
+    c''8 d d4.(-+ c16 d)
+    e4 e, e
+    f4. e8 d g
+    c,4 r8 c e g
+    c4 c, c'~
+    c h a
+    g d d,
+    g2.
+  }
+  \repeat volta 2 {
+    g'8 a h c h a
+    g g, h[ d g h]
+    c a h g a d,
+    g a g f e c
+    f c' e, c' d, h'
+    c, c' d, c' e, c'
+
+    f,4 e d
+    c8 c e g c4
+    r g8 a h c
+    d4 h c
+    a f g
+    c,2.
+  }
+
+  \introd
+  \repeat volta 2 {
+    es'2 d4
+    c2 b4
+    as g f
+    es8 d c4 g'
+    r c2~
+    c4 h g
+    c h c
+
+    g8 as g4 f
+    es8 g d g c, g'
+    h, g' a,? g' g, g'
+    c, g' h, g' c, g'
+    g,2.
+  }
+  \repeat volta 2 {
+    g'4 fis d
+    g r es
+    c a d
+
+    b?4.-+ a8 g4
+    g''2 f?4
+    es d c~
+    c8 d h2-+
+    c2.
+    c,4 c' b?
+    as4.-+ g8 f4
+    d'8 es d4 c
+
+    h4.-+ a8 g4
+    r c2~
+    c4 h8 a? h g
+    c d c b? as g
+    as f g4 g,
+    c2.
+  }
+
+  \introe
+  \repeat volta 2 {
+    r4. c8 c c
+    e e e g g g
+    h, a h g a h
+    c c c e d c
+    h a g g' a h
+
+    c g e c4 a'8
+    h,4 g'8 a,4 fis'8
+    g d g, c4 a'8
+    h,4 g'8 a,4 fis'8
+    g d g, h' a g
+
+    c h a g fis e
+    d4. d'4 d8
+    d4-+ c8 c4 c8
+    c4-+ h8 d4 d8
+    d4-+ c8 c4 c8
+
+    c4-+ h8 d c h
+    e fis g a,4-+ g8
+    g4. r8 d-| d,-|
+    g4. r8 d'-| d,-|
+    g2.
+  }
+
+  \repeat volta 2 {
+    r4. g'8 g g
+    h h h d d d
+    fis, e fis d e fis
+    g a h h a g
+    fis e d e4 fis8
+
+    g4 g,8 h' a g
+    a h c h a g
+    c4 c,8 c' h a
+    gis a h e, fis gis
+    a4 a,8 c e a
+
+    d, f? h c, e a
+    d, f h c, h16 a gis f
+    e8 d c f d e
+    a4. a'
+
+    h cis-+
+    d f8 e d
+    cis h a d4 d,8
+    a'4 g?8 f e d
+    cis h a d4 d,8
+
+    a' a' g f f e
+    d d, g' f f e
+    d d, f' e e d
+
+    c? c, f' e e d
+    c4. c8 d e
+    f4. d8 e fis
+    g d g, e'16 d e f? g e
+
+    a g a h c a h a g a h g
+    c4 c,8 e4.
+    f16 e f g a8 d,4.
+    e16 d e f g8 c,4.
+    d16 c d e f8 g, a h
+
+    c d e f f, f'
+    f4 e8 f g g,
+    c4. r8 g' g,
+    c4. r8 g' g,
+    c,2.
+  }
 }

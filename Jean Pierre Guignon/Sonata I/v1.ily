@@ -82,4 +82,144 @@ va = \relative c' {
     e8 d d4.-+ c8
     c2.
   }
+
+  \introc
+  \repeat volta 2 {
+    \clef "tenor" e'8 f f4.(-+ e16 f)
+    g2 c,4
+    d8 c d e f d
+    e4.-+ d8 c4
+    g'8 e e c c e
+    e4-+ d c
+    \times 2/3 { h8( a g) } a2-+
+    g2.
+  } \clef "bass"
+
+  \repeat volta 2 {
+    h8 c d4 d
+    d2.
+    e8 c d h c a
+    h4.-+ a8 g4
+    a g f
+    e f g
+
+    \times 2/3 { a8 h c g h c f, h c }
+    e,4.-+ d8 c4
+    g'8 a h c d e
+    f4. d8 e4~
+    e8 f d4.-+ c8
+    c2.
+  }
+
+  \introd
+  \repeat volta 2 {
+    g'2 f4
+    es-+ d es
+    f es d
+    c8-+ h c4 r
+    c2.
+    d-+
+    \times 2/3 { es8( d c) } f4 es
+
+    d2.-+
+    c
+    d-+
+    \times 2/3 { es8( d c) } f4 es
+    d2.-+
+  }
+  \repeat volta 2 {
+    d2 c4
+    b? a g
+    g8( a) fis2-+
+
+    g2.~
+    g4 a h
+    c4. b?8 as g
+    f?4 d g
+    es4.-+ d8 c4
+    e8-+ d c4 c'
+    f, c f,
+    r2 d'4
+
+    g a? h
+    c2.
+    d-+
+    es?4. d8 c[ h]
+    c d d4.-+ c8
+    c2.
+  }
+
+  \introe
+  \repeat volta 2 {
+    c,8 c c e e e
+    g g g c h c
+    g g g d' c d
+    e d c c h c
+    g g g d' c d
+
+    e d c e f16 e d c
+    d8 e16 d c h c8 d16 c h a
+    h8 a g e' f16 e d c
+    d8 e16 d c h c8 d16 c h a
+    h8 a g d' c h
+
+    e d c h a g
+    fis e d d d' d,
+    e d' e, fis d' fis,
+    g d' g, d d' d,
+    e d' e, fis d' fis,
+
+    g d' g, h, a g
+    c d e c d d,
+    g g'16 a h c d8 d,-| d,-|
+    g g'16 a h c d8 d,-| d,-|
+    g2.
+  } \clef "tenor"
+
+  \repeat volta 2 {
+    g'8 g g h h h
+    d d d g fis g
+    a fis d a' g a
+    h a g g fis g
+    a fis d a' g a
+
+    h a g g4 g8
+    g4-+ f?8 f4 f8
+    f4-+ e8 e4 e8
+    e4-+ d8 d4 d8
+    d4-+ c8 e d16 c h a \clef "bass"
+
+    f'8 e16 d c h e8 d16 c h a
+    f'8 e16 d c h e8 d16 c h a
+    gis8 e a h, a' gis
+    a4 a,8 cis'( h) cis \clef "tenor"
+
+    d( cis) d e( d) e
+    f( e) d a'4.~
+    a~ a8 g?16 f e d \clef "bass"
+    cis8 h a a4.~
+    a~ a8 g16 f e d
+
+    cis h a a' cis a d a d a e' a,
+    f' a, f' a, cis a d a d a e' a,
+    f'8 d,16 g h g c g c g d' g,
+
+    e' g, e' g, h g c g c g d' g,
+    e' d c8 c, b' b b
+    a16 g f e d8 c' c c
+    h?16 a g fis g8 \clef "tenor" g'4 g8
+
+    g4-+ f?8 f4 f8
+    f4-+ e8 g16 f e d c h
+    a4-+ f'8 f16 e d c h a
+    g4-+ e'8 e16 d c h a g
+    f4-+ d'8 d16 c h a g f
+
+%    e e f f g g a a h h c c
+    \repeat tremolo 2 e16 \repeat tremolo 2 f \repeat tremolo 2 g \repeat tremolo 2 a \repeat tremolo 2 h \repeat tremolo 2 c
+    h a g8 c d, c' h
+    c, c'16 d e f g8 g, h \clef "bass"
+    c c,16 d e f g8 g, g
+    c,2.
+  }
 }
