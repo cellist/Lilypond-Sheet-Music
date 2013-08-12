@@ -200,4 +200,67 @@ va = \relative c' {
     e e2-+
     d2.
   }
+
+  \introf
+  \repeat volta 2 {
+    \partial 8 a8
+    d4 d8 d4 d8
+    \grace e d cis d r4 d8
+    e fis g \grace g fis4 e8
+    fis e d r4 fis8
+    e4 a,8 d e16 d cis h
+    cis4 fis,8 h c16 h a g
+
+    a4 d,8 g a16 g fis e
+    fis8 e d fis' g e
+    d e cis? h cis a
+    gis a h e,4-+ e8
+    a4 a8 a4 a8
+    a cis16 h a8 a a, a'
+    h d16 cis h8 h e, d'
+
+    cis h a a'4.
+    gis fis
+    e4 r8 fis4 r8
+    e d cis h4-+ a8
+    a4. r4
+  } \clef "bass"
+  \repeat volta 2 {
+    \partial 8 r8
+    a h a gis a gis
+    fis e fis cis h cis
+    d cis h e4 e,8
+    a a' g? fis g e \clef "tenor"
+
+    d d'16 e fis8 g fis e
+    d16 e fis g a8 d,, a'' a
+    g16 fis e fis g8 fis16 e d e fis8
+    e a, a a,4 a'8
+    d16 e d cis d h c d c h c a
+
+    h16 g fis e d cis? h a g r h'8
+    e16 fis e d e cis d e d cis d h
+    cis16 a gis fis e d cis h a r a'8
+    d a d e a, e'
+    fis a, fis' e ais, e'
+
+    fis a,? fis' gis a, gis'-+
+    a4 a8~ a g?16( fis) g( a)
+    h, cis h8 g'~ g fis16( e) fis( g)
+    a, h a8 fis'~ fis e16 d e fis
+    g, fis g8 e'~ e d16 cis d e
+
+    fis,8 a cis~ cis-+ h d~
+    d-+ cis e~ e-+ d fis~
+    fis-+ e g~ g-+ fis a
+    \grace cis, h4-+ g'8 \grace h, a4-+ fis'8
+    \grace a, g4-+ fis'8 fis,16 a g h a c
+    h8 cis? d cis16-+ h a8 d
+
+    e, d' cis-+ d d, r
+    fis d'16 cis d8 g, d'16 cis d8
+    a d16 cis d8 h d16 cis d8
+    fis, d'16 cis d8 g, d'16 cis d8
+    a d16 cis d8 d,4
+  }
 }

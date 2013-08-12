@@ -142,7 +142,7 @@ vb = \relative c' {
     R2.
     f8 e16 d c8 b a g
     f a b4 c
-    d,2.
+    f,2.
   }
   \repeat volta 2 {
     r4 cis'' a
@@ -198,5 +198,68 @@ vb = \relative c' {
     fis e fis
     g a a,
     d,2.
+  }
+
+  \introf
+  \repeat volta 2 {
+    \partial 8 a''8
+    d d, d' a a, a'
+    h h, h' fis fis, fis'
+    g g, g' a a, a'
+    d, a fis d4 d'8
+    cis4 r8 h4 r8
+    a4 r8 g4 r8
+
+    fis4 r8 e4 r8
+    d4 r8 d'4 r8
+    d4 r8 dis4 r8
+    e4 e,8 r4.
+    a'8 a, a' e e, e'
+    fis fis, fis' cis cis, cis'
+    d? d, d' e e, e'
+
+    a,4 r8 fis'4 r8
+    e4 r8 d4 r8
+    cis4 r8 d4 r8
+    cis h a e'4 e,8
+    a4. r4
+  }
+  \repeat volta 2 {
+    \partial 8 e'8
+    a4 a8 a4 a8
+    \grace h a gis a r4 a8
+    h cis d cis4-+ h8
+    cis cis h a h cis
+
+    d4 d,8 a'4 a,8
+    h a g fis4 fis'8
+    cis4 a8 d4 d,8
+    a'16 a' cis e cis a g8 fis e
+    fis4 d8 e4 fis8
+
+    g4 g,8 h'4 a8
+    gis4 e8 fis4 gis8
+    a a, a' g? fis e
+    fis r4 cis8 r4
+    d8 r4 cis8 r4
+
+    d8 r4 h4.-+
+    a8 a' g fis e d
+    g, g'16 fis e d cis8 d e
+    fis, fis'16 e d cis h8 cis d
+    e, e'16 d cis h a8 h cis
+
+    d, r16 d' fis d g8 r16 e gis e
+    a8 r16 fis ais fis h8 r16 g? h g
+    cis8 r16 a? cis a d8 r16 a fis d
+    g8 r16 e cis e fis,8 fis'16 d h d
+    e,8 e'16 a, h cis d8 e fis
+    g4 g8 g4 fis8
+
+    g a a, d r4
+    fis, r8 g4 r8
+    a4 r8 h4 r8
+    fis4 r8 g4 r8
+    a4 r8 d,4
   }
 }

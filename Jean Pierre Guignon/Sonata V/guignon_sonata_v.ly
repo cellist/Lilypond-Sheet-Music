@@ -2,7 +2,7 @@
 \version "2.14.2"
 \include "deutsch.ly"
   
-#(set-global-staff-size 18)
+#(set-global-staff-size 17.2)
 
 \header {
   title       = "Sonata V"
@@ -28,9 +28,10 @@ milo = "bassoon"
 
 introa = {        \tempo "1. Allegro "    4=100 \time 2/4 }
 introb = { \break \tempo "2. Largo "      4=60  \time 3/4 \key c \major }
-introc = { \break \tempo "3. Menuett I "  4=80            \key d \major }
-introd = {        \tempo "Minore "                        \key a \minor }
-introe = { \break \tempo "4. Menuett II " 4=80            \key d \major }
+introc = { \break \tempo "3. Menuett I "  4=100           \key d \major }
+introd = {        \tempo "Minore "        4=90            \key a \minor }
+introe = { \break \tempo "4. Menuett II " 4=100           \key d \major }
+introf = { \break \tempo "5. Gigue "     4.=80  \time 6/8 }
 
 \include "v1.ily"
 \include "v2.ily"
