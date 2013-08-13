@@ -121,4 +121,92 @@ va = \relative c' {
     c h h4.-+ a8
     a2.
   }
+
+  \introd \clef "tenor"
+  \repeat volta 2 {
+    e'2.
+    cis8-+ h a2
+    e8 gis h d cis h
+    \times 2/3 { cis( d e) } a,2-+
+    a'4( gis fis)
+    e( d cis)
+    h fis' a,
+    gis-+ a r
+    cis2.-+
+    h4( dis e)
+
+    a,2.-+
+    \times 2/3 { gis8( fis e) } e2
+    h'2.-+
+    cis-+
+    dis-+
+    e8 dis e2~
+    e8 gis fis e dis cis
+    h4 a2-+
+    gis8 a h4 r \clef "bass"
+    e, dis e
+    fis8 h, gis' h, a' h,
+    gis' a h4-| r \clef "tenor"
+
+    \times 2/3 { cis8( dis e) } fis,2-+
+    e2.
+  }
+  \repeat volta 2 {
+    e'2.~
+    e8 d? cis h ais gis
+    fis4 e'2
+    d4.-+ cis8 h4
+    cis8 fis, d' fis, e' fis,
+    d'4.-+ cis8 h4
+    d2.~
+    d8 cis h a? gis fis
+    e4 d'2
+    cis4.-+ h8 a4
+    h8 e, cis' e, d' e,
+
+    cis'4.-+ h8 a4
+    e'2.-+
+    fis-+
+    gis-+
+    a8 gis a2~
+    a4 gis fis
+    e d2-+
+    cis8 d e4 r
+    a,( gis) a
+    h8 e, cis' e, d' e,
+    cis' d e4 r
+    a, cis8( h) a( gis)
+    a2.
+  }
+
+  \introe
+  \repeat volta 2 {
+    e'4 a, e'-+
+    f8 e f2
+    d4 g, d'-+
+    e8 d e2
+    c4( h d)
+    g,-+ a2
+    \times 2/3 { h8( c d) } c4.-+ h8
+    \times 2/3 { c( h a) h( a gis } a4)
+    c2.(
+    h4) a g?
+    c-+ fis,2
+    e2.
+  }
+
+  \repeat volta 2 {
+    e'2.
+    \grace d8 cis4.-+ h8 a4
+    e'4.-+ d8 e4
+    f d2-+
+    f2.(
+    e4) d c
+    h e a,
+    gis4.-+ f8 e4
+    e8 fis gis a h c
+    d4 e c~-+
+    c8 h h4.-+ a8
+    a2.
+  }
 }

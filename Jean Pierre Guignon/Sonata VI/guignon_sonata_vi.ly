@@ -45,9 +45,17 @@ introc = {
   \key a \minor
 }
 
-introd = {        \tempo "Minore "        4=90            \key a \minor }
-introe = { \break \tempo "4. Menuett II " 4=100           \key d \major }
-introf = { \break \tempo "5. Gigue "     4.=80  \time 6/8 }
+introd = {
+  \break
+  \tempo "4. Aria gratioso " 4=80
+  \key a \major
+  \set tupletSpannerDuration = #(ly:make-moment 1 4)
+}
+
+introe = {
+  \tempo "Minore " 4=90
+  \key a \minor
+}
 
 \include "v1.ily"
 \include "v2.ily"

@@ -121,4 +121,92 @@ vb = \relative c {
     a d e4 e,
     a2.
   }
+
+  \introd
+  \repeat volta 2 {
+    a4 cis e
+    a r8 a cis e
+    gis,4-+ r8 h a gis
+    a,4 r8 a' cis e
+    cis,2 d4
+    gis,2 a4
+    d8 cis d e fis d
+    e4 a, r
+    a'2.
+    gis
+
+    fis4 h h,
+    e e, e'8 fis
+    gis fis e fis gis e
+    a gis fis gis a fis
+    h a gis a h gis
+    cis4 h a
+    gis2 a4
+    dis,-+ r8 fis h, dis
+    e fis gis4 r
+    gis8 h fis h e, h'
+    dis,4 cis h
+    e8 fis gis4-| r
+
+    a8 fis h4 h,
+    e,2.
+  }
+  \repeat volta 2 {
+    g'8 fis e d? cis h
+    ais2.
+    ais4 ais ais
+    h8 fis cis' fis, d'4
+    ais ais ais
+    h8 fis cis' fis, d'4
+    r8 cis' h a? gis? fis
+    e2.
+    gis,4 gis gis
+    a8 e h' e, cis'4
+    gis gis gis
+
+    a8 e h' e, cis'4
+    cis'8 h a h cis a
+    d cis h cis d h
+    e d cis d e cis
+    fis4 e d
+    cis2-+ d4
+    gis,-+ r8 h gis e
+    a h cis4 r
+    cis,8 e h e a, e'
+    gis,4 fis e
+    a8 h cis4 r
+    cis, d e
+    a2.
+  }
+
+  \introe
+  \repeat volta 2 {
+    r8 a c e c a
+    r d f a f d
+    r g, h d h g
+    r c e g e c
+    a4 g f
+    e f c
+    d e2
+    a8 a c e a a,
+    r a' c a fis a
+    dis,2 e4
+    a, h2
+    e,2.    
+  }
+
+  \repeat volta 2 {
+    r8 e' gis h gis e
+    r a, cis e a e
+    cis a' h, gis' a, cis
+    d d f? a d d,
+    r d f a d d,
+    c? a' h, gis' a, a'
+    e d c[ h c a]
+    e4 r8 e' gis h
+    d,4 r8 c h a
+    gis4 r8 e a gis
+    f4 d e
+    a2.
+  }
 }
