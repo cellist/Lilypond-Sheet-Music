@@ -2,7 +2,7 @@
 \version "2.14.2"
 \include "deutsch.ly"
   
-#(set-global-staff-size 18)
+#(set-global-staff-size 16.75)
 
 \header {
   title       = "Sonata VI"
@@ -55,6 +55,14 @@ introd = {
 introe = {
   \tempo "Minore " 4=90
   \key a \minor
+}
+
+introf = {
+  \break
+  \tempo "5. Allegro " 8=180
+  \key a \major
+  \time 2/4
+  \set tupletSpannerDuration = #(ly:make-moment 1 4)
 }
 
 \include "v1.ily"

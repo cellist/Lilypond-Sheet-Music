@@ -209,4 +209,79 @@ vb = \relative c {
     f4 d e
     a2.
   }
+
+  \introf
+  \repeat volta 2 {
+    a8 h cis d
+    e16 fis e d cis h cis a
+    d4 gis,8 e
+    a h cis a
+    d4 gis,8 e
+    a4 r8 h
+    cis16 cis' d cis h8 a
+    e e'16 d cis cis h a
+    e8 a, gis a
+
+    e' e'16 d cis8 h16 a
+    e8 cis gis a
+    e16 e' gis h gis e fis gis
+    a fis gis a h h, h' a
+    gis4-+ r16 e gis e
+    a fis gis a h h, h' a
+    gis8. fis16 gis8 a
+    h e, a, h
+    e,4 r16 e' gis h
+    dis,4-+ r8 dis
+    e8. fis16 gis e fis gis
+
+    a fis gis a h8 h,
+    e,2
+  }
+  \repeat volta 2 {
+    r8 e'[ gis a]
+    h a gis e
+    a4 dis,-+
+    e8 fis gis e
+    a16 gis fis e dis8.-+ dis16
+    gis16 fis e dis cis8.-+ cis16
+    fis e dis cis h8 dis
+    e,16 e' gis h d,? gis h d,
+    cis8 a16 h cis8 d
+    e d cis a
+
+    d4 gis,-+
+    a8 h c a
+    d4 gis,-+
+    a8 e' a4
+    R2
+    d,16 e f gis a8 d,
+    \grace c' h16 a h8 \grace c h16 a h8
+    c,16 d e f g8 c,
+    \grace h' a16 gis? a8 \grace h a16 gis a8
+    h,16 c d e f8 h,
+
+    gis'16 fis e fis gis h e, gis
+    a a, a a' g g, g g'
+    fis? fis, fis h' a h, h a'
+    gis?8 e16 gis fis a gis h
+    a8 cis,? d e
+    a,4 r
+    r8 a'[ a a]
+    gis fis e4
+    r8 a[ a a]
+    gis fis e4
+
+    r8 d'16 cis h a gis fis
+    e8 e, e e
+    e e' e e
+    a4 cis,16 e a, cis
+    d4 gis16 h e, gis
+    a8 a, r cis
+    d4 e
+    a,8 a' a a
+    gis a d, e
+    a, a a a
+    gis a d, e
+    a4 r
+  }
 }

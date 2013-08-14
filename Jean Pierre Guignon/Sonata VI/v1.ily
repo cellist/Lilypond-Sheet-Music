@@ -209,4 +209,79 @@ va = \relative c' {
     c8 h h4.-+ a8
     a2.
   }
+
+  \introf
+  \repeat volta 2 {
+    a16 h cis d e8 fis
+    gis,4-+ a
+    h16 a h cis d8 h
+    cis e, a4~
+    a8 h16 cis d8 h
+    cis a e'4~
+    e8 fis16 e d8 cis
+    h4.-+ e8
+    gis, a d cis
+
+    cis h e16 fis32 e d cis h a
+    gis8 a d cis
+    h4-+ r8 h
+    cis8. dis16 dis8.(-+ cis32 dis)
+    e8 dis16 cis h8 h
+    cis8. dis16 dis8.(-+ cis32 dis)
+    e8 dis16 cis h8 e
+    gis,4 fis-+
+    e16 fis gis a h4~
+    h8 cis h a
+    gis16 fis gis a h8 e
+
+    fis4 dis-+
+    e2
+  }
+  \repeat volta 2 {
+    e,16 fis gis a h8 e
+    dis4-+ e
+    fis16 e d? cis h8 a
+    gis8.-+ fis16 e4
+    cis' fis16 fis e fis
+    h,4 e16 e dis e
+    a,8 fis'16 e dis cis h a
+    gis8. fis16 e4
+    a,16 h cis d? e8 a
+    gis4-+ a
+
+    h16 a h cis d8 h-+
+    cis e, a4~
+    a8 h16 c d8 h
+    c8.-+ h16 a4
+    a16 h c d e8 a,
+    \grace g' f16 e f8 \grace g f16 e f8
+    g,16 a h c d8 g,
+    \grace f' e16 d e8 \grace f e16 d e8
+    f,16 g a h c8 f,
+    \grace e' d16 c d8 \grace e d16 c d8
+
+    e,16 fis? gis? a h8 e,
+    c'~ c cis~ cis
+    d~ d dis~ dis
+    e4 d?-+
+    d16( cis h a) cis( h) a( gis)
+    a8 a' gis fis
+    e4 dis-+
+    e8 a gis fis
+    e4 dis-+
+    e8 e,16 fis gis a h cis
+
+    d8 d d d
+    d e,16 fis gis a h cis
+    d8 d cis h
+    cis16 h a gis a4~
+    a8 h16 cis d8 h
+    cis e d16( cis) h( a)
+    h4 gis-+
+    a dis-+
+    e8 a, cis16( h) a( gis)
+    a4 \clef "bass" dis,-+
+    e8 a h, gis'-+
+    a a, r4
+  }
 }
