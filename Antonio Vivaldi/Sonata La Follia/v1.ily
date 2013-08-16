@@ -1,7 +1,7 @@
 va = \relative c'' {
   \voiceconsts
 
-  \mark \markup \box "A"
+  \boxa
   d4\mf d4. d8
   cis4 cis4. cis8
   d4 d4. d8
@@ -19,9 +19,8 @@ va = \relative c'' {
   f4 f4. f8
   e4 e8 f g4
   f8 e16 d cis4. d8
-  d2. \bar "||"
+  d2. \boxb
 
-  \mark \markup \box "B" \tempo 4=80
   f4\mf f8. g16 a8. f16
   e4 e4. e8
   f4 f8. g16 a8. f16
@@ -40,9 +39,8 @@ va = \relative c'' {
   a4 a8. b16 c8. a16
   g8. a16 b4. b8
   a g16 f e4. d8
-  d2. \bar "||"
+  d2. \boxc
 
-  \mark \markup \box "C" \tempo 4=90
   d,4\mf f' r
   cis, e' r
   f, f' r
@@ -61,9 +59,8 @@ va = \relative c'' {
   r f' f,
   r g' f
   b e,4. d8
-  d2. \bar "||"
+  d2. \boxd
 
-  \mark \markup \box "D"
   r4 r8 f, a d
   cis4 r8 e, a cis
   d4 r8 f, a d
@@ -82,9 +79,8 @@ va = \relative c'' {
   r8 c, a f a'4
   g f e
   f8 g e4. d8
-  d2. \bar "||"
+  d2. \boxe
 
-  \mark \markup \box "E"
   r2.
   r16 a' g f e d cis h a8 a'
   f4 r r
@@ -103,9 +99,8 @@ va = \relative c'' {
   a4 r r
   r16 a g f e d cis h a8 g'
   f e16 d cis4. d8
-  d2. \bar "|."
+  d2. \boxf
 
-  \mark \markup \box "F"
   r2.
   a'8 e cis[ a] e' g
   f4 f4. f8
@@ -124,9 +119,8 @@ va = \relative c'' {
   a4. a8 c, a'
   g4. g8 cis, g'
   f cis d[ f,] a, cis'
-  d2. \bar "||"
+  d2. \boxg
 
-  \mark \markup \box "G"
   r4 r16 f a f d a a' f
   e4 r16 e a e cis a g' e
   f4 r16 f a f d a a' f
@@ -145,9 +139,8 @@ va = \relative c'' {
   a4 r16 a c a f c c' a
   g4 r16 b g e cis a g' e
   f8 e16 d cis8[ d] e, cis' 
-  d,2. \bar "||"
+  d,2. \boxh
 
-  \mark \markup \box "H"
   d'8( a) f'[( d]) a'( d,)
   cis( a) e'[( cis]) a'( cis,)
   d( a) f'[( d]) a'( d,)
@@ -166,9 +159,8 @@ va = \relative c'' {
   f( c) \times 2/3 { a'[( g f]) } c'( f,)
   \times 2/3 { e( d c) g'[( f e]) b'( a g) }
   \times 2/3 { f( e d) cis[( a d]) e,( d' cis) }
-  d2. \bar "||"
+  d2. \boxi
 
-  \mark \markup \box "I"
   d,4 d'2~
   d4 cis8 h cis4
   d a a'8 h
@@ -187,9 +179,8 @@ va = \relative c'' {
   f c f
   es( cis) d
   a, cis'2
-  d2. \bar "||"
+  d2. \boxj
 
-  \mark \markup \box "K"
   d8 d, f[ d] a' d
   cis a, cis[ e] a cis
   d d, f[ d] a' d
@@ -208,5 +199,115 @@ va = \relative c'' {
   f f, a[ f] c' f
   e f g[( cis,] a) g'
   f e16 d cis4. d8
-  d2. \bar "||"
+  d2. \boxk
+
+  r16 a' f a d,4 r16 a' f a
+  cis,4 r16 a' e a cis,4
+  r16 a' f a d,4 r16 a' f a
+  e4 r16 c' g c e,4
+
+  r16 c' a c f,4 r16 c' a c
+  e,4 r16 g e g cis,4
+  r16 a' f a d,4 r16 d f d
+  cis4 r16 a' e a cis,4
+
+  r16 a' f a d,4 r16 a' f a
+  cis,4 r16 a' e a cis,4
+  r16 a' f a d,4 r16 a' f a
+  e4 r16 c' g c e,4
+
+  r16 c' a c f,4 r16 c' a c
+  e,4 r16 g e g cis,4
+  r16 f d f a, f' d f a, e' cis e
+  d2. \boxl
+
+  a'4 g8( f) e( f16. g32
+  cis,2) cis4
+  d d8.( e16) f8.( g16
+  e2) e4
+
+  f g8.( a16) g8.( f16)
+  e4 f8.( g16) f8.( e16)
+  d4 e8.( f16) e8.( d16)
+  cis2.
+
+  a'4 g8( f) e( f16. g32
+  cis,2) cis4
+  d d8.( e16) f8.( g16
+  e2) e4
+
+  a g8( f) e( f16. g32
+  cis,4.) a8 d4~
+  d16 cis d e e4. d8
+  d2. \boxm
+
+  f8( e f) f( e f) f( g f)
+  e( d e) e( d e) e( d e)
+  f( e f) f( e f) f( g f)
+  f( e f) f( e f) f( g f)
+
+  a( g a) a( g a) a( b a)
+  g( f g) g( f g) g( a g)
+  f( e f) f( e f) f( g f)
+  e( d e) e( d e) e( d e)
+
+  f( e f) f( e f) f( g f)
+  e( d e) e( d e) e( d e)
+  f( e f) f( e f) f( e f)
+  g( f g) g( f g) g( f g)
+
+  a( g a) a( g a) a( b a)
+  g( f g) g( f g) g( a g)
+  a( g f) e4.~ e4 d8
+  d2.~ d4. \boxn
+
+  f r r
+  e r r
+  f r r
+  g r r
+
+  a r r
+  g r r
+  f r r
+  e r r
+
+  f r r
+  e r r
+  f r r
+  g r r
+
+  a r r
+  g r r
+  f e~ e4 d8
+  d2.~ d4. \boxo
+
+  d8. e16 d8 a'4 d,8 d4 cis8 a,4 cis'8
+  d8. e16 d8 a'4 d,8 e8.( d16 c?8) c,4 e'8
+  f8. g16 f8 c'4 f,8 e8. f16 e8 a4 cis,8
+  d8. e16 d8 b'4 d,8 d4.( cis)
+
+  d8. e16 d8 a'4 d,8 d4 cis8 a,4 cis'8
+  d8. e16 d8 a'4 d,8 e8.( d16 c?8) c,4 e'8
+  f8. g16 f8 c'4 f,8 f4 e8 b'8.( a16 g8)
+  a8.( g16 f8) f4( e8) d2. \boxp
+
+  d8 f, d[ d'] d, d'
+  cis e, a,[ cis'] a, cis'
+  d f, d[ d'] d, d'
+  e g, c,[ e'] c, e'
+
+  f c f,[ f'] f, f'
+  e g, c,[ e'] cis, e'
+  d f, b,[ d'] g,, d''
+  cis e, a,[ cis'] a, cis'
+
+  d f, d[ d'] d, d'
+  cis e, a,[ cis'] a, cis'
+  d f, d[ d'] d, d'
+  e g, c,[ e'] c, e'
+
+  f c f,[ f'] f, f'
+  e g, c,[ e'] cis, e'
+  d f, a,[ d'] a, cis'
+  d2. \boxq  
 }

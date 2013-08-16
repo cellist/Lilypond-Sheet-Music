@@ -1,16 +1,16 @@
-\version "2.12.3"
+\version "2.12.4"
 \include "deutsch.ly"
 
-#(set-global-staff-size 19)
+#(set-global-staff-size 17)
 
 \header {
-  title = "Sonata \"La Follia\""
-  subtitle = "- eingerichtet für Violine, Viola und Cello -"
-  subsubtitle = "(Original in d-moll)"
-  composer = "Antonio Vivaldi"
-  arranger = "(1678-1741)"
-  opus = "op. 1 Nr. 12"
-  enteredby = "cellist (2011-08-14)"
+  title       = "Sonata \"La Follia\""
+%  subtitle    = "- eingerichtet für Violine, Viola und Cello -"
+  subtitle    = "(Original in d-moll)"
+  composer    = "Antonio Vivaldi"
+  arranger    = "(1678-1741)"
+  opus        = "op. 1 Nr. 12"
+  enteredby   = "cellist (2011-08-14)"
 }
 
 voiceconsts = {
@@ -24,12 +24,32 @@ voiceconsts = {
 }
 
 minstr = "harpsichord"
-%minstr = "clarinet"
+mihi = "clarinet"
 %minstr = "accordion"
-%minstr = "bassoon"
+milo = "bassoon"
 
 cresc = \markup \italic "cresc."
 fmarc = \markup { \dynamic f \bold \italic " marcato" }
+
+boxa = {                  \mark \markup \box "A" }
+boxb = { \break \bar "||" \mark \markup \box "B" \tempo 4=80 }
+boxc = { \break \bar "||" \mark \markup \box "C" \tempo 4=90 }
+boxd = { \break \bar "||" \mark \markup \box "D" }
+boxe = { \break \bar "||" \mark \markup \box "E" }
+boxf = { \break \bar "||" \mark \markup \box "F" }
+boxg = { \break \bar "||" \mark \markup \box "G" }
+boxh = { \break \bar "||" \mark \markup \box "H" \set tupletSpannerDuration = #(ly:make-moment 1 4) }
+boxi = { \break \bar "||" \mark \markup \box "I" }
+boxj = { \break \bar "||" \mark \markup \box "J" }
+boxk = { \break \bar "||" \mark \markup \box "K" }
+boxl = { \break \bar "||" \mark \markup \box "L" \tempo "Larghetto " 4=70 }
+boxm = { \break \bar "||" \mark \markup \box "M" \time 9/8 \tempo 4.=80 }
+boxn = { \break \bar "||" \mark \markup \box "N" }
+boxo = { \break \bar "||" \mark \markup \box "O" \time 12/8  }
+boxp = { \break \bar "||" \mark \markup \box "P" \time 3/4 }
+boxq = { \break \bar "||" \mark \markup \box "Q" }
+boxr = { \break \bar "||" \mark \markup \box "R" }
+boxs = { \break \bar "||" \mark \markup \box "S" }
 
 \include "v1.ily"
 \include "v2.ily"
@@ -37,23 +57,20 @@ fmarc = \markup { \dynamic f \bold \italic " marcato" }
 
 music = \new StaffGroup <<
       \new Staff {
-	\set Staff.midiInstrument = \minstr
-	\set Staff.instrumentName = #"Vl"
-%	\transpose d d { \va }
+	\set Staff.midiInstrument = \mihi
+	\set Staff.instrumentName = \markup \center-column {"Violine" "I" }
 	\transpose d d { \va }
       }
 
       \new Staff {
-	\set Staff.midiInstrument = \minstr
-	\set Staff.instrumentName = #"Vla"
-%	\transpose d d { \vb }
-	\transpose d d, { \vb }
+	\set Staff.midiInstrument = \mihi
+	\set Staff.instrumentName = \markup \center-column {"Violine" "II" }
+	\transpose d d { \vb }
       }
 
       \new Staff {
-	\set Staff.midiInstrument = \minstr
-	\set Staff.instrumentName = #"Vlc"
-%	\transpose d d { \vc }
+	\set Staff.midiInstrument = \milo
+	\set Staff.instrumentName = \markup \center-column {"Violon-" "cello" }
 	\transpose d d { \vc }
       }
 >>
