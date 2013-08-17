@@ -309,5 +309,95 @@ va = \relative c'' {
   f c f,[ f'] f, f'
   e g, c,[ e'] cis, e'
   d f, a,[ d'] a, cis'
-  d2. \boxq  
+  d2. \boxq
+
+  r8 f16 e f8 f, f' f,
+  e e'16 d e8 e, e' e,
+  f f'16 e f8 f, f' f,
+  g g'16 f g8 g, g' g,
+
+  a a'16 g a8 a, a' a,
+  g g'16 f g8 g, g' g,
+  f f'16 e f8 f, f' f,
+  e e'16 d e8 e, e' e,
+
+  f f'16 e f8 f, f' f,
+  e e'16 d e8 e, e' e,
+  f f'16 e f8 f, f' f,
+  g g'16 f g8 g, g' g,
+
+  a a'16 g a8 a, a' a,
+  g g'16 f g8 g, g' g,
+  f' g16 f e8 e, e' e,
+  d2. \boxr
+
+  f'16 d a f' f d a f' f d a f'
+  e cis a e' e cis a e' e cis a e'
+  f d a f' f d a f' f d a f'
+  g e c? g' g e c g' g e c g'
+
+  a f c a' a f c a' a f c a'
+  g e c g' g e a, g' g e a, g'
+  f d a f' f d b f' f d b f'
+  e cis a e' e cis a e' e cis a e'
+
+  f d a f' f d a f' f d a f'
+  e cis a e' e cis a e' e cis a e'
+  f d a f' f d a f' f d a f'
+  g e c? g' g e c g' g e c g'
+
+  a f c a' a f c a' a f c a'
+  g e c g' g e a, g' g e a, g'
+  f d a f' e cis a e' e cis a e'
+  d2. \boxs
+
+  f16 a a f f a a f f a a f
+  e g g e e g g e e g g e
+  f a a f f a a f f b b f
+  g b b g g b b g g b b g
+
+  a c c a a c c a a c c a
+  g b b g g b b g g b b g
+  f a a f f a a f f a a f
+  e g g e e g g e e g g e
+
+  f a a f f a a f f b b f
+  e g g e e g g e e g g e
+  f a a f f a a f f b b f
+  g b b g g b b g g b b g
+
+  a c c a a c c a a c c a
+  g b b g g b b g g b b g
+  f d' f, d' e, d' e, d' e, cis' e, cis'
+  d2. \boxt
+
+  f,4 f, f'
+  e16 g g e e g g e e g g e
+  f4 f, f'
+  g16 b b g g b b g g b b g
+
+  a4 a, a'
+  g16 b b g g b b g g b b g
+  f4 f, f'
+  e16 g g e e g g e e g g e
+
+  f4 f, f'
+  e16 g g e e g g e e g g e
+  f4 f, f'
+  g16 b b g g b b g g b b g
+
+  a4 a, a'
+  g16 b b g g b b g g b b g
+  f d' f, d' e, d' e, d' e, cis' e, cis'
+  d2. \boxu
+
+  f,4 f4. f8
+  e4 e4. e8
+  e4 e4. e8
+  d4 r r
+  f,4\p f4. f8
+
+  e4 e4. e8
+  e4 e4. e8
+  d2. \bar "|."
 }

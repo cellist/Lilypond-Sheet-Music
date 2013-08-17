@@ -310,4 +310,94 @@ vb = \relative c' {
   g g g
   f e e
   d2. \boxq
+
+  r8 d'16 cis d8 d, d' d,
+  cis cis'16 b cis8 cis, cis' cis,
+  d d'16 cis d8 d, d' d,
+  e e'16 d e8 e, e' e,
+
+  f f'16 e f8 f, f' f,
+  e e'16 d e8 e, e' e,
+  d d'16 cis d8 d, d' d,
+  cis cis'16 b cis8 cis, cis' cis,
+
+  d d'16 cis d8 d, d' d,
+  cis cis'16 b cis8 cis, cis' cis,
+  d d'16 cis d8 d, d' d,
+  e e'16 d e8 e, e' e,
+
+  f f'16 e f8 f, f' f,
+  e e'16 d e8 e, e' e,
+  d' e16 d cis8 cis, cis' cis,
+  d2. \boxr
+
+  d'4 d4. d8
+  cis4 cis4. cis8
+  d4 d4. d8
+  d4 d4. d8
+
+  f4 f4. f8
+  e4 e4. e8
+  d4 d4. d8
+  cis4 cis4. cis8
+
+  d4 d4. d8
+  cis4 cis4. cis8
+  d4 d4. d8
+  e4 e4. e8
+
+  f4 f4. f8
+  e4 e4. e8
+  d4 cis4. cis8
+  d2. \boxs
+
+  d16 f f d d f f d d f f d
+  cis e e cis cis e e cis cis e e cis
+  d f f d d f f d d f f d
+  e g g e e g g e e g g e
+
+  f a a f f a a f f a a f
+  e g g e e g g e e g g e
+  d f f d d f f d d f f d
+  cis e e cis cis e e cis cis e e cis
+
+  d f f d d f f d d f f d
+  cis e e cis cis e e cis cis e e cis
+  d f f d d f f d d f f d
+  e g g e e g g e e g g e
+  
+  f a a f f a a f f a a f
+  e g g e e g g e e g g e
+  a, f' a f g e g e cis e cis e
+  d2. \boxt
+
+  d4 d, d'
+  cis16 e e cis cis e e cis cis e e cis
+  d4 d, d'
+  e16 g g e e g g e e g g e
+
+  f4 f, f'
+  e16 g g e e g g e e g g e
+  d4 d, d'
+  cis16 e e cis cis e e cis cis e e cis
+
+  d4 d, d'
+  cis16 e e cis cis e e cis cis e e cis
+  d4 d, d'
+  e16 g g e e g g e e g g e
+
+  f4 f, f'
+  e16 g g e e g g e e g g e
+  a, f' a f e g e g cis, e cis e
+  d2. \boxu
+
+  d4 d4. d8
+  d4 d4. d8
+  cis4 cis4. cis8
+  d4 r r
+  d,\p d4. d8
+
+  d4 d4. d8
+  cis4 cis4. cis8
+  d2. \bar "|."
 }

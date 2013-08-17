@@ -1,16 +1,14 @@
 \version "2.12.4"
 \include "deutsch.ly"
 
-#(set-global-staff-size 17)
+#(set-global-staff-size 16.5)
 
 \header {
-  title       = "Sonata \"La Follia\""
-%  subtitle    = "- eingerichtet für Violine, Viola und Cello -"
-  subtitle    = "(Original in d-moll)"
-  composer    = "Antonio Vivaldi"
-  arranger    = "(1678-1741)"
-  opus        = "op. 1 Nr. 12"
-  enteredby   = "cellist (2011-08-14)"
+  title     = \markup { "Sonata " \bold \italic "\"La Follia\"" }
+  composer  = "Antonio Vivaldi"
+  arranger  = "(1678-1741)"
+  piece     = "op. 1 Nr. 12"
+  enteredby = "cellist (2011-08-14)"
 }
 
 voiceconsts = {
@@ -47,9 +45,11 @@ boxm = { \break \bar "||" \mark \markup \box "M" \time 9/8 \tempo 4.=80 }
 boxn = { \break \bar "||" \mark \markup \box "N" }
 boxo = { \break \bar "||" \mark \markup \box "O" \time 12/8  }
 boxp = { \break \bar "||" \mark \markup \box "P" \time 3/4 }
-boxq = { \break \bar "||" \mark \markup \box "Q" }
+boxq = { \break \bar "||" \mark \markup \box "Q" \tempo "Vivace " 4=100 }
 boxr = { \break \bar "||" \mark \markup \box "R" }
 boxs = { \break \bar "||" \mark \markup \box "S" }
+boxt = { \break \bar "||" \mark \markup \box "T" }
+boxu = { \break \bar "||" \mark \markup \box "U" \tempo "Lento " 4=70 }
 
 \include "v1.ily"
 \include "v2.ily"

@@ -311,4 +311,94 @@ vc = \relative c {
   c c cis
   d a' a,
   d2. \boxq
+
+  d'8 d, d16 e f g a h cis d
+  a8 a, a16 cis dis e f g a b?
+  d,?8 d, d'16 e f g a b c? d
+  c8 c, c16 d e f g a b c
+
+  f,8 f, f'16 g a b c d e f
+  c8 c, cis16 d e f g a h cis
+  d8 d, g,16 a b? c? d e f g
+  a,4 a16 h cis d e f g a
+
+  d,8 d, d'16 e f g a b? c? d
+  a8 a, a16 h cis d e f g a
+  d,8 d, d'16 e f g a b? c? d
+  c8 c, c16 d e f g a b c
+
+  f,8 f, f'16 g a b c d e f
+  c8 c, cis16 d e f g a h cis
+  d,8 g, a16 h cis d e f g a
+  d,2. \boxr
+
+  d'4 d,8 f e d
+  a'4 a,8 cis h a
+  d4 d'8 f e d
+  c4 c,8 e d c
+
+  f,4 f'8 a g f
+  c4 cis8 e d cis
+  d4 g,8 b? a g
+  a4 a'8 cis h a
+
+  d4 d,8 f e d
+  a'4 a,8 cis h a
+  d4 d'8 f e d
+  c4 c,8 e d c
+
+  f,4 f'8 a g f
+  c4 cis8 e d cis
+  d4 a' a,
+  d2. \boxs
+
+  d8 d d d d d
+  a' a a a a a
+  d, d d d d d
+  c c c c c c
+
+  f f f f f f
+  c' c cis cis cis cis
+  d d d, d d d
+  a' a a a a a
+
+  d, d d d d d
+  a' a a a a a
+  d, d d d d d
+  c c c c c c
+
+  f f f f f f
+  c' c cis cis cis cis
+  d d, g g a a
+  d,2. \boxt
+
+  d16 d' d d, d d' d d, d d' d d,
+  a4 a' a,
+  d16 d' d d, d d' d d, d d' d d,
+  c4 c' c,
+
+  f16 a a f f a a f f a a f
+  c4 cis4. cis8
+  d16 d' d d, d d' d d, d d' d d,
+  a4 a' a,
+
+  d16 d' d d, d d' d d, d d' d d,
+  a4 a' a,
+  d16 d' d d, d d' d d, d d' d d,
+  c4 c' c,
+
+  f16 a a f f a a f f a a f
+  c4 cis4. cis8
+  d4 a' a,
+  d2. \boxu
+
+  d16 d' d d, d d' d d, d d' d d,
+  g, g' g g, g g' g g, g g' g g,
+  a a' a a, a a' a a, a a' a a,
+  d4 r r
+  d16\p d' d d, d d' d d, d d' d d,
+
+  g, g' g g, g g' g g, g g' g g,
+  a a' a a, a a' a a, a a' a a,
+  d2. \bar "|."
 }
