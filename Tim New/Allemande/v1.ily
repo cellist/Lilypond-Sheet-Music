@@ -73,6 +73,6 @@ va = \relative c'' {
     cis( e,) g( a) cis( e) g( b) a( e') cis( b) a( g) f( e)
     d( a) d( e) f( e) d( a') f( a,) d( e) f( e) d( f)
 
-    a( a,) d( e) a( c,) f( a) d2    
+    a( a,) d( f) a( d,) f( a) d2    
   }
 }
