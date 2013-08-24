@@ -208,4 +208,101 @@ vb = \relative c' {
   h cis2
   d cis2. cis4
   cis1. \bar "|."
+
+  \introd \clef "tenor"
+  R4.*2
+  r8 a' a
+  h e, e
+  a d,16 e fis8
+  g16 a g fis e g
+  fis8 fis fis
+  g e e
+  fis h,4-+
+
+  a8 cis cis
+  d4 d8
+  cis a d~
+  d cis4-+
+  d8 a' a
+  h e, e
+  a d,16 e fis8
+  g16 a g fis e g \boxo
+  fis4 g8
+  e4 fis8
+
+  d4 e8
+  cis4 d8
+  h cis4-+
+  d8 h'4
+  r8 a4
+  r8 g4
+  r8 fis4
+  r8 e e \boxp
+  cis a d~
+  d cis4-+
+  d8 h' h
+
+  h a a
+  a gis4-+
+  a8 a, d
+  h4-+ a8
+  r fis fis
+  h4 cis8
+  h h4-+ \boxq
+  a16 h cis d e fis
+  g, a h cis d e
+  fis,4 r8
+
+  r fis'4~
+  fis8 e4~
+  e8 d4~
+  d8 cis4~
+  cis8 h4~
+  h8 ais16 h cis8~
+  cis fis, h~
+  h ais4-+ \boxr
+  r8 fis'16 e d8
+  cis16 h ais h cis ais
+  h4 r8
+
+  r fis'16 g fis e
+  dis8 h r
+  fis'4.
+  e
+  dis8 e8. fis16
+  dis8 g g
+  fis dis dis
+  g8. fis16 e8
+  fis dis4 \boxs
+  e16 dis e fis e8
+
+  R4.
+  fis16 e fis g fis8
+  R4.
+  g16 fis e d cis h
+  a8 a4~ \boxt
+  a8 g4~
+  g8 fis4~
+  fis8 e4~
+  e8 d4~
+
+  d8 cis16 d e8~
+  e a, d~
+  d cis4-+
+  d4 r8 \boxu
+  d'16 cis d e d8
+  R4.
+  e16 d e fis e8
+  R4.
+  fis16 e fis g fis8
+
+  R4.
+  g16 fis g a g8
+  cis,4 d8~
+  d cis4-+
+  d r8
+  g,16\p fis g a g8
+  cis,4 d8~
+  d cis4-+
+  d4. \bar "|."
 }

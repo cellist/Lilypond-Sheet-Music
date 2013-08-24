@@ -198,4 +198,97 @@ vc = \relative c' {
   d1 cis2
   h1.
   ais \bar "|."
+
+  \introd \clef "tenor"
+  R4.*6
+  r8 d d
+  e a, a
+  d16 e d cis h d
+  cis8 e a
+
+  fis-+ e e
+  e-+ d a
+  h a g
+  fis fis' fis
+  g cis, cis
+  fis h,16 cis d8
+  e16 fis e d cis e \boxo
+  d4 h8
+  h-+ a a
+  a-+ g g
+
+  g-+ fis fis
+  e e4-+
+  d8 d'4
+  r8 cis4
+  r8 h4
+  r8 a4
+  r8 g h \boxp
+  e,4 fis8
+  e e4-+
+  d8 fis' fis
+  g e e
+  fis h,4-+
+
+  a16 h cis d e fis
+  gis, a h cis d e
+  fis, gis a h cis d
+  e,4 e'8
+  fis e d \boxq
+  cis a c
+  h4 cis?8
+  d16 cis h cis d e
+
+  cis h a h cis d
+  d8 cis cis
+  cis h h
+  h a a
+  a g? g
+  g fis fis
+  fis fis' fis
+  g fis e \boxr
+  d8.-+ cis16 h8
+
+  r fis' fis
+  fis e g
+  cis, cis4-+
+  h8 fis'16 g fis e
+  dis8 h r
+  r fis' fis
+  fis-+ e r
+  r e e
+  c-+ h r
+  r c c
+  cis! h h \boxs
+
+  h4 r8
+  cis16 h cis d cis e
+  d4 r8
+  d16 cis d e d fis
+  e4 r8
+  e16 d e fis e a \boxt
+  fis8-+ e e
+  e d d
+  d cis cis
+
+  cis h h
+  h a a
+  a4 a8
+  h a g
+  fis16 e fis g fis8 \boxu
+  R4.
+  h16 a h cis h8
+  R4.
+  cis16 h cis d cis8
+
+  R4.
+  d16 cis d e d8
+  R4.
+  a16 g a h a8
+  h a g
+  fis16 e fis g fis8
+  R4. \clef "bass"
+  a,16\p g a h a8
+  h a g
+  fis4. \bar "|."
 }

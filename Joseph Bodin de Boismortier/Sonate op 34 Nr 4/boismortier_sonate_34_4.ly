@@ -1,7 +1,7 @@
 \version "2.14.2"
 \include "deutsch.ly"
 
-#(set-global-staff-size 17)
+#(set-global-staff-size 16.5)
 
 \header {
   title    = "Sonate op. 34 Nr. 4"
@@ -27,7 +27,7 @@ milo = "bassoon"
 introa = {            \tempo "1. Vivace "  4=130 \time 3/4 }
 introb = { \break     \tempo "2. Presto "  4=120 \time 2/4 }
 introc = { \break     \tempo "3. Largo "   2=60  \time 3/2 }
-introd = { \break     \tempo "4. Allegro " 4.=80 \time 6/8 }
+introd = { \break     \tempo "4. Presto " 4.=80  \time 3/8 }
 
 boxa = { \bar "||" \mark \markup \box "A" }
 boxb = { \bar "||" \mark \markup \box "B" }
@@ -48,6 +48,8 @@ boxp = { \bar "||" \mark \markup \box "P" }
 boxq = { \bar "||" \mark \markup \box "Q" }
 boxr = { \bar "||" \mark \markup \box "R" }
 boxs = { \bar "||" \mark \markup \box "S" }
+boxt = { \bar "||" \mark \markup \box "T" }
+boxu = { \bar "||" \mark \markup \box "U" }
 
 \include "v1.ily"
 \include "v2.ily"

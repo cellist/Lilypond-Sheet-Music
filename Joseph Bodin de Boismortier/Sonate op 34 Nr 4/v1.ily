@@ -206,4 +206,100 @@ va = \relative c' {
   h fis2~
   fis e1
   fis1. \bar "|."
+
+  \introd
+  r8 a a
+  h e, e
+  a d,16 e fis8
+  g16 a g fis e g
+  e8.-+ e16 d8~
+  d d8.-+ cis16
+  h8 h' h
+  h a a
+  a gis4-+
+
+  a8 a4~
+  a8 g?4~
+  g8 fis4
+  e8 e4-+
+  d r8
+  R4.*3 \boxo
+  d16 e fis g a h
+  cis, d e fis g a
+
+  h, cis d e fis g
+  a, h cis d e fis
+  g4 r8
+  fis4 r8
+  e4 r8
+  d4 r8
+  cis4 r8
+  h h4-+ \boxp
+  a8 a' a
+  h e,16 fis g8
+  fis d d
+
+  e a,16 h cis8
+  d16 e d cis h d
+  cis8 fis fis
+  fis-+ e r
+  r a h
+  gis e a~
+  a gis4-+ \boxq
+  a8 e a
+  r e g
+  r fis h
+
+  ais4.-+
+  h
+  a?
+  g
+  fis
+  e
+  d
+  cis8 cis4-+ \boxr
+  h16 cis d e fis g
+  ais, h cis d e fis
+
+  d8 h h'~
+  h ais4-+
+  h8 h h
+  h4.~
+  h8 a? a
+  a g16 fis g a
+  fis8 h h
+  c fis, fis
+  h e,16 fis g8
+
+  a fis4-+ \boxs
+  g16 fis g a g8
+  R4.
+  a16 g a h a8
+  R4.
+  h16 a g fis e d
+  cis?8 a r \boxt
+  d4.
+  cis
+  h
+
+  a
+  g
+  fis
+  e8 e4-+
+  d r8 \boxu
+  fis'16 e fis g fis8
+  R4.
+  g16 fis g a g8
+  R4.
+  a16 g a h a8
+
+  R4.
+  h16 a h cis h8
+  e,4 fis8
+  e e4-+
+  d r8
+  h16\p a h cis h8
+  e,4 fis8
+  e e4-+
+  d4. \bar "|."
 }

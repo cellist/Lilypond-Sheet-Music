@@ -195,4 +195,98 @@ vd = \relative c {
   h1 a?2
   g1.
   fis \bar "|."
+
+  \introd
+  R4.*4
+  r8 d'' d
+  e a, a
+  d4 d,8
+  cis4 cis8
+  h e e,
+  a a' a
+  h e, e
+  a d,16 e fis8
+
+  g a a,
+  d d' d
+  g, a a
+  fis g g
+  e a a \boxo
+  h4 g8
+  a4 fis8
+  g4 e8
+  fis4 d8
+  e a a,
+  d16 e fis g a h
+  cis, d e fis g a
+
+  h, cis d e fis g
+  a, h cis d e fis
+  g,4 g'8 \boxp
+  g4 fis8
+  g a a,
+  d4 d8
+  cis4 cis8
+  h e4
+  fis d8
+  e4 cis8
+  d4 d8
+
+  d4 cis8
+  d e e, \boxq
+  a4 a8
+  e g e
+  h' d h
+  fis' fis fis
+  g cis, cis
+  fis h,16 cis d8
+  e a, a
+  d g,16 a h8
+
+  cis fis,16 gis ais8
+  h4 d,8
+  e fis fis \boxr
+  h8. cis16 d e
+  fis4 fis8
+  g?4 e8
+  fis fis,4
+  h16 cis dis e fis g
+  a,? h cis dis e fis
+  g,8 a4
+  h8 c a
+
+  h g4
+  a8 a'4
+  g8 c4
+  fis,8 h h, \boxs
+  e4 r8
+  a16 g a h a fis
+  fis4 r8
+  h16 a h cis h g
+  g4 r8
+  r a a \boxt
+  h e, e
+  a d,16 e fis8
+
+  g cis, cis
+  fis h,16 cis d8
+  e a,16 h cis8
+  d d16 e fis8
+  g a a,
+  d16 cis d e d8 \boxu
+  R4.
+  g16 fis g a g8
+
+  R4.
+  a16 g a h a8
+  R4.
+  h16 a h cis h8
+  r4 g8
+  g4 fis8
+  g a a,
+  d16 cis d e d8
+  r4 g8\p
+  g4 fis8
+  g a a,
+  d4. \bar "|."
 }
