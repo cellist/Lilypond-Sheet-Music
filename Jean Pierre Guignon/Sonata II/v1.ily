@@ -5,25 +5,25 @@ va = \relative c' {
   \introa
   \repeat volta 2 {
     c16 b a g f8 f' e8.\prall f16 f8.\prall e32( f)
-    g16 f e d c8 b a8.\prall g16 f4 \clef "bass"
+    g16 f e d c8 b a8.\prall g16 f4
 
     a d g, c
     f,8 d'16 c h a g f e8.\prall d16 c4
     g' c a\prall r
 
-    a d h\prall r8 g \clef "tenor"
+    a d h\prall r8 g
     c16( h c) d c( h c) d c( h c) d c( h c) d
     c8 h16 a g8 f' e8.\prall d16 c4
 
     g' g,\prall a8 f16 g a h c d32( e)
     f4 f,\prall g8 e16 f g a h c32( d)
-    e4 e,\prall f8 d16 e f g a h32( c) \clef "bass"
+    e4 e,\prall f8 d16 e f g a h32( c)
     d4 d,\prall e16 c e g c a b? g
 
     a h c e, d c' g, h' c8 c, r4
   }
   \repeat volta 2 {
-    g'16 f e d c8 c' h8. c16 c8.\prall h32( c) \clef "tenor"
+    g'16 f e d c8 c' h8. c16 c8.\prall h32( c)
     d16 c h a g8 f' e c g'4~
     g8 f16 e f8 e16 d e d e c g'4~
 
@@ -62,23 +62,23 @@ va = \relative c' {
 
   \introb
   \repeat volta 2 {
-    \clef "bass" f4 r16 g a f c'4 r16 \clef "tenor" c d e
+    f4 r16 g a f c'4 r16 c d e
     f8 f, f'8. e16 d8 d c8.-+ b?16
-    a8. a16 d8. d16 g,8. g16 c8. c16 \clef "bass"
+    a8. a16 d8. d16 g,8. g16 c8. c16
     f,8 g16 a d,8 g e4 c'8. c16
 
     a4\prall d8. d16 h\prall a g8 c8. c16
     d8 e f8. e32( f) e4\prall g8. g16
     g8 a, f'8. f16 f8 g, e'8. e16
     e8 f, d'8. d16 d8 e, c'8. b16
-    a g f e d8.-+ c16 \clef "bass" c c e g c4~
+    a g f e d8.-+ c16 c c e g c4~
     c8 f, b b b\prall a f'4~
 
     f8 b, es es es\prall d g4~
     g8 c, f f f\prall e r f16 e
     << { s2 d4( c) } \\ { d8 c b a f2\p } >>
     << { b4( a) d( c) } \\ { f,2 f } >>
-    <e b'>4( <f a>) <c g'>\prall \clef "tenor" c'16\f c d es
+    <e b'>4( <f a>) <c g'>\prall c'16\f c d es
     d4~\prall d16 d e? f b8\prall a16 g c8. b16
 
     a8. g16 f8. e16 a4 d,\fermata
