@@ -184,4 +184,119 @@ va = \relative c' {
   <h g'>\f r <h g'> r \clef "bass"
   <g, es' c'>\f^\rit r <c, g'>2\p
   <c g'>1\espressivo\fermata \bar "|."
+
+  \introc
+  d''4.-2\p\< cis4(\!\> d16 e)\!
+  d4( h8) ais4(-1 h8)-1
+  c?4.-2 h4(\< c16 d)\!
+  c4(\> a?8)-0\! gis4(-1 h8)-4
+  a(-0 h c)\< \clef "tenor" e4(-2 fis8)\!
+
+  e4.\f\> dis\!
+  fis4(-3 g8) fis4( e16\< dis)\!
+  e4( g8) h4( h,8)
+  g'4(\f fis16 e) a4(-0 fis8)-4
+  d?(-1\> h-1 e)-4 d4(\! d8)---.
+
+  d4.\p\< cis4(\!\> d16 e)\!
+  d4( h8) ais4( h8)
+  c?4. h4( c16 d)
+  c4( a?8)-0 gis4(-1 h8)-4
+  e-2\mf e( f) e4 d8
+
+  d4.( c4) e8-1\cresc
+  fis? fis( g) fis4 e8
+  e4.(\f dis4) h8\<
+  g'4\!\f g8 f e( dis)-1
+  e4(-2 dis8) e4( c8)-2
+
+  h4.\< ais4(\!\> h16 c)\!
+  h4(\< g8)-4\! h4(-3\> \clef "bass" e,8)\!
+  d?4(\< g8)\! g4(\> fis?8)\!
+  g2. \boxd
+  c,16\mf^\ddt h c-1 es d c g'-1 fis-1 g as g f-2
+
+  es d es f g f es d es d c b
+  as g as d-0 c h! f' es d c h d
+  c h c d es g c h c g es d
+
+  c h c h c d es d es es d es
+  f-1 g as g f es d c h as g fis!
+  g as g c h-0 d f-1 g as g g f
+
+  es8 c\> c c\! c\p es
+  c'4. b4(-1\< c16-1 des)-2\!
+  es4(-4\> c8)-1\! as4(-4 as8)-1-.
+  b4(-2 b8)-. \acciaccatura c-4 b(\< as b)\!
+  c4(\> b8)\! as4( es8) \clef "tenor"
+
+  c'4.-3 b4(-1 c16-1 des)-2
+  es4(-4 c8)-1 as4(-4\< as8)-2 
+  f'4.\sf-4 es4( f16-1 g)
+  as4. f4(\> des8)\!
+  c4.(\p h!) \<
+  c2.
+  es4.\! d\cresc
+
+  es~ es4 g8-1\f
+  b4.\sf as4(-2 f8)-4
+  es8.( d16-1 c-1 d)-3 es4( c8)-1
+  c2.-2\>
+  h!\! \clef "bass" \boxe
+  c,16_\ddt h c-1 es d c g' fis? g as g f
+
+  es d es f g f es d es d c b
+  as g as d c h! f' es d c h d
+  c h c d es g c h c g es d
+
+  c h c h c d es d f es d es
+  f-1 g as g f es d es f es d c
+  h d f g as f d c h c h c
+
+  h8 d( c) h4 g'8-1\mf^\ani
+  as4.-2 a\cresc
+  b2.-4
+  g,8-0 <g' b> <g b> g, <h-3 f'-2> g
+  <c es>\< <c es> <c es>\! <c es>4 \clef "tenor" c'8\f
+  c4. cis
+
+  d~^\rit d4\> d8\! \boxf
+  d4.\pp\<^\atp cis4(\!\> d16 e?)\!
+  d4( h8) ais4( h8)
+  c4. h4( c16 d)
+  c4( a?8)-0 gis4(-1 h8)-4
+  a(-0 h c)\< e4(-2 fis?8)\!
+
+  e4.\f\> dis\!
+  fis4( g8) fis4(-4 e16 dis)
+  e4(\< g8)\! h4(-3 h,8)
+  g'4(\f fis16 e) a4( fis8)
+  d?( h\> e) d4(\! d8)-.
+
+  d4.\p\< cis4(\!\> d16 e)\!
+  d4( h8) ais4( h8)
+  c?4. h4( c16 d)
+  c4( a?8) gis4( h8)
+  e-2 e( f) e4 d8
+
+  d4.(\cresc c4) e8
+  fis? fis( g) fis4 e8\<
+  e4.-2\! dis4-1 h8-1 \boxg
+  g'4\f g8 f e( dis)
+  e4(\> dis8) e4(\! c8)
+
+  h4.\p\< ais4(\!\> h16 c)\!
+  h4( ais8) h4(\< d8)\!
+  d4.-2 cis4( d16 e)
+  d4( cis8)\> d4( h'8)-3\!
+  h4.\p g
+  e4(\< g8)\! g4(\> e8)\!
+
+  d4.\p cis4( d16 e)
+  d4( h8)-1 h4(-3^\rit a8)-3
+  g4.^\atp \clef "bass" d\<
+  es\!\> d4(\! d'8)
+  d4.\p cis4(^\rit d16 e)
+  d2.~\>
+  d\!\fermata \bar "|."
 }

@@ -4,12 +4,12 @@
 #(set-global-staff-size 17.4)
 
 \header {
-  title    = \markup \bold \italic "Premier duo"
+  title    = \markup \bold \italic "Duo in c-moll"
   subtitle = \markup { "aus: " \italic "\"Six grands Duos pour deux Violoncelles\"" }
   composer    = "Cornélis Joseph Liégeois"
   arranger    = "(1860-1921)"
   enteredby   = "cellist (2013-09-01)"
-  piece       = "op. 9, cah. 1"
+  piece       = "op. 9, Nr. 1"
 }
 
 voiceconsts = {
@@ -25,15 +25,23 @@ mihi = "clarinet"
 %minstr = "accordion"
 milo = "bassoon"
 
+ani = \markup \italic "animato"
+atp = \markup \italic "a tempo"
+ddt = \markup \italic "détaché du talon."
 rit = \markup \italic "rit."
 
 boxa = \mark \markup \box "A"
 boxb = \mark \markup \box "B"
 boxc = \mark \markup \box "C"
 boxd = \mark \markup \box "D"
+boxe = \mark \markup \box "E"
+boxf = \mark \markup \box "F"
+boxg = \mark \markup \box "G"
+boxh = \mark \markup \box "H"
 
 introa = { \tempo "1. Introduction; Adagio " 4=50 \time 4/4 }
 introb = { \bar "||" \break \tempo "2. Allegro " 4=100 }
+introc = { \pageBreak \tempo "3. Andante; Doux et expressif " 4=70 \time 6/8 \key g \major }
 
 \include "v1.ily"
 \include "v2.ily"
