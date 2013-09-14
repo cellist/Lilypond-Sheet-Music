@@ -28,7 +28,9 @@ milo = "bassoon"
 ani = \markup \italic "animato"
 atp = \markup \italic "a tempo"
 ddt = \markup \italic "détaché du talon."
+leg = \markup \italic "légèrement"
 rit = \markup \italic "rit."
+tdt = \markup \italic "très détaché"
 
 boxa = \mark \markup \box "A"
 boxb = \mark \markup \box "B"
@@ -38,10 +40,15 @@ boxe = \mark \markup \box "E"
 boxf = \mark \markup \box "F"
 boxg = \mark \markup \box "G"
 boxh = \mark \markup \box "H"
+boxi = \mark \markup \box "I"
+boxj = \mark \markup \box "J"
+boxk = \mark \markup \box "K"
+boxl = \mark \markup \box "L"
 
-introa = { \tempo "1. Introduction; Adagio " 4=50 \time 4/4 }
+introa = { \tempo "1. Introduction - Adagio " 4=50 \time 4/4 }
 introb = { \bar "||" \break \tempo "2. Allegro " 4=100 }
 introc = { \pageBreak \tempo "3. Andante; Doux et expressif " 4=70 \time 6/8 \key g \major }
+introd = { \pageBreak \tempo "4. Final - Allegro; Mouvement de marche " 4=110 \time 4/4 \key c \major }
 
 \include "v1.ily"
 \include "v2.ily"

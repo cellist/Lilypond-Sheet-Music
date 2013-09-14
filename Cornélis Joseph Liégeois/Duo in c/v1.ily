@@ -299,4 +299,180 @@ va = \relative c' {
   d4.\p cis4(^\rit d16 e)
   d2.~\>
   d\!\fermata \bar "|."
+
+  \introd
+  \partial 8 g,8\f
+  c4.( d8) \clef "tenor" e4.(-1 f8)-.
+  g2. g4-1
+  a4.(-2 g8)-.\< a4.(-1 h8)-.
+  c2(-3\! c,4)\> e-3
+  d4.(\!\f d8)-. g4.( f8)-.
+  f4( e2) c8( h)
+
+  a4.(-0 a8)-. d4.( c8)-.
+  c4( h2) g4\f
+  c4.( d8)-. e4.( f8)-.
+  g2. g4-.
+  a4.( g8)\< a4( h)
+  c2(\! c,4)\< e-2
+  e4.(\! dis8)\> g4.( fis8)\!
+  fis4( e2) g4-2
+
+  g4.( fis8) a4( d,?)-2
+  h'2.-3\sf h4
+  h( ais2) g8(-4 fis)
+  fis4( h2) h,8( cis)
+  d4.( g8) fis4.( h,8)
+  d4.(\> cis8) h2\! \clef "bass" \boxh
+  g,4\p^\ddt r8 d16-. d-. g4-. g'-.
+
+  g,-. r8 d16 d g4-. h-.
+  g-. r8 g16 g h4-. c-.
+  h-. r8 d,16 d g4 gis
+  a8-. e'-. c-. e-. a, e' c e
+  a, e' c e a, e' c e
+
+  a, gis-1 a-2 h-1 c-2 h-1 c-2 cis-3
+  d-4 a-1 d-0 a d4 \clef "tenor" h'8.(\p\< d16)
+  d2(\!\> h4)\! h8.( e16)
+  d2~ d8 h(\< d g)-1\!
+  h4.( a8) g4(\> fis8 e)\!
+
+  d2( h4) h
+  ais4.(\< e'8)-4\! d4.(-2\> cis8)\!
+  cis4( h2) d4
+  cis4.(-3 g'8) fis4.(\< e8)\!
+  e4( d2) \clef "bass" g,,8\f fis
+  g4.( d8)-. g4.( a8)-.
+  h4. ais8 h ais h g
+
+  c h a? h c a d d,
+  g h d g h4 g \clef "tenor"
+  g'4.(\sf f?8)\> es4( d)\!
+  es2( c4) es4-2->
+  d2(-1 h4) d-3->
+  c4.( d8) es4.( c8)
+
+  as'2( h,4.) h8
+  d2( c4.) c,8
+  fis2 g4( a)-0
+  b g-1 es'4.(-2 d8)
+  d2-> cis4. d8
+  d2(->\< cis4.) d8
+  b'2-3\!\f a4.(-3 fis8)-1
+  a4(-3 g2)-2 b,4\mf
+
+  b( a2) c4
+  c(\cresc h!2) d4
+  d( cis2) g'4
+  g( a,2)-0 es'4-3
+  es(\> d2)\! \clef "bass" fis,4-1 \boxi
+  g4.(\f d8)-. g,4.( a8)-.
+  h4. d8 g d h g
+
+  c gis a h c a d d,
+  g fis g a h d g g,
+  fis4.(-4 d'8)-.-0 fis4.( d8)-.
+  g d g d g,4 r
+  cis8\p his cis a cis his cis a
+
+  d\< cis d a d c h! a\!
+  g4.\f r8 g4.( a8)-.
+  h4.( d8)-. g4(-. g)-. \clef "tenor"
+  c4.(\f d8)-. e4.( f8)-.
+  g2. g4-1
+  a4.(-2 g8) a4(-1 h)
+  c2.-3 c4
+
+  c4.(-3 b8)-2\> as4(-1 g)-1\!
+  as2( f4)-1 as-4
+  g2( e4) g-3
+  f4.(-1 g8) as4.( f8)-1
+  f1-2
+  e2.( g4)
+  g(-1 b)\> as( g)\! \boxj
+  f1~\p
+
+  f2 des4.(-3 f8)-2
+  f1~
+  f2 b,4.(-1 f'8)
+  f1~\<
+  f2\! c4.( a'?8)
+  a1(\>
+  g2~ g8)\! b,(\p a c)
+  c2( a4) a8.( d16)
+  c2~ c8 a(-1 c-4 f)-2
+
+  a4.(-3 g8) f4( e8 d)
+  c2( a4) a
+  b4.(\p d8) d4.( b8)
+  g2~ g8 fis( g a)
+  b4.( d8)\< g4.( f8)\!
+  f4 e2 \clef "bass" c,8\f c
+  f,4.( c'8)-. f4.( g8)-.
+
+  a4. c,8 f c a f
+  b a b g b a b g
+  f a c f a4 a,
+  as-1\f r8 es'16-1 es ges4-4 es
+  f-1 r8 des16-4 des f4\< des
+
+  ges-2\! r8 ges16-4\> ges b4-1 ges\!
+  f r8 des16-4 des f4-1 f,-3
+  <f' a?-0> r8 c16-3 c des4-4 f-1
+  b-4\cresc r8 des,16-2 des es4-4 as-2
+  r <f-3 des'-4>\f r as,-1
+  f'4.(-3 ges8)-2 as4(-4 ges8-2 f)-1
+
+  r4 <e?-1 cis'-3> r gis,
+  e'4.( fis8) g?4( fis8 e)
+  r4 <fis d'> r a,
+  fis'4.( g8) a4.( b8) \boxk
+  c4. a8 fis\< d c a\!
+  b4.(\f a8) b4.(\> c8)
+  d1\!
+
+  <c d>\p
+  <b d>2 g
+  c1
+  b8-.\p <b d>-. <b d>-. <b d>-. <b d>-. <b d>-. <b d>-. <b d>-.
+  c <c es>\cresc <c es> <c es> <c es> <c es> <c es> <c es>
+  d4.( g8)-. es4.( g8)-.
+  e!4.( g8)-. f4.( a8)-.
+
+  g4.( b8)-. a4.( d8)-.
+  b4.( d8)-. b4 b,
+  d,4.(-1\f e8)-.-2 fis4.(-4 g8)-.-0
+  a4.( a8)-. d4.(-0 <c d>8)-.
+  <g g'>2. \times 2/3 { <g g'>8-. <g g'>-. <g g'>-. }
+  <g g'>2. \times 2/3 { <g g'>8-. <g g'>-. <g g'>-. } \boxl
+  c'4.(\ff d8)-. \clef "tenor" e4.( f8)-.
+
+  g2. g4-1
+  a4.(-2 g8)-. a4.(-1 h8)-.
+  c2( c,4) e-4
+  d4.( d8)-. g4.( f8)-.
+  f4( e2) c8( h)
+  a4.( a8)-. d4.( c8)-.
+  c4( h2) g4
+  c4.( d8)-. e4.( f8)-.
+
+  g2. g4
+  a4.( g8)-. a4( h)
+  c2( c,4) e-2
+  e4.( dis8) g4.( fis8)
+  fis4( e2) g4
+  g4.(\ff fis8) h4.( a8)
+  a4( g2) g,4-4
+  c4.(-2 d8)-. e4.( f?8)-.
+
+  g2. g4-1
+  a4.(-2 g8) a4(-1 h)
+  h2(-> c4) c,
+  h2(->-1 c4)-2 e-1
+  g4.( fis8) g4.( fis8)
+  g4.( e8) g( f!) e d
+  c4 r8 g c4-> d->
+  e-> r8 g,^\rit <e c'>4-> <e c'>->
+  <e c'>1\fermata \bar "|."
 }
