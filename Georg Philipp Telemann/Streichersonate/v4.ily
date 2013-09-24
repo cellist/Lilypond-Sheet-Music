@@ -156,4 +156,107 @@ vd = \relative c, {
    d'4 r8 d g,4 r8 g
    cis,4 r8 f e d a'4
    d,2 r \bar "|."
+
+   \introc
+   \partial 8 f8\f
+   a a a16 g f8
+   c' c e16 d c8
+   f c a16 g f8
+   c'4. c8\p
+   a a a16 g f8
+   c' c e16 d c8
+   f c a16 g f8
+   c'4. c8\f
+
+   f f f f
+   e e e e
+   d d d d
+   g, g g f
+   e e e16 d c8
+   g' g h16 a g8
+   c g e16 d c8
+   g'4. g8\p
+   e e e16 d c8
+
+   g' g h16 a g8
+   c g e16 d c8
+   g'4. g8\f
+   c, c' c c
+   f c c c
+   c, c' c c
+   f c c c
+   f, f f16 e d8
+   g g g16 a h8
+
+   c4 g
+   a4. e8
+   f f f16 e d8
+   g g g16 a h8
+   c4 g
+   c,4. e8
+   f c e c
+   f c e c
+   f4 e
+   f4. cis'8
+
+   d a cis a
+   d a cis a
+   d4 cis
+   d r8 d,
+   a' a f16 e d8
+   a' a f16 e d8
+   cis' d a4
+   d,4. d8
+   a' a f16 e d8
+
+   a' a f16 e d8
+   cis' d a4
+   d, r8 d
+   es f g a
+   b? c? d b
+   es d c b
+   f'4 r8 d,
+   es f g a
+   b c d b
+
+   es d c b
+   f'4. d,8
+   es es es16 d c8
+   f f f16 g a8
+   b4 f
+   g r8 d
+   es es es16 d c8
+   f f f16 g a8
+   b4 f
+
+   b8 f b4
+   R2*7
+   r4 r8 c
+   f, f' f f
+   b, f' f f
+   f, f' f f
+   b, f' f f
+   a, a a16 g f8
+
+   c' c e?16 d c8
+   f c a16 g f8
+   c'4. c8\p
+   a a a16 g f8
+   c' c e16 d c8
+   f c a16 g f8
+   c'4. a8\f
+   b b b b
+   a a a a
+
+   g g g g
+   c c c b
+   a a a16 g f8
+   e' e e16 d c8
+   f4 c
+
+   f,8 f f16 f g8
+   a a a16 g f8
+   e e e16 d c8
+   f4 c
+   f4. \bar "|."
 }

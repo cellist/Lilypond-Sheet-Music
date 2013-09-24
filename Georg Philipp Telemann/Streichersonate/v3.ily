@@ -162,4 +162,113 @@ vc = \relative c' {
    fis d fis d fis d fis d g d g d g d g d
    a4 r8 f' g a a a
    a2 r \bar "|."
+
+   \introc
+   \partial 8 f8\f
+   f f f c'
+   c c c c
+   c c c c
+   c4. g8\p
+   f f f c'
+   c c c c
+   c c c c
+   c4. c8\f
+
+   c a a16 g f8
+   g g g16 f e8
+   f d d d
+   d h h16 c d8
+   c c c g'
+   g g g g
+   g g g g
+   g4. d8\p
+
+   c c c g'
+   g g g g
+   g g g g
+   g4. g8\f
+   g c c c
+   c c c c
+   g c c c
+   c c c c
+   c c c f,
+
+   g g g g
+   g4 g
+   e4. g8
+   c c c f,
+   g g g g
+   g4 g
+   e4. c'8
+   c c c e
+   c c c e
+   c4 c
+
+   c4. a8
+   a a a cis
+   a a a cis
+   a4 a
+   a r8 a
+   a a a a
+   a a a a
+   a a a a
+   a4. a8
+
+   a a a a
+   a a a a
+   a a a a
+   a4 r8 b
+   b2~
+   b4 f
+   es8 b' es, f
+   f4 r8 b,
+   b2~
+   b4 f'
+
+   es8 b' es, f
+   f4. f8
+   es es g g
+   f f f f
+   f4 f
+   d r8 b'
+   es, es g g
+   f f f f
+   f4 f
+
+   d4. b'8
+   fis d fis d
+   g g g g
+   fis d fis d
+   g4. g8
+   h g h g
+   c c c c
+   h g h g
+   c4. c8
+
+   c f? f f
+   f f f f
+   c f f f
+   f f f f,
+   f f f c'
+   c c c c
+   c c c c
+   c4. g8\p
+   f f f c'
+
+   c c c c
+   c c c c
+   c4. c8\f
+   b? d d16 c b8
+   c c c16 b a8
+   b g g g
+   g e? e16 f g8
+
+   f f f f
+   c' c c c
+   c4 c
+   a8 a a f
+   f f f f
+   c' c c c
+   c4 c
+   a4. \bar "|."
 }

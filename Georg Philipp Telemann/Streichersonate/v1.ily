@@ -1,6 +1,6 @@
 va = \relative c'' {
    \voiceconsts
-   \clef "tenor"
+   \clef "treble"
 
    \introa
    a4\f a8( b) a[ b]
@@ -148,10 +148,10 @@ va = \relative c'' {
 
    b4 r8 g'32( e16.) h16 f' d f h, c a h
    c16.( d32) e( f g a) b!4 a8 g16 f e8. f16
-   f8 \clef "treble" c'[ a f] d'( d) d( d)
+   f8 c'[ a f] d'( d) d( d)
 
    d16 b d e, d' b d e, c'4 r8 c
-   c( b) b( a) a( g) r \clef "tenor" e
+   c( b) b( a) a( g) r e
    f g a8. b16 a8( g) r e\p
    f g a8. b16 a8( g) r g\f
 
@@ -168,4 +168,114 @@ va = \relative c'' {
   d( d) d( d) d( d) d( d)
   e4 r8 a g f16 e e8.( d16)
   d2 r \bar "|."
+
+  \introc
+  \partial 8 c8\f
+  f f f16 g a8
+  g g g16 a b8
+  a a a16 b c8
+  g4. c,8\p
+  f f f16 g a8
+  g g g16 a b8
+  a a a16 b c8
+  g4. g8\f
+
+  a f f16 e d8
+  g e e16 d c8
+  f a, a16 h c8
+  h g g16 a h8
+  c c c16 d e8
+  d d d16 e f8
+  e e e16 f g8
+  d4. g,8\p
+
+  c c c16 d e8
+  d d d16 e f8
+  e e e16 f g8
+  d4. d8\f
+  e16 f g8 g\upbow g\upbow
+  a( g) g\upbow g\upbow
+  e16 f g8 g\upbow g\upbow
+  a( g) g\upbow g\upbow
+
+  a a a16 h c8
+  h h c16 d e8
+  e,4 d
+  c8. d16 e f g e
+  a8 a a16 h c8
+  h h h16 c d8
+  e,4 d8.( c16)
+  c4. c'8
+  c c c c
+
+  c c c c
+  c16 b? a b c b a g
+  a8 f c a'
+  a a a a
+  a a a a
+  a16 g f g a g f e
+  f8 d a f'
+  e4 r8 f
+
+  e4 r8 f
+  g f e8. e16
+  f8 a, d f
+  e4 r8 f
+  e4 r8 f
+  g f e8. d16
+  d8 f, f'4~
+  f es~
+  es d
+  g8 f es d
+
+  c f, f'4~
+  f es~
+  es d
+  g8 f es d
+  c f, f f'
+  g g g16 a b8
+  a a a16 b c8
+  d,4 c8.( b16)
+  b8. c16 d es f d
+
+  g8 g g16 a b8
+  a a a16 b c8
+  d,4 c8. b16
+  b4. d8
+  d16 a d d d d d d
+  d b d d d d d d
+  d a d d d d d d
+
+  d c b a g8 g'
+  g16 d g g g g g g
+  g e? g g g g g g
+  g d g g g g g g
+  g f e d c8 g'
+  a16 b c8 c\upbow c\upbow
+
+  d( c) c\upbow c\upbow
+  a16 b c8 c c
+  d( c) c-^ c,-^
+  f f f16 g a8
+  g g g16 a b8
+  a a a16 b c8
+  g4. c,8\p
+  f f f16 g a8
+
+  g g g16 a b8
+  a a a16 b c8
+  g4. c8\f
+  d b b16 a g8
+  c a a16 g f8
+  b d, d16 e f8
+  e c c16 d e8
+
+  f f f16 g a8
+  g g g16 a b8
+  a4 g8.( f16)
+  f8 f f c
+  f f f16 g a8
+  g g g16 a b8
+  a4 g8.( f16)
+  f4. \bar "|." 
 }

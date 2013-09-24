@@ -23,6 +23,7 @@ milo = "bassoon"
 
 introa = {        \tempo "1. Allegro " 4=110 \time 3/4 }
 introb = { \break \tempo "2. Largo "   4=40  \time 4/4 }
+introc = { \break \tempo "3. Vivace "  4=140 \time 2/4 }
 
 \include "v1.ily"
 \include "v2.ily"
