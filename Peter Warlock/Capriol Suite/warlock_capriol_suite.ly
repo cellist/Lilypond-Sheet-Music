@@ -19,8 +19,8 @@ voiceconsts = {
 
 %minstr = "harpsichord"
 mihi = "clarinet"
-%minstr = "accordion"
-milo = "bassoon"
+milo = "accordion"
+%milo = "bassoon"
 
 boxa = { \bar "||" \mark \markup \box "A" }
 boxb = { \bar "||" \mark \markup \box "B" }
@@ -45,11 +45,17 @@ boxt = { \bar "||" \mark \markup \box "T" }
 boxu = { \bar "||" \mark \markup \box "U" }
 boxv = { \bar "||" \mark \markup \box "V" }
 boxw = { \bar "||" \mark \markup \box "W" }
+boxx = { \bar "||" \mark \markup \box "X" }
+boxy = { \bar "||" \mark \markup \box "Y" }
+boxz = { \bar "||" \mark \markup \box "Z" }
 
 
-introe = { \break \tempo "5. Pieds en l'air; Andantino tranquillo" 2.=40
+introe = { \break \tempo "5. Pieds en l'air; Andantino tranquillo" 2.=30
            \time 9/4 \key g \major }
+introf = { \break \tempo "6. Mattachins (Säbeltanz); Allegro" 4=120
+           \time 2/4 \key f \major }
 
+atta = \markup \italic "(attaca)"
 rall = \markup \bold \italic "rall."
 
 \include "v1.ily"
@@ -59,7 +65,7 @@ rall = \markup \bold \italic "rall."
 
 music = \new StaffGroup <<
       \new Staff {
-	\set Staff.midiInstrument = \mihi
+	\set Staff.midiInstrument = \milo
 	\set Staff.instrumentName = \markup \center-column { "Violon-" "cello I" }
 	\transpose c c { \va }
       }
