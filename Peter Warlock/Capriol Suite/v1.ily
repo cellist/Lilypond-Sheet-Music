@@ -1,6 +1,179 @@
 va = \relative c' {
   \voiceconsts
 
+  \introd
+  g4-.\p g-. b-. b-.
+  a-. g-. f-. b-.
+  b-. a-. b-. b-.
+  d,-. d-. d-. d-.
+  f-. d-. d-. c-.
+  d-. d-. d-. d-.
+  g-.\mp g-. b-. b-.
+
+  a-. g-. f-. b-.
+  b-. a-. b-. b-.
+  d,-. d-. g-. g-.
+  f-. f-. d-. d-.
+  e-. d-. d-. d-. \clef "tenor"
+  g'-.\mf g-. b-. b-.
+
+  a-. g-. f-. b-.
+  b-. a-. b-. b-.
+  g-. g-. b-. b-.
+  a-. g-. fis-. g-.\f
+  g-. fis-. g-. g-. \clef "bass" \boxj
+
+  b,-. b-. g-. g-.
+  a-. a-. fis-. d-.
+  d'-. d-. b-. b-.
+  c-. a-. g-. r
+  b-.\mf b-. g-. g-.
+  a-. a-. fis-. d-.
+
+  d'-.\p d-. b-. b-.
+  c-. a-. g-. r \boxk
+  d(->\f e fis g
+  fis g) d-.\> d-.
+  c-. c-. b-. b-.
+  c-. b-. a( g)\!
+
+  d''(->\f e fis g
+  fis g) d-.\> d-.
+  c-. c-. b-. b-.
+  c-. b-. a( g)\! \boxl
+  d(->\f e fis g
+  fis g) d-.\> d-.
+  c-. c-. b-. b-.
+
+  c-. b-. a( g)\!
+  d'(->\f e fis g
+  fis g d) <d d'>
+  << { c' c b b } \\ d,1 >>
+  << { c'4( b a g) } \\ { d2. s4 } >> \boxm \key g \major
+  g4-.\p g-. g-. g-.
+
+  a-. a-. h( d8 c)
+  h2 g4-. g-.
+  g-. g-. a-. a-.
+  h( d8 c h4 d8 c)
+  h4( d8 c h4) r
+  h-.\mp a-. g-. a-.
+
+  fis-. g-. a-. g-.
+  h-. h-. a-. g-.
+  g-. fis-. g2 \boxn
+  
+  g4-.\p g-. g-. g-.
+  a-. a-.\< h( d8 c
+  h4)\! r g-. g-.
+  g-. g-. a-. a-.
+
+  h(\> d8 c h4 d8 c
+  h4 d8 c h4)\! r
+  h-.\pp a-. g-. a-.
+  fis-. g-. a-. g-.
+  h-. h-. a-. g-.
+  g-. fis-. g2 \boxo
+
+  g4-.\p g-. g-. g-.
+  a-. a-. h( d8 c)
+  h2 g4-. g-.
+  g-. g-. a-. a-.
+  h( d8 c h4 d8 c)
+
+  h4( d8 c h4) r
+  h^\pizz a g a
+  fis g a g
+  h h a g
+  g fis g r \boxp
+
+  g-.\mp^\arco g-. g-. g-.
+  a-. a-. h( d8 c
+  h4) r g-. g-.
+  g-. g-. a-. a-. 
+  h(\< d8 c h4 d8 c
+  h4 d8 c h4)\! r
+
+  h\mf^\pizz a g a
+  fis g a g
+  h h a g
+  g fis g r \boxq \key b \major
+  g-.\p^\arco g-. b-. b-.
+  a-. g-. f?-. b-.\mf
+  b-. a-. b-. b-.
+
+  g-.\p g-. b-. b-.
+  a-. gis-. fis-. \clef "tenor" d'-.\mf\<
+  e-. fis-. g-.\!\f g-.
+  g,-.\mf g-. b-. b-.
+  a-. b-. a-. d-.
+  b-. c-. d-. d-.
+  g-.\mp g-. b-. b-.
+
+  a-. g-. fis-. g-.\f
+  g-. fis-. g-. g-. \clef "bass" \boxr
+  b,-.\pp b-. g-. g-.
+  a-. a-.fis-. d-.
+  d'-. d-. b-. b-.
+  c-. a-. g-. r
+  g'\ff r8 f( es4) r8 d(
+
+  c4) r8 es( d4) r8 c(
+  b4) r8 d( c4) r8 es(
+  d4)-. d-. g-. r \boxs
+  d,(->\f e fis g
+  fis g) d-.\> d-.
+  c-. c-. b-. b-.
+  c-. b-. a( g)\!
+
+  d'(->\f e fis g
+  fis g d) <d d'>
+  << { c' c b b } \\ d,1 >>
+  << { c'4( b a g) } \\ { d2. s4} >> \boxt
+  g-.^\pmos g-. b-. b-.
+  c-. c-. <d, d'>2
+
+  g'4-. r d-. r
+  c-. a-. b-. c-.
+  <d, d'>2->\downbow <g, g'>->\downbow
+  g'4-. g-. b-. b-.
+  c-. c-. d2
+  g4-. r d-. r
+  c-. a-. b-. c-.
+  d2 g,4 r \boxu
+
+  g-. d'-. d-. d-.
+  c d b r
+  d-.-> r c-.-> r
+  g-. a-. b-. c-.
+  a-. g-. d'-.-> r
+  c-.-> r g(-> a)
+  b(-> c) a-. g-.
+
+  d'-.-> r e-.-> r
+  d-. c-. b-. b-.
+  a-. a-. g-. r \boxv \tempo "Prestissimo"
+  g-.\ff d'-. d-. d-.
+  c-. d-. b-. r
+  d-.-> r c-.-> r
+  g-. a-. b-. c-.
+
+  a-. g-. d'-.-> r
+  c-.-> r g-. a-.
+  b( c) a-. g-.
+  d'-.-> r e-.-> r
+  d-. c-. b-. b-.
+  a-. a-. \clef "tenor" g'-. a-.
+  b(-> c) a-. g-.
+
+  a-. b(-> c) a-.
+  g-. a-. b(-> c)
+  a-. g-. a-. b(->
+  b) a-. g-. a-.
+  b(-> c) a-.-> a-.->
+  g-.-> r g2(->
+  g) r\fermata \bar "|."
+  
   \introe
   h4(\p c d) d2(-- d4)-- c2( a4)
   h( a g) g( a fis) g2.

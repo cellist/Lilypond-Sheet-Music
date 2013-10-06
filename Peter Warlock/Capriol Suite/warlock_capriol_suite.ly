@@ -17,9 +17,9 @@ voiceconsts = {
   \compressFullBarRests
 }
 
-%minstr = "harpsichord"
+milo = "harpsichord"
 mihi = "clarinet"
-milo = "accordion"
+%milo = "accordion"
 %milo = "bassoon"
 
 boxa = { \bar "||" \mark \markup \box "A" }
@@ -50,12 +50,19 @@ boxy = { \bar "||" \mark \markup \box "Y" }
 boxz = { \bar "||" \mark \markup \box "Z" }
 
 
+introd = { \break \tempo "4. Bransles; Presto" 2=110
+           \time 2/2 \key b \major }
 introe = { \break \tempo "5. Pieds en l'air; Andantino tranquillo" 2.=30
            \time 9/4 \key g \major }
 introf = { \break \tempo "6. Mattachins (Säbeltanz); Allegro" 4=120
            \time 2/4 \key f \major }
 
+arco = \markup \bold \italic "arco"
 atta = \markup \italic "(attaca)"
+mfmc = \markup { \dynamic mf \italic " marcato" }
+mppm = \markup { \dynamic mp \italic " poco marcato" }
+pizz = \markup \bold \italic "pizz."
+pmos = \markup \bold \italic "piú mosso"
 rall = \markup \bold \italic "rall."
 
 \include "v1.ily"
