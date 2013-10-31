@@ -1,5 +1,6 @@
 va = \relative c'' {
   \voiceconsts
+  \clef "tenor"
 
   \introa
   c16 d es f g8 d es c r h

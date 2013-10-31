@@ -4,7 +4,7 @@
 #(set-global-staff-size 17.5)
 
 \header {
-  title     = \markup \bold \italic "Triosonate in d-moll"
+  title     = \markup \bold \italic "Triosonate in a-moll"
   subtitle  = "(eingerichtet für Cello; Original in c-moll)"
   composer  = "Georg Philipp Telemann (1681-1767)"
   arranger  = "arr.: Peter Baljeu"
@@ -14,7 +14,7 @@
 
 voiceconsts = {
  \key c \minor
- \clef "tenor"
+ \clef "bass"
  %\numericTimeSignature
  \compressFullBarRests
 }
@@ -25,7 +25,7 @@ milo = "bassoon"
 introa = {                      \tempo "1. Largo "    4=50  \time 4/4 }
 introb = { \bar "|." \break     \tempo "2. Vivace "  4.=68  \time 6/8 }
 introc = { \bar "|." \pageBreak \tempo "3. Grave "    4=40  \time 3/4 }
-introd = { \bar "|." \break     \tempo "4. Allegro "  4=120 \time 2/4 }
+introd = { \bar "|." \pageBreak \tempo "4. Allegro "  4=120 \time 2/4 }
 
 rit  = \markup \bold \italic "rit."
 
@@ -37,19 +37,19 @@ music = \new StaffGroup <<
       \new Staff {
 	\set Staff.midiInstrument = \mihi
 	\set Staff.instrumentName = \markup \center-column { "Violon-" "cello I" }
-	\transpose c d, { \va }
+	\transpose c a,, { \va }
       }
 
       \new Staff {
 	\set Staff.midiInstrument = \milo
 	\set Staff.instrumentName = \markup \center-column { "Violon-" "cello II" }
-	\transpose c d, { \vb }
+	\transpose c a,, { \vb }
       }
 
       \new Staff {
 	\set Staff.midiInstrument = \milo
 	\set Staff.instrumentName = \markup \center-column { "Violon-" "cello III" }
-	\transpose c d, { \vc }
+	\transpose c a,, { \vc }
       }
 >>
 
