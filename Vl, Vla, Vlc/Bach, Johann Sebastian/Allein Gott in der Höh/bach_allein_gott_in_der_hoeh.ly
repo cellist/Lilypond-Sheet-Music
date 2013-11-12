@@ -32,19 +32,19 @@ cho = \markup \italic "Choral"
 music = \new StaffGroup <<
       \new Staff {
 	\set Staff.midiInstrument = \mihi
-	\set Staff.instrumentName = #"Vc I"
+	\set Staff.instrumentName = #"Vl"
 	\transpose g g { \va }
       }
 
       \new Staff {
 	\set Staff.midiInstrument = \mihi
-	\set Staff.instrumentName = #"Vc II"
+	\set Staff.instrumentName = #"Vla"
 	\transpose g g { \vb }
       }
 
       \new Staff {
 	\set Staff.midiInstrument = \milo
-	\set Staff.instrumentName = #"Vc III"
+	\set Staff.instrumentName = #"Vlc"
 	\transpose g g { \vc }
       }
 >>
