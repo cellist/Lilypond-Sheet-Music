@@ -29,7 +29,7 @@ vb = \relative c' {
   h4 a a d,
   g4. h8 a( g) e4
   d2. h'4
-  d h c8( h) a( g)
+  d4. h8 c( h) a( g)
 
   h4 a a h8( c)
   d4. h8 c( h) a( g)
