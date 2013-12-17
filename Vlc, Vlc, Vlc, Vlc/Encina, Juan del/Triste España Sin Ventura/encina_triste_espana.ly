@@ -1,7 +1,7 @@
 \version "2.14.2"
 \include "deutsch.ly"
 
-#(set-global-staff-size 16)
+#(set-global-staff-size 16.5)
 
 \header {
   title     = "Triste España Sin Ventura"
@@ -14,8 +14,8 @@
 voiceconsts = {
  \key f \major
  \time 2/2
- \clef "treble"
-% \clef "bass"
+% \clef "treble"
+ \clef "bass"
 % \numericTimeSignature
  \compressFullBarRests
  \tempo "Largo " 4=128
@@ -38,25 +38,25 @@ music = \new StaffGroup <<
       \new Staff {
 	\set Staff.midiInstrument = \mihi
 	\set Staff.instrumentName = \markup \center-column { "Violon-" "cello I" }
-	\transpose f f { \va }
+	\transpose f g, { \va }
       }
 
       \new Staff {
 	\set Staff.midiInstrument = \mihi
 	\set Staff.instrumentName = \markup \center-column { "Violon-" "cello II" }
-	\transpose f f { \vb }
+	\transpose f g, { \vb }
       }
 
       \new Staff {
 	\set Staff.midiInstrument = \milo
 	\set Staff.instrumentName = \markup \center-column { "Violon-" "cello III" }
-	\transpose f f { \vc }
+	\transpose f g, { \vc }
       }
 
       \new Staff {
 	\set Staff.midiInstrument = \milo
 	\set Staff.instrumentName = \markup \center-column { "Violon-" "cello IV" }
-	\transpose f f { \vd }
+	\transpose f g { \vd }
       }
 >>
 
