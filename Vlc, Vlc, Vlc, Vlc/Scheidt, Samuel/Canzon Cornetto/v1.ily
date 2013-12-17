@@ -1,5 +1,6 @@
 va = \relative c'' {
   \voiceconsts
+  \clef "tenor"
 
   f2->\f f4-> f->
   d-> b8 c d( es) f d
@@ -15,7 +16,7 @@ va = \relative c'' {
   a4 b2 a4
   b2\> f'\!
 
-  b1
+  g1
   R1*2
   r4 f\f f f
   f8 g es f d es c d

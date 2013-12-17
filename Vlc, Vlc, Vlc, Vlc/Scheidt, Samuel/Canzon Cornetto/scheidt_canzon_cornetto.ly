@@ -1,7 +1,7 @@
 \version "2.14.2"
 \include "deutsch.ly"
 
-#(set-global-staff-size 16)
+#(set-global-staff-size 15.7)
 
 \header {
   title = "Canzon Cornetto"
@@ -13,8 +13,8 @@
 voiceconsts = {
  \key b \major
  \time 2/2
- \clef "treble"
-% \clef "bass"
+% \clef "treble"
+ \clef "bass"
 % \numericTimeSignature
  \compressFullBarRests
  \tempo "Allegro " 2=80
@@ -37,25 +37,25 @@ music = \new StaffGroup <<
       \new Staff {
 	\set Staff.midiInstrument = \mihi
 	\set Staff.instrumentName = \markup \center-column { "Violon-" "cello I" }
-	\transpose b b { \va }
+	\transpose b b, { \va }
       }
 
       \new Staff {
 	\set Staff.midiInstrument = \mihi
 	\set Staff.instrumentName = \markup \center-column { "Violon-" "cello II" }
-	\transpose b b { \vb }
+	\transpose b b, { \vb }
       }
 
       \new Staff {
 	\set Staff.midiInstrument = \milo
 	\set Staff.instrumentName = \markup \center-column { "Violon-" "cello III" }
-	\transpose b b { \vc }
+	\transpose b b, { \vc }
       }
 
       \new Staff {
 	\set Staff.midiInstrument = \milo
 	\set Staff.instrumentName = \markup \center-column { "Violon-" "cello IV" }
-	\transpose b b { \vd }
+	\transpose b b, { \vd }
       }
 >>
 

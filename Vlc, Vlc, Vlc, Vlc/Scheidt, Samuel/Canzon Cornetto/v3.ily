@@ -60,7 +60,7 @@ vc = \relative c'' {
 
   f2 d
   d1~
-  d4 e f b,8(\mp a)
+  d4 es f b,8(\mp a)
   g2 r4 c8( b)
   a2 r4 d8( c)
   b2 r4 es8( d)

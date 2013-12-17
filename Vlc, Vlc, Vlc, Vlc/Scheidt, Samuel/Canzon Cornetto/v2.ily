@@ -1,5 +1,6 @@
 vb = \relative c'' {
   \voiceconsts
+  \clef "tenor"
 
   R1*4
   f2->\f f4-> f->
@@ -95,7 +96,7 @@ vb = \relative c'' {
   e4-- r r2
   r4 g16( a?) b c d8-. d-. d-. c-.
 
-  h4-- b-- as2
+  h4-- b-- a2
   b4 d c2
   b4 d2\f c4~
   c b2 a8 g
