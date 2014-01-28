@@ -185,4 +185,127 @@ vb = \relative c'' {
   d4 cis d8( e) f( d)
   g,( a) b( g) a4.-+ a8
   d2 \bar "|."
+
+  \introd
+  \partial 4 r4
+  r2 r4 d8 e
+  f4 fis g8 a b a
+  g4-+ f!8 e a4 a,
+  a a'8 g f e d cis
+
+  d2 r4 d8 e
+  f4 fis g8 a b a
+  g f e d a4.-+ a8
+  d4 e f e8 d
+  cis4 a d r
+
+  r d g8 f e d
+  c?4 c b-+ a8 g
+  a4 a' a8 g f a
+  d,4 g g8 f e g
+  c,4 f f8 e d f
+  b,2 c
+
+  f,4 f'8 g a g f e
+  d2. d8 e
+  f4 fis g8 a b a
+  g4-+ f!8 e a4 a,
+  a a'8 g f e d cis
+
+  d2 r4 d8 e
+  f4 fis g8 a b a
+  g f! e d a4.-+ a8
+  d2 r
+  r4 d8 e f g a b
+
+  a4 g8 a f4 fis
+  g f!8-+ g e4 c
+  f8 e f d e4 e
+  d-+ c8 h c h a gis
+  a a' g a d,4 e
+
+  f d e4.-+ e8
+  a,4 a'8 b? a g f e
+  d2 r4 d8 e
+  f4 fis g8 a b a
+  g4 f!8 e a4 a,
+
+  a a'8 g f e d cis
+  d2 r4 d8 e
+  f4 fis g8 a b a
+  g f e d a4.-+ a8
+  d2. f8 d
+
+  cis4 h cis a
+  d8 d c! d g, a b! g
+  c d es c d4.-+ d8
+  g,2 r8 g b g
+  c2 r8 f, a f
+
+  b2 r8 a h cis
+  d a d c! b4.-+ a8
+  a4 a8 h cis d e cis
+  d2 r4 d8 e
+  f4 fis g8 a b a
+
+  g4 f!8 e a4 a,
+  a a'8 g f e d cis
+  d2 r4 d8 e
+  f4 fis g8 a b a
+  g f! e d a4.-+ a8
+  d2.\fermata \bar "|."
+
+  \introe
+  \repeat volta 2 {
+    \partial 2 r8 r4.
+    r r
+    r8 r f f( g) a
+    e( a) e e( f) g
+    f( d) f f4.~
+
+    f e~
+    e d~
+    d cis
+    d4 d8 d( c!) b
+    c4.( c8 b) a
+    b4. b-+
+
+    a4
+  }
+  \repeat volta 2 {
+    \partial 2 r8 r4.
+    r r
+    r8 r c c( d) e
+    h( e) h h( c) d
+    c( a) c c( d) c
+    h( c) h a( h) a
+
+    gis4. c~
+    c h~
+    h a~
+    a gis
+    a8( h) c d( c) h
+    c( h) a gis4-+ a8
+
+    a4 f'8 f( g) f
+    e( f) e a,( h) cis
+    d4 d8 g4.~
+    g fis
+    g8( a) b? c?( b) a
+    b( a) g d4-+ d8
+
+    g, g' a b b a
+    g( f?) e g( f) e
+    f( e) d g,( f) g
+    a4 f'8 f( e) d
+    g4 g8 g( f) e
+    a a g f( e) d
+
+    f( e) d a4-+ a8
+    d4 f8^\doux f( e) d
+    g4 g8 g( f) e
+    a a g f( e) d
+    f( e) d a4-+ a8
+    d4
+  }
 }

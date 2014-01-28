@@ -1,5 +1,6 @@
 va = \relative c'' {
   \voiceconsts
+  \clef "tenor"
 
   \introa
   r4 d d8. e16 f8. d16
@@ -186,4 +187,128 @@ va = \relative c'' {
   e( f) g( e) f( g) a( f)
   b( a) g( f) e4.-+ d8
   d2 \bar "|."
+
+  \introd
+  \partial 4 a'4
+  a d, d d'8 cis
+  d4. c!8 b a g f
+  e4-+ a8 g f e d e
+  cis4 a a a'
+
+  a d, d d'8 cis
+  d4. c!8 b a g f
+  b a g f e4.-+ d8
+  d2 a'4 g8 f
+  e f g a f4 d
+
+  d' a8 c b a g f
+  e4-+ g g c,
+  c c'8 b c2~
+  c4 b8 a b2~
+  b4 a8 g a4. a8
+  a4. g8 g4.-+ f8
+
+  f2. a4
+  a d, d d'8 cis
+  d4. c!8 b a g f
+  e4-+ a8 g f e d e
+  cis4 a a a'
+
+  a d, d d'8 cis
+  d4. c!8 b a g f
+  b a g f e4.-+ d8
+  d4 d8 e f g a b
+  a4 d a d
+
+  cis a d cis8 d
+  h4 g c h8 c
+  a c h a gis4 h
+  h e, e c'8 h
+  c2 r8 h a gis
+
+  a4. h8 h4.-+ a8
+  a2. a4
+  a d, d d'8 cis
+  d4. c!8 b! a g? f
+  e4-+ a8 g f e d e
+
+  cis4 a a a'
+  a d, d d'8 cis
+  d4. c!8 b a g f
+  b a g f e4.-+ d8
+  d4 f8 d a'2~
+
+  a4 g g a8 g
+  fis4 fis8 d b'4. b8
+  b4. a8 a4.-+ g8
+  g4 b8 a b2~
+  b8 b a g a2~
+
+  a8 a g f? g g f e
+  f4. g8 g4.-+ a8
+  a2 r4 a
+  a d, d d'8 cis
+  d4. c!8 b a g f
+
+  e4 a8 g f e d e
+  cis4 a a a'
+  a d, d d'8 cis
+  d4. c!8 b a g f
+  b a g f e4.-+ d8
+  d2.\fermata \bar "|."
+
+  \introe
+  \repeat volta 2 {
+
+  \partial 2 f8 f( g) a
+    e( a) e e( f) g
+    f( d) d' d4.~
+    d cis
+    d4 a8 a( b) c!
+
+    g( c) g g( a) b
+    f( b) f f( g) a
+    e( a) e e( f) g
+    f( e) d b'4.(
+    b8 a) g a4.(
+    a8 g) f \afterGrace g4.(-+ { f8[ g]) }
+
+    a4
+  }
+  \repeat volta 2 {
+    \partial 2 c,8 c( d) e
+    h( e) h h( c) d
+    a( f) a' a4.~
+    a gis
+    a4 e8 e( f) e
+    d( e) d c( d) c
+
+    h4 e8 e( a) e
+    d( g) d d( g) d
+    c( f) c c( f) c
+    h( e) h h( e) h
+    c( d) e f( e) d
+    e( d) c h4-+ a8
+
+    a4 a'8 a( b) a
+    g( a) g g( f) e
+    f( d) a' b( c) d
+    a( d) a a( b) c
+    b( c) d es( d) c
+    d( c) b a4-+ g8
+
+    g4. r8 d' c
+    b( a) g b( a) g
+    a( g) f e( f) d
+    cis4 a'8 a( h) cis
+    h( g) h h( cis) d
+    cis( a) cis d( c) b!
+
+    a( g) f e4-+ d8
+    d4 a'8^\doux a( h) c
+    h( g) h h( cis) d
+    cis( a) cis d( c) b!
+    a g f e4-+ d8
+    d4
+  }
 }

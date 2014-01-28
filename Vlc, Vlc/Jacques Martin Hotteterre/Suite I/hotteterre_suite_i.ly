@@ -1,7 +1,7 @@
 \version "2.14.2"
 \include "deutsch.ly"
 
-#(set-global-staff-size 17)
+#(set-global-staff-size 18)
 
 \header {
   title    = \markup \bold \italic "Première Suite"
@@ -14,7 +14,7 @@
 voiceconsts = {
  \key d \minor
 % \clef "treble"
- \clef "tenor"
+ \clef "bass"
 % \numericTimeSignature
 
  \compressFullBarRests
@@ -38,7 +38,9 @@ introa = {
          }
 
 introb = { \break \tempo "2. Allemande " 4=80 \time 4/4 }
-introc = { \break \tempo "3. Rondeau: Tendre, Gracieusement " 4=80  \time 2/2 }
+introc = { \pageBreak \tempo "3. Rondeau: Tendre, Gracieusement " 4=80  \time 2/2 }
+introd = { \break \tempo "4. Rondeau II: Gai " 4=120 }
+introe = { \break \tempo "5. Gigue " 4.=80 \time 6/8 }
 
 \include "v1.ily"
 \include "v2.ily"
