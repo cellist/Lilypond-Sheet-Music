@@ -26,6 +26,7 @@ milo = "bassoon"
 doux = \markup \italic "doux"
 fort = \markup \italic "fort"
 gai  = \markup \italic "Gai"
+min  = \markup \italic "Mineur"
 lce  = \markup \italic "Les croches égales"
 
 introa = {
@@ -38,9 +39,10 @@ introa = {
          }
 
 introb = { \break \tempo "2. Allemande " 4=80 \time 4/4 }
-introc = { \pageBreak \tempo "3. Rondeau: Tendre, Gracieusement " 4=80  \time 2/2 }
-introd = { \break \tempo "4. Rondeau II: Gai " 4=120 }
+introc = { \break \tempo "3. Rondeau: Tendre, Gracieusement " 4=80  \time 2/2 }
+introd = { \pageBreak \tempo "4. Rondeau II: Gai " 4=120 }
 introe = { \break \tempo "5. Gigue " 4.=80 \time 6/8 }
+introf = { \break \tempo "6. Passacaille " 4=80 \time 3/4 }
 
 \include "v1.ily"
 \include "v2.ily"

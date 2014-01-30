@@ -308,4 +308,184 @@ vb = \relative c'' {
     f( e) d a4-+ a8
     d4
   }
+
+  \introf
+  \partial 2. r4 r8 a d a
+  c d c b c a
+  b c b a b g
+  a4 a4. a8
+  d4 r8 a d a
+  c d c b c a
+
+  b c b a b g
+  a4 a4. a8
+  d4 d8 e f d
+  cis h cis a h cis
+  d e d c! b! a
+  b g a4.-+ a8
+
+  d4 d8 e f d
+  cis h cis a h cis
+  d e d c! b! a
+  b g a4.-+ a8
+  d2 r8 d
+  cis2 r8 c
+  h2 r8 b
+
+  a h cis a h-+ cis
+  d2 r8 d
+  cis2 r8 c
+  h2 r8 b
+  a h cis a h-+ cis
+  d4 d e
+  fis e-+ fis
+
+  g f!-+ e
+  f8 e f g f e
+  d cis d f e d
+  cis4. a8 h cis
+  d c! b!4 a
+  g a4.-+ a8
+  d4 d e
+  fis e-+ fis
+
+  g f!-+ e
+  f8 e f g f e
+  d cis d f e d
+  cis4. a8 h cis
+  d c! b!4 a
+  g a4.-+ a8
+
+  d8 e f2~
+  f8 f e d e4~
+  e8 e d c? d e
+  f b, c4.-+ c8
+  f,4 f' f
+  e-+ e a8 g
+  f e d e f d
+
+  e4 e8 d c h
+  a h c h a g
+  f4 f' c
+  d e f
+  d e4.-+ e8
+
+  a,2 a4
+  d d8 c b? a
+  g fis g a b g
+  c4 d4.-+ d8
+  g,4. a8 b g
+  c4. b8 c a
+
+  b4. a8 b a
+  g b a4.-+ a8
+  d4. d8 b g
+  c4. b8 c a
+  b4. a8 b4
+  g a4.-+ a8
+
+  d4. a'16 g f? e d e
+  cis8 a4 e'16 d cis d e g
+  f8 d4 d'16 c? b a g e
+  f8 e16 d a4.-+ a8
+
+  d4. a'16 g f e d e
+  cis8 a4 e'16 d cis d e g
+  f8 d4 d'16 c? b a g e
+  f8 e16 d a4.-+ a8
+
+  d4 r8 g16 f g8 b,
+  c4 r8 f16 e f8 a,
+  b4 r8 e16 d e8 g,
+  a4 a4. a8
+  d4. g16 f g8 b,
+
+  c4 r8 f16 e f8 a,
+  b4 r8 e16 d e8 g,
+  a4 a4. a8
+  d( c) b( a) g d'
+  g( f) e( d) cis( a)
+
+  d( cis) d( e) f f
+  e d a'4 a,
+  d8( c?) b( a) g d'
+  g( f) e( d) cis a
+  d( cis) d( e) f f
+
+  e-+ d a4.-+ a8 \bar "||" \key d \major
+  d4 r r
+  r fis8 g a g
+  fis d g fis e d
+  g,4 a4. a8
+  d4 r r
+
+  r fis8 g a g
+  fis d g fis e d
+  g,4 a4. a8
+  d2 d4
+  cis2 a4
+  h8 d fis d g fis
+
+  e d cis4 a
+  d2 d4
+  cis2 a4
+  h8 d fis d g fis
+  e d cis4 a
+  d8-+ \times 2/3 { d16( e fis) } fis4.(-+ e16 fis)
+
+  g4. fis8 g e
+  a g a h g a
+  fis g a4 a,
+  d8-+ \times 2/3 { d16( e fis) } fis4.(-+ e16 fis)
+  g4. fis8 g e
+  a g a h g a
+
+  fis g a4 a,
+  d4. d'8 cis( h)
+  a( g) fis h a( g)
+  fis( e) d( e) fis( g)
+  e d cis4 a
+  d4. d'8 cis( h)
+
+  a( g) fis h a( g)
+  fis( e) d( e) fis( g)
+  e d a4.-+ a8 \bar "||" \key d \minor
+  d4.^\min a8 a h
+  c4 cis a
+  d4. d8 e f
+
+  cis d \afterGrace b2(-+ a16)
+  a4. a8 a h
+  c4 cis a
+  d4. d8 e f
+  cis d \afterGrace b2(-+ a16)
+  a4 f' d
+
+  a' g8 f g e
+  f4 e8 f e d
+  cis4. a8 h cis
+  d4 f d
+  a' g8 f g e
+  f4 e8 f e d
+
+  cis4. a8 h cis
+  d4. d8 d d
+  g,4. c?8 c c
+  f,4. b?8 b-+ b
+  g4 a4. a8
+  d4. d8 d d
+
+  g,4. c8 c c
+  f,4. b8 b-+ b
+  g4 a4. a8
+  d4. d8 f d
+  b4. e8 g e
+  a, g a b g a
+
+  f g a4. a8
+  d4. d8 f d
+  b4. e8 g e
+  a, g a b g a
+  f g a4.-+ a8
+  d2. \bar "|."
 }
