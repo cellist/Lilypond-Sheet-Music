@@ -1,7 +1,7 @@
 \version "2.14.2"
 \include "deutsch.ly"
 
-#(set-global-staff-size 18)
+#(set-global-staff-size 18.5)
 
 \header {
   title    = \markup \bold \italic "Première Suite"
@@ -39,10 +39,10 @@ introa = {
          }
 
 introb = { \break \tempo "2. Allemande " 4=80 \time 4/4 }
-introc = { \break \tempo "3. Rondeau: Tendre, Gracieusement " 4=80  \time 2/2 }
-introd = { \pageBreak \tempo "4. Rondeau II: Gai " 4=120 }
+introc = { \pageBreak \tempo "3. Rondeau: Tendre, Gracieusement " 4=80  \time 2/2 }
+introd = { \break \tempo "4. Rondeau II: Gai " 4=120 }
 introe = { \break \tempo "5. Gigue " 4.=80 \time 6/8 }
-introf = { \break \tempo "6. Passacaille " 4=80 \time 3/4 }
+introf = { \pageBreak \tempo "6. Passacaille " 4=80 \time 3/4 }
 
 \include "v1.ily"
 \include "v2.ily"
@@ -52,14 +52,14 @@ music = \new StaffGroup <<
 	\set Staff.midiInstrument = \mihi
 	\set Staff.instrumentName = \markup \center-column { "Violon-" "cello I" }
 %	\transpose d d { \va }
-	\transpose d a,, { \va }
+	\transpose d g,, { \va }
       }
 
       \new Staff {
 	\set Staff.midiInstrument = \milo
 	\set Staff.instrumentName = \markup \center-column { "Violon-" "cello II" }
 %	\transpose d d { \vb }
-	\transpose d a,, { \vb }
+	\transpose d g,, { \vb }
       }
 >>
 

@@ -448,7 +448,7 @@ va = \relative c'' {
   cis d e,4( fis8) g
 
   fis-+ d' cis( h) a( g)
-  fis h( a( g) fis( e)
+  fis h a( g) fis( e)
   d( e) fis( g) a( h)
   cis d e,4.-+ d8 \bar "||" \key d \minor
   d^\min a d e f g
