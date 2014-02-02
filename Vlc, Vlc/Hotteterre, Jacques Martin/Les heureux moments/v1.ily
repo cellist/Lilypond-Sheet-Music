@@ -192,4 +192,109 @@ va = \relative c''' {
     c8-+ b a4.-+ b8
     b2.
   }
+
+  \introf
+  \repeat volta 2 {
+    r8 f es d16( es f8) b,
+    b4 f8 b d16( es f8)
+    d8( es) c d( b) d
+
+    f( b) a-+ b4 c8
+    d b16( c d8) d( c)-+ b
+    c g16( a b8) a( g) f
+
+    e c' b c( g) b
+    a a g a( e) c
+    f c' b c b a
+
+    d c b a16 g f g a b
+    c8 a d g,8.-+ f16 e8
+  }
+  \alternative {
+    { f8 c a f4. }
+    { f'8 c' b a16( b c8) f, }
+  }
+  \repeat volta 2 {
+    f4 c8 f a16( b c8)
+    a( b) c d4\upbow c8
+
+    b( a) g b( a) g
+    fis4 d8 fis16( g a8) fis
+    g d g a16( b c8) a
+    b( a) g b4 c8
+
+    d4.~ d8 es16( d) c( b)
+    c8 a d b8.-+ a16 g8
+    g4 g8 c16( d es8) c
+    g c g a(-+ b) c
+
+    f,4 a8-+ b( a) g
+    f( es) d c4-+ f8
+    c( d) es d( c) b
+    c( d) es d( c) b
+
+    f'4. f8 b f
+    g4.\upbow g8 c g
+    a4-+ b8 c16 b c d es c
+    d8 b d g, c es
+
+    a,-+ f d' c8.-+ b16 a8
+  }
+  \alternative {
+    { b f d b4. | r8 c' b a16( b c8) f, }
+    { b2. }
+  } \bar "|."
+
+  \introg
+  b8( a) b4 f
+  d'4. c8 b4-+
+  c d8 c b c
+  a2-+ a4
+  b \appoggiatura { b16[ c] } d4 b-+
+  \appoggiatura a8 g4 c4. g8
+
+  a4-+ \appoggiatura g8 f4. b8
+  a2-+\upbow b4
+  b d,-+ \appoggiatura c8 b4
+  f'4. g8 es4-+
+  es4. f8 d4-+
+  c-+ f g
+  a4.-+ a8 \afterGrace b4(-+ { a16[ b]) }
+
+  c4. b8 a(-+ g)
+  a b g4.-+ f8
+  f2.
+  b8( a) b( f) c'( f,)
+  d'4. c8 \afterGrace b4(-+ { a16[ b]) }
+  c8( d32 c b c) d8 c b c
+
+  a2-+ a4
+  b \appoggiatura { b16[ c] } d4 \appoggiatura { c16[ b] } b4-+
+  \appoggiatura a8 g4 c r16 b( a g)
+  a4-+ \appoggiatura g8 f4. b8
+  a4.(-+ g16 a) b4
+
+  d, \afterGrace es( f8) \afterGrace f4(-+ { es16[ f]) }
+  g4. g8 a4
+  b fis g
+  fis4.-+ e8 d4
+  a' \afterGrace b( c8) \afterGrace c4(-+ { b16[ c]) }
+  d4. c8 b4-+
+
+  c8( a) a4.-+ g8
+  g2 h4-+
+  c8( d) es( d) c( b)
+  a4.-+ g8 a b
+  c( d16 es) d4.-+ c8
+  c2.
+
+  b8( a) b4 \appoggiatura { f32[ g a b c] } c8.-+ b32 c
+  d8( es) d( c) b( c32 b a b)
+  c8.( b32 c) d8.( c16) b8.( c32 a64 b)
+  a2-+ a4
+
+  b \appoggiatura { c16[ b c] } d4 \appoggiatura { c16[ b a b] } b4-+
+  \appoggiatura a8 g4 c8.( d16 c) b( a g)
+  \appoggiatura { g[ a] } a4-+ \appoggiatura g8 f4 g8 a16( b)
+  \appoggiatura { b32[ a g a] }a4.(-+ g16 a) b4 \bar "|."
 }

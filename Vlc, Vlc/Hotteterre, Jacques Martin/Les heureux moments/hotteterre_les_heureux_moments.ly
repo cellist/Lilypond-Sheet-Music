@@ -43,6 +43,8 @@ introb = {
 introc = { \break \tempo "3. Allemande - La Maréchalle de Villars " 4=80 \time 4/4 }
 introd = { \break \tempo "4. Musette - Doucement " 4=80 \time 2/2 }
 introe = { \break \tempo "5. Menuet - D'une légèreté gracieuse " 4=90 \time 3/4 }
+introf = { \break \tempo "6. Gigue " 4.=80 \time 6/8 }
+introg = { \break \tempo "7. Sarabande - La Saint Maurice - Lentement " 4=60 \time 3/4 }
 
 \include "v1.ily"
 \include "v2.ily"

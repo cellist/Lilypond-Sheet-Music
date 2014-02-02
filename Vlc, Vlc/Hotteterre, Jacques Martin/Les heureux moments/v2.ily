@@ -193,4 +193,109 @@ vb = \relative c'' {
     es f f,
     b2.
   }
+
+  \introf
+  \repeat volta 2 {
+    f4. r
+    r8 f' es d16( es f8) b,
+    b4 f8 b d16( es f8)
+
+    d( es) c d b a
+    b4 b'8 b( a) g
+    a e c f( e) d
+
+    c4. r
+    r8 c' b c( g) b
+    a a g a g f
+
+    d e c f8. e16 f g
+    a g f e f b, c4 c8
+  }
+  \alternative {
+    { f,4. f8 a c }
+    { f,4. r }
+  }
+  \repeat volta 2 {
+    r8 c'' b a16( b c8) f,
+    f d a b( c) d
+
+    es?4. c
+    d r
+    r4 d8 fis16( g a8) fis
+    g d d g4 a8
+
+    b( a) g b( a) g
+    a fis d g c, d
+    g,4. r4 c8
+    es16( d c8) es f? f es
+
+    d b c d( c) b
+    d( c) b a4-+ f8
+    a( b) c b( a) g
+    a( b) c b( a) g
+
+    f f' d d b d
+    es g es es c es
+    f4 g8 a f a
+    b d, b es es c
+
+    f d b f'4 f,8
+  }
+  \alternative {
+    { b4. b8 d b | f4. r }
+    { b2. }
+  } \bar "|."
+
+  \introg
+  d8( c) d4 a-+
+  b b'8 a g4
+  a b es,
+  f2 f8 es
+  d4-+ \appoggiatura c8 b4 \afterGrace d(-+ { c16[ d]) }
+  es2 c4
+
+  f8 es d c b4
+  f' f, b
+  R2.
+  d4 b-+ \appoggiatura a8 g4
+  c a-+ b
+  f2 r4
+  r f' \afterGrace g(-+ { f16[ g]) }
+
+  a4. g8 f(-+ e)
+  f b, c4.-+ c8
+  f,4 f'8 g f es?
+  d( c) d( b) a( f)
+  b4 b'8( a) g( b)
+  a( b32 a g a) b8 d, es c
+
+  f es f g es f
+  d-+ c b4 \afterGrace d(-+ {c16[ d]) }
+  es4. es8 d-+ c
+  f es d c d b
+  f'4 f, g8 a
+
+  b4 c \afterGrace d(-+ { c16[ d]) }
+  es4. d8 c4
+  b a g
+  d'2 d8 e
+  fis4-+ g \afterGrace a(-+ { g16[ a]) }
+  b4. a8 g4-+
+
+  \afterGrace c,( { d16[ es]) } d4.-+ d8
+  g,2 g'8 f
+  es d c b a g
+  f2 f'4
+  a,-+ b4. b8
+  f' c f g f es
+
+  d( c) d d16( c32 b) a8.-+ g32 a
+  b8 f' b a g( a32 g f g)
+  a8 f b d, es8. es32( d64 c)
+  f8 es f( g16 f) es8( f16 es)
+
+  d8( c) b( c) d( b)
+  es( d) es( f) es( c)
+  f( es) d( b) es( f16 g)
+  f4 f, b \bar "|."
 }
