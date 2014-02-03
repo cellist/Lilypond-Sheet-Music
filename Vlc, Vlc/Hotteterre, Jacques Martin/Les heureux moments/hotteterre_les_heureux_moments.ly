@@ -1,7 +1,7 @@
 \version "2.14.2"
 \include "deutsch.ly"
 
-#(set-global-staff-size 18)
+#(set-global-staff-size 18.75)
 
 \header {
   title    = \markup \bold \italic "Les heureux moments"
@@ -13,8 +13,8 @@
 
 voiceconsts = {
  \key b \major
- \clef "treble"
-% \clef "bass"
+% \clef "treble"
+ \clef "bass"
 % \numericTimeSignature
 
  \compressFullBarRests
@@ -43,8 +43,9 @@ introb = {
 introc = { \break \tempo "3. Allemande - La Maréchalle de Villars " 4=80 \time 4/4 }
 introd = { \break \tempo "4. Musette - Doucement " 4=80 \time 2/2 }
 introe = { \break \tempo "5. Menuet - D'une légèreté gracieuse " 4=90 \time 3/4 }
-introf = { \break \tempo "6. Gigue " 4.=80 \time 6/8 }
+introf = { \break \tempo "6. Gigue I " 4.=80 \time 6/8 }
 introg = { \break \tempo "7. Sarabande - La Saint Maurice - Lentement " 4=60 \time 3/4 }
+introh = { \break \tempo "8. Rondeau I - Gai " 4=90 \time 2/2 }
 
 \include "v1.ily"
 \include "v2.ily"
@@ -53,13 +54,15 @@ music = \new StaffGroup <<
       \new Staff {
 	\set Staff.midiInstrument = \mihi
 	\set Staff.instrumentName = \markup \center-column { "Violon-" "cello I" }
-	\transpose b b { \va }
+%	\transpose b b { \va }
+	\transpose b d, { \va }
       }
 
       \new Staff {
 	\set Staff.midiInstrument = \milo
 	\set Staff.instrumentName = \markup \center-column { "Violon-" "cello II" }
-	\transpose b b { \vb }
+%	\transpose b b { \vb }
+	\transpose b d, { \vb }
       }
 >>
 

@@ -1,5 +1,6 @@
 va = \relative c''' {
   \voiceconsts
+  \clef "tenor"
 
   \introa
   r2 r8 r16 a\f a8( g16)-+ f
@@ -297,4 +298,63 @@ va = \relative c''' {
   \appoggiatura a8 g4 c8.( d16 c) b( a g)
   \appoggiatura { g[ a] } a4-+ \appoggiatura g8 f4 g8 a16( b)
   \appoggiatura { b32[ a g a] }a4.(-+ g16 a) b4 \bar "|."
+
+  \introh
+  \repeat volta 2 {
+    \partial 4 d8( es)
+    f4 d b f
+    d-+ b d'2~
+    d4 es8( d) c2~
+    c4 d8( c) b2~
+
+    b8 c a( c) b( a) b( c)
+    d( c) d( b) es( d) c( es)
+    d4 c8 b a4.-+ b8
+  }
+  \alternative {
+    { b4 f b, }
+    { \partial 1 b' b, d f }
+  }
+
+  b f b d
+  f8( es) d( c) d( c) b( d)
+  c f, a f b4. b8
+  b4 a8( g) a( b) c( a)
+
+  d( c) b( a) g( a) b( g)
+  c( b) a( g) f( a) b( c)
+  d( c) b( a) g4.-+ f8
+  f2. d'8( es)
+
+  f4 d b f
+  d-+ b d'2~
+  d4 es8( d) c2~
+  c4 d8( c) b2~
+
+  b8 c a( c) b( a) b( c)
+  d( c) d( b) es( d) c( es)
+  d4 c8 b a4.-+ b8
+  b4 f b, b'8( c)
+
+  d( c) c( b) b( a) a( g)
+  g( b) b( a) a( g) g( a)
+  fis4-+ d d' d,
+  es g c e,
+
+  fis8-+ d e fis g a g a
+  b4.\upbow a8 b( c) d( b)
+  es?( d) c( b) a4.-+ g8
+  g4 c8 d es4 es8 d
+
+  c( d) b( c) a4-+ b8(-+ a16 b)
+  c2. d8( es)
+  f4 d b f
+  d-+ b d'2~
+  d4 es8( d) c2~
+
+  c4 d8( c) b2~
+  b8 c a( c) b( a) b( c)
+  d( c) d( b) es( d) c( es)
+  d4 c8 b a4.-+ b8
+  b2. \bar "|."
 }

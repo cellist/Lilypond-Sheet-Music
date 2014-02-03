@@ -298,4 +298,63 @@ vb = \relative c'' {
   es( d) es( f) es( c)
   f( es) d( b) es( f16 g)
   f4 f, b \bar "|."
+
+  \introh
+  \repeat volta 2 {
+    \partial 4 r
+    r2 r4 d'8( es)
+    f4 d b f
+    g c8 b a g f es
+    d4 b'8 a g f es d
+
+    c d es c d es d c
+    b4 b'8( g) c( b) a( c)
+    b4 es, f4.-+ f8
+  }
+  \alternative {
+    { b,2. }
+    { \partial 1 b2 r }
+  }
+
+  r4 b d f
+  b f b d
+  a-+ f r8 g d g
+  e4 c f8( g) a( f)
+
+  b4 b, e8( f) g( e)
+  a4 a, d8( c) d( a)
+  b( c) d( b) c4.-+ c8
+  f,2. r4
+
+  r2 r4 d''8( es?)
+  f4 d b f
+  g c8 b a g f es
+  d4 b'8 a g f es d
+
+  c d es c d es d c
+  b4 b'8( g) c( b) a( c)
+  b4 es, f4.-+ f8
+  b,2 r4 g'8( a)
+
+  b4 d, g f
+  es c cis a
+  d2 r4 b
+  c2 r4 c
+
+  d8 c b a g4 d'
+  g8 d e fis g( a) b( g)
+  c,( d) es( c) d4.-+ d8
+  g,4 r r c8 d
+
+  es4 c f? b,
+  f2. r4
+  r2 r4 d''8( es)
+  f4 d b f
+  g c8 b a g f es
+
+  d4 b'8 a g f es d
+  c d es c d es d c
+  b4 b'8( g) c( b) a( c)
+  b4 es, f4.-+ f8
+  b,2. \bar "|."
 }
