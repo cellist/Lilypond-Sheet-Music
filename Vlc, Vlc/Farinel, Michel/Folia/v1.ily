@@ -5,7 +5,7 @@ va = \relative c' {
   \boxa
   g4 g4. a8
   fis4 fis2
-  g4 g4. fis16 g
+  g4 g4. f!16 g
   a4 a2
   b4 b4. c8
   a4 a a
@@ -14,7 +14,7 @@ va = \relative c' {
   fis4 fis fis
   g g4. g8
   fis4 fis fis
-  g4 g4. fis16 g
+  g4 g4. f!16 g
   a2 a4
   b b4. b8
   a4 a b8 a
@@ -95,7 +95,7 @@ va = \relative c' {
   g2. \boxf
 
   b8 a16 b g8 a b c
-  a g16 a f8 g a c
+  a g16 a fis8 g a c
   b a16 b a8 d c b
   c b16 c a8 c b a
   b f16 es d8 b d es
@@ -135,12 +135,12 @@ va = \relative c' {
   <fis a>8 <g b> <fis a>4 r
   <g b>8 <fis a> <g b>4 r
   <a c>8 <g b> <a c>4 r
-  << { d8 c d4 s } \\ { fis, fis r } >>
+  << { d8 c d4 s } \\ { f,? f r } >>
   <a c>8 <g b> <a c>4 r
-  << { b8. a16 b8. c16 b8. c16 } \\ { g8. f?16 g8. a16 g8. a16 } >>
+  << { b8. a16 b8. c16 b8. c16 } \\ { g8. fis16 g8. a16 g8. a16 } >>
   << { a8. b16 a4 s } \\ { fis8. g16 fis4 r } >>
 
-  << { b8 a b4 b } \\ { g8 f? g4 g } >>
+  << { b8 a b4 b } \\ { g8 fis g4 g } >>
   << { a8 b a4 a } \\ { fis8 g fis4 fis } >>
   << { b8 a b4 b } \\ { g8 fis g4 g } >>
   << { c8 d c4 c } \\ { a8 b a4 a } >>
@@ -152,18 +152,18 @@ va = \relative c' {
   b'16 a b c d8 b g d
   fis16 e? fis g a8 fis d a
   g'16 fis g a b8 g d b
-  a'16 g a b c8 a fis c
-  d16 c d e f!8 d b f
+  a'16 g a b c8 a f! c
+  d16 c d es f8 d b f
 
   a16 g a b c8 a f c
-  b'16 a b c d8 b a e
-  fis16 e fis g a8 b a4
+  b'16 a b c d8 b g d
+  fis16 e? fis g a8 b a4
   b'16 a b c d8 b g d
   fis16 e fis g a8 fis d a
 
-  g'16 f? g a b8 g d b
-  a'16 g a b c8 a f c
-  d16 c d e f8 d b f
+  g'16 fis g a b8 g d b
+  a'16 g a b c8 a f! c
+  d16 c d es f8 d b f
   a16 g a b c8 a f' a
   b g fis4. g8
   g2. \boxk
