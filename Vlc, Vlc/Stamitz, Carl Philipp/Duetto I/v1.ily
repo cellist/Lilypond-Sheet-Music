@@ -95,4 +95,161 @@ va = \relative c'' {
     d4 a'16( h a g) fis4 fis16( g fis e)
     d4 fis fis r
   }
+
+  \introb
+  cis2(_\dolc d8 cis) fis( e)
+  e2.( a,4)
+  h4.( cis16 d) cis4 h\trill
+  \grace d16 cis8( h16 a) a4 r8 cis( e a)
+  a4( fis8.) fis16 h8( a) gis( fis)
+  h4.( gis8) e-| e( dis e)
+
+  cis4.( fis16 a) e4 dis\trill
+  e2 e8( eis fis d!)
+  cis2(\f d8 cis) fis( e!)
+  e2.( a,4)
+  h4.( cis16 d) cis4 h\trill
+  \grace d16 cis8( h16 a) a4 r8 cis( e a)
+
+  a4( fis8.) fis16 h8( a) gis( fis)
+  e4.( fis16 gis) a8-| cis-| a-| e-|
+  fis8.[( a16)] \grace gis fis8( e16 d) cis4 h\trill
+  h2(^\fine a4) r \bar "||"
+  e'4.(^\sovo fis8) e-| e( a cis)
+  h4.( gis8) e-| e( fis gis)
+
+  h( a) gis( fis) e( dis fis h)
+  a4( gis8 h) a( gis fis e)
+  dis4( cis8) cis-| a'(\cresc fis dis fis)
+  e(\f a) a2 cis8( a)
+  gis( h) e,( gis) fis( a) dis,( fis)
+  e4 r gis8(_\dolc a h) h-|
+
+  h( a) gis( fis) fis( gis a) a-|
+  a( gis) fis( e) gis(\f a h) h-|
+  a( h cis) cis-| h( gis) a( fis)
+  e2~\p e8 h'( gis e)
+  dis(\fp cis) a'2 fis8( dis)
+
+  e2~ e8 h'( gis e)
+  dis(\f cis) h'( a) gis fis e dis
+  e4 e,2(\p fis4)
+  gis-| gis2( a4)
+  h-| h2( cis4)
+  d?1(\espressivo
+  d8^\dcaf e fis e) gis[( fis) e( d)] \bar "|."
+
+  \introc
+  \repeat volta 2 {
+    \partial 8 d\p
+    fis( e) d-|
+    g4 g8
+    fis( e) d-|
+    h'4 h8
+    a( h) cis
+    d( h) a-|
+    a( g) fis-|
+
+    e r d\f
+    fis( e) d-|
+    g4 g8
+    fis( e) d-|
+    h'4 h8
+    a( h) cis
+    d( h) a-|
+
+    g( fis) e-|
+    d r d
+    fis4( a8)
+    e4( a8)
+    gis( h) d,
+    d( cis e)
+    a4 gis8
+    gis( fis) e-|
+
+    e( d) cis-|
+    h r e\p
+    e( h) d-|
+    cis( e) a,-|
+    gis( h) d-|
+    cis( e) a-|
+    a(\f fis) a-|
+
+    a( e) cis-|
+    e16( d) cis8[ h]\trill
+    a r a
+    cis4(\fp d8)
+    e e e
+    e( fis) d-|
+    cis e a
+
+    cis,4(\fp d8)
+    e e e
+    fis16( d) cis8[ h]
+    a r a'
+    e cis h
+    cis r a'
+    e cis h
+    a4
+  }
+  \repeat volta 2 {
+    \partial 8 e'8
+    a(\f gis a)
+    a, h cis
+    d e fis
+    g?4.
+    fis8( g a)
+    d, d d
+    e( fis) g-|
+    d( cis) e-|
+
+    a(\p gis a)
+    a, h cis
+    d e f
+    g?4\cresc
+    g8
+    f( e d)
+    gis4 gis8
+    \grace h16 a8.[(\fermata\f gis32 a)] d,8\p
+    fis?( e) d-|
+
+    g?4 g8
+    fis( e) d-|
+    h'4 h8
+    a( h) cis-|
+    d( h) a-|
+    a( g) fis-|
+    e r d\f
+    fis( e) d-|
+
+    g4 g8
+    fis( e) d-|
+    h'4 h8
+    a( h) cis-|
+    d( h) a-|
+    a16( g) fis8[ e]
+    d r a'\p
+    a( e) g-|
+    g( fis) a-|
+
+    a( e) g-|
+    g( fis) d'-|\f
+    d( a) c-|
+    h( cis!) d-|
+    fis,( g) e-|
+    d r d
+    fis4(\fp g8)
+    a a a
+    a( h) g-|
+
+    fis( a) d,-|
+    fis4(\fp g8)
+    a a a
+    h16( g) fis8[ e]
+    d r a'16( g)
+    fis8 fis e
+    fis r a16( g)
+    fis8 fis e
+    d4
+  }
 }
