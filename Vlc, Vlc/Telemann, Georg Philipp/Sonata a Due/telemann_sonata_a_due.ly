@@ -14,6 +14,7 @@
 voiceconsts = {
  \key g \minor
  \clef "bass"
+% \clef "treble"
 % \numericTimeSignature
  \compressFullBarRests
 }
@@ -21,8 +22,8 @@ voiceconsts = {
 mihi = "clarinet"
 milo = "bassoon"
 
-introa = {                      \tempo "1. Largo "   2=50  \time 3/2 }
-introb = { \bar "||"            \tempo "2. Allegro " 4=100 \time 2/4 }
+introa = {        \tempo "1. Largo "   2=50  \time 3/2 }
+introb = { \break \tempo "2. Allegro " 4=100 \time 4/4 }
 introc = { \bar "||" \pageBreak \tempo "3. Largo "   4=40  \time 2/2 }
 
 \include "v1.ily"
@@ -33,12 +34,14 @@ music = \new StaffGroup <<
 	\set Staff.midiInstrument = \mihi
 	\set Staff.instrumentName = \markup \center-column { "Violon-" "cello I" }
 	\transpose g d, { \va }
+%	\transpose g g { \va }
       }
 
       \new Staff {
 	\set Staff.midiInstrument = \milo
 	\set Staff.instrumentName = \markup \center-column { "Violon-" "cello II" }
 	\transpose g d, { \vb }
+%	\transpose g g { \vb }
       }
 >>
 
