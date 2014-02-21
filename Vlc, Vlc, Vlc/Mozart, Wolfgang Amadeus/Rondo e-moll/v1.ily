@@ -142,4 +142,92 @@ va = \relative c' {
   a( c f) f( es c)
   d( f b,16) d( c8) b c
   b b, b b r4 \boxl
+
+  b8\mf d d d d d
+  b d d d d d
+  a es' es f, es' es
+  b d d d d d
+  b\mp f' f f f f
+
+  b, des des des des des
+  b\mf ges' ges ges ges ges
+  b, des des des des des
+  b\f e e e e e
+  des4. b
+  c8 f f f( g) f
+
+  c4 e8 e( d?) e
+  f4\< f8 f( g) f
+  c4 e8 e( d) e\!
+  f\ff g f es! f es
+  d\> es d c d c\! \boxm
+
+  b2.~\mf
+  b~
+  b
+  f
+  b4 r8 r4.
+  b^\solo r4 b16 b
+  b4. r4 b16 b
+  b4 b16 b b4 b16 b \boxn
+
+  b4. r
+  R2.
+  r8 b\mf d f b d
+  f2.
+  e
+  es!
+  d8(\> c) d es f g
+
+  b,4. c\!
+  b4\p r8 r4.
+  R2.
+  r8 b,\f d f b d
+  f2.
+  e
+  es! \boxo
+
+  des4 r8 r4.
+  ces4\mp r8 r4.
+  b4\pp r8 r4.
+  a2.~\sf
+  a4.\fermata r4 f8\mf \boxp
+
+  b b b b b b
+  a( c? f) f( es c)
+  b b b b( a b)
+  c( f, f) f4 f8
+  b b b b b b
+
+  a( c f) f( es c)
+  d(\< f b,16) d( c8) b c\! \boxq
+  b\f b, b b r4
+  R2.*4
+
+  d'2.\mp
+  c
+  d\<
+  c
+  d
+  c\! \boxr
+
+  b4.\f r4 b8\mp
+  b b b b b b
+  a( c f) f( es c)
+  d( f b,) c b c
+  b4. r4 b,8
+  b'\< b b b b b
+
+  a( c f) f( es c)
+  d( f b,16) d( c8) b c\!
+  b4\f r8 r4.
+  r r4 f8
+  f' d b f d b
+
+  f4. r4 f'8\p
+  f' d b f d b
+  f4. r4 f'8\f
+  b f' d b f d
+  b4 r8 d'4 r8
+  b4 r8 r4. \bar "|."  
 }

@@ -161,4 +161,76 @@ vc = \relative c' {
   c c c c c c
   f,4 r8 r4.
   R2. \boxm
+
+  b4.\mf f
+  es?2.
+  d?
+  c
+  d4 d'8\p b4 d8
+  es4 b8 g4 b8
+  d4 b8 f4 g8
+  b( a) g f( g) a \boxn
+
+  b\< b b a f a
+  b f b c f, c'\!
+  d4\mf r8 r4.
+  g,2.
+  c,
+  f
+  d4.\> es
+
+  d es\!
+  d8\p\< b' b a f a
+  b f b c f, c'\!
+  d4 r8 r4.
+  g,2.\f
+  c,
+  f \boxo
+
+  ges4 r8 r4.
+  es4\mp r8 r4.
+  des4\pp r8 r4.
+  c2.~\sf
+  c4.\fermata r \boxp
+
+  b\mf d
+  c a
+  b e,
+  f a
+  b d
+  c a
+  b\< f'8 f f\! \boxq
+
+  d\f b b b b b
+  a( c f) f(  es? c)
+  h( d g) g( f d)
+  es\> g h, c es g,
+  a c e, f a f\!
+
+  b?\mp a b g f g
+  es? d es f es f
+  b\< a b g' f g
+  es d es f es f
+  b, a b g f g
+  es d es f g f\! \boxr
+
+  e2.\>
+  g'\!\mp
+  f
+  f
+  fis
+  f!4.\< e
+  es!4 r8 a4 r8
+  f4 r8 es4\! r8
+  d\f f b d, f b
+
+  es, f a es f a
+  d, f b d, f b
+  es,\p f a es f a
+  d, f b d, f b
+
+  es,\f f a es f a
+  d, d d d d d
+  d4 r8 f4 r8
+  b,4 r8 r4. \bar "|."
 }

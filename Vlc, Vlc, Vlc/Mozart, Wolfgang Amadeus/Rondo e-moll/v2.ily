@@ -147,4 +147,89 @@ vb = \relative c' {
   r f f f f f
   r g g r f f
   r f f f f f
+
+  r b\mp b b b b
+  r b b b b b
+  r b\mf b b b b
+  r b b b b b
+  r g\f g g g g
+  r des' c des c b
+
+  a a a a( b) a
+  b4 b8 b( c) b
+  a4\< a8 a( b) a
+  b4 b8 b( c) e\!
+  f\ff g f es! f es
+  d\> es d c d c\! \boxm
+
+  b4\mf f8 b4 d8
+  g,4 b8 es4 g8
+  f4 d8 b4 d8
+  es( c) b a( g) a
+  b4 f'8\p d4 f8
+  g4 es8 b4 es8
+  f4 d8 b4 d8
+
+  es4 c8 f4 es8 \boxn
+  d4\< r8 c4 d8
+  d4 r8 es4\! r8
+  f4\mf r8 r4.
+  r8 h, h h h h
+  r b! b b b b
+
+  r a a a a a
+  b4.\> g
+  f a\!
+  b4\p\< r8 c4 r8
+  d4 r8 es4\! r8
+  f4 r8 r4.
+  r8 h,\f h h h h
+
+  r b! b b b b
+  r a a a a a \boxo
+  b4 r8 r4.
+  fis4\mp r8 r4.
+  f!4\pp r8 r4.
+  f2.~\sf
+  f4.\fermata r \boxp
+
+  d\mf f
+  f es
+  d g
+  a4 r8 f16( g f es d c
+  d4.) f
+  f es
+  f\< a8 g a\! \boxq
+
+  f\f b b b b b
+  a( c f) f( es c)
+  h( d g) g( f d)
+  es\> g h, c es g,
+  a c e, f a f\!
+
+  b\mp a b g f g
+  es? d es f es f
+  b\< a b g' f g
+  es d es f es f
+  b, a b g f g
+  es d es f g f\! \boxr
+
+  g2.\f\>
+  c\!\mp
+  c
+  d4. f
+  des es
+  d!\< des
+  c4 r8 c4 r8
+  b4 r8 f4\! r8
+  b4\f r8 r4 b8
+  a( c f) f( es c)
+
+  b4 r8 r4 b8\p
+  a( c f) f( es c)
+  b4 r8 r4 b8\f
+  a( c f) f( es c)
+  b f f f f f
+  f4 r8 b4 r8
+  d,4 r8 r4. \bar "|."
 }
