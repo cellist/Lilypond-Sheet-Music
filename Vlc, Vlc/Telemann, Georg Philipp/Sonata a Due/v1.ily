@@ -193,5 +193,133 @@ va = \relative c''' {
   es( c) d( b) c( es) c( a) b( d) f( d) es( g) b( g)
   c( f,) a( c) es( a,) c( es) d( a) b( g) a8.\trill b16
   b f g es f8 f, b4 r \bar "|."
-  
+
+  \introd
+  \repeat volta 2 {
+    \partial 8 r8
+    r d g b
+    a4 r8 fis
+    g a16 b a8 g
+    fis4 r8 d
+    g4 r8 g
+    fis d a' c
+    b c16 d c8 b
+
+    a4 r
+    r8 b,16 c d es f d
+    g8 es16 d es4
+    r8 a,16 b c d es c
+    f8 es16 c d4
+    r8 d' c f
+    b,16 a b c a g a b
+    g8 b a d
+
+    g,16 f g as f es f g
+    es8 g f b
+    es,16 d es f d c d es
+    c a? b g b8 a
+    g4 r8 g16 a
+    b c d8 g b
+    a4 r8 fis
+    g g16 a b c d8
+
+    c4 r8 a
+    b4 r8 as
+    g a!16 b c a b g
+    a8 f16 g a b c8~
+    c b4 a8
+    g c16 h c8 f,
+    e4 r8 d
+    c c'16 h c8 f,
+
+    e4 r8 e
+    f16 g a4 a,8
+    b g r d'
+    e16 f g4 g,8
+    a f r c''
+    d16 e f4 e8~
+    e d4 c8
+    b16 c d4 c8~
+
+    c b4 a8
+    g16 a b4 a8~
+    a g4 f8
+    e d' a cis
+    d4 r16 a, d e
+    f4 r16 d f g
+    a4 r16 a, d e
+
+    f d f g a a, d e
+    f( g) f( g) f( g) f( g)
+    f8 e16 d cis8.\trill d16
+    d4.
+  }
+  \repeat volta 2 {
+    \partial 8 a'8
+    d4 r8 c?
+    h d g, h
+    c4 r8 b!
+
+    a c f, a
+    b4 r8 as
+    g16 b as g es' g, as g
+    f as g f d' f, g f
+    es g f es c'4~
+    c8 f,, g h'
+    c4 r8 e,
+    f a c, es!
+    d4 r8 d
+
+    es b'? b, es
+    d16( c) d8 r d
+    d16( h) c8 r c
+    c16( a) b!8 r16 d c b
+    g' f es d c8 f
+    d es16 f g a b8~
+    b a16 g a8 c,
+    b c16 d e f g8~
+
+    g f16 e f8 a,
+    g a16 h c d es!8~
+    es d16 c d8 g
+    fis4 r8 b
+    a d16 c d8 g,
+    fis4 r8 a
+    b16 c d4 d,8
+    es c r g'
+
+    a16 b c4 c,8
+    d b r f'
+    g16 a b4 a8~
+    a g4 f8
+    es16 f g4 f8~
+    f es4 d8
+    c16 d es4 d8~
+    d c4 b8
+
+    a g' d fis
+    g4 r8 g
+    fis c'16 b a b c8
+    b4 r8 g
+    fis c'16 b a b c8
+    b4 r8 g
+    f! g16 a b c d8~
+    d c16 b c8 es,
+
+    d es16 f g a b8~
+    b a16 g a8 c,
+    b b' a d
+    g,16 f g as f es f g
+    es8 g f b
+    es,16 d es f d c d es
+    c a? b g b8 a
+
+    g16 d' g a b4
+    r16 g b c d4
+    r16 d, g a b g b c
+    d d, g a b g b c
+    d( es) d( es) d( es) d( es)
+    d8 c16 b a8.\trill g16
+    g4.
+  }
 }

@@ -1,7 +1,7 @@
 \version "2.14.2"
 \include "deutsch.ly"
 
-#(set-global-staff-size 17)
+#(set-global-staff-size 18)
 
 \header {
   title     = \markup \bold \italic "Sonata a Due"
@@ -14,7 +14,6 @@
 voiceconsts = {
  \key g \minor
  \clef "bass"
-% \clef "treble"
 % \numericTimeSignature
  \compressFullBarRests
 }
@@ -22,9 +21,10 @@ voiceconsts = {
 mihi = "clarinet"
 milo = "bassoon"
 
-introa = {        \tempo "1. Largo "      2=50  \time 3/2 }
-introb = { \break \tempo "2. Allegro "    4=100 \time 4/4 }
-introc = { \break \tempo "3. Affettuoso " 4=90 }
+introa = {            \tempo "1. Largo "      2=50  \time 3/2 }
+introb = { \pageBreak \tempo "2. Allegro "    4=100 \time 4/4 }
+introc = { \pageBreak \tempo "3. Affettuoso " 4=90 }
+introd = { \break     \tempo "4. Vivace "     4=110 \time 2/4 }
 
 \include "v1.ily"
 \include "v2.ily"
