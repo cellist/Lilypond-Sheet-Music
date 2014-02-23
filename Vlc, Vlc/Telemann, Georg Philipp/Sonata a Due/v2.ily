@@ -148,4 +148,48 @@ vb = \relative c' {
   b a16 g fis8 g c, b c d
   g, f!16 es d8 c b a16 g c8 d
   g,2 r \bar "|."
+
+  \introc
+  r4 b'4. d16 es f8 es
+  d16 c b4 g8 f es16 d es8 c'
+  es, d r b''16 a g8 f16 e f8 g
+  c,16( e) g4 a16( f) c( e) g4 a16( f)
+
+  g( h) c8~ c16 a b g a e f b g8.\trill f16
+  f8 f16 es! d8 c b c d es
+  d16( c) b8 r a b c d es
+  d b c f, b b16 c d8 b
+  es4 r8 d es es16 d c8 h
+
+  c4 r8 h c c16 d es8 e
+  f4 r8 es! d4 r8 e
+  f4 r8 es! d4 r8 e
+  d h16 a g8 h c as f g
+  c c16 d es?8 d r4 c~
+
+  c8 b?16 a? b8 b b a r g
+  f es d f g c a f
+  b b, r g' a16( f) e( f) c'8 g
+  a16( g) f8 r e' f16( d) cis( d) a'8 e
+
+  f16( e) d8 r \clef "tenor" a' b16( g) fis( g) es'8 d
+  cis16( g) fis( g) b8 a b16( g) fis( g) es'8 d
+  cis16( g) fis( g) b8 a gis a4 g8
+  f!16( e f) d' es,8.\trill d16 d8 f d b
+  es16( g) as( f) g( es) g( b) a( f) g( e) f( a) f( d)
+
+  g( b) c?( a) b( g) b( d) c( a) b( g) a( c) a( f)
+  b( d) es( c) d( b) c( a) b( g) a( c) b( a) b( g)
+  a8 f16 es d8 c b c d es
+  d16 c b8 r a b c d es
+  d b c f, b b16 c d8 c16 d
+
+  es8 d16 c d8 e r f16 g a8 b
+  r f16 g a8 b r a16 g f8 g16 a
+  b f g es? f8 f, b c d b
+  es16( g) as( f) g( es) c( es) f( d) es( c) d( f) d( b)
+
+  c( es) f( d) es( c) a( c) d( b) d( f) g( es) g( b)
+  a( c) f,( a) c( es) a,( c) b( f) g( es) f8 f,
+  b16 a' b g a8.\trill b16 b4 r \bar "|."
 }

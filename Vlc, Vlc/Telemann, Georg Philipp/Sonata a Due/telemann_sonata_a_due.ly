@@ -22,9 +22,9 @@ voiceconsts = {
 mihi = "clarinet"
 milo = "bassoon"
 
-introa = {        \tempo "1. Largo "   2=50  \time 3/2 }
-introb = { \break \tempo "2. Allegro " 4=100 \time 4/4 }
-introc = { \bar "||" \pageBreak \tempo "3. Largo "   4=40  \time 2/2 }
+introa = {        \tempo "1. Largo "      2=50  \time 3/2 }
+introb = { \break \tempo "2. Allegro "    4=100 \time 4/4 }
+introc = { \break \tempo "3. Affettuoso " 4=90 }
 
 \include "v1.ily"
 \include "v2.ily"

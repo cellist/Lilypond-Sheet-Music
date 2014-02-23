@@ -149,4 +149,49 @@ va = \relative c''' {
   d'4. c16 b a8 g a fis
   g8 f!16 es d8 c b a16 g c8 d
   g,2 r \bar "|."
+
+  \introc
+  b8 c d es d16( c) b8 r a
+  b c d es d b c f,
+  b b16c d8 g,16 a b8 a16 g a8 h
+  r c16 d e8 f r c16 d e8 f
+
+  r e16 d c8 d16 e f c d b c8 c
+  f, f'16 es! d8 c r4 b'~
+  b8 d16 es f8 es d16 c b4 g8
+  f es16 d es8 c' es, d r f
+  g16( es) d( es) b'8 f g16( f) es8 r d
+
+  es16( c) h( c) g'8 d es16( d) c8 r g'
+  as16( f) e( f) des'8 c h16( f) e( f) as8 g
+  as16( f) e( f) des'8 c h16( f) e( f) as8 g
+  fis g4 f8 es16 d! es c' d,8.\trill c16
+  c8 c16 d es8 d c b a? c
+
+  d g e c f f16 g a8 g
+  r4 f'4. es16 d es8 es
+  es d d, e f4 r8 e
+  f f16 e d8 cis d4 r8 cis
+
+  d d16 e f8 fis g4 r8 f
+  e4 r8 fis g4 r8 f
+  e4 r8 f e cis16 h a8 cis
+  d b! g a d4 r8 f
+  g16( es!) f( d) es( g) es( c?) f( a) b( g) a( f) a( c)
+
+  b( g) a( fis) g b g es a( c) d( b) c( a) c( es)
+  d( b) c( a) b( g) a( c) d( b) c( es) d( c) d( b)
+  c8 f,16 es d8 c r4 b'~
+  b8 d16 es f8 es d16 c b4 g8
+  f es16 d es8 c' es, d r es'16 d
+
+  c8 b16 a b8 c f,16( a) c4 d16( b)
+  f( a) c4 d16( b) c e f8~ f16 d es c
+  d a b es c8.\trill b16 b4 r8 f
+  g16( es) f( d) es( g) es( c) d( f) g( es) f( d) b( d)
+
+  es( c) d( b) c( es) c( a) b( d) f( d) es( g) b( g)
+  c( f,) a( c) es( a,) c( es) d( a) b( g) a8.\trill b16
+  b f g es f8 f, b4 r \bar "|."
+  
 }
