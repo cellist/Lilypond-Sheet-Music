@@ -13,6 +13,7 @@
 
 voiceconsts = {
  \key d \major
+ \clef "bass"
 % \numericTimeSignature
  \compressFullBarRests
 }

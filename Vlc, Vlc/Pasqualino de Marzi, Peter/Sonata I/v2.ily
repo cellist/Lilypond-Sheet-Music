@@ -1,6 +1,5 @@
 vb = \relative c {
   \voiceconsts
-  \clef "bass"
 
   \introa
   \partial 8 s8

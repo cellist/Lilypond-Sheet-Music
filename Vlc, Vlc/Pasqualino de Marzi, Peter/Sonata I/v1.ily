@@ -25,14 +25,13 @@ va = \relative c' {
   \grace { d16[ e] } fis8 e~ e16. e32 a16. e32 fis( d e fis e e, a e') \grace e8 d8.\trill cis32 d
   \grace d8 cis4 e8 d32 cis h a fis'16. d32 d,8 d'~ d32 cis h a
 
-  \clef "bass"
   h32( g a fis g e fis d) a( e' g cis e e, fis g) \grace g8 \times 2/3 { fis16 e d } d8 d'~ d32 cis h a
-  h( g a fis g e fis d) a( e' g cis e e, fis g) fis8 \clef "tenor" a' a a
+  h( g a fis g e fis d) a( e' g cis e e, fis g) fis8 a' a a
 
   a8. g32 a \times 2/3 { h16 a g fis e d \grace d cis h a } a8\trill \times 2/3 { r16 e'( cis a e' cis) }
   \times 2/3 { d gis, a } a8\trill \times 2/3 { r16 fis'( d a fis' d) e gis, a } a8\trill \times 2/3 { r16 gis'( e a, gis' e) }
 
-  \grace e8 fis8. gis32 a \grace a8 gis8. a32 h \grace a8 \times 2/3 { a16 g! fis } g8~ g32 fis( e d cis h a g)
+  \grace e8 fis8. gis32 a \grace a8 gis8. a32 h \grace a8 \times 2/3 { a16 g! fis } g8~ g32 \clef "bass" fis( e d cis h a g)
   \grace g fis16. d'32 d8\trill <g,, d' h'>16. d''32 d8 <d, a'>16. d'32 d8 h16 g'16. fis32 e d
 
   cis16 a'16. g32 fis e d4~ d16 d64 e f32 e16 d gis, d'64 e f32 e16 d
@@ -41,9 +40,9 @@ va = \relative c' {
   gis8 e'~ \times 2/3 { e16 gis, a h! a gis } a8 e'~ e32( d cis! h a gis fis gis)
   fis( a h cis d h a g!) fis e d16 e8\trill d8. e64 fis g a h16. g32 fis16. e32
 
-  d'16. h32 a16. g32 fis8\fermata e d16. fis32 a16. d32 \clef "bass" d,,4\fermata \bar "|."
+  d'16. h32 a16. g32 fis8\fermata e d16. fis32 a16. d32 d,,4\fermata \bar "|."
 
-  \introb \clef "tenor"
+  \introb
   \repeat volta 2 {
     \partial 8 a''8
     d4 fis16 e d cis d8 d, fis a
@@ -67,14 +66,14 @@ va = \relative c' {
     gis a4 fis dis e8
     e,4 h'32 cis d!8. cis32 h a8. h4\trill
     a8 e h'32 cis d8. cis32 h a8. d4\trill
-    a16 h cis d e fis gis e a8 fis d e \clef "bass"
+    a16 h cis d e fis gis e a8 fis d e
 
     a, fis d e a,4.
   }
   \repeat volta 2 {
     \partial 8 e'8
     a4 cis16 h a gis a8 a, cis e
-    a4 cis16 h a gis a8 a, r \clef "tenor" e''~
+    a4 cis16 h a gis a8 a, r e''~
     e e~ e16 d cis h ais8 g'!4 fis8~
 
     fis e4 d16 cis d8 g4 fis8~
@@ -122,7 +121,7 @@ va = \relative c' {
 
     fis32 e d16 d'8[ fis,]
     g32 fis e16 e'8[ g,]
-    fis32[ e d16] \clef "bass" d,8 r \clef "tenor"
+    fis32[ e d16] d,8 r
     fis''32 e d16 d,8[ d]
     fis' \grace e d4\trill
     e32 d cis16 cis,8[ cis]
@@ -184,7 +183,7 @@ va = \relative c' {
 
     cis32 h a16 a,8[ cis']
     d32 cis h16 h,8[ d']
-    e32 d cis16 a8[ e']
+    e32 d cis16 a8[ \clef "tenor" e']
     fis32[ g a16] g16. fis32 e16. d32
     cis[ h a16] a-. a-. a-. a-.
     fis'32[ g a16] g16. fis32 e16. d32
@@ -203,7 +202,7 @@ va = \relative c' {
     h8 a16. g32 fis16. e32
     fis32 e d16 e4\trill
     fis32\f e d16 d,8[ d]
-    a''32 g fis16 d,8[ d]
+    a''32 g fis16 \clef "bass" d,8[ d]
 
     d'16. h32 a16. g32 fis16. e32
     d8 r r
