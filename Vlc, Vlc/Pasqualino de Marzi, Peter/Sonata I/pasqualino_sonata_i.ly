@@ -1,11 +1,11 @@
 \version "2.14.2"
 \include "deutsch.ly"
 
-#(set-global-staff-size 17)
+#(set-global-staff-size 17.5)
 
 \header {
   title     = \markup \bold \italic "Sonata I"
-  subtitle  = "aus: \"6 Sonaten für zwei Celli\""
+  subtitle  = "aus: \"Sechs Sonaten für zwei Celli\""
   composer  = "Peter Pasqualino de Marzi"
   arranger  = "(? - 1766)"
   enteredby = "cellist (2014-02-28)"
@@ -22,12 +22,9 @@ milo = "bassoon"
 
 dolc = \markup \italic "dolce"
 
-introa = { 
-           \tempo "1. Larghetto " 4=40 \time 4/4
-           \set tupletSpannerDuration = #(ly:make-moment 1 8)
-}
-
-introb = { \break \tempo "2. Allegro " 4=100 }
+introa = {        \tempo "1. Larghetto " 4=40  \time 4/4 }
+introb = { \break \tempo "2. Allegro "   4=100 }
+introc = { \break \tempo "3. Spiritoso " 8=110 \time 3/8 }
 
 \include "v1.ily"
 \include "v2.ily"

@@ -104,4 +104,102 @@ vb = \relative c {
     g a h? r
     g a d, r8
   }
+
+  \introc
+  \repeat volta 2 {
+    \partial 4. r4.
+    d'8\f d, d
+    d4 r8
+    d'8 d, d
+    fis r g
+    a g fis
+    e cis a
+
+    d fis d
+    e cis a
+    d d'[ a]
+    d, r r
+    r h h
+    cis r r
+    r a a
+    h r r
+    r gis gis
+    a r a
+    h r h
+    cis r cis
+    d4 d8
+    cis a a'
+    gis4 e8
+
+    a cis a
+    gis4 e8
+    a, h cis
+    d e fis
+    a, h cis
+    d e fis
+
+    r h a
+    r gis e
+    a h e,
+    a h e,
+    a d, e
+    a, r d'
+    gis,4 gis8
+    a d, e
+
+    a, r d\p
+    gis,4 gis8
+    a d e
+    a, r r
+  }
+  \repeat volta 2 {
+    r4.
+    a'8\f a, a
+    a r r
+    a' a, a
+
+    a r ais
+    h cis d
+    e cis ais
+    h d h
+    e cis ais
+    h d h
+    r r gis
+    a? h cis
+
+    h gis e
+    a cis a
+    h gis e
+    a cis a
+    d fis d
+    g,? h g
+    d' fis d
+    g, h g
+
+    a r a
+    h r h
+    cis r cis
+    d g, gis
+    a cis a
+    d g, gis
+
+    a r a'
+    fis r fis
+    cis r cis
+    d e a,
+    d e a,
+    d g? a
+    d, r g
+
+    cis,4 cis8
+    d g a
+    d, r g\p
+    cis,4 cis8
+    d g, a
+    d d d
+    d d d
+
+    fis, g a
+    d, r r
+  }
 }

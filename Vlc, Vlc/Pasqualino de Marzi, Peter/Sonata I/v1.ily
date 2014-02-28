@@ -11,7 +11,7 @@ va = \relative c' {
   d16. d32 e16. fis32 e,16. h'32 cis16. d32 \grace d8 cis4 r16 e fis g!
   \grace g8 fis4 r16 fis gis16. a32 \grace a8 gis8. fis16 \times 2/3 { \grace fis e d cis \grace e d cis h }
 
-  \times 2/3 { \grace d cis h a } a8\trill \times 2/3 { \grace e'16 d cis h } a8\trill \times 2/3 { \grace fis'16 e d cis } a8\trill \grace g' fis4~
+  \times 2/3 { \grace d cis h a } a8\trill \set tupletSpannerDuration = #(ly:make-moment 1 8) \times 2/3 { \grace e'16 d cis h } a8\trill \times 2/3 { \grace fis'16 e d cis } a8\trill \grace g' fis4~
   \times 2/3 { fis16 e( d \grace e d cis h) h( cis h a gis a) } a8 gis \times 2/3 { gis'16 a h h, cis d }
   \grace { a[ h] } cis8 h \times 2/3 { gis'16 a h h, cis d } r8 \grace d cis~ \times 2/3 { cis16 a' gis fis e dis }
 
@@ -108,5 +108,104 @@ va = \relative c' {
 
     h'4 cis8.\trill h32 cis d16 cis h a g fis e d
     g4-| a-| d,-| r8
+  }
+
+  \introc
+  \repeat volta 2 {
+    \partial 4. d'\f d e\trill
+    fis32 e d16 d,8[ d]
+    fis' fis g\trill
+    a32 g fis16 d,8[ d]
+    a'' g16 fis e d
+    \grace d8 cis4\trill d8
+    g,32 fis e16 e'8[ g,]
+
+    fis32 e d16 d'8[ fis,]
+    g32 fis e16 e'8[ g,]
+    fis32[ e d16] \clef "bass" d,8 r \clef "tenor"
+    fis''32 e d16 d,8[ d]
+    fis' \grace e d4\trill
+    e32 d cis16 cis,8[ cis]
+    e' \grace d cis4\trill
+
+    d32 cis h16 h,8[ h]
+    d' \grace cis h4\trill
+    cis32 h a16 a,8[ a]
+    d'32 cis h16 h,8[ h]
+    e'32 d cis16 cis,8[ cis]
+    fis' gis4\trill
+    a8 a,4\trill
+    h32[ cis d16] e,16. d'32 cis16. h32
+
+    cis8 a4
+    h32[ cis d16] e,16. d'32 cis16. h32
+    cis16. a32 d16. a32 e'16. a,32
+    fis'16. a,32 gis'16. a,32 a'16. a,32
+    cis16. a32 d16. a32 e'16. a,32
+    fis'16. a,32 gis'16. a,32 a'16. a,32
+
+    dis4.
+    d!
+    cis32 h a16 d4
+    cis32 h a16 d4
+    cis32 h a16 h4\trill
+    a8 fis'4~
+    fis8 e16. d32 cis16. h32
+    cis h a16 h4\trill
+
+    a8 fis'4~\p
+    fis8 e16. d32 cis16. h32
+    cis h a16 h4\trill
+    a8 r r    
+  }
+  \repeat volta 2 {
+    a\f a h
+    cis32 h a16 a,8[ a]
+    cis' cis d
+    e32 d cis16 a,8[ a]
+
+    e''32 fis g16 g8[ g]
+    fis ais, h
+    cis32 d e16 e4
+    d32 cis h16 h4
+    cis32 d e16 e4
+    d32 cis h16 h4
+    d32 e fis16 fis8[ fis]
+    e gis, a?
+
+    h32 cis d16 d4
+    cis32 h a16 a4
+    h32 cis d16 d4
+    cis32 h a16 e'8[ g,?]
+    fis32 e d16 d'8[ d,]
+    h'32 a g16 g,8[ d'']
+    a32 g fis16 d8[ d']
+    h32 a g16 g,8[ h']
+
+    cis32 h a16 a,8[ cis']
+    d32 cis h16 h,8[ d']
+    e32 d cis16 a8[ e']
+    fis32[ g a16] g16. fis32 e16. d32
+    cis[ h a16] a-. a-. a-. a-.
+    fis'32[ g a16] g16. fis32 e16. d32
+
+    cis[ h a16] a-. a-. a-. a-.
+    d32[ cis h16] a-. a-. a-. a-.
+    e'32[ d cis16] a-. a-. a-. a-.
+    fis'32 e d16 g4
+    fis32 e d16 g4
+    fis32 e d16 e4\trill
+    d8 h'4~
+
+    h8 a16. g32 fis16. e32
+    fis32 e d16 e4\trill
+    d8 h'4~\p
+    h8 a16. g32 fis16. e32
+    fis32 e d16 e4\trill
+    fis32\f e d16 d,8[ d]
+    a''32 g fis16 d,8[ d]
+
+    d'16. h32 a16. g32 fis16. e32
+    d8 r r
   }
 }
