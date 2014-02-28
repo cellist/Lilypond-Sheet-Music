@@ -5,7 +5,7 @@ va = \relative c' {
   \introa
   \partial 8 s8
   \grace e d4~ d16. g32 fis16. e32 d16 cis d8~ d16. cis32 d16. a32
-  h8 a16. a'32 \grace a8 g8. fis32 g \grace g8 fis4 r8 fis16. e32
+  h8 a16. a'32 \grace a8 g8. fis32 g \grace g8 fis4 r8 fis16. d32
 
   e16. gis32 a8~ a16. e32 d16. cis32 d16. d,32 d8\trill d' d~
   d16. d32 e16. fis32 e,16. h'32 cis16. d32 \grace d8 cis4 r16 e fis g!
