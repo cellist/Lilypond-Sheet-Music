@@ -1,7 +1,7 @@
 \version "2.14.2"
 \include "deutsch.ly"
 
-#(set-global-staff-size 18)
+#(set-global-staff-size 17.25)
 
 \header {
   title     = \markup \bold \italic "Sonata II"
@@ -13,6 +13,7 @@
 
 voiceconsts = {
  \key b \major
+ \clef "bass"
 % \numericTimeSignature
  \compressFullBarRests
  \set tupletSpannerDuration = #(ly:make-moment 1 4)
@@ -24,7 +25,8 @@ milo = "bassoon"
 dolc = \markup \italic "dolce"
 
 introa = {        \tempo "1. Largo "   4=50  \time 3/4 }
-introb = { \break \tempo "2. Allegro " 4=100 }
+introb = { \break \tempo "2. Allegro " 4=100 \time 4/4 }
+introc = { \break \tempo "3. Allegro " 4=100 \time 2/4 }
 
 \include "v1.ily"
 \include "v2.ily"
