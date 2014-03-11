@@ -18,7 +18,7 @@ va = \relative c'' {
   h g h d c h
   c a a e a a
   c a c e d c
-  h g g e g g
+  h g g d g g
   h g h d c h
 
   c h c a d c
