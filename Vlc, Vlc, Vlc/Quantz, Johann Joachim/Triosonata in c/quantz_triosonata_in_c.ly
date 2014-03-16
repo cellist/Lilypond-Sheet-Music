@@ -23,6 +23,7 @@ milo = "bassoon"
 introa = {        \tempo "1. Andante moderato " 4=70  \time 4/4 }
 introb = { \break \tempo "2. Allegro "          4=100 \time 2/4 }
 introc = { \break \tempo "3. Larghetto "        4=60  \time 3/4 }
+introd = { \break \tempo "4. Vivace "           8=160 \time 3/8 }
 
 boxa = { \bar "||" \mark \markup \box "A" }
 boxb = { \bar "||" \mark \markup \box "B" }
@@ -34,6 +35,14 @@ boxg = { \bar "||" \mark \markup \box "G" }
 boxh = { \bar "||" \mark \markup \box "H" }
 boxi = { \bar "||" \mark \markup \box "I" }
 boxj = { \bar "||" \mark \markup \box "J" }
+boxk = { \bar "||" \mark \markup \box "K" }
+boxl = { \bar "||" \mark \markup \box "L" }
+boxm = { \bar "||" \mark \markup \box "M" }
+boxn = { \bar "||" \mark \markup \box "N" }
+boxo = { \bar "||" \mark \markup \box "O" }
+boxp = { \bar "||" \mark \markup \box "P" }
+boxq = { \bar "||" \mark \markup \box "Q" }
+boxr = { \bar "||" \mark \markup \box "R" }
 
 rit = \markup \bold \italic "rit."
 
@@ -45,20 +54,21 @@ music = \new StaffGroup <<
       \new Staff {
 	\set Staff.midiInstrument = \mihi
 	\set Staff.instrumentName = \markup \center-column { "Violon-" "cello I" }
-	\transpose c d, { \va }
+	\transpose c c, { \va }
       }
 
       \new Staff {
 	\set Staff.midiInstrument = \milo
 	\set Staff.instrumentName = \markup \center-column { "Violon-" "cello II" }
-	\transpose c d, { \vb }
+	\transpose c c, { \vb }
       }
 
       \new Staff {
 	\set Staff.midiInstrument = \milo
 	\set Staff.instrumentName = \markup \center-column { "Violon-" "cello III" }
-	\transpose c d, { \vc }
+	\transpose c c, { \vc }
       }
+%}
 >>
 
 \book {

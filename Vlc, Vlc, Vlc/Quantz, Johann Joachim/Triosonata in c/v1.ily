@@ -13,7 +13,7 @@ va = \relative c''' {
 
   d' g,( as g) f( es f d) es es( f es) d( c d h) \boxb
   c4 r r2
-  r8 c f4~ f16 a( c b a g f es)
+  r8 \clef "tenor" c f4~ f16 a( c b a g f es)
   d4 r8 d g2~
 
   g8 f16( es) f( es d c) d4 f~
@@ -57,7 +57,7 @@ va = \relative c''' {
   b g r b'16 a
   g(\trill fis) g8 g16(\trill fis) g8
   g g, r4
-  r8 g'[ c b]
+  r8 \clef "treble" g'[ c b]
   a fis16 g a8 a
 
   a fis16 g a8 a
@@ -106,7 +106,7 @@ va = \relative c''' {
   f4 r
   R2*7 \boxg
 
-  R2
+  R2 \clef "tenor"
   b,16 c d es f g as b
   g8 es r4
   as,16 b c d es f g as
@@ -137,7 +137,7 @@ va = \relative c''' {
   es g16 f es8 d
   es16 g f es d8.\trill c16 \boxj
   c4 r
-  r16 c'\p b c f, c' b c
+  r16 \clef "treble" c'\p b c f, c' b c
   d2~
   d16 b as b es, b' as b
   c2~
@@ -219,4 +219,151 @@ va = \relative c''' {
   d2 es4~
   es d2
   <g, es'>2.\fermata \bar "|."
+
+  \introd
+  R4.*16 \boxa
+  g'4.\f
+  a\trill
+
+  b16 a g8 d'
+  es d16 c b a
+  d8 c16 b a g
+  c8 b16 a b c
+  a8 d g,
+  fis16( g a8) b
+  a d g,
+
+  fis16( g a8) b
+  a d16 c b a
+  b8 a16 b c a
+  b8 a16 b c a
+  b a g b a g \clef "tenor"
+  fis es d es c d
+  b[ g'] a,8.\trill g16 \boxb
+
+  g8 d' h
+  c h16 d es h
+  c8 h16 d es h
+  c8 g'8. as?16
+  d, f? es f d es
+  c8 c( h)\trill \boxc
+
+  c16 g( f g) c es
+  c g( f g) c es
+  d g,( f g) d' f
+  d g,( f g) d' f
+  es8 c r
+  R4.*3 \boxd
+
+  r16 g'( c b? as g)
+  as4.~
+  as16 f( b as g f)
+  g8 es r
+  R4.*3 \boxe
+
+  es16 b( a b) es g
+  es b( a b) es g
+  f b,( a b) f' as!
+  f b,( a b) f' as!
+  g8 b, es~
+  es d4\trill \boxf
+
+  es4.
+  f\trill
+  g16 f es8 b'
+  c b16 as g f
+  b8 as16 g f es
+  as8 g16 f g as
+  f8 b es, \boxg
+
+  d16( es f8) g
+  f b es,
+  d16( es f8) g
+  f b16 as g f
+  g as g f es d
+  es f es d c b \boxh
+
+  a8 g r
+  r f' b,
+  a16( b c8) d
+  c f b,
+  a4.\trill
+  b
+  c\trill \boxi \clef "treble"
+
+  d8 f b~
+  b a4\trill
+  b8 g4
+  a4.\trill
+  b8 d, g~
+  g fis4\trill \boxj
+  g8 c,4\trill
+
+  d4.
+  es8 g c~
+  c h4\trill
+  c8 f,4
+  g4.\trill
+  as?8 c, f~
+  f e4\trill \boxk
+
+  f4 r8
+  R4.*4 \boxl
+  r8 c' f,
+  e16( f g8) as
+
+  g c f,
+  e8. g16 f e
+  f[ g] e8.\trill f16 \boxm
+  f g as g f es!
+  d es f es d c
+  h as' g f es d
+
+  es8 c r
+  R4.*3 \boxn \clef "tenor"
+  c16 g( fis g) c es
+  c g( fis g) c es
+  d g,( fis g) d' f
+
+  d g,( fis g) d' f \clef "treble"
+  es g( c b? as g) \boxo
+  as4.~
+  as16 f( b as g f)
+  g4.~
+  g16 es( as g f e)
+  f4.~
+  f16 d( g f es? d) \boxp
+
+  es8 g c~
+  c h4\trill
+  c,4.
+  d\trill
+  es16 d c8 g'
+  as g16 f es d
+  g8 f16 es d c
+  f8 es16 d es f \boxq
+
+  d8 g c,
+  h16( c d8) es
+  d g c,
+  h16( c d8) es
+  d g16 f es d
+  es8 d16 es f d
+  es8 d16 es f d
+
+  es d c es d c
+  h as' g as f g
+  es[ c'] d,8.\trill c16 \boxr
+  c4 r8
+  r g'\p c,
+  h16( c d8) es
+  d g c,
+
+  h16( c d8) h
+  c h16 c d h
+  c8 h16 c d h
+  c8\f g'8. as16
+  d, f es f d es
+  c8 c( h)\trill
+  <g c>4 r8\fermata \bar "|."
 }

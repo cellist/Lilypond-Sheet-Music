@@ -223,4 +223,163 @@ vb = \relative c'' {
   as2 g4~
   g f2
   <b, es>2.\fermata \bar "|."
+
+  \introd
+  c'4.\f
+  d\trill
+  es16 d c8 g'
+  as g16 f es d
+  g8 f16 es d c
+  f8 es16 d es f
+  d8 g c,
+
+  h16( c d8) es
+  d g c,
+  h16( c d8) es
+  d g16 f es d
+  es f es d c h
+  c d c b! a g
+  fis8 d' c
+
+  b a16 b c a
+  b8 a16 b c a \boxa
+  c8 d g~
+  g fis4\trill
+  g8 d16 c b8
+  c8. es16 d c
+  b8. d16 c b
+
+  a8 g16 fis g a
+  fis( g a8) b
+  a d g,
+  fis16( g a8) b
+  a d g,
+  fis16( g a8) fis
+  g fis16 g a fis
+
+  g8 fis16 g a fis
+  g8 d'8. es16
+  a, c b c a b
+  g8 g( fis)\trill \boxb
+  g g'16 f! es d
+  es8 d16 es f d
+  es8 d16 es f d
+
+  es d c es d c
+  h as! g as f g
+  es[ c'] d,8.(\trill c16) \boxc
+  c4 r8
+  R4.*3
+
+  c'16 g( f g) c es
+  c g( f g) c es
+  d g,( f g) d' f
+  d g,( f g) d' f \boxd
+  es8 c r
+  r16 c( f es d c)
+
+  d4.\trill
+  es16 b( a b) es g
+  es b( a b) es g
+  f b,( a b) f' as?
+  f b,( a b) f' as \boxe
+
+  g8 es r
+  R4.*3
+  es4.
+  f\trill \boxf
+  g8 b, es~
+
+  es d4\trill
+  es r8
+  R4.*4 \boxg
+
+  r8 b es,
+  d16( es f8) g
+  f b es,
+  d4 r8
+  R4.*2 \boxh
+
+  r8 g' b,
+  a16( b c8) d
+  c f b,
+  a16( b c8) d
+  c f16 es d c
+  d8 f, b~
+  b a4\trill \boxi
+
+  b4.
+  c\trill
+  d8 d g~
+  g fis4\trill
+  g,4.
+  a\trill \boxj
+  h8 g c~
+  c h4\trill
+
+  c4.
+  d\trill
+  e8 c f~
+  f e4\trill
+  f,4.
+  g\trill \boxk
+  as?16 g f8 c'
+  des8 c16 b? as g
+
+  c8 b16 as g f
+  b8 as16 g as b
+  g8 c f, \boxl
+  e16( f g8) as
+  g c f,
+  e16( f g8) as
+  g c16 b as g
+
+  as b g4\trill \boxm
+  f r8
+  R4.*2
+  c'16 g( fis g) c es?
+  c g( fis g) c es
+  d g,( fis g) d' fis
+
+  d g,( fis g) d' fis \boxn
+  es8 c r
+  R4.*4 \boxo
+
+  r16 c( f es d c)
+  d4.~
+  d16 b( es d c b)
+  c4.~
+  c16 a( d c h a)
+  h4. \boxp
+  c
+
+  d\trill
+  es8 g, c~
+  c h4\trill
+  c r8
+  R4.*3 \boxq
+  R4.
+
+  r8 g' c,
+  h16( c d8) es
+  d g c,
+  h16( c d8) es
+  c h16 c d h
+  c8 h16 c d h
+  c8 g'8. as?16
+
+  d, f es f d es
+  c8 c( h)\trill \boxr
+  c g'\p c,
+  h16( c d8) es
+  d g c,
+  h16( c d8) es
+  d g16 f es d
+
+  es8 d16 es f d
+  es8 d16 es f d
+  es\f d c es d c
+  h as g as f g
+  es[ c'] d,8.\trill c16
+  <c es>4 r8\fermata \bar "|."
 }

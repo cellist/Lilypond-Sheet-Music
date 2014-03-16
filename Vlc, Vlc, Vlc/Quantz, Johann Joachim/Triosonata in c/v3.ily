@@ -1,6 +1,5 @@
 vc = \relative c' {
   \voiceconsts
-%  \clef "alto"
   \clef "bass"
 
   \introa
@@ -246,4 +245,174 @@ vc = \relative c' {
   b2 c4
   as b2
   es,2.\fermata \bar "|."
+
+  \introd
+  c8\f d es
+  f d g
+  c, es c
+  f4 b8
+  es,4 as8
+  d, g c,
+  g'16 f es8 f
+  g4 c,8
+
+  g'16 f es8 f
+  g4 c,8
+  g'16 a h8 g
+  c c, d
+  es4 c8
+  d16 e fis8 d
+  g fis d
+  g fis d \boxa
+
+  g a b?
+  c a d
+  g,16 a b8 g
+  c, f? f
+  b es? es,
+  a d g,
+  d4 r8
+  d4 r8
+
+  d4 r8
+  d4 r8
+  d16 e fis8 d
+  g d' d,
+  g d' d,
+  g16 a b8 c
+  d g, fis
+  g c, d \boxb
+
+  g16 a h8 g
+  c, g' g
+  c, g' g
+  c,16 d es8 f?
+  g c h
+  c f, g \boxc
+
+  c,4 r8
+  c es c
+  g'4 r8
+  g h g
+  c4 r8
+  c, es c
+  g'4 r8
+  g h g \boxd
+
+  c es, c
+  f as? f
+  b? d b
+  es4 r8
+  es, g es
+  b'4 r8
+  b d b \boxe
+
+  es4 r8
+  es, g es
+  b'4 r8
+  b d, b'
+  es, f g
+  as f b \boxf
+
+  es, f g
+  as f b
+  es, g es
+  as4 as8
+  g4g8
+  f b es,
+  b'4 r8 \boxg
+
+  b4 r8
+  b4 r8
+  b4 r8
+  b16 c d8 b
+  es,4 f8
+  g4 es8 \boxh
+
+  f4 r8
+  f4 r8
+  f4 r8
+  f4 r8
+  f16 g a8 f
+  b c d
+  es c f \boxi
+
+  b, c d
+  es c f
+  b, b16 a g8
+  c a d
+  g, a b
+  c a d \boxj
+
+  g,16 f es d c8
+  f d g
+  c, d es
+  f d g
+  c, as'?16 g f8
+  b g c
+  f, g as
+  b g c \boxk
+
+  f,16 g as8 f
+  b4 es8
+  as,4 des8
+  g, c f,
+  c4 r8 \boxl
+  c4 r8
+  c4 r8
+  c4 r8
+  c8. c'16 des8
+  b c c, \boxm
+
+  f4 r8
+  f4 r8
+  g h g
+  c4 r8
+  c, es c
+  g'4 r8
+  g h g\boxn
+
+  c4 r8
+  c, es c
+  g'4 r8
+  g h g
+  c es, c \boxo
+  f as f
+  b? d,? b'
+  es, g es
+  as c, as'
+  d, f d
+  g h g \boxp
+
+  c, d es
+  f es g
+  c, d es
+  f d g
+  c, es c
+  f4 b?8
+  es,4 as8
+  d, g c, \boxq
+
+  g'4 r8
+  g4 r8
+  g4 r8
+  g4 r8
+  g16 a h8 g
+  c, g' g
+  c, g' g
+  c,16 d es8 f
+  g c h
+  c f, g \boxr
+
+  c b? as?
+  g4\p r8
+  g4 r8
+  g4 r8
+  g16 a h8 g
+  c, g' g
+  c, g' g
+  c,16\f d es8 f
+  g c h
+  c g' g,
+  c,4 r8\fermata \bar "|."
 }
