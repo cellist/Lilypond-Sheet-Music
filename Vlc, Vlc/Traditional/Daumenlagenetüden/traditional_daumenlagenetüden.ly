@@ -1,7 +1,7 @@
 \version "2.14.2"
 \include "deutsch.ly"
 
-#(set-global-staff-size 18)
+#(set-global-staff-size 19.25)
 
 \header {
   title     = \markup \bold \italic "Etüden für die Daumenlage"
@@ -24,7 +24,7 @@ introa = {
 }
 introb = {
             \break
-            \tempo "2. Maienlied (Alle Vögel sind schon da) " 4=100
+            \tempo "2. Maienlied (Alle Vögel sind schon da) " 4=120
             \time 4/4
 }
 introc = {
@@ -38,6 +38,14 @@ introd = {
 introe = {
             \break
             \tempo "5. I'll Always Remember You " 4=100
+}
+introf = {
+            \break
+            \tempo "6. Soldier's Joy " 8=140
+}
+introg = {
+            \break
+            \tempo "7. Arkansas Traveller " 8=150
 }
 
 sepi = \markup \italic "sempre pizz."

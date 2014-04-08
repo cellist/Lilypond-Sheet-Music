@@ -129,4 +129,46 @@ va = \relative c'' {
     { d2. d4 }
     { d2. }
   } \bar "|."
+
+  \introf
+  \repeat volta 2 {
+    \partial 8 fis16(\upbow g)
+    a fis d fis a fis d fis a8 d d cis16( h)
+    a fis d fis a fis d fis g8 e e fis16( g)
+
+    a fis d fis a fis d fis a8 d d d,16( e)
+    fis a fis d e g fis e d8 d d[ g]
+
+    fis16 a fis a fis a g fis e a e a e g fis e
+    fis a fis a fis a g fis e d' cis h a8 g
+
+    fis16 a fis a fis a g fis e a e a e g fis e
+    fis a fis d e g fis e d8[ d] d
+  }
+
+  \introg
+  \partial 8 a\upbow
+  d16( fis) e d h8 h a a d8.( d16)-.
+  e8 e fis fis e16( fis) e d h8( a)
+
+  d16( fis) e d h8 h a a d8.( a'16)
+  d( cis) d a h8 a16 g fis8 e d fis16( g)
+
+  a8 a g g16 g fis fis fis fis e8.( a,16)
+  d8 d e e16 e fis( e) d8 e( fis16 g)
+
+  a8 a g g16 g fis8 fis e8.( a16)
+  d( cis) d a h8 a16 g fis8 e d a
+
+  d16( fis) e d h g' h, g' a, d a fis' d8.( d16)-.
+  <e a>8 <e a>16 <e a> <fis a>8 <fis a>16 <fis a> << { a8 a16 a d,4 } \\ { e16( fis) e d h8( a) } >>
+
+  d16( fis) e d h( d) g d a( d) fis a d,8.( a'16)
+  << { d( cis) d a } \\ { d,8 d16 d } >> <d h'>8 a'16 <g a> <fis a>8 <e a> <d a'> fis16( g)
+
+  a( fis) d fis g( fis) e g fis( e) d fis e8.( a,16)
+  d( e) fis d e( fis) g e fis( e) d fis e8( fis16 g)
+
+  a fis a fis g e g e fis d fis d e8. a16
+  << { d( cis) d a h( d) a a a8 a } \\ { d, d16 d d8 d16 g fis( d) e8 } >> <d a'> \bar "|."
 }

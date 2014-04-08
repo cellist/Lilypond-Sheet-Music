@@ -129,4 +129,46 @@ vb = \relative c {
     { fis'8 d a d fis4 r }
     { fis8 d a fis d4 }
   } \bar "|."
+
+  \introf
+  \repeat volta 2 {
+    \partial 8 r8
+    d a' d, a' d, g fis e
+    d a' d, fis a h a g
+
+    fis a d, a' d, g fis g
+    a d a cis d[ a] d, r
+
+    d <d' a'> d, <d' a'> a <g' a> a, <g' a>
+    d, <d' a'> d, <d' a'> a g fis e
+
+    d <d' a'> d, <d' a'> a <g' a> a, <g' a>
+    d, <d' a'> a <g' a> d,[ <fis' a>] <fis a>
+  }
+
+  \introg
+  \partial 8 r
+  d, d' <g, d'> d' d, d' <a fis'> d
+  a cis <d a'> d a' a, g e
+
+  d d' <g, d'> d' d, d' <a fis'> d
+  fis d g, h a[ cis] d r
+
+  d,\downbow d' <d h'> d d, a' <g' a> e
+  <fis a> a, <g' a> a, <d a'> <fis a> <g a> a,
+
+  d, d' <d h'> d d, a' <g' a> a,
+  <fis' a> a, <g d'> <d' h'> <d a'>[ <g a>] <fis a> r
+
+  d,\downbow fis g d' a cis d fis
+  cis a d d, a' fis g e
+
+  d d' g, h a cis d c
+  h a g h a[ cis!] d r
+
+  d,\downbow fis a cis d h cis a
+  fis d a' cis d fis a a,
+
+  d, fis a cis d16 fis a8 d( cis)
+  h a g fis16 e d8[\upbow a]\upbow d, \bar "|."
 }
