@@ -2,6 +2,7 @@ va = \relative c'' {
   \voiceconsts
   \clef "treble"
 
+  \introa
   \repeat volta 2 {
     \partial 4 fis4
     h( a) g( fis)
@@ -18,5 +19,24 @@ va = \relative c'' {
 
     g( fis e) a
     fis2.\fermata
+  }
+
+  \introb
+    \repeat volta 2 {
+    es4 f g f
+    es d c b\fermata
+    es f g as
+    g f es2\fermata
+    g4 as b as
+    g f g2\fermata
+
+    b4 b c b
+    as g f2\fermata
+    g8 as b4 as g8 f
+    es4 f g2
+    es\fermata g8 as b4
+
+    as g f g
+    f2 es\fermata
   }
 }
