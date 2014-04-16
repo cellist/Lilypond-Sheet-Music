@@ -1,10 +1,10 @@
 \version "2.14.2"
 \include "deutsch.ly"
 
-#(set-global-staff-size 18.25)
+#(set-global-staff-size 17)
 
 \header {
-  title     = \markup \bold \italic "Sonata II"
+  title     = \markup \bold \italic "Sonata"
   composer  = "Leonardo Vinci (1690-1730)"
   arranger  = "arr.: Arturs Banga"
   enteredby = "cellist (2014-04-15)"
@@ -12,11 +12,11 @@
 
 voiceconsts = {
   \key d \major
-  \time 2/4
   \clef "bass"
-  \numericTimeSignature
+  % \numericTimeSignature
+  \set tupletSpannerDuration = #(ly:make-moment 1 8)
   \compressFullBarRests
-  \tempo "Allegretto " 4=90
+
 }
 
 mihi = "clarinet"
@@ -25,6 +25,11 @@ milo = "bassoon"
 %milo = "church organ"
 %mihi = "harpsichord"
 %milo = "harpsichord"
+
+introa = {        \tempo "I. Adagio "   8=72 \time 4/4 }
+introb = { \break \tempo "II. Allegro " 4=90 \time 2/4 }
+
+rit  = \markup \bold \italic "rit."
 
 \include "v1.ily"
 \include "v2.ily"

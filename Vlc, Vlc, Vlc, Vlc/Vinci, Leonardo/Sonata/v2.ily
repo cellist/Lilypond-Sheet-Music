@@ -1,10 +1,34 @@
-vb = \relative c''' {
+vb = \relative c'' {
   \voiceconsts
   \clef "tenor"
 
-  \partial 8
+  \introa \partial 8
+  r8
+  a2\mf a4~ a8 a16 h
+  cis8 cis16 d e8 e e d r4
+  h8 d cis d e e a,16 h cis8
+  d\< h cis4 d\! a8 fis
+
+  e4 fis8 gis a4~ a8 cis,
+  d\> e fis4e8 gis a\! cis\mf
+  d4 e d cis8 d
+  e fis e4 e8 r e4
+
+  \times 2/3 { d16(\< e fis) fis[( g? a)] a,( h c) c[( h a)] h( d g,)\! } fis8\> g h\!
+  \times 2/3 { e16(\< fis gis) gis[( a h)] h,( cis! d) d[( cis h)] cis( e a,)\! } gis8\> a a\!
+  h4\f a g! fis8 h
+
+  d4~ d8 cis d4 fis8 d
+  h4 a g fis8 h
+  d4~\mf d8 cis d r h4
+
+  d~ d8 cis d r d4
+  r d8^\rit cis d a a4
+  a1 \bar "|."
+
+  \introb \partial 8
   \repeat volta 2 {
-    a8\f
+    a'8\f
     d, d d d
     d16( e) fis g a8 h
     a d g,4\trill

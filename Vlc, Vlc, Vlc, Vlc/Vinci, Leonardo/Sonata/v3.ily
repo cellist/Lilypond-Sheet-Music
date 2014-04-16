@@ -1,7 +1,31 @@
 vc = \relative c' {
   \voiceconsts
 
-  \partial 8
+  \introa \partial 8
+  r8
+  fis4\mf d16 e fis8 r cis16( d e4)
+  r8 a g4~ g8 fis r fis
+  g a g fis e4 r
+  fis8\< g4 e8 fis\! g a fis
+
+  a4 d, cis8 cis16 d e4
+  a8\> g a4 e8 gis a\! e\f
+  \times 2/3 { fis16( gis a) h[( cis d)] e,( fis gis) a[( h cis)] d,( e fis) gis[( a h)] } cis,8 fis
+
+  \times 2/3 { e16( a gis) fis[( e d)] } cis8 h a4 r8 a
+  \times 2/3 { h'16(\< cis d) d[( e fis)] fis,( g! a) a[( g fis)] g( h g)\! } fis8\> g h\!
+
+  \times 2/3 { e,16(\< e e) e[( e e)] e( e e) e[( e e)] cis'( e a,)\! } h8\> cis d\!
+  gis,\mf r fis r e r d gis
+  a16.( g!32 a16. h32) a8 g fis g a fis
+
+  gis r fis r e r d gis
+  a16.(\mf g!32 a16. h32) a8 g fis r d4
+  a'16.( g!32 a16. h32) e,4 d8 r h'4
+  r8 a~ a8.^\rit g16 fis4 e
+  fis1 \bar "|."
+
+  \introb \partial 8
   \repeat volta 2 {
     r8
     r fis-.\mp a-. fis-.
