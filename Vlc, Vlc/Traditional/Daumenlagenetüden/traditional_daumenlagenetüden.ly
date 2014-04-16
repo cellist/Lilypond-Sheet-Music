@@ -1,7 +1,7 @@
 \version "2.14.2"
 \include "deutsch.ly"
 
-#(set-global-staff-size 19.25)
+#(set-global-staff-size 18.75)
 
 \header {
   title     = \markup \bold \italic "Etüden für die Daumenlage"
@@ -46,6 +46,11 @@ introf = {
 introg = {
             \break
             \tempo "7. Arkansas Traveller " 8=150
+}
+introh = {
+            \break
+            \tempo "8. The Hundred Pipers " 4.=70
+	    \time 6/8
 }
 
 sepi = \markup \italic "sempre pizz."

@@ -171,4 +171,91 @@ va = \relative c'' {
 
   a fis a fis g e g e fis d fis d e8. a16
   << { d( cis) d a h( d) a a a8 a } \\ { d, d16 d d8 d16 g fis( d) e8 } >> <d a'> \bar "|."
+
+  \introh
+  \partial 4 fis(\upbow e)
+  \repeat volta 2 {
+    d( e d) d( fis a)
+    h4.~ h8 cis( d)
+    a( fis d) d( e fis)
+    e4.~ e8 fis( e)
+    d( e d) d( fis a)
+
+    h4.~ h8 cis( d)
+    a( d fis,) e( d e)
+  }
+  \alternative {
+    { d4.~ d8 fis( e) }
+    { d4.~ d4 a'8 }
+  }
+  \repeat volta 2 {
+    a( h cis) d( cis d)
+
+    h4.~ h8 cis( d)
+    a( fis d) d( e fis)
+    e4.~ e8 fis( e)
+    d( e d) d( fis a)
+    h4.~ h8 cis( d)
+    a( d fis,) e( d e)
+  }
+  \alternative {
+    { d4.~ d4 a'8 }
+    { d,4.~ d8 d( e) }
+  }
+  \repeat volta 2 {
+    fis4( a,8) a( h a)
+    h4( d8) d4( h'8)
+    a4( fis8) fis( e d)
+
+    fis4( e8) e( d e)
+    fis4( a,8) a( h a)
+    h4( d8) d4( h'8)
+    a4( fis8) e( d e)
+  }
+  \alternative {
+    { d4 d8 d d( e) }
+    { d4 d8 d fis( g) }
+  }
+  \repeat volta 2 {
+    a4( a8)-- a( fis a)
+    h4( d8) d4( h8)
+    a4( fis8) fis( e d)
+
+    fis4( e8) e( fis g)
+    a4( a8)-- a( h cis)
+    d4( d8)-- d( cis h)
+    a4( fis8) e( d e)
+  }
+  \alternative {
+    { d4 d8 d fis( g) }
+    { d4 d8 d fis( e) }
+  }
+  \repeat volta 2 {
+    d( e d) d( fis a)
+    h4.~ h8 cis( d)
+    a( fis d) d( e fis)
+    e4.~ e8 fis( e)
+
+    d( e d) d( fis a)
+    h4.~ h8 cis( d)
+    a( d fis,) e( d e)
+  }
+  \alternative {
+    { d4.~ d8 fis( e) }
+    { d4.~ d4 a'8 }
+  }
+  \repeat volta 2 {
+    a( h cis) d( cis d)
+    h4.~ h8 cis( d)
+    a( fis d) d( e fis)
+    e4.~ e8 fis( e)
+
+    d8. e16 d8 d( fis a)
+    h4.~ h8 cis( d)
+    a( d fis,) e( d e)
+  }
+  \alternative {
+    { d4.~ d4 a'8 }
+    { d,4. <fis d'>8 }
+  } \bar "|."
 }

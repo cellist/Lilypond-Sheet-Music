@@ -171,4 +171,91 @@ vb = \relative c {
 
   d, fis a cis d16 fis a8 d( cis)
   h a g fis16 e d8[\upbow a]\upbow d, \bar "|."
+
+  \introh
+  \partial 4 r r
+  \repeat volta 2 {
+    <d' d'>2.~
+    <d d'>~
+    <d d'>~
+    <d d'>~
+    <d d'>~
+
+    <d d'>~
+    <d d'>~
+  }
+  \alternative {
+    { <d d'> }
+    { <d d'>~ }
+  }
+  \repeat volta 2 {
+    <d d'>~
+
+    <d d'>~
+    <d d'>~
+    <d d'>~
+    <d d'>~
+    <d d'>~
+    <d d'>~
+  }
+  \alternative {
+    { <d d'> }
+    { <d d'>4.~ <d d'>8 r r }
+  }
+  \repeat volta 2 {
+    <d a'>4\downbow <d, a'>8~ <d a'>4.
+    <g d'>2.
+    <d' a'>4 <d, a'>8~ <d a'>4.
+
+    <a' e'>2.
+    <d a'>4 <d, a'>8~ <d a'>4.
+    <g d'>2.
+    <d' a'>4. <a e'>
+  }
+  \alternative {
+    { <d, a'>~ <d a'>8 r r }
+    { <d a'>4.~ <d a'>8 r r }
+  }
+  \repeat volta 2 {
+    <d a'>8.\downbow <d' a'>16\upbow  <d a'>8\downbow <d a'> <d, a'> <d' a'>
+    <g, d'>-> <d' h'> <g, d'>-> <d' h'> <g, d'>-> <d' h'> 
+    <d, a'>8. <d' a'>16 <d a'>8 <d a'> <d, a'> <d' a'>
+
+    <a e'>-> <e' a> <a, e'>-> <e' a> <a, e'>-> <e' a>
+    <d, a'>8. <d' a'>16  <d a'>8 <d a'> <d, a'> <d' a'>
+    <g, d'>-> <d' h'> <g, d'>-> <d' h'> <g, d'>-> <d' h'> 
+    <d, a'>8. <d' a'>16 <d a'>8 <a e'> <e' a> <a, e'>
+  }
+  \alternative {
+    { <d, a'>8. <d' a'>16 <d a'>8 <d a'> r r }
+    { <d, a'>8. <d' a'>16 <d a'>8 <d a'> r r }
+  }
+  \repeat volta 2 {
+    <d a'>2.~\downbow
+    <d a'>4. <g, d'>
+    <d' a'>2.~
+    <d a'>4. <a e'>
+
+    <d a'>2.~
+    <d a'>4. <g, d'>
+    <d' a'> <a e'>
+  }
+  \alternative {
+    { <d a'>~ <d a'>8 r r }
+    { <d a'>4.~ <d a'>4 r8 }
+  }
+  \repeat volta 2 {
+    <d a'>4\downbow <d, a'> <d' a'>
+    <g, d'>4. <g d'>
+    <d' a'>4 <d, a'> <d' a'>
+    <a e'>4. <a e'>
+
+    <d a'>4 <d, a'> <d' a'>
+    <g, d'>4. <g d'>
+    <d' a'>4 <g, d'> <a e'>
+  }
+  \alternative {
+    { <d,a'>4.~ <d a'>4 r8 }
+    { <d a'>4. <d a'>8 }
+  } \bar "|."
 }
