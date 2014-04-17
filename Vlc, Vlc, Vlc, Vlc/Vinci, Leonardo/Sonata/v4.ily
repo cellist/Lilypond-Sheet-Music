@@ -123,6 +123,35 @@ vd = \relative c' {
     d4-- r
     r8 d-. a'-. a-.
     d, d a' a
-    d,4\fermata r8
+    d,4\fermata r8 \bar "|."
+
+    \introc
+    \partial 2. h'4\mf h, h'
+    cis8 h cis4 h
+    ais2 fis4
+    h2 h4
+    ais a a
+    gis g g
+    fis fis e
+    dis dis dis
+
+    e e d!
+    cis cis cis
+    d fis e
+    d2 h'4
+    cis,2 a'4
+    h2 g4
+    a8 g fis[ e] d e
+
+    fis[ g] a r a4
+    d fis8 e d cis
+    h4 h h
+    cis8 h cis4 h
+
+    ais2 fis4
+    h h h
+    a?^\rit a a
+    g g g
+    fis2. \bar "|."
   }
 }

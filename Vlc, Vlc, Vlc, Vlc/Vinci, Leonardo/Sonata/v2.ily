@@ -127,6 +127,34 @@ vb = \relative c'' {
     fis'( d) e fis g a h cis
     d8 fis, e cis'
     d fis,, e cis'\trill
-    d4\fermata r8
+    d4\fermata r8 \bar "|."
+
+    \introc
+    \partial 2. d2.\p
+    e2 d4
+    e2.
+    h8 cis d4 g~
+    g e2~
+    e4 e2
+    fis cis4
+    fis h a
+
+    \times 2/3 { g8(\mf a h) a[( g fis)] } e4
+    e\mp a g
+    \times 2/3 { fis8(\mf fis g) a[( a h)] cis( h a) }
+    fis4\mp d d
+    e2.
+    d
+    e4 fis8 e d e
+
+    d4\mp d cis
+    d2 fis,8 e
+    d'2.
+    e
+    e4 fis e
+    fis g2~
+    g4^\rit fis2
+    fis4\mf e4.\trill fis8
+    fis2. \bar "|."
   }
 }

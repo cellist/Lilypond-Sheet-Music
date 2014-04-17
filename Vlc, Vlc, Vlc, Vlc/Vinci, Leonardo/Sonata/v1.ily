@@ -121,6 +121,34 @@ va = \relative c'' {
     r16 fis( g a h cis d e
     fis) r d8-. d-. cis-.
     d16 r a8 a4
-    a\fermata r8
+    a\fermata r8 \bar "|."
+
+    \introc \clef "tenor"
+    \partial 2. h2.\p
+    ais2 h4
+    cis2 ais4
+    h8 cis d4 d
+    cis2 cis4
+    h2 h4
+    ais2 ais4
+    h2.
+
+    \times 2/3 { e8(\mf e e) e[( e e)] } d4
+    e2.\mp
+    \times 2/3 { d8(\mf d g) fis[( fis fis)] g( g a?) }
+    d,2\mp h'4~
+    h a a
+    fis g8 a h4
+    a a8 g fis e
+
+    a4\mp e2
+    fis h,8 cis
+    d4 h2
+    h4 ais h
+    cis2.
+    h
+    cis^\rit
+    h2 h4
+    ais2. \bar "|."
   }
 }

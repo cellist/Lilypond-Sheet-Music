@@ -28,6 +28,8 @@ milo = "bassoon"
 
 introa = {        \tempo "I. Adagio "   8=72 \time 4/4 }
 introb = { \break \tempo "II. Allegro " 4=90 \time 2/4 }
+introc = { \break \tempo "III. Largo "  4=66 \time 3/4
+           \set tupletSpannerDuration = #(ly:make-moment 1 4) }
 
 rit  = \markup \bold \italic "rit."
 

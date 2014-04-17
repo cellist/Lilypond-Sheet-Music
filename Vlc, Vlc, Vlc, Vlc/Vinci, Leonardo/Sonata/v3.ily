@@ -123,6 +123,35 @@ vc = \relative c' {
     a4-- r
     r8 fis'-. e-. e-.
     r d cis g'
-    fis4\fermata r8
+    fis4\fermata r8 \bar "|."
   }
+
+  \introc \clef "tenor"
+  \partial 2. fis'4\f g fis
+  e8 dis e4 r
+  e fis e
+  d8 cis h4 g'~
+  g8 cis, fis2~
+  fis8 h, e4. fis8
+  fis2 fis4
+
+  \times 2/3 { fis8(\mp\< g a) dis,[( e fis)] } h,32( cis dis e fis g a h)\!
+  g2\f r4
+  \times 2/3 { e8(\mp\< fis g) cis,[( d? e)] } a,32( h cis d e fis g a)\!
+  fis,2\f r4
+
+  \times 2/3 { fis8(\mf\< g a h[ cis d]) d,( e fis)\! }
+  \times 2/3 { e(\mf\< fis g a[ h cis]) cis,( d e)\! }
+  \times 2/3 { d(\mf\< e fis g[ a h]) h,( cis d)\! }
+  cis'16(\mp\< a h cis d e fis g a8.) cis,16
+  d8. g,16 e4.\! d8\f
+
+  d2 r4
+  e' fis e
+  e8 dis e4 r
+  e fis e
+  d?8 h g'2~
+  g8^\rit cis, fis2
+  fis e4
+  cis2. \bar "|."
 }
