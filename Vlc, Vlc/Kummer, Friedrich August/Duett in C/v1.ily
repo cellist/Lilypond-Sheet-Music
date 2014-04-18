@@ -5,12 +5,12 @@ va = \relative c, {
   \repeat volta 2 {
     <c g' e' c'>2.\f\arpeggio g''4
     e2-> c->
-    h( c4-2 cis-3)
-    d2-4 r
+    h(\< c4-2 cis-3)
+    d2-4 r\!
     <g, d' d'>2.\f\arpeggio h'4
     g2-> f->
-    e( f4 fis)
-    g2 r
+    e(\> f4 fis)
+    g2 r\!
     g'2.(-4\p c,4-2)
 
     c2( h)
@@ -36,11 +36,11 @@ va = \relative c, {
     fis4\f d'2( cis4)
     d d2( cis4)
     d( c?2 a8 fis)
-    d4.(\> e8 fis g a ais)\!
+    d4.(\> e8 fis g a-1 ais-2)\! \boxa
     h2(_\dolc c4 h)
     h( a?2 h4)
-
     h( c d c)
+
     c( h2 c8 cis)
     d4\< g2-4 fis4~
     fis e2 d4~\!
@@ -54,7 +54,7 @@ va = \relative c, {
     h2 a?4( c)
     g( h) fis( a)
     e2 a,4( c)
-    d2 d
+    d2 d \boxb
 
     g,4-.\f h'8-. c-. cis( d c) h-.
     h( a) a-. g-. fis-. e-. d-. c-.
@@ -85,18 +85,18 @@ va = \relative c, {
     g2( fis4 a)
     g1~
     g2 r
-  }
+  } \boxc
 
   <g, d' g'>2.\f\arpeggio d''4
   h2-> g->
   f?1
   f
-  gis'2.-> e4
-  h2-> gis->
+  gis'2.->-4 e4-2
+  h2->-4 gis->-1
   d1
   d
-  g'2.(\p a,4)
-  a2( gis)
+  g'2.(\p-2 a,4)-0
+  a2(-2 gis)-1
   e'2.( h4)
   d2( c)
   c4.(-> h8) h4.(-> a8)
@@ -106,7 +106,7 @@ va = \relative c, {
   e4-. d( c h)
   c( e c e)
   h( e h e)
-  gis,( e' gis, e')
+  gis,(-1 e'-2 gis, e')
   g,?( e' g, e')
   f( a) e( g)
   d( f) c( e)
@@ -125,7 +125,7 @@ va = \relative c, {
   f4_\crsc a-0-3 g( f)
   e2 fis4( e8 fis)
   g4 r g,2(\upbow\p
-  a h)
+  a h) \boxd
   <c,, g' e' c'>2.\f\arpeggio g''4
   e2-> c->
   h( c4 cis)
@@ -150,8 +150,8 @@ va = \relative c, {
   f( e2 f4)
   g c2 h4~
   h f'2( e4)
-  a,(\< h8 c d4 dis)\!
-  e(\< f2)\! r4
+  a,(\< h8 c d4-1 dis)\!-2
+  e(\<-3 f2)\!-4 r4
   c,8(\p g c g) d'( g, c g)
   c( g h g) h( g c g)
 
@@ -160,7 +160,7 @@ va = \relative c, {
   e'2 d
   g, c
   <f a>1
-  <g, e'>2( <g f'>)
+  <g, e'>2( <g f'>) \boxe
   e'4 e'8-.\f f-. fis( g f) e-.
   e( d) d-. c-. h-. a-. g-. f-.
 
@@ -195,4 +195,114 @@ va = \relative c, {
   c2( h4 d)
   c4 r <g-2 e'-4>\f r
   <e-1 c'-2>1\fermata\f \bar "|."
+
+  \introb
+  f2.\p
+  a
+  c4(\< d c)
+  c8(\! b) a4 r
+  d2\downbow g,4
+  c2 f,4
+  b\> b8( c) a( b)
+  g2\! r4
+  f2.\turn
+  a
+  c4(\< d c)
+  c8(\! b) a4 r
+
+  d2\downbow g,4
+  c2 f,4
+  b4.(\> a8 g gis)
+  a2 r4
+  c(\p b) a
+  d4.( c8) b4
+  b4.(\< h8 c4)
+  c4.( cis8 d4)
+  es4.\!\> d8( b? g)
+  des'4. c?8( a f)\!
+
+  as2(\sf g8 f)
+  e?4( c'8 h b g)
+  f2.\p
+  a?
+  c4( d c)
+  c8( b) a4 r
+  d2(\downbow\< g4)
+  c,2( f4)
+  b,(\! a) c(~
+  c8 b) g'16( f e d c b a g)
+
+  f2( g8\turn e)
+  f4 r8 a( g f)
+  e( d) cis2 \boxf
+  d8( a') g( a) f( a)
+  e( a) d,( a') g( a)
+  f( d) e( f g gis)
+  a( d cis a) g!( e)
+
+  d( a') g( a) f( a)
+  e( a) d,( a') cis( a)
+  c!( h b a) as( f)
+  <c, a'!>4 << { c'( h8 b) } \\ c,2 >>
+  a'8-.\p a( g f e d)
+  c2.~
+  c8 b'( a g f es
+
+  d) c'( b a g fis)
+  a( g c b a g)
+  f?( e d_\crsc c) b'( a)
+  d( c) f( e d c)
+  f( e d c h b
+  a) r << { d4.( f8) } \\ a,2\f >>
+  <a e'>4 r r
+
+  d8(\p a') g( a) f( a)
+  e( a) d,( a') g( a)
+  f( d) e( f g gis)
+  a( d cis a) g!( e)
+  d( a' d c!) b( g)
+  a,( e' a g) f( d)
+  g,( b) a2
+
+  d4 r r
+  r8 b'(\downbow a g f e)
+  e4 r r \boxg
+  f2.\p
+  a
+  c4(\< d c)
+  c8(\! b) a4 r
+  d2\downbow g,4
+  c2 f,4
+  b\> b8( c) a( b)
+
+  g2\! r4
+  c( b) a
+  d4.( c8) b4
+  b4.(\< h8 c4)
+  c4.( cis8 d4)
+  es4.\!\> d8( b? g)
+  des'4. c?8( a f)\!
+  as2(\sf g8 f)
+  e?4( c'8 h b g)
+
+  f2.\turn\p
+  a
+  c4( d? c)
+  c8( b) a4 r
+  d2(\downbow\< g4)
+  c,2( f4)
+  b,(\! a) c(~
+  c8 b) g'16( f e d c b a g)
+  f2( g8\turn e)
+  f8-. c( b a g f)
+
+  e2.(
+  es8) fis( g a b c)
+  h-. f''!(_\crsc e d c h)
+  c4 f4.(\> c8)\!
+  << { c2( d8 c) } \\ e,2.\pp >>
+  f2( g8\turn e)
+  f2( g8\turn e)
+  f4-. f(-. f)-.
+  f2 r4 \bar "|."
 }
