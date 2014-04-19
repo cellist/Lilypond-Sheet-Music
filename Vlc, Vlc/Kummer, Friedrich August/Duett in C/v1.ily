@@ -232,7 +232,7 @@ va = \relative c, {
   b,(\! a) c(~
   c8 b) g'16( f e d c b a g)
 
-  f2( g8\turn e)
+  f2(\turn g8 e)
   f4 r8 a( g f)
   e( d) cis2 \boxf
   d8( a') g( a) f( a)
@@ -293,7 +293,7 @@ va = \relative c, {
   c,2( f4)
   b,(\! a) c(~
   c8 b) g'16( f e d c b a g)
-  f2( g8\turn e)
+  f2(\turn g8 e)
   f8-. c( b a g f)
 
   e2.(
@@ -301,8 +301,175 @@ va = \relative c, {
   h-. f''!(_\crsc e d c h)
   c4 f4.(\> c8)\!
   << { c2( d8 c) } \\ e,2.\pp >>
-  f2( g8\turn e)
-  f2( g8\turn e)
+  f2(\turn g8 e)
+  f2(\turn g8 e)
   f4-. f(-. f)-.
   f2 r4 \bar "|."
+
+  \introc
+  c'8.(\p h32 c d8 h)
+  c-. e g4->
+  c,8.( h32 c d8 h)
+  c-. e g4->
+  a(-> g8) r
+  f4(-> e8) r
+  d[-. c-. f-. e]-.
+  d4 g,
+  c8.( h32 c d8 h)
+
+  c-. e-. g4->
+  c,8.( h32 c d8 h)
+  c-. e g4->
+  fis(-> g8) r
+  a4(-> g8) r
+  c,8.( h32 c d8 h)
+  c4 r
+  c(\p h8 a)
+  gis-. h-. a8.( h16)
+  c4( h8 a)
+  gis-. h-. a8.( h16)
+
+  c4.(\< d8)\!
+  es[(-> d) es(-> d)]
+  e![( d) c-. a]-.
+  fis[-. d-. c-. a]-.
+  g[(\p d' h' d,)]
+  g,[( d' h' d,)]
+  a[( d c' d,)]
+  a[( d fis d)]
+  g,[( d' h' d,)]
+  g,[( d' h' d,)]
+  a[( d c' d,)]
+
+  a[( d fis d)]
+  g,[( d' g, d')]
+  c[( e c e)]
+  a,[( e' a, e')]
+  d[( fis d fis)]
+  g,[( d' g, d')]
+  c[( e c e)]
+  a,[( e' a, e')]
+  d[( fis d fis)]
+  c[( d c d)]
+  h[( d h d)]
+  a[( d fis d)]
+
+  gis,[(\< d' f! d)]
+  a[-.\! a-. h-._\crsc g!]-.
+  c[-. g-. cis-. g]-.
+  d'[(\> g, d' cis)]
+  d[( g, d' cis)]
+  d\! r g4(\p
+  a h)
+  c8.( h32 c d8 h)
+  c-. e g4->
+  c,8.( h32 c d8 h)
+  c-. e g4->
+
+  a4(-> g8) r
+  f4(-> e8) r
+  d[-. c-. f-. e]-.
+  d4 g,
+  c8.( h32 c d8 h)
+  c-. e-. g4->
+  c,8.( h32 c d8 h)
+  c-. e g4->
+  fis(-> g8) r
+  a4(-> g8) r
+  c,8.( h32 c d8 h)
+  c4 r \boxh
+
+  a,8[(\mf c e a)]
+  a4( gis)
+  c,8[( e a c)]
+  c4( h)
+  e,8[( a c e)]
+  e[( d) f-. e]-.
+  d[-. c-. h-. a]-.
+  c4( h)
+  R2
+  h,8[(\upbow d gis-1 h)]-4
+  h4( a)
+  d,8[( f h d)]
+
+  d4( c)
+  f,8[( a) d-.\f h]-.
+  a[-. d,-. e-. e]-.
+  a,4 r
+  a8[(\p c f a)]
+  b4 b,
+  a8[( c) f-. a]-.
+  b4.( c16 b)
+  a8[(-> g?) b(-> a)]
+  d[( c) f-. e]-.
+  d[-. c-. b-. a]-.
+  a4( g8) r
+
+  f,2
+  e8[( g c e)]
+  f4 f,
+  e8[( g) c( e)]
+  f[(-> e) d(-> c)]
+  b(-> a) gis4
+  a d8(-2 dis)-3
+  e[(-4 a)-2 gis( e)]
+  a,[(\< c e a)]
+  a4(\! gis)
+  c,8[(\< e a c)]
+  c4(\! h?)
+
+  e,8[(\< a) c( e)]
+  e[(\! d) f-. e]-.
+  d[-. c-. h-. a]-.
+  gis2(\dim
+  g!) \boxi
+  c8.(\p h32 c d8 h)
+  c-. e-. g4->
+  c,8.( h32 c d8 h)
+  c-. e-. g4->
+  fis(-> g8) r
+  a4\(( g8) e\)-.
+  c8.(^\rit h32 c) d8( h)
+
+  c8^\atem e,16( f?) g-. a-. h-. c-.
+  c( h) d-. c-. h( a) g-. f-.
+  e8-. e16( f) g-. a-. h-. c-.
+  c( h) d-. c-. h( a) g-. f-.
+  e( d e f g a h c)
+  d( c h a g f e d)
+  e( f g a h c d-1 e)
+
+  f( e d c h a g f)
+  g(\< a h c d e f g)\!\>
+  a2
+  g8[-.\!\f e-. c-. g]-.
+  e[-. c-. g-. <d' h'>]-.
+  c[(\p g c, g')]
+  d[( g d g)]
+  c,[( g' c, g')]
+  d[( g d g)]
+  c,16( g' c d e f g a)
+
+  h( a g f e d c h)
+  c( d e f g a h c)
+  d( c h a g f e d)
+  e(\< f g a h c d e)\!\>
+  f2
+  e8[-.\!\f c-. g-. e]-.
+  c r g' r
+  c8.(\p h32 c d8 h)
+  c(-. e)-. g4(
+  fis8 f) e4
+
+  e8[( d) c( h)]
+  c8.(\p h32 c d8 h)
+  c(-. e)-. g4(
+  fis8 f) e4
+  e8[( d) c( h)]
+  c8.( h32 c) d8(-. h)-.
+  c8.( h32 c) d8(-. h)-.
+  c[-.\f g,-. c-. e]-.
+  g[-. c-. e-. g]-.
+  e r <e, c'>8.( <e c'>16)-.
+  <e c'>4 r \bar "|."
 }

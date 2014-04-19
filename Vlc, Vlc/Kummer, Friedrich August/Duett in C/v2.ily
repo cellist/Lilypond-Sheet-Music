@@ -307,4 +307,171 @@ vb = \relative c, {
   a'( c, a' c, b' c,)
   f( a) c( a c a)
   f2 r4 \bar "|."
+
+  \introc
+  <c e'>8[(-.\p <c e'>-. <c f'>-. <c f'>)]-.
+  <c e'>[(-. <c e'>-. <c e'>-. <c e'>)]-.
+  <c e'>[(-. <c e'>-. <c f'>-. <c f'>)]-.
+  <c e'>[(-. <c e'>-. <c e'>-. <c e'>)]-.
+  <c f'>[(-. <c f'>-. <c e'>-. <c e'>)]-.
+  <c a'>[(-. <c a'>-. <c g'>-. <c g'>)]-.
+  f'[-. e-. h-. c]-.
+  g[( h) d( f)]
+  <c, e'>[(-. <c e'>-. <c f'>-. <c f'>)]-.
+  <c e'>[(-. <c e'>-. <c e'>-. <c e'>)]-.
+  <c e'>[(-. <c e'>-. <c f'>-. <c f'>)]-.
+
+  <c e'>[(-. <c e'>-. <c e'>-. <c e'>)]-.
+  <c dis'>[(-.-> <c dis'>-. <c e'>-. <c e'>)]-.
+  <c dis'>[(-.-> <c dis'>-. <c e'>-. <c e'>)]-.
+  <g' e'>[(-. <g e'>)-. <g f'>(-. <g f'>)]-.
+  <g e'>[-. e'( c h)]
+  <a e'>[(-.\p <a e'>-. <a e'>-. <a e'>)]-.
+  <a f'>[(-. <a f'>-. <a e'>-. <a e'>)]-.
+  <a e'>[(-. <a e'>-. <a e'>-. <a e'>)]-.
+  <a f'>[(-. <a f'>-. <a e'>-. <a e'>)]-.
+  <a fis'>[(-.\< <a fis'>-. <a fis'>-. <a fis'>)]-.
+  <a fis'>4\!-> <a fis'>->
+
+  <a fis'> r
+  R2
+  h'4.(\downbow\p c8)
+  d?4.( g8)
+  fis4.( e8)
+  d4.( c8)
+  h4.( c8)
+  d4.( g8)
+  fis4.( e8)
+  d4.( c8)
+  h4.(\< a8)
+  g2
+  c4.( h8)
+  a[(\! d cis c)]
+
+  h4.( a8)
+  a[( g) g-. g]-.
+  d'( c4 h8)
+  h4( a)
+  fis'( \grace { g16[ fis] } e8 fis)
+  g[( fis e d)]
+  d4.(_\crsc c8)
+  h2
+  c4 d
+  e e
+  f?4.(-> e8)
+  f4.(-> e8)
+  f r g,4(\p
+
+  f d)
+  <c, e'>8[(-. <c e'>-. <c f'>-. <c f'>)]-.
+  <c e'>[(-. <c e'>-. <c e'>-. <c e'>)]-.
+  <c e'>[(-. <c e'>-. <c f'>-. <c f'>)]-.
+  <c e'>[(-. <c e'>-. <c e'>-. <c e'>)]-.
+  <c f'>[(-. <c f'>-. <c e'>-. <c e'>)]-.
+  <c a'>[(-. <c a'>-. <c g'>-. <c g'>)]-.
+  f'[-. e-. h-. c]-.
+  g[( h) d( f)]
+  <c, e'>[(-. <c e'>-. <c f'>-. <c f'>)]-.
+  <c e'>[(-. <c e'>-. <c e'>-. <c e'>)]-.
+
+  <c e'>[(-. <c e'>-. <c f'>-. <c f'>)]-.
+  <c e'>[(-. <c e'>-. <c e'>-. <c e'>)]-.
+  <c dis'>[(-.-> <c dis'>-. <c e'>-. <c e'>)]-.
+  <c dis'>[(-.-> <c dis'>-. <c e'>-. <c e'>)]-.
+  <g' e'>[(-. <g e'>)-. <g f'>(-. <g f'>)]-.
+  <c, g' e'>4 r \boxh
+  R2
+  h'8[(\upbow\mf d? gis-1 h)]-4
+  h4( a)
+  d,8[( f h d)]
+  d4( c)
+  f,8[( a) d-. c]-.
+
+  h[-. a-. d,-. dis]-.
+  e(-2 a)-2 gis(-1 e)-4
+  a,[( c e a)]
+  a4( gis)
+  c,8[( e a c)]
+  c4( h)
+  e,8[( a c e)]
+  e[( d) f-.\f d]-.
+  c[-. h-. a-. gis]-.
+  a[-. e-. c-. a]-.
+  f2\p
+  e8[( g? c e)]
+
+  f4 f,
+  e8[( g) c( e)]
+  f(-> e) d(-> c)
+  b[(-> a) d-. c]-.
+  b[-. a-. b-. h]-.
+  c[( f e c)]
+  a[( c f a)]
+  b4 b,
+  a8[( c) f-. a]-.
+  b4.( c16 b)
+  a8[(-> g) b(-> a)]
+
+  d[( c) f-. e]-.
+  d[-. c-. h!-. a]-.
+  c4( h8) r
+  R2
+  h,8[(\downbow\< d f h)]
+  h4( a)
+  d,8[( f h d)]
+  d4(\! c)
+  f,8[( a) d-. c]-.
+  h[-. a-. d,-. dis]-.
+  e2(\dim
+  f) \boxi
+
+  <c, e'>8[(-.\p <c e'>-. <c f'>-. <c f'>)]-.
+  <c e'>[(-. <c e'>-. <c e'>-. <c e'>)]-.
+  <c e'>[(-. <c e'>-. <c f'>-. <c f'>)]-.
+  <c e'>[(-. <c e'>-. <c e'>-. <c e'>)]-.
+  <c dis'>[(-.-> <c dis'>-. <c e'>-. <c e'>)]-.
+  <c dis'>[(-.-> <c dis'>-. <c e'>-. <c c'>)]-.
+  <g' e'>4^\rit <g f'>
+  c,8[( g' c, g')]
+  d[( g d g)]
+  c,[( g' c, g')]
+  d[( g d g)]
+
+  c,16( g' c d e f g a)
+  h( a g f e d c h)
+  c( d e f g a h c)
+  d( c h a g f e d)
+  e(\< f g a h c d e)\!\>
+  f2
+  e8[-.\!\f c-. g-. e]-.
+  c[(-. e)-. g]-. r
+
+  e-. e16( f) g-. a-. h-. c-.
+  c( h) d-. c-. h( a) g-. f-.
+  e8 e16( f) g-. a-. h-. c-.
+  c( h) d-. c-. h( a) g-. f-.
+  e( d e f g a h c)
+  d( c h a g f e d)
+  e( f g a h c d e)
+
+  f( e d c h a g f)
+  g(\< a h c d e f g)\!\>
+  a2
+  g8[\!\f-. e-. c-. g]-.
+  e r <g, d'> r
+  <c, e'>[(-.\p <c e'>)-. <c f'>(-. <c f'>)]-.
+  <c e'>[(-. <c e'>)-. <c b'>(-. <c b'>)]-.
+  <c a'>[(-. <c as'>)-. <c g'>(-. <c g'>)]-.
+  <c a'!>4 <c f'>
+
+  <c e'>8[(-. <c e'>)-. <c f'>(-. <c f'>)]-.
+  <c e'>[(-. <c e'>)-. <c b'>(-. <c b'>)]-.
+  <c a'>[(-. <c as'>)-. <c g'>(-. <c g'>)]-.
+  <c a'!>4 <c f'>
+  <c e'>8[(-. <c e'>)-. <c f'>(-. <c f'>)]-.
+  <c e'>[(-. <c e'>)-. <c f'>(-. <c f'>)]-.
+  <c e'>[-.\f e-. g-. c]-.
+  e[-. g-. c-. e]-.
+  c r <c,, g'>8.( <c g'>16)-.
+  <c g'>4 r \bar "|."
 }

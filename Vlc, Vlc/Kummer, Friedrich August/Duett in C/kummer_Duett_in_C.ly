@@ -1,7 +1,7 @@
 \version "2.14.2"
 \include "deutsch.ly"
 
-#(set-global-staff-size 17)
+#(set-global-staff-size 16.25)
 
 \header {
   title     = "Duett in C-Dur"
@@ -9,7 +9,7 @@
   composer  = "Friedrich August Kummer (1797-1879)"
   arranger  = "arr.: Julius Klengel"
   enteredby = "cellist (2013-02-10)"
-  piece     = "op. 22"
+  piece     = "op. 22, Nr. 1"
 }
 
 voiceconsts = {
@@ -32,15 +32,31 @@ boxf = { \bar "||" \mark \markup \box "F" }
 boxg = { \bar "||" \mark \markup \box "G" }
 boxh = { \bar "||" \mark \markup \box "H" }
 boxi = { \bar "||" \mark \markup \box "I" }
-boxj = { \bar "||" \mark \markup \box "J" }
 
-introa = {            \tempo "I. Allegro "    4=120 \time 4/4 }
-introb = { \pageBreak \tempo "II. Andantino " 4=70  \time 3/4 \key f \major }
+introa = {
+           \tempo "I. Allegro "    4=120
+           \time 4/4
+           \key c \major
+}
+introb = {
+           \pageBreak
+           \tempo "II. Andantino " 4=70 
+           \time 3/4
+           \key f \major
+}
+introc = {
+           \pageBreak
+           \tempo "III. Allegro scherzoso " 4=110
+           \time 2/4
+           \key c \major
+}
 
 arco = \markup \bold \italic "arco"
+atem = \markup \bold \italic "a tempo"
 crsc = \markup \bold \italic "cresc."
 dolc = \markup \bold \italic "dolce"
 pizz = \markup \bold \italic "pizz."
+rit  = \markup \bold \italic "rit."
 
 \include "v1.ily"
 \include "v2.ily"
