@@ -1,10 +1,10 @@
 \version "2.14.2"
 \include "deutsch.ly"
 
-#(set-global-staff-size 17)
+#(set-global-staff-size 16.75)
 
 \header {
-  title     = "Duett in Es-Dur"
+  title     = "Duett Nr. 1"
   subtitle  = "aus: \"Drei Cello Duette\""
   composer  = "Bernhard Breuer"
   arranger  = "(1808-1877)"
@@ -23,16 +23,6 @@ mihi = "clarinet"
 %minstr = "accordion"
 milo = "bassoon"
 
-boxa = { \bar "||" \mark \markup \box "A" }
-boxb = { \bar "||" \mark \markup \box "B" }
-boxc = \mark \markup \box "C"
-boxd = { \bar "||" \mark \markup \box "D" }
-boxe = { \bar "||" \mark \markup \box "E" }
-boxf = { \bar "||" \mark \markup \box "F" }
-boxg = { \bar "||" \mark \markup \box "G" }
-boxh = { \bar "||" \mark \markup \box "H" }
-boxi = { \bar "||" \mark \markup \box "I" }
-
 introa = {
            \tempo "I. Allegro moderato" 4=100
            \time 4/4
@@ -40,14 +30,23 @@ introa = {
            \set tupletSpannerDuration = #(ly:make-moment 1 4)
 }
 
+introb = {
+           \pageBreak
+           \tempo "II. Larghetto " 8=80
+           \time 3/8
+           \key as \major
+           \set tupletSpannerDuration = #(ly:make-moment 1 8)
+}
+
 crsc = \markup \bold \italic "cresc."
+dolc = \markup \bold \italic "dolce"
 decr = \markup \bold \italic "decresc."
 pdol = \markup { \dynamic p \bold \italic " dolce" }
 
 \include "v1.ily"
 \include "v2.ily"
 
-music = \new StaffGroup <<
+music = \new StaffGroup << 
       \new Staff {
 	\set Staff.midiInstrument = \milo
 	\set Staff.instrumentName = \markup \center-column { "Violon-" "cello I" }
