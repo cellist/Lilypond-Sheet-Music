@@ -95,7 +95,7 @@ va = \relative c, {
   h2->-4 gis->-1
   d1
   d
-  g'2.(\p-2 a,4)-0
+  e'2.(\p-2 a,4)-0
   a2(-2 gis)-1
   e'2.( h4)
   d2( c)
