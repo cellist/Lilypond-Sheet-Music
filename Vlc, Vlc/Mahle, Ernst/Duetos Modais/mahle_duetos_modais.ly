@@ -1,7 +1,7 @@
 \version "2.14.2"
 \include "deutsch.ly"
 
-#(set-global-staff-size 18)
+#(set-global-staff-size 17.7)
 
 \header {
   title     = \markup \bold \italic "Duetos Modais para Fagotes"
@@ -25,6 +25,13 @@ piup = \markup { \italic "più " \dynamic p }
 
 introa = { \tempo "1. Andantino " 4.=60 \time 6/8 \key c \major }
 introb = { \break \tempo "2. Allegro moderato " 2=60 \time 2/2 }
+introc = {
+           \break \tempo "3. Energico " 4=110 \time 3/4
+           % Set default beaming for all staves
+           \set Timing.beamExceptions = #'()
+           \set Timing.baseMoment = #(ly:make-moment 1 4)
+           \set Timing.beatStructure = #'(1 1 1)
+}
 
 \include "v1.ily"
 \include "v2.ily"

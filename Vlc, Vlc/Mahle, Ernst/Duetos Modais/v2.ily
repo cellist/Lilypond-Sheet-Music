@@ -92,4 +92,60 @@ vb = \relative c {
    g as g4 as8 g4( e8)
    g4^\rit as8 g as g4( e8)
    g2. r4 \bar "|."
+
+   \introc
+   R2.*4
+   b,2.\f
+   d'4.( c8) d, e
+
+   b'4 as4.( ges8)
+   as b c4 as
+   b8 c d4 b
+   fis' e2
+   d c4
+
+   b as8( b) c as
+   b c d4.( e8)
+   fis4.( gis8) fis e
+   fis( gis) fis e fis gis
+   b( c) b as b c
+
+   d4.( c8) d, e
+   b'4\> as4.( b8)\!
+   fis(\p gis) fis e fis e
+   d( e) d c d4
+   R2.*2
+
+   d,2.\p
+   fis'4.( e8) fis, gis
+   d'4 c4.( b8)
+   c d e4 c
+   d8 e fis4 d
+
+   b'\< \afterGrace as2( { b16[ as]) }
+   fis2\! e4
+   d c8( d) e c
+   d e fis4.( gis8)
+
+   b4.(\< c8) b as\!
+   b(\f c) b as b c
+   d4 \afterGrace c2( { d16[ c]) }
+   b2 r4
+   R2.
+
+   b,,2.\f
+   d'4.( c8) d, e
+   b'4 as4.( ges8)
+   as b c4 as
+   b8 c d4 b
+
+   fis' \afterGrace e2( { fis16[ e]) }
+   d2 c4
+   b as8( b) c as
+   b c d4.( e8)
+
+   fis4.( gis8) fis e
+   fis(\dim gis) fis e fis gis
+   b(^\rit c) b as b c
+   d2.\p\fermata \bar "|."
 }

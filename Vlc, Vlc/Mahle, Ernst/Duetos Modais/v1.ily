@@ -93,4 +93,63 @@ va = \relative c {
    d cis d4 cis8 d4( e8)
    d4^\rit cis8 d cis d4( e8)
    d2. r4 \bar "|."
+
+   \introc \clef "bass"
+   d,2.\f
+   fis'4.( e8) fis, gis
+   d'4 c4.( b8)
+   c d e4.c8
+   d e fis4 d
+   b' as2
+
+   fis e4
+   d c8( d) e c
+   d e fis4.( gis8)
+   b4.( c8) b as
+   b( c) b as b c
+
+   d( e) d c d e
+   fis4.( e8) fis, gis
+   d'4 c4.( d8)
+   b( c) b as b as
+   ges( a!) ges fes ges4
+
+   R2.*2
+   ges,2.\p
+   b'4.( as8) b, c
+   fis4 e4.( d8)
+   e fis gis4 e
+
+   fis8 gis ais4 fis
+   d' \afterGrace c2( { c16[ h]) }
+   b2 as4
+   fis e8( fis) gis e
+   fis gis ais4.( c8)
+
+   d4.(\< e8) d c\!
+   d( e) d c d e
+   fis4 \afterGrace e2( { fis16[ e]) }
+   d2 r4
+
+   R2.
+   d,,2.\f
+   fis'4.( e8) fis, gis
+   d'4 c4.( b8)
+   c d e4 c
+
+   d8 e fis4 d
+   b' \afterGrace a2( { b16[ as]) }
+   fis2 e4
+   d c8( d) e c
+   d e fis4.( gis8)
+
+   b4.( c8) b as
+   b( c) b as b c
+   d( e) d c d e
+   fis4.( e8) fis, gis
+
+   d'4 c4.( d8)
+   b(\dim c) b as b c
+   d(^\rit e) d c d e
+   fis2.\p\fermata \bar "|."
 }
