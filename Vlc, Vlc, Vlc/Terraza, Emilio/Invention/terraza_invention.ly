@@ -1,7 +1,7 @@
 \version "2.14.2"
 \include "deutsch.ly"
 
-#(set-global-staff-size 20)
+#(set-global-staff-size 20.4)
 
 \header {
   title     = \markup \bold \italic "Dreistimmige Invention"
@@ -18,7 +18,7 @@ voiceconsts = {
  %\numericTimeSignature
  \compressFullBarRests
  \time 6/8
- \tempo "Moderato " 4=84
+ \tempo "Allegretto " 4=84
 }
 
 mihi = "clarinet"
@@ -40,7 +40,7 @@ music = \new StaffGroup <<
       \new Staff {
         \set Staff.midiInstrument = \milo
         \set Staff.instrumentName = \markup \center-column { "Violon-" "cello II" }
-        \transpose d c, { \vb }
+        \transpose c c, { \vb }
       }
 
       \new Staff {
