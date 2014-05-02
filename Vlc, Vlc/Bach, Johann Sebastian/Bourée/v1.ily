@@ -35,7 +35,7 @@ va = \relative c'' {
 
      c4\mf d!8\> a h4 c8 g\!
      a4 h8 fis g4 fis8\< e
-     dis4 e8 fis g4 fis8\! e
+     dis4 e8 fis g4\! fis8 e
    }
    \alternative {
      { e2. h'8 g }

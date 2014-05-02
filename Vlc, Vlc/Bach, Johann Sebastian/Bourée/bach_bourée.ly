@@ -4,12 +4,13 @@
 #(set-global-staff-size 22)
 
 \header {
-  title     = \markup \bold \italic "Bourée"
-  subtitle  = "- aus der Lautensuite in e-moll -"
-  composer  = "Johann Sebastian Bach (1685-1750)"
-  arranger  = "arr.: Seong-Tae Cho"
-  enteredby = "cellist (2014-05-02)"
-  piece     = "BWV 996"
+  title        = \markup \bold \italic "Bourée"
+  subtitle     = "- aus der Lautensuite in e-moll -"
+  subsubtitle  = "(transponiert nach h-moll)"
+  composer     = "Johann Sebastian Bach (1685-1750)"
+  arranger     = "arr.: Seong-Tae Cho"
+  enteredby    = "cellist (2014-05-02)"
+  piece        = "BWV 996"
 }
 
 voiceconsts = {

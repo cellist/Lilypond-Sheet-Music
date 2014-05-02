@@ -14,8 +14,8 @@ vb = \relative c' {
      g c d d
    }
    \alternative {
-     { <g, d'>2. g8 fis }
-     { <g d'>2. g4 }
+     { <g,-4 h-1 d-0>2. g8 fis }
+     { <g h d>2. g4 }
    }
 
    \repeat volta 2 {
