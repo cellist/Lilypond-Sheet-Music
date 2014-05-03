@@ -189,14 +189,14 @@ vb = \relative c {
   as\! r16 c(_\crsc es f
   ges es c) des(-1 es f)
   es8\p f16[ des es <es, des'>]-4
-  << { des'8.[(-2 c16)] } \\ as4-4 >> r8
+  << { des'8.[(-2 c16)] } \\ as4-4 >> r8 \clef "tenor"
 
   g''?8._\dolc-4 f32( es d-1[ es f es])
   \grace d16 c8 r as'8~-3
   as32 g( f es)-2 es[( d) d( c)] c( b) b(-4 as)
   \grace as16 g8 r r
   b8.\sf as16( g f)
-  e32( g c e)-1 g8.[( e,16)]
+  e32( g c e)-1 g8.[( \clef "bass" e,16)]
 
   f r as r f_\crsc r
   g r b r g r
@@ -231,4 +231,154 @@ vb = \relative c {
   es8\p f16[ des es <es, des'>]
   << { des'8( c) c } \\ { as4 as8 } >>
   <as c>4 r8 \bar "|."
+
+  \introc
+  r8 <es'-4 g-1> <es g> <es g>4 r8
+  r <d-0 f-4> <d f> <d f>4 r8
+  c4. f
+  r8 <b, f'> <b f'> <b f'>4 r8
+  r <as es'>\sf <as es'> <as d>4 r8
+  r <g es'>\sf <g es'> <g es'>4 r8
+  d' r r es r r
+
+  b4 r8 r4 r8
+  r <es g> <es g> <es g>4 r8
+  r <d f> <d f> <d f>4 r8
+  c4. f
+  r8 <b, f'> <b f'> <b f'>4 r8
+  es16(\mf f es f es f) es( f es f es f)
+  d( f d f d f) d( f d f d f)
+
+  es( f es f es f) es( f es f es f)
+  d( f d f d f) d4 d'8
+  d4( c8) h a g
+  g'4.(~ g8 es) c-.
+  c4( b?8) a g f
+  f4.(~ f8 b) r
+  <g b>\p r r <f b> r r
+
+  r <es a> <es a> <d b'> r r
+  <g b>\f <g b> r <f b> <f b> r
+  <es a> <es a> <es a> <d b'> r r
+  r <b es>\p <b es>_\crsc <b es>4 r8
+  r <b f'> <b f'> <b f'>4 r8
+  <b-1 as'?-4>4 <b g'>8 <b d>4 <b es>8
+  <b d>4 r8 r4 b'8\p
+  b4.~ b8 b b
+
+  b4.~ b8 b b
+  es( d) c-. c( b) a-.
+  b4.~ b4 b8
+  c4.~\sf c8 f, f
+  b4.~\sf b8 es, es
+  f( as?)-1 c-. b( d) f-.
+  f4.( es4) r8 \bar "||"
+  r8 c,,\p d\< es f\! fis\>
+
+  g4 r8\! r4 r8
+  r g\< as a b\! h\>
+  c4 r8\! r4 as!8
+  d4 g,8 c4 c8
+  f?4_\crsc b,8 es4 as,8
+  g4\mf r8 g as a_\decr
+  h as! g f es d
+
+  r c\p d\< es f\! fis\>
+  g4 r8\! r4 r8
+  r es\< f g as\! a\>
+  b4 f'8\! b4.~
+  b8 es, as~ as d, g
+  c,\mf r r d r r
+
+  d r as' g r g,
+  as r r <b as'>4.
+  g'4 r8 r4 r8
+  f'4.(~-4 f8 es) d-.
+  es4.( b4) r8
+  f'4.(~ f8 es) d-.
+  es2.~\<
+  es~\!\>
+
+  es8(\! des)-2 c-. es( des) b-.-4
+  as( g) as-. c4(-4 b8)
+  as(-2 c,) es-. as,( c) es-.
+  g,(\< b) es-.\! g,(\> b) es-.\!
+  as,( c) es-. as,( c) es-.
+  c(-1\< es) as-.\! c,(\> es) as-.\!
+
+  des,4._\crsc <es-2 as-1>4.(
+  <f as>)\mf g(-1_\decr
+  as) <des, as'>\p
+  <es as> <des g>\<
+  <c as'>\!\> << { as'8( a b) } \\ des,4. >>
+  <es as>8\! r r <es g> r r
+  r <as,-4 c-1> <as c> <as c>4 r8
+  c2.~\pp\<
+  c8\! h\> c d?\! es f
+
+  g2.~\<
+  g8\! es\> c\! c'4.~
+  c8 f, b~ b es, es'~
+  es as, d~ d g, c~
+  c\mf h( a) g4.~
+  g4 r8 r4 h,8\p
+  c2.~\<
+  c8\! h\> a h\! c d
+
+  es2.~\<
+  es8\!\> d r\! r4 g8
+  c4 f,8 b4 es8~
+  es as, d~ d c g
+  as4 g8 f es d
+  c <c es> <c es> <c es>4 r8
+  r <h d> <h d> <h d>4 r8
+  r <c es> <c es> <c es>4 r8
+
+  r <d f> <d f> <d f>4 r8
+  r <es-4 g-1>_\crsc <es g> r <e g> <e g>
+  r <f-4 as-1> <f as> r <f as> <f as>
+  r <es g>\p <es g> <es g>4 r8
+  r <d f> <d f> <d f>4 r8
+  c4. f
+  r8 <b, f'> <b f'> <b f'>4 r8
+  r <as es'>\sf <as es'> <as d>4 r8
+
+  r <g es'>\sf <g es'> <g es'>4 r8
+  d' r r es r r
+  b4 r8 r b'(-. b)-.
+  b4.~ b8 b b
+  b4.~ b8 b-. b-.
+  es( d) c-. c( b) a-.
+  b4.~ b4 b8
+  c4(\mf b8) a g f
+
+  f'4.(~ f8 d) b-.
+  c4( b8) a g f
+  b4 r8 r4 r8
+  f16( g f g f g) f( g f g f g)
+  es( g es g es g) es( g es g es g)
+  es( f es f es f) es( f es f es f)
+
+  d( f d f d f) d4 d'8-1\p
+  f( es) g,16( es') es8( d) f,16(-2 d')
+  d8( c) d16( c) b8( d)-1 f-.
+  f16(\f es d es) g,( es') es(-4 d c d) f,( d')
+  d(-4 c h c d c) b8 r r
+
+  r <b, es>_\crsc <b es> <b es>4 r8
+  r <b f'> <b f'> <b f'>4 r8
+  <b as'>4 <b g'>8 <b d>4 <b es>8
+  <b d>4 r8 r4 r8
+  r <es g>\p <es g> <es g>4 r8
+  r <d f> <d f> <d f>4 r8
+  c4. f
+
+  r8 <b, f'> <b f'> <b f'>4 r8
+  r <as es'>\sf <as es'> <as d>4 r8
+  r <g es'>\sf <g es'> <g es'>4 r8
+  as r r <b-1 f'-1>4\< as'8
+  g4\!\f r8 <as, f'>4 r8
+  <b es>4 r8 <b d>4 r8
+  es4 r8 <es, b'>4 r8
+  <es b'>4.~ <es b'>4 r8 \bar "|."
 }

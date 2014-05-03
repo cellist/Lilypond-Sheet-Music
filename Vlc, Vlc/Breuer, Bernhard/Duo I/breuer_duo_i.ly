@@ -1,7 +1,7 @@
 \version "2.14.2"
 \include "deutsch.ly"
 
-#(set-global-staff-size 16.75)
+#(set-global-staff-size 17)
 
 \header {
   title     = "Duett Nr. 1"
@@ -31,10 +31,18 @@ introa = {
 }
 
 introb = {
-           \pageBreak
+           \break
            \tempo "II. Larghetto " 8=80
            \time 3/8
            \key as \major
+           \set tupletSpannerDuration = #(ly:make-moment 1 8)
+}
+
+introc = {
+           \break
+           \tempo "III. Allegretto " 4.=70
+           \time 6/8
+           \key es \major
            \set tupletSpannerDuration = #(ly:make-moment 1 8)
 }
 
@@ -46,7 +54,7 @@ pdol = \markup { \dynamic p \bold \italic " dolce" }
 \include "v1.ily"
 \include "v2.ily"
 
-music = \new StaffGroup << 
+music = \new StaffGroup <<
       \new Staff {
 	\set Staff.midiInstrument = \milo
 	\set Staff.instrumentName = \markup \center-column { "Violon-" "cello I" }

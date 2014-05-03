@@ -173,7 +173,7 @@ va = \relative c' {
   g4\f r <g es'> r
   <g es'>2 r \bar "|."
 
-  \introb
+  \introb \clef "tenor"
   es8(\p as-1 c)
   es\> f8.( es16)
   des8(\!-2 des16 c) des( es)
@@ -191,7 +191,7 @@ va = \relative c' {
   as8. f16( es-4 des)
   c(\p es) des32[( c des b)]-4 as16-1 c32(-4 b)
 
-  b8( as) r
+  b8( as) r \clef "bass"
   es16 <g b> <g b>[ <g b> <g b> <g b>]
   es <as-4 c-1> <as c>[ <as c> <as c> <as c>]
   d, <f b> <f b>[ <f b> <f b> <f b>]
@@ -222,15 +222,165 @@ va = \relative c' {
   g'4-1 des8
   c r as'
   <des, as'> r <d as'>
-  <es g> r r
+  <es g> r r \clef "tenor"
   es( as c)
   es f8.(\sf es16)
   as16.(\< f32 d8) d16[( b')]\!
 
   b16.(\> g32 es8) es16[( des!)]\!
   c( es) as4~_\crsc
-  as8. f16( es des)
+  as8. f16( es des) \clef "bass"
   c(\p es) des32[( c des b)] as16-. c32( b)
   b8( as) as-.
   as4 r8 \bar "|."
+
+  \introc
+  b4.~\p b8 b b
+  b4.~ b8 b b
+  es( d) c-. c( b) a-.
+  b4.~ b4 b8
+  c4.~\sf c8 f, f
+  b4.~\sf b8 es, es
+
+  b'(-4\> as?) f-.-1 as( g) es-.\!
+  d( f b) b(-. b-. b)-.
+  b4.~ b8 b b
+  b4.~ b8 b b
+  es( d) c-. c( b) a-.
+  b4.~ b4 b8
+  c4(\mf b8) a g f
+  f'4.(~ f8 d b)
+
+  c4( b8) a g f
+  b4 r8 r4 r8
+  f16( g f g f g) f( g f g f g)
+  es( g es g es g) es( g es g es g)
+  es( f es f es f) es( f es f es f)
+  d( f d f d f) d4 d'8-\p
+
+  f( es) g,16( es') es8( d) f,16(-2 d')
+  d8( c) d16( c) b8( d)-1 f-.\f
+  f16( es d es) g,( es') es(-4 d c d) f,( d')
+  d(-4 c h c d c) b4.\p
+  c~ c8_\crsc c c
+  d4.~ d8 d d
+  d4 es8 as?4-3 g8
+
+  f( es) d-. c( b) r
+  r <es,-4 g-1>\p <es g> <es g>4 r8
+  r <d-0 f-4> <d f> <d f>4 r8
+  c4. f
+  r8 <b, f'> <b f'> <b f'>4 r8
+  r <as es'> <as es'> <as d>4 r8
+  r <g es'>\sf <g es'> <g es'>4 r8
+  as r r <b-1 f'-1>4 as'8
+  << { as4.(-2 g4) } \\ { es4.~-4 es4 } >> r8 \bar "||"
+
+  c2.~\p\<
+  c8\! h\> c d\! es f
+  g2.~\<
+  g8\! es\> c\! c'4.~
+  c8 f,-. b~ b es,-. es'~
+  es_\crsc as, d~ d g, c~
+  c\mf h as g4._\decr
+  g4 r8 r4 h,8\p
+
+  c2.~\<
+  c8\! h\> a\! h c d
+  es2.~\<
+  es8\!\> d r\! r4 g8
+  c4 f,8 b?4 es8~-4
+  es\mf c a f'-4 d b
+  as'!16(-4 g-4 f es d c) b( c d-1 es) b( g)
+
+  g(-4 f g as)-1 b( c) c8( b) d,-.
+  es(\p g)-1 b-. es,( g) b-.
+  d,(-0 as'-2) b-. d,( as') b-.
+  es,( g) b-. es,( g) b-.
+  d,( as') b-. d,( as') b-.
+  es,(\< g) b-. des,( g) b-.\!
+
+  c,(\> es) as-. c,( es) a-.\!
+  des,(-1 f) b-. des,( f) des-.
+  << { c4.-3 des } \\ es,2.-1 >>
+  <as-4 c-1>4 r8 r4 r8
+  es''4.(~-2\< es8\! f)\> des-.
+  c4\! r8 r4 r8 \clef "tenor"
+  as'4.(~-2\< as8\! b)\> ges-.
+
+  ges(-4\! f)_\crsc f-. f( es) es-.
+  es(\mf d) d-. es( des)_\decr des-.
+  des( c) c-. b16(\p c des-1 es) f8-.
+  f( es) c-. c(\< b) es-.\!
+  es(\> c) as'~-3 as\! f-. des-.
+  des16( c f es des c) c( b des b f g)
+
+  as4 r8 r4 r8
+  r \clef "bass" c,,\pp d?\< es f\! fis\>
+  g4 r8\! r4 r8
+  r g\< as a b\! h\>
+  c4 r8\! r4 as!8
+  d4 g,8 c4_\crsc c8
+  f4 b,8 es4 as,8
+
+  g4 r8 g\mf as a
+  h_\decr as! g f es d
+  r c\p d\< es f\! fis\>
+  g4 r8\! r4 r8
+  r es\< f? g as\! a\>
+  b4 f'8\! b4.~
+  b8 es, as?~ as d, g
+
+  f4 h,8 es4 r8
+  r <h d> c f, g g
+  c,4 r8 r4 g''8
+  g4. r4 g8
+  g4. r4 b8
+  b4. r4 b8
+  b4._\crsc b
+  b b
+  b~\p b8 b b
+
+  b4.~ b8 b b
+  es( d) c-. c( b) a-.
+  b4.~ b4 b8
+  c4.~\sf c8 f, f
+  b4.~\sf b8 es, es
+  b'(\> as?) f-. as( g) es-.\!
+  d( f b) b4 r8
+
+  r <es, g> <es g> <es g>4 r8
+  r <d f> <d f> <d f>4 r8
+  c4. f
+  r8 <b, f'> <b f'> <b f'>4 r8
+  es16(\f f es f es f) es( f es f es f)
+  d( f d f d f) d( f d f d f)
+  es( f es f es f) es( f es f es f)
+  d( f d f d f) d4 d'8
+  d4( c8) h a g
+  g'4.(~ g8 es) c-.
+  c4( b?8) a g f
+  f4.(~ f8 b) r
+
+  <g b>\p r r <f b> r r
+  r <es a> <es a> <d b'> r r
+  <g b>\f <g b> r <f b> <f b> r
+  <es a> <es a> <es a> <d b'> b'\p b
+  c4.~ c8 c c
+  d4.~ d8 d d
+  d4 es8 as4 g8
+
+  f( es) d-. c( b) b-.\p
+  b4.~ b8 b b
+  b4.~ b8 b b
+  es( d) c-. c( b) a-.
+  b4.~ b4 b8
+  c4.~\sf c8 f, f
+
+  b4.~\sf b8 es, es
+  f( as?)-1 c-. b(-4_\crsc d) f-.
+  f(\f es) b d( c) as-2
+  g( b) es-. b( as) f-.
+  es4 r8 <g es'>4 r8
+  <g es'>4.~ <g es'>4 r8 \bar "|."
 }
