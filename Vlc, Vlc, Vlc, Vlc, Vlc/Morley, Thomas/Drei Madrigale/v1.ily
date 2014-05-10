@@ -1,6 +1,6 @@
 va = \relative c'' {
    \voiceconsts
-   \clef "tenor"
+   \clef "treble"
 
    \introa
    \partial 4 e4\f
