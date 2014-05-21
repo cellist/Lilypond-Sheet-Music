@@ -154,4 +154,73 @@ vc = \relative c'' {
     b2 g c
     c1.
   }
+
+  \introd
+  \repeat volta 2 {
+    f,4 f f f
+    f f f f
+    c' f d c
+    c f, c' c
+    c d g, e'
+
+    d d g, e'
+    c c g' fis
+    h, g h h
+    r2 c4 c
+    r2 d4 d
+
+    g, g d' g,
+    f' d e2
+  }
+  \repeat volta 2 {
+    g,4 a e e
+    a a a f
+    r2 e4 e'
+
+    r2 e,4 e'
+    a, g e' a,
+    g e f2
+    g4 c b b
+    d, a' b b
+
+    c f d c
+    c f, c' c
+    c c c a
+    f f f f
+    g-. g-. f c'
+    g c c g
+
+    r2 f4 f
+    r2 g4 g
+    c c g' c,
+    \fine b g a2
+  }
+  \repeat volta 2 {
+    R1
+    c4 a8 f' e4 e,
+
+    R1
+    f4 f8 a e2
+    R1
+    c'4 a8 f' e4 e,
+    R1
+    f4 f8 a e2
+
+    r2 d'4 cis
+    r2 f4 e
+    R1
+    a,
+    R1
+
+    d4 c8 h c2
+    r4 c8 e a4 a
+    r2 r4 b,?8 d
+    g4 g r g
+    a8 g f e f2
+
+    R1
+    c4 a8 f' e4 e,
+    \dcsr R1
+    c'8 b a g a2
+  }
 }

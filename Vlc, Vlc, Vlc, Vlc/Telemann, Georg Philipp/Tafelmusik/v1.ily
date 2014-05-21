@@ -157,4 +157,73 @@ va = \relative c' {
     d4. g8 e2. f4
     f1.
   }
+
+  \introd
+  \repeat volta 2 {
+    f8 e g f b2
+    a8 f g e f2
+    c'8 a d4 b8 g c4
+    a8 f b4 a g
+    c h8 c16 d c2
+
+    h8 c d h c2
+    g8 e a f h g c a
+    d h e c d4 g,
+    d' d8 e16 f g,2
+    c4 c8 d16 e g,2
+
+    f'8 d e c f d e c
+    d4 h c2
+  }
+  \repeat volta 2 {
+    e,8 c f d g2
+    a8 g b a g f e d
+    d'4 cis8 d16 e a,2
+
+    f'4 cis8 d16 e a,2
+    d8 a b g a e f d
+    e4 cis d2
+    g4 a8 fis g2
+    b16 a g8 a16 g fis8 g2
+
+    c?8 a d4 b8 g c4
+    a8 f? b4 a g
+    c a8 e f2
+    b8 g a e f2
+    f'8 d e c d h c a
+    b g a f g4 c,
+
+    g' g8 a16 b c,2
+    f4 f8 g16 a c,2
+    b'8 g a f b g a f
+    \fine g4 e f2
+  }
+  \repeat volta 2 {
+    c'4 a8 c b4 g
+    R1
+
+    f4 f8 a g4 b
+    R1
+    c4 a8 c b4 g
+    R1
+    f4 f8 a g4 b
+    R1
+
+    a4 b r2
+    cis4 d r2
+    f4-. h,-. e-. a,-.
+    R1
+    e'4 d8 c h4 a
+
+    r2 r4 a8 h
+    c4 c r c
+    d8 c b? a b4 r
+    r g8 a b4 b
+    r2 r4 a8 b
+
+    c4 a8 c b4 g
+    R1
+    \dcsr f4 f8 a g4 b
+    R1
+  }
 }
