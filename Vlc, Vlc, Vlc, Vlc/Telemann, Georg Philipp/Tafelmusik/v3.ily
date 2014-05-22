@@ -223,4 +223,72 @@ vc = \relative c'' {
     \dcsr R1
     c'8 b a g a2
   }
+
+  \introe
+  \repeat volta 2 {
+    a4 c c
+    b c c
+    d2 c4
+    b c c
+    c c c
+    b b b
+    f f f
+    c'2 c4
+  }
+  \repeat volta 2 {
+    a2 cis4
+    a2.
+    g4 g d'
+    d2 h4
+    g g g
+    d' d d
+    c g' d
+    e g c,
+
+    b f' c
+    d b g
+    f2 f4
+    c'2 c4
+    a c c
+    b c c
+
+    d2 c4
+    b c c
+    c c c
+    g g g
+    f c' g
+  }
+  \alternative {
+    { a2. }
+    { \fine a }
+  }
+  \repeat volta 2 {
+    R2.
+    a4 d a8 f
+    d4 r r
+    R2.
+    g4 c g8 e
+    g c e4 e,
+    f8 g g2
+    a2.
+  }
+  \repeat volta 2 {
+    f2 r4
+    g2 r4
+    a2 a4
+    d2 d4
+    g,2.
+    fis
+    b2 e4
+    e2.
+
+    R2.
+    a,4 d a8 f?
+    d4 r r
+    R2.
+    g4 c g8 e
+    g c e4 e,
+    \dcaf d' a a
+    d2.
+  }
 }

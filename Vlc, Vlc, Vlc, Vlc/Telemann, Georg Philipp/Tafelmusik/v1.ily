@@ -127,9 +127,9 @@ va = \relative c' {
     h4. c8 d4 r r2
     f, f4 g2 f4
 
-    e4. g8 c4 r r2
+    e4. g8 c4 r r2 \clef "tenor"
     a'4 g g8 a g e f g f d
-    e f e c d e d h c d c g
+    e f e c d e d h c d c g \clef "bass"
     a4. d8 h2. c4
     c1.
   }
@@ -225,5 +225,73 @@ va = \relative c' {
     R1
     \dcsr f4 f8 a g4 b
     R1
+  }
+
+  \introe
+  \repeat volta 2 {
+    f4 a8 f c' f,
+    d'4 c c
+    f a,8 f c' f,
+    d'4 c c
+    f, f4. e16 f
+    g4 g4. f16 g
+    a8 b c4 d
+    g,2.
+  }
+  \repeat volta 2 {
+    g8 a16 b a4 g
+    a g8 f e d
+    d' e16 f e4 d
+    c8 h a g d' h
+    c4 c4. h16 c
+    d4 d4. c16 d
+    e4 c h
+    c2.
+
+    d8 c b?4 a
+    b a8 g f e
+    c'4 b8 a g f
+    g4 c, c
+    f a8 f c' f,
+    d'4 c c
+
+    f a,8 f c' f,
+    d'4 c c
+    f, f4. e16 f
+    g4 g4. f16 g
+    a4 f e
+  }
+  \alternative {
+    { f2. }
+    { \fine f }
+  }
+  \repeat volta 2 {
+    a4 g4. a16 b
+    a2.
+    d8 e f4 d
+    b2 a4
+    g2.~
+    g2 a4
+    f8 g g2\trill
+    a2.
+  }
+  \repeat volta 2 {
+    c~
+    c~
+    c4 d a
+    b8 c b a b g
+    d'2.~
+    d~
+    d4 e d
+    d8 cis d e cis4
+
+    a g4. a16 b
+    a2.
+    d8 e f4 d
+    b2 a4
+    g2.~
+    g2 a4
+    \dcaf f8 e e2
+    d2.
   }
 }

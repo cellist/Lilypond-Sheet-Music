@@ -1,5 +1,6 @@
 vb = \relative c'' {
   \voiceconsts
+  \clef "tenor"
 
   \introa \boxa
   \partial 4. c4\mf f8
@@ -225,5 +226,73 @@ vb = \relative c'' {
     a' f8 a g4 c,
     \dcsr a a8 f' e4 g
     a8 g f e f2
+  }
+
+  \introe
+  \repeat volta 2 {
+    c4 f f
+    f a a
+    a f f
+    f a a
+    c, c c
+    c c c
+    c f f
+    f e8 d e4
+  }
+  \repeat volta 2 {
+    e2 e4
+    d2.
+    d4 c a'
+    g2 g4
+    g g g
+    g g g
+    g g g
+    g e f
+
+    f f f
+    f d c
+    c2 d4
+    e2.
+    c4 f f
+    f a a
+
+    a f f
+    f a a
+    c, c c
+    c c c
+    c c c
+  }
+  \alternative {
+    { c2. }
+    { \fine c }
+  }
+  \repeat volta 2 {
+    f4 e4. f16 g
+    f2.
+    f~
+    f4 e f
+    e2.~
+    e2 cis4
+    d d8 cis d e
+    cis2.
+  }
+  \repeat volta 2 {
+    c!4 f8 e f4
+    b, f'8 e f4
+    a fis fis
+    g2 g4
+    d g8 fis g4
+    d a'8 g a4
+    g2 b4
+    a2.
+
+    f?4 e4. f16 g
+    f2.
+    f~
+    f4 e f
+    e2.~
+    e2 cis4
+    \dcaf d8 e cis2
+    d2.
   }
 }

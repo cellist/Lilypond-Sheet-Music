@@ -1,6 +1,5 @@
 vd = \relative c'' {
   \voiceconsts
-  \clef "bass^8"
 
   \introa \boxa
   \partial 4. a8\mf g a
@@ -225,5 +224,73 @@ vd = \relative c'' {
     f f f f c c c c
     \dcsr c c c c c c c c
     c c c c f2
+  }
+
+  \introe
+  \repeat volta 2 {
+    f, a4
+    b f f
+    d'2 a4
+    b f f
+    a' a a
+    e e e
+    f a, b
+    c c c
+  }
+  \repeat volta 2 {
+    cis2 e4
+    f,2.
+    h4 c? fis
+    g g, f'!
+    e e e
+    h h h
+    c e g
+    c, c a
+
+    b? d f
+    b,2 c4
+    a2 d4
+    c d e
+    f,2 a4
+    b f f
+
+    d'2 a4
+    b f f
+    a' a a
+    e e e
+    f a, c
+  }
+  \alternative {
+    { f, f' a }
+    { \fine f,2. }
+  }
+  \repeat volta 2 {
+    d'4 g g,
+    d'2.
+    d4 a b
+    g c f,
+    c' c c
+    c2 a4
+    d2 b4
+    a2.
+  }
+  \repeat volta 2 {
+    a'2 r4
+    g2 r4
+    fis d d
+    g,2.
+    b2 r4
+    a2 r4
+    g2 gis4
+    a2.
+
+    d4 g? g,
+    d'2.
+    d4 a b
+    g c f,?
+    c' c c
+    c2 a4
+    \dcaf d a' a,
+    d2.
   }
 }
