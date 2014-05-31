@@ -42,8 +42,93 @@ vc = \relative c, {
   f4 << d'2(\!\p \\ { s4 h') } >>
   g,\cresc << e'2( \\ { s4 cis') } >>
   a, f'( <f d'>8) <d d'>\upbow
-  b! b' g, g' e, e'
+  b! b' g,[ g'] e, e'
   \times 2/3 { a,\f a'( g) f( g a) d,( e f) } \adag
   b,2\> b4
   a2.\!\pp\fermata \bar "|."
+
+  \introb
+  R1*5
+  r2 d4.->\mp d8
+
+  c h a gis a4 f'
+  e r8 e f a d, g
+  e c r c\upbow d f h, e
+  c a r a'\upbow h d g, c
+  a c f, a d, f h, d
+
+  e,4 r8 c'\upbow d f h, e
+  cis a r cis'\upbow d4 a
+  b g(-- a)-- f'~\downbow
+  f e2 d4~
+  d cis d r8 d,\upbow \boxb
+  c!4 d g, r8 c
+  f4 e8 c d2
+
+  c8(\cresc c') b? g a2
+  g4\downbow f8 d e2
+  d4 c8 a h2
+  a4\f c d8 e f d
+  gis e a4 e4.->\downbow\mf d8
+  c h a gis a4 f'
+
+  e c'2\downbow h4~
+  h a2 gis4
+  a r8 e f a d, g!
+  e c r f\upbow d f h, d
+  cis\cresc a d2 cis4
+  d r8 b'? c! es a, c
+
+  h g c2 h4
+  c r8 a b! d g, b \boxc
+  a f f2 e?4~
+  e d2 cis4
+  r2 a'4.->\downbow\f g8
+  f e d e a,4 r8 a'\mf
+
+  b d g, b a f r f\upbow
+  g b e, a f d r d\upbow
+  es g c, f d b r b\upbow
+  c es a, c b g r c'\upbow
+  a c f,\< a
+  g b es, g
+  c, es\! a, c\! d,2\sf
+
+  d'4.\downbow\> c8 b a g4\!
+  g'4.->\downbow\cresc f8 e? d c4
+  c'4.->\downbow b8 a g f4
+  f'4.->\downbow e8 d c h a \boxd
+  gis\dim fis e d c h a g'
+  f! a d, g e c r c\upbow
+
+  d\cresc f e c f4 a,
+  b b c c
+  d2(\> c4)\! r
+  R1*2
+  r2 c'4.->\downbow\mf b8
+  a g f e f4 d
+
+  c( r8 f)-.\p b,2
+  a g
+  f4 r c'2\cresc
+  b a
+  g4 r d'2
+  c h \boxe
+  a4\f a-> r <d, a'>->
+
+  r <g d'>-> r <c, g'>->
+  r <f c'>-> r <b f'>->
+  r <e, b'>->\downbow a4.->\downbow g8
+  f e d cis d4 b'(
+  a8) a'4 g8 fis a d, fis
+  <g, g'>4 a b g
+  d' d,\downbow g2
+
+  f? e
+  d4 b'_\crsc e, a
+  d, d' c f,
+  b\< b a8 g f g\!
+  a4\ff a b r \adag
+  r <gis d'>\upbow\ff a a
+  d,1 \bar "|."
 }

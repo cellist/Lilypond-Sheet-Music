@@ -46,4 +46,93 @@ vb = \relative c {
   cis,4\f <d f'> d' \adag
   b\> <d, d'>-> <d d'>
   <e cis'>2.\!\pp\fermata \bar "|."
+
+  \introb \clef "bass"
+  a4.->\mp g8 f e d cis
+  d4 b' a r8 a\upbow
+  b d g, c? a f r f\upbow
+  g b e, a f d a'4(~
+  a8 d,)-. g2\upbow fis4\downbow
+
+  g\upbow \clef "tenor" d'8 e f! e f g
+  e d c h c a h a
+  gis e e'4 d2
+  c h
+  a8 e' f2 e4(~
+  e d8) cis d4.( h'8)-.
+  gis e a2 g4~
+
+  g f8 e f g a4
+  r8 f\upbow g a cis, a d4-.
+  g2\downbow f
+  e4 r8 e\upbow f a d, f \boxb
+  e c? f2 e4
+  f r8 e f a d, f
+
+  e c\cresc g'2 fis4
+  g r8 f! g b? e, g
+  f d a'2 gis4
+  a\f e(~\downbow e8 a,)-. d4(~
+  d8\dim gis,)-. c h a gis a h
+  e,\mf d' c h c a c d
+
+  e4 r8 e\upbow f a d, f
+  e c r c\upbow d f h, d
+  c4 r8 e\upbow d2
+  c h
+  a4 r8 f'\upbow\cresc g? b! e, g
+  fis d g2 fis4
+
+  g r8 e f! a d, f
+  e c f2 e4 \boxc
+  f( r8 a,)-. g4.( e'8)-.
+  f a d, f e a, r4
+  a'4.->\f g8 f e d cis
+  d4 b' a r8 f\mf
+
+  g2 f
+  e d4 r8 b\upbow
+  c?2 b
+  a g4 r
+  f'2 es(~\<
+  es8 b)-. a g\! fis\> a g g\!
+  g4 fis d'4.->\downbow c8
+
+  b\cresc a g4 g'4.->\downbow f8
+  e? d c4 c'4.->\downbow b8
+  a\f g f4~ f8 e d c \boxd
+  h\dim a gis fis e4 r8 e'
+  d2 c4 r8 f,!\upbow
+  b2\cresc a(~
+
+  a8 a')-. g? f e d c4~
+  c\dim h c r8 e\p
+  f a d, g e g c, f
+  b, d c b a4 b~->\downbow
+  b\< a8 b g4\! c~->\mf
+  c8 b a g a g f g
+
+  e c' a'2\p g4~
+  g f2 e4
+  f r8 d\cresc es g c, f
+  d f b, es c es a, d
+  b g' c2 h4~
+  h a2 gis4 \boxe
+
+  a\f r8 a f a d, f
+  r4 \clef "bass" <g,,? d' b'>-> e''8 g c, e
+  r4 <f,, c' a'>-> d''8 f b, d
+  r4 <e,, b' g'>-> cis''8 e a, cis
+  <d, d'>4 a'2->\downbow g4
+  a r \clef "tenor" d\downbow a'
+  r c,?\downbow r g'~\downbow
+
+  g f2 e4~
+  e d2 cis4(
+  d) d2_\crsc c!4~
+  c b2 a4~
+  a\< g(~ g8 b)-. a g\!
+  f4\ff <e cis'> <e d'> r \adag
+  r \clef "bass" f\upbow\ff a, <a e' a>
+  <d d'>1 \bar "|."
 }

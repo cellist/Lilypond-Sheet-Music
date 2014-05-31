@@ -1,7 +1,7 @@
 \version "2.14.2"
 \include "deutsch.ly"
   
-#(set-global-staff-size 18)
+#(set-global-staff-size 17.5)
 
 \header {
   title     = \markup \italic "Grave & Fuga"
@@ -25,13 +25,18 @@ milo = "bassoon"
 
 boxa = { \bar "||" \mark \markup \box "A" }
 boxb = { \bar "||" \mark \markup \box "B" }
+boxc = { \bar "||" \mark \markup \box "C" }
+boxd = { \bar "||" \mark \markup \box "D" }
+boxe = { \bar "||" \mark \markup \box "E" }
 
 adag = { \bar "||" \mark \markup "Adagio" }
 
 atem = \markup \italic "a tempo"
+crsc = \markup \italic "cresc."
 rall = \markup \italic "rall."
 
-introa = { \tempo "Andante sostenuto" 4=60 \time 3/4 }
+introa = {            \tempo "Grave. Andante sostenuto" 4=60  \time 3/4 }
+introb = { \pageBreak \tempo "Fuga. Allegro "           4=120 \time 4/4 }
 
 \include "v1.ily"
 \include "v2.ily"
