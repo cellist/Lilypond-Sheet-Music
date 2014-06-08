@@ -27,7 +27,7 @@ medc = \mark \markup \italic "Menuetto D.C."
 mfdo = \markup { \dynamic mf \bold \italic " dolce" }
 trio = \mark \markup \bold "Trio"
 
-introa = {            \tempo "1. Andante " 4=90  \time 3/4 }
+introa = {            \tempo "1. Andante " 4=70  \time 3/4 }
 introb = { \break     \tempo "2. Menuett " 4=100 \key c \major }
 introc = { \pageBreak \tempo "3. Allegro " 4=120 \key f \major \time 2/4 }
 
