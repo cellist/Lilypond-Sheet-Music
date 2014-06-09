@@ -13,7 +13,6 @@
 
 voiceconsts = {
  \key a \major
-% \clef "treble_8"
  \clef "bass"
 % \numericTimeSignature
  \compressFullBarRests
@@ -22,7 +21,11 @@ voiceconsts = {
 mihi = "clarinet"
 milo = "bassoon"
 
-introa = { \tempo "1. Allegro moderato " 4=110 \time 4/4 }
+dcaf = \mark \markup \bold \italic "D.C. al Fine"
+fine = \mark \markup \box "Fine"
+
+introa = {            \tempo "1. Allegro moderato "    4=110 \time 4/4 }
+introb = { \pageBreak \tempo "2. Rondeau poca Presto " 4=180 \time 4/4 }
 
 \include "v1.ily"
 \include "v2.ily"

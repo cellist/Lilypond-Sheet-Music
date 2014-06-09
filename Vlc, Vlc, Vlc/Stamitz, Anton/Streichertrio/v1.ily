@@ -41,7 +41,7 @@ va = \relative c' {
     fis fis4 gis16 a gis8 gis4 a16 h
     a8 gis fis gis a gis fis gis
     a h h cis cis h h a
-    gis e e'4~ e8 dis cis h
+    gis e \clef "tenor" e'4~ e8 dis cis h
     ais4. h16 cis h4 r
 
     h8 a a4~ a8 cis a gis
@@ -136,4 +136,122 @@ va = \relative c' {
     a e' gis, h a e' gis, h
     a4 a a r
   }
+
+  \introb
+  \partial 4 e'8\p d
+  cis4 cis cis h
+  a a a h8 cis
+  d4 d d8 e d cis
+  h4 h h cis8 d
+  e4 e8 fis e4 e
+  e1~
+
+  e8 a gis fis e4 e
+  e1~
+  e8 a gis fis e a gis fis
+  e a gis fis e d cis d
+  e4 fis8 e d4 cis
+  h e, e e''8 d
+
+  cis4 cis cis h
+  a a a h8 cis
+  d4 d d8 e d cis
+  h4 h h cis8 d
+  e4 e8 fis e4 e
+  e1
+
+  e4 e8 fis e4 e
+  e1~
+  e4 e8 fis e4 e8 fis
+  e4 e8 fis e4 e8 fis
+  e cis d h cis a h gis
+  \fine a4 e a, r \bar "||"
+
+  cis'2 a8 e a cis
+  h2 gis8 e gis h
+  cis his cis h a gis e e
+  d eis eis fis e d cis h
+  h'4 h8 cis h4 h
+
+  h1~
+  h8 e dis cis h4 h
+  h1~
+  h4 cis8 his cis his cis h
+  a gis a gis fis fis gis a
+
+  h e cis a gis4 fis\trill
+  e2. \acciaccatura gis16 fis4
+  e2. \acciaccatura gis16 fis4
+  e4 \acciaccatura gis16 fis4 e4 \acciaccatura gis16 fis4
+  e r r e8\p d
+  cis4 cis cis h
+
+  a a a h8 cis
+  d4 d d8 e d cis
+  h4 h h cis8 d
+  e4 e8 fis e4 e
+  e1~
+  e8 a gis fis e4 e
+
+  e1~
+  e8 a gis fis e a gis fis
+  e a gis fis e d cis d
+  e4 fis8 e d4 cis
+  h e, e e''8\f d
+  cis4 cis cis h
+
+  a a a h8 cis
+  d4 d d8 e d cis
+  h4 h h cis8 d
+  e4 e8 fis e4 e
+  e1~
+  e4 e8 fis e4 e
+
+  e1~
+  e4 e8 fis e4 e8 fis
+  e4 e8 fis e4 e8 fis
+  e cis d h cis a h gis
+  a4 r fis8\p gis a h
+  cis4 cis8 d his4 cis
+
+  gis cis8 d his4 cis
+  gis cis8 d his4 cis
+  gis8 a h a gis fis eis gis
+  fis1
+  gis2. a8 gis
+
+  fis eis fis gis a ais h his
+  cis4 r fis,8 gis a! h!
+  cis4 cis8 d his4 cis
+  gis cis8 d his4 cis
+  gis cis8 d his4 cis
+
+  gis8 a h! a gis fis eis gis
+  fis1
+  gis2. a8 gis
+  fis eis fis gis a ais h his
+  cis4 r a!8 h! cis d
+
+  e?4 e8 fis dis4 e
+  h e8 fis dis4 e
+  h e8 fis dis4 e
+  d!2 cis8 h a gis
+  a h cis d e4 r
+
+  d2 cis8 h a gis
+  a h cis d e4 r
+  fis,2 h8 a gis fis
+  e4 fis8 gis a h cis d
+  e eis fis d cis4 h\trill
+
+  a r fis8 gis a h
+  cis4 cis8 d his4 cis
+  gis cis8 d his4 cis
+  gis cis8 d his4 cis
+  gis8 a h a gis fis eis gis
+
+  fis1
+  gis
+  a8 fis d' h a4 gis\trill
+  \dcaf fis r r \bar "|."
 }

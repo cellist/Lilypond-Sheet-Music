@@ -137,4 +137,123 @@ vc = \relative c {
     a8 cis d gis, a cis d gis,
     a4 a a r
   }
+
+  \introb
+  \partial 4 r
+
+  a\p r e r
+  fis2. e4
+  d2. d'4
+  e2 e8 d cis h
+  a4 r r a
+  gis a h gis
+
+  a r r a
+  gis a h gis
+  a h cis h
+  cis h cis gis
+  a2 d,4 dis
+  e2 r4 e'
+
+  a r e r
+  fis2. e4
+  d?2. d4
+  e2 e8 d cis h
+  a4 r r a'
+  gis a h gis
+
+  a r r a
+  gis a h gis
+  a h cis h
+  cis h cis gis
+  a d, e e,
+  \fine a e' a, r \bar "||"
+
+  a a cis cis
+  d e e d
+  cis gis a ais
+  h dis8 fis h,4 r
+  e, r r e'
+
+  dis e fis dis
+  e r r e
+  dis e fis dis
+  e a? r a,
+  h h h a
+
+  gis a h h
+  gis cis h a
+  gis cis h a
+  gis a gis a
+  gis2 r
+  a'4\p r e r
+
+  fis2. e4
+  d2. d4
+  e2 e8 d cis h
+  a4 r r a
+  gis a h gis
+  a r r a
+
+  gis a h gis
+  a h cis h
+  cis h cis gis
+  a2 d,4 dis
+  e2 r4 e'\f
+  a r e r
+
+  fis2. e4
+  d2. d4
+  e2 e8 d cis h
+  a4 r r a
+  gis a h gis
+  a r r a
+
+  gis a h gis
+  a h cis h
+  cis h cis gis
+  a d e e,
+  a r r2
+  fis4\p r r2
+
+  cis'4 r r2
+  cis4 r r2
+  cis1
+  fis,8 gis a h cis a gis fis
+  cis' dis, eis fis gis eis' dis cis
+
+  fis,1
+  eis4 r r2
+  fis4 fis r2
+  cis'4 r r2
+  cis4 r r2
+
+  cis cis
+  fis,8 gis a h cis a gis fis
+  cis' dis eis fis gis eis dis cis
+  fis,1
+  eis4 r r2
+
+  a4 r r2
+  e?4 r r2
+  e4 r r2
+  gis4 gis e e
+  a a cis cis
+
+  gis gis e e
+  a a cis cis
+  d d d d
+  a r r cis
+  a d e e,
+
+  a r r2
+  fis4 r r2
+  cis'4 r r2
+  cis4 r r2
+  cis cis
+
+  fis,8 gis a h cis a gis fis
+  cis' dis eis fis gis eis dis cis
+  fis,4 h cis cis
+  \dcaf fis, fis fis \bar "|."
 }

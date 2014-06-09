@@ -134,4 +134,123 @@ vb = \relative c' {
     cis8 a h d cis a h d
     cis4 cis cis r
   }
+
+  \introb
+  \partial 4 cis8\p h
+
+  a4 a a gis
+  fis fis fis gis8 a
+  h4 h h8 cis h a
+  gis4 gis gis a8 h
+  cis4 r r cis
+  h cis d h
+
+  cis r r cis
+  h cis d h
+  cis d cis d
+  cis d cis e
+  cis d8 cis h4 a
+  gis gis gis cis'8 h
+
+  a4 a a gis
+  fis fis fis gis8 a
+  h4 h h8 cis h a
+  gis4 gis gis a8 h
+  cis4 r r cis
+  h cis d h
+
+  cis r r cis
+  h cis d h
+  cis d cis d
+  cis d cis d
+  cis h a gis
+  \fine a e a, r \bar "||"
+
+  a a a a
+  gis gis gis gis
+  e' dis cis cis
+  h h h r
+  gis' d? r gis
+
+  fis gis a fis
+  gis r r gis
+  fis gis a fis
+  gis a8 gis a gis a gis
+  fis e fis e dis cis e fis
+
+  e4 e2 dis4
+  e2 r4 <h dis>
+  <h e>2. <h dis>4
+  <h e> <h dis> <h e> <h dis>
+  <h e> r r cis8\p h
+  a4 a a gis
+
+  fis fis fis gis8 a
+  h4 h h8 cis h a
+  gis4 gis gis a8 h
+  cis4 r r cis
+  h cis d? h
+  cis r r cis
+
+  h cis d h
+  cis d cis d
+  cis d cis e
+  cis d8 cis h4 a
+  gis gis gis cis'8\f h
+  a4 a a gis
+
+  fis fis fis gis8 a
+  h4 h h8 cis h a
+  gis4 gis gis a8 h
+  cis4 r r cis
+  h cis d h
+  cis d, r cis'
+
+  h cis d h
+  cis d cis d
+  cis d cis d
+  cis h a gis
+  a r fis,8\p eis fis gis
+  a4 a8 h gis4 a
+
+  eis a8 h gis4 a
+  eis a8 h gis4 a
+  eis8 fis gis fis eis dis cis cis
+  cis1
+  eis8 fis gis a h gis fis eis
+
+  fis1
+  gis4 r fis8 eis fis gis
+  a4 a8 h gis4 a
+  eis a8 h gis4 a
+  eis a8 h gis4 a
+
+  eis8 fis gis fis eis dis cis cis
+  cis1
+  eis8 fis gis a h gis fis eis
+  fis1
+  gis4 r a8 gis a h
+
+  cis4 cis8 d his4 cis
+  e,? cis'8 d his4 cis
+  e, cis'8 d his4 cis
+  h!2 r
+  e d8 cis h a
+
+  h2 r
+  e d8 cis h a
+  d,2 gis8 fis e d
+  cis4 d8 e fis gis a h
+  cis4 d8 h a4 gis\trill
+
+  a r fis8 eis fis gis
+  a4 a8 h gis4 a
+  eis a8 h gis4 a
+  eis a8 h gis4 a
+  eis8 fis gis fis eis dis cis cis
+
+  cis1
+  eis8 fis gis a h gis fis eis
+  fis a h gis fis4 eis\trill
+  \dcaf fis r r \bar "|."
 }
