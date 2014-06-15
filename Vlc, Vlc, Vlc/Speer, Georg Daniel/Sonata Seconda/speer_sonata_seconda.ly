@@ -1,10 +1,10 @@
 \version "2.14.2"
 \include "deutsch.ly"
 
-#(set-global-staff-size 20.25)
+#(set-global-staff-size 16.5)
 
 \header {
-  title     = \markup \bold \italic "Sonata Prima"
+  title     = \markup \bold \italic "Sonata Seconda"
   subtitle  = "aus: \"Grundrichtiger Unterricht der musikalischen Kunst\""
   composer  = "Georg Daniel Speer (1636-1707)"
   arranger  = "arr.: Hans Mons"
@@ -13,16 +13,16 @@
 }
 
 voiceconsts = {
-  \key f \major
-  \time 2/2
-  \tempo "Moderato " 4=70
+  \key c \major
+  \time 3/4
+  \tempo "Moderato " 4=80
   \clef "bass"
   %\numericTimeSignature
   \compressFullBarRests
   % Set default beaming for all staves
   \set Timing.beamExceptions = #'()
   \set Timing.baseMoment     = #(ly:make-moment 1 4)
-  \set Timing.beatStructure  = #'(1 1 1 1)
+  \set Timing.beatStructure  = #'(1 1 1)
 }
 
 mihi = "clarinet"
@@ -36,19 +36,19 @@ music = \new StaffGroup <<
       \new Staff {
         \set Staff.midiInstrument = \milo
         \set Staff.instrumentName = \markup \center-column { "Violon-" "cello I" }
-        \transpose f c' { \va }
+        \transpose c g { \va }
       }
 
       \new Staff {
         \set Staff.midiInstrument = \milo
         \set Staff.instrumentName = \markup \center-column { "Violon-" "cello II" }
-        \transpose f c' { \vb }
+        \transpose c g { \vb }
       }
 
       \new Staff {
         \set Staff.midiInstrument = \milo
         \set Staff.instrumentName = \markup \center-column { "Violon-" "cello III" }
-        \transpose f c' { \vc }
+        \transpose c g { \vc }
       }
 >>
 
