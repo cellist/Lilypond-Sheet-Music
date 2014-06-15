@@ -27,10 +27,10 @@ fine = \mark \markup \box "Fine"
 medc = \mark \markup \bold \italic "Menuet D.C."
 trio = { \mark \markup \box "Trio" \key g \minor }
 
-introa = {            \tempo "1. Allegro "  4=110 \time 2/4 }
-introb = { \break     \tempo "2. Largo "   4.=60  \time 6/8 \key g \minor }
-introc = { \pageBreak \tempo "3. Allegro " 4.=80  \time 3/8 \key g \major }
-introd = { \break     \tempo "4. Menuet alternativement " 4=90  \time 3/4 }
+introa = {            \tempo "1. Allegro "  4=100 \time 2/4 }
+introb = { \break     \tempo "2. Largo "   4.=40  \time 6/8 \key g \minor }
+introc = { \pageBreak \tempo "3. Allegro " 4.=70  \time 3/8 \key g \major }
+introd = { \break     \tempo "4. Menuet alternativement " 4=100  \time 3/4 }
 
 \include "v1.ily"
 \include "v2.ily"

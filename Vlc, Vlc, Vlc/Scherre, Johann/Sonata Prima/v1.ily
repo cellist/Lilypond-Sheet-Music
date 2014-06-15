@@ -38,7 +38,7 @@ va = \relative c''' {
     a8 fis d a
     g' e cis a
     fis' d a fis
-    e' cis a e
+    e' cis a e \clef "treble"
     a' fis d a
     g' e cis a
 
@@ -70,7 +70,7 @@ va = \relative c''' {
     d16 fis a4 fis8
 
     cis16 e g4 fis8
-    e16 d cis h a4
+    e16 d cis h \clef "tenor" a4
     a16 d cis d a d cis d
     h d cis d h d cis d
     a d cis d a d cis d
@@ -112,7 +112,7 @@ va = \relative c''' {
     d d4 fis8(-.
     g)-. g,4 a8
     h16 d g4 h,8
-    d16 fis a4 fis8
+    d16 fis \clef "treble" a4 fis8
     d16 g h4 g8
     d16 fis a4 g8
 
@@ -131,7 +131,7 @@ va = \relative c''' {
     d4 c
     h a
     g fis
-    g r8 c,
+    g r8 \clef "tenor" c,
 
     h4 a
     g fis
@@ -148,12 +148,12 @@ va = \relative c''' {
   g b c d c b
   a d fis a, d fis
   b, d g b, d g
-  a, d fis a, d fis
+  a, d fis a, d fis \clef "treble"
 
   g2.
   g8 b a g b d
   fis, a g fis a d
-  r d, c b g d
+  r \clef "tenor" d, c b g d
   r c' b a fis d
   a' e' d cis h a
 
@@ -184,12 +184,12 @@ va = \relative c''' {
   g b c d c b
   a d fis a, d fis
   b, d g b, d g
-  a, d fis a, d fis
+  a, d fis a, \clef "treble" d fis
 
   g4 es'8 d4 c8
   b a g d e fis
   g4 fis8 g4 a8
-  g4. fis4 a,8
+  g4. fis4 \clef "tenor" a,8
   b4 fis'8 g4 a8
   g4. fis4 a,8
   b4.~ b4 r8 \bar "|."
@@ -234,7 +234,7 @@ va = \relative c''' {
   }
 
   \repeat volta 2 {
-    d'
+    \clef "treble" d'
     fis
     a
     d8 d,16 fis a8
@@ -250,7 +250,7 @@ va = \relative c''' {
     e,4 a8
     a g fis
     g4 d8
-    cis4 r8
+    cis4 r8 \clef "tenor"
     a4 cis8
 
     h4 h8
@@ -285,7 +285,7 @@ va = \relative c''' {
     fis4 r8
     r g16 h d g
 
-    a,4 d'8
+    a,4 \clef "treble" d'8
     d h g
     f d f
     f d f
@@ -311,7 +311,7 @@ va = \relative c''' {
     h c16 h a g
     a8 d, a'
     a h16 a g fis
-    g8 fis e
+    g8 fis e \clef "tenor"
     d c h
     c a d
     g,4 r8
@@ -366,7 +366,7 @@ va = \relative c''' {
 
     c(-. d)-. c(-. d)-. c(-. d)-.
     a(-. h)-. a(-. h)-. a(-. h)-.
-    g2 g'4(-.
+    g2 \clef "treble" g'4(-.
     g)-. fis h(-.
     h)-. a d(-.
     d)-. c h(-.
@@ -374,7 +374,7 @@ va = \relative c''' {
     d)-. c h(-.
     h)-. a h
 
-    c h a
+    c h a \clef "tenor"
     g2.
   }
 

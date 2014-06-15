@@ -61,12 +61,12 @@ vb = \relative c''' {
   }
 
   \repeat volta 2 {
-    R2
+    R2 \clef "treble"
     d''8 d,4 e8
     fis fis4 g8
     a a4 cis8
     d d,4 e8
-    fis d4 fis,8
+    fis d4 \clef "tenor" fis,8
     a16 cis e4 cis8
     a16 d fis4 d8
 
@@ -116,7 +116,7 @@ vb = \relative c''' {
     g' g,4 g8
     d' d,4 d8
 
-    d4 r
+    d4 r \clef "treble"
     h''8 g d h
     a' fis d a
     d' h g d
@@ -126,7 +126,7 @@ vb = \relative c''' {
 
     h16 h c d e fis g a
     h8 a16 g fis8 e
-    d4 fis,
+    d4 \clef "tenor" fis,
     g r8 c'
     h4 a
     g fis
@@ -148,11 +148,11 @@ vb = \relative c''' {
   g4. r
   fis8 a d fis, a d
   g, b d g, b d
-  fis, a d fis, a d
+  fis, a d fis, a d \clef "treble"
 
   d4 r8 d'4 r8
   r d c b g d
-  r c' b a fis d
+  r c' b a fis d \clef "tenor"
   g,4. r
   d r
   a' r
@@ -234,7 +234,7 @@ vb = \relative c''' {
   }
 
   \repeat volta 2 {
-    R4.
+    R4. \clef "treble"
     d'
     fis
     a4 fis8
@@ -251,7 +251,7 @@ vb = \relative c''' {
     d4 r8
     h4 g'8
     g fis e
-    fis4 a,8
+    fis4 \clef "tenor" a,8
 
     g4 e8
     fis4 cis'8
@@ -289,7 +289,7 @@ vb = \relative c''' {
     h g' h,
     d h c
     d h c
-    d h c
+    d h c \clef "treble"
     d g h
     d, c e'
     e cis a
@@ -311,7 +311,7 @@ vb = \relative c''' {
     d' e16 d c h
     c8 d, c'
     c d16 c h a
-    h8 d, e
+    h8 \clef "tenor" d, e
     d c h
     c a d
     g,4 r8
