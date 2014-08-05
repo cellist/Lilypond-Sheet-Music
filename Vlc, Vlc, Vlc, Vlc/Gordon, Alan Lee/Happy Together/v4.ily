@@ -97,20 +97,19 @@ vd = \relative c {
    f4 a8 c4 e8~
    e4 f8 e4.
    d2 r8 h
-   d4 e f8 g \introb
-   f2 r8 a, d e
-
-   f e f4. e8 d e
-   f4. a8 g f e d
-   e eis e4. e8 f g
-   e4. g8 f e d c
-
-   d e d4. d8 d e16 f
-   d4. d8 d4-- e8-- d--
-   des4 b'2.
-   \times 2/3 { a8 b a g a g f g f e f e }
-
+   d4 e f8 g \introb \clef "bass"
+   b,2 r8 d,, g a
    b a b4. a8 g a
+   b4. d8 c b a g
+
+   a ais a4. a8 b c
+   a4. c8 b a g f
+   g a g4. g8 g a16 b
+   g4. g8 g4-- a8-- g--
+
+   ges4 es'2.
+   \times 2/3 { d8\> es d c[ d c] b c b a[ b a]\! }
+   b\p a b4. a8 g a
    b4. d8 c b a g
    a g a4. g8 f g
    a4. c8 b16 b a a g g f f
@@ -137,7 +136,7 @@ vd = \relative c {
    d2 r8 h
    d4 e f8 a
    g2.
-   h \clef "bass"
+   b
    c,,
    c4. c'4 b8
    b,4 d8 f4 a8~

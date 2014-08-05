@@ -137,7 +137,7 @@ vb = \relative c {
    d2 r8 h
    d4 e f8 a
    g2.
-   h \clef "bass"
+   b \clef "bass"
    c,,\mp
    c4. c'4 b8~
    b2.

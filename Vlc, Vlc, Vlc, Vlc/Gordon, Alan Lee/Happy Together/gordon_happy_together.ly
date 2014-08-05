@@ -38,7 +38,7 @@ pizz = \markup \bold \italic "pizz."
 rit  = \markup \bold \italic "rit."
 
 introa = { \bar "||" \mark \markup \box "A" \key c \major }
-introb = { \bar "||" \mark \markup \box "B"
+introb = { \bar "||" \mark \markup \box "B" \key b \major
            \tempo "Allegro " 4=130 \time 4/4
            % Set default beaming for all staves
            \set Timing.beamExceptions = #'()

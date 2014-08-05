@@ -99,7 +99,7 @@ vc = \relative c {
 
    es-- g?-. g-. g-. g-. g-. g-. g-.
    es-- es-. es-. es-. es-. es-. es-. es-.
-   a, d-. d-. d-. d-. d-. d-. d-.
+   g, d'-. d-. d-. d-. d-. d-. d-.
    d-. d-. d-. d-. d-. d-. d-. d-.
 
    g,4\p r g r

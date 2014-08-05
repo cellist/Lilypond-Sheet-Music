@@ -81,7 +81,7 @@ va = \relative c {
    fis4.\glissando d'~
    d2.~
    d
-   d8 d d d d d
+   d8 d d d d d \clef "bass"
 
    g,2.~
    g
@@ -98,17 +98,17 @@ va = \relative c {
    f
    g~
    g \introb
-   b2 r8 a d e
+   b2 r8 d, g a
+   b a b4. a8 g a
+   b4. d8 c b a g
 
-   f e f4. e8 d e
-   f4. a8 g f e d
-   e eis e4. e8 f g
-   e4. g8 f e d c
+   a ais a4. a8 b c
+   a4. c8 b a g f
+   g a g4. g8 g a16 b
+   g4. g8 g4-- a8-- g--
 
-   d e d4. d8 d e16 f
-   d4. d8 d4-- e8-- d--
-   des4 b'2.
-   \times 2/3 { a8\> b a g a g f g f e f e\> } \clef "bass"
+   ges4 es'2.
+   \times 2/3 { d8\> es d c[ d c] b c b a[ b a]\! } \clef "bass"
 
    d2\p c
    b1
