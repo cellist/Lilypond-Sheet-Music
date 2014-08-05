@@ -137,7 +137,7 @@ vd = \relative c {
    d4 e f8 a
    g2.
    b
-   c,,
+   c,
    c4. c'4 b8
    b,4 d8 f4 a8~
    a4 b8 a4.
