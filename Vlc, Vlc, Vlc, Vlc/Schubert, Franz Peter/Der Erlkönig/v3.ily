@@ -65,4 +65,87 @@ vc = \relative c'' {
    \repeat tremolo 12 <c es>
    \repeat tremolo 12 <g' b>
    f\f a b c d e \repeat tremolo 6 f\mf
+
+   \repeat tremolo 12 <g, b>
+   \repeat tremolo 12 <a c>
+   \repeat tremolo 12 f
+
+   \repeat tremolo 12 f
+   \repeat tremolo 12 f
+   \repeat tremolo 12 d
+
+   \repeat tremolo 12 d
+   \repeat tremolo 12 <g, c>
+   \repeat tremolo 6 <b f'> \repeat tremolo 6 <a f'>
+
+   \repeat tremolo 12 d
+   \repeat tremolo 12 es
+   \repeat tremolo 12 d
+
+   \repeat tremolo 12 es
+   \repeat tremolo 12 d
+   \repeat tremolo 12 f
+
+   \repeat tremolo 12 g,
+   \repeat tremolo 12 a
+   \repeat tremolo 12 a
+
+   \repeat tremolo 12 b
+   \repeat tremolo 12 a
+   \repeat tremolo 12 d
+
+   \repeat tremolo 6 <h d> \repeat tremolo 6 g
+   \repeat tremolo 6 b! \repeat tremolo 6 a
+   \repeat tremolo 6 d d d d d\f d d
+
+   \repeat tremolo 12 d
+   \repeat tremolo 12 d
+   \repeat tremolo 12 d
+
+   \repeat tremolo 6 d d\mf d d d d d
+   \repeat tremolo 12 d
+   \repeat tremolo 12 d
+
+   \repeat tremolo 12 d
+   d d d e e e d d d cis cis cis \introa
+   \repeat tremolo 6 d d d d dis dis dis
+
+   \repeat tremolo 12 h
+   \repeat tremolo 6 h \repeat tremolo 6 c
+   \repeat tremolo 6 h \repeat tremolo 6 c
+
+   \repeat tremolo 12 h
+   \repeat tremolo 6 h c c c d d d
+
+   g, r4 g8 r4 g8 r4 g8 r4
+   g8 r4 g8 r4 g8 r4 g8 r4
+   h8 r4 h8 r4 c8 r4 c8 r4
+
+   h8 r4 h8 r4 c8 r4 c8 r4
+   a8 r4 a8 r4 h8 r4 h8 r4
+   a8 r4 a8 r4 h8 r4 h8 r4
+
+   g'2 r8 g g2 r8 g
+   g2 r8 g c2 r8 g
+   g2 r8 g g2 r8 g
+
+   g2 r8 a \repeat tremolo 6 e
+   \repeat tremolo 12 e
+   \repeat tremolo 12 e
+
+   \repeat tremolo 12 e
+   \repeat tremolo 12 e
+   \repeat tremolo 12 e
+
+   \repeat tremolo 12 e
+   \repeat tremolo 12 e
+   \repeat tremolo 12 e
+
+   e e e fis fis fis e e e dis dis dis
+   \repeat tremolo 12 cis
+   \repeat tremolo 12 cis
+
+   \repeat tremolo 12 <e g>
+   \repeat tremolo 12 <f a>
+   \repeat tremolo 12 <e b'>
 }

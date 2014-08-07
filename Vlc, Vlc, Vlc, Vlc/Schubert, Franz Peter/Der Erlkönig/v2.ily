@@ -65,4 +65,87 @@ vb = \relative c' {
    f\f a b c d e \repeat tremolo 6 f
    \repeat tremolo 12 des
    \repeat tremolo 12 <c, es>
+
+   \repeat tremolo 12 des'
+   \repeat tremolo 12 f,
+   \repeat tremolo 12 f
+
+   \repeat tremolo 12 f
+   \repeat tremolo 12 f
+   \repeat tremolo 12 f
+
+   \repeat tremolo 12 f
+   \repeat tremolo 12 es
+   \repeat tremolo 6 d \repeat tremolo 6 c
+
+   \repeat tremolo 12 f
+   \repeat tremolo 12 <f a>
+   \repeat tremolo 12 f
+
+   \repeat tremolo 12 <f a>
+   \repeat tremolo 12 f
+   \repeat tremolo 12 a
+
+   \repeat tremolo 12 <b, e>
+   \repeat tremolo 12 c
+   \repeat tremolo 12 es?
+
+   \repeat tremolo 12 f
+   \repeat tremolo 12 es
+   \repeat tremolo 12 f
+
+   \repeat tremolo 6 f \repeat tremolo 6 es
+   \repeat tremolo 6 d \repeat tremolo 6 <c es>
+   \repeat tremolo 6 d' d d d d\f d d
+
+   \repeat tremolo 12 d
+   \repeat tremolo 12 d
+   \repeat tremolo 12 d
+
+   \repeat tremolo 6 d d\mf d d d d d
+   \repeat tremolo 12 d
+   \repeat tremolo 12 d
+
+   \repeat tremolo 12 d
+   d d d <g, cis> <g cis> <g cis> <fis h> <fis h> <fis h> <fis ais> <fis ais> <fis ais> \introa
+   \repeat tremolo 6 <fis h> <fis h> <fis h> <fis h> <fis a!> <fis a> <fis a>
+
+   \repeat tremolo 12 <e g>
+   \repeat tremolo 6 <e g> \repeat tremolo 6 <e a>
+   \repeat tremolo 6 <d g> \repeat tremolo 6 <d fis>
+
+   \repeat tremolo 12 <d g>
+   \repeat tremolo 12 <f? g>
+
+   g, c e g e c g c e g e c
+   g h f' g f h, g c e g e c
+   h d e gis e d a c e a e c
+
+   h d e gis e d a c e a e c
+   a c d fis d c g! h d g d h
+   a c d fis d c g h d g d h
+
+   g h f' g f h, g c e g e c
+   g d' f g f d g, c e g e c
+   g' h f' g f h, g c e g e c
+
+   g d' f g f d g e e e e e
+   \repeat tremolo 12 e
+   \repeat tremolo 12 e
+
+   \repeat tremolo 12 e
+   \repeat tremolo 12 e
+   \repeat tremolo 12 e
+
+   \repeat tremolo 12 e
+   \repeat tremolo 12 e
+   \repeat tremolo 12 e
+
+   e e e <a, dis> <a dis> <a dis> <gis cis> <gis cis> <gis cis> <gis c> <gis c> <gis c>
+   \repeat tremolo 12 cis
+   \repeat tremolo 12 cis
+
+   \repeat tremolo 12 <a cis>
+   \repeat tremolo 12 d?
+   \repeat tremolo 12 d
 }

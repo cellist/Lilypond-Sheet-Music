@@ -65,4 +65,83 @@ vd = \relative c' {
    \repeat tremolo 12 <f, a>
    \repeat tremolo 12 e
    \repeat tremolo 12 <f a>
+
+   \repeat tremolo 12 e
+   f\f a b c d e \repeat tremolo 6 f\mf
+   R1.*3
+   \repeat tremolo 12 b,,8
+
+   r4. b'-. f-. d-.
+   es-. r c-. r
+   f-. r f-. r
+
+   \repeat tremolo 12 b,8
+   \repeat tremolo 12 b
+   \repeat tremolo 12 b
+
+   \repeat tremolo 12 b
+   \repeat tremolo 12 b
+   \repeat tremolo 12 c
+
+   \repeat tremolo 12 c
+   \repeat tremolo 12 f
+   \repeat tremolo 12 f
+
+   \repeat tremolo 12 d
+   \repeat tremolo 12 f
+   \repeat tremolo 12 b,
+
+   \repeat tremolo 6 g \repeat tremolo 6 c
+   \repeat tremolo 12 f
+   <b, f'>4. r r h\upbow\f
+
+   c2.\downbow a
+   fis' r4. h,\upbow
+   c2.\downbow a
+
+   fis' r4. fis\upbow\mf
+   g fis g gis
+   a,2. ais
+
+   h1.~
+   h4. e fis fis \introa
+   h,1.
+
+   e~
+   e4. e-| c-|\upbow c-|\upbow
+   d-. r d-. r
+
+   g,2. e'4.\upbow h\upbow
+   g2. a4.\upbow h\upbow
+
+   c8 r4 c8 r4 c8 r4 c8 r4
+   c8 r4 c8 r4 c8 r4 c8 r4
+   e8 r4 e8 r4 a,8 r4 a8 r4
+
+   e'8 r4 e8 r4 a,8 r4 a8 r4
+   d8 r4 d8 r4 g,8 r4 g8 r4
+   d'8 r4 d8 r4 g,8 r4 g8 r4
+
+   g2 r8 g g2 r8 g
+   g2 r8 g c2 r8 g
+   g2 r8 g g2 r8 g
+
+   g2 r8 g c2 r4
+   r2. r4. cis
+   d2. h
+
+   fis' r4. cis
+   d2. h
+   gis' r4. gis,
+
+   a gis a ais
+   h2. c
+   cis1.~
+
+   cis4. fis-| gis-| gis-|
+   R1.*2
+
+   \repeat tremolo 12 g,8
+   \repeat tremolo 6 d' r2.
+   \repeat tremolo 12 g,8
 }

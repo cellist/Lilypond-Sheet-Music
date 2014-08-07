@@ -1,7 +1,7 @@
 \version "2.14.2"
 \include "deutsch.ly"
 
-#(set-global-staff-size 18)
+#(set-global-staff-size 17)
 
 \header {
   title       = \markup \bold \italic "Der Erlkönig"
@@ -13,8 +13,8 @@
 voiceconsts = {
   \key g \minor
   \time 6/4
-  \tempo "Presto " 4=200
-  \clef "bass"
+  \tempo "Allegro molto " 4=200
+  %\clef "bass"
   %\numericTimeSignature
   \compressFullBarRests
   % Set default beaming for all staves
@@ -23,10 +23,15 @@ voiceconsts = {
   \set Timing.beatStructure  = #'(1 1 1 1)  
 }
 
-mihi = "clarinet"
-milo = "bassoon"
+%mihi = "clarinet"
+%milo = "bassoon"
 %mihi = "church organ"
 %milo = "church organ"
+mia = "concertina"
+mib = "electric bass (pick)"
+mic = "pizzicato strings"
+
+introa = { \bar "||" \mark \markup \box "A" \key a \minor }
 
 rit = \markup \bold \italic "rit."
 
@@ -37,27 +42,27 @@ rit = \markup \bold \italic "rit."
 
 music = \new StaffGroup <<
       \new Staff {
-        \set Staff.midiInstrument = \mihi
+        \set Staff.midiInstrument = \mia
         \set Staff.instrumentName = \markup \center-column { "Violon-" "cello I" }
-        \transpose g g, { \va }
+        \transpose g g { \va }
       }
 
       \new Staff {
-        \set Staff.midiInstrument = \mihi
+        \set Staff.midiInstrument = \mia
         \set Staff.instrumentName = \markup \center-column { "Violon-" "cello II" }
-        \transpose g g, { \vb }
+        \transpose g g { \vb }
       }
 
       \new Staff {
-        \set Staff.midiInstrument = \milo
+        \set Staff.midiInstrument = \mib
         \set Staff.instrumentName = \markup \center-column { "Violon-" "cello III" }
-        \transpose g g, { \vc }
+        \transpose g g { \vc }
       }
 
       \new Staff {
-        \set Staff.midiInstrument = \milo
+        \set Staff.midiInstrument = \mic
         \set Staff.instrumentName = \markup \center-column { "Violon-" "cello IV" }
-        \transpose g g, { \vd }
+        \transpose g g { \vd }
       }
 >>
 
