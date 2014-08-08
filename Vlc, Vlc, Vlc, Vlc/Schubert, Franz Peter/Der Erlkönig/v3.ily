@@ -148,4 +148,56 @@ vc = \relative c'' {
    \repeat tremolo 12 <e g>
    \repeat tremolo 12 <f a>
    \repeat tremolo 12 <e b'>
+
+   \repeat tremolo 6 <f a> \repeat tremolo 6 <e a>
+   <f a>\f d d d d d \repeat tremolo 6 d
+   d' e f g a b a4.-| f-|
+
+   d r r2.
+   \repeat tremolo 12 d8\mf
+   \repeat tremolo 12 d
+
+   \repeat tremolo 12 g,
+   \repeat tremolo 12 <f as>
+   \repeat tremolo 12 g
+
+   \repeat tremolo 12 e
+   \repeat tremolo 12 f
+
+   \repeat tremolo 6 f \repeat tremolo 6 e
+   <f a> f f f f f \repeat tremolo 6 f
+   \repeat tremolo 12 f
+
+   \repeat tremolo 12 f
+   \repeat tremolo 12 f
+   \repeat tremolo 12 f
+
+   \repeat tremolo 6 f\sf \repeat tremolo 6 fis\sf
+   \repeat tremolo 6 g\sf \repeat tremolo 6 <g a>\sf
+
+   \repeat tremolo 6 g\sf \repeat tremolo 6 g\sf \introb
+   \repeat tremolo 12 g\f
+   g, a b c d es d4.-| b-|
+
+   \repeat tremolo 12 g8
+   \repeat tremolo 12 g
+   \repeat tremolo 6 g' \repeat tremolo 6 <g a>
+
+   g\f a b c d es d4.-| b-|
+   \repeat tremolo 6 <g b>8\mf \repeat tremolo 6 <a c>
+   \repeat tremolo 12 <b d>
+
+   \repeat tremolo 12 <h d>
+   \repeat tremolo 12 c
+   \repeat tremolo 12 c,
+
+   \repeat tremolo 12 c
+   \repeat tremolo 12 <c es>\sf
+
+   \repeat tremolo 12 <des e>\sf
+   \repeat tremolo 12 <c es!>\fp\>^\rit
+
+   <es as>2.\!\mp r\fermata
+   r8 <cis e>4.\fermata\p r2 <c fis>4^\mrit r
+   <b g'>2 r1 \bar "|."
 }

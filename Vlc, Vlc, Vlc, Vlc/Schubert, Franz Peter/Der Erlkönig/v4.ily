@@ -144,4 +144,56 @@ vd = \relative c' {
    \repeat tremolo 12 g,8
    \repeat tremolo 6 d' r2.
    \repeat tremolo 12 g,8
+
+   a2. a
+   d4.\f r r2.
+   d8 e f g a b a4.-| f-|
+
+   d r r2.
+   \repeat tremolo 12 d8\mf
+   \repeat tremolo 12 d
+
+   \repeat tremolo 12 es
+   \repeat tremolo 12 es
+   \repeat tremolo 12 es
+
+   \repeat tremolo 12 g,
+   \repeat tremolo 12 gis
+
+   a2. a
+   d r4. d
+   es2. c
+
+   a r4. d
+   es2. c
+   a r
+
+   <h d>\sf <c d>\sf
+   <b d>\sf c\sf
+
+   d\sf d\sf \introb
+   \repeat tremolo 12 g,8\f
+   \repeat tremolo 12 g\mf
+
+   \repeat tremolo 12 g
+   g\f a b c d es d4.-| b-|
+   \repeat tremolo 12 g8\mf
+
+   \repeat tremolo 12 b
+   \repeat tremolo 6 b \repeat tremolo 6 c
+   g'\f a b c d es d4.-| b-|
+
+   \repeat tremolo 12 f8\mf
+   \repeat tremolo 12 <es g>
+   c2. des4.\upbow d\upbow
+
+   es e f g
+   \repeat tremolo 12 as,8\sf
+
+   \repeat tremolo 12 as\sf
+   \repeat tremolo 12 as\fp\>^\rit
+
+   <as c>2.\!\mp r\fermata
+   r8 b4.\fermata\p r2 <a! d>4^\mrit r
+   <g d'>2 r1 \bar "|."
 }

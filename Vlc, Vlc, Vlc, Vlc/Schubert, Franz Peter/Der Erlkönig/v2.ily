@@ -148,4 +148,56 @@ vb = \relative c' {
    \repeat tremolo 12 <a cis>
    \repeat tremolo 12 d?
    \repeat tremolo 12 d
+
+   \repeat tremolo 6 d \repeat tremolo 6 cis
+   \repeat tremolo 12 d\f
+   \repeat tremolo 12 d,\mf
+
+   \repeat tremolo 12 d
+   d\f e f g a b a4.-| f-|
+   d r r2.
+
+   \repeat tremolo 12 <b' es>8
+   \repeat tremolo 12 <h! d>
+   \repeat tremolo 12 <b es>
+
+   \repeat tremolo 12 <b cis>
+   \repeat tremolo 12 <h! d>
+
+   \repeat tremolo 6 <a d> \repeat tremolo 6 <a cis>
+   d f f f f f \repeat tremolo 6 f
+   \repeat tremolo 12 f
+
+   \repeat tremolo 12 f
+   \repeat tremolo 12 f
+   \repeat tremolo 12 f
+
+   \repeat tremolo 6 f\sf \repeat tremolo 6 fis\sf
+   \repeat tremolo 6 g\sf \repeat tremolo 6 es\sf
+
+   \repeat tremolo 6 <b d>\sf \repeat tremolo 6 <b d>\sf \introb
+   \repeat tremolo 12 g\f
+   g a b c d es d4.-| b-|
+
+   \repeat tremolo 12 g8
+   g a b c d es d4.-| b-|
+   \repeat tremolo 6 g8\mf \repeat tremolo 6 a
+
+   \repeat tremolo 12 <g b>
+   \repeat tremolo 12 g
+   \repeat tremolo 12 d
+
+   \repeat tremolo 12 g
+   c\f d es f g as g4.-| es-|
+   \repeat tremolo 12 c8\mf
+
+   \repeat tremolo 12 c
+   \repeat tremolo 12 <as c>\sf
+
+   \repeat tremolo 12 <g b>\sf
+   \repeat tremolo 12 as\fp\>^\rit
+
+   c2.\!\mp r\fermata
+   r8 <g b>4.\fermata r2 <c, a'>4^\mrit r
+   <d b'>2 r1 \bar "|."
 }

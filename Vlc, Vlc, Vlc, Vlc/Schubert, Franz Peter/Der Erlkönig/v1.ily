@@ -1,6 +1,6 @@
 va = \relative c'' {
    \voiceconsts
-   \clef "treble"
+   \clef "tenor"
 
    R1.
    g8\f a b c d es d4.-| b-|
@@ -20,7 +20,7 @@ va = \relative c'' {
 
    \repeat tremolo 12 c
    \repeat tremolo 12 cis
-   d,\f fis g a h cis d4. a'
+   d,\f fis g a h cis d4. \clef "treble" a'
 
    b?2. a4. g
    a2.~ a4. a
@@ -44,12 +44,12 @@ va = \relative c'' {
    b b r g
 
    a2. fis
-   g r
+   g r \clef "tenor"
    g,8\f a b c d es d4.-| b-|
 
    g r r2.
    \repeat tremolo 12 g8\mf
-   \repeat tremolo 6 g g g g d'4.\f
+   \repeat tremolo 6 g g g g d'4.\f \clef "treble"
 
    g2. r4. d
    g2. a2 a4
@@ -148,4 +148,56 @@ va = \relative c'' {
    a2. a2 a4
    d?2.~ d4. d
    d h8.[( g?)] e4. h'
+
+   a2. a4. a
+   d,2. r
+   \repeat tremolo 12 d8\mf
+
+   \repeat tremolo 12 d
+   d\f e f g a b a4.-| f-|
+   d r r d'\f
+
+   es2 b4 b4. es
+   d d8.[( es)] f4. es8.[( d)]
+   es2.~ es4. d
+
+   cis2. cis4.\upbow cis\upbow
+   d2. d2\upbow gis,4\upbow
+
+   a2. a2 a4
+   d,2. r4. f'
+   fis2. fis2 fis4
+
+   fis8( f) f2 r4. f
+   fis2. fis2 fis4
+   f!2. r
+
+   f fis2 fis4
+   g2. es2 es4
+
+   d2.~ d4. d \introb
+   g,2. r
+   r r4. d
+
+   d2.~ d4. d
+   g g r g
+   g2. a2 a4
+
+   b2. r4. b
+   b2. c
+   d4. d r d
+
+   d2. g2 d4
+   es2. r
+   R1.
+
+   r2. r4. c
+   c2.~ c4. as
+
+   des2 b4 g4. b
+   as r^\rit r2.
+
+   r2 r16 as[ as b] c2 b8[ as]
+   g4. r8\fermata cis,\fermata d4. <d fis>4^\mrit r
+   <d g>2 r1 \bar "|."
 }

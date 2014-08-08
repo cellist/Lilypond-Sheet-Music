@@ -13,8 +13,8 @@
 voiceconsts = {
   \key g \minor
   \time 6/4
-  \tempo "Allegro molto " 4=200
-  %\clef "bass"
+  \tempo "Allegro molto " 4=180
+  \clef "bass"
   %\numericTimeSignature
   \compressFullBarRests
   % Set default beaming for all staves
@@ -27,13 +27,20 @@ voiceconsts = {
 %milo = "bassoon"
 %mihi = "church organ"
 %milo = "church organ"
-mia = "concertina"
-mib = "electric bass (pick)"
-mic = "pizzicato strings"
+%mia = "concertina"
+mia = "string ensemble 1"
+%mib = "electric bass (pick)"
+mib = "english horn"
+%mic = "pizzicato strings"
+%mic = "trombone"
+mic = "fretless bass"
+mid = "synth bass 1"
 
 introa = { \bar "||" \mark \markup \box "A" \key a \minor }
+introb = { \bar "||" \mark \markup \box "B" \key g \minor }
 
-rit = \markup \bold \italic "rit."
+rit  = \markup \bold \italic "rit."
+mrit = \markup \bold \italic "molto rit."
 
 \include "v1.ily"
 \include "v2.ily"
@@ -44,25 +51,25 @@ music = \new StaffGroup <<
       \new Staff {
         \set Staff.midiInstrument = \mia
         \set Staff.instrumentName = \markup \center-column { "Violon-" "cello I" }
-        \transpose g g { \va }
-      }
-
-      \new Staff {
-        \set Staff.midiInstrument = \mia
-        \set Staff.instrumentName = \markup \center-column { "Violon-" "cello II" }
-        \transpose g g { \vb }
+        \transpose g g, { \va }
       }
 
       \new Staff {
         \set Staff.midiInstrument = \mib
-        \set Staff.instrumentName = \markup \center-column { "Violon-" "cello III" }
-        \transpose g g { \vc }
+        \set Staff.instrumentName = \markup \center-column { "Violon-" "cello II" }
+        \transpose g g, { \vb }
       }
 
       \new Staff {
         \set Staff.midiInstrument = \mic
+        \set Staff.instrumentName = \markup \center-column { "Violon-" "cello III" }
+        \transpose g g, { \vc }
+      }
+
+      \new Staff {
+        \set Staff.midiInstrument = \mid
         \set Staff.instrumentName = \markup \center-column { "Violon-" "cello IV" }
-        \transpose g g { \vd }
+        \transpose g g, { \vd }
       }
 >>
 
