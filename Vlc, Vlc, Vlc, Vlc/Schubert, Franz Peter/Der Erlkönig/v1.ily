@@ -30,11 +30,11 @@ va = \relative c'' {
    r r4. d
    d2.~ d4. g
 
-   g2. es4. c
+   g2. e4. c
    f2.~ f4. a,
    b2. r4. b
 
-   es2.~ es4. a,
+   es?2.~ es4. a,
    b2. b
 
    es a,2 a4
