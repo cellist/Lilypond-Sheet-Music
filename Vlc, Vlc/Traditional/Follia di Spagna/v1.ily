@@ -307,9 +307,308 @@ va = \relative c' {
      d2.
    }
 
-   \repeat volta 2 { \boxd
+   \repeat volta 2 { \boxn
+     \times 2/3 { d8_\afbp f a d, f a d, f a }
+     \times 2/3 { cis, e a cis, e a cis, e a }
+     \times 2/3 { d, f a d, f a d, f a }
+     \times 2/3 { e g c e, g c e, g c }
+
+     \times 2/3 { f, a c f, a c f, a c }
+     \times 2/3 { e, g c e, g c e, g c }
+     \times 2/3 { d, f a d, f a d, f a }
+     \grace d, cis2\trill a4
    }
 
    \repeat volta 2 {
+     \times 2/3 { fis'8_\afbp a c fis, a c fis, a c }
+     \times 2/3 { g b d g, b d g, b d }
+     \times 2/3 { e, g c e, g c e, g c }
+     \times 2/3 { f,? a c f, a c f, a c }
+
+     \times 2/3 { es, g b es, g b es, g b }
+     \grace d,8 cis4.\trill b'8[ a gis]
+     a( d,) cis4.\trill d8
+     d2.
+   }
+
+   \repeat volta 2 { \boxo
+     d16_\afbp f e f d f e f d f e d
+     cis e d e cis e d e cis e d cis
+     d f e f d f e f d f e d
+     e g f g e g f g e g f e
+
+     f a g a f a g a f a g f
+     e g f g e g f g e g f e
+     d f e f d f e f d f e d
+     cis2\trill a4
+   }
+
+   \repeat volta 2 {
+     fis'16_\afbp a g a fis a g a fis a g fis
+     g b a b g b a b g b a b
+     e, g f? g e g f g e g f e
+     f a g a f a g a f a g d
+
+     es b' a b es, b' a b es, b' a d,
+     cis4.\trill b'8[ a g]
+     f e?16 d cis4.\trill d8
+     d2.
+   }
+
+   \repeat volta 2 { \boxp
+     d8[_\afbp a' d, a' d, a']
+     cis,[ a' cis, a' cis, a']
+     d,[ a' d, a' d, a']
+     e[ c' e, c' e, c']
+     f,[ c' f, c' f, c']
+     e,[ c' e, c' e, c']
+     d,[ a' d, a' d, a']
+     cis,2 a4
+   }
+
+   \repeat volta 2 {
+     fis'8[_\afbp d' fis, d' fis, d']
+     g,[ d' g, d' g, d']
+     e,[ c' e, c' e, c']
+     f,[ c' f, c' f, c']
+     es,[ b' es, b' es, b']
+     cis,4.\trill b'8[ a g]
+     f e?16 d cis4.\trill d8
+     d2.
+   }
+
+   \repeat volta 2 { \boxq
+     d16_\afbp a' a,8 d16 a' a,8 d16 a' a,8
+     cis16 a' a,8 cis16 a' a,8 cis16 a' a,8
+     d16 a' a,8 d16 a' a,8 d16 a' a,8
+     e'16 c' c,8 e16 c' c,8 e16 c' c,8
+
+     f16 c' c,8 f16 c' c,8 f16 c' c,8
+     e16 c' c,8 e16 c' c,8 e16 c' c,8
+     d16 a' a,8 d16 a' a,8 d16 a' a,8
+     cis2\trill a4
+   }
+
+   \repeat volta 2 {
+     fis'16_\afbp d' d,8 fis16 d' d,8 fis16 d' d,8
+     g16 d' d,8 g16 d' d,8 g16 d' d,8
+     e16 c' c,8 e16 c' c,8 e16 c' c,8
+     f?16 c' c,8 f16 c' c,8 f16 c' c,8
+     es16 b' b,8 es16 b' b,8 es16 b' b,8
+     cis4. b'8[ a g]
+     f( d) cis4.\trill d8
+     d2.
+   }
+
+   \repeat volta 2 { \boxr
+     \times 2/3 { d8(_\afbp e d) f( g f) a b a }
+     \times 2/3 { cis,( d cis) e( f e) a b a }
+     \times 2/3 { d,( e d) f( g f) a b a }
+     \times 2/3 { e( f e) g( a g) c? d c }
+     \times 2/3 { d,( f d) f( a f) c' d c }
+
+     \times 2/3 { e,( f e) g( a g) c d c }
+     \times 2/3 { d,( e d) f( g f) e f d }
+     cis2 a4
+   }
+
+   \repeat volta 2 {
+     \times 2/3 { fis'8(_\afbp g fis) a( b a) d c d }
+     \times 2/3 { g,( a g) d'( c d) g, a f? }
+
+     \times 2/3 { e( f e) c'( b c) a g a }
+     \times 2/3 { f( e f) b( a b) d c d }
+     \times 2/3 { es,( d es) b'( a b) d c d }
+     cis,4. b'8[ a d]
+     cis d \grace f, e4.\trill d8
+     d2.
+   }
+
+   \repeat volta 2 { \boxs
+     d16_\afbp a' f a d, a' f a d, a' f a
+     cis, a' e a cis, a' e a cis, a' e a
+     d, a' f a d, a' f a d, a' f a
+     e c' g c e, c' g c e, c' g c
+     f, c' a c f, c' a c f, c' a c
+
+     e, c' g c e, c' g c e, c' g c
+     d, a' f a d, a' f a d, a' f a
+     cis,2 a4
+   }
+
+   \repeat volta 2 {
+     fis'16_\afbp d' c d fis, d' c d fis, d' c d
+     g, d' c d g, d' c d g, d' c d
+
+     e, c' b c e, c' b c e, c' b c
+     f,? c' b c f, c' b c f, c' b c
+     es, b' a b es, b' a b es, b' a b
+     \grace d,8 cis4.\trill b'8[ a g]
+     f e?16 d cis4.\trill d8
+     d2.
+   }
+
+   \repeat volta 2 { \boxt
+     d16_\afbp a' a, a' d, a' a, a' d, a' a, a'
+     cis, a' a, a' cis, a' a, a' cis, a' a, a'
+     d, a' a, a' d, a' a, a' d, a' a, a'
+     e c' c, c' e, c' c, c' e, c' c, c'
+     f, c' c, c' f, c' c, c' f, c' c, c'
+
+     e, c' c, c' e, c' c, c' e, c' c, c'
+     d, a' a, a' d, a' a, a' d, f e d
+     cis2 a4
+   }
+
+   \repeat volta 2 {
+     fis'16_\afbp a a, a' fis a a, a' fis a a, a'
+     g b d, b' g b d, b' g b d, b'
+
+     e, g c, g' e g c, g' e g c, g'
+     f c' c, c' f, c' c, c' f, c' c, c'
+     es, b' b, b' es, b' b, b' es, b' b, b'
+     cis,4. b'8[ a g]
+     f e?16 d cis4.\trill d8
+     d2.
+   }
+
+   \repeat volta 2 { \boxu
+     \times 2/3 { d8(_\afbp a d) d( a d) d( a d) }
+     \times 2/3 { cis( a cis) cis( a cis) cis( a cis) }
+     \times 2/3 { d( a d) d( a d) d( a d) }
+     \times 2/3 { e( c? e) e( c e) e( c e) }
+     \times 2/3 { f( c f) f( c f) f( c f) }
+     \times 2/3 { e( c e) e( c e) e( c e) }
+     \times 2/3 { d( a d) d( a d) d( a d) }
+     cis2 a4
+   }
+
+   \repeat volta 2 {
+     \times 2/3 { fis'8(_\afbp d fis) fis( d fis) fis( d fis) }
+     \times 2/3 { g( d g) g( d g) g( d g) }
+     \times 2/3 { e( c e) e( c e) e( c e) }
+     \times 2/3 { f( c f) f( c f) f( c f) }
+     \times 2/3 { es( b es) es( b es) es( b es) }
+     \grace d cis4.\trill b'8[ a g]
+     a d, cis4.\trill d8
+     d2.
+   }
+
+   \repeat volta 2 { \boxv
+     \times 2/3 { d8(_\afbp e d) } a'[ a, a' a,]
+     \times 2/3 { cis( d cis) } a'[ a, a' a,]
+     \times 2/3 { d( e d) } a'[ a, a' a,]
+     \times 2/3 { e'( f e) } c'[ c, c' c,]
+     \times 2/3 { f( g f) } c'[ c, c' c,]
+     \times 2/3 { e( f e) } c'[ c, c' c,]
+     \times 2/3 { d( e d) } a'[ a, a' a,]
+     cis2 a4
+   }
+
+   \repeat volta 2 {
+     \times 2/3 { fis'8(_\afbp g fis) } d'[ d, d' d,]
+     \times 2/3 { g( a g) } d'[ d, d' d,]
+     \times 2/3 { e( f? e) } c'[ c, c' c,]
+     \times 2/3 { f( g f) } b[ b, b' b,]
+     \times 2/3 { es( f es) g a g b a b }
+     cis,4. b'8[ a gis]
+     a d, cis4.\trill d8
+     d2.
+   }
+
+   \repeat volta 2 { \boxw
+     d16(_\afbp a a') a, d( a a') a, d( a a') a,
+     cis( a a') a, cis( a a') a, cis( a a') a,
+     d( a) a' a, d( a) a' a, d( a) a' a,
+     e' c? c'( c,) e c c'( c,) e c c'( c,)
+     f c c'( c,) f c c'( c,) f c c'( c,)
+
+     e c c'( c,) e c c'( c,) e c c'( c,)
+     d a a'( a,) d a a'( a,) d a a'( a,)
+     cis2\trill a4
+   }
+
+   \repeat volta 2 {
+     fis'16(_\afbp d d' d,) fis( d d' d,) fis( d d' d,)
+     g( d d' d,) g( d d' d,) g( d d' d,)
+
+     e( c) c'( c,) e( c) c'( c,) e c c'( c,)
+     f( c) c'( c,) f( c) c'( c,) f c c'( c,)
+     es( b) b'( b,)  es( b) b'( b,)  es b b'( b,)
+     cis4. b'8[ a d]
+     cis d \grace f,8 e?4.\trill d8
+     d2.
+   }
+
+   \repeat volta 2 { \boxx
+     d8_\afbp f4 a8 a, d
+     cis e4 a8 a, cis
+     d f4 a8 a, d
+     e g4 c?8 c, e
+     f a4 c8 c, f
+
+     e g4 c8 c, e
+     d f4 a8 a, d
+     cis2 a4
+   }
+
+   \repeat volta 2 {
+     fis'8 a4 d8 d, fis
+     g b4 d8 d, f!
+     e g4 c8 c, e
+
+     f a4 c8 c, d	
+     es b'4 d d,8
+     cis4.\trill b'8[ a gis]
+     a d, cis4.\trill d8
+     d2.
+   }
+
+   \repeat volta 2 { \boxy
+     d16_\afbp d' cis d d, d' e, d' f, d' d, d'
+     a,4 cis a
+     d16 d' cis d d, d' e, d' f, d' d, d'
+     c,?4 e c
+
+     f,16 f' e f f, f' g, f' a, f' f, f'
+     c4 e c
+     d16 d' cis d d, d' e, d' f, d' d, d'
+     \grace d,8 cis2\trill  a4
+   }
+
+   \repeat volta 2 {
+     d16_\afbp d' cis d d, d' e, d' fis, d' d, d'
+     g,4 b g
+     c,16 c' h c c, c' d, c' e, c' c, c'
+     f,?4 a f
+
+     b,16 g' fis g g, g' a, g' b,? g' g, g'
+     cis,4.\trill b'8[ a gis]
+     a d, cis4.\trill d8
+     d2.
+   }
+
+   \repeat volta 2 { \boxz
+     d8_\afbp f4 a8~ a16 f e d
+     cis8 e4 a8~ a16 e d cis
+     d8 f4 a8~ a16 f e d
+     e8 g4 c?8~ c16 g f e
+     f8 a4 c8~ c16 f, e d
+
+     e8 g4 c8~ c16 e, d cis
+     d8 f4 a8~ a16 f e d
+     cis2.
+   }
+
+   \repeat volta 2 {
+     fis8_\afbp a4 d8~ d16 c? b a
+     b8 g4 b8~ b16 a g f!
+     e8 g4 c8~ c16 b a g
+
+     a8 f4 a8~ a16 g f e
+     d8 es4 b'16 a g f e d
+     cis4.\trill b'8[ a gis]
+     a( d,) cis4.\trill d8
+     d2.
    }
 }

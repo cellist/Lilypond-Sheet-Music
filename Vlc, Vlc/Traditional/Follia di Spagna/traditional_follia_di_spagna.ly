@@ -1,7 +1,7 @@
 \version "2.14.2"
 \include "deutsch.ly"
 
-#(set-global-staff-size 17.5)
+#(set-global-staff-size 16.25)
 
 \header {
   title     = \markup \bold \italic "Partite di Follia di Spagna"
@@ -13,6 +13,7 @@
 voiceconsts = {
   \key f \major
   \time 3/4
+  \clef "bass"
   \tempo "Moderato " 4=90
   %\numericTimeSignature
   \compressFullBarRests
@@ -23,8 +24,11 @@ voiceconsts = {
   \set Timing.beatStructure  = #'(1 1 1)
 }
 
-mihi = "clarinet"
-milo = "bassoon"
+%mihi = "clarinet"
+%milo = "bassoon"
+%mihi = "concertina"
+mihi = "bright acoustic"
+milo = "acoustic bass"
 
 afbp = \markup { \dynamic f "/" \dynamic p }
 
@@ -44,6 +48,16 @@ boxm = \mark \markup \box "M"
 boxn = \mark \markup \box "N"
 boxo = \mark \markup \box "O"
 boxp = \mark \markup \box "P"
+boxq = \mark \markup \box "Q"
+boxr = \mark \markup \box "R"
+boxs = \mark \markup \box "S"
+boxt = \mark \markup \box "T"
+boxu = \mark \markup \box "U"
+boxv = \mark \markup \box "V"
+boxw = \mark \markup \box "W"
+boxx = \mark \markup \box "X"
+boxy = \mark \markup \box "Y"
+boxz = \mark \markup \box "Z"
 
 \include "v1.ily"
 \include "v2.ily"
@@ -52,14 +66,12 @@ music = \new StaffGroup <<
       \new Staff {
         \set Staff.midiInstrument = \mihi
         \set Staff.instrumentName = \markup \center-column { "Violon-" "cello I" }
-%        \transpose f f { \va }
         \transpose f c { \va }
       }
 
       \new Staff {
         \set Staff.midiInstrument = \milo
         \set Staff.instrumentName = \markup \center-column { "Violon-" "cello II" }
-%        \transpose f f { \vb }
         \transpose f c { \vb }
       }
 >>

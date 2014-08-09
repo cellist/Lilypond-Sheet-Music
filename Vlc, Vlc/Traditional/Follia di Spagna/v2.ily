@@ -1,6 +1,5 @@
 vb = \relative c {
    \voiceconsts
-   \clef "bass"
 
    \repeat volta 2 { \boxa
      d8_\afbp cis d e f g
@@ -306,9 +305,309 @@ vb = \relative c {
      d2.
    }
 
-   \repeat volta 2 { \boxd
+   \repeat volta 2 { \boxn
+     d4_\afbp d r
+     a a r
+     d d r
+     c c r
+
+     a f r
+     c' c r
+     d d r
+     a a r
    }
 
    \repeat volta 2 {
+     d_\afbp d c
+     b a g
+     c c b
+     a g f
+
+     g g' g,
+     a a'8[ g f e]
+     f g a4 a,
+     d2.
+   }
+
+   \repeat volta 2 { \boxo
+     d4_\afbp f a
+     a, cis e
+     d f a
+     c,? e g
+
+     f a c
+     c, e g
+     d f a
+     a, cis e
+   }
+
+   \repeat volta 2 {
+     d_\afbp fis a
+     g b d
+     c,? e g
+     f? a c
+
+     g g, g'
+     a8[ g f e f e]
+     d g a4 a,
+     d2.
+   }
+
+   \repeat volta 2 { \boxp
+     d8[_\afbp e f g a d,]
+     a[ b cis d e cis]
+     d[ e f g a f]
+     c[ d e f g e]
+     f[ g a b c e,]
+     c[ d e f g e]
+     f[ e d e f g]
+     a4 a,2
+   }
+
+   \repeat volta 2 {
+     d8[_\afbp e fis g a fis]
+     g[ a b c d g,]
+     c,[ d e f? g e]
+     f[ g a b c a]
+     g4 g, g'
+     a8[ b a g f e]
+     d g a4 a,
+     d2.
+   }
+
+   \repeat volta 2 { \boxq
+     d4_\afbp a' d,
+     a cis a
+     d a' d,
+     c? e c
+
+     f a f
+     c e c
+     d f d
+     a2.
+   }
+
+   \repeat volta 2 {
+     d4_\afbp fis d
+     g b g
+     c, e c
+     f a f
+     g g, g'
+     a8[ g f e f e]
+     d g a4 a,
+     d2.
+   }
+
+   \repeat volta 2 { \boxr
+     d4_\afbp d d
+     a a a
+     d d d
+     c c c
+     f f f
+
+     c c c
+     b b g
+     a2 a4
+   }
+
+   \repeat volta 2 {
+     d_\afbp d d
+     g, g g
+
+     c c c
+     f, f f
+     b a g
+     a8[ b a g f g]
+     a4 d cis
+     d2.
+   }
+
+   \repeat volta 2 { \boxs
+     d4_\afbp f d
+     a cis a
+     r d f
+     r c e
+     r f a
+
+     r c, e
+     r d f
+     r a a,
+   }
+
+   \repeat volta 2 {
+     r d8[_\afbp e fis d]
+     r4 g8[ a b g]
+
+     r4 c,8[ d e c]
+     r4 f8[ g a f]
+     r4 g8[ a b g]
+     a4. g8[ f e]
+     d g a4 a,
+     d2.
+   }
+
+   \repeat volta 2 { \boxt
+     d4_\afbp d d
+     a a a
+     d d d
+     c c c
+     f f f
+
+     c c c
+     d d d
+     a a a
+   }
+
+   \repeat volta 2 {
+     d_\afbp d d
+     g, g g
+
+     c c c
+     f, f f
+     g g g
+     a a'8[ g f e]
+     d g a4 a,
+     d2.
+   }
+
+   \repeat volta 2 { \boxu
+     d4_\afbp f d
+     a cis a
+     d f d
+     c? e c
+     f a f
+     c e c
+
+     d f d
+     a2.
+   }
+
+   \repeat volta 2 {
+     d4_\afbp fis d
+     g b g
+     c, e c
+     f? a f
+     g b g
+     a8[ b a g f e]
+     f g a4 a,
+     d2.
+   }
+
+   \repeat volta 2 { \boxv
+     d4_\afbp d8[ e f d]
+     a4 a8[ b cis a]
+     d4 d8[ e f d]
+     c?4 c8[ d e c]
+     f4 f8[ g a f]
+     c4 c8[ d e c]
+     d4 d8[ e f d]
+     a2.
+   }
+
+   \repeat volta 2 {
+     d4_\afbp d8[ e fis d]
+     g,4 g8[ a b g]
+     c4 c8[ d e c]
+     f,?4 f8[ g a f]
+     g4 g8[ a b g]
+     a4 a'8[ g f e]
+     f g a4 a,
+     d2.
+   }
+
+   \repeat volta 2 { \boxw
+     d4_\afbp f d
+     a cis a
+     d f d
+     c? e c
+     f a f
+
+     c e c
+     d f d
+     a2 a4
+   }
+
+   \repeat volta 2 {
+     d4_\afbp fis d
+     g b g
+
+     c, e c
+     f a f
+     g g, b
+     a a'8[ g f g]
+     a b a4 a,
+     d2.
+   }
+
+   \repeat volta 2 { \boxx
+     d4_\afbp f d
+     a cis a
+     d f d
+     c? e c
+     f a f
+
+     c e c
+     d f d
+     a2.
+   }
+
+   \repeat volta 2 {
+     d4_\afbp fis d
+     g b g
+     c, e c
+
+     f? a f
+     g b g
+     a8[ b a g f e]
+     f g a4 a,
+     d2.
+   }
+
+   \repeat volta 2 { \boxy
+     d4_\afbp a' d,
+     a16 a' gis a a, a' h, a' cis, a' a, a'
+     d,4 a' d,
+     c?16 c' h c c, c' d, c' e, c' c, c'
+
+     f,4 a f
+     c16 c' h c c, c' d, c' e, c' c, c'
+     d,4 f d
+     a16 a' gis a a, a' h, a' cis, a' a, a'
+   }
+
+   \repeat volta 2 {
+     d,4_\afbp fis d
+     g,16 g' fis g g, g' a, g' b,? g' g, g'
+     c,4 e c
+     f,16 f'? e f f, f' b, f' c f f, f'
+
+     b,4 g g'
+     a8[ b a g f e]
+     d g a4 a,
+     d2.
+   }
+
+   \repeat volta 2 { \boxz
+     d2_\afbp d4
+     cis2 cis4
+     d2 d4
+     e2 e4
+     f2 f4
+
+     e2 e4
+     d2 d4
+     a2.
+   }
+
+   \repeat volta 2 {
+     d2_\afbp d4
+     g,2 g4
+     c2 c4
+
+     f,2 f4
+     g a b
+     a8[b a g f g]
+     a4 d cis
+     d2.
    }
 }
