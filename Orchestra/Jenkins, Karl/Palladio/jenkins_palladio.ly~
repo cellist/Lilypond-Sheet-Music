@@ -47,19 +47,19 @@ music = <<
 
       \new Staff {
         \set Staff.midiInstrument = \mist
+        \set Staff.instrumentName = \markup \center-column { "Violine" "III" }
+        \transpose d d { \vc }
+      }
+
+      \new Staff {
+        \set Staff.midiInstrument = \mist
         \set Staff.instrumentName = \markup \center-column { "Viola" }
         \transpose d d { \vd }
       }
 
       \new Staff {
-        \set Staff.midiInstrument = \mist
-        \set Staff.instrumentName = \markup \center-column { "Violon-" "cello I" }
-        \transpose d d { \vc }
-      }
-
-      \new Staff {
         \set Staff.midiInstrument = \miba
-        \set Staff.instrumentName = \markup \center-column { "Violon-" "cello II" }
+        \set Staff.instrumentName = \markup \center-column { "Violon-" "cello" }
         \transpose d d { \ve }
       }
 

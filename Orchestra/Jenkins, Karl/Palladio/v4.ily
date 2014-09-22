@@ -3,7 +3,7 @@ vd = \relative c' {
    \clef "alto"
 
    R1*4
-   r8 g\upbow\mf f g es r r g
+   r8 g\upbow\mf f g f r r g
    b a b r r2
 
    r8 b a b g r r b
@@ -47,7 +47,7 @@ vd = \relative c' {
    b a b r r2
    r8 b a b g r r b
    a g a r r2
-   r8 a\upbow g a e r r g
+   r8 a\upbow g a f r r g
    b a b r r2
 
    r8 b a b g d' cis b

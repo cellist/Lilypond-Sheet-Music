@@ -1,5 +1,6 @@
 vc = \relative c' {
    \voiceconsts
+   \clef "bass"
 
    R1*4
    r8 a\upbow\mf g a a r r a
@@ -120,10 +121,10 @@ vc = \relative c' {
    a1\espressivo
    r2 r8 b\upbow a b
    g1\espressivo
-   e''8 cis cis b cis b b g
+   e'8 cis cis b cis b b g
 
    b g g e g e e cis
-   r8 a\upbow g a a r r a
+   r8 a'\upbow g a a r r a
    b a b r r2
    r8 b a b g r r b
    a g a r r2
@@ -141,7 +142,7 @@ vc = \relative c' {
 
    \repeat tremolo 8 d
    \repeat tremolo 8 d
-   \repeat tremolo 8 d
+   \repeat tremolo 8 d \clef "tenor"
    \repeat tremolo 8 <a d>
 
    \repeat tremolo 8 es'
