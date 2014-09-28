@@ -8,7 +8,7 @@
   composer  = "Georg Philipp Telemann (1681-1767)"
   arranger  = "arr.: M.W."
   enteredby = "cellist (2014-09-27)"
-  piece     = "TWV:1:DA3"
+  piece     = "TWV:41:DA3"
 }
 
 voiceconsts = {
