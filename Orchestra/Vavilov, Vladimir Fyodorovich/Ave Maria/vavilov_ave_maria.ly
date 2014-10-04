@@ -5,7 +5,7 @@
 
 \header {
   title     = \markup \bold \italic "Ave Maria"
-  composer  = "Giulio Caccini (1551-1618)"
+  composer  = "Wladimir Fjodorowitsch Vavilov (1925-1973)"
   arranger  = "arr.: John Ross"
   enteredby = "cellist (2014-10-03)"
 }
