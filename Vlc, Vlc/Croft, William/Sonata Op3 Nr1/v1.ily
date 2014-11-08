@@ -137,6 +137,6 @@ va = \relative c' {
      r8 as16 g as f g4.
      r8 g16 f g e f4.
      r8 f16 es! f d es8. f16 g8
-     es8. d16 c8 c4 r8
+     es8.[ d16] d8 c4 r8
    }
 }
