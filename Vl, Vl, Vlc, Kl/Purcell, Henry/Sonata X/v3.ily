@@ -8,7 +8,7 @@ vc = \relative c {
    g r g e
    f? r d e
    f g c, f,
-   a2 c4 r
+   g2 c4 r
 
    g r d' h
    e r e cis
