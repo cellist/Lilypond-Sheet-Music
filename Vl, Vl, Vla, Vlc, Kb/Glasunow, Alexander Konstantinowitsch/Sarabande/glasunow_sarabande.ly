@@ -5,9 +5,11 @@
 
 \header {
   title     = \markup \bold \italic "Sarabande"
-   composer  = "Alexander Konstantinowitsch Glasunow"
+  subtitle  = "- aus: \"Ruses d'amour\" -"
+  composer  = "Alexander Konstantinowitsch Glasunow"
   arranger  = "(1865–1936)"
   enteredby = "cellist (2014-12-22)"
+  piece     = "op. 61 (1898)"
 }
 
 voiceconsts = {
