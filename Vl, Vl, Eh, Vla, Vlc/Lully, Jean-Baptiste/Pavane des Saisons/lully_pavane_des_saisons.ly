@@ -6,7 +6,7 @@
 \header {
   title     = \markup \bold \italic "Pavane Des Saisons"
   subtitle  = "- aus: \"Idylle Sur La Paix\" -"
-  composer  = "Jean-Baptiste Lully ()"
+  composer  = "Jean-Baptiste Lully (1632-1687)"
   arranger  = "arr.: Luca Albanese"
   enteredby = "cellist (2014-12-23)"
 }
