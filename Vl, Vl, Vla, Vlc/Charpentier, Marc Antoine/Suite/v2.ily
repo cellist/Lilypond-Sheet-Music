@@ -224,11 +224,11 @@ vb = \relative c'' {
 
    \introf
    r4 a4. a8
-   a4 a b8 c
+   a4 a b8 cis
    b4. b8 b4
    b4 a4. a8
    a4 a4. a8
-   a4 a b8 c
+   a4 a b8 cis
 
    b4. b8 b4
    b a4. a8
@@ -242,18 +242,18 @@ vb = \relative c'' {
    g a8 h? c4
    h8 a gis4. a8
    a4 a4. a8
-   a4 a b8 c?
+   a4 a b8 cis
 
    b4. b8 b4
    b a4. a8
    a4 a4. a8
-   a4 a b8 c
+   a4 a b8 cis
    b4. b8 b4
    b4 a4. a8
 
    a4 f8 e f g
    a4 a4. g8
-   f4 b4. c8
+   f4 b4. c?8
    d2 h!4
    c g c
    c4. b8 a4
@@ -298,12 +298,13 @@ vb = \relative c'' {
    h?4. h8 cis4
    d8 e16 f e4. d8
    cis4 a4. a8
-   a4 a b8 c
+   a4 a b8 cis
    b4. b8 b4
 
    b a4. a8
    a4 a4. a8
-   a4 a b8 c
+   a4 a b8 cis
    b4. b8 b4
-   b a4. a8 a2. \bar "|."
+   b a4. a8
+   a2. \bar "|."
 }
