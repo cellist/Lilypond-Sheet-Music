@@ -1,7 +1,7 @@
 \version "2.14.2"
 \include "deutsch.ly"
 
-#(set-global-staff-size 16.4)
+#(set-global-staff-size 17.25)
 
 \header {
   title     = \markup \bold \italic "Sonata a Due, Nr. 2"
@@ -29,10 +29,10 @@ mist = "string ensemble 1"
 miba = "drawbar organ"
 %mikl = "acoustic grand"
 
-introa = {            \tempo "1. Largo "    2=60  \time 3/2 }
-introb = { \break     \tempo "2. Allegro "  4=120 \time 4/4 }
-introc = { \pageBreak \tempo "3. Largo "    4=60  \time 3/4 \key e \minor }
-introd = { \break     \tempo "4. Vivace "   8=140 \time 3/8 \key g \major
+introa = {            \tempo "1. Largo "      2=60  \time 3/2 }
+introb = { \break     \tempo "2. Allegro "    4=120 \time 4/4 }
+introc = { \pageBreak \tempo "3. Affettuoso " 4=70  }
+introd = { \pageBreak \tempo "4. Vivace "     8=180 \time 2/4
   \set tupletSpannerDuration = #(ly:make-moment 1 8)
 }
 

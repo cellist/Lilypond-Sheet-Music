@@ -158,122 +158,179 @@ va = \relative c' {
   a,2 r \bar "|."
 
   \introc
-  r4 h'\mf h
-  e2.~
-  e8 dis e fis h, a
-  g fis g fis e d
-  c h a h c a
-  h4 r dis
-  e c'4. c8
-  c a h4. h8
-  e c a4.\trill h8
+  c8\mf d e f e16( d) c8 r h
+  c d e f e c d g,
+  c c16 d e8 a,16 h c8 h16 a h8 cis
+  r d16 e fis8 g r d16 e fis8 g
 
-  h2.
-  r8 f' e d c h
-  c4 f d
-  h e c
-  a d8 h c4~
-  c8 d c4( h8.)\trill a16
-  a2.
-  r8 e' d c h a
-  h d c h a g
+  r fis16 e d8 e16 fis g d e c? d8 d
+  g, g'16 f! e8 d r4 c'~
+  c8 e16 f g8 f e16 d c4 a8
+  g f16 e f8 d' f, e r g
 
-  a c h a g fis?
-  g4. a8 h4~
-  h8 c a4. g8
-  fis h, a c h e
-  dis4 r8 e dis g
-  fis h a c h e
-  dis4 dis4.\trill cis16 dis
-  e8 h e, d! c a
+  a16( f) e( f) c'8 g a16( g) f8 r e
+  f16( d) cis( d) a'8 e f16( e) d8 r a'
+  b16( g) fis( g) es'8 d cis16( g) fis( g) b8 a
 
-  d a' d, c h g
-  c h a dis e g,
-  c a h g a h
-  e4 c' a
-  fis h g
-  e a8 fis g4~
-  g8 a fis4. e8
-  e2. \bar "|."
-  
+  b16( g) fis( g) es'8 d cis16( g) fis( g) b8 a
+  gis a4 g8 f!16 e! f d' e,8.\trill d16
+  d8 d16 e f8 e d c? h? d
+  e a fis d g g16 a h8 a
+
+  r4 g'4. f16 e f8 f
+  f e e, fis g4 r8 fis
+  g g16 fis e8 dis e4 r8 dis
+  e e16 fis g8 gis a4 r8 g
+  fis4 r8 gis a4 r8 g
+
+  fis4 r8 g fis dis16 cis h8 dis
+  e c! a h e4 r8 g
+  a16( f?) g( e) f( a) f( d?) g( h) c( a) h( g) h( d)
+
+  c( a) h( gis) a( c) a( f) h( d) e( c) d( h) d( f)
+  e( c) d( h) c( a) h( d) e( c) d( f) e( d) e( c)
+  d8 g,?16 f e8 d r4 c'~
+
+  c8 e16 f g8 f e16 d c4 a8
+  g f16 e f8 d' f, e r f'16 e
+  d8 c16 h c8 d g,16( h) d4 e16( c)
+
+  g( h) d4 e16 c d fis g8~ g16 e f d
+  e h c f d8.\trill c16 c4 r8 g
+  a16( f) g( e) f( a) f( d) e( g) a( f) g( e) c( e)
+
+  f( d) e( c) d( f) d( h) c( e) g( e) f( a) c( a)
+  d( g,) h( d) f( h,) d( f) e( h) c( a) h8.\trill c16
+  c g a f g8 g, c4 r \bar "|."
+
   \introd
+  \partial 8
   \repeat volta 2 {
-    h'16(\mf c) c4\trill
-    d16( c32 h) c[( h a g)] d'16 g,
-    e'8 c4
-    a8 r4
-    g16 d h' d, g d
-    a' d, c' d, a' d,
-    h' d, d' d, c' d,
-    h' c h a g a
+    r8
+    r e\mf a c
+    h4 r8 gis
+    a h16 c h8 a
+    gis4 r8 e
+    a4 r8 a
+    gis e h' d
+    c d16 e d8 c
+    h4 r
+  
+    r8 c,16 d e f g? e
+    a8 f16 e f4
+    r8 h,16 c d e f d
+    g8 e16 d e4
+    r8 e' d g
+    c,16 h c d h a h c
+    a8 c h e
 
-    h( c) c4\trill
-    d16( c32 h) c[( h a g)] d'16 g,
-    e'8 c4
-    a8 r4
-    d,8 e fis
-    g r4
-    \times 2/3 { fis16( g a) g[( a h)] a( h c) }
-    \times 2/3 { h( c a) h[( c a)] h( a h) }
+    a,16 g a b g f g a
+    f8 a g c
+    f,16 e f g e d e f
+    d h? c a c8 h
+    a4 r8 a16 h
+    c d e8 a c
+    h4 r8 gis
 
-    \times 2/3 { a( h c) h[( cis d)] cis( d e) }
-    \times 2/3 { d( e cis) d[(e cis)] d( cis d) }
-    e-| d16( cis h a g)
-    d'-| cis( h a g fis)
-    g8 r4
-    fis8 r4
-    e16 d g fis e d
+    a a16 h c d e8
+    d4 r8 h
+    c4 r8 b
+    a h!16 c d h c a
+    h8 g?16 a h c d8~
+    d c4 h8
+    a d16 cis d8 g,
+    fis4 r8 e
 
-    cis' a h cis d8~
-    d16 e cis8.[\trill d16]
-    d( cis32 h) a[( g fis e)] a( g fis e)
-    fis16 a fis a fis a
-    d( cis32 h) a[( g fis e)] a( g fis e)
-    fis16 d' e,8.[\trill d16]
+    d d'16 cis d8 g,
+    fis4 r8 fis
+    g16 a h4 h,8
+    c a r e'
+    fis16 g a4 a,8
+    h g r d''
+    e16 fis g4 fis8~
+    fis e4 d8
 
-    d4.
+    c16 d e4 d8~
+    d c4 h8
+    a16 h c4 h8~
+    h a4 g8
+    fis e' h dis
+    e4 r16 h, e fis
+    g4 r16 e g a
+    h4 r16 h, e fis
+
+    g e g a h h, e fis
+    g( a) g( a) g( a) g( a)
+    g8 fis16 e dis8.\trill e16
+    e4.
   }
   \repeat volta 2 {
-    fis16( g) g4\trill
-    a16( g32 fis) g[( fis e d)] a'16 d,
-    g a a4\trill
-    h8 r4
-    h16 e, e' e, h' e,
-    c'?8 a c
-    h16 e, e' e, h' e,
-    c'8 a c
+    h'8
+    e4 r8 d?
+    cis e a, cis
+    d4 r8 c!
 
-    f16-| e( d c h a)
-    d8. e16 c8~
-    c16 h h8.[ c16]
-    a8.\trill gis16 a8~
-    a16 g fis? e dis cis
-    h cis dis h e h'
-    e fis dis8.[\trill e16]
+    h d g, h
+    c4 r8 b
+    a16 c b a f'? a, b a
+    g b a g e' g, a g
+    f a g f d'4~
+    d8 g,, a cis'
+    d4 r8 fis,
 
-    e( d32 c) h[( a g fis)] e'( d cis d)
-    cis8 r4
-    d16( c!32 h) a[( g fis e)] d'( c h c)
-    \times 2/3 { h16( c d) c[( d e)] d( e f) }
-    \times 2/3 { e( f d) e[( f d)] e( d e) }
+    g h? d, f!
+    e4 r8 e
+    f c' c, f
+    e16( d) e8 r e
+    e16( cis) d8 r d
+    d16( h) c!8 r16 e d c
+    a' g f e d8 g
 
-    g,8 a h
-    c r4
-    \times 2/3 { h16( c d) c[( d e)] a,( h c) }
-    \times 2/3 { h( c a) h[( c a)] h( a h) }
-    c8 r4
-    h8 r4
-    e16-| d( c h a g)
+    e f16 g a h c8~
+    c h16 a h8 d,
+    c d16 e f g a8~
+    a g16 fis g8 h,
+    a h16 cis d e f8~
+    f e16 d e8 a
+    gis4 r8 c
 
-    d'-| c( h a g fis)
-    c' h a g c h
-    c8. a16 h8~
-    h16 c a8.[\trill g16]
-    g'( fis32 e) d[( c h a)] d( c h a)
+    h e16 d e8 a,
+    gis4 r8 h
+    c16 d e4 e,8
+    f d r a'
+    h16 c d4 d,8
+    e c r g'
+    a16 h c4 h8~
+    h a4 g8
+    f16 g a4 g8~
 
-    h16 d h d h d
-    g( fis32 e) d[( c h a)] d( c h a)
-    h16 g' a,8.[\trill g16]
-    g4.
+    g f4 e8
+    d16 e f4 e8~
+    e d4 c8
+    h a' e gis
+    a4 r8 a
+    gis d'16 c h c d8
+    c4 r8 a
+    gis d'16 c h c d8
+
+    c4 r8 a
+    g a16 h c d e8~
+    e d16 c d8 f,
+    e f16 g a h c8~
+    c h16 a h8 d,
+    c c' h e
+    a,16 g a b g f g a
+
+    f8 a g c
+    f,16 e f g e d e f
+    d h c a c8 h
+    a16 e' a h c4
+    r16 a c d e4
+
+    r16 e, a h c a c d
+    e e, a h c a c d
+    e( f) e( f) e( f) e( f)
+    e8 d16 c h8.\trill a16
+    a4.
   }
 }
