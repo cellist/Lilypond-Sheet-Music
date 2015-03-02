@@ -52,8 +52,8 @@ ve = \relative c {
     d d'( cis c)
     h, <e d'> h <e d'>
     e <e d'> r <e d'> \rit
-    a8-. r e'-. r e-. r d16( e d) r
-    cis?8-. r a,4( h cis)
+    a8-. r e'-. r e-. r \times 2/3 { d( e d) }
+    cis?-. r a,4( h cis)
 
     d <fis d'> d <fis d'>
     g, <g' h> h, cis

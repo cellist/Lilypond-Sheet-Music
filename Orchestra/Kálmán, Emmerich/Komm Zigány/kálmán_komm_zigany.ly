@@ -21,7 +21,7 @@ voiceconsts = {
 %  \set Timing.beamExceptions = #'()
 %  \set Timing.baseMoment     = #(ly:make-moment 1 4)
 %  \set Timing.beatStructure  = #'(1 1 1)
-%  \set tupletSpannerDuration = #(ly:make-moment 1 8)
+  \set tupletSpannerDuration = #(ly:make-moment 1 4)
   \tempo "Andante " 4=90
 }
 

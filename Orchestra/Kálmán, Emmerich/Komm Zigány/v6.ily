@@ -52,8 +52,8 @@ vf = \relative c, {
     d, d( cis c)
     h, gis'' h,, gis''
     e, gis' e, gis' \rit
-    a,8-. r cis'?-. r cis-. r h16( cis h) r
-    a8-. r a,4(-- h-- cis)--
+    a,8-. r cis'?-. r cis-. r \times 2/3 { h( cis h) }
+    a-. r a,4(-- h-- cis)--
 
     d, a'' d,, a''
     g, d' h, cis

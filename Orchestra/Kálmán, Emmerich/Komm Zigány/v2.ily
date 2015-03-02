@@ -51,8 +51,8 @@ vb = \relative c' {
     fis4 fis8 g a h cis d
     e4. dis8 e cis4.
     h4(-- cis-- d-- dis)-- \rit
-    e8-. r e-. r e-. r d16( e d) r
-    cis8-. r cis4(-- cis-- h)--
+    e8-. r e-. r e-. r \times 2/3 { d( e d) }
+    cis-. r cis4(-- cis-- h)--
 
     a2(-- g8-- fis4.)--
     d'2(-- cis8-- h4.)--

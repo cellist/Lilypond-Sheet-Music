@@ -25,7 +25,7 @@ va = \relative c'' {
     a1\espressivo \boxa
 
     a2 g8 fis4.(->
-    d'2) d8 cis4.
+    d'2) cis8 h4.
     a2 h8 a4.
     fis1
     fis2 e8 d4.
@@ -42,7 +42,7 @@ va = \relative c'' {
     e8 fis4. cis4 h
 
     a1~
-    a4. gis8 a4 ais
+    a4 gis a ais
     h4. ais8 h8 g4.
     e1
     d'4. cis8 d a?4.
