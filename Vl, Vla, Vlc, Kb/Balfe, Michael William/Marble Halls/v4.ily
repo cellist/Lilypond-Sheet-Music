@@ -51,7 +51,7 @@ vd = \relative c, {
   f\!
   g^\mrit
   g,
-  c
+  c,
   g'
   c \bar "|."
 }

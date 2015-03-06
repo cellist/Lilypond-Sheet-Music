@@ -16,7 +16,7 @@
 voiceconsts = {
   \key c \major
   \time 3/8
-  \tempo "Sehnsuchtsvoll " 4.=40
+  \tempo "Sehnsuchtsvoll " 4.=35
   \numericTimeSignature
   \compressFullBarRests
   % Set default beaming for all staves

@@ -49,9 +49,9 @@ vc = \relative c {
   c,\<
 
   f\!
-  g
+  g^\mrit
   g,
-  c16 g c e g e
-  c g c e g e
+  c,16 g c e g e
+  c' g c e g e
   <c e g>4.\arpeggio \bar "|."
 }
