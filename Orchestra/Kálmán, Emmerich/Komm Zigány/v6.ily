@@ -2,7 +2,7 @@ vf = \relative c, {
   \voiceconsts
   \clef "bass"
 
-  d4\p r d r
+  d4\p^\pizz r d r
   d r d r
   \repeat volta 2 {
     d' a' f a\fermata
@@ -24,7 +24,7 @@ vf = \relative c, {
     d, f' e, g'
     f,\< f' g, e'\!
     f,\> a' e, b''\! \rit
-    a, f'(^\dolc fis g) \boxa
+    a, f'(\upbow^\dolc_\arco fis g) \boxa
 
     d, a'' d,, a''
     g, d' h, cis->
@@ -61,9 +61,9 @@ vf = \relative c, {
     h, h'2 h4 \breathe
   }
   \alternative {
-    { e,,1 | a | d,4\< r d r\! | d\> r d r\! }
+    { e,,1 | a | d,4\<^\pizz r d r\! | d\> r d r\! }
     { e gis' e, gis' }
   }
-  a, a'2 a,4
+  a, a'2 a,4\upbow
   d,\fermata r r2 \bar "|."
 }

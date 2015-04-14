@@ -1,7 +1,7 @@
 \version "2.14.2"
 \include "deutsch.ly"
 
-#(set-global-staff-size 17.6)
+#(set-global-staff-size 17.5)
 
 \header {
   title     = \markup \bold \italic "Komm, Zigany"
@@ -17,10 +17,6 @@ voiceconsts = {
   \time 4/4
   \numericTimeSignature
   \compressFullBarRests
-  % Set default beaming for all staves
-%  \set Timing.beamExceptions = #'()
-%  \set Timing.baseMoment     = #(ly:make-moment 1 4)
-%  \set Timing.beatStructure  = #'(1 1 1)
   \set tupletSpannerDuration = #(ly:make-moment 1 4)
   \tempo "Andante " 4=90
 }
@@ -31,7 +27,9 @@ mist = "string ensemble 1"
 miba = "drawbar organ"
 %mikl = "acoustic grand"
 
+arco = \markup \italic "arco"
 dolc = \markup \italic "dolce"
+pizz = \markup \italic "pizz."
 rit  = \mark \markup \box "rit."
 
 boxa = { \bar "||" \mark \markup \box "A" \key d \major }
