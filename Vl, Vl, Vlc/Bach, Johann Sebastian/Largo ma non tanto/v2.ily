@@ -11,16 +11,16 @@ vb = \relative c'' {
   d( c d) g b, d c( d e f g) e f4 r8 r4. \boxa
 
   d'~ d8 c b a4.~ a8 g f
-  e( cis d) g4.~ g16 e( fis g a b) cis( es d cis b a)
-  b4 r8 r b4~ b16 g( a b c! d) es( g f es d c)
+  e( cis d) g4.~ g16 e( fis g a b) c!( es d c b a)
+  b4 r8 r b4~ b16 g( a b c d) es( g f es d c)
 
   d( c d) b f b es( d es) c a c f( es f) d b d g( f g) es f g
   a,8 f' b,~ b g a b4. r
   f'~ f8 e? d c4.~ c8 b a
 
   g( e f) b4.~ b8 a b c4 es,8~
-  es d f b4 d,8~ d c es a4 c,8~
-  c\< b d g4 b,8~ b a\! f'~\f^\pral f g e! \boxb
+  es d f b4 d,8~ d c e! a4 c,8~
+  c\< b d g4 b,8~ b a\! f'~\f^\pral f g e \boxb
 
   f16( c d) b c8^\atem b'--\mp a-- g-- f4 r8 d-- c-- b--
   a4 r8 b'4.(~ b16 a) e'8 f a,4.(~
@@ -34,7 +34,7 @@ vb = \relative c'' {
   f,4.~ f8 h( c16 d) e,4.(~ e16 fis) \afterGrace fis4(\trill { e16[ fis]) } \boxc
   g4 g,8 g,4 g''8 f!4 g,8 g,4 e''8
 
-  d16 fis,( g a h c) d( f! e d c b?) c4. r8 c4~
+  d16 fis,( g a h c) d( f! e d c h) c4. r8 c4~
   c16 a( h c d e) f( a g f e d) e( d e) c g c f( e f) c a c
 
   g'( f g) e c e a( g a) f c f e4r8 r e4~
@@ -63,9 +63,9 @@ vb = \relative c'' {
   e( d e) c g c f( e f) d h d g( f g) e c e a( g a) f g a
 
   h,8 g' c,~ c a h c16( h c) g e g f( g a b c) a
-  f( es f) b d, f es( f g a b) g es( d es) a c, es d( es f g a) f
+  f( es f) b d, f e!( f g a b) g e( d e) a c, e d( e f g a) f
 
-  d( c d) g b, d c( d e! f g) e f( c d b) c8 b'-- a-- g--
+  d( c d) g b, d c( d e f g) e f( c d b) c8 b'-- a-- g--
   f4 r8 d-- c-- b-- a16( c f g a b) c4 es,8~
 
   es d f b4 d,8~ d c e a4 c,8~

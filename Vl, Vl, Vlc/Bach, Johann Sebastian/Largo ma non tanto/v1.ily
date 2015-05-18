@@ -11,7 +11,7 @@ va = \relative c''' {
   f( e f) d a d g( f g) e c e a( g a) f d f b( a b) g a b
   cis,8 a' d,~ d h cis d4 r8 r a4~
 
-  a16 fis( g a b! c!) d( fis es d c b) c4. r
+  a16 fis( g a b! c!) d( f! es d c b) c4. r
   b'~ b8 a g f4.~ f8 es d
   c( a b) es4.~ es8 d f b c16( b a g)
 
@@ -48,7 +48,7 @@ va = \relative c''' {
 
   e( cis d) g4.(~ g8 f) r b,-- a-- g--
   f16( a b) g a8 g'-- f-- e-- d4 r8 r a4~
-  a16 fis( g a b c) d( fis es d c b) c4 r8 r c4~
+  a16 fis( g a b c) d( f! es d c b) c4 r8 r c4~
 
   c8 b16( as g f!) es4.(~ es16 d) a'8-- b-- d,4.~
   d16 c a'8-- b-- c,4.~ c8 b d f b d
