@@ -12,10 +12,10 @@ vd = \relative c {
   g r r c-> r r
   R2.
   \repeat volta 2 {
-    g'4-.\mf g8 g4 g8
+    g'4-.\mf g8\< g4 g8
     g4-. g8 g4 g8
     f4-. f8 f4 f8\!
-    f4-.\f f8 f4 f8
+    f4-.\!\f f8 f4 f8
 
     b4-. b8 b4 b8
     b4-. b8 b4 b8
