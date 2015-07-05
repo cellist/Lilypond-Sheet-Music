@@ -1,7 +1,7 @@
-\version "2.14.2"
+\version "2.16.2"
 \include "deutsch.ly"
 
-#(set-global-staff-size 18)
+#(set-global-staff-size 16.75)
 
 \header {
   title = "Trio op. 83 Nr. 1"
@@ -20,9 +20,9 @@ voiceconsts = {
 }
 
 %minstr = "harpsichord"
-mihi = "clarinet"
+mist = "string ensemble 1"
 %minstr = "accordion"
-milo = "bassoon"
+miba = "drawbar organ"
 
 introa = { \tempo "1. Allegro con spiritu " 4=120 }
 introb = { \break \tempo "2. Andante e sempre piano " 4=60 \time 3/4 }
@@ -36,20 +36,20 @@ fine = \markup \bold \italic "Fine"
 
 music = \new StaffGroup <<
       \new Staff {
-	\set Staff.midiInstrument = \milo
-	\set Staff.instrumentName = #"Vc I"
+	\set Staff.midiInstrument = \mist
+	\set Staff.instrumentName = \markup \center-column { "Violon-" "cello I" }
 	\transpose c b { \va }
       }
 
       \new Staff {
-	\set Staff.midiInstrument = \milo
-	\set Staff.instrumentName = #"Vc II"
+	\set Staff.midiInstrument = \mist
+	\set Staff.instrumentName = \markup \center-column { "Violon-" "cello II" }
 	\transpose c b { \vb }
       }
 
       \new Staff {
-	\set Staff.midiInstrument = \milo
-	\set Staff.instrumentName = #"Vc III"
+	\set Staff.midiInstrument = \miba
+	\set Staff.instrumentName = \markup \center-column { "Violon-" "cello II" }
 	\transpose c b { \vc }
       }
 >>
