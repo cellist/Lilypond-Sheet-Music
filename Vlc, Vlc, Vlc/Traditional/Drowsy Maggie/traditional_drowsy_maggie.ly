@@ -13,7 +13,7 @@
 voiceconsts = {
   \key e \minor
   \time 4/4
-  \tempo "Irish Reel " 4=120
+  \tempo "Irish Reel " 4=140
   \clef "bass"
   %\numericTimeSignature
   \compressFullBarRests
