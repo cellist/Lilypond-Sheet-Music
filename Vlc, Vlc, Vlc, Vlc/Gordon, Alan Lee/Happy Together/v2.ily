@@ -24,10 +24,10 @@ vb = \relative c {
    f4 es4. r8
    r4. g-.
    f4 es4.-. es8
-   d4.-. ges-.
+   d4.-. fis-.
    a4 c4. r8
    d,4.-.\mf dis-.
-   fis8 r d-. g?4 a8
+   fis8 r d-. g4 a8
 
    b4 a8 b4.~
    b4 a8 g a4
@@ -49,7 +49,7 @@ vb = \relative c {
 
    g,~
    g
-   f~
+   f?~
    f
    g~
    g
@@ -85,7 +85,7 @@ vb = \relative c {
 
    g' d
    h? g
-   f4 a8 c4 e8~
+   f?4 a8 c4 e8~
    e4 f8 e4.
    d2 r8 h
    d4 e f8 g
@@ -102,17 +102,17 @@ vb = \relative c {
 
    g,8-.\p d'-. d-. d-. d-. d-. d-. d-.
    g,-. d'-. d-. d-. d-. d-. d-. d-.
-   ges,-. es'-. es-. es-. es-. es-. es-. es-.
-   ges,-. es'-. es-. es-. es-. es-. es-. es-.
+   fis,-. es'-. es-. es-. es-. es-. es-. es-.
+   fis,-. es'-. es-. es-. es-. es-. es-. es-.
 
    es,-. es-. es-. es-. es-. es-. es-. es-.
    es-. es-. es-. es-. es-. es-. es-. es-.
    d-. d-. d-. d-. d-. d-. d-. d-.
-   d' d d c r d,\mf g? a
+   d' d d c r d,\mf g a
 
    b a b4. a8 g a
    b4. d8 c b a g
-   a g a4. g8 f g
+   a g a4. g8 f? g
    a4. c8 b16 b a a g g f f
 
    g8 f g4. f8 es16 es f f
@@ -123,7 +123,7 @@ vb = \relative c {
    g4. d
    h g
 
-   f4 a8 c4 e8~
+   f?4 a8 c4 e8~
    e4 f8 e4.
    d2 r8 h
    d4 e f8 g
@@ -174,16 +174,16 @@ vb = \relative c {
    \grace c8 b4\mf a4. g8~
    g4. r4 g8
    g4 a g
-   ges4. d'~
+   fis4. d'~
    d2.~
    d
 
    \grace c8 b4 c4. d8~
    d4. r4 c8
-   b4 a4. g?8~
+   b4 a4. g8~
    g4. r4 g8
    g4 a g
-   ges4. d'~
+   fis4. d'~
    d2.~
    d\fermata \bar "|."
 }

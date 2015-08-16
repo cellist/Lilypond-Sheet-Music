@@ -1,4 +1,4 @@
-\version "2.14.2"
+\version "2.16.2"
 \include "deutsch.ly"
 
 #(set-global-staff-size 16.5)
@@ -46,7 +46,7 @@ introb = { \bar "||" \mark \markup \box "B" \key b \major
            \set Timing.beatStructure  = #'(1 1)
          }
 introc = { \bar "||" \mark \markup \box "C" \key f \major
-           \tempo "Vivace " 4=200 \time 3/4
+           \tempo "Vivace " 4=200 \time 6/8
            % Set default beaming for all staves
            \set Timing.beamExceptions = #'()
            \set Timing.baseMoment     = #(ly:make-moment 3 8)

@@ -41,7 +41,7 @@ vc = \relative c {
 
    g4. g
    g g
-   f f
+   f? f
    f f
    g g
    g g
@@ -94,10 +94,10 @@ vc = \relative c {
 
    g8--\f d'-.\p d-. d-. d-. d-. d-. d-.
    g,--\f d'-.\p d-. d-. d-. d-. d-. d-.
-   ges,--\f ges-.\p ges-. ges-. ges-. ges-. ges-. ges-.
-   ges--\f ges-.\p ges-. ges-. ges-. ges-. ges-. ges-.
+   fis,--\f fis-.\p fis-. fis-. fis-. fis-. fis-. fis-.
+   fis--\f fis-.\p fis-. fis-. fis-. fis-. fis-. fis-.
 
-   es-- g?-. g-. g-. g-. g-. g-. g-.
+   es-- g-. g-. g-. g-. g-. g-. g-.
    es-- es-. es-. es-. es-. es-. es-. es-.
    g, d'-. d-. d-. d-. d-. d-. d-.
    d-. d-. d-. d-. d-. d-. d-. d-.
@@ -114,7 +114,7 @@ vc = \relative c {
    g,4. g'-^
    g, g'-^
 
-   f, f'-^
+   f,? f'-^
    f, f'-^
    g, g'-^
    g, g'-^

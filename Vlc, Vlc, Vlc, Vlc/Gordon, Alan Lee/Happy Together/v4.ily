@@ -24,7 +24,7 @@ vd = \relative c {
    g8 r f es4 f8
    g2 r8 g
    g4 a g
-   ges4. d'~
+   fis4. d'~
    d2.~
    d~
    d4 d,8-. g4 a8\mf
@@ -34,7 +34,7 @@ vd = \relative c {
    b2 r8 d
    c4 b8 a4 g8
    a4 g8 a4.~
-   a8 r g f4 g8
+   a8 r g f?4 g8
    a4. r4 c8
    b4 a8 g4 f8
    g f g2
@@ -49,7 +49,7 @@ vd = \relative c {
 
    g4.\ff d
    h g
-   f4 a8 c4 e8~
+   f?4 a8 c4 e8~
    e4 f8 e4.
    d2 r8 h
    d4 e f8 g
@@ -85,7 +85,7 @@ vd = \relative c {
 
    g4. d
    h g
-   f4 a8 c4 e8~
+   f?4 a8 c4 e8~
    e4 f8 e4.
    d2 r8 h
    d4 e f8 g
@@ -107,11 +107,11 @@ vd = \relative c {
    g a g4. g8 g a16 b
    g4. g8 g4-- a8-- g--
 
-   ges4 es'2.
+   fis4 es'2.
    \times 2/3 { d8\> es d c[ d c] b c b a[ b a]\! }
    b\p a b4. a8 g a
    b4. d8 c b a g
-   a g a4. g8 f g
+   a g a4. g8 f? g
    a4. c8 b16 b a a g g f f
 
    g8 f g4. f8 es16 es f f
@@ -122,7 +122,7 @@ vd = \relative c {
    g4. d
    h g
 
-   f4 a8 c4 e8~
+   f?4 a8 c4 e8~
    e4 f8 e4.
    d2 r8 h
    d4 e f8 g
@@ -169,8 +169,8 @@ vd = \relative c {
    g4. r8 g4
 
    g a g
-   ges4. d'\mf
-   \grace c8 b4 a4. g?8~
+   fis4. d'\mf
+   \grace c8 b4 a4. g8~
    g4. r4 g8
    \grace c b4 c4. d8~
    d2 r8 c
@@ -178,7 +178,7 @@ vd = \relative c {
    g2 r8 g
 
    g4 a g
-   ges4. d'~
+   fis4. d'~
    d2.~
    d2 r4
    \grace c8 b4 c4. d8~

@@ -24,10 +24,10 @@ va = \relative c {
    g8 r f es4 f8
    g2 r8 g
    g4 a g
-   ges4. d'~
+   fis4. d'~
    d2.~
    d~
-   d4 r8 g,?4-. f8\p
+   d4 r8 g,4-. f?8\p
 
    g4.-. b-.
    a4 g4.-. r8
@@ -42,14 +42,14 @@ va = \relative c {
    f4 es4.-. r8
    r4. g-.
    f4 es4.-. es8
-   d4.-. ges-.
+   d4.-. fis-.
    a4 c4. r8 \clef "tenor"
    d4.-. es8-- es-- es--
    e!-- e-- e-- fis-- fis-- fis-- \introa
 
    g4.\ff d
    h g
-   f4 a8 c4 e8~
+   f?4 a8 c4 e8~
    e4 f8 e4.
    d2 r8 h
    d4 e f8 g
@@ -85,7 +85,7 @@ va = \relative c {
 
    g,2.~
    g
-   f~
+   f?~
    f
    g~
    g
@@ -107,7 +107,7 @@ va = \relative c {
    g a g4. g8 g a16 b
    g4. g8 g4-- a8-- g--
 
-   ges4 es'2.
+   fis4 es'2.
    \times 2/3 { d8\> es d c[ d c] b c b a[ b a]\! } \clef "bass"
 
    d2\p c
@@ -117,10 +117,10 @@ va = \relative c {
 
    b2 a
    g1
-   a4 ges d c
-   d g!^\glissando d'2 \introc
+   a4 fis d c
+   d g^\glissando d'2 \introc
    g,4. g
-   g4 d8 g4 f8~
+   g4 d8 g4 f?8~
 
    f2.
    f4. f
@@ -169,20 +169,20 @@ va = \relative c {
    g4. r8 g4
 
    g a g
-   ges4. d'~\mf
+   fis4. d'~\mf
    d2.~
    d
    \grace c8 b4 c4. d8~
    d2 r8 c
-   b4 a4. g?8~
+   b4 a4. g8~
    g2 r8 g
 
    g4 a g
-   ges4. d'~
+   fis4. d'~
    d2.~
    d2 r4
    \grace c8 b4 c4. d8~
    d2 r4
-   b a4. g?8~
+   b a4. g8~
    g2.\fermata \bar "|."
 }
