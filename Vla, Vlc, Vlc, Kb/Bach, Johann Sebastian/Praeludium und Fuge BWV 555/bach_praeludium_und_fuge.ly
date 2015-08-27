@@ -1,10 +1,10 @@
 \version "2.16.2"
 \include "deutsch.ly"
   
-#(set-global-staff-size 17)
+#(set-global-staff-size 17.5)
 
 \header {
-  title     = "Praeludium"
+  title     = "Praeludium und Fuge"
   composer  = "Johann Sebastian Bach (1685-1750)"
   arranger  = "arr.: Helmut Kickton"
   enteredby = "cellist (2015-08-26)"
@@ -14,10 +14,8 @@
 voiceconsts = {
   \key d \minor
   \clef "bass"
-  \time 4/4
 % \numericTimeSignature
   \compressFullBarRests
-  \tempo "Andante " 4=70
 }
 
 %minstr = "harpsichord"
@@ -25,6 +23,9 @@ mihi = "string ensemble 1"
 %minstr = "accordion"
 miba = "bassoon"
 milo = "drawbar organ"
+
+introa = {        \tempo "1. Praeludium " 4=70 \time 4/4 }
+introb = { \break \tempo "2. Fuge "       4=70 \time 3/4 }
 
 \include "v1.ily"
 \include "v2.ily"
