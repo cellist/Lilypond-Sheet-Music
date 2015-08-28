@@ -50,12 +50,12 @@ vb = \relative c'' {
   g h2 a4
   g d'2 c8 h
 
-  a4 d c f
+  a4 d c fis
   e d2 cis4
   d a a a
   h2 as
   a!2. g4
-  fis? g4. fis16 e fis4
+  fis g4. fis16 e fis4
 
   g2 a4 g
   fis d' d d

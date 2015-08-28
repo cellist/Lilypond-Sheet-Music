@@ -51,8 +51,8 @@ va = \relative c'' {
   h d2 c4
   h4. c8 h4 a8 g
 
-  fis4 f e a
-  g fis! e2
+  fis4 fis e a
+  g fis e2
   fis r4 d'
   d d e2~
   e4 d cis h8 cis
