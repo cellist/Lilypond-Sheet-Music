@@ -1,6 +1,6 @@
 va = \relative c' {
   \voiceconsts
-  \clef "tenor"
+  \clef "alto"
 
   g2(\p a)
   g1 \boxa

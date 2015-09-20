@@ -1,6 +1,5 @@
 vb = \relative c {
   \voiceconsts
-  \clef "tenor"
 
   e2(\p f)
   d2.( e8 f) \boxa
@@ -47,7 +46,7 @@ vb = \relative c {
   c1
   d
   b4( d c b)
-  b\(( a) g( a)\) \boxf
+  b\(( a) g( a)\) \clef "tenor" \boxf
 
   d1\mf
   f
@@ -57,7 +56,7 @@ vb = \relative c {
   d,
   cis(
   d2) a'~
-  a4 cis,2.(
+  a4 \clef "bass" cis,2.(
 
   d2) a
   h?1

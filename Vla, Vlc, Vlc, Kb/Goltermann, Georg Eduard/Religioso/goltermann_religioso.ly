@@ -1,7 +1,7 @@
 \version "2.16.2"
 \include "deutsch.ly"
   
-#(set-global-staff-size 17.5)
+#(set-global-staff-size 17.075)
 
 \header {
   title    = \markup \italic "Religioso"
