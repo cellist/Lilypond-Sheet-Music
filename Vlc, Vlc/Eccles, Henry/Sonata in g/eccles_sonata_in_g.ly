@@ -1,7 +1,7 @@
 \version "2.18.2"
 \include "deutsch.ly"
 
-#(set-global-staff-size 18.1)
+#(set-global-staff-size 18)
 
 \header {
   title     = \markup \bold \italic "Sonata in g-moll"
@@ -25,10 +25,10 @@ miba = "drawbar organ"
 %miba = "electric bass (pick)"
 %mikl = "acoustic grand"
 
-introa = {        \tempo "1. Largo "     4=40  \time 4/4 }
-introb = { \break \tempo "2. Corrente "  4=100 \time 3/4 }
-introc = { \break \tempo "3. Adagio "    2=50  \time 3/2 }
-introd = { \break \tempo "4. Presto "   4.=60  \time 3/8 }
+introa = {            \tempo "1. Largo "     4=40  \time 4/4 }
+introb = { \break     \tempo "2. Corrente "  4=100 \time 3/4 }
+introc = { \pageBreak \tempo "3. Adagio "    2=50  \time 3/2 }
+introd = { \break     \tempo "4. Presto "   4.=60  \time 3/8 }
 
 arco = \markup \italic "arco"
 papp = \markup { \dynamic p " / " \dynamic pp }
