@@ -1,4 +1,4 @@
-vd = \relative c {
+vd = \relative c, {
   \voiceconsts
 
   e4\f e f8 e4 r8

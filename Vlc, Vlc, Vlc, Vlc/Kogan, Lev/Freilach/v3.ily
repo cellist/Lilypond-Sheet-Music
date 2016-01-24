@@ -1,4 +1,4 @@
-vc = \relative c' {
+vc = \relative c {
   \voiceconsts
 
   d4\f d es8 d4 r8
@@ -31,23 +31,23 @@ vc = \relative c' {
   g! f
 
   r8 es r es r es r es
-  r a r a r4 r8 a \clef "tenor"
+  r a r a r4 r8 a
   b2 gis
 
   g! f
   r8 h! r h r h r h
-  gis2 f4 \grace a8 b4
+  gis2 f4 \appoggiatura a8 b4
 
   cis cis d8 h! cis4
-  e8 d cis h b h cis4
+  e8 d cis h ais h cis4
   r8 h4 cis8 e d cis h
 
-  cis h b h cis2
+  cis h ais h cis2
   e4 e f8 d e4
   r8 e4 e8 f d e4
 
   d8 e f e g f e d
-  e d cis b a2
+  e d cis b a?2
   fis4 r8 fis r4 fis
   es r8 es r4 es
 
@@ -57,7 +57,7 @@ vc = \relative c' {
   es8 d c es d c es4
 
   d c8 d~ d c d4
-  c8 b a g a2 \clef "bass"
+  c8 b a g a2
   es4 r8 es r4 es
 
   cis r8 cis r4 cis

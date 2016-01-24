@@ -1,4 +1,4 @@
-\version "2.14.2"
+\version "2.18.2"
 \include "deutsch.ly"
 
 #(set-global-staff-size 17.75)
@@ -6,7 +6,7 @@
 \header {
   title = "Freilach"
   subtitle = "(2000)"
-  composer = "Lev Kogan (*1927)"
+  composer = "Lev Kogan (1927-2007)"
   arranger = "arr.: Dezso Czentnar"
   enteredby = "cellist (2013-06-01)"
 }
@@ -20,13 +20,14 @@ voiceconsts = {
   \tempo "Vivo " 4=166
 }
 
-%minstr = "harpsichord"
-mihi = "clarinet"
-%minstr = "accordion"
-milo = "bassoon"
+%mist = "harpsichord"
+%mihi = "clarinet"
+mist = "string ensemble 1"
+milo = "drawbar organ"
+miba = "electric bass (finger)"
 
-boxa = { \bar "||" \mark \markup \box "A" }
-boxb = { \bar "||" \mark \markup \box "B" }
+boxa = { \bar "||" \mark \markup \box \bold "A" }
+boxb = { \bar "||" \mark \markup \box \bold "B" }
 
 \include "v1.ily"
 \include "v2.ily"
@@ -35,27 +36,27 @@ boxb = { \bar "||" \mark \markup \box "B" }
 
 music = \new StaffGroup <<
       \new Staff {
-	\set Staff.midiInstrument = \milo
+	\set Staff.midiInstrument = \mist
 	\set Staff.instrumentName = \markup \center-column { "Violon-" "cello I" }
-	\transpose a d { \va }
+	\transpose a a { \va }
       }
 
       \new Staff {
-	\set Staff.midiInstrument = \milo
+	\set Staff.midiInstrument = \mist
 	\set Staff.instrumentName = \markup \center-column { "Violon-" "cello II" }
-	\transpose a d { \vb }
+	\transpose a a { \vb }
       }
 
       \new Staff {
 	\set Staff.midiInstrument = \milo
 	\set Staff.instrumentName = \markup \center-column { "Violon-" "cello III" }
-	\transpose a d { \vc }
+	\transpose a a { \vc }
       }
 
       \new Staff {
-	\set Staff.midiInstrument = \milo
+	\set Staff.midiInstrument = \miba
 	\set Staff.instrumentName = \markup \center-column { "Violon-" "cello IV" }
-	\transpose a d { \vd }
+	\transpose a a { \vd }
       }
 >>
 

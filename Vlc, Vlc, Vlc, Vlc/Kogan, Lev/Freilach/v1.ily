@@ -1,6 +1,5 @@
-va = \relative c'' {
+va = \relative c' {
   \voiceconsts
-  \clef "tenor"
 
   e4\f e f8 e4 r8
   e4 e f8 e4 e8
@@ -27,7 +26,7 @@ va = \relative c'' {
   r8 cis, r cis r d r cis
   r f'4 e8 g4 f
 
-  e8 d cis b a2 \clef "bass"
+  e8 d cis b a2
   r8 d, r d r d r d
   r d r d r d r d
 
@@ -63,7 +62,7 @@ va = \relative c'' {
 
   g r8 f? r4 g
   fis r8 fis r4 fis
-  es r8 es r4 \clef "treble" es'
+  es r8 es r4 \clef "tenor" es'
 
   d4 g f8 e?4 e8
   d e f a gis\prall f e d \boxb
@@ -84,10 +83,10 @@ va = \relative c'' {
   cis8 b a g a2
 
   cis16 d e8~ e e f d e4
-  e16 f g8~ g g gis f g4
+  e16 f g8~ g g as f g4
   r8 f4 e8 d e f g
 
-  a1~\fp\cresc
+  a?1~\fp\cresc
   a~
 
   a~
