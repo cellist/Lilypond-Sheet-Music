@@ -32,17 +32,17 @@ va = \relative c' {
   \repeat volta 2 {
     <g,, b' g'> d''16( c) b8-. g-. g,[-. g'']-.
     fis-. d-. a-. fis16( e) d8-. \clef "tenor" fis'-.
-    g f! g[ dis] es! a,
+    g fis g[ d] es! a,
     b2 \clef "bass" r8 g'8-.\mp
     
     <g,, b' g'> d''16( c) b8-. g-. g,[-. g'']-.
     fis-. d-. a-. fis16( e) d8-. \clef "tenor" fis'-.
-    g f! g[ dis] es! a,
+    g fis g[ d] es! a,
     b2 r4 \clef "bass"
     g'8-.\mf d16( c) h( c) d( h) g'8-. d-.
 
     es-. c16( d) es8[-. c]-. g-. c-.
-    f-. c16( b?) a( b) c( a) f'8-. c-.
+    f?-. c16( b?) a( b) c( a) f'8-. c-.
     d-. b16( c) d8[-. b]-. f-. b-.
     d-. b16( c) fis,8[-. a]-. d-. a-.
 
