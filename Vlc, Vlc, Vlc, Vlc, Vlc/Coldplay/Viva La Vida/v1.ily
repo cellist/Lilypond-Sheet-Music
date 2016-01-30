@@ -114,52 +114,30 @@ va = \relative c' {
   g g~ g4 c g8 as~
   as2 r8 es f g
 
-  as(\downbow g) as( g) as( g) as\upbow as(
-  g) as( g) as\upbow as( g) as( g)
-  as(\downbow g) as( g) as( g) as\upbow as(
-  g) as( g) as\upbow as( g) as( g)
-  as(\downbow g) as( g) as( g) as\upbow as(
-  g) as( g) as\upbow as( g) as( g)
+  \repeat unfold 3 {
+    as(\downbow g) as( g) as( g) as\upbow as(
+    g) as( g) as\upbow as( g) as( g)
+  }
 
   r b[ r b] b4 b
   r8 c es as~ as4 g8 f~
-  f2.~ f8 es~
-  es c es as~ as4 g8 es~
-  es2.~ es8 c~
-  c c es as~ as4 g8 f~
-
-  f2.~ f8 es~
-  es c es as~ as4 g8 es~
-  es2.~ es8 c~
-  c c es as~ as4 g8 f~
-  f2.~ f8 es~
-  es c es as~ as4 g8 es~
-
-  es2.~ es8 c~
-  c c es as~ as4 g8 f~
-  f2.~ f8 es~
-  es c es as~ as4 g8 es~
-  es2.~ es8 c~
-  c c es as~ as4 g8 f~
-  f2.~ f8 es~
-  es c es as~ as4 g8 es~
-
-  es2.~ es8 c~
-  c c es as~ as4 g8 f~
+  \repeat unfold 5 {
+    f2.~ f8 es~
+    es c es as~ as4 g8 es~
+    es2.~ es8 c~
+    c c es as~ as4 g8 f~
+  }
   f2.~ f8 es~
   es1
 
   c2.~ c8 f~
   f1
-  c
-  des
-  c2.~ c8 b(
-  c1)
-
-  c
-  des
-  c2.~ c8 b(
-  c1)
+  \repeat unfold 2{
+    c
+    des
+    c2.~ c8 b(
+    c1)
+  }
   c
   des
 

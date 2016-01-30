@@ -47,15 +47,12 @@ vb = \relative c' {
   es2.~ es8 f~
   f2. r4
 
-  as2.~ as8 b~
-  b1
-  c2.~ c8 g~
-  g1
-  
-  as2.~ as8 b~
-  b1
-  c2.~ c8 g~
-  g1
+  \repeat unfold 2 {
+    as2.~ as8 b~
+    b1
+    c2.~ c8 g~
+    g1
+  }
 
   as2.~ as8 b~
   b1
@@ -67,23 +64,12 @@ vb = \relative c' {
   b2.~ b8 c~
   c2. r4
 
-  des des des des8 des
-  r des[ r des] des4 des
-  c c c c8 c
-  r c[ r c] c4 c
-  des des des des8 des
-  r des[ r des] des4 des
-  c c c c8 c
-  r c[ r c] c4 c
-
-  des des des des8 des
-  r des[ r des] des4 des
-  c c c c8 c
-  r c[ r c] c4 c
-  des des des des8 des
-  r des[ r des] des4 des
-  c c c c8 c
-  r c[ r c] c4 c
+  \repeat unfold 4 {
+    des des des des8 des
+    r des[ r des] des4 des
+    c c c c8 c
+    r c[ r c] c4 c
+  }
 
   des2.~ des8 es~
   es1
@@ -95,73 +81,42 @@ vb = \relative c' {
   g2.~ g8 es~
   es1
 
-  as2.~ as8 b~
-  b1
-  c2.~ c8 g~
-  g1
-
-  as2.~ as8 b~
-  b1
-  c2.~ c8 g~
-  g1
-
-  as2.~ as8 b~
-  b1
-  c2.~ c8 g~
-  g1
+  \repeat unfold 3 {
+    as2.~ as8 b~
+    b1
+    c2.~ c8 g~
+    g1
+  }
 
   des2.~ des8 es~
   es1
   c2.~ c8 es~
   es2. r4
-  f f f f8 f
-  r f[ r f] f4 f
-  f f f f8 f
-  r f[ r f] f4 f
-  f f f f8 f
-  r f[ r f] f4 f
+  \repeat unfold 3 {
+    f f f f8 f
+    r f[ r f] f4 f
+  }
   r8 es[ r es] es4 es
   r8 es[ r es] es4 es
 
-  as2.~ as8 b~
-  b1
-  c2.~ c8 g~
-  g1
-
-  as2.~ as8 b~
-  b1
-  c2.~ c8 g~
-  g1
-
-  as2.~ as8 b~
-  b1
-  c2.~ c8 g~
-  g1
-
-  as2.~ as8 b~
-  b1
-  c2.~ c8 g~
-  g1
-
-  as2.~ as8 b~
-  b1
-  c2.~ c8 g~
-  g1
+  \repeat unfold 5 {
+    as2.~ as8 b~
+    b1
+    c2.~ c8 g~
+    g1
+  }
 
   as2.~ as8 b~
   b1
   g2.~ g8 f~
   f1
   as
-  b
-  b
-  as
-  as
-
-  b
-  b
-  as
-  as
+  \repeat unfold 2 {
+    b
+    b
+    as
+    as
+  }
   b
   b2.~ b8 b\upbow
   as1\downbow \bar "|."

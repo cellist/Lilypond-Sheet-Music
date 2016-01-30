@@ -14,100 +14,55 @@ vc = \relative c' {
   as, as as as8 as
   r as[ r as] as4 as
 
-  as as as as8 as
-  r as[ r as] as4 as
-  as as as as8 as
-  r as[ r as] as4 as
-  as as as as8 as
-  r as[ r as] as4 as
-  as as as as8 as
-  r as[ r as] as4 as
+  \repeat unfold 7 {
+    as as as as8 as
+    r as[ r as] as4 as
+  }
 
-  as as as as8 as
-  r as[ r as] as4 as
-  as as as as8 as
-  r as[ r as] as4 as
-  as as as as8 as
-  r as[ r as] as4 as
+  \repeat unfold 4 {
+    <as des> <as des> <as des> <as des>8 <as des>
+    r <as des>[ r <as des>] <as des>4 <as des>
+    <as c> <as c> <as c> <as c>8 <as c>
+    r <as c>[ r <as c>] <as c>4 <as c>
+  }
 
-  <as des> <as des> <as des> <as des>8 <as des>
-  r <as des>[ r <as des>] <as des>4 <as des>
-  <as c> <as c> <as c> <as c>8 <as c>
-  r <as c>[ r <as c>] <as c>4 <as c>
-
-  <as des> <as des> <as des> <as des>8 <as des>
-  r <as des>[ r <as des>] <as des>4 <as des>
-  <as c> <as c> <as c> <as c>8 <as c>
-  r <as c>[ r <as c>] <as c>4 <as c>
-
-  <as des> <as des> <as des> <as des>8 <as des>
-  r <as des>[ r <as des>] <as des>4 <as des>
-  <as c> <as c> <as c> <as c>8 <as c>
-  r <as c>[ r <as c>] <as c>4 <as c>
-
-  <as des> <as des> <as des> <as des>8 <as des>
-  r <as des>[ r <as des>] <as des>4 <as des>
-  <as c> <as c> <as c> <as c>8 <as c>
-  r <as c>[ r <as c>] <as c>4 <as c>
-
-  des des des des8 des
-  r des[ r des] des4 des
-  c c c c8 c
-  r c[ r c] c4 c
-
-  des des des des8 des
-  r des[ r des] des4 des
-  c c c c8 c
-  r c[ r c] c4 c
-
-  des des des des8 des
-  r des[ r des] des4 des
-  c c c c8 c
-  r c[ r c] c4 c
+  \repeat unfold 3 {
+    des des des des8 des
+    r des[ r des] des4 des
+    c c c c8 c
+    r c[ r c] c4 c
+  }
 
   as as as as8 as
   r as[ r as] as4 as
   c c c c8 c
   r c[ r c] c4 c
 
-  as as as as8 as
-  r as[ r as] as4 as
-  as as as as8 as
-  r as[ r as] as4 as
-
-  as as as as8 as
-  r as[ r as] as4 as
-  as as as as8 as
-  r as[ r as] as4 as
+  \repeat unfold 4 {
+    as as as as8 as
+    r as[ r as] as4 as
+  }
 
   as'8(\downbow g) as( g) as( g) as\upbow as(
   g) as( g) as\upbow as( g) as( g)
-  as(\downbow g) as( g) as( g) as\upbow as(
-  g) as( g) as\upbow as( g) as( g)
-  as(\downbow g) as( g) as( g) as\upbow as(
-  g) as( g) as\upbow as( g) as( g)
-  as(\downbow g) as( g) as( g) as\upbow as(
-  g) as( g) as\upbow as( g) as( g)
+  \repeat unfold 3 {
+    as(\downbow g) as( g) as( g) as\upbow as(
+    g) as( g) as\upbow as( g) as( g)
+  }
 
   des4 des des des8 des
   r des[ r des] des4 des
   c c c c8 c
   r c[ r c] c4 c
 
-  des des des des8 des
-  r des[ r des] des4 des
-  c c c c8 c
-  r c[ r c] c4 c
-  des des des des8 des
-  r des[ r des] des4 des
-
-  des des des des8 des
-  r des[ r des] des4 des
-  c c c c8 c
-  r c[ r c] c4 c
-
-  des des des des8 des
-  r des[ r des] des4 des
+  \repeat unfold 2 {
+    des des des des8 des
+    r des[ r des] des4 des
+    c c c c8 c
+    r c[ r c] c4 c
+    des des des des8 des
+    r des[ r des] des4 des
+  }
   c c c c8 c
   r c[ r c] c4 c
   des des des des8 des
@@ -117,40 +72,28 @@ vc = \relative c' {
   r as[ r as] as4 as
   c c c c8 c
   r c[ r c] c4 c
-  des2.~ des8 c~
-  c1
-
-  des2.~ des8 c~
-  c1
-  des2.~ des8 c~
-  c1
-  r8 b[ r b] b4 b
-  r8 b[ r b] b4 b
-
-  des des des des8 des
-  r des[ r des] des4 des
-  c c c c8 c
-  r c[ r c] c4 c
-
-  des des des des8 des
-  r des[ r des] des4 des
-  c c c c8 c
-  r c[ r c] c4 c
-
-  des des des des8 des
-  r des[ r des] des4 des
-  c c c c8 c
-  r c[ r c] c4 c
-
-  as as as as8 as
-  r b[ r b] b4 b
-  c c c c8 c
-  r as[ r as] as4 as
-  as as as as8 as
-  r b[ r b] b4 b
   
-  c c c c8 c
-  r as[ r as] as4 as
+  \repeat unfold 3 {
+    des2.~ des8 c~
+    c1
+  }
+  \repeat unfold 2 {
+    r8 b[ r b] b4 b
+  }
+
+  \repeat unfold 3 {
+    des des des des8 des
+    r des[ r des] des4 des
+    c c c c8 c
+    r c[ r c] c4 c
+  }
+
+  \repeat unfold 2 {
+    as as as as8 as
+    r b[ r b] b4 b
+    c c c c8 c
+    r as[ r as] as4 as
+  }
   f'2.~ f8 g~
   g1
   es2.~ es8 c~
@@ -158,15 +101,12 @@ vc = \relative c' {
 
   f
   g
-  es
-  f
-  f
-  g
-
-  es
-  f
-  f
-  g
+  \repeat unfold 2 {
+    es
+    f
+    f
+    g
+  }
   es2.~ es8 es\upbow
   f1\downbow \bar "|."
 }

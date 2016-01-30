@@ -10,26 +10,20 @@ ve = \relative c {
     { r f[ r f] f4 f }
     { r8 f[ r f] f4 f }
   }
-  
-  des des des des8 es
-  r es[ r es] es4 es
-  as, as as as8 f'
-  r f[ r f] f4 f
-  
-  des des des des8 es
-  r es[ r es] es4 es
-  as, as as as8 f'
-  r f[ r f] f4 f
 
-  des8 des des4 des8 des des es
-  r es[ r es] es es es4
-  as,8 as as4 as8 as as f'
-  r f[ r f] f f f4
+  \repeat unfold 2 {
+    des des des des8 es
+    r es[ r es] es4 es
+    as, as as as8 f'
+    r f[ r f] f4 f
+  }
 
-  des8 des des4 des8 des des es
-  r es[ r es] es es es4
-  as,8 as as4 as8 as as f'
-  r f[ r f] f f f4
+  \repeat unfold 2 {
+    des8 des des4 des8 des des es
+    r es[ r es] es es es4
+    as,8 as as4 as8 as as f'
+    r f[ r f] f f f4
+  }
 
   des des des des8 es
   r es[ r es] es4 es
@@ -76,25 +70,12 @@ ve = \relative c {
   as, as as as8 f'
   r f[ r f] f4 f
 
-  des des des des8 es
-  r es[ r es] es4 es
-  as, as as as8 f'
-  r f[ r f] f4 f
-
-  des des des des8 es
-  r es[ r es] es4 es
-  as, as as as8 f'
-  r f[ r f] f4 f
-
-  des des des des8 es
-  r es[ r es] es4 es
-  as, as as as8 f'
-  r f[ r f] f4 f
-
-  des des des des8 es
-  r es[ r es] es4 es
-  as, as as as8 f'
-  r f[ r f] f4 f
+  \repeat unfold 4 {
+    des des des des8 es
+    r es[ r es] es4 es
+    as, as as as8 f'
+    r f[ r f] f4 f
+  }
 
   des des des des8 es
   r es[ r es] es4 es
@@ -120,16 +101,14 @@ ve = \relative c {
   b2~ b8 b b as
   g g~ g4 c g8 as~
   as2. r4
-  as2.~ as8 as~
-  as1
+  \repeat unfold 3 {
+    as2.~ as8 as~
+    as1
+  }
 
-  as2.~ as8 as~
-  as1
-  as2.~ as8 as~
-  as1
-
-  r8 es[ r es] es4 es
-  r8 es[ r es] es4 es
+  \repeat unfold 2 {
+    r8 es[ r es] es4 es
+  }
   f'4 f f f8 es
   r es[ r es] es4 es
   es es es es8 c
@@ -160,15 +139,13 @@ ve = \relative c {
 
   as1
   des,
-  es
-  c
-  f
-  des
-  es
-  c
-  f
-
-  des
+  
+  \repeat unfold 2 {
+    es
+    c
+    f
+    des
+  }
   es
   c2.~ c8 c\upbow
   f1\fermata \bar "|."
