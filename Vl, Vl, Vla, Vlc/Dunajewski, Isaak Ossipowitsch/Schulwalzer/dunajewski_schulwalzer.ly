@@ -12,7 +12,7 @@
 }
 
 voiceconsts = {
-  \key f \major
+  \key d \minor
   \clef "treble"
   \time 3/4
   %\numericTimeSignature
@@ -42,25 +42,25 @@ music = \new StaffGroup <<
       \new Staff {
         \set Staff.midiInstrument = \mist
         \set Staff.instrumentName = \markup \center-column { "Violine" "I" }
-        \transpose f f' { \va }
+        \transpose d d { \va }
       }
 
       \new Staff {
         \set Staff.midiInstrument = \mist
         \set Staff.instrumentName = \markup \center-column { "Violine" "II" }
-        \transpose f f' { \vb }
+        \transpose d d { \vb }
       }
 
       \new Staff {
         \set Staff.midiInstrument = \mist
         \set Staff.instrumentName = \markup \center-column { "Viola" }
-        \transpose f f' { \vc }
+        \transpose d d { \vc }
       }
 
       \new Staff {
         \set Staff.midiInstrument = \miba
         \set Staff.instrumentName = \markup \center-column { "Violon-" "cello" }
-        \transpose f f' { \vd }
+        \transpose d d { \vd }
       }
 >>
 

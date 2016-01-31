@@ -1,4 +1,4 @@
-va = \relative c {
+va = \relative c' {
   \voiceconsts
 
   \partial 2 d8(\mf f) a d

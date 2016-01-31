@@ -1,4 +1,4 @@
-vb = \relative c'' {
+vb = \relative c''' {
   \voiceconsts
 
   \partial 2 r2

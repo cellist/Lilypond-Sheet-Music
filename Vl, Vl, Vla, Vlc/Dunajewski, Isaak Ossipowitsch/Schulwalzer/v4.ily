@@ -1,4 +1,4 @@
-vd = \relative c, {
+vd = \relative c {
   \voiceconsts
   \clef "bass"
   

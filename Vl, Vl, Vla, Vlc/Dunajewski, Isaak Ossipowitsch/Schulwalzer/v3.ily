@@ -1,4 +1,4 @@
-vc = \relative c' {
+vc = \relative c'' {
   \voiceconsts
   \clef "alto"
   
