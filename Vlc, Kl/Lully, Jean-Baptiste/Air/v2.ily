@@ -35,9 +35,9 @@ vb = \relative c' {
     <d g b>2 <d g>4
     <c es g>2 <a d fis>4
     <c a'> <a d> <b d e!>
-    << { fis'4. e8 s4 } \\ { <a, d>2 <b d>4 } >>
+    << { fis'4. e8 } \\ { <a, d>2 } >> <b d>4(
 
-    <a d fis>2 <d g>4
+    <a d fis>2) <d g>4
     <c es g>2 <a d fis>4
     <c a'> <a d> <b d e!>
     << { <a fis'>2 <a fis'>4 } \\ { s d2 } >>
