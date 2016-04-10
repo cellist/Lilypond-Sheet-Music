@@ -28,7 +28,7 @@ vb = \relative c' {
   << { h' fis'8( h,) c( h) } \\ { dis,2 <c e>4 } >>
 
   <h e h'> <c e a>8 <cis e g> <dis fis>4
-  <h e g> r 8<fis' g>4-> <fis g>8
+  <h e g> r8 <fis' gis>4-> <fis gis>8
   <e a>8. <d? e>16 <c e>8 <e a> <e g>( <dis fis>)
   <h e>2 r4
   <h dis>4.. <h dis>16 <h dis>4
