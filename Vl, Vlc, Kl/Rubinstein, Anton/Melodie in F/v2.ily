@@ -34,7 +34,7 @@ vb = \relative c, {
     c4( h8 c)
     f4(\< e8 f)\!
     d'4( c)
-    h(\> fis8 g)\!
+    b?(\> fis8 g)\!
     a4( g)
     f?2~
     f4 r \boxb \clef "tenor"
