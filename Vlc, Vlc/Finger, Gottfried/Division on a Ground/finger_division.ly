@@ -1,7 +1,7 @@
 \version "2.18.2"
 \include "deutsch.ly"
   
-#(set-global-staff-size 22.2)
+#(set-global-staff-size 22.15)
 
 \header {
   title     = "Division on a Ground"
@@ -28,8 +28,8 @@ voiceconsts = {
 mist = "string ensemble 1"
 %mikl = "accordion"
 mikl = "concertina"
-%miba = "bassoon"
-miba = "drawbar organ"
+miba = "bassoon"
+%miba = "drawbar organ"
 
 boxa = { \bar "||" \mark \markup \box \bold "A" }
 boxb = { \bar "||" \mark \markup \box \bold "B" }
@@ -46,14 +46,14 @@ boxh = { \bar "||" \mark \markup \box \bold "H" }
 music = \new StaffGroup <<
       \new Staff {
 	\set Staff.midiInstrument = \mist
-	\set Staff.instrumentName = \markup \center-column { "Violine" }
-	\transpose b b { \va }
+	\set Staff.instrumentName = \markup \center-column { "Violon-" "cello I" }
+	\transpose b g { \va }
       }
       
       \new Staff {
 	\set Staff.midiInstrument = \miba
-	\set Staff.instrumentName = \markup \center-column { "Violon-" "cello" }
-	\transpose b b { \vb }
+	\set Staff.instrumentName = \markup \center-column { "Violon-" "cello II" }
+	\transpose b g { \vb }
       }
 >>
 
