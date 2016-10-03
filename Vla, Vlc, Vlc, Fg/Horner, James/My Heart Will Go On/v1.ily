@@ -1,6 +1,6 @@
-va = \relative c'' {
+va = \relative c' {
   \voiceconsts
-  \clef "treble"
+  \clef "alto"
 
   \partial 4 f8(\mp g
   g a4.~ a4 b16 a g f

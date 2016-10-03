@@ -1,6 +1,5 @@
-vb = \relative c'' {
+vb = \relative c' {
   \voiceconsts
-  \clef "treble"
 
   \partial 4 r4
   f1(\p

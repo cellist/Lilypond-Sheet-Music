@@ -1,6 +1,5 @@
-vc = \relative c'' {
+vc = \relative c' {
   \voiceconsts
-  \clef "alto"
 
   \partial 4 r4
   d1(\p

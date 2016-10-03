@@ -1,6 +1,5 @@
-vd = \relative c'' {
+vd = \relative c' {
   \voiceconsts
-  \clef "bass"
 
   \partial 4 r4
   R1*3
