@@ -1,7 +1,7 @@
-\version "2.12.3"
+\version "2.14.2"
 \include "deutsch.ly"
 
-#(set-global-staff-size 17)
+#(set-global-staff-size 18.75)
 
 \header {
   title = "Ciaccona"
@@ -16,38 +16,45 @@ voiceconsts = {
  %\numericTimeSignature
  \compressFullBarRests
  \time 3/4
- \tempo "Allegretto " 4 = 100
+ \tempo "Allegretto " 4=100
+   % Set default beaming for all staves
+  \set Timing.beamExceptions = #'()
+  \set Timing.baseMoment     = #(ly:make-moment 1 4)
+  \set Timing.beatStructure  = #'(1 1 1)
 }
 
-midihi  = "ocarina"
-midimid = "english horn"
-midipno = "harpsichord"
-midilow = "bassoon"
+mist = "string ensemble 1"
+miba = "harpsichord"
 
 \include "v1.ily"
 \include "v2.ily"
 
-\book {
-    \score {
-        \new StaffGroup <<
-          \new Staff {
-	    \set Staff.midiInstrument = \midimid
-            \set Staff.instrumentName = "Vc 1 "
-            \transpose f c, \va
-	  }
-          \new Staff {
-	    \set Staff.midiInstrument = \midipno
-            \set Staff.instrumentName = "Vc 2 "
-            \transpose f c \vb
-	  }
- 	>>
+music = \new StaffGroup <<
+      \new Staff {
+        \set Staff.midiInstrument = \mist
+        \set Staff.instrumentName = \markup \center-column { "Violon-" "cello I" }
+        \transpose f c, { \va }
+      }
 
+      \new Staff {
+        \set Staff.midiInstrument = \miba
+        \set Staff.instrumentName = \markup \center-column { "Violon-" "cello II" }
+        \transpose f c { \vb }
+      }
+>>
+
+\book {
+  \score {
+   \music
     \layout {}
+  }
+
+  \score {
+    \unfoldRepeats \music
 
     \midi {
       \context {
-	\Score
-	tempoWholesPerMinute = #(ly:make-moment 100 4)
+        \Score
       }
     }
   }
