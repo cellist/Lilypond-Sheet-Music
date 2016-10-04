@@ -17,7 +17,7 @@ voiceconsts = {
   \tempo "Aria " 2=80
   % \numericTimeSignature
   \compressFullBarRests
-  \set tupletSpannerDuration = #(ly:make-moment 1 4)
+  %\set tupletSpannerDuration = #(ly:make-moment 1 4)
   % Set default beaming for all staves
 %  \set Timing.beamExceptions = #'()
 %  \set Timing.baseMoment     = #(ly:make-moment 1 4)
