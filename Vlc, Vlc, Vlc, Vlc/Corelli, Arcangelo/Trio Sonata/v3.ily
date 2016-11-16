@@ -66,7 +66,7 @@ vc = \relative c {
   a b f'2
   c'4. c8 d d d c16 b
   c2 c,
-  f,1
+  f,1 \bar "|."
 
   \introc
   \repeat volta 2 {

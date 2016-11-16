@@ -32,7 +32,7 @@ introc = { \break \tempo "3. Vivace "  4=140 \time 3/4
 	   \set Timing.baseMoment     = #(ly:make-moment 1 4)
 	   \set Timing.beatStructure  = #'(1 1 1)
 	 }
-introd = { \break \tempo "4. Allegro " 4.=70 \time 6/8 }
+introd = { \break \tempo "4. Allegro " 4.=60 \time 6/8 }
 
 \include "v1.ily"
 \include "v2.ily"

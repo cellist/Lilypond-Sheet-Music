@@ -69,7 +69,7 @@ vb = \relative c'' {
   e d c8 f, a g16( f)
   e4 r8 a' f d4 g8
   e c f2 e4
-  f1
+  f1 \bar "|."
 
   \introc
   \repeat volta 2 {

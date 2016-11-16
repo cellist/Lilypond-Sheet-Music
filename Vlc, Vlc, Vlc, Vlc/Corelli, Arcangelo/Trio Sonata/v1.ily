@@ -69,11 +69,11 @@ va = \relative c'' {
   d c f,[ b]~ b a c b16( a)
   g8 c, c'4 r8 f,( b4
   b) a g2
-  f1
+  f1 \bar "|."
 
   \introc
   \repeat volta 2 {
-    b'4. d8 b4
+    c''4. d8 b4
     a4. b8 c4
     b a2
     g2.
