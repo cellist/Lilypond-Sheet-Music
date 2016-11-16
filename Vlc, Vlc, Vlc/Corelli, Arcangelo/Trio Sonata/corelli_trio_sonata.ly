@@ -1,7 +1,7 @@
 \version "2.18.2"
 \include "deutsch.ly"
   
-#(set-global-staff-size 17.725)
+#(set-global-staff-size 17.6)
 
 \header {
   title     = \markup \bold \italic "Trio Sonata"
