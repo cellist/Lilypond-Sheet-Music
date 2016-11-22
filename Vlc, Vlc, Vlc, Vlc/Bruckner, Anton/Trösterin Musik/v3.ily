@@ -4,35 +4,35 @@ vc = \relative c' {
   \partial 16 d16\ff
   d2.-> d4
   b4.-> b8 b4 a
-  a2.( ges4)
-  ges2 r4 d'
+  a2.( fis4)
+  fis2 r4 d'
   c2-> b->
   b4.-> b8 a4 a\>
-  a2( as)
+  a2( gis)
   e\! r
   r r4 as\ff
 
-  g e e a!8 g
+  g e e a!8 g?
   f4( d8 e f4 f)
   a2 e'
   r4 a,\pp a a
   g2 g
   g g
-  g4 ges r2
+  g4 fis r2
   r r4 b\f
   c c c c
 
   d d b2(~
   b4 a) b c\ff
   b4.\< g8 b,4 c\!
-  d4. ges8 a4\> d,
+  d4. fis8 a4\> d,
   r\! b'\p b b
   b2. b4
-  b( as8 g? f[ g]) as( g)
+  b( as8 g f?[ g]) as( g)
   g4 f r2
 
-  r4 ges\pp ges ges
-  e e f f
+  r4 fis\pp fis fis
+  e e f! f
   e2.( a?4)
   a2. r4
   r d\ff d d

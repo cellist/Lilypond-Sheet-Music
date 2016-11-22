@@ -12,31 +12,31 @@ va = \relative c' {
   e?1
   e2\! r4 a,\ff
   b2-> h->
-  c-> des->
+  c-> cis->
 
-  d!2. d4
+  d2. d4
   e2 a,
-  r4 ges'\pp ges ges
-  g!2 f4( es)
-  d2 des
-  des4 d r2
+  r4 fis'\pp fis fis
+  g2 f!4( es)
+  d2 cis
+  cis4 d r2
   R1
   r4 f\f f g8 a
   b4 a g f
 
-  f2\fp f4 ges\ff
-  g!4.\< g,8 b4 c\!
-  d4. ges8 a4\> d,
+  f2\fp f4 fis\ff
+  g4.\< g,8 b4 c\!
+  d4. fis8 a4\> d,
   r\! g\p g g
   as2. as4
-  as8( g f e d[ e] f) e
-  e4 d r2
+  as8( g f es d[ es] f) es
+  es4 d r2
 
   r4 d\pp d d
-  des des h h
-  des2.( e4)
+  cis cis h h
+  cis2.( e?4)
   e2. r4
-  r d?\ff d d
+  r d\ff d d
   d4. d8 e4 e
   f2.( d4)
   d r r d\f
@@ -46,8 +46,8 @@ va = \relative c' {
   b2.( b,4)
   b r r b'\ff
   a2-> g->
-  ges-> g->
-  f-> es->
+  fis-> g->
+  f!-> es->
   d-> d4 r
   r es-> es-> es->
   g2.-> r4

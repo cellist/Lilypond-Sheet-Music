@@ -25,7 +25,7 @@ vd = \relative c' {
   f'2) b,4 a\ff
 
   g4.\< g8 b4 c\!
-  d4. ges8 a4\> d,
+  d4. fis8 a4\> d,
   r\! es\p es es
   d2. d4
   b2. b4
@@ -40,7 +40,7 @@ vd = \relative c' {
   d,1
   d4 r r d'\f
   c2 b
-  a4. g?8 g4 a
+  a4. g8 g4 a
   b,1
   b4 r r b\ff
   f'2-> g->
@@ -52,7 +52,7 @@ vd = \relative c' {
   e!2.-> r4
   r2 g,\ppp
   g( as
-  a!) as
-  a!1
+  a!) gis
+  a1
   d,2... \bar "|."
 }
