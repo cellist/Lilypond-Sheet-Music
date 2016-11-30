@@ -163,7 +163,7 @@ vb = \relative c'' {
   d c\prall b8 c
   d e? fis g a fis
   b c b a g b
-  a g f? g a b
+  a g fis g a b
 
   g4 c8 b a g
   fis g fis4. g8
