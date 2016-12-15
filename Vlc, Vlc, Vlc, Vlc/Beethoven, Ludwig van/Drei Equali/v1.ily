@@ -1,14 +1,14 @@
 va = \relative c' {
   \voiceconsts
-  \clef "treble"
+  \clef "tenor"
 
-  \tempo "I. Andante " 2=70
+  \introa
   f1\p
   f2.\< f4\!\>
-  e1\!
-  r2 e4\< f
+  e1
+  r2\! e4\< f
   g2 g\!
-  g2. f4\>
+  g2.\> f4
   f1\!
 
   e4 r f\< g
@@ -35,8 +35,8 @@ va = \relative c' {
   f\> e\!
   f1
   f2.\< f4\!\>
-  e1\!
-  r2 e4 f
+  e1
+  r2\! e4 f
   g2 g
 
   g2. f4
@@ -58,9 +58,9 @@ va = \relative c' {
   fis g
   fis r
   fis\p r
-  fis1\fermata\pp \bar "||" \key b \major \time 3/2
+  fis1\fermata\pp \bar "|." 
 
-  \break \tempo "II. Adagio " 2=70
+  \introb
   d2\p d r
   f f r
   g\mf g2. g4
@@ -79,9 +79,9 @@ va = \relative c' {
 
   f2\> g\! r
   r4 g\p f2 f
-  f1. \bar "||" \key d \major \time 2/2
+  f1. \bar "|."
 
-  \break \tempo "III. Adagio " 2=60
+  \introc
   fis1\mp
   g2\< fis\!
   fis2.\> e4\!

@@ -1,12 +1,11 @@
 vd = \relative c {
   \voiceconsts
-  \clef "bass"
 
-  \tempo "I. Andante " 2=70
+  \introa
   d1\p
   d2.\< f4\!\>
-  a1\!
-  r
+  a1
+  r\!
   r2 e4\< f\!
   g2 g\>
   g1\!
@@ -35,8 +34,8 @@ vd = \relative c {
   a\> a\!
   d1
   d2.\< f4\!\>
-  a1\!
-  r
+  a1
+  r\!
   r2 e4 f
 
   g2 g
@@ -58,8 +57,9 @@ vd = \relative c {
   d d
   d r
   d\p r
-  d1\fermata\pp \bar "||" \key b \major \time 3/2
+  d1\fermata\pp \bar "|."
 
+  \introb
   b2\p b r
   a a r
   g\mf c2. es4
@@ -78,9 +78,9 @@ vd = \relative c {
 
   b,2\> es\! r
   r4 es\p f2 <f, f'>
-  b1. \bar "||" \key d \major \time 2/2
+  b1. \bar "|."
 
-  \break \tempo "III. Adagio " 2=60
+  \introc
   d1\mp
   cis2\< d\!
   d2.\> a4\!

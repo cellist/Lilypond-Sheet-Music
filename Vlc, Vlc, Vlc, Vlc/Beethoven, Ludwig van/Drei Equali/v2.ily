@@ -1,12 +1,11 @@
 vb = \relative c' {
   \voiceconsts
-  \clef "tenor"
 
-  \tempo "I. Andante " 2=70
+  \introa
   d1\p
   d2.\< d4\!\>
-  cis1\!
-  r
+  cis1
+  r\!
   r2 e\<
   d\! d\>
   d1\!
@@ -35,8 +34,8 @@ vb = \relative c' {
   d\> cis\!
   d1
   d2.\< d4\!\>
-  cis1\!
-  r
+  cis1
+  r\!
   r2 e
 
   d d
@@ -58,8 +57,9 @@ vb = \relative c' {
   d d
   d r
   d\p r
-  d1\fermata\pp \bar "||" \key b \major \time 3/2
+  d1\fermata\pp \bar "|."
 
+  \introb
   b2\p b r
   c c r
   d\mf es2. c4
@@ -78,9 +78,9 @@ vb = \relative c' {
 
   d2\> es\! r
   r4 es\p d?2 c
-  d1. \bar "||" \key d \major \time 2/2
+  d1. \bar "|."
 
-  \break \tempo "III. Adagio " 2=60
+  \introc
   d1\mp
   e2\< d\!
   d2.\> cis4\!
