@@ -4,7 +4,7 @@
 #(set-global-staff-size 19)
 
 \header {
-  title     = \markup \bold \italic "Galliarda"
+  title     = \markup \bold \italic "Drei Tänze"
   composer  = "Melchior Franck (ca. 1580-1639)"
   arranger  = "arr.: Wilfried Wachter"
   enteredby = "cellist (2017-01-02)"
@@ -21,7 +21,6 @@ voiceconsts = {
   \set Timing.beamExceptions = #'()
   \set Timing.baseMoment     = #(ly:make-moment 1 4)
   \set Timing.beatStructure  = #'(1 1 1)
-  \tempo "Vivo " 4=140
 }
 
 mifl = "flute"
@@ -32,6 +31,10 @@ miba = "bassoon"
 %miba = "electric bass (finger)"
 %milo = "drawbar organ"
 milo = "harpsichord"
+
+introa = {        \tempo "1. Galliarda " 4=140 }
+introb = { \break \tempo "2. Couranta "  4=120 }
+introc = { \break \tempo "3. Galliarda " 4=140 }
 
 \include "v1.ily"
 \include "v2.ily"
