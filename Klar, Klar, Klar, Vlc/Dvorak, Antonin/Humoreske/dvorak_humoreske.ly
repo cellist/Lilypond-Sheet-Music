@@ -1,7 +1,7 @@
-\version "2.14.2"
+\version "2.18.2"
 \include "deutsch.ly"
 
-#(set-global-staff-size 18.25)
+#(set-global-staff-size 17)
 
 \header {
   title = "Humoreske"
@@ -39,25 +39,25 @@ rit  = \markup \italic "rit."
 music = \new StaffGroup <<
       \new Staff {
 	\set Staff.midiInstrument = \mihi
-	\set Staff.instrumentName = #"Cl I"
+	\set Staff.instrumentName = \markup \center-column { "Klari-" "nette I" }
 	\transpose g a { \va }
       }
 
       \new Staff {
 	\set Staff.midiInstrument = \mihi
-	\set Staff.instrumentName = #"Cl II"
+	\set Staff.instrumentName = \markup \center-column { "Klari-" "nette II" }
 	\transpose g a { \vb }
       }
 
       \new Staff {
 	\set Staff.midiInstrument = \milo
-	\set Staff.instrumentName = #"Bass Cl"
+	\set Staff.instrumentName = \markup \center-column { "Baß" "Klarinette" }
 	\transpose g a { \vc }
       }
 
       \new Staff {
 	\set Staff.midiInstrument = \milo
-	\set Staff.instrumentName = #"Vlc"
+	\set Staff.instrumentName = \markup \center-column { "Violon-" "cello" }
 	\transpose g g { \vd }
       }
 >>
