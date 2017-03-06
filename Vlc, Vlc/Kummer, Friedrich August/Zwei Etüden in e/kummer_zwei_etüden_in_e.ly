@@ -1,10 +1,10 @@
 \version "2.18.2"
 \include "deutsch.ly"
   
-#(set-global-staff-size 21)
+#(set-global-staff-size 23)
 
 \header {
-  title     = \markup \bold \italic "Etüde in e-moll"
+  title     = \markup \bold \italic "Zwei Etüden in e-moll"
   composer  = "Friedrich August Kummer"
   arranger  = "(1797-1879)"
   enteredby = "cellist (2017-03-03)"
@@ -13,7 +13,6 @@
 
 voiceconsts = {
   \key e \minor
-  \time 2/4
   \clef "bass"
 % \numericTimeSignature
   \compressFullBarRests
@@ -21,7 +20,6 @@ voiceconsts = {
 %  \set Timing.beamExceptions = #'()
 %  \set Timing.baseMoment     = #(ly:make-moment 1 4)
 %  \set Timing.beatStructure  = #'(1 1 1)
-  \tempo "Lento " 4=60
 }
 
 mifl = "flute"
@@ -32,6 +30,9 @@ miba = "bassoon"
 %miba = "electric bass (finger)"
 %milo = "drawbar organ"
 milo = "harpsichord"
+
+introa = {        \tempo "Nr. 1 " 4=60 \time 3/4 }
+introb = { \break \tempo "Nr. 2 " 4=60 \time 2/4 }
 
 pleg = \markup { \dynamic p \italic " legato" }
 

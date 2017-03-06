@@ -1,7 +1,37 @@
-vb = \relative c, {
+vb = \relative c {
   \voiceconsts
 
-  e8[(\p c' h e,)]
+  \introa
+  e2.\mf
+  e,2( g4)
+  a2 h4
+  e, g'4. e8
+  dis4 r dis(
+  e) r e,
+
+  fis2.
+  h4. c8( h a)
+  \acciaccatura g g'2.
+  g,
+  fis4 a d
+  fis a d
+
+  c2.
+  e,,
+  dis4 fis h
+  dis fis h
+  e,2.
+  e,
+
+  c
+  c'4 e c
+  h( a g8) c-.
+  h2.
+  e4 h' g
+  e2 r4 \bar "|."
+  
+  \introb
+  e,8[(\p c' h e,)]
   dis[( c' h dis,)]
   fis[( c' h fis)]
   g[( c h e,)]
