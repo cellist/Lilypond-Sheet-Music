@@ -1,7 +1,7 @@
 \version "2.18.2"
 \include "deutsch.ly"
 
-#(set-global-staff-size 20)
+#(set-global-staff-size 22)
 
 \header {
   title     = \markup \bold \italic "Zwei Madrigale"
