@@ -6,10 +6,10 @@
 \header {
   title     = \markup \bold \italic "Ciaccona"
   subtitle  = "- Canzoni overo sonate concertate per chiesa e camera -"
-  composer  = "Tarquino Merula (1594-1665)"
+  composer  = "Tarquinio Merula (1594-1665)"
   arranger  = "arr.: Don Simons"
   enteredby = "cellist (2017-03-28)"
-  piece     = "op. 12, Nr. 20 (1637)"
+  piece     = "op. 12, Nr. 20 (Venedig, 1637)"
 }
 
 voiceconsts = {
