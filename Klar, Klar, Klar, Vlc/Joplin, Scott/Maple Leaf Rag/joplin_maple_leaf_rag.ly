@@ -4,11 +4,11 @@
 #(set-global-staff-size 19.25)
 
 \header {
-  title     = \markup \bold \italic "Map Leaf Rag"
+  title     = \markup \bold \italic "Maple Leaf Rag"
   composer  = "Scott Joplin"
   arranger  = "(1867-1917)"
   enteredby = "cellist (2017-03-29)"
-%  piece     = ""
+  piece     = "(1899)"
 }
 
 voiceconsts = {
