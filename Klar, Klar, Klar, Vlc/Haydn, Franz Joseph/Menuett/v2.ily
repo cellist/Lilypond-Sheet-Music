@@ -41,7 +41,7 @@ vb = \relative c' {
     e( d4)
     c r2
     e( d4)
-    c \fine r2
+    c r2
   }
 
   \introb
