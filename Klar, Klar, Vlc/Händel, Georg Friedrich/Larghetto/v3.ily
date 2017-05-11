@@ -2,7 +2,7 @@ vc = \relative c {
   \voiceconsts
   \clef "bass"
 
-  r8 f f e d c b a
+  r8 d f e d c b a
   g e' a a, d c b a
   b g' c c, f f, g4
   a r8 cis d cis d e
