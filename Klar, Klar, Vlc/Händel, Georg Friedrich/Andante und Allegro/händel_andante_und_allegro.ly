@@ -1,10 +1,10 @@
 \version "2.18.2"
 \include "deutsch.ly"
 
-#(set-global-staff-size 18.25)
+#(set-global-staff-size 19.55)
 
 \header {
-  title     = \markup \bold \italic "Andante"
+  title     = \markup \bold \italic "Andante und Allegro"
   subtitle  = "- \"Triosonate Op. 2, Nr. 1\" -"
   composer  = "Georg Friedrich Händel (1685-1759)"
   arranger  = "arr.: R. D. Tennent"
@@ -21,8 +21,7 @@ voiceconsts = {
   % Set default beaming for all staves
 %  \set Timing.beamExceptions = #'()
 %  \set Timing.baseMoment     = #(ly:make-moment 1 4)
-%  \set Timing.beatStructure  = #'(1 1 1)
-  \tempo "Andante " 4=60
+%  \set Timing.beatStructure  = #'(1 1 1)  
 }
 
 mifl = "flute"
@@ -32,7 +31,9 @@ miba = "bassoon"
 %miba = "harpsichord"
 milo = "drawbar organ"
 
-adagio = { \tempo "Adagio " 4=50 }
+adagio = {            \tempo "Adagio " 4=50 }
+introa = {            \tempo "1. Andante " 4=60 }
+introb = { \pageBreak \tempo "2. Allegro, ma non troppo " 4=110 }
 
 \include "v1.ily"
 \include "v2.ily"
