@@ -18,12 +18,12 @@ va = \relative c''' {
   g4 f16( e d c)
   h( c d e) f8 e
   
-  e4( d8) e16( f)
+  e4( d8) e16( f) \bar "||"
   g8.(\p f16) e8 e
   a4\f g
   f8-.\mf f-. e-. e-.
   d16( cis d e) d4
-  g8.( f16) e8 e
+  g8.(\p f16) e8 e
   a4\f g
   g16( f e d) c8 h
   h4( c8) r
@@ -49,7 +49,7 @@ va = \relative c''' {
   g8.( a?16 g8) b\<
   b4( a)\!
   a8.( b16 a8) d
-  c4(\> b8) a\!
+  c4(\> b8) a\! \bar "||"
   g8.(\p f16 e8) e
   a4\f g
   f8-.\mf f-. e-. e-.

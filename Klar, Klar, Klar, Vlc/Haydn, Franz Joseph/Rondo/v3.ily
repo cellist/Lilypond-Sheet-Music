@@ -18,7 +18,7 @@ vc = \relative c'' {
   g r
   f d8 f
 
-  c4( g'8) r
+  c4( g'8) r \bar "||"
   R2
   c8\f c16 c c4
   g8\mf g16 g e8 e
@@ -49,7 +49,7 @@ vc = \relative c'' {
   c2
   b4(\< a)
   d2\!
-  c4(\> h?8) r\!
+  c4(\> h?8) r\! \bar "||"
   R2
   c'8\f c16 c c4
   g8\mf g16 g e8 e

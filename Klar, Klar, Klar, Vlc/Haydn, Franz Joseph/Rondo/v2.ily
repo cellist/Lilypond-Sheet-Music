@@ -18,11 +18,11 @@ vb = \relative c'' {
   c r
   g2
 
-  c4( h8) c16( d)
+  c4( h8) c16( d) \bar "||"
   e8.(\p d16) c8 c
   f4\f e
   d8-.\mf d-. c-. c-.
-  c16( ais h c) h4
+  h16( ais h c) h4
   e8.(\p d16) c8 c
   c4\f c
   c8( a?) e d
@@ -49,7 +49,7 @@ vb = \relative c'' {
   c4. g'?8\<
   g4( f)\!
   d4. a'8
-  a4(\> g8) f\!
+  a4(\> g8) f\! \bar "||"
   e8.(\p d16 c8) c
   f4\f e
   d8-.\mf d-. c-. c-.
