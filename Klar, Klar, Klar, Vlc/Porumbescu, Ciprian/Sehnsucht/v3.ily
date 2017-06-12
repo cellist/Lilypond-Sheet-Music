@@ -10,7 +10,7 @@ vc = \relative c' {
   a8( es a es) c'(\< f, c' f,)\!
   f r fis'4.->\sf r8 r4
 
-  ais,2\pp \pori r \atem
+  fis,2\pp \pori r \atem
   g4\> b \appoggiatura { d16[ g] } b4 r8\! \tuplet 3/2 8 { d,16(\mp g\< b) } \boxa
   d2 r16\! d( cis d) e( d) \tuplet 3/2 8 { a?( c! b) }
 
