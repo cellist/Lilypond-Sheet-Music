@@ -150,4 +150,221 @@ va = \relative c''' {
     f4 r b2(
     a4) r2
   }
+
+  \introb \partial 2.
+  f4.(\mf a4) f8-.
+  f( e) c-. c'( b) g-.
+  f( g) f-. a4( f8)
+  f( e) c-. c'( b) g-.
+  f( g) f-. a4 a8
+  f4.( e8) c'( h)
+  
+  a( g) f-. e( f) d-.
+  c4. r
+  a2.
+  b?
+  a
+  b
+  f~
+  f4. f''8( e) d-.
+  c( a) f-. g4.
+  f4( es8) d4( cis8)
+
+  d4. d'8( c!) b-.
+  a( f) c-. e?4.
+  f8 c' c c c c
+  e,2.
+  a,8 c' c c c c
+  r b, b b b b
+  a4 r8 g'4 r8
+
+  f4 r8 g4 r8
+  f4 r8 r4.
+  f4 r8 r4.\fermata \boxa
+  c'2.
+  c8( \acciaccatura e d c) c( g b)
+  \acciaccatura a c2.
+  c8( \acciaccatura e d c) c( g b)
+  a4( c8) c( d) c-.
+
+  g4( c8) c( d) c-.
+  a-. f'( e) e( d) c-.
+  c4.( h4)-. g8
+  g4.~ g8 c-. g-.
+  g4.~ g8 c-. g-.
+  g4.~ g8 c-. e-.
+  f4 r8 f4 r8
+
+  d4 r8 h4 r8
+  g4 r8 f4 r8
+  e d'( c) b?4.
+  r8 b( a) g4.
+  r8 a( g) f4.
+  R2.
+  r4. a,
+  g8 c c h h h
+
+  g4. r8 c'( e,)
+  d d d d( e f)
+  g( e c) g4.
+  a( h)
+  g r8 c'( g)
+  g( e c) r c'( b?)
+  b( g e) r d'( c)
+
+  b4 r8 r d( c)
+  b4 r8 r d( c)
+  r c( b) r4.\fermata \boxb
+  f4.( a4) f8-.
+  f( e) c-. c'( b) g-.
+  f( g) f-. a4( f8)
+  f( e) c-. c'( b) g-.
+
+  f( g) f-. a4 a8
+  f4.( e8) c'( h)
+  a( g) f-. e( f) d-.
+  c4. r
+  a2.
+  b?
+  a
+  b
+  f~
+  f4. f''8( e) d-.
+
+  c( a) f-. g4.
+  f4( es8) d4( cis8)
+  d4. d'8( c!) b-.
+  a( f) c-. e?4.
+  f8 c' c c c c
+  e,2.
+  f4 r8 r4.
+  r8 b, b b b b
+
+  a4 r8 g'4 r8
+  f4 r8 g4 r8
+  f4 r8 r4.
+  f4 r8 r4.\fermata \boxc
+  f4. g8( a b)
+  b4( a) g-.
+  \acciaccatura g8 f8.(\trill es32 f) g4 d-.
+  f( es) c8 h
+
+  d( c es d) g( es)
+  d4( c) f16( g a b?)
+  b4 es,( d)
+  d8( c) b( a) g( f)
+  f'4. g8( a b)
+  b4( a) g-.
+  \acciaccatura g8 f8.(\trill es32 f) g4 d-.
+
+  f( es) c8( h)
+  d( c es d) g( es)
+  d4( c) f16( g a b?)
+  \acciaccatura a8 g f16 es d4 c
+  b r8 d'16( es f8) f-.
+  f4( d es)
+
+  d( c8) d16( es f8) f-.
+  f4( d es)
+  d( c8) f, f' es
+  d2.
+  c8( b) b4( a8.) f'16
+  \acciaccatura e8 d c16 b a4 g\trill
+  f c r
+
+  c'2( e,4)
+  f c r
+  c'2( e,4)
+  f2.
+  a
+  d(
+  e4) r c8( d16 c)
+  f8( c) c-. c-. c( d16 c)
+
+  f8( c) c-. c-. c( d16 c)
+  f8-. e-. d-. c-. b-. a-.
+  d4( b) r8 b
+  a( b16 g) \appoggiatura { f8 g } g2\trill
+  f8 c' c c c( d16 c)
+
+  f8( c) c-. c-. c( d16 c)
+  f8 c-. c-. c-. c( d16 c)
+  f8-. e-. d-. c-. b-. a-.
+  d4( b) r8 b
+  a( b16 g) \appoggiatura { f8 g } g2\trill
+  f2.
+
+  es'?
+  d
+  b2( \acciaccatura c8 b a16 g)
+  f2.
+  es'
+  d
+  b2( \acciaccatura c8 b a16 g)
+  f( g f g) a( b a b) c( a b g)
+
+  f( g f g) a( b a b) c( a b g)
+  f( g f g) a( b a b) c( d c d)
+  es4 c a
+  es r2
+  d4.( es8 f g)
+
+  g4( f) es-.
+  \acciaccatura es8 d8.(\trill c32 d) es4-. h-.
+  d( c) r
+  g2.
+  b4( a) b-.
+  r c( b)
+  b8( a) g( f) g( a)
+  f'4.( g8 a b)
+  b4( a) g-.
+
+  \acciaccatura g8 f8.(\trill es32 f) g4-. d-.
+  f( es) c8 h
+  d( c es d) g( es)
+  d4( c) f16( g a b)
+  \acciaccatura a8 g f16 es d4 c\trill
+  b r2
+  e4 r2
+
+  g4-> r2\fermata \boxd
+  f4.( a4) f8-.
+  f( e) c-. c'( b) g-.
+  f( g) f-. a4( f8)
+  f( e) c-. c'( b) g-.
+  f( g) f-. a4 a8
+  f4.( e8) c'( h)
+  
+  a( g) f-. e( f) d-.
+  c4. r
+  a2.
+  b?
+  a
+  b
+  f~
+  f4. f''8( e) d-.
+  c( a) f-. g4.
+  f4( es8) d4( cis8)
+
+  d4. d'8( c!) b-.
+  a( f) c-. e?4.
+  f8 c' c c c c
+  e,2.
+  a,8 c' c c c c
+  r b, b b b b
+  a4 r8 g'4 r8
+
+  f4 r8 g4 r8
+  f4 r8 r4.
+  f4 r8 r4.
+  g4 r8 r4.
+  c4.~ c4( \tuplet 3/2 8 { b16 a g) }
+  f4 r8 r4.
+  f4 r8 r4.
+  g4 r8 r4.
+  c4.~ c4( \tuplet 3/2 8 { b16 a g) }
+  f4 r8 r4.
+  c'4.~ c4( \tuplet 3/2 8 { b16 a g) }
+  f4 r8 r4.
+  c r \bar "|."
 }

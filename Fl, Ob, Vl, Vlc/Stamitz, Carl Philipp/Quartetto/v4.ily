@@ -143,4 +143,197 @@ vd = \relative c {
     f, r r c'
     f, r2
   }
+  
+  \introb \partial 2.
+  f'4. r
+  c r
+  f r
+  c r
+  f r
+  g8( a h) c4 r8
+  f,4 r8 g4 r8
+  c( d) b?-. a( b) g-.
+
+  f a c f,4 r8
+  c'4 r8 c,4 r8
+  f a c f,4 r8
+  c'4 r8 c,4 r8
+  a'2.
+  b8 f d b4 b'8
+  c4 c8 c,4 c8
+  a'2.
+  b8 f d b4 b'8
+
+  c4 c8 c,4 c8
+  f4 r8 r4.
+  c'4 r8 c,4 r8
+  f4 r8 r4.
+  c'4 r8 c,4 r8
+  f4 r8 c4 r8
+  f4 r8 c4 r8
+  f4 r8 r4.
+  f4 r8 r4.\fermata \boxa
+  f4 r8 f,4 r8
+
+  c'4 r8 c'4 r8
+  f,4 r8 f,4 r8
+  c'4 r8 c'4 r8
+  f,4 r8 r4.
+  c'4 r8 r4.
+  f,4 r8 r4 d8
+  g4 r8 g( h) d-.
+  g,4 r8 c,4 r8
+  g'4 r8 c,4 r8
+
+  g'4 r8 c,4 r8
+  f4 r8 f4 r8
+  d4 r8 h4 r8
+  g4 r8 f4 r8
+  e4 r8 c'( d e)
+  f4 r8 a,( h cis)
+  d4 r8 g,( a h)
+  c4 r8 r4.
+
+  r f8 f f
+  g g g g, g g
+  c2.~
+  c
+  c~->
+  c
+  c~
+  c~
+  c
+  c4 r8 r4.
+  c4 r8 r4.
+  c4 r8 r4.\fermata \boxb
+
+  f r
+  c r
+  f r
+  c r
+  f r
+  g8( a h) c4 r8
+  f,4 r8 g4 r8
+  c8( d) b?-. a8( b) g-.
+  f a c f,4 r8
+
+  c'4 r8 c,4 r8
+  f a c f,4 r8
+  c'4 r8 c,4 r8
+  a'2.
+  b8 f d b4 b'8
+  c4 c8 c,4 c8
+  a'2.
+  b8 f d b4 b'8
+  c4 c8 c,4 c8
+
+  f4 r8 r4.
+  c'4 r8 c,4 r8
+  f4 r8 r4.
+  c'4 r8 c,4 r8
+  f4 r8 c4 r8
+  f4 r8 c4 r8
+  f4 r8 r4.
+  f4 r8 r4.\fermata \boxc
+  R2.*8
+  b4 b, r
+  b2 a'4(
+
+  b) b, g'
+  c c, r
+  es2.
+  f4. es8 d4
+  es f f,
+  b2 r4
+  R2.*4
+  r8 b( b a g f)
+  e4 e'( f)
+  b4 c c,
+
+  f r2
+  r4 c c'
+  f, r2
+  r4 c c'
+  f, r2
+  R2.*2
+  r8 c, e g c e(
+  f4) r e(
+  f) r e(
+  f) r2
+
+  r r8 c
+  f b, c4 c,
+  f r e'4(
+  f) r e(
+  f) r e(
+  f) r2
+  r r8 c
+  f b, c'4 c,
+  f4 r2
+  
+  f,4 r2
+  f'4 r2
+  f,4 r2
+  f'4 f f
+  f f f
+  f f f
+  f f f
+  f r c
+  f r c
+  f r2
+  f2.~
+
+  f4 c' a
+  b r2
+  R2.*7
+  b4 b, r
+  b2 a'4
+  b b, g'
+  c c, r
+  es2.
+  f4. es8 d4
+  es4 f f,
+  g r2
+
+  b4 r2
+  e4-> r2 \boxd
+  f4. r
+  c r
+  f r
+  c r
+  f r  
+  g8( a h) c4 r8  
+  f,4 r8 g4 r8
+  
+  c( d) b?-. a( b) g-.
+  f a c f,4 r8
+  c'4 r8 c,4 r8
+  f a c f,4 r8
+  c'4 r8 c,4 r8
+  a'2.
+  b8 f d b4 b'8
+  c4 c8 c,4 c8
+  a'2.
+  
+  b8 f d b4 b'8
+  c4 c8 c,4 c8
+  f4 r8 r4.
+  c'4 r8 c,4 r8
+  f4 r8 r4.
+  c'4 r8 c,4 r8
+  f4 r8 c4 r8
+  f4 r8 c4 r8
+  f4 r8 r4.
+
+  f4 r8 r4.
+  c4 r8 r4.
+  e2.(
+  f4) r8 r4.
+  f,4 r8 r4.
+  c4 r8 r4.
+  e'2.(
+  f4) r8 r4.
+  e2.(
+  f4) r8 r4.
+  f,4. r \bar "|."
 }
