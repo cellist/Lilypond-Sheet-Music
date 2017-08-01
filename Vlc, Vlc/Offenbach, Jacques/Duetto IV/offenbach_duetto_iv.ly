@@ -1,28 +1,26 @@
 \version "2.18.2"
 \include "deutsch.ly"
   
-#(set-global-staff-size 21.5)
+#(set-global-staff-size 21)
 
 \header {
-  title     = \markup \bold \italic "Rondo Allegretto"
+  title     = \markup \bold \italic "Duetto IV"
   subtitle  = "- Duos für zwei Violoncelli -"
   composer  = "Jacques Offenbach"
   arranger  = "(1819-1880)"
   enteredby = "cellist (2017-07-31)"
-  piece     = "op. 49, Nr. 2 (Duo IV)"
+  piece     = "op. 49, Nr. 2"
 }
 
 voiceconsts = {
   \key g \major
-  \time 2/4
   \clef "bass"
 % \numericTimeSignature
   \compressFullBarRests
   % Set default beaming for all staves
-  \set Timing.beamExceptions = #'()
-  \set Timing.baseMoment     = #(ly:make-moment 1 2)
-  \set Timing.beatStructure  = #'(1)
-  \tempo "Allegretto " 4=110
+%  \set Timing.beamExceptions = #'()
+%  \set Timing.baseMoment     = #(ly:make-moment 1 2)
+%  \set Timing.beatStructure  = #'(1)
 }
 
 mifl = "flute"
@@ -31,6 +29,14 @@ mifh = "french horn"
 mist = "string ensemble 1"
 %minstr = "accordion"
 miba = "cello"
+
+introa = {        \tempo "1. Allegro "           4.=80  \time 6/8 }
+introb = { \break \tempo "2. Rondo - Allegretto " 4=110 \time 2/4
+           % Set default beaming for all staves
+	   \set Timing.beamExceptions = #'()
+	   \set Timing.baseMoment     = #(ly:make-moment 1 2)
+	   \set Timing.beatStructure  = #'(1)
+	 }
 
 \include "v1.ily"
 \include "v2.ily"
