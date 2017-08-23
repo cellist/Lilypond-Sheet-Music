@@ -22,7 +22,7 @@ va = \relative c' {
     fis'
 
     e4( fis8) g4 a8
-    h4 ais8 h4 b8
+    h4 b8 h4 b8
     a( d4) h!8 g e
     fis4. e
     d~ d8 fis d
