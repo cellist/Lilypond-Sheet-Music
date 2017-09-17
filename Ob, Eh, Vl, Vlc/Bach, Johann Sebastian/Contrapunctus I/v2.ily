@@ -1,85 +1,77 @@
-vb = \relative c'' {
+vb = \relative c' {
   \voiceconsts
 
-  a2 e'
+  R1*12
+  a2 d
   c a
+
   gis a4 h
-  c2~ c8 d c h
-  a4 h c d
-  e e,8 fis g? e c'4~
-  c8 fis, h4~ h8 c h a
-  h4 cis d2~
+  c2~ c8 d c b!
+  a2~ a8 f g?4
+  c2~-! c8 a h4
+  e2~-! e8 cis d4
+  g2~-! g8 e f4
 
-  d4 c! h2
-  a4. h8 c4. a8
-  d4. d8 c h a gis
-  a4 d2 g,!4
-  c4. h8 c4. dis,8
-  h'2. a8 g
-  a c h a g4 r
-  R1*7
+  e4.-! a8 d,4. e8-.
+  cis4( d8) a-. h4.( cis8
+  d4) a2.~-!
+  a2 b?
+  r8 e,-. a4~-! a8 b a g
+  a4 h-- c2~-!
+  c8 a b!4 a d~-!
 
-  a2 e'
-  c a
-  gis a4 h
-  c2~ c8 d c h
-  a4 d~ d8 h c4
-  h e~ e8 cis d4
-  cis4. a'8 dis,2
-  e4 r8 e, g4 e
-  a c? h a
+  d8 h c4 h e~-!
+  e8 a,-. d4~-! d8 d c h
+  c d e4~ e8 \breathe e d-- c
+  h2 c4 gis--
+  a8-! g! fis e fis4 g~-!
+  g8 g f! e f e d cis
+  d4 r r2
 
-  g e'2 a,4
-  h e~ e8 d? c h
-  a1~
-  a8 a d4~ d8 d g,4~
-  g8 e f4 e2~
-  e8 c d4 g2~
-  g8 e fis4 h2~
-  h8 gis a4 d2~
+  R1*5
+  e2 a
+  f d
 
-  d8 e f?4 e2~
-  e~ e8 c d4
-  e4. f8 e4 d~
-  d c8 a e'4. d8
-  cis a d4~ d8 h c4~
-  c8 a d4~ d8 h e4~
-  e8 c f4~ f8 d e4~
+  cis d4 e
+  f2~ f8 g f e
+  d2. \breathe a'8 f
+  b4. g8-. c4.-! a8-.
+  d4-! g,-- c-! f,--
+  b-! e,-- a2-!
 
-  e8 c d2 c8 a
-  e'2 a~
-  a8 gis fis gis a e h'4~
-  h8 e, a4 r8 c, f?4~
-  f8 h, e4~ e8 d c h
-  a e' a fis d h g'?4~
-  g f e2
+  e4-- a~-! a8 gis fis gis
+  a4. g!8 f! e d cis
+  d4 f8( d b'4) g8( e
+  a4.) f'8-. h,4( cis
+  d) h8( g c!4) a8( f
+  b!) d-. g4~-! g8 e f4~
 
-  d4. c8 h2~
-  h4 a8 gis a4 d~
-  d4. c8 h4. h8
-  e2. d8 f
-  e2~ e8 d c h
-  a2. h4
-  e, r r b'
-  a2 r4 cis
+  f8 \breathe f e d cis2
+  d8 c! b a g a b c
+  d a-. d4~-! d8 h cis4~
+  cis8 \breathe e a, cis d4 b8 g
+  e2 f4 g
+  a2 h4 cis
+  d r r fis,--
 
-  d8 cis d4 r f~
-  f8 e c' a fis4 h8 gis
-  e4 a8 e f!4. d8
-  e4. c8 h4. d?8
-  cis a d4~ d8 h c4~
-  c8 a' g4~ g4. g8
+  g8(-! a b4) r c--
+  d2-! r8 g,4( f?8
+  e4) r r2
+  r4 f8 d g4. cis,8-.
+  f4.-! d8-. a'2(
 
-  f e dis4 e4. h8
-  e4 d~ d4. g8
-  e4 d2 r4
-  r2 e4 r
-  r2 fis
-  e~ e4. d8
-  cis d e4. d8 g4~
-  g8 cis, d f b,2
+  d,4) d'2 a8 f
+  b2~ b8 gis a4
+  d2~-! d8 h c?4
+  f2~-! f8 d es4
+  d2 e!4 r
+  r2 f4 r
 
-  a4 e f g
-  a d,~ d8 f' e d~
-  d cis h d cis2 \bar "|."
+  r2 f~
+  f4 e8 d e4 r
+  a,2 d
+  b g
+  fis g4 a
+  b2~ b8 d c b
+  a1\fermata \bar "|."
 }

@@ -1,27 +1,28 @@
 \version "2.18.2"
 \include "deutsch.ly"
   
-#(set-global-staff-size 20.25)
+#(set-global-staff-size 20)
 
 \header {
   title     = \markup \bold \italic "Contrapunctus I"
   subtitle  = "- Die Kunst der Fuge -"
-  composer  = "Johann Sebastian Bach"
-  arranger  = "(1685-1750)"
-  enteredby = "cellist (2017-08-06)"
+  composer  = "Johann Sebastian Bach (1685-1750)"
+  arranger  = "arr.: Helmut Walcha (für Orgel)"
+  enteredby = "cellist (2017-09-17)"
   piece     = "BWV 1080"
 }
 
 voiceconsts = {
-  \key c \major
+  \key d \minor
   \clef "treble"
+  \time 2/2
 % \numericTimeSignature
   \compressFullBarRests
   % Set default beaming for all staves
 %  \set Timing.beamExceptions = #'()
 %  \set Timing.baseMoment     = #(ly:make-moment 1 4)
 %  \set Timing.beatStructure  = #'(1 1 1)
-  \tempo "Moderato " 4=90
+  \tempo "Moderato " 2=44
 }
 
 mifl = "flute"
@@ -40,25 +41,25 @@ music = \new StaffGroup <<
       \new Staff {
 	\set Staff.midiInstrument = \miob
 	\set Staff.instrumentName = \markup \center-column { "Oboe" }
-	\transpose c c { \va }
+	\transpose d g { \va }
       }
 
       \new Staff {
 	\set Staff.midiInstrument = \mifh
 	\set Staff.instrumentName = \markup \center-column { "Englisch" "Horn" }
-	\transpose c g, { \vb }
+	\transpose d d' { \vb }
       }
 
       \new Staff {
 	\set Staff.midiInstrument = \mist
 	\set Staff.instrumentName = \markup \center-column { "Violine" }
-	\transpose c c { \vc }
+	\transpose d g { \vc }
       }
 
       \new Staff {
 	\set Staff.midiInstrument = \miba
 	\set Staff.instrumentName = \markup \center-column { "Violon-" "cello" }
-	\transpose c c { \vd }
+	\transpose d g { \vd }
       }
 >>
 

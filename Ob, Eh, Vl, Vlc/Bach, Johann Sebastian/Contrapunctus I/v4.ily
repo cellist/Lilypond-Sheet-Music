@@ -3,76 +3,78 @@ vd = \relative c {
   \clef "bass"
 
   R1*8
-  a2 e'
-  c a
-  gis a4 h
-  c2~ c8 d c h
-  a2 r
-  r4 e8 fis g? e c'4~
-  c8 fis, h4~ h8 c h a
-
-  g d' cis e d2
-  a2. h8 a
-  h4 c8 h cis4 d8 cis
-  dis4 e8 dis e4 f?8 e
-  fis4 g8 fis gis4 a8 dis,
-  e2~ e8 c d?4~
-  d8 h c4~ c8 a h4
-
-  a2~ a8 fis gis4
-  a4. g!8 f?2
-  e4. d8 c d c' h
-  a c h a e4. c8
-  f4. d8 a'4. c8
-  e4. e,8 h'4 r
-
-  r2 h
-  e c~
-  c8 c h a g a g fis
-  e2 a
-  gis e
+  d2 a'
+  f d
   cis d4 e
-  f?2~ f8 g? f e
-  d2~ d8 h' c4
-  f,2~ f8 d e4
-
-  a2~ a8 fis g4
-  c2~ c8 a h4
-  e,4. d'8 c h a gis
-  a4. c,8 f?2
-  e1~
-  e4. f8 e d e4
-  f4. d8 a'2~
-  a4 h2 c4~
-
-  c4. a8 h4. gis8
-  a4. fis8 gis e a4~
-  a8 g! fis e fis2
-  e4 r r2
-  R1*6
-  a2 e'
-  c a
-  gis a4 h
-
-  c2~ c8 d c h
-  a2~ a8 b a g
   f2~ f8 g f e
-  d2. d4
-  e1~
-  e~
-  e2. e4
-  f4. d8 a'2~
-  a8 f g4 c2~
+  d2 r
+  r4 a8 h c? a f'4~
 
-  c8 a h4 e2~
-  e8 c d4 g2~
-  g8 e f2 r4
-  r2 e4 r
-  r2 dis
-  e2. e,4
-  f1~
-  f~
-  f~
-  f~
-  f \bar "|."
+  f8 h,-. e4~-! e8 f e d
+  e g fis a g2
+  d2.-! e8 d
+  e4 f8 e fis4 g8 fis
+  gis4 a8 gis a4 b?8 a
+  h4 c8 h cis4 d8 gis,-.
+
+  a2~-! a8 f? g!4~
+  g8 e f4~ f8 d e4
+  d2~ d8 h cis4
+  d4. c!8 b!2
+  a4. g8 f g f e
+  d \breathe f e d a'4. f8
+  b4. g8-. d'4.( f8
+
+  a4.) a,8-. e4-- r
+  r2 e'
+  a f~
+  f8 \breathe f e d c d c h
+  a2 d
+  cis a
+  fis g4 a
+
+  b?2~ b8 c? b a
+  g2~ g8 e f?4
+  b2~-! b8 g a4
+  d2~-! d8 h c4
+  f2~-! f8 d e4
+  a,4.-! g'8 f e d cis
+  d4. f,8-. b?2-!
+
+  a1~
+  a4. b8 a g a4
+  b4. g8-. d'2~-!
+  d4 e2 f4~
+  f4. d8 e4. cis8
+  d4. h8 cis a-. d4~-!
+
+  d8 c! h a h2
+  a4 r r2
+  R1*6
+  d2 a'
+  f d
+  cis d4 e
+  f2~ f8 g f e
+  d2~ d8 es d c
+
+  b2~ b8 c b a
+  g2. g4--
+  a1~-!
+  a~
+  a2. a4--
+
+  b4.-! g8-. d'2~-!
+  d8 b c4 f2~-!
+  f8 d e4 a2~-!
+  a8 f g4 c2~-!
+  c8 a b2 r4
+  r2 a4 r
+
+  r2 gis
+  a2. a,4
+  d1~
+  d~
+  d~
+  d~
+  d\fermata \bar "|."
 }
