@@ -49,7 +49,7 @@ vb = \relative c'''\scaleDurations #'(2 . 3) {
   d' d, e fis a gis gis h a
 
   a c h c a e c d e
-  f d' c d a gis e fis g
+  f d' c d h gis e fis gis
   a4.-- a-- f
   c'4 h8 c4 a8 f4 a8
   a4 gis8 a4 fis!8 h,4 d8
