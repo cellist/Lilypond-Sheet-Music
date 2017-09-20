@@ -24,7 +24,7 @@ vc = \relative c' {
   as as as as gis gis gis gis
   g! g g g e e e e
 
-  r <a fis'> <a fis'> <a fis'> g g g g
+  r <a fis'> <a fis'> <a fis'> h h h h
   c c r e, e e e e
   e e e e e e e e
 
