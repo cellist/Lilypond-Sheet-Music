@@ -21,7 +21,7 @@ vd = \relative c {
   \repeat volta 2 {
     c4 c8 c c4 e
     f4. f8 f2
-    h4 h8 h h4 fis
+    a4 a8 a h4 fis
     g4. g8 g2
 
     e4 e8 e e4 gis
@@ -30,10 +30,8 @@ vd = \relative c {
     c1
   }
 
-  \repeat volta 2 {
-    c2 c
-    c c
-    f, f
-    c'1
-  } \bar "|."
+  c2 c
+  c c
+  f, f
+  c'1 \bar "|."
 }

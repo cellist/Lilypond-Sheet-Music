@@ -29,10 +29,8 @@ vb = \relative c'' {
     c1
   }
 
-  \repeat volta 2 {
-    c2 c
-    c c
-    <f, c'> <f c'>
-    e1
-  } \bar "|."
+  c2 c
+  c c
+  <f, c'> <f c'>
+  e1 \bar "|."
 }

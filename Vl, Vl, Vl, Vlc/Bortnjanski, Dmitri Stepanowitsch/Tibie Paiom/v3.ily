@@ -29,10 +29,8 @@ vc = \relative c'' {
     g1
   }
 
-  \repeat volta 2 {
-    a2 g
-    h4( a) g2
-    a a
-    g1
-  } \bar "|."
+  a2 g
+  h4( a) g2
+  a a
+  g1 \bar "|."
 }

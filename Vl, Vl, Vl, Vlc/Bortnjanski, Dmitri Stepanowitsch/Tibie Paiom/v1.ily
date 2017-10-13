@@ -29,10 +29,8 @@ va = \relative c'' {
     e1
   }
 
-  \repeat volta 2 {
-    f2 e
-    f e
-    d es
-    e?1
-  } \bar "|."
+  f2 e
+  f e
+  d es
+  e?1 \bar "|."
 }
