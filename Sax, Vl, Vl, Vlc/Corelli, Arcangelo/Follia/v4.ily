@@ -133,5 +133,44 @@ vd = \relative c {
   f4 f,2
   c' cis4
   d8 g, a2
-  d,2. \bar "|."
+  d,2. \varg
+
+  d'16 f a f d f a f d f e d
+  a' cis e cis a cis e cis a cis h a
+  d, f a f d f a f d f e d
+  c? e g e c e g e c e d c
+
+  f a c a f a c a f a g f
+  c e g e c e g e cis e d cis
+  d f a f d f a f d f e d
+  a cis e cis a cis e cis a cis h a \breathe
+
+  d f a f d f a f d f e d
+  a' cis e cis a cis e cis a cis h a
+  d, f a f d f a f d f e d
+  c? e g e c e g e c e d c
+
+  f a c a f a c a f a g f
+  g b? d b g b d b g b a g
+  a cis e cis a cis e cis a cis h a
+  d2. \varh
+
+  d,4 f d
+  cis a cis
+  d f d
+  c? e c
+  f a f
+
+  c e cis
+  d b?2
+  a2. \breathe
+  d4 f d
+  cis a cis
+
+  d f d
+  c? e c
+  f a f
+  c e cis
+  d g, a
+  d2. \bar "|."
 }

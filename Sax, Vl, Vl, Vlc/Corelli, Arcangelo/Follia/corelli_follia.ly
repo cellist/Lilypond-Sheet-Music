@@ -1,7 +1,7 @@
 \version "2.18.2"
 \include "deutsch.ly"
   
-#(set-global-staff-size 18)
+#(set-global-staff-size 18.75)
 
 \header {
   title     = \markup \bold \italic "Follia (Auszüge)"
@@ -39,6 +39,8 @@ varc = { \bar "||" \mark \markup \box "Var. III" }
 vard = { \bar "||" \mark \markup \box "Var. IV" }
 vare = { \bar "||" \mark \markup \box "Var. V" }
 varf = { \bar "||" \mark \markup \box "Var. VI" }
+varg = { \bar "||" \mark \markup \box "Var. VII" }
+varh = { \bar "||" \mark \markup \box "Var. VIII" \tempo " Adagio " 4=60 }
 
 \include "v1.ily"
 \include "v2.ily"
@@ -47,21 +49,22 @@ varf = { \bar "||" \mark \markup \box "Var. VI" }
 
 music = \new StaffGroup <<
       \new Staff {
+	\set Staff.midiInstrument = \misx
+	\set Staff.instrumentName = \markup \center-column { "Saxo-" "phon" }
+	\transpose d h, { \va }
+%	\transpose d d { \va }
+      }
+
+      \new Staff {
 	\set Staff.midiInstrument = \mist
 	\set Staff.instrumentName = \markup \center-column { "Violine" "I" }
-	\transpose d d { \va }
+	\transpose d d { \vb }
       }
 
       \new Staff {
 	\set Staff.midiInstrument = \mist
 	\set Staff.instrumentName = \markup \center-column { "Violine" "II (+ III)" }
-	\transpose d d { \vb }
-      }
-
-      \new Staff {
-	\set Staff.midiInstrument = \misx
-	\set Staff.instrumentName = \markup \center-column { "Saxo-" "phon" }
-	\transpose d h, { \vc }
+	\transpose d d { \vc }
       }
 
       \new Staff {

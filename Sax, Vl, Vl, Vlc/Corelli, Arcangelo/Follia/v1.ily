@@ -1,136 +1,175 @@
 va = \relative c'' {
   \voiceconsts
 
-  d4 d4. e8
+  a4 a2
+  a2.
+  a4 h2
+  c2.
+  c4 c2
+  c e4
+  a, a d
+  a2. \breathe
+
+  a4 a2
+  a2.
+  a4 h2
+  c2.
+  c4 c2
+  c4. e8 d4
+  b? a4. a8
+  a2. \vara
+
+  a4 r a~
+  a r cis(
+  d) r d(
+  c?) r e(
+  c) c c~
+  c c e
+  f8 e d2
+  cis4. d8[ e cis]
+
+  a4 r a~
+  a r cis(
+  d) r d(
+  c?) r e(
+  f) d2
+  d4. e8 a,4
+  b a a
+  a2. \varb
+
+  a
+  a
+  a2 h4
+  c2.
+  c
+
+  c2 e4
+  d d2
+  a2. \breathe
+  a
+  a
+
+  a2 h4
+  c2.
+  c
+  c2 e4
+  d d cis
+  a2. \varc
+
+  R
+  a2 r4
+  a2 r4
+
+  c2 r4
+  c2 r4
+  c2 r4
+  d d2
+
+  a r4
+  a2 r4
+  a2 r4
+  d2 r4
+
+  c2 r4
+  f2 r4
+  g e d
+  \tuplet 3/2 4 { f8 d b? } d4 cis
+  a2. \vard
+
+  r4 f' d
+  r e cis
+  r f d
+  r g e
+  r a f
+
+  r g e \breathe
+  r f d
+  r e cis
+  r f d
+  r e cis
+
+  r f d
+  r g e
+  r a f
+  h, b a
+  b a a
+  a2. \vare
+
+  d4 r2
+  cis4 r2
+  d4 r2
+  e4 r2
+  f4 r2
+
+  e4 r2 \breathe
+  d4 r2
+  cis4 r2
+  d4 r2
+  cis4 r2
+
+  d4 r2
+  e4 r2
+  f4 r2
+  d4 e d
+  b d cis
+  a2. \varf
+
+  a4 a2
+  a4 a2
+  a h4
+  c2 b!4
+
+  c c2
+  c4 c2
+  a4 d2
+  a2. \breathe
+
+  a4 a2
+  a4 a2
+  a h4
+  c2 b!4
+
+  c c2
+  c e4
+  f8 d d4 cis
+  a2. \varg
+
+  d2 r4
+  cis2 r4
+  d2 r4
+  c?2 r4
+
+  f2 r4
+  e2 r4
+  d2 r4
+  cis2 r4 \breathe
+
+  d2 r4
+  cis2 a4
+  d2 r4
+  c?2 c4
+
+  f2 d4
+  g2 e4
   cis2 cis4
-  d d4.(\trill c!16 d)
-  e2 e4
-  f f4. g8
-  e2 e4
-  d8( cis) d4. e8
-  cis2 cis4 \breathe
+  f2. \varh
 
-  d d4. e8
-  cis2 cis4
-  d d4.(\trill c!16 d)
-  e2 e4
-  f f4. g8
-  e4. e8 f4
-  d d4.\trill cis8
-  d2. \vara
+  r4 d f
+  e cis e
+  e d d
+  e c? e
+  f f f
 
-  r4 a d
-  r e g
-  r d f
-  r g c
-  r c, f
-  r e a
-  f8 a, d4. e8
-  cis2.
+  e c e
+  f f d
+  cis2. \breathe
+  r4 d f
+  e cis e
 
-  r4 a d
-  r e g
-  r d f
-  r g c
-  r a d
-  b4. a8 g( a)
-  f( e) e4.\trill d8
-  d2. \varb
-
-  d8 f a f d f
-  e a cis, e a, cis
-  d f a f d f
-  e g c? g e g
-  a f a c a f
-
-  g c, e g a e
-  f a, d f e d
-  cis2 cis4 \breathe
-  d8 f a f d f
-  e a cis, e a, cis
-
-  d f a f d f
-  e g c g e g
-  a f a c a f
-  g e g b a( g)
-  f( e) e4.\trill d8
-  d2. \varc
-
-  d16 a h cis d f, g a d, f e d
-  cis2 r4
-  d'16 a h cis d f, g a d, f e d
-
-  e2 r4
-  f'16 c? d e f a, b? c f, a g f
-  e2 r4
-  d'16 a h cis d f, g a d, f e d
-
-  cis2 r4
-  \tuplet 3/2 4 { d'8( f) d a( d) a f( a d) }
-  cis2 r4
-  \tuplet 3/2 4 { d8( f) d a( d) a f( d' f) }
-
-  e2 r4
-  \tuplet 3/2 4 { f8( a) f c?( f) c a( f' a) }
-  g4~ \tuplet 3/2 4 { g8 a( e) f( g) e }
-  \tuplet 3/2 4 { f( g) e } e4.\trill d8
-  d2. \vard
-
-  d8 d, f a f d
-  cis' a, cis e cis a
-  d' d, f a f d
-  e' c,? e g e c
-  f' f, a c a f
-
-  e' c, e g e c \breathe
-  d' d, f a f d
-  cis' a, cis e cis a
-  d' d, f a f d
-  cis' a, cis e cis a
-
-  d' d, f a f d
-  e' c,? e g e c
-  f' f, a c a f
-  \tuplet 3/2 4 { h,( d g) cis,( g' b!) d,( f a) }
-  \tuplet 3/2 4 { g,( f' d') } << { e,4.\trill d8 } \\ a2 >>
-  d2. \vare
-
-  f'4 f r
-  e e r
-  f f r
-  g g r
-  a a r
-
-  g g r \breathe
-  f f r
-  e e r
-  f f r
-  e e r
-
-  f f r
-  g g r
-  a a r
-  g g f
-  <g, d'> a a
-  d2. \varf
-
-  d16 f a f d f a f d f a f
-  cis e a e cis e a e cis e a e
-  d f a f d f a f h, f' g f
-  c e g e c e g e b! e g e
-
-  f a c a f a c a f a g f
-  e g c g e g c g e g f e
-  f a, h cis d cis d e d f e d
-  cis a cis e cis a cis e cis a cis e \breathe
-
-  d f a f d f a f d f a f
-  cis e a e cis e a e cis e a e
-  d f a f d f a f h, f' g f
-  c e g e c e g e b! e g e
-  
-  f a c a f a c a f a g f
-  e g c g e g c g e g f e
-  f d cis d a d cis d e, d' cis d
-  d,2. \bar "|."
+  e d d
+  e c? b
+  f' f f
+  c c e
+  a, b cis
+  a2. \bar "|."
 }
