@@ -21,9 +21,9 @@ vd = \relative c {
   d' h
 
   e4 r8 r4.
-  r4.. fis,16 a4~
-  a r2
-  r4. e8 fis gis
+  r4. r16 fis, a4~
+  a r8 r4.
+  r e8 fis gis
   e4. fis4 f8
 
   e4 fis!8 gis4.

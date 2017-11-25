@@ -22,7 +22,7 @@ vc = \relative c' {
 
   a4 e fis8 ais~
   ais h r4 r16 c, dis8
-  cis!4 r2
+  cis!4 r8 r4.
   
   R2.*3
   e4. cis
