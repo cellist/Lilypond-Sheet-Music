@@ -1,7 +1,7 @@
 \version "2.18.2"
 \include "deutsch.ly"
   
-#(set-global-staff-size 19.5)
+#(set-global-staff-size 17.15)
 
 \header {
   title     = \markup \bold \italic "Sonate E-Dur"
@@ -44,7 +44,7 @@ music = \new StaffGroup <<
       \new Staff {
 	\set Staff.midiInstrument = \mifl
 	\set Staff.instrumentName = \markup \center-column { "Flöte" }
-	\transpose e d { \ve }
+	\transpose e d { \va }
       }
 
       \new Staff {
