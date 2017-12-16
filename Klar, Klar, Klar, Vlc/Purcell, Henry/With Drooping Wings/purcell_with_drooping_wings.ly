@@ -1,7 +1,7 @@
 \version "2.18.2"
 \include "deutsch.ly"
   
-#(set-global-staff-size 23)
+#(set-global-staff-size 22.75)
 
 \header {
   title     = \markup \bold \italic "With Drooping Wings"
@@ -14,7 +14,7 @@
 voiceconsts = {
   \key g \minor
   \time 4/4
-  \clef "bass"
+  \clef "treble"
   \numericTimeSignature
   \compressFullBarRests
   % Set default beaming for all staves
@@ -38,27 +38,27 @@ milo = "harpsichord"
 
 music = \new StaffGroup <<
       \new Staff {
-	\set Staff.midiInstrument = \miba
-	\set Staff.instrumentName = \markup \center-column { "Violon-" "cello I" }
-	\transpose g g { \va }
+	\set Staff.midiInstrument = \micl
+	\set Staff.instrumentName = \markup \center-column { "Klari-" "nette I" }
+	\transpose g d'' { \va }
+      }
+
+      \new Staff {
+	\set Staff.midiInstrument = \micl
+	\set Staff.instrumentName = \markup \center-column { "Klari-" "nette II" }
+	\transpose g d'' { \vb }
+      }
+
+      \new Staff {
+	\set Staff.midiInstrument = \micl
+	\set Staff.instrumentName = \markup \center-column { "Klari-" "nette III" }
+	\transpose g d'' { \vc }
       }
 
       \new Staff {
 	\set Staff.midiInstrument = \miba
-	\set Staff.instrumentName = \markup \center-column { "Violon-" "cello II" }
-	\transpose g g { \vb }
-      }
-
-      \new Staff {
-	\set Staff.midiInstrument = \miba
-	\set Staff.instrumentName = \markup \center-column { "Violon-" "cello III" }
-	\transpose g g { \vc }
-      }
-
-      \new Staff {
-	\set Staff.midiInstrument = \miba
-	\set Staff.instrumentName = \markup \center-column { "Violon-" "cello IV" }
-	\transpose g g { \vd }
+	\set Staff.instrumentName = \markup \center-column { "Violon-" "cello" }
+	\transpose g c' { \vd }
       }
 >>
 

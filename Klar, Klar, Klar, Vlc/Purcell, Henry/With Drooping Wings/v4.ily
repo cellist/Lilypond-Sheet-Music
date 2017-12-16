@@ -1,6 +1,7 @@
 vd = \relative c {
   \voiceconsts
-
+  \clef "bass"
+  
   R1
   r4 g\upbow f es
   d c b' g
