@@ -111,7 +111,7 @@ va = \relative c''' {
   }
 
   \repeat volta 2 {
-    d'4(-> cis8 \atem
+    d'4(->\f cis8 \atem
     h)-. a-. h-.
     a-. g-. a-.
     g-. fis-. g-.
