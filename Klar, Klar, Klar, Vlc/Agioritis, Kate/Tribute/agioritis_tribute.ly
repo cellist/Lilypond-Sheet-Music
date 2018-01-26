@@ -5,7 +5,7 @@
 
 \header {
   title     = \markup \bold \italic "Tribute"
-  composer  = "Kate Agiorits"
+  composer  = "Kate Agioritis"
   arranger  = "(*1982)"
   enteredby = "cellist (2018-01-20)"
   piece     = "(2010)"
