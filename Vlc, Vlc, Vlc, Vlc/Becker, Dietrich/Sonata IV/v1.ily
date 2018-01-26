@@ -1,18 +1,19 @@
 va = \relative c' {
   \voiceconsts
-
+  \clef "tenor"
+  
   \introa
   d4\f d4.( e8)
   fis4 cis2
   e4 h4.( cis8)
-  ais4 fis2 \clef "tenor"
+  ais4 fis2
   a'!4 a4.( h8)
   cis4 gis2
   h4 fis4.( gis8)
   eis4( cis) fis
   a gis2
 
-  fis2. \clef "bass"
+  fis2.
   cis4\downbow\p cis4.( cis8)
   d4 d2
   dis8 e? e4. dis8
@@ -25,13 +26,13 @@ va = \relative c' {
   a'4\downbow\f e4.( e8)
   fis4 fis2
   d4 d4.( cis8)
-  d4 d2 \clef "tenor"
+  d4 d2
   fis4 fis4.( gis8)
   a4 e4.( fis8)
   g?4 d4.( e8)
 
   fis4 cis4.( d8)
-  e4 h4.( cis8) \clef "bass"
+  e4 h4.( cis8)
   ais4( fis) h
   d cis2
   h h4
@@ -68,14 +69,14 @@ va = \relative c' {
   h4 fis' fis2\fermata
 
   r4 cis\p e h8. cis16
-  ais2\fermata r4 \clef "tenor" fis'\f
+  ais2\fermata r4 fis'\f
   a2\fermata r4 a\p
   eis h' gis2
-  fis\fermata r4 \clef "bass" fis\f
+  fis\fermata r4 fis\f
   h,2 r4 e
   ais,2 r4 ais\p
 
-  h\< cis d fis\! \clef "tenor"
+  h\< cis d fis\!
   h8\f a? g fis e d cis h
   ais2 r4 a'!8 a
   g fis g fis e d e d
@@ -92,7 +93,7 @@ va = \relative c' {
 
   \introd
   \repeat volta 2 {
-    \clef "bass" fis4\f fis h
+    fis4\f fis h
     ais4. gis8 fis4
     fis' ais, h
     h4. ais8 h4
@@ -124,12 +125,12 @@ va = \relative c' {
 
     d4. cis8 h4
     ais2 fis4\upbow
-    fis2 \clef "tenor" fis'4\p
+    fis2 fis'4\p
     a?2 fis4
     g2 e4
     fis4. e8 d4
 
-    cis2 \clef "bass" a4\upbow\<
+    cis2 a4\upbow\<
     h4. cis8 d4
     e4. d8 cis4\!
     d2\f d4

@@ -43,12 +43,12 @@ vc = \relative c {
   r2 fis4\f gis
   a eis fis8 gis a h
   cis4 h8 a gis4 a~
-  a gis8 fis e?4 g!~
-  g cis,2 a4
+  a gis8 fis e?4 gis~
+  gis cis,2 a4
 
   h fis'8 e d4 fis
   h,4. cis8 d e fis4
-  e2 d4 g,
+  e2 d4 g,?
   fis e' h cis
   h fis'2 cis4
   d2. cis8 h
