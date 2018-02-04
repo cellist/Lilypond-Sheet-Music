@@ -100,7 +100,7 @@ vb = \relative c'' {
 
   fis( d cis d) e( fis gis ais)
   \tuplet 3/2 8 { cis( d cis } h8) r16 d, h'( a!)
-  \appoggiatura { a[ h] } a( gis g gis) d( fis) e gis
+  \appoggiatura { a[ h] } a( gis g gis) d( fis) e( gis)
   e8-. r r16 cis\f c( cis) \boxh
 
   d( c) c( e) e( a) a( c)

@@ -98,7 +98,7 @@ va = \relative c'' {
 
   ais( fis eis fis) gis( ais h cis)
   \tuplet 3/2 8 { e!( fis e } d8) r16 fis, d'( cis)
-  \appoggiatura { cis[ d] } cis( h ais h) fis( a gis h)
+  \appoggiatura { cis[ d] } cis( h ais h) fis( a) gis( h)
   a8-. r r16 e\ff e( f) \boxh
 
   f( e) e( a) a( c) c( f)

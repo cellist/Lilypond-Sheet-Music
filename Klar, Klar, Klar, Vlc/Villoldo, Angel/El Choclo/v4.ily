@@ -28,8 +28,8 @@ vd = \relative c, {
   d8. a16 f'8-. d
   c8. c16 a8-. e'
   h8. d16 e8-. e,
-  a r r4 \boxb
-  g?8.\f d'16 g8 g,
+  a, r r4 \boxb
+  g'?8.\f d'16 g8 g,
   c8. d16 g8 g,
 
   d'8. f16 g8 g,
@@ -75,7 +75,7 @@ vd = \relative c, {
   h8. d16 gis8-. eis,
   fis cis'-. fis-. fis,
   cis'8. eis16 gis8-. eis,-.->
-  fis-.-> r r16 e!(\ff e f) \boxe
+  fis-.-> r r16 e!\ff e( f) \boxe
 
   f( e) e( a) a( c) c( f)
   \tuplet 3/2 8 { f( g f } e8) r16 e e( a)

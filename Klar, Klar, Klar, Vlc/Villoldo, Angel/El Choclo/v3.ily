@@ -103,12 +103,12 @@ vc = \relative c' {
 
   dis4( d
   cis8)-. r r4 \boxh
-  a?8.\mf a16\< c8-. e-.
+  a?8.\mf a16\< c,8-. e-.
   a-.\! e16(\f a) c8-. a-.
-  ais,(\mp cis\< e cis)
+  ais(\mp cis,\< e cis)
   d-.\! f16(\f a!) d8-. a-.
 
-  f16( e) e( d) d( c?) c( h)
+  f'16( e) e( d) d( c?) c( h)
   \tuplet 3/2 8 { h( c h } a)[ a] a( c h a)
   \tuplet 3/2 8 { a( h a } gis)[ h] h( d c h)
   a8-.-> c-.-> e-.-> r \bar "|."
