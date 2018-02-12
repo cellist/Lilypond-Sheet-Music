@@ -1,32 +1,47 @@
-\version "2.12.3"
+\version "2.18.2"
 \include "deutsch.ly"
-
-#(set-global-staff-size 17)
+  
+#(set-global-staff-size 17.8)
 
 \header {
-  title = "Libertango"
-  composer = "Astor Piazzolla (1921-1992)"
-  arranger = "arr.: L. Marcolina"
-  opus = "(1973)"
-  enteredby = "cellist (2011-10-17)"
+  title     = \markup \bold \italic "Libertango"
+  composer  = "Astor Pantaleón Piazzolla (1921-1992)"
+  arranger  = "arr.: E. Vilkovisky"
+  enteredby = "cellist (2018-02-11)"
+  piece     = "(1973)"
 }
 
 voiceconsts = {
- \key d \minor
- \time 4/4
-% \numericTimeSignature
- \compressFullBarRests
- \tempo "Tempo di Tango " 4=140
+  \key a \minor
+  \time 4/4
+  \clef "bass"
+%  \numericTimeSignature
+  \compressFullBarRests
+  % Set default beaming for all staves
+% \set Timing.beamExceptions = #'()
+% \set Timing.baseMoment     = #(ly:make-moment 1 4)
+% \set Timing.beatStructure  = #'(1 1 1)
+  \tempo "Tempo di Tango " 4=150
 }
 
-%mihi = "harpsichord"
-%milo = "harpsichord"
-%mihi = "clarinet"
-mihi = "accordion"
-milo = "accordion"
-%milo = "bassoon"
+micl = "clarinet"
+mifl = "flute"
+miob = "oboe"
+mifh = "french horn"
+misx = "tenor sax"
+mist = "string ensemble 1"
+miba = "cello"
 
-pdol  = \markup { \dynamic p \italic " dolce" }
+boxa = { \bar "||" \mark \markup \box "A" }
+boxb = { \bar "||" \mark \markup \box "B" }
+boxc = { \bar "||" \mark \markup \box "C" }
+boxd = { \bar "||" \mark \markup \box "D" }
+boxe = { \bar "||" \mark \markup \box "E" }
+boxf = { \bar "||" \mark \markup \box "F" }
+boxg = { \bar "||" \mark \markup \box "G" }
+boxh = { \bar "||" \mark \markup \box "H" }
+boxi = { \bar "||" \mark \markup \box "I" }
+boxj = { \bar "||" \mark \markup \box "J" }
 
 \include "v1.ily"
 \include "v2.ily"
@@ -35,28 +50,27 @@ pdol  = \markup { \dynamic p \italic " dolce" }
 
 music = \new StaffGroup <<
       \new Staff {
-	\set Staff.midiInstrument = \mihi
-	\set Staff.instrumentName = #"Vc 1"
-	\transpose d d, { \va }
+	\set Staff.midiInstrument = \miba
+	\set Staff.instrumentName = \markup \center-column { "Violon-" "cello I" }
+	\transpose a a { \va }
       }
 
       \new Staff {
-	\set Staff.midiInstrument = \mihi
-	\set Staff.instrumentName = #"Vc 2"
-	\transpose d d, { \vb }
+	\set Staff.midiInstrument = \miba
+	\set Staff.instrumentName = \markup \center-column { "Violon-" "cello II" }
+	\transpose a a { \vb }
       }
 
       \new Staff {
-	\set Staff.midiInstrument = \milo
-	\set Staff.instrumentName = #"Vc 3"
-%	\transpose d g { \vc }
-	\transpose d d { \vc }
+	\set Staff.midiInstrument = \miba
+	\set Staff.instrumentName = \markup \center-column { "Violon-" "cello III" }
+	\transpose a a { \vc }
       }
 
       \new Staff {
-	\set Staff.midiInstrument = \milo
-	\set Staff.instrumentName = #"Vc 4"
-	\transpose d d, { \vd }
+	\set Staff.midiInstrument = \miba
+	\set Staff.instrumentName = \markup \center-column { "Violon-" "cello IV" }
+	\transpose a a { \vd }
       }
 >>
 

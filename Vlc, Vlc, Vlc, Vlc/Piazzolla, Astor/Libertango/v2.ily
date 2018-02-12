@@ -1,95 +1,86 @@
 vb = \relative c'' {
   \voiceconsts
-  \clef "tenor"
+  \clef "treble"
+  
+  R1*8 \boxa
+  R1*8 \boxb
+  R1*16 \boxc
+  c16(-> h c4.~ c2~
+  c1) \clef "bass"
+  dis,16(-> e fis4.~ fis2~
+  fis1)
 
-  R1*16
-  a1~\mf
-  a2 b8( a g f
-  gis1~
-  gis)
+  f!16(-> e f4.~ f2~
+  f1)
+  e16(-> f e d? e2.~
+  e1)
+  e
+  a2( e)
+  dis1~
+  dis
 
-  b1~
-  b2 a8( g f e
-  f1~
-  f)
-  a~
+  d!4( e f2~
+  f1)
+  e16(-> f e d e2.~
+  e1) \boxd
+  a,2.( g4
+  f2 e)
+  cis2.( d4
+  e f gis a)
 
-  a2 a8( gis a f
-  gis1~
-  gis)
-  g1~
-  g2 r8 a( g f
+  g!2.( f4
+  e2 d)
+  e4( h' d c
+  h2 e) \boxe
+  e,8(->\f a h) e,(-> a c) e,(-> a
+  d) e,(-> a e') d16(-> c h8~ h a
+  h1~
 
-  g1~
-  g) \bar "||" \mark \markup \box "A"
-  r4 es'( a g
-  fis2) r8 c( d c)
-  d2( dis
-
-  e es)
-  r4 des( g f
-  e8) c( e g a g f e
-  f2) g8( f e d
-  cis1) \bar "||" \mark \markup \box "B"
-
-  d8( cis d) f( e f) c'4~
-  c1
-  d,4.-> d-> d4->
-  r8 d4.-> d4-. d-.
-  r b( e g
-
-  f) f8( g a g f e)
-  f4.-> f-> f4->
-  r8 f4.-> f4-. f-.
+  h)
+  d,8(-> f a) d,(-> f h) d,(-> f
+  c') d,(-> gis d') c16(-> h a8~ a gis
   a1~
-  a2 a8( gis a f
+  a) \boxf
+  r8 e(-> f) e-. f(-> e) c'(-> a)
+  r e(-> f) e-. c'(-> a) e(-> f)
+  
+  r dis(-> e) dis-. e(-> dis) h'(-> fis)
+  r dis(-> e) dis-. h'(-> fis) dis(-> e)
+  r d!(-> e) d-. e(-> d) h'(-> f!)
+  r d(-> e) d-. h'(-> f) d(-> e)
+  r c(-> d) c-. d(-> c) a'(-> e)
 
-  gis1~
-  gis)
-  r8 e,( f e) f( e) cis'( g)
-  r e( f e) cis'( g) e( f)
-  r e( f e) f( e) cis'( g)
+  r c(-> d) c-. a'(-> e) c(-> d) \boxg
+  r e(-> f) e-. f(-> e) c'(-> a)
+  r e(-> f) e-. c'(-> a) e(-> f)
+  r dis(-> e) dis-. e(-> dis) h'(-> fis)
+  r dis(-> e) dis-. h'(-> fis) dis(-> e)
+  
+  r d!(-> e) d-. e(-> d) h'(-> f!)
+  r d(-> e) d-. h'(-> f) d(-> e)
+  r c(-> d) c-. d(-> c) a'(-> e)
+  r c(-> d) c-. a'(-> e) c(-> d) \boxh
+  r e(-> f) e-. f(-> e) c'(-> a)
 
-  r e'( f e d cis d e
-  f1~
-  f2) g8( f e d
-  e1~
-  e)
+  r e(-> f) e-. c'(-> a) e(-> f)
+  r dis(-> e) dis-. e(-> dis) h'(-> fis)
+  r dis(-> e) dis-. h'(-> fis) dis(-> e)
+  r d!(-> e) d-. e(-> d) h'(-> f!)
+  r d(-> e) d-. h'(-> f) d(-> e)
+  
+  r c(-> d) c-. d(-> c) a'(-> e)
+  r c(-> d) c-. a'(-> e) c(-> d) \boxi
+  R1*16 \boxj
+  R1*7
+  r2 r8 e( a h)
 
-  g~
-  g2
-  f8( e d cis
-  d1~
-  d2) r8 a d e
-  f1~
-
-  f2 f8( e f d
-  e1~
-  e)
-  e~
-  e2 r8 f( e d
-
-  e4) cis8( d e f e d
-  cis2) cis4 e
-  a1~
-  a2 b8( a g f
-  gis1~
-
-  gis)
-  b~
-  b2 a8( g f e
-  f1~
-  f)
-  a~
-
-  a2 b8( a g f
-  gis1~
-  gis)
-  b~
-  b2 a8( g f e)
-
-  r b'( a f e g f d
-  cis e d a cis b a g)
-  r a( b a) f'( d) a-> b->
-  r4 f'-> r2 \bar "|."
+  c1~
+  c4. e,8( c' h c a
+  h1~
+  h)
+  h16(-> a h4.~ h2~
+  h~ h8) c( h a
+  h1~
+  h) \breathe
+  e \bar "|."
 }
