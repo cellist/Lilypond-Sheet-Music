@@ -1,7 +1,7 @@
 vc = \relative c'' {
   \voiceconsts
 
-  c2~\mordent c8 f16( es) e( d) d( c)
+  c2~\mordent c8 f16( e) e( d) d( c)
   \repeat volta 2 {
     c( d32 es) d16( c) c( b) b( a) a( b32 c) b16( a) a( g) g( a32 f)
     e!8 e'16( f) f( g) g( a) d,8 g~ g16 g a b

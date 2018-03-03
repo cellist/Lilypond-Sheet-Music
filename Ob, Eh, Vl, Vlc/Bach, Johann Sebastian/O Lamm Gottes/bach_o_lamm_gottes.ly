@@ -50,6 +50,7 @@ music = \new StaffGroup <<
 	\set Staff.midiInstrument = \mifh
 	\set Staff.instrumentName = \markup \center-column { "Englisch" "Horn" }
 	\transpose f c' { \vb }
+%	\transpose f b { \vb }
       }
 
       \new Staff {
