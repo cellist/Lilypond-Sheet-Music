@@ -56,7 +56,7 @@ music = \new StaffGroup <<
 
       \new Staff {
 	\set Staff.midiInstrument = \micl
-	\set Staff.instrumentName = \markup \center-column { "Klari-" "nette I" }
+	\set Staff.instrumentName = \markup \center-column { "Klari-" "nette II" }
 	\transpose e e { \vb }
       }
 
