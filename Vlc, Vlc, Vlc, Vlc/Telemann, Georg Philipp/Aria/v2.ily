@@ -8,11 +8,11 @@ vb = \relative c' {
   g( fis8 e) d( e c d)
   e4.( g8) a4( fis8 d)
   d2. e4
-  h2 e
+  h2 e \clef "tenor"
 
   dis8( fis fis' dis,) e4 h'
   h( g) h( g)
-  h( a8 g) fis( g e fis)
+  h( a8 g) fis( g e fis) \clef "bass"
   g4( e) g( e)
   g( fis8 e) d?( e c d)
   e4.( g8) a4( fis8 d)
@@ -43,7 +43,7 @@ vb = \relative c' {
   g4 fis8 e g4 fis8 e
   fis4 h, h2
   R1
-  r2 r4 d'8( e)
+  r2 r4 \clef "tenor" d'8( e)
 
   fis4.( g8) fis4.( g8)
   fis4( e8 d) cis( d h cis)
@@ -59,7 +59,7 @@ vb = \relative c' {
   g2 r8 a h c?
   d4. e8 d4. e8
   d4. fis,8 a d r4
-  d2 d
+  d2 d \clef "bass"
   c, h4( c)
   \grace { h16[ c] } h4.( a8 g4) g'
 
@@ -94,10 +94,10 @@ vb = \relative c' {
   g( fis8 e) d( e c d)
   e4.( g8) a4( fis8 d)
   d2. e4
-  h2 e
+  h2 e \clef "tenor"
   dis8( fis fis' dis,) e4 h'
   h( g) h( g)
-  h( a8 g) fis( g e fis)
+  h( a8 g) fis( g e fis) \clef "bass"
 
   g4( e) g( e)
   g( fis8 e) d( e c d)

@@ -18,13 +18,17 @@ voiceconsts = {
   %\numericTimeSignature
   \compressFullBarRests
 %  \set tupletSpannerDuration = #(ly:make-moment 1 8)
-  \tempo "Lento " 4=60
+  \tempo "Lento " 4=70
 }
 
-mihi = "clarinet"
+
+micl = "clarinet"
+mifl = "flute"
+miob = "oboe"
+mifh = "french horn"
+misx = "tenor sax"
 mist = "string ensemble 1"
-%miba = "drawbar organ"
-miba = "bassoon"
+miba = "cello"
 
 arco = \markup \bold \italic "arco"
 pizz = \markup \bold \italic "pizz."
@@ -37,27 +41,27 @@ rit  = \mark \markup \box "rit."
 
 music = \new StaffGroup <<
       \new Staff {
-        \set Staff.midiInstrument = \mist
+        \set Staff.midiInstrument = \miba
         \set Staff.instrumentName = \markup \center-column { "Violon-" "cello I" }
-        \transpose g g { \va }
+        \transpose g c' { \va }
       }
 
       \new Staff {
-        \set Staff.midiInstrument = \mist
+        \set Staff.midiInstrument = \miba
         \set Staff.instrumentName = \markup \center-column { "Violon-" "cello II" }
-        \transpose g g { \vb }
+        \transpose g c' { \vb }
       }
 
       \new Staff {
         \set Staff.midiInstrument = \miba
         \set Staff.instrumentName = \markup \center-column { "Violon-" "cello III" }
-        \transpose g g { \vc }
+        \transpose g c' { \vc }
       }
 
       \new Staff {
         \set Staff.midiInstrument = \miba
         \set Staff.instrumentName = \markup \center-column { "Violon-" "cello IV" }
-        \transpose g g { \vd }
+        \transpose g c' { \vd }
       }
 >>
 

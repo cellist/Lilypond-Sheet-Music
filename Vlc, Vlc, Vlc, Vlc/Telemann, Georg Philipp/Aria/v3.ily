@@ -21,9 +21,9 @@ vc = \relative c, {
   a g a h
   e,8 g h4 e^\arco fis
   g fis g a
-  h a g a
+  h a g a \clef "tenor"
   h a h h,(
-  e8 g h e) g4 r
+  e8 g h e) g4 r \clef "bass"
   e,,8^\pizz g h4 e,8 g h4
   d,8 fis h d fis4 r
   c,8 g' c4 c,8 g' c4
@@ -43,7 +43,7 @@ vc = \relative c, {
   h4.( cis8) h4.( cis8)
   h( cis d e) fis( g e fis)
   g4( fis) d(\prall cis8 h)
-  h2. r4
+  h2. r4 \clef "tenor"
 
   h'8^\pizz d fis4 h,8 d fis4
   a,8 cis fis4 r2
@@ -51,7 +51,7 @@ vc = \relative c, {
   fis,8 a d4 r2
   e,8 h' e4 cis,8 a' e'4
   d,8 a' fis'4 r d,
-  ais' h e, fis
+  ais' h e, fis \clef "bass"
 
   h,8 fis' h cis d4 g,8(^\arco a!)
   h4( a8 g) h4( a8 g)
@@ -96,12 +96,12 @@ vc = \relative c, {
   c( h c e) c( h c a)
   h( a h d) h( a h g)
   fis4( g8 e) g4( a\prall
-  h2.) g'8^\pizz fis
+  h2.) \clef "tenor" g'8^\pizz fis
   e g h4 e,8 g h4
   d,8 fis h d fis4 r
 
   c,8 g' c4 c,8 g' c4
-  h,8 d g h d4 r
+  h,8 d g h d4 r \clef "bass"
   a,8 e' a4 fis,8 d' a'4
   g,8 d' g4 r g^\arco
   a g a h,
