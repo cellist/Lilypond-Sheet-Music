@@ -1,47 +1,45 @@
-vd = \relative c {
-   \voiceconsts
+vd = \relative c' {
+  \voiceconsts
 
-   R2.*4
-   r8 r d\f a8. a16 a8
-   d4 d8 c c d
+  R2.*4
+  r4 f8\f c8. c16 c8
+  f4 f8 es es f
+  es4 f8 b, es4
+  f b,8 c c4
+  f r8 f4\mp f8 \time 9/8
 
-   c4 d8 g, c4
-   d g,8 a a4
-   d, r8 d'4\mp d8 \time 9/8
-   e4 d8 c h4 a r8 \time 6/8
-   r2.
+  g4 f8 es d4 c r8 \time 6/8
+  R2.
+  r4 f8\f f8. f16 f8
+  es c f f g4
+  c, r8 r4.
+  R2.
 
-   r8 r d\f d8. d16 d8
-   c a d d e4
-   a, r8 r4.
-   r2.
-   r8 r f g4 f8
-   a4 d,8 g g f
-   c' c f, g g d
+  r4 as8 b4 as8
+  c4 f8 b, b as
+  es' es as, b b f'
+  c c as b4 f'8
+  c4 f8 b, b as
+  es' es as, b4 as8
 
-   a' a f g4 d8
-   a'4 d,8 g g f
-   c' c f, g4 f8
-   c' c f, g g d
-   \mark \markup { \box A }
-   a'4 r8 r4.
-   R2.*3
+  es' es as, b b f'
+  c4 r8 r4.
+  R2.*3
+  r4 f8\f c4 c8
+  f4 f8 es8. es16 f8
+  es4 f8 b, es4
 
-   r8 r d\f a4 a8
-   d4 d8 c8. c16 d8
-   c4 d8 g, c4
-   d g,8 a a4
-   d, r8 r4.
-   R2.*3
+  f b,8 c c4
+  f r8 r4.
+  R2.*3
+  r4 f8\f c8. c16 c8
+  f4 f8 es8. es16 f8
+  es4 f8 b, es4
 
-   r8 r d'\f a8. a16 a8
-   d4 d8 c8. c16 d8
-   c4 d8 g, c4
-   d g,8 a a4
-
-   d, d'8\mp a8._"cresc." a16 a8
-   d4 d8 c8. c16 d8
-   c4 d8 g, c4
-   d g,8 a a4
-   d,2.\fermata\f \bar "|."
+  f b,8 c c4
+  f f8\mp c8.\cresc c16 c8
+  f4 f8 es8. es16 f8
+  es4 f8 b, es4
+  f b,8 c c4
+  f2.\fermata\f \bar "|."
 }

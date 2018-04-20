@@ -1,47 +1,45 @@
-vb = \relative c' {
-   \voiceconsts
-   \clef "tenor"
+vb = \relative c'' {
+  \voiceconsts
 
-   R2.*4
-   r8 r a\f c8. c16 c8
-   d4 a8 c c a
+  R2.*4
+  r4 c8\f es8. es16 es8
+  f4 c8 es es c
+  es4 c8 d es4
+  c des8 c c4
+  c r8 r4. \time 9/8
 
-   c4 a8 h c4
-   a b8 a a4
-   a r8 r4. \time 9/8
-   r r c4\mp d8 \time 6/8
-   e4 d8 c h?4
-   a d8\f d8. d16 f8
+  r2. es4\mp f8 \time 6/8
+  g4 f8 es d?4
+  c f8\f f8. f16 as8
+  g g as g f4
+  g r8 r4.
+  R2.
 
-   e e f e d4
-   e r8 r4.
-   r2.
-   r8 r a, g4 a8
-   a4 a8 g g a
-   g g a g g a
-   a a a g4 a8
-   a4 a8 g g a
-   g g a g4 a8
-   c c a g g a
-   \mark \markup { \box A }
-   a4 r8 r4.
-   R2.*3
+  r4 c,8 b4 c8
+  c4 c8 b b c
+  b b c b b c
+  c c c b4 c8
+  c4 c8 b b c
+  b b c b4 c8
 
-   r8 r a\f c4 c8
-   d4 a8 c8. c16 a8
-   c4 a8 h c4
-   a b8 a a4
-   a r8 r4.
-   R2.*3
+  es es c b b c
+  c4 r8 r4.
+  R2.*3
+  r4 c8\f es4 es8
+  f4 c8 es8. es16 c8
+  es4 c8 d es4
 
-   r8 r a\f c8. c16 c8
-   d4 a8 c c a
-   c4 a8 h? c4
-   a b8 a a4
+  c des8 c c4
+  c r8 r4.
+  R2.*3
+  r4 c8\f es8. es16 es8
+  f4 c8 es es c
+  es4 c8 d? es4
 
-   a a8\mp c8._"cresc." c16 c8
-   d4 a8 c c a
-   c4 a8 h c4
-   a b8 a a4
-   a2.\fermata\f \bar "|."
+  c des8 c c4
+  c c8\mp es8.\cresc es16 es8
+  f4 c8 es es c
+  es4 c8 d? es4
+  c des8 c c4
+  c2.\fermata\f \bar "|."
 }
