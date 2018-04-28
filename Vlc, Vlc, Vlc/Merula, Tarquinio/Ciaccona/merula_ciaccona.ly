@@ -25,11 +25,7 @@ voiceconsts = {
   \tempo "Andantino " 4=72
 }
 
-%minstr = "harpsichord"
-mist = "string ensemble 1"
-%minstr = "accordion"
-miba = "bassoon"
-milo = "drawbar organ"
+miba = "cello"
 
 \include "v1.ily"
 \include "v2.ily"
@@ -37,13 +33,13 @@ milo = "drawbar organ"
 
 music = \new StaffGroup <<
       \new Staff {
-	\set Staff.midiInstrument = \mist
+	\set Staff.midiInstrument = \miba
 	\set Staff.instrumentName = \markup \center-column { "Violon-" "cello I" }
 	\transpose g g { \va }
       }
 
       \new Staff {
-	\set Staff.midiInstrument = \mist
+	\set Staff.midiInstrument = \miba
 	\set Staff.instrumentName = \markup \center-column { "Violon-" "cello II" }
 	\transpose g g { \vb }
       }
