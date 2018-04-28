@@ -1,4 +1,4 @@
-\version "2.14.2"
+\version "2.18.2"
 \include "deutsch.ly"
   
 #(set-global-staff-size 17.75)
@@ -20,10 +20,7 @@ voiceconsts = {
   \tempo "Andantino " 4=80
 }
 
-%minstr = "harpsichord"
-mihi = "clarinet"
-%minstr = "accordion"
-milo = "bassoon"
+milo = "cello"
 
 boxa = { \bar "||" \mark \markup \box "A" }
 boxb = { \bar "||" \mark \markup \box "B" }
@@ -37,13 +34,13 @@ rall = \markup \italic "rall."
 
 music = \new StaffGroup <<
       \new Staff {
-	\set Staff.midiInstrument = \mihi
+	\set Staff.midiInstrument = \milo
 	\set Staff.instrumentName = \markup \center-column { "Violon-" "cello I" }
 	\transpose c c { \va }
       }
 
       \new Staff {
-	\set Staff.midiInstrument = \mihi
+	\set Staff.midiInstrument = \milo
 	\set Staff.instrumentName = \markup \center-column { "Violon-" "cello II" }
 	\transpose c c { \vb }
       }
