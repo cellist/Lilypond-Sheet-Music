@@ -20,7 +20,7 @@ vb = \relative c' {
     g,4 g'
     d,8\p a' c a
     d,4 r8 d
-    \fine g8.\f es'16 d c b a
+    g8.\f es'16 d c b a \fine
 
     g4 <g d' b'>8\arpeggio r
   }

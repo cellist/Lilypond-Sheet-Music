@@ -1,7 +1,7 @@
-\version "2.14.2"
+\version "2.18.2"
 \include "deutsch.ly"
 
-#(set-global-staff-size 19.5)
+#(set-global-staff-size 19.55)
 
 \header {
   title     = \markup \bold \italic "La Cumparsita"
@@ -17,13 +17,10 @@ voiceconsts = {
  %\numericTimeSignature
  \compressFullBarRests
  \time 2/4
- \tempo "Andante " 4=70
+ \tempo "Andante " 4=80
 }
 
-% mihi = "clarinet"
-% milo = "bassoon"
-mihi = "accordion"
-milo = "accordion"
+milo = "cello"
 
 crsc = \markup \italic "cresc."
 dcaf = \mark \markup "D.C. al Fine"
@@ -40,7 +37,7 @@ boxd = { \bar "||" \mark \markup \box "D" \key a \major }
 
 music = \new StaffGroup <<
       \new Staff {
-        \set Staff.midiInstrument = \mihi
+        \set Staff.midiInstrument = \milo
         \set Staff.instrumentName = \markup \center-column { "Violon-" "cello I" }
         \transpose b b { \va }
       }

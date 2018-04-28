@@ -19,7 +19,7 @@ vc = \relative c {
     d4 b
     a8\p d fis d
     r a4 a8
-    \fine b4 r
+    b4 r \fine
 
     r g'8 r
   }

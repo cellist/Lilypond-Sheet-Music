@@ -20,7 +20,7 @@ va = \relative c' {
     r16 fis g fis g8 fis
     a,-.\p d'-. c-. d-.
     r16 c b a g8 fis
-    \fine g4 r
+    g4 r \fine
     r <g, d' b'>8\arpeggio r
   }
 
