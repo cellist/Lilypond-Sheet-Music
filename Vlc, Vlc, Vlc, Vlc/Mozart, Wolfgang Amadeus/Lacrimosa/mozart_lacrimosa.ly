@@ -4,33 +4,33 @@
 #(set-global-staff-size 20)
 
 \header {
-  title     = \markup \bold \italic "Lacrimosa"
-  subtitle  = "- aus dem \"Requiem\" -"
+  title     = \markup \bold \italic "Lacrimosa in D-Dur"
   composer  = "Wolfgang Amadeus Mozart (1756-1791)"
   arranger  = "arr.: Gene Nucal"
-  enteredby = "cellist (2016-11-23)"
-  piece     = "KV 626"
+  enteredby = "cellist (2018-07-06)"
+  piece     = "Aus dem \"Requiem\", KV 626"
 }
 
 voiceconsts = {
   \key d \major
   \time 12/8
   \clef "bass"
-  \numericTimeSignature
+%  \numericTimeSignature
   \compressFullBarRests
   % Set default beaming for all staves
-%  \set Timing.beamExceptions = #'()
-%  \set Timing.baseMoment     = #(ly:make-moment 1 4)
-%  \set Timing.beatStructure  = #'(1 1 1 1)
-  \tempo "Larghetto " 4=65
+% \set Timing.beamExceptions = #'()
+% \set Timing.baseMoment     = #(ly:make-moment 1 4)
+% \set Timing.beatStructure  = #'(1 1 1)
+  \tempo "Larghetto " 4.=40
 }
 
-%minstr = "harpsichord"
+micl = "clarinet"
+mifl = "flute"
+miob = "oboe"
+mifh = "french horn"
+misx = "tenor sax"
 mist = "string ensemble 1"
-%minstr = "accordion"
-miba = "bassoon"
-%milo = "drawbar organ"
-milo = "harpsichord"
+miba = "cello"
 
 boxa = { \bar "||" \mark \markup \box "A" }
 boxb = { \bar "||" \mark \markup \box "B" }
@@ -44,19 +44,19 @@ boxd = { \bar "||" \mark \markup \box "D" }
 
 music = \new StaffGroup <<
       \new Staff {
-	\set Staff.midiInstrument = \mist
+	\set Staff.midiInstrument = \miba
 	\set Staff.instrumentName = \markup \center-column { "Violon-" "cello I" }
 	\transpose d d { \va }
       }
 
       \new Staff {
-	\set Staff.midiInstrument = \mist
+	\set Staff.midiInstrument = \miba
 	\set Staff.instrumentName = \markup \center-column { "Violon-" "cello II" }
 	\transpose d d { \vb }
       }
 
       \new Staff {
-	\set Staff.midiInstrument = \mist
+	\set Staff.midiInstrument = \miba
 	\set Staff.instrumentName = \markup \center-column { "Violon-" "cello III" }
 	\transpose d d { \vc }
       }
