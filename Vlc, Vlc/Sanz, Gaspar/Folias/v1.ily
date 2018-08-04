@@ -18,7 +18,7 @@ va = \relative c' {
   f2.
   e4. d8 e4
   f e cis
-  e a8( g) f e \bar "||"
+  f a8( g) f e \bar "||"
   f4 e d
   cis2.
   d4 e d
