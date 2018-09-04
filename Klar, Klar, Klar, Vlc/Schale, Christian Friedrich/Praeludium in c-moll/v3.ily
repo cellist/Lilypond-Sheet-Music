@@ -3,14 +3,14 @@ vc = \relative c' {
 
   r8 es\mf es es
   r c c c
-  g'4.\< g8\!
-  a\> g r4\!
+  g'4.\< g8
+  a\!\> g r4\!
   b,16(\cresc g') g( b,) c8 c
   c16( a) a( c) d4
   d8\f d es es
-  
+
   des\dim des c c
-  r16 b\p b r r b b d
+  r16 b\p b r r b b d!
   es8 c b b
   g'\f g g g
   r es es d

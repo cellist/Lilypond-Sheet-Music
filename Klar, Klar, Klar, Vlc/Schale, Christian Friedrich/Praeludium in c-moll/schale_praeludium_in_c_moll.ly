@@ -4,12 +4,12 @@
 #(set-global-staff-size 22)
 
 \header {
-  title     = \markup \bold \italic "Praeludium in c-moll"
-  subtitle  = " - transponiert nach g-moll -"
+  title     = \markup \bold \italic "Präludium in c-moll"
+  subtitle  = "- transponiert nach g-moll -"
   composer  = "Christian Friedrich Schale (1713-1800)"
   arranger  = "arr.: Michel Rondeau"
-  enteredby = "cellist (2017-09-26)"
-  piece     = "(ca. 1790)"
+  enteredby = "cellist (2018-09-04)"
+  piece     = "J. C. Kühnau: Choralvorspiele (ca. 1790)"
 }
 
 voiceconsts = {
@@ -19,17 +19,18 @@ voiceconsts = {
 %  \numericTimeSignature
   \compressFullBarRests
   % Set default beaming for all staves
-%  \set Timing.beamExceptions = #'()
-%  \set Timing.baseMoment     = #(ly:make-moment 1 2)
-%  \set Timing.beatStructure  = #'(1)
+% \set Timing.beamExceptions = #'()
+% \set Timing.baseMoment     = #(ly:make-moment 1 4)
+% \set Timing.beatStructure  = #'(1 1 1)
   \tempo "Adagio e mesto di molto " 8=55
 }
 
+micl = "clarinet"
 mifl = "flute"
 miob = "oboe"
 mifh = "french horn"
+misx = "tenor sax"
 mist = "string ensemble 1"
-micl = "clarinet"
 miba = "cello"
 
 \include "v1.ily"
