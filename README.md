@@ -198,5 +198,5 @@ tried myself (should be around 1% of all the pieces, maybe even less),
 and create a list of recommended pieces per ensemble setup to try with
 nicely rendered music output for better listening. I need to find some
 web space for storing those MP3, OGG, ... files, and I am planning to
-link to them from the this GitHub repo, because I think mark-down
-should be a good way to do that (I am a novice user of this).
+link to them from this GitHub repo, because I think mark-down should
+be a good way to do that (I am a novice user of this).
