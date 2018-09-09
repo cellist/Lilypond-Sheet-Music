@@ -8,10 +8,10 @@ Olaf. 2009/12/23
 
 ## My setup
 
-I am doing all this type-setting in Unix environments. I tried TrueOS
-recently, but I am going back to Debian-based Linux distribution, and
-Fedora - my current favourite. I am a very bare-bones type of guy so my
-setup is as follows:
+I am doing all this type-setting in Unix environments. I tried
+[TrueOS](https://www.trueos.org/) recently, but I am going back to
+Debian-based Linux distributions, and Fedora - my current favourite. I
+am a very bare-bones type of guy so my setup is as follows:
 
 	* [git](https://git-scm.com/) from the command line for version
       management (obviously :wink:)
@@ -63,7 +63,7 @@ Sometimes the master file contains page breaks like this one:
     introe = { \break \key a \major \tempo "4b. Menuetto II - Meno mosso" }
 
 I think it is valid to separate most every piece with a `\break`, but
-the page breaks are of cause suited towards the full score, and you
+the page breaks are of course suited towards the full score, and you
 may need to adjust those for your limited selection of voices.
 
 ### Voice selection
@@ -95,8 +95,8 @@ include in the output:
           }
     >>
 
-Let's say you want to combine an output where you combine only the 1st
-and 3rd voice and drop the middle one. This is very simple by
+Let's say you want to create an output where you combine only the 1st
+and 3rd voice and drop the middle one. This can be done by simply
 commenting the part of the middle voice (you could also erase the
 statements completely, if you like):
 
@@ -125,8 +125,8 @@ statements completely, if you like):
     >>
 
 If you reverse the selection, then this could be achieved the
-following way:
- 
+following way like so:
+
     \include "v1.ily"
     \include "v2.ily"
     \include "v3.ily"
@@ -152,7 +152,41 @@ following way:
           }
     %}
     >>
-    
+
 You could also comment the respective '\include` in the top part, but
 that is not really necessary - it might save you a few microseconds in
 rendering the layout though :wink:.
+
+### Transposing instruments
+
+I have been adding pieces for clarinets with a single cello recently
+because I happen to do music with three clarinet players quite
+regularly now. Being the "bassoon with strings attached", I am facing
+the beauty of transposing instruments :weary: - I am still trying to
+understand why music history came up with this idea which makes
+everything more complicated than need be.
+
+You may wonder why the MIDI files still sound correct despite of this
+(more or less), and I have to confess: I am cheating here! I create
+the MIDI files without the transpositions and save them, then I do the
+sheet rendering with correct transposition, and I finally restore my
+initial MIDI files and put them under version control. I am pretty
+sure there is an easier way and more straight forward way to do this
+in lilypond, but I have to find out yet...
+
+### Sharing music output with good sound fonts
+
+As I said before, I am using the Fluid soundfont shipped with many
+Linux distributions to have the sound output rendered really nicely. If you want to share the result with someone else, and have a Unix-oid machine available, then you may want to check out this small script which creates an OGG file with the sound font rendering included:
+
+    $ cat -n midi_ogg.sh
+         1	#!/bin/bash
+         2	
+         3	timidity "${1}" -Ow --output-file=- |\
+         4	    ffmpeg -i - -acodec libvorbis "${1%.*}.ogg"
+
+TiMidity creates a WAV file which is then passed on and encoded to OGG
+Format using the [ffmpeg](https://www.ffmpeg.org/) tool. With small
+adjustments, this could also compress the output to e.g. MP3 or M4A
+format. A similar routine should also work under Windows.
+
