@@ -25,7 +25,7 @@ am a very bare-bones type of guy so my setup is as follows:
 
 ## Some hints
 
-All the formating I have done is for the full score, and I am not
+All the formatting I have done is for the full score, and I am not
 planning to distribute extracts of partial/single voices. However, it
 is no big deal to create them by yourself, if you have lilypond on
 your PC :sunglasses:.
@@ -171,8 +171,8 @@ You may wonder why the MIDI files still sound correct despite of this
 the MIDI files without the transpositions and save them, then I do the
 sheet rendering with correct transposition, and I finally restore my
 initial MIDI files and put them under version control. I am pretty
-sure there is an easier way and more straight forward way to do this
-in lilypond, but I have to find out yet...
+sure there is an easier and more straight forward way to do this in
+lilypond, but I have to find out yet...
 
 ### Sharing music output with good sound fonts
 
