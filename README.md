@@ -153,7 +153,7 @@ following way like so:
     %}
     >>
 
-You could also comment the respective '\include` in the top part, but
+You could also comment the respective `\include` in the top part, but
 that is not really necessary - it might save you a few microseconds in
 rendering the layout though :wink:.
 
@@ -190,3 +190,13 @@ Format using the [ffmpeg](https://www.ffmpeg.org/) tool. With small
 adjustments, this could also compress the output to e.g. MP3 or M4A
 format. A similar routine should also work under Windows.
 
+## Future plans
+
+What I would like to do in the future - apart from type-setting more
+sheet music - is to share my personal favourite music that I have
+tried myself (should be around 1% of all the pieces, maybe even less),
+and create a list of recommended pieces per ensemble setup to try with
+nicely rendered music output for better listening. I need to find some
+web space for storing those MP3, OGG, ... files, and I am planning to
+link to them from the this GitHub repo, because I think mark-down
+should be a good way to do that (I am a novice user of this).
