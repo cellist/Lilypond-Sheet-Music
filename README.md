@@ -6,7 +6,7 @@ since I am very enthusiastic about this instrument ;-).
 
 Olaf. 2009/12/23
 
-## My setup
+## My computer's setup
 
 I am doing all this type-setting in Unix environments. I tried
 [TrueOS](https://www.trueos.org/) recently, but I am going back to
@@ -174,7 +174,7 @@ initial MIDI files and put them under version control. I am pretty
 sure there is an easier and more straight forward way to do this in
 lilypond, but I have to find out yet...
 
-### Sharing music output with good sound fonts
+### Sharing music output with good sound fonts applied
 
 As I said before, I am using the Fluid soundfont shipped with many
 Linux distributions to have the sound output rendered really nicely. If you want to share the result with someone else, and have a Unix-oid machine available, then you may want to check out this small script which creates an OGG file with the sound font rendering included:
@@ -189,6 +189,19 @@ TiMidity creates a WAV file which is then passed on and encoded to OGG
 Format using the [ffmpeg](https://www.ffmpeg.org/) tool. With small
 adjustments, this could also compress the output to e.g. MP3 or M4A
 format. A similar routine should also work under Windows.
+
+## Recommendations for sites with sheet music
+
+* The [Choral Public Domain Library](http://www.cpdl.org/)
+* [The Clarinet Institute of Los Angeles](https://www.clarinetinstitute.com/free-music.html)
+* [International Music Score Library Project](https://imslp.org/)
+* [MuseScore](https://musescore.com/sheetmusic?sort=date_uploaded)
+* [NoteWorthy Composer Scriptorium](https://nwc-scriptorium.org/dbmain.html)
+* [Score Exchange](https://www.scoreexchange.com/)
+* Archive from [Tobias Schölkopf](http://www.tobis-notenarchiv.de/)
+* Free sheet music from [Johan Tufvesson](https://www.lysator.liu.se/~tuben/scores/)
+
+Please note this list is very fragile, and sites may disappear or provide no sheet music for free any longer ...
 
 ## Future plans
 
