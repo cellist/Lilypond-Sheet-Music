@@ -13,15 +13,15 @@ I am doing all this type-setting in Unix environments. I tried
 Debian-based Linux distributions, and Fedora - my current favourite. I
 am a very bare-bones type of guy so my setup is as follows:
 
-	* [git](https://git-scm.com/) from the command line for version
-      management (obviously :wink:)
-	* [Emacs](https://www.gnu.org/s/emacs/) for editing the sheet
-	  music source and compilation
-	* [Lilypond](http://lilypond.org/) for rendering
-	* [TiMidity](https://sourceforge.net/projects/timidity/) for
-	  listening to the MIDI file for errors
-	* the Fluid GM/GS soundfont for MIDI rendering (which has a pretty
-      decent Cello sound with it)
+* [git](https://git-scm.com/) from the command line for version
+  management (obviously :wink:)
+* [Emacs](https://www.gnu.org/s/emacs/) for editing the sheet music
+  source and compilation
+* [Lilypond](http://lilypond.org/) for rendering
+* [TiMidity](https://sourceforge.net/projects/timidity/) for listening
+  to the MIDI file for errors
+* the Fluid GM/GS soundfont for MIDI rendering (which has a pretty
+  decent Cello sound with it)
 
 ## Some hints
 
