@@ -74,7 +74,7 @@ vd = \relative c' {
   f4 b b,
   es es8 f g-1 as-2
   b4-4 b,8 c d es
-  f4 f8-1 g-2 as-4 b-2
+  f4 f8-1 g-3 as-4 b-2
   c4-4 c,8-4 d-0 es f
 
   g4 g,2
