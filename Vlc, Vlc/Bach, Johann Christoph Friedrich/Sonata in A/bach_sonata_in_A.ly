@@ -1,10 +1,10 @@
 \version "2.18.2"
 \include "deutsch.ly"
   
-#(set-global-staff-size 22)
+#(set-global-staff-size 18)
 
 \header {
-  title     = \markup \bold \italic "Larghetto in A-Dur"
+  title     = \markup \bold \italic "Cello Sonata in A-Dur"
   composer  = "Johann Christoph Friedrich Bach"
   arranger  = "(1732-1795)"
   enteredby = "cellist (2018-11-07)"
@@ -21,7 +21,6 @@ voiceconsts = {
   \set Timing.beamExceptions = #'()
   \set Timing.baseMoment     = #(ly:make-moment 1 4)
   \set Timing.beatStructure  = #'(1 1 1)
-  \tempo "Larghetto " 4=55
 }
 
 micl = "clarinet"
@@ -31,6 +30,12 @@ mifh = "french horn"
 misx = "tenor sax"
 mist = "string ensemble 1"
 miba = "cello"
+
+introa = {            \tempo "1. Larghetto "         4=55 }
+introb = { \pageBreak \tempo "2. Allegro "           8=160 \time 2/4 }
+introc = { \break     \tempo "3. Tempo di Minuetto " 8=100 \time 3/8 }
+
+dcas = \mark \markup \box \italic "D.C. al Segno"
 
 \include "v1.ily"
 \include "v2.ily"
