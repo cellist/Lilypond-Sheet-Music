@@ -1,12 +1,12 @@
-\version "2.12.3"
+\version "2.18.2"
 \include "deutsch.ly"
 
-#(set-global-staff-size 19)
+#(set-global-staff-size 18)
 
 \header {
-  title = "The Rose"
-  composer = "Amanda McBroom (*1947)"
-  arranger = "arr.: T. Waßmann"
+  title     = \markup \bold \italic "The Rose"
+  composer  = "Amanda McBroom (*1947)"
+  arranger  = "arr.: T. W."
   enteredby = "cellist (2011-06-21)"
 }
 
@@ -20,10 +20,7 @@ voiceconsts = {
  \tempo "Moderato " 4=90
 }
 
-%minstr = "harpsichord"
-%minstr = "clarinet"
-%minstr = "accordion"
-minstr = "bassoon"
+miba = "cello"
 
 arco = \markup \bold \italic "arco"
 pizz = \markup \bold \italic "pizz."
@@ -37,27 +34,27 @@ pizz = \markup \bold \italic "pizz."
   \score {
     \new StaffGroup <<
       \new Staff {
-	\set Staff.midiInstrument = \minstr
-	\set Staff.instrumentName = #"Vc 1"
-	\transpose c c { \va }
+        \set Staff.midiInstrument = \miba
+        \set Staff.instrumentName = \markup \center-column { "Violon-" "cello I" }
+        \transpose c c { \va }
       }
 
       \new Staff {
-	\set Staff.midiInstrument = \minstr
-	\set Staff.instrumentName = #"Vc 2"
-	\transpose c c { \vb }
+        \set Staff.midiInstrument = \miba
+        \set Staff.instrumentName = \markup \center-column { "Violon-" "cello II" }
+        \transpose c c { \vb }
       }
 
       \new Staff {
-	\set Staff.midiInstrument = \minstr
-	\set Staff.instrumentName = #"Vc 3"
-	\transpose c c { \vc }
+        \set Staff.midiInstrument = \miba
+        \set Staff.instrumentName = \markup \center-column { "Violon-" "cello III" }
+        \transpose c c { \vc }
       }
 
       \new Staff {
-	\set Staff.midiInstrument = \minstr
-	\set Staff.instrumentName = #"Vc 4"
-	\transpose c c { \vd }
+        \set Staff.midiInstrument = \miba
+        \set Staff.instrumentName = \markup \center-column { "Violon-" "cello IV" }
+        \transpose c c { \vd }
       }
     >>
 

@@ -1,6 +1,5 @@
 vb = \relative c' {
   \voiceconsts
-  \clef "tenor"
 
   r2. c8_\arco d
   e2 r8 e f8.[ e16]
