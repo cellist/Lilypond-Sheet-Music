@@ -1,7 +1,7 @@
 vb = \relative c' {
    \voiceconsts
 
-   d8_"sempre pizz." d d d c c
+   d8^\sepi\mp d d d c c
    d d d d d d
    es es es es b b
    c c c c c c
@@ -37,7 +37,7 @@ vb = \relative c' {
    d d d d c c
    c c c c c c
    c c c c c c
-   c c c c f f
-   f_"rit." f f f f f
+   c c c c f f \rit
+   f f f f f f
    f2. \bar "|."
 }

@@ -1,7 +1,7 @@
 va = \relative c' {
    \voiceconsts
 
-   f2.~
+   f2.~\f
    f4 d-1 as-2
    g4.-1 a!16-0 b c d-1 es-2 f
    g4-4 es-1 c-4
@@ -37,7 +37,7 @@ va = \relative c' {
    g,8-1 b4-4 es-2 g8-4
    g16 f es d c8 es4 b8
    a4. f16 g a b c-1 d-3
-   es4.-4 a,16 b c d-1 es-2 f-4
-   d8_"rit." c16 b d8 c16 b c8-4 b16-2 a-1
+   es4.-4 a,16 b c d-1 es-2 f-4 \rit
+   d8 c16 b d8 c16 b c8-4 b16-2 a-1
    b2.-2 \bar "|."
 }
