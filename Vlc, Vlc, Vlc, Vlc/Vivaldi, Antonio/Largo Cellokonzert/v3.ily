@@ -1,6 +1,5 @@
 vc = \relative c' {
    \voiceconsts
-   \clef "tenor"
 
    \repeat volta 2 {
      c4\p e e e

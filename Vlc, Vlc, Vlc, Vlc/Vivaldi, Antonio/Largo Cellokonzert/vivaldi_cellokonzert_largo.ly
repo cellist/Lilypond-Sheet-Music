@@ -1,7 +1,7 @@
-\version "2.12.3"
+\version "2.18.2"
 \include "deutsch.ly"
 
-#(set-global-staff-size 18)
+#(set-global-staff-size 20.5)
 
 \header {
   title = "Cellokonzert C-Dur"
@@ -17,55 +17,56 @@ voiceconsts = {
  \clef "bass"
 % \numericTimeSignature
  \compressFullBarRests
- \tempo "Largo " 8=60
+ \tempo "Largo " 8=50
 }
 
 mfpp  = \markup { \dynamic mf "/" \dynamic pp }
 
-%minstr = "harpsichord"
-%minstr = "clarinet"
-%minstr = "accordion"
-minstr = "bassoon"
+miba = "cello"
 
 \include "v1.ily"
 \include "v2.ily"
 \include "v3.ily"
 \include "v4.ily"
 
-\book {
-  \score {
-    \new StaffGroup <<
+music = \new StaffGroup <<      
       \new Staff {
-	\set Staff.midiInstrument = \minstr
-	\set Staff.instrumentName = #"Vc 1"
-	\transpose c c { \va }
+        \set Staff.midiInstrument = \miba
+        \set Staff.instrumentName = \markup \center-column { "Violon-" "cello I" }
+        \transpose c c { \va }
       }
-
+      
       \new Staff {
-	\set Staff.midiInstrument = \minstr
-	\set Staff.instrumentName = #"Vc 2"
-	\transpose c c { \vb }
+        \set Staff.midiInstrument = \miba
+        \set Staff.instrumentName = \markup \center-column { "Violon-" "cello II" }
+        \transpose c c { \vb }
       }
-
+      
       \new Staff {
-	\set Staff.midiInstrument = \minstr
-	\set Staff.instrumentName = #"Vc 3"
-	\transpose c c { \vc }
+        \set Staff.midiInstrument = \miba
+        \set Staff.instrumentName = \markup \center-column { "Violon-" "cello III" }
+        \transpose c c { \vc }
       }
-
+      
       \new Staff {
-	\set Staff.midiInstrument = \minstr
-	\set Staff.instrumentName = #"Vc 4"
-	\transpose c c { \vd }
+        \set Staff.midiInstrument = \miba
+        \set Staff.instrumentName = \markup \center-column { "Violon-" "cello IV" }
+        \transpose c c { \vd }
       }
     >>
 
+\book {
+  \score {
+    \music
     \layout {}
+  }
+
+  \score {
+    \unfoldRepeats \music
 
     \midi {
       \context {
-	\Score
-	tempoWholesPerMinute = #(ly:make-moment 60 8)
+        \Score
       }
     }
   }
