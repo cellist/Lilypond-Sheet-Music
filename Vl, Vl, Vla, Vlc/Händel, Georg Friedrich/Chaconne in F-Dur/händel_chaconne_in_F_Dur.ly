@@ -41,21 +41,21 @@ rit = { \bar "||" \mark \markup \box \italic "rit." }
 
 music = \new StaffGroup <<
       \new Staff {
-	\set Staff.midiInstrument = \micl
-	\set Staff.instrumentName = \markup \center-column { "Klari-" "nette I" }
-	\transpose f g { \va }
+	\set Staff.midiInstrument = \mist
+	\set Staff.instrumentName = \markup \center-column { "Violine" "I" }
+	\transpose f f { \va }
       }
 
       \new Staff {
-	\set Staff.midiInstrument = \micl
-	\set Staff.instrumentName = \markup \center-column { "Klari-" "nette II" }
-	\transpose f g { \vb }
+	\set Staff.midiInstrument = \mist
+	\set Staff.instrumentName = \markup \center-column { "Violine" "II" }
+	\transpose f f { \vb }
       }
 
       \new Staff {
-	\set Staff.midiInstrument = \micl
-	\set Staff.instrumentName = \markup \center-column { "Klari-" "nette III" }
-	\transpose f g { \vc }
+	\set Staff.midiInstrument = \mist
+	\set Staff.instrumentName = \markup \center-column { "Viola" }
+	\transpose f f { \vc }
       }
 
       \new Staff {
