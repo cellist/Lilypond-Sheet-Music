@@ -32,10 +32,10 @@ vd = \relative c' {
   \repeat volta 2 {
     b d a d b d a d
     b g b d es16 d c b a8 g
-    fis4 r8 fis' d fis c fis
+    fis4 r8 f'! d f c f
 
-    d fis c fis d b d fis
-    g16 f! es d c8 b a4 r
+    d f c f d b d f
+    g16 f es d c8 b a4 r
     R1
     r2 r4. f'8
 
