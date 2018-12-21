@@ -1,0 +1,66 @@
+vd = \relative c {
+  \voiceconsts
+  \clef "bass"
+
+  d1\mf g,2
+  a1.
+  d2 c b
+  a g f
+  e( f) g
+  a1 r2
+  g' g g
+  f f r
+  e e e
+  d a'1
+
+  b2 g1
+  e'2 f c
+  d4 b c2 c,
+  f a,1
+  b2 g1
+  e'2 f c
+  d4 b c2 c,
+  f1 r2
+  f' e d
+  c1 r2
+
+  b a g
+  f1. \clef "tenor"
+  f''2 f f
+  e e e
+  e e e
+  a a a
+  c, a a
+  d h d
+  e a f~
+  f4 d e2 \clef "bass" e,
+
+  a1 r2
+  d, d d
+  g,1 r2
+  c c c
+  f,1 r2
+  d' d g
+  a1 r2
+  g, g g
+  f2. e4 d2
+  g a a
+
+  d, fis'1
+  g2 b \clef "tenor" g'~
+  g1 f2
+  d a' \clef "bass" a,
+  d c, b
+  a g f
+  e f g
+  a1 d2
+  c1 b2
+  a g f
+
+  e f g
+  a1 d2
+  c1 b2
+  a1.\fermata
+  gis2 a1
+  d,1. \bar "|."
+}
