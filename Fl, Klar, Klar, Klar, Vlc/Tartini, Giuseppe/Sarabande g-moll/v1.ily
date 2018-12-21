@@ -4,7 +4,7 @@ va = \relative c'' {
   \repeat volta 2 {
     d4\mf d4. es8
     c b c4. d8
-    b\> a b d g b,\!
+    b\< a b d g b,\!
     b4\trill\> a2
     c4\! c4. g'8
     \acciaccatura g8 fis4. es8 d c
