@@ -5,10 +5,10 @@
 
 \header {
   title     = \markup \bold \italic "Largo Cantabile"
-  composer  = "Jean-Baptiste François Loeillet (1653–1685)"
+  composer  = "Jean-Baptiste Loeillet (1680–1730)"
   arranger  = "arr.: Luciano Sosam"
   enteredby = "cellist (2018-12-22)"
-  piece     = "1. Satz aus der Sonate in C-Dur"
+  piece     = "Sonate in C-Dur, op. 3, Nr. 1"
 }
 
 voiceconsts = {
