@@ -250,9 +250,9 @@ vb = \relative c' {
     d h d h
     c4. e8
     f?16 g a8 a\upbow a\upbow
-    h( a) a\upbow a\upbow
+    b( a) a\upbow a\upbow
     f16 g a8 a\upbow a\upbow
-    h( a) a-^ a,-^
+    b( a) a-^ a,-^
 
     c c c f
     e e e g

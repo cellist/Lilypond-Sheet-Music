@@ -1,7 +1,7 @@
-\version "2.14.2"
+\version "2.18.2"
 \include "deutsch.ly"
 
-#(set-global-staff-size 17)
+#(set-global-staff-size 16.75)
 
 \header {
   title    = \markup \bold \italic "Sonate für Streicher"
@@ -19,11 +19,11 @@ voiceconsts = {
 }
 
 mihi = "clarinet"
-milo = "bassoon"
+mivc = "cello"
 
 introa = {        \tempo "1. Allegro " 4=110 \time 3/4 }
 introb = { \break \tempo "2. Largo "   4=40  \time 4/4 }
-introc = { \break \tempo "3. Vivace "  4=140 \time 2/4 }
+introc = { \break \tempo "3. Vivace "  4=130 \time 2/4 }
 
 \include "v1.ily"
 \include "v2.ily"
@@ -32,25 +32,25 @@ introc = { \break \tempo "3. Vivace "  4=140 \time 2/4 }
 
 music = \new StaffGroup <<
       \new Staff {
-	\set Staff.midiInstrument = \mihi
+	\set Staff.midiInstrument = \mivc
 	\set Staff.instrumentName = \markup \center-column { "Violon-" "cello I" }
 	\transpose f f { \va }
       }
 
       \new Staff {
-	\set Staff.midiInstrument = \milo
+	\set Staff.midiInstrument = \mivc
 	\set Staff.instrumentName = \markup \center-column { "Violon-" "cello II" }
 	\transpose f f { \vb }
       }
 
       \new Staff {
-	\set Staff.midiInstrument = \milo
+	\set Staff.midiInstrument = \mivc
 	\set Staff.instrumentName = \markup \center-column { "Violon-" "cello III" }
 	\transpose f f { \vc }
       }
 
       \new Staff {
-	\set Staff.midiInstrument = \milo
+	\set Staff.midiInstrument = \mivc
 	\set Staff.instrumentName = \markup \center-column { "Violon-" "cello IV" }
 	\transpose f f { \vd }
       }
