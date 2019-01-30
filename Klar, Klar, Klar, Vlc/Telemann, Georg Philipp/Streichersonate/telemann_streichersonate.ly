@@ -1,7 +1,7 @@
 \version "2.18.2"
 \include "deutsch.ly"
 
-#(set-global-staff-size 18)
+#(set-global-staff-size 17)
 
 \header {
   title    = \markup \bold \italic "Sonate für Streicher"
@@ -17,12 +17,12 @@ voiceconsts = {
  \compressFullBarRests
 }
 
-mikl = "clarinet"
-milo = "bassoon"
+micl = "clarinet"
+mivc = "cello"
 
-introa = {            \tempo "1. Allegro " 4=110 \time 3/4 }
-introb = {     \break \tempo "2. Largo "   4=40  \time 4/4 }
-introc = { \pageBreak \tempo "3. Vivace "  4=140 \time 2/4 }
+introa = {        \tempo "1. Allegro " 4=110 \time 3/4 }
+introb = { \break \tempo "2. Largo "   4=40  \time 4/4 }
+introc = { \break \tempo "3. Vivace "  4=130 \time 2/4 }
 
 \include "v1.ily"
 \include "v2.ily"
@@ -31,27 +31,27 @@ introc = { \pageBreak \tempo "3. Vivace "  4=140 \time 2/4 }
 
 music = \new StaffGroup <<
       \new Staff {
-	\set Staff.midiInstrument = \mikl
+	\set Staff.midiInstrument = \micl
 	\set Staff.instrumentName = \markup \center-column { "Klari-" "nette I" }
-	\transpose f g' { \va }
+	\transpose f c' { \va }
       }
 
       \new Staff {
-	\set Staff.midiInstrument = \mikl
+	\set Staff.midiInstrument = \micl
 	\set Staff.instrumentName = \markup \center-column { "Klari-" "nette II" }
-	\transpose f g' { \vb }
+	\transpose f c' { \vb }
       }
 
       \new Staff {
-	\set Staff.midiInstrument = \mikl
+	\set Staff.midiInstrument = \micl
 	\set Staff.instrumentName = \markup \center-column { "Klari-" "nette III" }
-	\transpose f g' { \vc }
+	\transpose f c' { \vc }
       }
 
       \new Staff {
-	\set Staff.midiInstrument = \milo
+	\set Staff.midiInstrument = \mivc
 	\set Staff.instrumentName = \markup \center-column { "Violon-" "cello" }
-	\transpose f f { \vd }
+	\transpose f b { \vd }
       }
 >>
 
