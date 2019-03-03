@@ -2,7 +2,7 @@ vc = \relative c {
   \voiceconsts
   \clef "bass"
   
-  \partial 4 a4\mf
+  \partial 4 a4^\povo\mf
   a2( f)
   g2.( a4)
   b2( g)

@@ -5,8 +5,8 @@
 
 \header {
   title     = \markup \bold \italic "Я встретил вас"
-  subtitle  = "- Ich traf Dich -"
-  composer  = "aus Rußland"
+  subtitle  = "- Ich traf Dich (Ja Vstretil Vas) -"
+  composer  = "Leonid Dmitrijewitsch Malashkin (1842-1902)"
   arranger  = "arr.: H. Pelletier"
   enteredby = "cellist (2017-09-30)"
   piece     = "Romance ancienne de Russie"
