@@ -14,7 +14,7 @@ vb = \relative c'' {
     cis a32 h cis16 d e a, e' fis g e32 fis g16 a h e, h' cis
 
     d g fis e cis8. d32 e d4 r
-    r r16 g32 fis e16 d h d g4.
+    r r16 g32 fis e16 d cis e g4.
     r4 r16 cis,32 h a16 g fis a c4.
     r4 r16 g' e cis! g8 a16 fis g e' cis g
 
