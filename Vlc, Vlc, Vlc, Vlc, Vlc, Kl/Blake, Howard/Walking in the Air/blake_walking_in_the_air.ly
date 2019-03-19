@@ -5,9 +5,9 @@
 
 \header {
   title     = \markup \bold \italic "Walking in the Air"
-  composer  = "Howard Blake (*1938)"
-  arranger  = "arr.: Zac Stewart"
-  enteredby = "cellist (2019-03-11)"
+  composer  = "Howard Blake"
+  arranger  = "(*1938)"
+  enteredby = "cellist (2019-03-19)"
   piece     = "Der Schneemann (1982)"
 }
 
