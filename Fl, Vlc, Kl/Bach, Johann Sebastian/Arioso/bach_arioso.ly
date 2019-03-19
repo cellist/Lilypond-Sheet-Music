@@ -45,24 +45,24 @@ music = \new StaffGroup <<
       \new Staff {
 	\set Staff.midiInstrument = \mifl
 	\set Staff.instrumentName = \markup \center-column { "Flöte" }
-	\transpose g g { \va }
+	\transpose g a { \va }
       }
 
       \new Staff {
 	\set Staff.midiInstrument = \miba
 	\set Staff.instrumentName = \markup \center-column { "Violon-" "cello" }
-	\transpose g g { \vb }
+	\transpose g a { \vb }
       }
 
       \new PianoStaff <<
         \set PianoStaff.instrumentName = \markup \center-column { "Klavier" }
         \set PianoStaff.midiInstrument = \mikl
         \new Staff {
-          \transpose g g { \vc }
+          \transpose g a { \vc }
         }
 	
         \new Staff {
-          \transpose g g { \vd }
+          \transpose g a { \vd }
         }
         >>
 >>
