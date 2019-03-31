@@ -248,4 +248,119 @@ va = \relative c {
   c2 e,8( f a c)
   f2 f,
   f,1 \bar "|."
+
+  \introj
+  f'4.~\downbow\f f8 g(\upbow a b d c)
+  b4.( a) r
+  f~ f8 a( b c es d)
+  c4.( b) r
+
+  d(~ d8 e f) e( d c)
+  b4.(~ b8 c d) c( b a)
+  g4.(~ g8 a b) g( f e)
+  f4( es!8) c4( a8 g4 f8)
+
+  d4( f8 b4 d8) f4.
+  f~ f8 a( b c b a)
+  f4.~ f8 a( b c es d)
+  c4.( b) r
+
+  g'2. f8( g f)
+  f4( es8 d4.) b
+  g'2. f8( g f)
+  f4( es8 d4.) b
+
+  a8( c b a g f es d c)
+  b( d c b a g f es d)
+  c( f a c d es g f es)
+  d( f a d c b f' es d)
+
+  c( es d c b a g f es)
+  d( f b d b f es g c)
+  b( f d f d b a f a)
+  b4.~ b4 r2 \bar "|."
+
+  \introk
+  g'4\downbow\f a8 b4 c8 d a b c b a
+  b4( a8) g2.( fis4.)
+  g8 d es f! g f es4. e
+
+  f8 g f es! f es d es d c d c
+  b4. r r8 c\upbow d es c f
+  d b' c d c b b4. a
+
+  b8 c b a b a g4. h
+  c8 d c b! c b a4. cis
+  d8 d, e f e d d4. cis
+
+  r8 c!\upbow d es d c c4. h
+  r8 b!\upbow a b c g b4. a
+  b8 d fis g a b h c cis d b a
+
+  g4 a8 b4 c!8 d a b c b a
+  b4( a8) g2. fis4.
+  g8 d' c b a g c4 b8 a4 fis8
+
+  g d' c b a g fis4 g8 a4 fis8
+  g d g b4 a8 g d g b4 a8
+  g4 r8 <g, g'>4 r8 <g g'>2. \bar "|."
+
+  \introl
+  r16 g'(^\lega\f c b as g f es)
+  r d( g f es d c b)
+  r es( d es) r f( e f)
+  r g( as b) f4
+
+  r16 a(\decresc f' es d c b a)
+  r b( g' f es d c b)
+  r g(\mf c b) r a( d c)
+  r b( c es) b,4
+
+  r16 b( des c b as? g f
+  e) e'( g f e des c b)
+  r as( c b as g f es!
+  d?) d'( f es d c b as
+
+  g) es'( c' b as g f es)
+  r c'( f es d c b as)
+  r g( as b) r d,( es f)
+  r es( f g) es,4 \bar "|."
+
+  \introm
+  g'4^\dolc\mf a8 h
+  c d es4
+  d( g8) f
+  es d c as?
+  g4 a8 h
+  c d es4~
+  es8 d c d
+  h4. r8
+
+  g,4 a8 h
+  c d es4
+  d( g8) f
+  es d c as?
+  g4 a8 h
+
+  c\< d es4~
+  es8\! d c d
+  h4. r8
+  b'?4\p c8 d
+  es4 d8 c
+  b4 f8( c')
+  b4. g8
+
+  g4 a8 h
+  c d es4
+  d8( g4 h,8)
+  c4. r8
+  b,?4 c8 d
+  es4 d8 c
+  b4 f8( c')
+
+  b4. g8
+  g4 a8 h
+  c d es4
+  d8 g4 h,8
+  c2 \bar "|."
 }

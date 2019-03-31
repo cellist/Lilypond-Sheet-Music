@@ -1,12 +1,16 @@
 \version "2.18.2"
 \include "deutsch.ly"
   
-#(set-global-staff-size 17.8275)
+#(set-global-staff-size 19.5)
 
 \header {
   title     = \markup \bold \italic " Lehrmethoden für das Violoncello"
-  composer  = "Sebastian Lee (1805-1887) und"
-  arranger  = "Friedrich August Kummer (1797-1879)"
+  composer  = \markup \center-column {
+    "Justus Johann Friedrich Dotzauer (1783-1860),"
+    "Friedrich August Kummer (1797-1879),"
+    "Sebastian Lee (1805-1887)"
+  }
+%  arranger  = ""
   enteredby = "cellist (2019-03-30)"
   piece     = "Carl Fischer (1891)"
 }
@@ -42,8 +46,13 @@ introg = { \break \tempo "Nr. 29: Andante (Lee) " 4=90  \time 3/4 \key fis \mino
 introh = { \break \tempo "Nr. 30: Allegro moderato (Lee) " 4=110  \time 4/4 }
 
 introi = { \break \tempo "Nr. 33: Andante (Lee) " 4=90  \key f \major }
+introj = { \break \tempo "Nr. 35: Moderato (Lee) " 4=100  \key b \major \time 9/8 }
+introk = { \break \tempo "Nr. 36: Allegro moderato (Dotzauer) " 4.=70  \time 12/8 \key g \minor }
+introl = { \break \tempo "Nr. 37: Allegretto (Kummer) " 4=80  \time 2/4 \key es \major }
+introm = { \break \tempo "Nr. 38: Allegretto grazioso (Lee) " 4=80 \time 2/4 \key c \minor }
 
 dolc = \markup \italic "dolce"
+lega = \markup \italic "legato"
 pleg = \markup { \dynamic p \italic " legato" }
 
 \include "v1.ily"

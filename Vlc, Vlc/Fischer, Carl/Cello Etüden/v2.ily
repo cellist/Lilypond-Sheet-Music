@@ -235,4 +235,120 @@ vb = \relative c {
   <f a>~
   <f a>2 <b d>
   <c a'>1 \bar "|."
+
+  \introj
+  b4.(\f d f)
+  f~ f8 a( g f es c)
+  a4.( c f)
+  d~ d8 f( es d c b)
+
+  b4.( g a)
+  g( e f)
+  b( g c)
+  f, r2.
+
+  f'4.~ f8 g( a b d c)
+  b4.( a) r
+  a,( c f)
+  d~ d8 f( es? d c b)
+
+  es4.( g8 f es) d4.
+  c( b8) f( a b c d)
+  es( c d es g es) d4.
+  a( b4) r8 r4.
+
+  f2. a4.
+  b4 r8 d4 r8 r4.
+  a'2. c4.
+  b( f) d8( c b)
+
+  a4.(~ a8 g f) a4.
+  b2. c4.
+  f2.( es4.)
+  d~ d4 r2 \bar "|."
+
+  \introk
+  R8*12
+  g,4\f a8 b4 c8 d a b c b a
+  b4 r8 h4. c8 g c b c b
+
+  a4 r8 a'4.( b a)
+  b8 d, es f d b b4. a
+  b g r8 c d es d c
+
+  d4. r4 d8 es f es d es d
+  c4. r4 e8 f g f es f es
+  d4 r8 r4. r8 g a b a g
+
+  g4. fis r8 f e f g d
+  f!4. e r8 es d es f c
+  d b c b a g fis f es d4.
+
+  g4 r8 g2.( fis4.)
+  g4 a8 b4 c8 d a b c b a
+  b4 c8 d4 es8 r a, b c d c
+
+  b4 c8 d4 es8 r a, b c d c
+  b4 g8 d e fis g4 b8 d e fis
+  g4 r8 <c, es!>4 r8 <b d>2. \bar "|."
+
+  \introl
+  es,4.(\mf g8)
+  b4.( as8)
+  g r b r
+  es,( f b16) b( c d)
+
+  es4. es8
+  d4. d8
+  es4 f,
+  b r16 f'( b c)
+
+  des4. des8
+  des( c4.)
+  c( ces8)
+  ces( b4 d,8)
+
+  es4.( g,8)
+  as4.( f8)
+  b r b r
+  es,4 r \bar "|."
+
+  \introm
+  r8 g'[(\p f g)]
+  es( g c, g')
+  h,( g' d g)
+  c,[ g c,] r
+  r8 g''[( fis f)]
+  es( d c b)
+  as4( fis')
+  g,( g')
+
+  r16 g( fis g f g f g)
+  es( g h, g' c, g' c, g')
+  h,( g' fis g d g h, g')
+  c,( g' g, g' c,8) r
+  r16 g'( as g fis g f g)
+
+  es(\< g d g c, g' b, g')\!
+  as, f'( c' f, as, fis') c'( fis,
+  g, d') h'( d, g,4)
+  as'8(\p b,! as' b,)
+  g'( b, g' b,)
+  as'( b, as' b,)
+  g'( b, g' b,)
+
+  r g'[( f g)]
+  es( g c, g')
+  h,( g' d g)
+  c, g c,4
+  b'?16( as') d( as b, as') d( as
+  b, g') es'( g, b, g') es'( g,
+  b, as') d( as b, as') d( as
+
+  b, g') es'( g, b, g') es'( g,
+  g,) g'( fis g f g f g)
+  es( g h, g' c, g' c, g')
+  g,( f') h( f g, f') d'( f,
+  g, es') c'( es, <c, g'>4) \bar "|."
+  
 }
