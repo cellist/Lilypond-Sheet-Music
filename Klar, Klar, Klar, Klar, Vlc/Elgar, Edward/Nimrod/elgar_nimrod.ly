@@ -1,27 +1,27 @@
 \version "2.18.2"
 \include "deutsch.ly"
   
-#(set-global-staff-size 18.24)
+#(set-global-staff-size 19.5)
 
 \header {
-  title     = \markup \bold \italic "Rondeau"
-  composer  = "Henry Purcell (1659-1695)"
-  arranger  = "arr.: Mike Magatagan"
+  title     = \markup \bold \italic "Nimrod"
+  composer  = "Sir Edward Elgar (1857-1934)"
+  arranger  = "arr.: Marco Santos"
   enteredby = "cellist (2019-04-07)"
-  piece     = "\"Abdelazer\", Z.570, Nr. 2 (1676)"
+  piece     = "\"Enigma Variationen\""
 }
 
 voiceconsts = {
-  \key d \minor
-  \time 3/2
+  \key a \minor
+  \time 3/4
   \clef "treble"
 %  \numericTimeSignature
   \compressFullBarRests
   % Set default beaming for all staves
-% \set Timing.beamExceptions = #'()
-% \set Timing.baseMoment     = #(ly:make-moment 1 4)
-% \set Timing.beatStructure  = #'(1 1 1)
-  \tempo "Allegro moderato " 2=85
+  \set Timing.beamExceptions = #'()
+  \set Timing.baseMoment     = #(ly:make-moment 1 4)
+  \set Timing.beatStructure  = #'(1 1 1)
+  \tempo "Largo " 4=50
 }
 
 micl = "clarinet"
@@ -32,7 +32,13 @@ misx = "tenor sax"
 mist = "string ensemble 1"
 miba = "cello"
 
-rall = \mark \markup \box \italic "rall."
+boxa = { \bar "||" \mark \markup \box \italic "A" }
+boxb = { \bar "||" \mark \markup \box \italic "B" }
+boxc = { \bar "||" \mark \markup \box \italic "C" }
+
+atem = \mark \markup \box \italic "a Tempo"
+mrit = \mark \markup \box \italic "molto rit."
+rit  = \mark \markup \box \italic "rit."
 
 \include "v1.ily"
 \include "v2.ily"
@@ -44,31 +50,31 @@ music = \new StaffGroup <<
       \new Staff {
 	\set Staff.midiInstrument = \micl
 	\set Staff.instrumentName = \markup \center-column { "Klari-" "nette I" }
-	\transpose d e { \va }
+	\transpose a h { \va }
       }
 
       \new Staff {
 	\set Staff.midiInstrument = \micl
 	\set Staff.instrumentName = \markup \center-column { "Klari-" "nette II" }
-	\transpose d e { \vb }
+	\transpose a h { \vb }
       }
 
       \new Staff {
 	\set Staff.midiInstrument = \micl
 	\set Staff.instrumentName = \markup \center-column { "Klari-" "nette III" }
-	\transpose d e { \vc }
+	\transpose a h { \vc }
       }
 
       \new Staff {
 	\set Staff.midiInstrument = \micl
 	\set Staff.instrumentName = \markup \center-column { "Klari-" "nette IV" }
-	\transpose d e { \vd }
+	\transpose a h { \vd }
       }
 
       \new Staff {
 	\set Staff.midiInstrument = \miba
 	\set Staff.instrumentName = \markup \center-column { "Violon-" "cello" }
-	\transpose d d { \ve }
+	\transpose a a { \ve }
       }
 >>
 
