@@ -28,7 +28,7 @@ va = \relative c' {
   fis g g8.\upbow\!\mf g16\upbow
 
   g'4. e8( d e)
-  f?( e4) e8(-. d-. c)-.
+  g8( f?4) e8(-. d-. c)-.
   c8.( h16) h4 c
   cis\< d2
   r8\! g,\upbow h4 c!

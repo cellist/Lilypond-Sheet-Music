@@ -21,7 +21,7 @@ voiceconsts = {
 %  \set Timing.beamExceptions = #'()
 %  \set Timing.baseMoment     = #(ly:make-moment 1 4)
 %  \set Timing.beatStructure  = #'(1 1 1)
-  \tempo "Con molto tranquillo " 4=60
+  \tempo "Con molto tranquillo " 4=70
 }
 
 micl = "clarinet"

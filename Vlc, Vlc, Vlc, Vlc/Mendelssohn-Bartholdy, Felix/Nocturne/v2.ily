@@ -44,7 +44,7 @@ vb = \relative c {
   b a4. d8\downbow
   f?4--\!\f f-- f--
 
-  g4. e8(\> d a)
+  f4. e8(\> d a)
   g4.\!\p e8( g h?)
   h4( c) c
   e\cresc d cis
