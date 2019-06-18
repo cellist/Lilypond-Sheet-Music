@@ -1,7 +1,7 @@
 \version "2.18.2"
 \include "deutsch.ly"
 
-#(set-global-staff-size 20)
+#(set-global-staff-size 19)
 
 \header {
   title     = \markup \bold \italic "Rondo"
@@ -17,8 +17,18 @@ voiceconsts = {
   \time 2/4
   %\numericTimeSignature
   \compressFullBarRests
-%  \set tupletSpannerDuration = #(ly:make-moment 1 8)
-  \tempo "Allegretto " 4=110
+  %  \set tupletSpannerDuration = #(ly:make-moment 1 8)
+  \override Score.BarNumber.break-visibility = ##(#t #t #t)
+  % Print a bar number every fifth measure
+  \set Score.barNumberVisibility = #(every-nth-bar-number-visible 3)
+  % Increase the size of the bar number by 25%
+  \override Score.BarNumber.font-size = #1.25
+  % Draw a circle round the following bar number(s)
+  \override Score.BarNumber.stencil
+    = #(make-stencil-circler 0.1 0.25 ly:text-interface::print)
+  % Center-align bar numbers
+  \override Score.BarNumber.self-alignment-X = #CENTER  
+  \tempo "Allegretto " 4=100
 }
 
 mihi = "clarinet"
@@ -58,9 +68,25 @@ music = \new StaffGroup <<
 >>
 
 \book {
-  \score {
+   \paper {
+    print-page-number = ##t
+    print-first-page-number = ##t
+    oddHeaderMarkup = \markup \null
+    evenHeaderMarkup = \markup \null
+    oddFooterMarkup = \markup {
+      \fill-line {
+        \on-the-fly #print-page-number-check-first
+        "Franz Joseph Haydn - Rondo" \fromproperty #'page:page-number-string
+      }
+    }
+    evenFooterMarkup = \oddFooterMarkup
+  } \score {
    \music
     \layout {}
+  }
+ 
+  \paper {
+    left-margin = 2\cm
   }
 
   \score {

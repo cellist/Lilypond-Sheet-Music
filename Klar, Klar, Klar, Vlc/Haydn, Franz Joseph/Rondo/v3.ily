@@ -6,7 +6,7 @@ vc = \relative c'' {
   g8\mf g16 g e8 e
   g g16 g g4
   c\p r
-  c8\f c16 c d4
+  c8\f c16 c c4
   c\> g8 f\!
   c'\mf c16 c c4
 
@@ -63,8 +63,8 @@ vc = \relative c'' {
   c r
   c r
 
-  c8 c16 c e8 c16 c
-  c,8 c16 c e8 c16 c
+  g8 c16 c e8 c16 c
+  g8 c,16 c e8 c16 c
   c8 c16 c c8 c16 c
   c8 c c c
   c4 r \bar "|."
