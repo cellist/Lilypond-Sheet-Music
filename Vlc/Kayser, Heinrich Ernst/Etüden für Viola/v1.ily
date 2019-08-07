@@ -165,4 +165,75 @@ va = \relative c, {
   g d b' g d b'
   g4 r8 <g d' b'>4\f r8
   g4 r8 r4. \bar "|."
+
+  \introf
+  \repeat volta 2 {
+    d''2.\f \tuplet 3/2 4 { c8(\p d c }
+    \tuplet 3/2 4 { b c b a b a g a g f g f) }
+    \acciaccatura es es'2.\f \tuplet 3/2 4 { d8(\p es d }
+    \tuplet 3/2 4 { c d c b c b a b a g a g) }
+
+    fis2.\f \tuplet 3/2 4 { es8(\p f es }
+    \tuplet 3/2 4 { d es d c d c b c b a b a) }
+    \tuplet 3/2 4 { gis( a gis h c h d e d f g! f) }
+    \tuplet 3/2 4 { e( f e c d c a h a g a g) }
+
+    \tuplet 3/2 4 { fis( g fis a b! a c d c es! f! es) }
+    \tuplet 3/2 4 { d( es d b c b g b d g b c) }
+  }
+  
+  \repeat volta 2 {
+    d4-.\fz \tuplet 3/2 4 { b8( c b) } g4-. \tuplet 3/2 4 { d8( es d) }
+    b4-. \tuplet 3/2 4 { d8( es d) } g4-. \tuplet 3/2 4 { b8( c b) }
+
+    es4-.\fz \tuplet 3/2 4 { c8( d c) } g4-. \tuplet 3/2 4 { es8( f es) }
+    c4-. \tuplet 3/2 4 { es8( f es) } g4-. \tuplet 3/2 4 { c8( d c) }
+    \tuplet 3/2 4 {
+      b-.\fz c-. d-. c-. b-. a-. g-. f-. es-. d-. c-. b-.
+      a-.\fz c-. es-. d-. c-. b-. a-. g-. fis-. es-. d-. fis-.
+
+      g-.\fz b-. d-. fis-.\fz a-. d-. b-.\fz g-. d-. c-. b-. a-.
+      g-.\fz b-. d-. fis-.\fz a-. d-. b-.\fz g-. d-. c-. b-. a-.
+    }
+    g4 <g d' b'>\ff r <d b' g'>
+    r <g b>2 r4
+  }
+
+  \introg
+  \repeat volta 2 {
+    d4->\mf fis8-. a-. d4 fis8-. d-.
+    cis4 d8-. e-. a,4 cis8-. e-.
+    g4-> e8-. d-. cis4 d8-. e-.
+    fis4 g8-. a-. d,4 a8-. fis-.
+  }
+  \repeat volta 2 {
+    g4-> h8-. cis-. d4 cis8-. h-.
+    a4 d8-. e-. fis4 e8-. d-.
+
+    cis4-> e8-. g-. h4 a8-. g-.
+    fis4 d'8-. a-. fis4 d8-. a-.
+  }
+  \repeat volta 2 {
+    gis4->_\mftf h8-. d-. fis4 e8-. d-.
+    cis4 e8-. a-. cis4 h8-. a-.
+    e'4-> d8-. h-. gis4 fis8-. gis-.
+    a4 e8-. cis-. a4 h8-. his-.
+
+    cis4\p eis8-. gis-. cis,4 fis8-. a-.
+    d,4\< fis8-. h?-. d,4 fis8-. his-.
+    cis,4\!\f eis8 gis cis4 cis8\p cis
+    e!(\fz cis) a-. g!-. e( cis) a-. cis-.
+    d4->\mf fis,8-. a-. d4 fis8-. d-.
+    cis4 d8-. e-. a,4 cis8-. e-.
+
+    g4-> e8-. d-. cis4 d8-. e-.
+    fis4 g8-. a-. d,4 fis8-. a-.
+    d4-> a8-. g-. fis4 g8-. a-.
+    h4 g8-. fis-. e4 fis8-. g-.
+    a4-> fis8-. d-. a4 h8-. cis-.
+  }
+  \alternative {
+    { d4 a8-. fis-. d4 e8-. fis-. }
+    { d'4 a8-. fis-. d4 r }
+  } \bar "|."
 }
