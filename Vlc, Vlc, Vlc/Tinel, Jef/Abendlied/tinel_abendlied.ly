@@ -67,7 +67,7 @@ music = \new StaffGroup <<
     oddFooterMarkup = \markup {
       \fill-line {
         \on-the-fly #print-page-number-check-first
-        "Jef Tinel - Das Mühlenrad" \fromproperty #'page:page-number-string
+        "Jef Tinel - Abendlied" \fromproperty #'page:page-number-string
       }
     }
     evenFooterMarkup = \oddFooterMarkup
