@@ -47,13 +47,13 @@ rit = \mark \markup \box \italic "rit."
 music = \new StaffGroup <<
       \new Staff {
 	\set Staff.midiInstrument = \micl
-	\set Staff.instrumentName = \markup \center-column { "Klari-" "nette I" }
+	\set Staff.instrumentName = \markup \center-column { "Klari. I" "(Poppea)" }
 	\transpose a a { \va }
       }
 
       \new Staff {
 	\set Staff.midiInstrument = \micl
-	\set Staff.instrumentName = \markup \center-column { "Klari-" "nette II" }
+	\set Staff.instrumentName = \markup \center-column { "Klari. II" "(Nero)" }
 	\transpose a a { \vb }
       }
 
