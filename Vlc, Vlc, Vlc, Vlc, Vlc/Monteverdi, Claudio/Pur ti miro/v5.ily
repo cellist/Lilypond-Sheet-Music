@@ -84,7 +84,7 @@ ve = \relative c' {
 
   a,
   d
-  a
+  h
   c\cresc
   d
   g?4 e2
