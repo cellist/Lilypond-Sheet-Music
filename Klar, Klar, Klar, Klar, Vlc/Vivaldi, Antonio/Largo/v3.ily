@@ -15,10 +15,10 @@ vc = \relative c'' {
 
   \repeat volta 2 {
     d4 b8 c d4 c
-    d h8 g c4 b
+    d h8 g c4 h
     c cis8 a d4 cis
 
-    d d b d
+    d d b? d
     es c? c c
     d b b b
     c a a a
