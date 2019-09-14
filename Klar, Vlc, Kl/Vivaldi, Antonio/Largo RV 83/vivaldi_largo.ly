@@ -1,25 +1,28 @@
 \version "2.18.2"
 \include "deutsch.ly"
   
-#(set-global-staff-size 20.25)
+#(set-global-staff-size 22.9)
 
 \header {
-  title     = \markup \bold \italic "Trio"
-  composer  = "Antonio Lucio Vivaldi (1678-1741)"
-  arranger  = "arr.: Helmut Kickton"
-  enteredby = "cellist (2019-09-08)"
-%  piece     = ""
+  title     = \markup \bold \italic "Largo"
+  subtitle  = "- per Violino, Violoncello e Basso Continuo -"
+  composer  = "Antonio Vivaldi (1678-1741)"
+  arranger  = "arr.: Gyula Pfeiffer"
+  enteredby = "cellist (2019-09-01)"
+  piece     = "Trio Sonate in d-moll, RV 83, 2. Satz"
 }
 
 voiceconsts = {
-  \key d \minor
-  \clef "treble"
+  \key c \minor
+  \time 4/4
+  \clef "bass"
   \numericTimeSignature
   \compressFullBarRests
   % Set default beaming for all staves
-  \set Timing.beamExceptions = #'()
-  \set Timing.baseMoment     = #(ly:make-moment 1 4)
-  \set Timing.beatStructure  = #'(1 1 1)
+% \set Timing.beamExceptions = #'()
+% \set Timing.baseMoment     = #(ly:make-moment 1 4)
+% \set Timing.beatStructure  = #'(1 1 1)
+  \tempo "2. Largo " 4=50
 }
 
 micl = "clarinet"
@@ -28,46 +31,42 @@ miob = "oboe"
 mifh = "french horn"
 misx = "tenor sax"
 mist = "string ensemble 1"
-%miba = "viola"
 miba = "cello"
 %miba = "bassoon"
 mikl = "harpsichord"
-
-introb = { \tempo "2. Largo " 4=60 \time 4/4 }
 
 \include "v1.ily"
 \include "v2.ily"
 \include "v3.ily"
 \include "v4.ily"
 \include "v5.ily"
-\include "v6.ily"
 
 music = \new StaffGroup <<
       \new Staff {
 	\set Staff.midiInstrument = \micl
 	\set Staff.instrumentName = \markup \center-column { "Klari-" "nette" }
-	\transpose d h, { \va }
+	\transpose c a, { \va }
       }
 
       \new Staff {
 	\set Staff.midiInstrument = \miba
 	\set Staff.instrumentName = \markup \center-column { "Violon-" "cello" }
-	\transpose d a, { \vb }
+	\transpose c g, { \vb }
       }
 
       \new PianoStaff <<
         \set PianoStaff.instrumentName = \markup \center-column { "Klavier" }
         \set PianoStaff.midiInstrument = \mikl
         \new Staff {
-          \transpose d a, { << \vc \\ \vd >> }
+          \transpose c g, { \vc }
         }
 
 	\new Dynamics \vdy
 	
         \new Staff {
-          \transpose d a, { \ve }
+          \transpose c g, { \vd }
         }
-      >>
+        >>
 >>
 
 \book {
@@ -79,7 +78,7 @@ music = \new StaffGroup <<
     oddFooterMarkup = \markup {
       \fill-line {
         \on-the-fly #print-page-number-check-first
-        "Antonio Vivaldi - Trio 2. Satz: Largo" \fromproperty #'page:page-number-string
+        "Antonio Vivaldi - Largo aus der Trio-Sonate in d-moll" \fromproperty #'page:page-number-string
       }
     }
     evenFooterMarkup = \oddFooterMarkup
