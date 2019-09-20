@@ -1,6 +1,5 @@
 vc = \relative c' {
   \voiceconsts
-  \clef "bass"
 
   a4 a~ a8 g
   g2.
