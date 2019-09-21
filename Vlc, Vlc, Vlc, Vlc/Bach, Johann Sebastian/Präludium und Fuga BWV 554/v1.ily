@@ -17,7 +17,7 @@ va = \relative c {
 
   e4 r8 e a,4 h
   a2 g4 r8 d
-  g16 d h a g' d h a f' d h a f' d h g
+  g16 d h g g' d h g f' d h g f' d h g
 
   e' c f c e c f c e4 r16 e fis gis
   a e cis a a' e cis a g'! e cis a g' e cis a
@@ -40,9 +40,9 @@ va = \relative c {
   e fis16 g fis8 g16 e h'4 h
 
   a a fis2
-  e4 \introb r8 h' g h g h
-  e, g c4 his8 cis16 dis e4~
-  e8 dis16 cis h!8 a g e16 fis g a g a
+  e4\fermata \introb r8 h' g h fis h
+  e, g c4 h8 cis16 dis e4~
+  e8 dis16 cis h8 a g e16 fis g a g a
 
   h4 ais h h8 cis
   d?4~ d16 e d e fis4 ais,
@@ -78,6 +78,6 @@ va = \relative c {
   c?~ c8 d e4~ e8 fis16 e
 
   dis4 e~ e8 d c4
-  h~ h8 c16 h a4 g
-  fis2 e\fermata \bar "|."
+  h~\< h8 c16 h a4 g
+  fis2 e\fermata\! \bar "|."
 }

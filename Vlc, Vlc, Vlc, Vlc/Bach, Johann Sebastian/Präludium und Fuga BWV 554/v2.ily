@@ -39,13 +39,13 @@ vb = \relative c' {
   h4 a dis e~
 
   e8 dis e4~ e dis
-  e \introb r r2
+  e\fermata \introb r r2
   R1*4
   r4 r8 h' g h fis h
 
   e, g c4 h8 cis16 dis e4~
   e8 dis16 cis h8 a g h e h
-  h4 ais h h8 cis
+  h4 ais h~ h8 cis
 
   d?4~ d8 e16 d cis4 cis
   h2. ais4
@@ -73,6 +73,6 @@ vb = \relative c' {
   a~ a8 h c?4~ c8 d?16 c
 
   h2 a4 e8 fis16 e
-  dis8 cis16 dis e4~ e8 dis e4~
-  e dis e2\fermata \bar "|."
+  dis8\< cis16 dis e4~ e8 dis e4~
+  e dis e2\fermata\! \bar "|."
 }

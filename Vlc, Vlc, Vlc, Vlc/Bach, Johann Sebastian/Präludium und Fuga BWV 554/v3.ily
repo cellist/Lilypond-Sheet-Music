@@ -41,7 +41,7 @@ vc = \relative c' {
   e r r4 fis g
 
   fis8 fis, g[ a] h4. a8
-  g4 \introb r r2
+  g4\fermata \introb r r2
   R1
   r2 r4 r8 e'
 
@@ -79,6 +79,6 @@ vc = \relative c' {
   h8 e, a4 gis8 a16 h c4
 
   fis, g a2~
-  a4 g8 a16 g fis4 g,8 a
-  h4. a8 g2\fermata \bar "|."
+  a4\< g8 a16 g fis4 g,8 a
+  h4. a8 g2\fermata\! \bar "|."
 }

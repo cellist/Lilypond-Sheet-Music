@@ -38,7 +38,7 @@ vd = \relative c' {
   c2 h~
 
   h1
-  g4 \introb r r2
+  g4\fermata \introb r r2
   R1*6
   r2 r4 r8 e'
   d fis cis fis h, d g4
@@ -63,6 +63,6 @@ vd = \relative c' {
   a,? c f4 e8 fis16 gis a4~
 
   a8 g16 fis e8 d c h a4
-  h1~
-  h2 h\fermata \bar "|."
+  h1~\<
+  h2 h\fermata\! \bar "|."
 }
