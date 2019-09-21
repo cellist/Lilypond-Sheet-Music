@@ -27,7 +27,7 @@ vc = \relative c' {
   cis2( d8) r4.
 
   r8 g, c g~ g2~
-  g8 g( fis e fis4) r
+  g8 g( fis e fis8) r4.
   r8 g c g a2
   r8 f( a f) b2~
 

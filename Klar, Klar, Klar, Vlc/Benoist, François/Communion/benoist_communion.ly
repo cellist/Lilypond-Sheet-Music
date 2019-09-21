@@ -34,6 +34,8 @@ miba = "cello"
 
 dolc = \markup \italic "dolce"
 rall = \mark \markup \box \italic "rallent."
+rit  = \markup \bold \italic "rit."
+solo = \markup \bold \italic "solo"
 
 \include "v1.ily"
 \include "v2.ily"
@@ -67,7 +69,19 @@ music = \new StaffGroup <<
 >>
 
 \book {
-  \score {
+ \paper {
+    print-page-number = ##t
+    print-first-page-number = ##t
+    oddHeaderMarkup = \markup \null
+    evenHeaderMarkup = \markup \null
+    oddFooterMarkup = \markup {
+      \fill-line {
+        \on-the-fly #print-page-number-check-first
+        "François Benoist - Communion" \fromproperty #'page:page-number-string
+      }
+    }
+    evenFooterMarkup = \oddFooterMarkup
+  }  \score {
     \music
     \layout {}
   }

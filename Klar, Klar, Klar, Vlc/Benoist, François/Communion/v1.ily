@@ -59,7 +59,7 @@ va = \relative c'' {
   fis( e dis e) fis( e dis e)
   dis2~ dis8 cis e ais,
   h2~ h4 c!8 e,
-  g2 h8 a? c fis,
+  g2 h8^\rit a? c fis,
 
   g2( a4 h)
   a1
