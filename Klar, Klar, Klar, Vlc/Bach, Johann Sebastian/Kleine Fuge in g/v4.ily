@@ -9,7 +9,7 @@ vd = \relative c {
   f4. e8 d f e d
   cis e a,4 d8 a e' a,
 
-  f' e16 d e8 a, d a16 d e8 a,16 c
+  f' e16 d e8 a, d a16 d e8 a,16 e'
   f8 e16 d e8 a, d g, a4
   d, r g'16 f g a g f es! d
   r2 f16 es f g f es d c
