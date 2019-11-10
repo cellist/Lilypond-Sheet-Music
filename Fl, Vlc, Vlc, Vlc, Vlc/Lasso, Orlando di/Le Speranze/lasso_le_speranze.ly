@@ -67,7 +67,7 @@ music = \new StaffGroup <<
 
       \new Staff {
 	\set Staff.midiInstrument = \miba
-	\set Staff.instrumentName = \markup \center-column { "Violon-" "cello III" }
+	\set Staff.instrumentName = \markup \center-column { "Violon-" "cello IV" }
 	\transpose d d { \ve }
       }
 >>
