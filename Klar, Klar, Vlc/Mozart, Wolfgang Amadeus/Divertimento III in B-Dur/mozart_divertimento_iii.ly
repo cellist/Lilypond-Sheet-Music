@@ -1,7 +1,7 @@
 \version "2.18.2"
 \include "deutsch.ly"
   
-#(set-global-staff-size 19.5)
+#(set-global-staff-size 19.25)
 
 \header {
   title     = \markup \bold \italic "Divertimento III"
@@ -34,8 +34,15 @@ mist = "string ensemble 1"
 miba = "bassoon"
 %miba = "pizzicato strings"
 
-introa = { \tempo "1. Allegro " 4=130 }
+introa = {        \tempo "1. Allegro "  4=130 }
+introb = { \break \tempo "2. Menuetto " 4=110 \time 3/4 }
+trioa  = { \break \tempo "Trio "        4=110 \key f \major }
+introc = { \break \tempo "3. Adagio "   4=50  \time 4/4 \key c \major }
 
+fine = \mark \markup \box \italic "Fine"
+mdcf = \mark \markup \box \italic "Menuetto D.C. al Fine"
+
+pdol = \markup { \dynamic p \italic " dolce" }
 pesp = \markup { \dynamic p \italic " espr." }
 
 \include "v1.ily"
@@ -68,6 +75,7 @@ music = \new StaffGroup <<
    \paper {
     print-page-number = ##t
     print-first-page-number = ##t
+    ragged-last-bottom = ##f
     oddHeaderMarkup = \markup \null
     evenHeaderMarkup = \markup \null
     oddFooterMarkup = \markup {
