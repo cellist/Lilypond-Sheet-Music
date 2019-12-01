@@ -97,14 +97,14 @@ va = \relative c'' {
     d( f h,)
     c r d(\<
     e) r\! f8( d)
-    g4 r2
+    g4 r r
     c2.(~
     c2 h4~
     h) a(\dim g)
     a( c fis,)
     g8(\p d) d-. d-. a'([ fis])
     g( d) d-. d-. a'([ fis])
-    g4 r2
+    g4 r r
   }
   \repeat volta 2 {
     g2.~\p
@@ -133,7 +133,7 @@ va = \relative c'' {
     c(\p g) g-. g-. d'([ h])
     c( g) g-.\cresc g-. f'([ d])
     e4 r h'(\f \fine
-    c) r2
+    c) r r
   }
 
   \trioa
@@ -147,17 +147,17 @@ va = \relative c'' {
 
     f4\!\p \tuplet 3/2 4 { c8(\< d e) f( g a) }
     \tuplet 3/2 4 { b(\!\> c b) a( g f) e( d e) }
-    f4\! r2
+    f4\! r r
     \tuplet 3/2 4 { g,8(\< h c) d( e f) g( a h) }
     c2.\!
     h8( a g f e d)
 
     c2\> e8( d)
-    c4\! r2
-    g'\mf h8(\trill a16 h)
-    c4 r2
-    g\p h8(\trill a16 h)
-    c4 r2
+    c4\! r r
+    g'2\mf h8(\trill a16 h)
+    c4 r r
+    g2\p h8(\trill a16 h)
+    c4 r r
   }
   \repeat volta 2 {
     c,2.(\p
@@ -169,8 +169,8 @@ va = \relative c'' {
     a4) b8(\< g! f? e)
     f( a b g f\! e)
     f\f r b r a r
-    g4 r2
-    c,~_\pdol c8 d32( c h c)
+    g4 r r
+    c,2~_\pdol c8 d32( c h c)
     c'2.(~
     c4 b? a)
 
@@ -183,11 +183,11 @@ va = \relative c'' {
     c'2(\!\< cis4)
     d(\! c!8 b a g)
     f2\> a8( g)
-    f4\! r2
+    f4\! r r
     b2.\<
     a8(\! b h c a f)
     e2.(\> \mdcf
-    f4)\! r2
+    f4)\! r r
   }
 
   \introc
@@ -207,11 +207,11 @@ va = \relative c'' {
     d~
     d8-- g([\f h a]) g( fis e d)
     d4.(\> c8 h4) r\!
-    e2(\p f?)\f
-    e(\p fis)\f
+    e2(\p f?)\f \breathe
+    e(\p fis)\f \breathe
 
     g8-.\p r a-.\< r d,-. r fis-. r\!
-    g4\f r8 f c'4.(\> fis,8)
+    g4\f r8 d c'4.(\> fis,8)
     \tuplet 3/2 4 { g(\!\p d\< e) fis( g gis) a( b h) } c( fis,)\!
 
     g!4\f r fis8\p r4.
@@ -242,4 +242,97 @@ va = \relative c'' {
   g8.( a32 g f16 e d c) cis( d e f fis\< g a g)
   g4(~\! g16 a32 g) f!([ e d c]) e8 r d16.(\dim c32 d16. e32)
   c8 r e r c\pp r4. \bar "|."
+
+  \introd
+  \repeat volta 2 {
+    g'8.(_\pdol f16) e8-. e-. e( f)
+    g4-. c-. r
+    a8.( g16) f8-. f-. f( g)
+    a4-. c-. r
+    f,8.( e16) d4 r
+    g8.( f16) e4 r
+    c'8.(\< h16) a8-. g-. fis-. e-.\!
+
+    d2.~\f
+    d4 fis( g)
+    a( c) fis,-.
+    g cis,16( d e fis g gis a h)
+    c4( a fis)
+    g? cis,16(\p d e fis g gis a h)
+    c4( a fis)
+    g? r r
+  }
+  \repeat volta 2 {
+    g2.(\p
+    fis\<
+    f!)
+    f8(\!\mf e) d4 r
+    g8.(\p f16) e8(\< fis g f)
+    f8.(\! e16) d8(\cresc fis g f)
+    e( g\f f e d c)
+    g'4-. g,-. r
+
+    c2.(~\p
+    c16 d e f g a h c h c h c)
+    c,2.(~
+    c16 d e f g a h c h c h c)
+    g4 r8 g( fis g)
+
+    r4 r8 c( h c)
+    R2.*2
+    d,8.(\f e16) f8-. g-. a-. h-.
+    c4(\sf f,) r8 e-.\p
+    \tuplet 3/2 4 { d( f a) } c,4( e8. d16)
+
+    c4 r r
+    r h16(\f c d e f g a h)
+    c4 r r
+    r h,16(\p c d e f g a h) \fine
+    c4 r r
+  }
+
+  \triob
+  \repeat volta 2 {
+    g,(_\pdol c es)
+    g4.( as8) g4~
+    g8\< g( as a b h)
+    c(\!\fp g) g2~
+    g8\< g( as? a b? h)
+    c4(\!\f as! g)
+    fis2.
+
+    g(
+    b?4)-> r fis-.\p
+    g r8 b( a g)
+    fis4 r8 c'( b a)
+    g4 r8 b( a g)
+    fis4 r8 c'( b a)
+    g4 r r
+  }
+  \repeat volta 2 {
+    g(\p as?) r
+    g( as) r
+    g( as) f--
+    \acciaccatura f8 es-. r d-. r r4
+    r c'( h)
+    r c( h~
+    h c es,)
+    \acciaccatura f8 es-. r d-. r r4
+
+    g,( c es)
+    fis-. g2~
+    g8\< g( as a b h)
+    c(\!\fp g) g2~
+    g8\< g( as? a b? h)
+    c4(\! b!2)\sf
+    as?4(\p g fis)
+
+    g( es d)
+    c r8 g'( f? es)
+    d(\< as') g4.( f8)
+    es4\! r8 g(\p f es)
+    d(\< as') g4.( f8)
+    es-.\!\p r f-. r d-. r \mdcf
+    c-. r r4 r
+  }
 }

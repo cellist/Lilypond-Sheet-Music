@@ -23,7 +23,7 @@ vb = \relative c'' {
     g4 r e e'8( c)
     a4 r d f8( d)
     h( g a h) c( h c d)
-    e4 c,8( d e d e fis)
+    e4-. \breathe c,8( d e d e fis)
     g r d'4( e8) r c r
 
     d r d4( e8) r c r
@@ -57,7 +57,7 @@ vb = \relative c'' {
 
     g'4-.\p a?2(-> g4)
     f-. f-. e-. r
-    c'-. d,2( c'4)
+    c'-. d,2(-> c'4)
     \appoggiatura c8 b4 b8( g) a4 r
     f'2~\f f8 e( f e)
     d( cis d cis) d4.( cis8)
@@ -97,15 +97,15 @@ vb = \relative c'' {
     a r f
     e r h'(\<
     c) r\! d8( h)
-    e4 r2
-    e(\p es4)
+    e4 r r
+    e2(\p es4)
     d2.
 
     e?2(\dim d4)
     e r c(
     h)\p r c(
     h) r c(
-    h) r2
+    h) r r
   }
   \repeat volta 2 {
     r4 es(\p d)
@@ -119,7 +119,7 @@ vb = \relative c'' {
     g) r c,-.
     a2.(
     e)
-    d4 r2
+    d4 r r
     e'2.\f
     c2( h?4)
     a2( g4)
@@ -127,13 +127,13 @@ vb = \relative c'' {
     e) r h'(
 
     c) r d8( h)
-    c4 r2
-    a4\dim r2
+    c4 r r
+    a\dim r r
     e8(\p g e g f g)
     e4 r f(
     e)\cresc r h'
     c8( g) g-. g-. f'([\f d]) \fine
-    e4 r2
+    e4 r r
   }
 
   \trioa
@@ -142,9 +142,9 @@ vb = \relative c'' {
     es_\pdol
     d2( c4)
     b( a g)
-    a r2
+    a r r
     g4.(\sfp a8 b4)
-    a r2
+    a r r
     g4.(\sfp a8 b4)
     a \tuplet 3/2 4 { a'8( g f) e?( d c) }
     h2(\< d4)
@@ -152,11 +152,11 @@ vb = \relative c'' {
     g,8(\! c g c g c)
     a( c a c a c)
     e,(\> g e g f g)
-    e4\! r2
-    r4 f'(~\mf \tuplet 3/2 4 { f8 g f) }
-    e4 r2
-    r4 f(~\p \tuplet 3/2 4 { f8 g f) }
-    e4 r2
+    e4\! r r
+    r f'(~\mf \tuplet 3/2 4 { f8 g f) }
+    e4 r r
+    r f(~\p \tuplet 3/2 4 { f8 g f) }
+    e4 r r
   }
   \repeat volta 2 {
     c2.~\p
@@ -167,25 +167,25 @@ vb = \relative c'' {
     c~\f
     c~
     c8 r g' r f r
-    e4 r2
+    e4 r r
     R2.
     es\p
 
     d4 (e! f)
     d8( b a c b g)
-    a4 r2
+    a4 r r
     g4.(\sfp a8 b4)
-    a r2
+    a r r
     g4.(\sfp a8 b4)
     c8(\< e f e f es)
 
     d(\! f e! d c b)
     a(\> c a c b c)
-    a4\! r2
+    a4\! r r
     e'2.(\<
-    f4) r2\!
+    f4) r r\!
     c8(\> b a b c b) \mdcf
-    a4\! r2
+    a4\! r r
   }
 
   \introc
@@ -204,8 +204,8 @@ vb = \relative c'' {
     c)
     h4\f r r2
     h4.(\> a8 g4) r\!
-    g2(\p gis)\f
-    a(\p c)\f
+    g2(\p gis)\f \breathe
+    a(\p c)\f \breathe
     h8-.\p\< r e-. r h-. r a-. r\!
     h4\f r r a8(\> c)
 
@@ -237,4 +237,98 @@ vb = \relative c'' {
   e( g c g) e( g c g) f( g h g) f( g h g)
   e( g c g) e( g c g) e8 r f16.(\dim e32 f16. g32)
   e8 r g r e\pp r4. \bar "|."
+
+  \introd
+  \repeat volta 2 {
+    e'8.(_\pdol d16) c8-. c-. c( d)
+    e4-. e-. r
+    f8.( c16) a8-. a-. a( c)
+    f4-. a-. r
+    d,8.( c16) h4 r
+    e8.( d16) c4 r
+    R2.
+    fis,4.\f g8-. a-. h-.
+
+    c2( h4)
+    e-. r c-.
+    h r r
+    fis8( a) c2(
+    h4) r r
+    fis8(\p a) c2(
+    h4) r r
+  }
+  \repeat volta 2 {
+    h8.(_\pesp c16) d8-. d-. d( h)
+    c8.(\< d16) es8-. es-. es( c)\!
+
+    d8.( c16) h8-. h-. h( d)
+    d(\mf c) h4 r
+    e?8.(\p d16) cis4.(\< e8)
+    d8.(\! c!16) h4.(\cresc d8
+    c) g([\!\f f? e d c])
+    g'4 r8 d'(-.\mp e-. f)-.
+    g8.( f16) e8-. e-. e( f)
+
+    g4-. e-. r
+    a8.( g16) f8-. f-. f( g)
+    a4-. f-. r
+    f8.( e16) d4 r
+    g8.( f16) e4 r
+    R2.
+    g,8.(\f a16) h8-. c-. d-. e-.
+    f( d) h4 g
+
+    g(\sf d') r8 c\p
+    a8.( f16) e4( f)
+    e8(\f g c g) e([ g])
+    f([ g]) d'( g, f g)
+    e(\p g c g) e([ g])
+    f([ g]) d'( g, f g) \fine
+    e4 r r
+  }
+
+  \triob
+  \repeat volta 2 {
+    R2.
+    es'(\p
+    f
+    es
+    f
+    es4) r r
+    es(\f d c)\<
+    b2.~
+    b4->\! r c-.\p
+    b8( d) d2~
+    d8\< d([ es e f fis])
+
+    g(\!\fp d) d2~
+    d8\< d([ es? es f? fis])
+    g4\! r r
+  }
+  \repeat volta 2 {
+    r es?(->\p d)
+    r es(-> d)
+    r r d--
+    \acciaccatura d8 c-. r h-. r r4
+    f'2.(~
+    f~
+
+    f4 es c)
+    \acciaccatura d8 c-. r h-. r r4
+    R2.
+    r4 r8 es(->\mf d c)
+    h4 r8 f'(-> es d)
+    c4 r8 es(->\p d c)
+    h4\< r8 f'(-> es d)
+    c4(\! des2)\sf
+
+    c2.(~\p
+    c2 h4)
+    c r8 es( d? c)
+    h(\< f') es4.( d8)
+    c4\! r8 es(\p d c)
+    h(\< f') es4.( d8)
+    c-.\!\p r d-. r h-. r \mdcf
+    c4 r r
+  }
 }

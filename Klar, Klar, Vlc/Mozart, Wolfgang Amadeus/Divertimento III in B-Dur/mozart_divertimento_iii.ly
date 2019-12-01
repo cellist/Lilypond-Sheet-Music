@@ -1,7 +1,7 @@
 \version "2.18.2"
 \include "deutsch.ly"
   
-#(set-global-staff-size 19.25)
+#(set-global-staff-size 18)
 
 \header {
   title     = \markup \bold \italic "Divertimento III"
@@ -34,16 +34,21 @@ mist = "string ensemble 1"
 miba = "bassoon"
 %miba = "pizzicato strings"
 
-introa = {        \tempo "1. Allegro "  4=130 }
-introb = { \break \tempo "2. Menuetto " 4=110 \time 3/4 }
-trioa  = { \break \tempo "Trio "        4=110 \key f \major }
-introc = { \break \tempo "3. Adagio "   4=50  \time 4/4 \key c \major }
+introa = {            \tempo "1. Allegro "     4=130 }
+introb = { \pageBreak \tempo "2. Menuetto I "  4=110 \time 3/4
+	   \set Score.currentBarNumber = #1 }
+trioa  = { \break     \tempo "Trio "           4=110 \key f \major }
+introc = { \pageBreak \tempo "3. Adagio "      4=50  \time 4/4 \key c \major
+	   \set Score.currentBarNumber = #1 }
+introd = { \pageBreak \tempo "4. Menuetto II " 4=110 \time 3/4
+	   \set Score.currentBarNumber = #1 }
+triob  = { \break     \tempo "Trio "           4=110 \key es \major }
 
 fine = \mark \markup \box \italic "Fine"
 mdcf = \mark \markup \box \italic "Menuetto D.C. al Fine"
-
 pdol = \markup { \dynamic p \italic " dolce" }
 pesp = \markup { \dynamic p \italic " espr." }
+simi = \markup \italic "simile"
 
 \include "v1.ily"
 \include "v2.ily"
