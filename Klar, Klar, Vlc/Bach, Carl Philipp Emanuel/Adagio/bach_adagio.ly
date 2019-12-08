@@ -6,7 +6,7 @@
 \header {
   title     = \markup \bold \italic "Adagio"
   subtitle  = "- Original in c-moll -"
-  composer  = "Carl Philipp Emanuel (1714-1788)"
+  composer  = "Carl Philipp Emanuel Bach (1714-1788)"
   arranger  = "arr.: Alain Brunet"
   enteredby = "cellist (2019-11-24)"
   piece     = "Aus der Trio-Sonate H.571 (1731)"
