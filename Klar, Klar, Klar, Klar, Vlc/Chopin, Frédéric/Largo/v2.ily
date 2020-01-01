@@ -6,14 +6,11 @@ vb = \relative c' {
   cis c d d
   d e? gis e
 
-  a\f b b8. gis16 a4
-  a gis a e
-  a d, e d
-  d es cis d \breathe
-  a'\mf b b8. gis16 a4
-
-  a as a e?
-  a d, e d
-  d es cis d
+  \repeat volta 2 {
+    a_\fmf b b8. gis16 a4
+    a gis a e
+    a d, e d
+    d es cis d \breathe
+  }
   a1 \bar "|."
 }

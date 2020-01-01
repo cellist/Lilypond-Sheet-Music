@@ -6,15 +6,12 @@ ve = \relative c {
   b es, f b
   a d, g d'
   e? a, e a
-  d,\f d' cis c
+  \repeat volta 2 {
+    d,_\fmf d' cis c
 
-  h b a g
-  f g cis, d
-  b' es, a d, \breathe
-  d\mf d' cis c
-  h b a g
-
-  f g cis, d
-  b' es, a d,
+    h b a g
+    f g cis, d
+    b' es, a d, \breathe
+  }
   d1 \bar "|."
 }

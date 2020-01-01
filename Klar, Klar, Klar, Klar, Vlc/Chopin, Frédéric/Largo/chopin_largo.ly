@@ -1,7 +1,7 @@
 \version "2.18.2"
 \include "deutsch.ly"
   
-#(set-global-staff-size 18)
+#(set-global-staff-size 20)
 
 \header {
   title     = \markup \bold \italic "Largo"
@@ -33,10 +33,7 @@ mist = "string ensemble 1"
 %miba = "cello"
 miba = "bassoon"
 
-introa = { \tempo "Allegro " 4=90 }
-
-dolc = \markup \italic "dolce"
-pdol = \markup { \dynamic p \italic " dolce" }
+fmf = \markup \center-column { \dynamic f \dynamic mf }
 
 \include "v1.ily"
 \include "v2.ily"
