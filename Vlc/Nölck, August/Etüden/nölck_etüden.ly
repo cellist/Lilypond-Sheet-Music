@@ -35,13 +35,14 @@ miba = "cello"
 mikl = "harpsichord"
 
 introa = {        \tempo "1. Allegro moderato " 4=100 }
-introb = { \break \tempo "2. Allegro vivace "  4.=80 \key c \major \time 6/8 }
+introb = { \break \tempo "2. Allegro vivace "  4.=80 \key c \major  \time 6/8 }
 introc = { \break \tempo "3. Allegretto "       4=120 \key b \major \time 3/4
 	   \set Timing.beamExceptions = #'()
 	   \set Timing.baseMoment     = #(ly:make-moment 1 4)
 	   \set Timing.beatStructure  = #'(1 1 1)
 	 }
-introd = { \break \tempo "4. Moderato "         4=80 \key c \major \time 4/4 }
+introd = { \break \tempo "4. Moderato "         4=80 \key c \major  \time 4/4 }
+introe = { \break \tempo "5. Moderato "        4.=60 \key es \major \time 9/8 }
 
 adsp = \markup \center-column { \tiny "An der Spitze."
 				\italic \tiny "A la pointe." }

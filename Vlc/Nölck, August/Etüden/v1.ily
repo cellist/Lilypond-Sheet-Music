@@ -249,4 +249,51 @@ va = \relative c' {
   c\cresc c, g g' c, c, g' g'
   c c, g g' c, c, g' g'
   <c,, g' e' c'>4\f r r2\fermata \bar "|."
+
+  \introe
+  es8(\mf-2 g-0 b-2 es-1 g-4 b)-1 \afterGrace b4.(\trill-12\sf { a16[ b]) }
+  c8( b g es c b) \afterGrace b4.(\trill\sf { a16[ b]) }
+  d,8( f b d f b) \afterGrace b4.(->\trill { a16[ b]) }
+  c8(-2 b-1 as!-4 f-1 d-0 b)-2 \afterGrace b4.(->\trill { a16[ b]) }
+
+  as!8(-1 b-2 d f d b) \afterGrace b4.(->\trill { a16[ b]) }
+  g8( b es g es b) \afterGrace b4.(->\trill { a16[ b]) }
+  b8( d f b f d) \afterGrace b4.(->\trill { a16[ b]) }
+  d8( f b d b f) \afterGrace f4.(->\trill { e16[ f]) }
+
+  es!8(-1 g-4 b-1 g es b) \afterGrace b4.(->\trill { a16[ b]) }
+  es8(-1 g-1 b-4 es-2 b g) \afterGrace es'4.(-2->\trill { d16[ es]) }
+  d8( h f d g, as) \afterGrace as4.(->\trill { g16[ as]) }
+  g8( h d f g h) \afterGrace h4.(->\trill { a16[ h]) }
+
+  c8( g es c g es)-2 \afterGrace es4.(-2->\trill { d16[ es]) }
+  d8( f as-1 c-4 d-0 f) \afterGrace f4.(->\trill { es16[ f]) }
+  g8( g, c es g c) \afterGrace c4.(->\trill { h16[ c]) }
+  g8( g, d' f g h) \afterGrace h4.(->\trill { a16[ h]) }
+
+  c,,8( es g c es g) \afterGrace c4.(->\trill { h16[ c]) }
+  c,,2. r4.
+  es8(-2\downbow g-0 b-2 es-1 g-4 b)-1 \afterGrace b4.(->\trill-12 { a16[ b]) }
+  c8( b g es c b) \afterGrace b4.(\trill\sf { a16[ b]) }
+  
+  d,8( f b d f b) \afterGrace b4.(->\trill { a16[ b]) }
+  c8(-2 b-1 as!-4 f-1 d-0 b)-2 \afterGrace b4.(->\trill { a16[ b]) }
+  as!8(-1 b-2 d f d b) \afterGrace b4.(->\trill { a16[ b]) } 
+  g8( b es g es b) \afterGrace b4.(->\trill { a16[ b]) }
+  
+  b8( d f b f d) \afterGrace b4.(->\trill { a16[ b]) }
+  d8( f b d b f) \afterGrace f4.(->\trill { e16[ f]) }
+  e!8( g c g e c) \afterGrace f4.(->\trill { e16[ f]) }
+  g8(-1 b-4 es!-2 b-4 g-1 es!-4) \afterGrace as?4.(-2->\trill { g16[ as]) }
+
+  a,8( c es-1 ges-4 es c) \afterGrace a!4.(->\trill { gis16[-1 a]-2) }
+  b8(-2 es g! b g es) \afterGrace f4.(->\trill { es16[ f]) }
+  es8( g es b g es) \afterGrace es4.(->\trill { d16[ es]) }
+  es'8(-1 as-4 es-1 ces-4 as-1 es)-2 \afterGrace es4.(->\trill { d16[ es]) }
+
+  es'8( b' g es b g) \afterGrace es4.(->\trill { d16[ es]) }
+  es'8(-1 as-4 f-1 d-0 ces-4 as)-1 \afterGrace es4.(->\trill { d16[ es]) }
+  es'8(-1 g es b g es) \afterGrace es4.(->\trill { d16[ es]) }
+  es8( g^\rit b es g-1 b)-4 \afterGrace es4.(-2->\trill { d16[ es]) }
+  es,,2.-> r4.\fermata \bar "|."
 }
