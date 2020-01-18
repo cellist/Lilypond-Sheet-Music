@@ -5,8 +5,8 @@ va = \relative c'' {
   \repeat volta 2 {
     \partial 2. b4_\fmp b8 a b c
     d4. c8 b a b4 a g
-    fis2 fis4 d' fis d
-    a'4. g8 f! e f4 e d
+    fis2 fis4 d' f! d
+    a'4. g8 f e f4 e d
 
     cis2 cis4 f2 c8 d
     e c e f g2 e \time 3/4

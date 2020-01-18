@@ -1,6 +1,5 @@
 vb = \relative c'' {
   \voiceconsts
-  \clef "tenor"
 
   \repeat volta 2 {
     \partial 2. g4_\fmp g g

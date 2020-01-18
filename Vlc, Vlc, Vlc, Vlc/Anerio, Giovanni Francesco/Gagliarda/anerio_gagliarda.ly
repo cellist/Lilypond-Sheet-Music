@@ -1,7 +1,7 @@
 \version "2.18.2"
 \include "deutsch.ly"
   
-#(set-global-staff-size 22)
+#(set-global-staff-size 20)
 
 \header {
   title     = \markup \bold \italic "Gagliarda Nr. 7"
@@ -44,7 +44,7 @@ mfp = \markup { \dynamic mf "/" \dynamic p }
 music = \new StaffGroup <<
       \new Staff {
 	\set Staff.midiInstrument = \miba
-	\set Staff.instrumentName = \markup \center-column { "Violon-" "cello I" }
+	\set Staff.instrumentName = \markup \center-column { "Violon-" "cello I"}
 	\transpose f c { \va }
       }
 
@@ -68,7 +68,20 @@ music = \new StaffGroup <<
 >>
 
 \book {
-  \score {
+\paper {
+  print-page-number = ##t
+  print-first-page-number = ##t
+  ragged-last-bottom = ##f
+  oddHeaderMarkup = \markup \null
+  evenHeaderMarkup = \markup \null
+  oddFooterMarkup = \markup {
+    \fill-line {
+      \on-the-fly #print-page-number-check-first
+      "Giovanni Francesco Anerio - Gagliarda Nr. 7" \fromproperty #'page:page-number-string
+      }
+    }
+    evenFooterMarkup = \oddFooterMarkup
+  }  \score {
     \music
     \layout {}
   }
