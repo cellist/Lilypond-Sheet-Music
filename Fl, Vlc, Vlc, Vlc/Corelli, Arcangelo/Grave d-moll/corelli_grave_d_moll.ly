@@ -4,16 +4,16 @@
 #(set-global-staff-size 20)
 
 \header {
-  title     = \markup \bold \italic "Gagliarda Nr. 7"
-  composer  = "Giovanni Francesco Anerio (1567-1630)"
-  arranger  = "arr.: Jay Lichtmann"
-  enteredby = "cellist (2018-04-21)"
-%  piece     = ""
+  title     = \markup \bold \italic "Grave"
+  composer  = "Arcangelo Corelli (1653-1713)"
+  arranger  = "arr.: Wilfried Wachter"
+  enteredby = "cellist (2020-01-29)"
+  piece     = "Trio-Sonate op. 1, Nr. 5"
 }
 
 voiceconsts = {
-  \key f \major
-  \time 6/4
+  \key d \minor
+  \time 3/2
   \clef "bass"
 %  \numericTimeSignature
   \compressFullBarRests
@@ -21,7 +21,7 @@ voiceconsts = {
 % \set Timing.beamExceptions = #'()
 % \set Timing.baseMoment     = #(ly:make-moment 1 4)
 % \set Timing.beatStructure  = #'(1 1 1)
-  \tempo "Vivace " 4=168
+  \tempo "Grave " 2=60
 }
 
 micl = "clarinet"
@@ -45,25 +45,25 @@ music = \new StaffGroup <<
       \new Staff {
 	\set Staff.midiInstrument = \mifl
 	\set Staff.instrumentName = \markup \center-column { "Flöte" }
-	\transpose f c { \va }
+	\transpose d d { \va }
       }
 
       \new Staff {
 	\set Staff.midiInstrument = \miba
 	\set Staff.instrumentName = \markup \center-column { "Violon-" "cello I" }
-	\transpose f c { \vb }
+	\transpose d d { \vb }
       }
 
       \new Staff {
 	\set Staff.midiInstrument = \miba
 	\set Staff.instrumentName = \markup \center-column { "Violon-" "cello II" }
-	\transpose f c { \vc }
+	\transpose d d { \vc }
       }
 
       \new Staff {
 	\set Staff.midiInstrument = \miba
 	\set Staff.instrumentName = \markup \center-column { "Violon-" "cello III" }
-	\transpose f c { \vd }
+	\transpose d d { \vd }
       }
 >>
 
@@ -77,7 +77,7 @@ music = \new StaffGroup <<
   oddFooterMarkup = \markup {
     \fill-line {
       \on-the-fly #print-page-number-check-first
-      "Giovanni Francesco Anerio - Gagliarda Nr. 7" \fromproperty #'page:page-number-string
+      "Arcangelo Corelli - Grave d-moll" \fromproperty #'page:page-number-string
       }
     }
     evenFooterMarkup = \oddFooterMarkup
