@@ -13,8 +13,8 @@ ve = \relative c {
    d4 r8 es fis,4 r8 d
    g4 r8 g' f!4 r8 f
 
-   es4 r8 e d c d d,
-   g4 r8 f' e4 r8 c
+   es4 r8 es d c d d,
+   g4 r8 f' e!4 r8 c
 
    f4 r8 es d4 r8 f
    b,4 r8 a g4 r8 f
