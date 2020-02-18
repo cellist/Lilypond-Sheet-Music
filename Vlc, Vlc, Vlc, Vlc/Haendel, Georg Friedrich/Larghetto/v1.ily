@@ -48,8 +48,8 @@ va = \relative c' {
 
   a8( g) \appoggiatura a g4.(\trill f8)
   f4 a\f a
-  f'2 d4
-  c4.(^\rall d8) b4
+  f'2 d4 \rall
+  c4.( d8) b4 
   a8( g) \appoggiatura a g4.(\trill f8)
   f2.\fermata \bar "|."
 }

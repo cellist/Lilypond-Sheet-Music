@@ -23,9 +23,10 @@ voiceconsts = {
 %minstr = "harpsichord"
 mihi = "clarinet"
 %minstr = "accordion"
-milo = "bassoon"
+%milo = "bassoon"
+milo = "cello"
 
-rall = \markup \bold \italic "rall."
+rall = \mark \markup \box \italic "rall."
 
 \include "v1.ily"
 \include "v2.ily"
@@ -34,7 +35,7 @@ rall = \markup \bold \italic "rall."
 
 music = \new StaffGroup <<
       \new Staff {
-	\set Staff.midiInstrument = \mihi
+	\set Staff.midiInstrument = \milo
 	\set Staff.instrumentName = \markup \center-column { "Violon-" "cello I" }
 	\transpose f f { \va }
       }
@@ -59,7 +60,20 @@ music = \new StaffGroup <<
 >>
 
 \book {
-  \score {
+   \paper {
+    print-page-number = ##t
+    print-first-page-number = ##t
+    ragged-last-bottom = ##f
+    oddHeaderMarkup = \markup \null
+    evenHeaderMarkup = \markup \null
+    oddFooterMarkup = \markup {
+      \fill-line {
+        \on-the-fly #print-page-number-check-first
+        "Georg Friedrich Händel - Larghetto in F-Dur" \fromproperty #'page:page-number-string
+      }
+    }
+    evenFooterMarkup = \oddFooterMarkup
+  } \score {
     \music
     \layout {}
   }

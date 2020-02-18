@@ -47,8 +47,8 @@ vc = \relative c {
 
   f f( c)
   a a\f a
-  a( f') f
-  c^\rall c c
+  a( f') f \rall
+  c c c
   a g( b)
   a2.\fermata \bar "|."
 }

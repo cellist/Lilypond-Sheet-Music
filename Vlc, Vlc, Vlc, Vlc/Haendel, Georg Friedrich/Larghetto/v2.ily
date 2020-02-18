@@ -48,8 +48,8 @@ vb = \relative c {
 
   a g( e')
   c f\f f
-  f( a) g~
-  g^\rall f( e)
+  f( a) g~ \rall
+  g f( e)
   f f( e)
   c2.\fermata \bar "|."
 }

@@ -47,8 +47,8 @@ vd = \relative c {
 
   f c2
   f4 f(\f e)
-  d( c) b'
-  a2(^\rall g4)
+  d( c) b' \rall
+  a2( g4)
   f c2
   f2.\fermata \bar "|."
 }
