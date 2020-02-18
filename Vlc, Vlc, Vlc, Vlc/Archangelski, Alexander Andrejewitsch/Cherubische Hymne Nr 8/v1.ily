@@ -32,8 +32,8 @@ va = \relative c' {
   d( c~
   c4) b a r
   b2 a4( g) \rit
-  f(\< d') c( b)
-  a(\!\> f e) e
+  f(\< d') c( b)\!
+  a(\> f e) e
   d1\!\fermata\pp \boxb
   
   d4(\pp f8 e) f4 g

@@ -1,18 +1,18 @@
 \version "2.18.2"
 \include "deutsch.ly"
   
-#(set-global-staff-size 18.25)
+#(set-global-staff-size 18)
 
 \header {
   title     = \markup \bold \italic "Cherubische Hymne Nr. 8"
   composer  = "Alexander Andrejewitsch Archangelski"
   arranger  = "(1846-1924)"
   enteredby = "cellist (2018-11-19)"
-  piece     = "(Original in es-moll)"
+%  piece     = ""
 }
 
 voiceconsts = {
-  \key d \minor
+  \key f \major
   \time 4/4
   \clef "bass"
 %  \numericTimeSignature
@@ -50,30 +50,43 @@ music = \new StaffGroup <<
       \new Staff {
 	\set Staff.midiInstrument = \miba
 	\set Staff.instrumentName = \markup \center-column { "Violon-" "cello I" }
-	\transpose d c { \va }
+	\transpose f es { \va }
       }
 
       \new Staff {
 	\set Staff.midiInstrument = \miba
 	\set Staff.instrumentName = \markup \center-column { "Violon-" "cello II" }
-	\transpose d c { \vb }
+	\transpose f es { \vb }
       }
 
       \new Staff {
 	\set Staff.midiInstrument = \miba
 	\set Staff.instrumentName = \markup \center-column { "Violon-" "cello III" }
-	\transpose d c { \vc }
+	\transpose f es { \vc }
       }
 
       \new Staff {
 	\set Staff.midiInstrument = \miba
 	\set Staff.instrumentName = \markup \center-column { "Violon-" "cello IV" }
-	\transpose d c { \vd }
+	\transpose f es { \vd }
       }
 >>
 
 \book {
-  \score {
+   \paper {
+    print-page-number = ##t
+    print-first-page-number = ##t
+    ragged-last-bottom = ##f
+    oddHeaderMarkup = \markup \null
+    evenHeaderMarkup = \markup \null
+    oddFooterMarkup = \markup {
+      \fill-line {
+        \on-the-fly #print-page-number-check-first
+        "Alexander Andrejewitsch Archangelski - Cherubische Hymne Nr. 8" \fromproperty #'page:page-number-string
+      }
+    }
+    evenFooterMarkup = \oddFooterMarkup
+  } \score {
     \music
     \layout {}
   }
