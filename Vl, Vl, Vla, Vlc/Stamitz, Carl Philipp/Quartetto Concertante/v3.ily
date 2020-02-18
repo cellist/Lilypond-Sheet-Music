@@ -1,7 +1,7 @@
 vc = \relative c' {
   \voiceconsts
   \clef "alto"
-  
+
   \introa
   \repeat volta 2 {
     g2\f h4 d
@@ -220,4 +220,94 @@ vc = \relative c' {
   g8. g'16 fis8. g16 d8. g16 h,8. d16
   g,2 g
   g r \bar "|."
+
+  \introb
+  R2.*4
+  a4_\dolc r g(
+  fis) r a
+  d( h) h-!
+
+  g'2( fis4)
+  d-! d( cis)\trill
+  d4. a'8^\solo \grace h16 a8 g16 fis
+  e4( fis g)
+  g( fis8) a \grace h16 a8 g16 fis
+  e4( fis g)
+  g( fis) d-!
+
+  cis-! r fis-!
+  e-! r cis^\tutt
+  d8.\fp e16 fis4 d
+  e4.( d8) cis4-!\f
+  d e e,
+  \repeat tremolo 6 a8
+  \repeat tremolo 4 h d8 d
+
+  e4 gis, gis
+  a4. e'8( fis g!)
+  \repeat tremolo 6 fis
+  \repeat tremolo 6 h,
+  e,2.~\cresc
+  e4\f ais'(\p h)
+
+  r ais( h)
+  r ais( h8.) a16
+  g8 r gis2(\f
+  a4)\p r e(
+  d e fis)
+  a, r e'
+  d( e fis)
+
+  a,8 r gis'2\cresc
+  e\fp r4
+  a, r2
+  R2.*3
+  a4_\dolc r g?(
+  fis) r a
+
+  d( h) h-!
+  g'2( fis4)
+  d d cis\trill
+  d2 r4 \boxa
+  r h( c)
+  h2 r4
+  r h( c)
+
+  h2 r4
+  g2.~
+  g4 r8 d'( c h)
+  g4( a) a-!
+  d2 r4
+  r h( c)
+  h2 r4
+
+  r h( c)
+  h2 r4
+  g2.~
+  g4 r8 d'( c h)
+  g4 d'4.( c8)
+  h4 r8 h'(^\solo a g)
+  fis4.(\fp g16 fis) h8-! a-!
+
+  a4( g8) g( h g)
+  e4.(\fp fis16 e) a8-! g-!
+  g4( fis) r
+  r fis8(^\tutt g) g( a)
+  a4( fis) r
+  r fis8( g) g( a)
+  a4( fis) r
+
+  \repeat tremolo 6 h,8
+  \repeat tremolo 6 c
+  h( c) \repeat tremolo 4 d
+  \repeat tremolo 6 h
+  \repeat tremolo 6 c
+
+  h( c) \repeat tremolo 4 d
+  g,4\f r8. g'16[ h8. g16]
+  e4 r8. e16[ g8. e16]
+  cis4 r2
+  d2.(\p
+  e4) e-! e-!
+  fis-! r2\fermata \bar "|."
 }

@@ -224,4 +224,97 @@ vb = \relative c' {
   <h d>4 <h d> <h d> <h d>
   <h d>2 <h d>
   <h d> r \bar "|."
+
+  \introb
+  d4_\dolc r a(
+  h) r a(
+  g) g g
+  a2 r4
+  fis'8.( g32 a) d,4( cis)
+  d-! d'( c)
+  c8( h) a( g) fis( e)
+
+  d4( cis!) d8. d'16
+  \grace cis h8 a16 g fis4 e\trill
+  d2 r4
+  a2.
+  d2 r4
+  a2.
+  d2 a'4-!
+
+  a-! r a-!
+  a-! r a-!
+  fis\fp h8-! cis-! d-! h-!
+  a4( gis) a8\f a
+  \repeat tremolo 4 a gis gis
+  a4 r2
+  
+  R2.*3
+  d8(_\dolc a) a4.( fis8)
+  a( g) g4.( e8)
+  cis2.~\cresc
+  cis4\f cis(\p d)
+
+  r cis( d)
+  r cis( d8.) cis16
+  h8 r h2\f
+  a8-! a'(\p gis a) g( a)
+  fis( a) e( a) d,( a')
+  cis,-! a'( gis a) g( a)
+  fis( a) e( a) d,( a')
+
+  cis, r h'2\cresc
+  d4(\f cis)\p r
+  r2 a,4(
+  h) r a(
+  g) g g
+  a2 r4
+  fis'8.( g32 a) d,4( cis)
+  d-! d'( c)
+
+  c8( h) a( g) fis( e)
+  d4( cis!) d8. d'16
+  \grace cis16 h8 a16 g fis4 e\trill
+  d2 r4 \boxa
+  r d( e)
+  d2 r4
+  r d( e)
+
+  d2 r4
+  e( c8) e( g c)
+  h4 r8 h,( c d)
+  e2 e4
+  c4. d'8^\solo \grace e16 d8 c16 h
+  a8( g) g4( \grace h8 a8.) g16-!
+  g4( d8) d' \grace e16 d8 c16 h
+
+  a8( g) g4( \grace h16 a8.) g16
+  g4( d8)[ g( \grace h16 a8 g)]
+  g4( e8) g( c e)
+  d d'( c h a g)
+  \grace fis16 e8 d16 c h4 a\trill
+  g r2
+  \repeat tremolo 6 h,8\fp^\tutt
+
+  e2 r4
+  \repeat tremolo 6 a,8\fp
+  d2 r4
+  r a'8( h) h( c)
+  c4( a) r
+  r a8( h) h( c)
+  c4( a) r
+  
+  \repeat tremolo 6 d,8
+  \repeat tremolo 6 g
+  \repeat tremolo 4 g fis fis
+  g'16(^\solo a g a) h( c h c) d( h g f)
+  dis( e) e4( g16 fis!) a( g fis e)
+
+  d( cis e cis) h4 a\trill
+  g8.^\tutt\f g'16 h8. g,16 h8. g16
+  e8. e'16 g8. e,16 g8. e16
+  cis4 r2
+  fis2.(\p
+  g4) g-! g-!
+  a-! r2\fermata \bar "|."
 }

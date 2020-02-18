@@ -1,7 +1,7 @@
 vd = \relative c {
   \voiceconsts
   \clef "bass"
-  
+
   \introa
   \repeat volta 2 {
     g2\f h4 d
@@ -213,4 +213,93 @@ vd = \relative c {
   g g' fis g g, g' fis g
   g,2 g
   g r \bar "|."
+
+  \introb
+  R2.*4
+  d'4_\dolc r a'(
+  h) r fis(
+  g) g, g'
+
+  a( ais h)
+  g a! a,
+  d4. \clef "tenor" fis'8^\solo \grace g16 fis8 e16 d
+  cis4( d e)
+  e( d8) fis \grace g16 fis8 e16 d
+  cis4( d e)
+  e( d) r
+  R2.
+  
+  r2 \clef "bass" cis,4^\tutt
+  d8.\fp e16 fis4 d
+  e4. d8 cis4\fp
+  d e e, \clef "tenor"
+  a''8(^\solo e) e4.( cis8)
+  e( d) d4.( h8)
+
+  gis16( a gis a) h( cis h cis) d( e fis d)
+  \grace e d8( cis16 d) cis4 r \clef "bass"
+  \repeat tremolo 6 d,8
+  \repeat tremolo 4 e g8 g
+  a2.\cresc
+  ais4\f ais(\p h)
+
+  r ais( h)
+  r ais( h8.) a16
+  g8 r gis2(\f
+  a4)\p r2
+  r4 a, d
+  a' r2
+  r4 a, d
+
+  a' a\cresc a
+  a4.\f g8(\p fis e)
+  d4 r2
+  R2.*3
+  d4_\dolc r a'(
+  h) r fis
+
+  g g, g'
+  a( ais h)
+  g a a,
+  d2 r4 \boxa
+  g2.~_\dolc
+  g2 r4
+  g2.~
+
+  g2 r4
+  c,2.
+  g4 r8 g'( a h)
+  c4 a c
+  d2 r4
+  g,2.~
+  g2 r4
+
+  g2.~
+  g2 r4
+  c,2.
+  g4 r8 g'( a h)
+  c4 d d,
+  g r8 \clef "tenor" g'8(^\solo fis e)
+  dis4.(\fp e16 dis) g8-! fis-!
+
+  fis4( e8) e( g e)
+  cis4.(\fp d?16 cis) fis8-! e-!
+  e4( d) r \clef "bass"
+  d,^\tutt r2
+  d,4 r2
+  d'4 r2
+  d,4 r2
+
+  g4 r g
+  c? r c
+  h8( c) d4 d,
+  g r g
+  c r c
+
+  h8( c) d4 d,
+  g\f r8. g'16[ h8. g16]
+  e4 r8. e16[ g8. e16]
+  cis4 r2
+  R2.*2
+  d4-! r2\fermata \bar "|."
 }

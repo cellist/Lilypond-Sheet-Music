@@ -1,14 +1,14 @@
 \version "2.18.2"
 \include "deutsch.ly"
   
-#(set-global-staff-size 17)
+#(set-global-staff-size 16.75)
 
 \header {
   title     = \markup \bold \italic "Quartetto Concertante"
   composer  = "Carl Philipp Stamitz (1745-1801)"
   arranger  = "arr.: Helmut Mönkemeyer"
   enteredby = "cellist (2020-01-14)"
-  piece     = "(Original in G-Dur)"
+  piece     = "(Satz I+II; Original in G-Dur)"
 }
 
 voiceconsts = {
@@ -35,9 +35,14 @@ miba = "cello"
 %miba = "bassoon"
 mikl = "harpsichord"
 
-introa = {        \tempo "1. Allegro con Spirito " 2=50 }
-introb = { \break \tempo "2. Andante grazioso "    4=70 \key d \major \time 3/4 }
+introa = {           \tempo "1. Allegro con Spirito " 2=50 }
+introb = { \pageBreak \tempo "2. Andante grazioso "   4=70
+	   \key d \major \time 3/4
+	   \set Score.currentBarNumber = #1
+	 }
 
+boxa = { \bar "||" \mark \markup \box \italic "A" \key g \major }
+dolc = \markup \bold \italic "dolce"
 solo = \markup \bold \italic "Solo"
 tutt = \markup \bold \italic "(Tutti)"
 

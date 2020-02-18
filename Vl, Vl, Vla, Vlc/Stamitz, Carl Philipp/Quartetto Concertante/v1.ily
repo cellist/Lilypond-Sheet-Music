@@ -221,4 +221,97 @@ va = \relative c' {
   h4 <d,, h' g'> <d h' g'> <d h' g'>
   <d h' g'>2 <h g'>
   <h g'> r \bar "|."
+
+  \introb
+  fis'8.(_\dolc g32 a) d,4( cis)
+  d g( fis)
+  h e,4.( fis16 g)
+  d4( \tuplet 3/2 4 { cis8) a h cis[ d e] }
+  fis8.( g32 a) d,4( cis)
+  d-! d'( c)
+  c8( h) a( g) fis( e)
+
+  d4( cis!) d8. d'16
+  \grace cis16 h8 a16 g fis4 e\trill
+  d2 r4
+  a'2.~
+  a2 r4
+  a2.~
+  a4. fis'8 \grace h16 a8 g16 fis
+
+  fis( e dis e) e8-! d( fis d)
+  d16( cis his cis) cis8 e \grace fis16 e8 d16 cis
+  h!8.\trill\fp cis16 d8-! e-! fis-! d-!
+  cis4( h) e16(\f fis gis a)
+  \grace gis16 fis8 e16 d cis4 h\trill
+  a r2
+  
+  R2.*3
+  d'8(_\dolc a) a4.( fis8)
+  a( g?) g4.( e8)
+  cis16(\cresc d cis d) e( fis e fis) g( a h g)
+  \grace a g8(\f fis) fis4(\p g)
+
+  \grace a16 g8( fis) fis4( g)
+  \grace a16 g8( fis) fis4( \grace a16 g8.) fis16
+  e8 r d4.(\f e16 d)
+  cis4 r cis'(\p
+  d8. a16) g8.( a16) fis8.( g16)
+  e4 r cis'(
+  d8. a16) g8.( a16) fis8.( g16)
+
+  e8.( a16) d4.(\cresc gis,8)
+  h4(\f a)\p r
+  fis,8.( g?32 a) d,4( cis)
+  d-! g( fis)
+  h e,4.( fis16 g)
+  d4( \tuplet 3/2 4 { cis8) a h cis[ d e] }
+  fis8.( g32 a) d,4( cis)
+  d-! d'( c)
+  
+  c8( h) a( g) fis( e)
+  d4( cis!) d8. d'16
+  \grace cis16 h8 a16 g fis4 e\trill
+  d4. d'8 \grace e16 d8 c16 h \boxa
+  a8( g) g4( \grace h16 a8.) g16-!
+  g4( d8) d'-! \grace e16 d8 c16 h
+  a8( g) g4( \grace h16 a8.) g16
+
+  g4( d8)[ g( \grace h16 a8 g)]
+  g4( e8) g( c e)
+  d-! d'( c h a g)
+  fis( e d c) h( a)
+  g4( fis) r
+  r d( e)
+  d2 r4
+
+  r d( e)
+  d2 r4
+  e( c8) e( g c)
+  h4 r8 h,( c d)
+  e( g) g g fis fis
+  g4 g, r
+  h2.~\fp
+
+  h2 r4
+  a2.~\fp
+  a4. a''8 \grace h16 a8 g16 fis
+  e8( d) d4 d
+  d4.( d'8) c16( h a g)
+  g( fis e d) d4 d
+  d2 \grace d'16 c8 h16 a
+
+  g( a g a) h( c h c) d( h g f)
+  dis( e) e4( g16 fis!) a( g fis e)
+  d( dis e c) h4 a\trill
+  \repeat tremolo 6 d,8
+  \repeat tremolo 6 g
+
+  \repeat tremolo 4 g fis fis
+  g8.\f g'16 h8. g,16 h8. g16
+  e8. e'16 g8. e,16 g8. e16
+  cis4 r2
+  a''\p g16( fis e d)
+  d8( c!) c4-! c-!
+  c-! r2\fermata \bar "|."
 }
