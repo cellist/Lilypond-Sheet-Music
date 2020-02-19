@@ -29,16 +29,20 @@ miob = "oboe"
 mifh = "french horn"
 misx = "tenor sax"
 mist = "string ensemble 1"
-miba = "cello"
+%miba = "cello"
 %miba = "bassoon"
 %miba = "pizzicato strings"
+miba = "harpsichord"
 
-introa = {        \tempo "1. Adagio "     4=50 }
-introb = { \break \tempo "2. Allegretto " 4=110 }
-introc = { \break \tempo "3. Allegro    " 4=120 }
-introd = { \break \tempo "4. Allegro    " 4=120 }
+introa = {           \tempo "1. Adagio "     4=50 }
+introb = { \bar "||" \tempo "2. Allegretto " 4=110 }
+introc = { \bar "||" \tempo "3. Allegro    " 4=120 }
+introd = { \bar "||" \tempo "4. Allegro    " 4=120 }
+introe = { \bar "||" \tempo "5. Allegro    " 4=120 }
+introf = { \bar "||" \tempo "6. Allegro    " 4=120 }
 
 arco = \markup \bold \italic "arco"
+attc = \mark \markup \box \italic "attaca"
 pizz = \markup \bold \italic "pizz."
 solo = \markup \bold \italic "Solo"
 

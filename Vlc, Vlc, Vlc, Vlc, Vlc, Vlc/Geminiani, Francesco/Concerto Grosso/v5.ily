@@ -19,7 +19,7 @@ ve = \relative c {
   a8. g16 a8. b16 a8. b16
   g8. f16 g8. a16 f8. e16
   f8. e16 e2
-  a,2. \bar "|."
+  a,2.
 
   \introb
   d'4\f f, d
@@ -38,7 +38,7 @@ ve = \relative c {
   r a d
   b4. a8 g[ a]
   f( e) e4. d8
-  d2. \bar "|."
+  d2.
 
   \introc
   a'\mp
@@ -57,7 +57,7 @@ ve = \relative c {
   f
   e2 e4
   f8( g) e2
-  d2. \bar "|."
+  d2.
 
   \introd
   \clef "bass" R
@@ -77,5 +77,44 @@ ve = \relative c {
   \tuplet 3/2 4 { f8( a f) c([ f c]) a( f' a) }
   g4~ \tuplet 3/2 4 { g8 a e f([ g e]) }
   \tuplet 3/2 4 { f( g e) } e4. d8
-  d2. \bar "|."
+  d2.
+
+  \introe
+  \clef "bass" r4 a2\p
+  r4 <cis, a'>2
+  r4 a'2
+  r4 <e c'?>2
+  r4 c'2
+  r4 <e, c'>2
+  r4 a2
+  r4 <cis, a'>2
+
+  r4 a'2
+  r4 <cis, a'>2
+  r4 a'2
+  r4 <e c'?>2
+  r4 a2
+  h4\mf g' f~
+  f e2 \attc
+  d2.
+
+  \introf
+  d8\f d, f a f d
+  a' a, cis e cis a
+  d' d, f a f d
+  c'? c, e g e c
+  f' f, a c a f
+
+  c' c, e g e c
+  d' d, f a f d
+  a' a, cis e cis a
+  d' d, f a f d
+  a' a, cis e cis a
+
+  d' d, f a f d
+  c'? c, e g e c
+  f' f, a c a f
+  h, g' cis, a' f d'
+  g, b a4 a,
+  d2.
 }

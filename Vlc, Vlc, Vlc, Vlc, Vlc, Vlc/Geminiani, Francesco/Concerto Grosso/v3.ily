@@ -19,7 +19,7 @@ vc = \relative c' {
   R2.
   <g g'>4 a2
   d,2.
-  \bar "|."
+ 
 
   \introb
   \clef "tenor" r4 a''\f d~
@@ -39,7 +39,7 @@ vc = \relative c' {
   g f4
   b, a2
   a2.
-  \bar "|."
+ 
 
   \introc
   \clef "bass" d,\f
@@ -58,7 +58,7 @@ vc = \relative c' {
   f a, f' a f c?
   e c e g f e
   d2 cis4
-  <f, d'>2. \bar "|."
+  <f, d'>2.
 
   \introd
   R
@@ -78,5 +78,43 @@ vc = \relative c' {
   c c f
   d\f e d~
   d cis2
-  d2. \bar "|."
+  d2.
+
+  \introe
+  d4^\pizz\mf d, r
+  cis' cis, r
+  d' d, r
+  e' e, r
+  f' f, r
+  e' e, r
+  d' d, r
+
+  cis' cis, r
+  d' d, r
+  cis' cis, r
+  d' d, r
+  e' e, r
+  f' a, c,?
+  g'2 f4
+  d cis2 \attc
+  <d, a'>2.
+
+  \introf
+  <f' d'>^\arco\mf
+  <e cis'>
+  <f d'>
+  <g e'>
+  <a f'>
+  <g e'>
+  <f d'>
+  <e cis'>
+
+  a
+  a
+  a
+  c?
+  c
+  g4 e a
+  d, cis2
+  <d a'>2.
 }

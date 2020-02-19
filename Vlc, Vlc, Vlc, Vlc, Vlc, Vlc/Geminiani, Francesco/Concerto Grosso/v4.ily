@@ -19,8 +19,7 @@ vd = \relative c' {
   e4. e8 f4
   d d4. cis8
   d2.
-  \bar "|."
-
+  
   \introb
   r4 a\f d~
   d a2
@@ -38,7 +37,7 @@ vd = \relative c' {
   c,,2 a'4
   d4. e8 d4~
   d cis2
-  d2. \bar "|."
+  d2.
 
   \introc
   a~\mp
@@ -57,7 +56,7 @@ vd = \relative c' {
   a f a f c a'
   g e g b a g
   f( e) e4. d8
-  d2. \bar "|."
+  d2.
 
   \introd
   \clef "bass" R
@@ -77,5 +76,43 @@ vd = \relative c' {
   c
   g4\f e a~
   a8. b16 a4 a,
-  a2. \bar "|."
+  a2.
+
+  \introe
+  \clef "bass" r4 d,^\pizz\mf d,
+  r a'' a,
+  r d d,
+  r c' c,
+  r f' f,
+  r c' c,
+  r d' d,
+  r a'' a,
+
+  r d d,
+  r a'' a,
+  r d d,
+  r c' c,
+  r f f'
+  g e d
+  g, a a' \attc
+  <d, a'>2.
+
+  \introf
+  a'^\arco\mf
+  a
+  a
+  c
+  c
+  c
+  a
+  a
+
+  <f d'>
+  <e cis'>
+  <f d'>
+  <g e'>
+  <a f'>
+  d4 a d
+  b e,2
+  f2.
 }

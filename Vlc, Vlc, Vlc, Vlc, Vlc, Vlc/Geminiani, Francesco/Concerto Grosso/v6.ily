@@ -19,7 +19,6 @@ vf = \relative c, {
   c4. a8 a4
   b a2
   d,2.
-  \bar "|."
 
   \introb
   d4\f f, d
@@ -38,7 +37,7 @@ vf = \relative c, {
   r4 \clef "treble" a d
   b4. a8 g[ a]
   f( e) e4. d8
-  d2. \bar "|."
+  d2.
 
   \introc
   d\mp
@@ -57,7 +56,7 @@ vf = \relative c, {
   c
   c2 a4
   a8( b) a2
-  a2. \bar "|."
+  a2.
 
   \introd
   \clef "bass" r4 a,,^\pizz\mf d
@@ -77,5 +76,44 @@ vf = \relative c, {
   a2 r4
   \tuplet 3/2 4 { h8( d h) cis([ e cis]) d( e cis) }
   \tuplet 3/2 4 { d( b g) } a4 a,
-  d2. \bar "|."
+  d2.
+
+  \introe
+  r4 f2\p
+  r4 e2
+  r4 f2
+  r4 g2
+  r4 a2
+  r4 g2
+  r4 f2
+  r4 e2
+
+  r4 f2
+  r4 e2
+  r4 f2
+  r4 g2
+  r4 f2
+  g4\mf e d
+  g, a2 \attc
+  d,2.
+
+  \introf
+  d''8\f d, f a f d
+  a' a, cis e cis a
+  d' d, f a f d
+  c'? c, e g e c
+  f' f, a c a f
+
+  c' c, e g e c
+  d' d, f a f d
+  a' a, cis e cis a
+  d' d, f a f d
+  a' a, cis e cis a
+
+  d' d, f a f d
+  c'? c, e g e c
+  f' f, a c a f
+  h, g' cis, a' d, d
+  g, b a4 a
+  d,2.
 }

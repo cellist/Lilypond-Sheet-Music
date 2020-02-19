@@ -19,7 +19,7 @@ vb = \relative c {
   c
   c4. cis8 d4~
   d e2
-  f2. \bar "|."
+  f2.
 
   \introb
   f'\mp
@@ -38,7 +38,7 @@ vb = \relative c {
   f fis2
   g4. cis8 d4
   g, a2
-  <d, a'>2. \bar "|."
+  <d, a'>2.
 
   \introc
   f'8\f d f d' f, d'
@@ -57,7 +57,7 @@ vb = \relative c {
   c~
   c2 e4
   a,8( b) a2
-  <d, a'>2. \bar "|."
+  <d, a'>2.
 
   \introd
   R
@@ -77,5 +77,44 @@ vb = \relative c {
   a'2.
   h4\f cis d
   d8 g, a4 a
-  <d, a'>2. \bar "|."
+  <d, a'>2.
+
+  \introe
+  f''4^\pizz\mf f, r
+  e' e, r
+  f' f, r
+  g' g, r
+  a' a, r
+
+  g' g, r
+  f' f, r
+  e' e, r
+  f' f, r
+  e' e, r
+
+  f' f, r
+  g' g, r
+  a' r2
+  \tuplet 3/2 4 { b,,8(^\arco d g) cis,([ e a]) d,( f a) }
+  \tuplet 3/2 4 { g,( f' d') } e,2 \attc
+  f2.
+
+  \introf
+  r4 d' d,
+  r cis' a,
+  r d' d,
+  r e' c,?
+  r f' f,
+  r e' c,
+  r d' d,
+  r cis' a,
+
+  r d' d,
+  r cis' a,
+  r d' d,
+  r e' c,?
+  r f' f,
+  r e' d
+  d cis2
+  d2.
 }
