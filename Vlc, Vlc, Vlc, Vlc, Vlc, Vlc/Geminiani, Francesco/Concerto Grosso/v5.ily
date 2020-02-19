@@ -117,4 +117,61 @@ ve = \relative c {
   h, g' cis, a' f d'
   g, b a4 a,
   d2.
+
+  \introg
+  f4^\pizz d2
+  cis4 e2
+  f4 d2
+  e4 c2
+  c4 f2
+  e4 c2
+  a4 d2
+  cis2.
+
+  f4 f2
+  e4 a2
+  f4 a h
+  g c2
+  c4 a2
+  g e4
+  f8 g e2 \attc
+  f2.
+
+  \introh
+  f'2^\pizz\mf r4
+  e cis, r
+  f'2 r4
+  g e, r
+  a'2 r4
+  g e, r
+  f'2 r4
+  e cis, r
+
+  f'2 r4
+  e cis, r
+  f'2 r4
+  g e, r \clef "tenor"
+  a'2 r4
+  b \clef "bass" g,, r
+  e''2 r4
+  f d,2
+
+  \introi
+  <f d'>4^\arco\mf d'2
+  a4 cis <e, a>
+  <d a'> d' h
+  <e, c'?> g e
+  f c' a
+  g c e
+  d2 d4
+  <e, cis'>2.
+
+  <f d'>4\pp a f
+  e2.
+  f4 d' h
+  c2 e,4
+  a c a
+  <e c'>2 cis'4
+  <f, d'>2 <e cis'>4
+  <f d'>2.
 }

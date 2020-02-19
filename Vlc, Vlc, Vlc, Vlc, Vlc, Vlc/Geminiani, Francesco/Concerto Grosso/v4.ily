@@ -115,4 +115,62 @@ vd = \relative c' {
   d4 a d
   b e,2
   f2.
+
+  \introg
+  a4^\pizz f2
+  e4 a2
+  a4 f2
+  g4 e2
+  f4 f2
+  g4 e2
+  d4 d2
+  e2.
+
+  f4 a2
+  a4 cis2
+  a4 d2
+  c?4 e2
+  f4 c2
+  c a4
+  a8 b a2 \attc
+  a2.
+
+  \introh
+  a^\arco\p
+  cis
+  a
+  c?
+  c
+  c2 cis,4
+  <d a'>2 <d a'>4
+  cis2 a'4
+
+  a2.
+  cis
+  a
+  c?
+  c
+  b2 d4
+  cis2 <e, cis'>4
+  <f d'>2.
+
+  \introi
+  R
+  e'8(\f g) cis,( e) a,( cis)
+  a2 r4
+  e'8( g) c,?( e) g,( b)
+  f2 r4
+  e'8( g) c,( e) a( e)
+
+  d2 r4
+  cis8( e) a,( e) cis( a)
+  R2.
+  e''8^\solo\mp f16( g) cis,8 e, cis a
+  d4 r2
+
+  e'8 f16( g) c,?8 g e c
+  f4 r2
+  e'8 f16( g) c,8 g e a
+  a4 b e,
+  f2.
 }

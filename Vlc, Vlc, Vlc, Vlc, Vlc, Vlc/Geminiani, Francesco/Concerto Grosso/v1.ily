@@ -117,4 +117,64 @@ va = \relative c' {
   r g' f
   b, e2
   d2.
+
+  \introg
+  \clef "treble" d16\mf f a f d f a f d f a f
+  cis e a e cis e a e cis e a e
+  d f a f d f a f h, f' g f
+
+  c? e g e c e g e b e g e
+  f a c a f a c a f a g f
+  e g c g e g c g e g f e
+
+  f a, h cis d cis d e d f e d
+  cis a cis e cis a cis e cis a cis e
+  d f a f d f a f d f a f
+
+  cis e a e cis e a e cis e a e
+  d f a f d f a f h, f' g f
+  c? e g e c e g e b e g e
+
+  f a c a f a c a f a g f
+  e g c g e g c g e g f e \clef "bass"
+  f d cis d a d cis d e, d' cis d \attc
+  d,2.
+
+  \introh
+  d,4^\pizz\mf r d
+  a' r a
+  d, r d
+  c r c
+  f r f
+  c r cis
+  d r d
+  a' r a
+
+  d, r d
+  a' r a
+  d, r d
+  c? r c
+  f r f
+  g r g
+  a r a
+  <d, a'>2.
+
+  \introi
+  d'4^\pizz\mf f d
+  cis a cis
+  d f d
+  c? e c
+  f a f
+  c e cis
+  d b2
+  a2.
+
+  d4\pp f d
+  cis a cis
+  d f d
+  c? e c
+  f a f
+  c e cis
+  d g a
+  d,2.
 }

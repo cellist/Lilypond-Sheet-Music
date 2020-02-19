@@ -116,4 +116,61 @@ vf = \relative c, {
   h, g' cis, a' d, d
   g, b a4 a
   d,2.
+
+  \introg
+  d'4^\pizz\p d,2
+  a''4 a,2
+  d4 d,2
+  c'4 c,2
+  f'4 f,2
+  c'4 c,2
+  d4 <d b'>2
+  <cis a'>2.
+
+  d'4 d,2
+  a''4 a,2
+  d4 d,2
+  c'?4 c,2
+  f'4 f,2
+  c cis4
+  d8 g a2 \attc
+  <d, a'>2.
+
+  \introh
+  d''2^\pizz\mf r4
+  c a, r
+  d'2 r4
+  e c, r
+  f'2 r4
+  e c, r
+  d'2 r4
+  cis a, r
+
+  d'2 r4
+  cis a, r
+  d'2 r4
+  e c,? r
+  f'2 r4
+  g b,, r
+  cis'2 r4
+  d, d,2
+
+  \introi
+  a''2^\arco\mp f4
+  e2 g4
+  f a f
+  g c b
+  <c, a'> f,2
+  e'4 g <e a>
+  <f a>2 g,4
+  a2.
+
+  a'4\pp d,2
+  a'4 cis a
+  a2 f4
+  e g b
+  c,? f,2
+  c'4 g <a e'>
+  <a f'> <g b'> a
+  <d, a'>2.
 }

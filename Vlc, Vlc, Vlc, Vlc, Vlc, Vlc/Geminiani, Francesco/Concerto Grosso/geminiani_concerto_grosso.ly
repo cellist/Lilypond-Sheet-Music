@@ -34,12 +34,15 @@ mist = "string ensemble 1"
 %miba = "pizzicato strings"
 miba = "harpsichord"
 
-introa = {           \tempo "1. Adagio "     4=50 }
-introb = { \bar "||" \tempo "2. Allegretto " 4=110 }
-introc = { \bar "||" \tempo "3. Allegro    " 4=120 }
-introd = { \bar "||" \tempo "4. Allegro    " 4=120 }
-introe = { \bar "||" \tempo "5. Allegro    " 4=120 }
-introf = { \bar "||" \tempo "6. Allegro    " 4=120 }
+introa = {           \tempo "1. Adagio "                    4=50 }
+introb = { \bar "||" \tempo "2. Allegretto "                4=110 }
+introc = { \bar "||" \tempo "3. Allegro "                   4=120 }
+introd = { \bar "||" \tempo "4. Allegro "                   4=120 }
+introe = { \bar "||" \tempo "5. Allegro "                   4=120 }
+introf = { \bar "||" \tempo "6. Allegro "                   4=120 }
+introg = { \bar "||" \tempo "7. Allegro [poco meno mosso] " 4=100 }
+introh = { \bar "||" \tempo "8. Allegro [poco meno mosso] " 4=100 }
+introi = { \bar "||" \tempo "9. Andante "                   4=70 }
 
 arco = \markup \bold \italic "arco"
 attc = \mark \markup \box \italic "attaca"

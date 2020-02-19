@@ -117,4 +117,64 @@ vb = \relative c {
   r e' d
   d cis2
   d2.
+
+  \introg
+  d4^\solo\mf d,2
+  a'4 a,2
+  d'4 d,2
+  c'4 c,2
+  f'4 f,2
+  c'4 c,2
+  d'4 b,2
+  a2.
+
+  d'4 d,2
+  a'4 a,2
+  d'4 d,2
+  c'4 c,2
+  f'4 f,2
+  c' cis,4
+  d8 g, a2 \attc
+  d,2.
+
+  \introh
+  d'16^\solo\f f a f d f a f d f e d
+  a' cis e cis a cis e cis a cis h a
+  d, f a f d f a f d f e d
+
+  c? e g e c e g e c e d c
+  f a c a f a c a f a g f
+  c e g e c e g e cis e d cis
+
+  d f a f d f a f d f e d
+  a cis e cis a cis e cis a cis h a
+  d f a f d f a f d f e d
+
+  a' cis e cis a cis e cis a cis h a
+  d, f a f d f a f d f e d
+  c? e g e c e g e c e d c
+
+  f a c a f a c a f a g f
+  g b d b g b d b g b a g
+  a cis e cis a cis e cis a cis h! a
+  d2.
+
+  \introi
+  d,,4^\pizz\mf f d
+  cis a' cis,
+  d f d
+  c? e c
+  f a f
+  <c g'> e <cis a'>
+  <d a'> b'2
+  a2.
+
+  d,4\pp f d
+  cis a' cis,
+  d f d
+  c? e c
+  f a f
+  c e a
+  d, g a
+  d,2.
 }

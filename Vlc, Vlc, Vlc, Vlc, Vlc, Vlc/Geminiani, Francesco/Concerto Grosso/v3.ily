@@ -117,4 +117,61 @@ vc = \relative c' {
   g4 e a
   d, cis2
   <d a'>2.
+
+  \introg
+  d'4^\pizz\p a2
+  a4 cis2
+  d4 a h
+  c? g2
+  a4 c2
+  a4 g2
+  f4 g2
+  a2.
+
+  a4 d2
+  cis4 e2
+  d4 f2
+  e4 g2
+  a4 f2
+  e e4
+  d2 cis4 \attc
+  d2.
+
+  \introh
+  <f, d'>\p
+  <a e'>
+  <f d'>
+  <g e'>
+  <a f'>
+  <g e'>2 <a e'>4
+  <f d'>2 f4
+  <e a>2 <e cis'>4
+
+  <f d'>2.
+  <a e'>
+  <f d'>
+  <g e'>
+  <a f'>
+  <g d'>2 <b e>4
+  <a e'>2 a4
+  a2.
+
+  \introi
+  d8(\f f) a,( d) f,( a)
+  a2 r4 \clef "tenor"
+  f'8( a) d,( f) h,( d)
+  c2 r4
+  a'8( c) f,( a) c,( f)
+  c2 r4 \clef "bass"
+
+  f8( a) d,( f) b,( d)
+  a2 r4 f'8^\solo\mp g16( a) d,8 a f d
+  a'4 r2
+  f'8 g16( a) d,8 a f d
+
+  g4 r2 \clef "tenor"
+  a'8 b16( c) f,8 c a f
+  g4 r2 \clef "bass"
+  f8 a d16 f,( e d) a8 d'16( cis)
+  d4 d,2
 }
