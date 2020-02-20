@@ -211,4 +211,36 @@ vd = \relative c' {
   r f a
   r a cis,
   d4.
+
+  \introl
+  \clef "bass" d8^\arco\f d, f d a' a, cis a
+  d e f d c! b a g
+  f g a h! c d e cis
+  d e f g a h cis a
+
+  d\p d, f d a' a, cis a
+  d e f d c! b a g
+  f g a f g a b g
+  a g a a d,2
+
+  \introm
+  r8 a''^\pizz\mp d,4 r8 e' a,4
+  r8 a d,4 r8 c' f,4
+  r8 c' f,4 r8 g c,4
+  r8 f' b,4 r8 e a,4
+
+  r8 a\p f4 r8 e' a,4
+  r8 a d,4 r8 c' f,4
+  r8 c' f,4 r8 g c,4
+  r <e a> <f a>2
+
+  d4.^\arco r a r
+  d r c r
+  f r c r
+  b r a r
+
+  d, r a' r
+  d r c r
+  f, r c'~ \tuplet 2/3 4. { c8 cis }
+  \tuplet 2/3 4. { d g, } a4. d,2.
 }

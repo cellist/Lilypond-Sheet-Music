@@ -217,4 +217,38 @@ vb = \relative c {
   r a a
   r a a
   a4.
+
+  \introl
+  \clef "bass" a,4.^\arco\f a8 a2
+  a4. a8 c2
+  c4. d8 g,4. e8
+  a4. h8 cis2
+
+  a4.\p a8 a2
+  a4. a8 c?2
+  c4. c8 d cis f, b
+  a2 f
+
+  \introm
+  R1
+  f16\f d a d f g a h c g c e, g b a g
+  R1
+
+  b16 f b, c d e f g a e a cis, e g f e
+  R1
+  f16\mf a, d e f g a h? c? g c e, g b a g
+
+  R1
+  f16 e f g e d e f d2
+
+  \intron
+  \clef "tenor" f'2._\psov e
+  f g
+  f e
+  f a
+
+  f e
+  f g
+  a g4.~ \tuplet 2/3 4. { g8 a }
+  \tuplet 2/3 4. { a b } a4. a2.
 }

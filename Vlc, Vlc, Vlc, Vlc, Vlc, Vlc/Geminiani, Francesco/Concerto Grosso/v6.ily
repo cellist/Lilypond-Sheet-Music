@@ -211,4 +211,37 @@ vf = \relative c, {
   d, f' d
   g, a cis'
   <d,, a' f' d'>4.
+
+  \introl
+  \clef "tenor" f''4.^\arco\f f8 e2
+  f4. f8 g2
+  a4. a8 g2
+  f4. f8 e2
+
+  f4.\p f8 e2
+  f4. f8 g2
+  a4. a8 g4 f8 e
+  f4 e d2
+
+  \introm
+  r8 a^\pizz\mf d f r a, cis e
+  r a, d f r c! e g
+  r c, f a r c, e g
+  r b, d f r a, cis e
+
+  r a,\p d f r a, cis e
+  r a, d f r c! e g
+  r c, f a r c, e g
+  f4 e d2
+  
+  \intron
+  \clef "bass" d8^\solo^\arco\f a f d a' d cis e,16( d cis h) a8 a' cis
+  R1.
+  f8 c? a f c' f e g,16( f e d) c8 c' e
+  R1.
+
+  d8 a f d a' d cis e,16( d cis h) a8 a' cis
+  R1.
+  f8 c? a f c' f e g,16( f e d) c8 c' e
+  d f, d a d' cis d,2.
 }

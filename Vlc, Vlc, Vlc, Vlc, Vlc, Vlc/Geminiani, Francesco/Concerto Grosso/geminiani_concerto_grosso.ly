@@ -43,12 +43,16 @@ introf = { \bar "||" \tempo  "6. Allegro "                   4=120 }
 introg = { \bar "||" \tempo  "7. Allegro [poco meno mosso] " 4=100 }
 introh = { \bar "||" \tempo  "8. Allegro [poco meno mosso] " 4=100 }
 introi = { \bar "||" \tempo  "9. Andante "                   4=70 }
-introj = { \bar "||" \tempo "10. Vivace "                    4=140 }
+introj = { \bar "||" \tempo "10. Vivace "                    4=130 }
 introk = { \bar "||" \tempo "11. Allegro "                  4.=80 \time 3/8 }
+introl = { \bar "||" \tempo "12. Andante "                   4=70 \time 4/4 }
+introm = { \bar "||" \tempo "13. Allegro [ben moderato] "    4=90 }
+intron = { \bar "||" \tempo "13. Allegro [ben moderato] "   4.=60 \time 12/8 }
 
 arco = \markup \bold \italic "arco"
 attc = \mark \markup \box \italic "attaca"
 pizz = \markup \bold \italic "pizz."
+psov = \markup { \dynamic p \italic " (sotto voce)" }
 solo = \markup \bold \italic "Solo"
 tutt = \markup \bold \italic "(tutti)"
 

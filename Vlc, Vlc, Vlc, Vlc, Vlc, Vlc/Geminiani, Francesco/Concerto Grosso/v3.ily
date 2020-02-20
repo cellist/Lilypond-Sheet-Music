@@ -213,4 +213,39 @@ vc = \relative c' {
   d,8 d'4
   g,,8 e''4
   <d, f'>4.
+
+  \introl
+  d'8^\arco\f d, f d a' a, cis a
+  d e f d c! b a g
+  f g a h! c d e cis
+  d e f g a h cis a
+
+  d\p d, f d a' a, cis a
+  d e f d
+  c! b a g
+  f g a f g a b g
+  a g a a d2
+
+  \introm
+  d'8^\pizz\mf d, r d' cis a,
+  r cis'
+  d d, r d' e c,! r e'
+  f f, r f' e c, r e'
+  d b, r d' cis a, r4
+
+  d'8\p d, r d' cis a, r cis'
+  d d, r d' e c,! r e'
+  f f, r f' e c, r e'
+  d f, a, cis' d2
+
+  \intron
+  d2.^\arco_\psov cis
+  d e
+  c? c
+  d e
+
+  d cis
+  d e
+  f e4.~ \tuplet 2/3 4. { e8 e }
+  f4. e f2.
 }

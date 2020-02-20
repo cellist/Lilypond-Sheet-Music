@@ -216,4 +216,36 @@ va = \relative c' {
   r f d
   r a cis
   <f, d'>4.
+
+  \introl
+  r2 a4^\arco\f a,
+  r2 c'4 c,
+  r2 c'4 c,8 e
+  a4. h8 a4 a,
+  r2 a'4\p a,
+  r2 c'4 c,
+  R1
+  a4 a' a2
+
+  \introm
+  d,16\f a f a d e f g a e a cis, e g f e
+  R1
+  a16 f c? f a g a h c g c, d e f g a
+  R1
+
+  f16\mf d f a d e, f g a e a cis, e g f e
+  R1
+  a16 f c? f a g a h c g e f g b a g
+  \clef "treble" d'8 g a4 a2
+
+  \intron
+  a2._\psov a
+  a c
+  a g
+  d' cis
+
+  a a
+  a c?
+  c c4.~ \tuplet 2/3 4. { c8 e }
+  d4.~ d4 cis8 d2.
 }

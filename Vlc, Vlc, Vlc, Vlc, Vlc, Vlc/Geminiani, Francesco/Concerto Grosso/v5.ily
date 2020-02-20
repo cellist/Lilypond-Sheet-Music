@@ -212,4 +212,38 @@ ve = \relative c {
   r f a
   r a cis
   <d, d'>4.
+
+  \introl
+  d'4.^\arco\f d8 cis2
+  d4. d8 e2
+  f4. f8 e2
+  d4. d8 cis2
+
+  d4.\p d8 cis2
+  d4. d8 e2
+  f4. a,8 h[ cis] d4~
+  d cis d2
+
+  \introm
+  d,,4^\mf r a' r
+  d, r c' r
+  f, r c' r
+  b r a r
+
+  d,\p r a' r
+  d, r c' r
+  f, r c'4. cis8
+  d b a4 <d, a'>2
+
+  \intron
+  R1.
+  d''8^\solo\f a f d d' f e g,16( f e d) c8 c' e
+
+  R1.
+  d8 f, d b d' e cis e,16( d cis h!) a8 a' cis
+  R1.
+
+  d8 a f d d' f e g,16( f e d) c?8 c' e
+  R1.
+  d4.~ d4 cis8 d2.
 }
