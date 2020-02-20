@@ -174,4 +174,43 @@ vc = \relative c' {
   g4 r2 \clef "bass"
   f8 a d16 f,( e d) a8 d'16( cis)
   d4 d,2
+
+  \introj
+  d'16^\tutt\mf a f a d,4 r
+  a'16 e cis e a,4 r
+  d'16 a f a d,4 r
+  c'?16 g e g c,4 r
+  f'16 c a c f,4 r
+
+  c'16 g e g c,4 r
+  d'16 a f a d,4 r
+  a''16 e cis e a,4 r
+  d16\f a f a d,4 r
+  a'16 e cis e a,4 r
+
+  d'16 a f a d,4 r
+  c'?16 g e g c,4 r
+  f'16 c a c a4 r
+  g'16 d b d g,8[ cis] d d \attc
+  d g, a4 a,
+
+  \introk
+  <d, a'>4.^\pizz\f
+  a'8 a'4
+  d,,8 d'4
+  e,8 g'4
+  f,8 f'4
+  c8 e'4
+  d,8 d'4
+  b,8 d'4
+  a,8 e''4
+
+  cis,,8 e'4
+  d,8 d'4
+  e,8 g'4
+  f,8 a'4
+  c,8 e'4
+  d,8 d'4
+  g,,8 e''4
+  <d, f'>4.
 }

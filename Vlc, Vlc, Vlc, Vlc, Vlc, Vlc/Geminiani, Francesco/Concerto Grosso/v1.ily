@@ -176,5 +176,44 @@ va = \relative c' {
   f a f
   c e cis
   d g a
-  d,2.
+  d,2. \clef "tenor"
+
+  \introj
+  r4. f'8^\arco\mf a d,,
+  cis4 r8 e' a e
+  f4 r8 f a f,
+  e4 r8 g c? g
+  a4 r8 c f f,
+
+  e4 r8 e' g e
+  f a, d a e d'
+  cis e cis d e a
+  a2.~\f
+  a~
+
+  a
+  c?~
+  c
+  b4. a8 g[ e] \clef "bass" \attc
+  d b a4 a
+
+  \introk
+  <f d'>4.^\pizz\f
+  r8 e' cis
+  r a b
+  r c? e
+  r c a
+  r a cis
+  r d d
+  r b g
+  r a a
+
+  r cis a
+  r a b
+  r c? e
+  r c a
+  r a cis
+  r f d
+  r a cis
+  <f, d'>4.
 }

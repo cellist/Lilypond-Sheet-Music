@@ -157,7 +157,7 @@ ve = \relative c {
   f d,2
 
   \introi
-  <f d'>4^\arco\mf d'2
+  <f d'>4^\arco\mp d'2
   a4 cis <e, a>
   <d a'> d' h
   <e, c'?> g e
@@ -174,4 +174,42 @@ ve = \relative c {
   <e c'>2 cis'4
   <f, d'>2 <e cis'>4
   <f d'>2.
+
+  \introj
+  f2^\pizz\p a4
+  <e cis'>2 <e a>4
+  <f a>2 <d a'>4
+  c?2 g'4
+  <f a>2 c'4
+  g2 g4
+  f2 d4
+  cis4. d8 e4
+  d8\f a d f a4
+
+  r8 a, cis e cis a
+  r a d f a4
+  r8 c,? e g e c
+  r c f a f a
+  d4. e8 d[ cis] \attc
+  <f, d'>4 <e cis'>2
+
+  \introk
+  r8 a^\pizz\f d
+  r e, g
+  r f b
+  r g c
+  r f, a
+  r e g
+  r f a
+  r b d
+
+  r cis e
+  r e, g
+  r f b
+  r g c?
+  r f, a
+  r e g
+  r f a
+  r a cis
+  <d, d'>4.
 }

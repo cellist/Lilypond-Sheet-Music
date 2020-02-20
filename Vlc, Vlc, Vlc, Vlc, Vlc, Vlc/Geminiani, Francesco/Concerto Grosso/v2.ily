@@ -177,4 +177,44 @@ vb = \relative c {
   c e a
   d, g a
   d,2.
+
+  \introj
+  d''4^\arco\mf r16 d, f d f d f d
+  a'4 r16 a, cis a cis a cis a
+  d4 r16 d f d f d f d
+  c?4 r16 c e c e c e c
+
+  f4 r16 f a f a f a f
+  c'4 r16 c, e c e c e c
+  d4 r16 d' f d b g b g
+  a4. h!8 cis[ a]
+
+  d,4\f r16 d' a d a d a d
+  cis4 r16 a e a e a e a
+  f4 r16 f' d f d f d f
+
+  e4 r16 c g c g c g c
+  a4 r16 f' c f c f c f
+  b,4. a8 g[ a] \attc
+  <f d'>4 <e cis'>2
+
+  \introk
+  <a, f'>4.^\pizz\f
+  r8 \clef "tenor" a'' a
+  r f g
+  r g g
+  r f f
+  r e e
+  r a a
+  r d, d
+  r e e
+
+  r e cis
+  r f g
+  r g g
+  r f f
+  r e e
+  r a a
+  r a a
+  a4.
 }

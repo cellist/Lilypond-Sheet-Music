@@ -173,4 +173,42 @@ vf = \relative c, {
   c'4 g <a e'>
   <a f'> <g b'> a
   <d, a'>2.
+
+  \introj
+  <d' a'>2^\pizz\p f,4
+  a2 cis,4
+  d2 f4
+  c?2 e4
+  f2 a4
+  c2 e4
+  d2 b4
+  a4. h!8 cis[ a]
+
+  d4\f d,2
+  <a' e'> r4
+  d d,2
+  <c g'> r4
+  f' f,2
+  <g d'>4. cis8 d[ cis] \attc
+  d g, a4 a
+
+  \introk
+  <d a'>4.^\pizz\f
+  a8 cis' a
+  d, d' g,
+  e e' c?
+  f, c' a
+  c,, cis' a
+  d, f' d
+  b g' b,
+  a a' a,
+
+  cis cis' a
+  d, d' g,
+  e e' c?
+  f, c' f
+  c,,! cis' a
+  d, f' d
+  g, a cis'
+  <d,, a' f' d'>4.
 }

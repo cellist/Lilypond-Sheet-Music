@@ -173,4 +173,42 @@ vd = \relative c' {
   e'8 f16( g) c,8 g e a
   a4 b e,
   f2.
+
+  \introj
+  d'2^\tutt^\pizz\p <f, d'>4
+  e'2 e4
+  d2 d4
+  <g, e'>2 c4
+  c2 f4
+  <g, e'>2 c4
+  a2 g4
+  a2 a8 cis
+
+  <d, a' f'>4\f r8 d' a d
+  <a, e' cis'>4 r8 cis' e a,
+  <d, a' f'>4 r8 a' d f
+  <c,? g' e'>4 r8 e g c
+  <a, f' c'>4 r8 f' a c
+  <g, d' b'>4 r8 a' g a \attc
+  d b a4 a
+
+  \introk
+  \clef "tenor" r8 a^\pizz\f d
+  r e g
+  r f b
+  r g c
+  r f, a
+  r e g
+  r f a
+  r b, d
+  r cis e
+
+  r e g
+  r f b
+  r g c
+  r f, a
+  r e g
+  r f a
+  r a cis,
+  d4.
 }

@@ -34,20 +34,23 @@ mist = "string ensemble 1"
 %miba = "pizzicato strings"
 miba = "harpsichord"
 
-introa = {           \tempo "1. Adagio "                    4=50 }
-introb = { \bar "||" \tempo "2. Allegretto "                4=110 }
-introc = { \bar "||" \tempo "3. Allegro "                   4=120 }
-introd = { \bar "||" \tempo "4. Allegro "                   4=120 }
-introe = { \bar "||" \tempo "5. Allegro "                   4=120 }
-introf = { \bar "||" \tempo "6. Allegro "                   4=120 }
-introg = { \bar "||" \tempo "7. Allegro [poco meno mosso] " 4=100 }
-introh = { \bar "||" \tempo "8. Allegro [poco meno mosso] " 4=100 }
-introi = { \bar "||" \tempo "9. Andante "                   4=70 }
+introa = {           \tempo  "1. Adagio "                    4=50 }
+introb = { \bar "||" \tempo  "2. Allegretto "                4=110 }
+introc = { \bar "||" \tempo  "3. Allegro "                   4=120 }
+introd = { \bar "||" \tempo  "4. Allegro "                   4=120 }
+introe = { \bar "||" \tempo  "5. Allegro "                   4=120 }
+introf = { \bar "||" \tempo  "6. Allegro "                   4=120 }
+introg = { \bar "||" \tempo  "7. Allegro [poco meno mosso] " 4=100 }
+introh = { \bar "||" \tempo  "8. Allegro [poco meno mosso] " 4=100 }
+introi = { \bar "||" \tempo  "9. Andante "                   4=70 }
+introj = { \bar "||" \tempo "10. Vivace "                    4=140 }
+introk = { \bar "||" \tempo "11. Allegro "                  4.=80 \time 3/8 }
 
 arco = \markup \bold \italic "arco"
 attc = \mark \markup \box \italic "attaca"
 pizz = \markup \bold \italic "pizz."
 solo = \markup \bold \italic "Solo"
+tutt = \markup \bold \italic "(tutti)"
 
 \include "v1.ily"
 \include "v2.ily"
