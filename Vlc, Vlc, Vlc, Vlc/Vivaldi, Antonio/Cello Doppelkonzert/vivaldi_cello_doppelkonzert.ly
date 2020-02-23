@@ -1,7 +1,7 @@
 \version "2.18.2"
 \include "deutsch.ly"
   
-#(set-global-staff-size 17)
+#(set-global-staff-size 16.25)
 
 \header {
   title     = \markup \bold \italic "Cello Doppelkonzert g-moll"
@@ -36,12 +36,14 @@ miba = "cello"
 
 introa = {       \tempo   "1. Allegro " 4=90 }
 introb = { \break \tempo  "2. Largo "   4=40 }
+introc = { \break \tempo  "3. Allegro " 4=100 \time 3/4 }
 
 arco = \markup \bold \italic "arco"
 attc = \mark \markup \box \italic "attaca"
 coso = \markup \italic "con sord."
 pizz = \markup \bold \italic "pizz."
 psov = \markup { \dynamic p \italic " (sotto voce)" }
+seso = \markup \italic "senza sord."
 solo = \markup \bold \italic "Solo"
 tutt = \markup \bold \italic "(tutti)"
 

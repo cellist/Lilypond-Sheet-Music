@@ -144,4 +144,158 @@ vc = \relative c {
     <g d'> <g d'>2 r4
     b a b2\fermata
   }
+
+  \introc
+  b'8^\seso^\tutt\f a g f es b'
+  a g fis e! d f
+  es d c b a g16 fis
+  g8 d' b a g[ b']
+  d c b a g d'
+
+  c b a g f a
+  g f es d c b16 a
+  b8 f' d c b d
+  f e? d c b f'
+  e d cis h a[ c'!]
+  b! a g f e d16 cis
+  d8 a' f e d e
+
+  f a4 a8 a a
+  f a4 a8 a a
+  f d' a f d r
+  b( c d2)
+  es4 r2
+  a,8( b c2)
+  d4 r2
+  g,8( a b2)
+  c4 r2
+
+  fis,8( g a2)
+  <g g'>8^\solo g'16( fis) g( g,) g'( g,) g'( g,) g'( g,)
+  <g f'!>8 f'16( es) f( g,) f'( g,) f'( g,) f'( g,)
+  <g es'>8 es'16( d) es( g,) es'( g,) es'( g,) es'( g,)
+  d'4 fis,2^\tutt
+  fis2.
+  g
+
+  d'16^\solo d d f? f a a d d f f g,
+  g8 r4. r4
+  r16 a, a cis cis e? e a a cis cis e
+  f,8 d a[ f] d r
+  g4 r16 g'' g cis, cis e e a,
+
+  a cis cis g g b b e, e g g cis,
+  cis4 r16 a h cis d e f g
+  a cis a e a cis a e a cis a e
+  a d a f a d a f a d a f
+
+  a cis a e a cis a e a cis a e
+  \tuplet 3/2 4 { f8.( g16 a8) g8.([ a16 b8]) a,8.( h16 cis8) }
+  f^\tutt e d c? b f'
+  e d cis h a c
+  b! a g f e d16 cis
+
+  d8 d' a'[ f d f]
+  a g f e d a'
+  g f e d c? e
+  d c b a g f16 e
+  f8 f' c' a f c'
+  c h a g f c'
+  h a gis fis e g
+
+  f! e d c h a16 gis
+  a8 e' c h a e'
+  c d e f e h
+  c d e f e h
+  c4 r2
+  R2.
+  a'16^\solo e( f e) a e( f e) a e( f e)
+
+  h' e,( f e) h' e,( f e) h' e,( f e)
+  c'8 a e c a4
+  cis'16( d cis) a cis( d cis) a cis( d cis) a
+  g?4( e') g
+  d16( e d) a d( e d) a d( e d) a
+
+  f4( a) d
+  d16( e d) g, d'( e d) g, d'( e d) g,
+  e4( g) c
+  c16( d c) f, c'( d c) f, c'( d c) f,
+  d4( f) b?
+  b16( c b) g b( c b) g b( c b) g
+
+  e4( g) c
+  c16( d c a) c( d c a) c( d c a)
+  f4( a) c
+  b(~ b16 a) b c d es f g
+  d8 b a4.(\startTrillSpan b8)--\stopTrillSpan
+
+  d^\tutt c b a g d'
+  c b a g f a
+  g f es d c b16 a
+  b8 f' d c b d
+  a' g f e? d a'
+  g f e d c e
+  d c b a g f16 e
+
+  f8 f' a g f d'
+  es d c b as es'
+  d c h a! g b
+  as g f es d c16 h
+  c8 g' es d c d
+  es g4 g8 g g
+  es g,4 g8 g g
+
+  c'16^\solo\p g c g c g c g c g c g
+  g,^\tutt\pp g g g g g g g g g g g
+ ]]]
+  d''16^\solo\p h g h g h g h g h g h
+  c^\tutt\pp c c c c c c c c c c c
+
+  c^\solo\p a c a c a c a c a c a
+  b?^\tutt\pp b b b b b b b b b b b
+  b^\solo\p g b g b g b g b g b g
+  d^\tutt\pp d d d d d d d d d d d
+
+  c'^\solo\p a c a c a c a c a c a
+  d,^\tutt\pp d d d d d d d d d d d
+  g,8^\solo\p g'4 b d8
+  d, fis4 a d8
+  g,, g'4 b d8
+  d\f d, a[ fis d] r
+
+  b'2^\tutt r4
+  g2 r4
+  g2 r4
+  fis2 r4
+  a2 r4
+  g2 r4
+  b2 r4
+  d2 r4
+
+  b4. b8 c[ d]
+  d'\upbow^\solo c16 b a g f es d8 f
+  es( c es g c) r
+  es\upbow d16 c b a g f es8 g
+  fis( d fis a d) r
+  fis e?16 d c b a g fis8 a
+
+  g( es g b es) r
+  g f?16 es d c b a g8 es'
+  fis,( d fis a) c4
+  b8\> fis g b, c d\!
+  g,16\p g' g g b, g' g g b, g' g g
+
+  a, g' g g a, g' g g a, g' g g
+  a, fis' fis fis a, fis' fis fis a, fis' fis fis
+  b8^\tutt a g f! es b'
+  a g fis e! d f
+  es d c b a g16 fis
+  g8 d' b a g[ fis']
+
+  d d4 d8 d d
+  b d,4 d8 d d
+  d d'4 d8 d d
+  b d,4 d8 d d'
+  b2.\fermata \bar "|."
 }

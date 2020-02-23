@@ -61,7 +61,7 @@ vb = \relative c {
 
   d g f es d es d c b b d f b4
   R1
-  r4 r16 b( a b) c c( b c) d d( c d)
+  r4 r16 \clef "tenor" b( a b) c c( b c) d d( c d)
   es es( d es) f f( es f) g g( f g) a a( g a)
 
   b b b b b a g f g g g g g f es d
@@ -69,7 +69,7 @@ vb = \relative c {
   g' g g g g f es d es es es es es d c b
 
   f' f f f f es d c d c b a b c d es
-  f8 es16( d) c h c d es8 g16( f) g b, a g
+  f8 es16( d) c h c d es8 g16( f) g[ \clef "bass" b, a g]
   as8 f'16( es) f as, g f g8 es'16( d) es g, f es
 
   f8 d'16( c) d f, es d es g a! h c es, d c
@@ -149,4 +149,155 @@ vb = \relative c {
     es(\startTrillSpan d)\stopTrillSpan r4 r2
     r16 b\downbow a b fis8.(\startTrillSpan g16)--\stopTrillSpan g2\fermata
   }
+
+  \introc
+  g''8^\tutt\f b,4 c es8
+  d fis,4 g b8
+  a d,4 e fis8
+  g d b a g r
+  b' d,4 es g8
+  f? a4 b d8
+  c f,4 g a8
+
+  b f d c b r
+  d' f,4 g b8
+  a cis4 d f8
+  e a,4 h cis8
+  d a f e d r
+  f d'4 f,8 e cis'
+  d d,4 f,8 e cis'
+  d b' f d b r
+
+  g^\solo b'4 d g8
+  es g16( f) es( d) c?( b) a8 g
+  f, a'4 c f8
+  d f16( es) d( c) b( a) g8 f
+  es, g'4 b es8
+  c es16( d) c( b) a( g) fis8 e
+
+  d, fis'4 a d8
+  b4 g,8^\tutt g g[ g]
+  g4 g8[ g] g g
+  g4 g8[ g] g g
+  <d' d'>8^\solo d'16( cis) d( d,) d'( d,) d'( d,) d'( d,)
+  <d c'!>8 c'16( b) c( d,) c'( d,) c'( d,) c'( d,)
+
+  <d b'>8 b'16( a) b( d,) b'( d,) b'( d,) b'( d,)
+  <d a'>4 r2
+  r16 d d g g b b d d g g cis,
+  cis8 a e[ cis] a r
+  r16 d d f f a a d d f f es
+
+  es g g cis, cis e e a, a cis cis g
+  g b b e, e g g cis, cis e e a,
+  a4 r16 cis d e f g a h
+  cis e cis a cis e cis a cis e cis a
+
+  d f d a d f d a d f d a
+  cis e cis a cis e cis a cis e cis a
+  \tuplet 3/2 4 { d8.( e16 f8) b,8.([ c16 d8]) cis,8.( d16 e8) }
+  d'^\tutt f,4 g b8
+  a cis,4 d f8
+  
+  e a,4 h cis8
+  d d' a f d r
+  f' a,4 b? d8
+  e e,4 f a8
+  g c,?4 d e8
+  f f' c a f r
+  a c4 d f8
+  e gis,4 a c8
+  
+  h e,4 fis gis8
+  a e c h a[ e']
+  a c4 h gis8
+  a c4 h gis8
+  a16 e(^\solo f? e) a e( f e) a e( f e)
+  h' e,( f e) h' e,( f e) h' e,( f e)
+  
+  c'8 a e c a4
+  gis r2
+  e''16( f e) a, e'( f e) a, e'( f e) a,
+  g?4( e') g
+  e16( f e) a, e'( f e) a, e'( f e) a,
+  f4( a) d
+  
+  d16( e d) a d( e d) a d( e d) a
+  g4( b?) d
+  c16( d c) g c( d c) g c( d c) g
+  f4( a) c
+  b16( c b) f b( c b) f b( c b) f
+
+  c4( e) g
+  c16( b c d) c( b c d) b( a b c)
+  a( b a f) a( b a f) a( b a f)
+  a4( c) es
+  d(~ d16 c) b a b c d es
+
+  f8 b, c4.(\startTrillSpan b8)--\stopTrillSpan
+  b^\tutt d4 es g8
+  f a,4 b d8
+  c f,4 g a8
+  b f d c b r
+  f'' a,4 b d8
+  c e,4 f a8
+  g c,4 d e8
+  
+  f f' a,[ g f] r
+  c' es,4 f as8
+  g h,4 c es8
+  d' g,4 a? h8
+  c g es d c r
+  es c'4 es,8 d h'
+  c c,4 es8 d h'
+  es16^\solo\p c es c es c es c es c es c
+  d,4^\tutt d d
+  f'16^\solo\p d f d f d f d f d f d
+  es^\tutt\pp es es es es es es es es es es es
+  es^\solo\p c es c es c es c es c es c
+  d^\tutt\pp d d d d d d d d d d d
+
+  d^\solo\p b d b d b d b d b d b
+  a^\tutt\pp a a a a a a a a a a a
+  es'^\solo\p c es c es c es c es c es c
+  b^\tutt\pp b b b b b b b b b b b
+
+  g,8^\p^\solo b'4\cresc d g8
+  d, a'4 d fis8
+  g,, b'4 d g8
+  fis\f fis, d[ a fis] r
+  d''\upbow c16 b a g f! es d8 f
+  es( c es g c) r
+
+  es\upbow d16 c b a g f es8 g
+  fis( d fis a d) r
+  fis e16 d c b a g fis8 a
+  g( es g b es) r
+  g f16 es d c b a g8 e'
+  fis,( d fis a) c4
+
+  b8 fis g b, c d
+  g,4 r2
+  c,2^\tutt r4
+  c2 r4
+  d2 r4
+  d2 r4
+  es2 r4
+  es2 r4
+  d2 r4
+  g'8 d es[ b] c d
+
+  g,16^\solo\p b' b b d, b' b b d, b' b b
+  d, a' a a d, a' a a d, a' a a
+  d, a' a a d, a' a a d, a' a a
+  g'8^\tutt b,4 c es8
+  d fis,4 g b8
+
+  a d,4 e fis8
+  g d b a g r
+  b' g'4 b,8 a fis'
+  g g,4 b,8 a fis'
+  g g'4 b,8 a fis'
+  g g,4 b,8 a fis'
+  g2.\fermata \bar "|."
 }
