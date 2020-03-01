@@ -1,15 +1,15 @@
 vc = \relative c'' {
-   \voiceconstsa
+   \voiceconsts
 
-   \tempo "1. Adagio " 4=60
+   \introa
    d4 r8 d cis4 r8 cis
    d4 r8 d fis4 r8 fis
    e4 r8 e fis4 r8 e
    e4 d a2
-   a1 \bar "||"
+   a1 \bar ".|"
 
+   \introb
    \repeat volta 2 {
-     \tempo "2. Allegro " 4=90
      R1*2
      d16 e d e fis g fis g e fis e fis g a g a
      fis8 d d d d d cis cis
@@ -47,7 +47,7 @@ vc = \relative c'' {
      a16 d d d d a a a a4 r
    }
 
-   \tempo "3. Grave " 2=60 \time 3/2
+   \introc
    h1 h2
    cis1 cis2
    d d fis~
@@ -85,7 +85,7 @@ vc = \relative c'' {
    eis fis1
    h,1. \bar "|."
 
-   \tempo "4. Allegro " 4=100 \time 2/2
+   \introd
    R1*2
    r2 r8 a'' a a
 
