@@ -31,9 +31,9 @@ vd = \relative c' {
   d'~\!\p d2 cis4 c2( h4)
 
   b2 b4( a2) a4 a2( e4)
-  e(\< d c? d2) c4\! h(\mf^\rall c d
+  e(\< d c? d2) c4\! \rall h(\mf c d
 
-  g,2) a'4\> g( a f) e2\! b'4\ppp^\mrall \time 6/4
+  g,2) a'4\> g( a f) e2\! b'4\ppp \mrall \time 6/4
   c2 es4 f2 f4
   g,1.\fermata \bar "|."
 }

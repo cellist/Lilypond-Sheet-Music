@@ -20,8 +20,8 @@ va = \relative c'' {
 
   c'\mf d2( e4 c2 g4)
   c2( g4) c,( d h?) c2.
-  r2. r r
-  r r r4 a'(\mf c)
+  R4*9
+  r1. r4 a'(\mf c)
 
   g( a b) a2 a4 f( g a)
   g(\> f e) e( f d e2.)
@@ -31,9 +31,9 @@ va = \relative c'' {
   g'4(\!\mp a b) a2 a4 f( g a)
 
   g( f e) e( f d e2.)
-  c4(\< d e f2) f4\! d(\mf^\rall e f)
+  c4(\< d e f2) f4\! \rall d(\mf e f)
 
-  g( f\> e) e( f d c2)\! c4\ppp^\mrall \time 6/4
+  g( f\> e) e( f d c2)\! c4\ppp \mrall \time 6/4
   a'2 c,4 e( f) g
   c1.\fermata \bar "|."
 }

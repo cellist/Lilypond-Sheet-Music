@@ -30,9 +30,9 @@ ve = \relative c' {
   a1.\!\p d2( g,4)
 
   g2. f( e)
-  a d, g2(^\rall f4
+  a d, \rall g2( f4
 
-  e2) f4 g2 g4 c,2c4\ppp^\mrall \time 6/4
+  e2) f4 g2 g4 c,2 c4\ppp \mrall \time 6/4
   f2 fis4 g2 g4
   c,1.\fermata \bar "|."
 }

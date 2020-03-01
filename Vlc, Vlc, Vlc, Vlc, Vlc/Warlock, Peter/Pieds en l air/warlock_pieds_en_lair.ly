@@ -1,4 +1,4 @@
-\version "2.14.2"
+\version "2.18.2"
 \include "deutsch.ly"
 
 #(set-global-staff-size 17.25)
@@ -23,10 +23,11 @@ voiceconsts = {
 
 mihi = "clarinet"
 milo = "bassoon"
+mivc = "cello"
 
-mrall = \markup \italic "molto rall."
+mrall = \mark \markup \box \italic "molto rall."
 mpdc  = \markup {\dynamic mp \bold \italic " dolce" }
-rall  = \markup \italic "rall."
+rall  = \mark \markup \box \italic "rall."
 
 boxa = \mark \markup \box "A"
 
@@ -38,38 +39,51 @@ boxa = \mark \markup \box "A"
 
 music = \new StaffGroup <<
       \new Staff {
-	\set Staff.midiInstrument = \mihi
+	\set Staff.midiInstrument = \mivc
 	\set Staff.instrumentName = \markup \center-column { "Violon-" "cello I" }
 	\transpose c d, { \va }
       }
 
       \new Staff {
-	\set Staff.midiInstrument = \mihi
+	\set Staff.midiInstrument = \mivc
 	\set Staff.instrumentName = \markup \center-column { "Violon-" "cello II" }
 	\transpose c d, { \vb }
       }
 
       \new Staff {
-	\set Staff.midiInstrument = \mihi
+	\set Staff.midiInstrument = \mivc
 	\set Staff.instrumentName = \markup \center-column { "Violon-" "cello III" }
 	\transpose c d, { \vc }
       }
 
       \new Staff {
-	\set Staff.midiInstrument = \milo
+	\set Staff.midiInstrument = \mivc
 	\set Staff.instrumentName = \markup \center-column { "Violon-" "cello IV" }
 	\transpose c d, { \vd }
       }
 
       \new Staff {
-	\set Staff.midiInstrument = \milo
+	\set Staff.midiInstrument = \mivc
 	\set Staff.instrumentName = \markup \center-column { "Violon-" "cello V" }
 	\transpose c d, { \ve }
       }
 >>
 
 \book {
-  \score {
+   \paper {
+    print-page-number = ##t
+    print-first-page-number = ##t
+    ragged-last-bottom = ##f
+    oddHeaderMarkup = \markup \null
+    evenHeaderMarkup = \markup \null
+    oddFooterMarkup = \markup {
+      \fill-line {
+        \on-the-fly #print-page-number-check-first
+        "Peter Warlock - Pieds en l'Air (Capriol Suite)" \fromproperty #'page:page-number-string
+      }
+    }
+    evenFooterMarkup = \oddFooterMarkup
+  } \score {
     \music
     \layout {}
   }

@@ -14,8 +14,7 @@ vb = \relative c'' {
   f2.\mf e2( es4) d2.(
 
   des)\> c2( h4 c2 h4)\!
-  r2. r r
-  r r r \boxa \clef "tenor"
+  R4*18 \boxa \clef "tenor"
   e4(\mf f g) g2 g4( f2 d4)
 
   e( d c) c( d h c2.)
@@ -30,8 +29,8 @@ vb = \relative c'' {
   e1.\!\p f4( g a)
   g( f e) e( f d e2.) \clef "bass"
 
-  a,2.\< a g2(\!\mf^\rall a4)
-  c2.\> c2( h4) c2\! gis4\ppp^\mrall \time 6/4
+  a,2.\< a \rall g2(\!\mf a4)
+  c2.\> c2( h4) c2\! gis4\ppp \mrall \time 6/4
   a2 gis4 a2 h4
   c1.\fermata \bar "|."
 }
