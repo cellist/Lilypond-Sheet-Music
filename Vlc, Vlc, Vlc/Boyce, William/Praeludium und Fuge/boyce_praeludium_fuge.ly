@@ -1,4 +1,4 @@
-\version "2.14.2"
+\version "2.18.2"
 \include "deutsch.ly"
 
 #(set-global-staff-size 19)
@@ -21,7 +21,8 @@ voiceconsts = {
 %minstr = "harpsichord"
 mihi = "clarinet"
 %minstr = "accordion"
-milo = "bassoon"
+%milo = "bassoon"
+milo = "cello"
 
 rall = \markup \bold \italic "rall."
 rit  = \markup \bold \italic "rit."
@@ -55,7 +56,20 @@ music = \new StaffGroup <<
 >>
 
 \book {
-  \score {
+   \paper {
+    print-page-number = ##t
+    print-first-page-number = ##t
+    ragged-last-bottom = ##f
+    oddHeaderMarkup = \markup \null
+    evenHeaderMarkup = \markup \null
+    oddFooterMarkup = \markup {
+      \fill-line {
+        \on-the-fly #print-page-number-check-first
+        "William Boyce - Präludium und Fuge" \fromproperty #'page:page-number-string
+      }
+    }
+    evenFooterMarkup = \oddFooterMarkup
+  } \score {
     \music
     \layout {}
   }

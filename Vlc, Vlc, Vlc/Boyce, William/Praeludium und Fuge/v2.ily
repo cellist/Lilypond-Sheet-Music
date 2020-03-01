@@ -23,7 +23,7 @@ vb = \relative c' {
   gis e( fis dis) e2 \bar "||"
 
   \introb
-  r1
+  R1
   r8 a( e) f g a16( g) f8 e
   f4. f8 e4. a8
   gis4 g fis4. gis8
@@ -53,9 +53,9 @@ vb = \relative c' {
   r \clef "tenor" a'~ a8 g16( fis) g4~
 
   g8 f?16( e) f4~ f8 e16( d) e4~
-  e8 d16( c) d4~ d8 c16( h) c8 c
+  e8 d16( c) d4~ d8 c16( h) c8 c \clef "bass"
   h c a h16( a) gis2
-  r1
+  R1
 
   r2 r4 c8 h16( a)
   h4.^\rit a16( gis) a4. h8
