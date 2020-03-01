@@ -6,7 +6,7 @@ va = \relative c''' {
    c4 r8 c h4 r8 h
    h4 r8 cis! d4 r8 h
    cis4 d2 cis4
-   d1 \bar "|."
+   d1 \bar "||"
 
    \introb
    \repeat volta 2 {

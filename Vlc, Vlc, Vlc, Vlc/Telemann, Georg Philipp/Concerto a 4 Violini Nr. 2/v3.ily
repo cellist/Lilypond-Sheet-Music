@@ -6,7 +6,7 @@ vc = \relative c'' {
    d4 r8 d fis4 r8 fis
    e4 r8 e fis4 r8 e
    e4 d a2
-   a1 \bar ".|"
+   a1 \bar "||"
 
    \introb
    \repeat volta 2 {

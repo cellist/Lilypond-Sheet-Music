@@ -6,7 +6,7 @@ vb = \relative c'' {
    fis4 r8 fis a4 r8 a
    gis4 r8 a a4 r8 g
    g4 fis e2
-   fis1 \bar "|."
+   fis1 \bar "||"
 
    \introb
    \repeat volta 2 {
