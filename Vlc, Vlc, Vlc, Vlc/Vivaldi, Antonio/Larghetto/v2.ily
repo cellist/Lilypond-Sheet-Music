@@ -27,7 +27,7 @@ vb = \relative c' {
    b\trill a2\) d4
    gis8\( a cis, d g b a16( g f e)
 
-   \times 4/6 { f8( e d) e( d cis) } d4\) r
+   \tuplet 3/2 4 { f8( e d) e( d cis) } d4\) r
    f(\p c d a'
    g) f( d f
    e) e( e cis
@@ -67,7 +67,7 @@ vb = \relative c' {
 
    d a d) a
    f8\(\mp g a[ b32( a b a]) f8 g a[ b32( a b a])\)
-   \times 8/12 { b8( c d d c b b c d d c b) }
+   \tuplet 3/2 4 { b8( c d d c b b c d d c b) }
    f'4\(\mp d f4.\trill e16( f)
 
    g4 g, g'4.\trill f16( g)
@@ -96,10 +96,10 @@ vb = \relative c' {
    cis'( a cis a
    d a d) a
    f8\(\mf g a[ b32( a b a]) f8 g a[ b32( a b a])\)
-   \times 8/12 { b8( c d d c b b c d d c b) }
+   \tuplet 3/2 4 { b8( c d d c b b c d d c b) }
 
    f'4(\mf d f4.)\trill\< e16( f)
    g4( g,\! g'4.)\trill f16( g)
-   f8(\f g_\rit e d) cis2\trill
+   f8(\f g \rit e d) cis2\trill
    f,1\fermata \bar "|."
 }

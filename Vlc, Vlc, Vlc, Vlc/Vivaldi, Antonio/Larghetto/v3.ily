@@ -11,7 +11,7 @@ vc = \relative c'' {
 
    b\trill a2\) d4
    gis8\( a cis, d g b a16( g f e)
-   \times 4/6 { f8( e d) e( d cis) } d4\) r
+   \tuplet 3/2 4 { f8( e d) e( d cis) } d4\) r
    d2(\p f,4 d)
 
    d'(~\mf d8[~ d32 c b a] g8 d' g d
@@ -66,10 +66,10 @@ vc = \relative c'' {
 
    b\trill a2\) d4
    gis8\( a cis, d g b a16( g f e)
-   \times 4/6 { f8( e d) e( d cis) } d4\) r
+   \tuplet 3/2 4 { f8( e d) e( d cis) } d4\) r
    d8\(\mp e f[ g32( f g f]) d8 e f[ g32( f g f])\)
 
-   \times 8/12 { g8( a b b a g g a b b a g) }
+   \tuplet 3/2 4 { g8( a b b a g g a b b a g) }
    d2\mp f8( g a f)
    b2 g8( a b g)
    f( d b g) a4 a
@@ -95,12 +95,12 @@ vc = \relative c'' {
    b\trill a2\) d4
 
    gis8\( a cis, d g b a16( g f e)
-   \times 4/6 { f8( e d) e( d cis) } d4\) r
+   \tuplet 3/2 4 { f8( e d) e( d cis) } d4\) r
    d8\(\mf e f[ g32( f g f]) d8 e f[ g32( f g f])\)
 
-   \times 8/12 { g8( a b b a g g a b b a g) }
+   \tuplet 3/2 4 { g8( a b b a g g a b b a g) }
    d2\mp f8( g a\< f)
    b2 g8(\! a b g)
-   f(\f d_\rit b g) a'( e cis a)
+   f(\f d \rit b g) a'( e cis a)
    a1\fermata \bar "|."
 }

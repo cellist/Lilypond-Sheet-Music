@@ -32,7 +32,7 @@ vd = \relative c' {
    b\trill a2\) d4
    gis8\( a cis, d g b a16( g f e)
 
-   \times 4/6 { f8( e d) e( d cis) } d4\) r
+   \tuplet 3/2 4 { f8( e d) e( d cis) } d4\) r
    d2(\p f4 d~
    d g b) g~
    g c,( e) c'~
@@ -100,6 +100,6 @@ vd = \relative c' {
 
    d2\p r4 g,\<
    g2 d'4\! g
-   a\f a,_\rit a2
+   a\f \rit a, a2
    d8( f a d) d,2\fermata \bar "|."
 }

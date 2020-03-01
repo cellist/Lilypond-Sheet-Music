@@ -6,7 +6,7 @@ va = \relative c'' {
    a16\(( f8.) g16( e8.) d4 a
    b\trill a2\) d4
    gis8\( a cis, d g b a16( g f e)
-   \times 4/6 { f8( e d) e( d cis) } d4\) r
+   \tuplet 3/2 4 { f8( e d) e( d cis) } d4\) r
 
    d,(\p a' f d
    g) f( d f)
@@ -61,7 +61,7 @@ va = \relative c'' {
 
    b\trill a2\) d4
    gis8\( a cis, d g b a16( g f e)
-   \times 4/6 { f8( e d) e( d cis) } d4\) r
+   \tuplet 3/2 4 { f8( e d) e( d cis) } d4\) r
    d,4( a' f d
    g) f( d f)
 
@@ -89,7 +89,7 @@ va = \relative c'' {
    a'16\((\mf f8.) g16( e8.) d4 a
    b\trill a2\) d4
    gis8\( a cis, d g b a16( g f e)
-   \times 4/6 { f8( e d) e( d cis) } d4\) r
+   \tuplet 3/2 4 { f8( e d) e( d cis) } d4\) r
 
    d,(\p a' f d
    g) f( d f)
@@ -100,6 +100,6 @@ va = \relative c'' {
 
    a'(\mf a, a'4.)\trill\< g16( a)
    b4( g\! b4.)\trill a16( b)
-   a8(\f b_\rit g f) e2\trill
+   a8(\f b \rit g f) e2\trill
    d1\fermata \bar "|."
 }
