@@ -1,13 +1,12 @@
 vc = \relative c'' {
   \voiceconsts
   \clef "treble"
-%  \clef "tenor"
 
   r4 c8 c c c16( b) b8 a16( g)
   g8 c, r8 c' d d g g
   c, c c16( b) b8 b8 a16( b) g8. f16
 
-  f8 f a a g g g g
+  f8 f a a g g g g \clef "tenor"
   a a a a a a a a
   b b b b b b b b
 

@@ -1,7 +1,7 @@
-\version "2.12.3"
+\version "2.18.2"
 \include "deutsch.ly"
 
-#(set-global-staff-size 17.25)
+#(set-global-staff-size 18)
 
 \header {
   title = "Sonatina"
@@ -21,13 +21,7 @@ voiceconsts = {
  \tempo "Molto Adagio " 4=40
 }
 
-%minstr = "harpsichord"
-mihi = "clarinet"
-%minstr = "accordion"
-milo = "bassoon"
-
-cresc = \markup \italic "cresc."
-
+miba = "cello"
 
 \include "v1.ily"
 \include "v2.ily"
@@ -37,38 +31,51 @@ cresc = \markup \italic "cresc."
 
 music = \new StaffGroup <<
       \new Staff {
-	\set Staff.midiInstrument = \mihi
-	\set Staff.instrumentName = #"Vc I"
-	\transpose f d, { \va }
+        \set Staff.midiInstrument = \miba
+        \set Staff.instrumentName = \markup \center-column { "Violon-" "cello I" }
+        \transpose f d, { \va }
       }
 
       \new Staff {
-	\set Staff.midiInstrument = \mihi
-	\set Staff.instrumentName = #"Vc II"
-	\transpose f d, { \vb }
+        \set Staff.midiInstrument = \miba
+        \set Staff.instrumentName = \markup \center-column { "Violon-" "cello II" }
+        \transpose f d, { \vb }
       }
 
       \new Staff {
-	\set Staff.midiInstrument = \mihi
-	\set Staff.instrumentName = #"Vc III"
-	\transpose f d { \vc }
+        \set Staff.midiInstrument = \miba
+        \set Staff.instrumentName = \markup \center-column { "Violon-" "cello III" }
+        \transpose f d { \vc }
       }
 
       \new Staff {
-	\set Staff.midiInstrument = \milo
-	\set Staff.instrumentName = #"Vc IV"
-	\transpose f d, { \vd }
+        \set Staff.midiInstrument = \miba
+        \set Staff.instrumentName = \markup \center-column { "Violon-" "cello IV" }
+        \transpose f d, { \vd }
       }
 
       \new Staff {
-	\set Staff.midiInstrument = \milo
-	\set Staff.instrumentName = #"Vc V"
-	\transpose f d { \ve }
+        \set Staff.midiInstrument = \miba
+        \set Staff.instrumentName = \markup \center-column { "Violon-" "cello V" }
+        \transpose f d { \ve }
       }
 >>
 
 \book {
-  \score {
+   \paper {
+    print-page-number = ##t
+    print-first-page-number = ##t
+    ragged-last-bottom = ##f
+    oddHeaderMarkup = \markup \null
+    evenHeaderMarkup = \markup \null
+    oddFooterMarkup = \markup {
+      \fill-line {
+        \on-the-fly #print-page-number-check-first
+        "Johann Sebastian Bach - Sonatina aus dem \"Actus Tragicus\"" \fromproperty #'page:page-number-string
+      }
+    }
+    evenFooterMarkup = \oddFooterMarkup
+  } \score {
     \music
     \layout {}
   }
