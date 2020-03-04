@@ -1,7 +1,7 @@
-\version "2.14.2"
+\version "2.18.2"
 \include "deutsch.ly"
   
-#(set-global-staff-size 20)
+#(set-global-staff-size 19)
 
 \header {
   title    = \markup \italic "Religioso"
@@ -24,6 +24,7 @@ voiceconsts = {
 mihi = "clarinet"
 %minstr = "accordion"
 milo = "bassoon"
+miba = "cello"
 
 boxa = { \bar "||" \mark \markup \box "A" }
 boxb = { \bar "||" \mark \markup \box "B" }
@@ -39,9 +40,9 @@ boxk = { \bar "||" \mark \markup \box "K" }
 
 coca = \markup \bold \italic "con calore"
 espr = \markup \italic "espress."
-poan = \markup \bold \italic "poco animato"
-rall = \markup \bold \italic "rall."
-tepr = \markup \bold \italic "Tempo primo"
+poan = \mark \markup \box \italic "poco animato"
+rall = \mark \markup \box \italic "rall."
+tepr = \mark \markup \box \italic "Tempo primo"
 
 \include "v1.ily"
 \include "v2.ily"
@@ -50,36 +51,49 @@ tepr = \markup \bold \italic "Tempo primo"
 
 music = \new StaffGroup <<
       \new Staff {
-	\set Staff.midiInstrument = \mihi
-	\set Staff.instrumentName = \markup \center-column { "Violon-" "cello I" }
-	\transpose c c { \va }
+        \set Staff.midiInstrument = \miba
+        \set Staff.instrumentName = \markup \center-column { "Violon-" "cello I" }
+        \transpose c c { \va }
       }
 
       \new Staff {
-	\set Staff.midiInstrument = \mihi
-	\set Staff.instrumentName = \markup \center-column { "Violon-" "cello II" }
-	\transpose c c { \vb }
+        \set Staff.midiInstrument = \miba
+        \set Staff.instrumentName = \markup \center-column { "Violon-" "cello II" }
+        \transpose c c { \vb }
       }
 
       \new Staff {
-	\set Staff.midiInstrument = \milo
-	\set Staff.instrumentName = \markup \center-column { "Violon-" "cello III" }
-	\transpose c c { \vc }
+        \set Staff.midiInstrument = \miba
+        \set Staff.instrumentName = \markup \center-column { "Violon-" "cello III" }
+        \transpose c c { \vc }
       }
 
       \new Staff {
-	\set Staff.midiInstrument = \milo
-	\set Staff.instrumentName = \markup \center-column { "Violon-" "cello IV" }
-	\transpose c c { \vd }
+        \set Staff.midiInstrument = \miba
+        \set Staff.instrumentName = \markup \center-column { "Violon-" "cello IV" }
+        \transpose c c { \vd }
       }
 >>
 
 \book {
-  \score {
+   \paper {
+    print-page-number = ##t
+    print-first-page-number = ##t
+    ragged-last-bottom = ##f
+    oddHeaderMarkup = \markup \null
+    evenHeaderMarkup = \markup \null
+    oddFooterMarkup = \markup {
+      \fill-line {
+        \on-the-fly #print-page-number-check-first
+        "Georg Eduard Goltermann - Religioso" \fromproperty #'page:page-number-string
+      }
+    }
+    evenFooterMarkup = \oddFooterMarkup
+  } \score {
     \music
     \layout {}
   }
-
+   
   \score {
     \unfoldRepeats \music
 

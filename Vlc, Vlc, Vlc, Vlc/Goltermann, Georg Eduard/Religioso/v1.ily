@@ -41,7 +41,7 @@ va = \relative c' {
 
   e2 e4.( d8)
   c2 r \boxe
-  e1^\poan
+  e1 \poan
   f4( a g f)
   e2.( d4)
   c( e2.)
@@ -62,9 +62,9 @@ va = \relative c' {
   cis( b') a( g
   f) f( d c?)
   h?( a') g( f)
-  e( g)\dim f( a,)
-  c2^\rall\> h4( \appoggiatura { c16[ h] } a8 h)\! \boxg
-  c2\p^\tepr h4( c)
+  e( g)\dim f( a,) \rall
+  c2\> h4( \appoggiatura { c16[ h] } a8 h)\! \boxg
+  c2\p h4( c) \tepr
   e2 d
   e d4( e)
 

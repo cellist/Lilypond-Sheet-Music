@@ -40,7 +40,7 @@ vc = \relative c {
   g(\> fis f2\!
   e4) r r2 \boxe
 
-  a1~^\poan
+  a1~ \poan
   a
   a4( gis fis gis
   a) e( d c)
@@ -61,10 +61,10 @@ vc = \relative c {
   e( g f e)
   d( a' f e)
   d( f e d)
-  cis( e d) f~\>
-  f1\!^\rall \boxg
+  cis( e d) f~\> \rall
+  f1\! \boxg
 
-  e2(\pp^\tepr d4 e)
+  e2(\pp d4 e) \tepr
   g1
   g2( f4 g)
   a2.( g4)

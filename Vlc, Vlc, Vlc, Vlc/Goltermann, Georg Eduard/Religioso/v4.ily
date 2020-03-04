@@ -36,7 +36,7 @@ vd = \relative c {
   g\!
   c4(_\espr e d c) \boxe
 
-  a(^\poan c h a)
+  a( c h a) \poan
   d1
   e
   a,
@@ -57,9 +57,9 @@ vd = \relative c {
 
   d4) r r2
   g,1~
-  g~\>
-  g\!^\rall \boxg
-  c,2.(\pp c'4)
+  g~\> \rall
+  g\! \boxg
+  c,2.(\pp c'4) \tepr
   g1
   c~
   c

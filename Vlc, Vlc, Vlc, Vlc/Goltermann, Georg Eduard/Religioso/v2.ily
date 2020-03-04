@@ -1,6 +1,5 @@
 vb = \relative c {
   \voiceconsts
-  \clef "tenor"
 
   e2(\p f)
   d2.( e8 f) \boxa
@@ -40,7 +39,7 @@ vb = \relative c {
   c2(\> h\!
   c) r \boxe
 
-  c1(^\poan
+  c1( \poan
   h)
   h(
   c4) c( h a)
@@ -49,7 +48,7 @@ vb = \relative c {
   b4( d c b)
   b\(( a) g( a)\) \boxf
 
-  d1\mf
+  d1\mf \clef "tenor"
   f
   b
   e,
@@ -57,13 +56,13 @@ vb = \relative c {
   d,
   cis(
   d2) a'~
-  a4 cis,2.(
+  a4 \clef "bass" cis,2.(
 
   d2) a
   h?1
-  b2(\dim a)
-  g1^\rall \boxg
-  g\pp^\tepr
+  b2(\dim a) \rall
+  g1 \boxg
+  g\pp \tepr
   c2( h?)
   c1~
   c
@@ -104,8 +103,8 @@ vb = \relative c {
 
   c( h a g)
   g1~
-  g
+  g \clef "treble"
   e'~
-  e \clef "treble"
+  e
   c'\espressivo\fermata \bar "|."
 }
