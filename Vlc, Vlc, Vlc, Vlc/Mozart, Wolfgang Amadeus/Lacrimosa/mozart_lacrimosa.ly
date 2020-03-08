@@ -66,10 +66,23 @@ music = \new StaffGroup <<
 	\set Staff.instrumentName = \markup \center-column { "Violon-" "cello IV" }
 	\transpose d d { \vd }
       }
->>
+    >>
 
 \book {
-  \score {
+   \paper {
+    print-page-number = ##t
+    print-first-page-number = ##t
+    ragged-last-bottom = ##f
+    oddHeaderMarkup = \markup \null
+    evenHeaderMarkup = \markup \null
+    oddFooterMarkup = \markup {
+      \fill-line {
+        \on-the-fly #print-page-number-check-first
+        "Wolfgang Amadeus Mozart - Lacrimosa, aus dem \"Requiem\"" \fromproperty #'page:page-number-string
+      }
+    }
+    evenFooterMarkup = \oddFooterMarkup
+  } \score {
     \music
     \layout {}
   }
