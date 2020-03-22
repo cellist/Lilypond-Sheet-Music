@@ -5,6 +5,7 @@
 
 \header {
   title     = \markup \bold \italic "Etudes du Jeune Violoncelliste"
+  subtitle  = "(Auszüge)"
   composer  = "Louis Raymond Feuillard"
   arranger  = "(1872-1941)"
   enteredby = "cellist (2020-03-21)"
@@ -45,7 +46,12 @@ introg = { \break \tempo "XII. Lento (Doppelgriffe)" 4=60
 	   \time 4/4 \key c \major
 	 }
 introh = { \break \tempo "XIII. Andante (Lagenwechsel) " 4=70 }
+introi = { \break \tempo "XV. Etüde für die linke Hand " 4=70 }
+introj = { \break \tempo "XVI. Moderato (Flageolett-Etüde) " 4=90
+	   \time 3/4 \key d \minor }
+introk = { \break \tempo "XXVIII. Adagio " 4=50 \key es \major }
 
+rall = \mark \markup \box \italic "rall."
 sa = \markup \bold "I"
 sd = \markup \bold "II"
 sg = \markup \bold "III"
