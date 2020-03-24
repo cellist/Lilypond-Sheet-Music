@@ -1,6 +1,7 @@
 va = \relative c' {
   \voiceconsts
 
+  \introa
   r4\mf
   << {
     d\upbow_\trso es es
@@ -112,4 +113,24 @@ va = \relative c' {
   <g, g'>\! <b' g'>\pp <b g'> <b g'>
   <b g'>2 <b, g'>
   <b g'>1 \bar "|."
+
+  \introb
+  d16(-4\downbow\mf fis)-1 d'( fis,) d( fis) d'( fis,) d( fis) d'( fis,) d( fis) d'( fis,)
+  cis(-3 fis)-1 e'(-4 fis,) cis( fis) e'( fis,) cis( fis) e'( fis,) cis( fis) e'( fis,)
+  h,(-1 fis')-1 d'(-2 fis,) h,( fis') d'( fis,) h,( fis') d'( fis,) h,( fis') d'( fis,)
+  
+  ais,(-1 fis')-2 cis'(-2 fis,) ais,( fis') cis'( fis,) ais,( fis') cis'( fis,) ais,( fis') cis'( fis,)
+  a,!(-1 fis')-3 cis'( fis,) a,( fis') cis'( fis,) a,( fis') cis'( fis,) a,( fis') cis'( fis,)
+  gis,(-1 fis')-4 his(-3 fis) gis,( fis') his( fis) gis,( e')-2 cis'(-4 e,) gis,( e') cis'( e,)
+
+  gis,(-1 dis')-1 cis'(-4 dis,)-1 gis,( dis') cis'( dis,) gis,( dis') his'(-3 dis,) gis,( dis') his'( dis,)
+  <cis, gis'>(-1 e') cis'(-4 e,) <cis, gis'>( e') cis'( e,) <cis, gis'>( e') cis'( e,) <cis, gis'>( e') cis'( e,)
+  cis(-1 gis')-1 e'(-2 gis,) cis,( gis') e'( gis,) cis,( ais')-3 e'( ais,) cis,( ais') fis'(-4 ais,)
+
+  h,?(-1 fis')-1 d'?(-2 fis,) h,( fis') d'( fis,) h,( gis')-3 d'( gis,) h,( gis') e'(-4 gis,)
+  a,?(-1 e') cis'( e,) a,( e') cis'( e,) g,!(-0 e') cis'( e,) g,( e') cis'( e,)
+  fis,(-1 d')-2 a'(-2 d,) fis,( d') a'( d,) g,(-2 d')-2 h'(-4 d,) g,( d') h'( d,)
+  
+  a( fis')-3 d'( fis,) a,( fis') d'( fis,) a,( e') cis'(-3 e,) a,( e') cis'( e,)
+  d,4 <fis' d'> d, r \bar "|."
 }

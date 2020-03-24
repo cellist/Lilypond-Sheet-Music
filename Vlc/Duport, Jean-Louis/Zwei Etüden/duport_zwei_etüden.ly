@@ -4,15 +4,15 @@
 #(set-global-staff-size 20)
 
 \header {
-  title     = \markup \bold \italic "Moderato g-moll"
+  title     = \markup \bold \italic "Zwei Etüden"
   composer  = "Jean-Louis Duport"
   arranger  = "(1749-1819)"
   enteredby = "cellist (2020-03-22)"
-  piece     = "21 Études précédées de 15 Exercises, Nr. 1"
+  piece     = "21 Études précédées de 15 Exercises, Nr. 1+2"
 }
 
 voiceconsts = {
-  \key c \major
+  \key g \minor
   \time 4/4
   \clef "bass"
 %  \numericTimeSignature
@@ -32,6 +32,9 @@ mist = "string ensemble 1"
 miba = "cello"
 %miba = "bassoon"
 mikl = "harpsichord"
+
+introa = {        \tempo "1. Moderato "         4=70 }
+introb = { \break \tempo "2. Allegro moderato " 4=90 \key d \major }
 
 sa = \markup \bold "I"
 sd = \markup \bold "II"
@@ -59,7 +62,7 @@ music = \new StaffGroup <<
     oddFooterMarkup = \markup {
       \fill-line {
         \on-the-fly #print-page-number-check-first
-	"Jean-Louis Duport - Moderato g-moll" \fromproperty #'page:page-number-string
+	"Jean-Louis Duport - Zwei Etüden" \fromproperty #'page:page-number-string
       }
     }
     evenFooterMarkup = \oddFooterMarkup
