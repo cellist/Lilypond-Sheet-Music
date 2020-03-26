@@ -123,4 +123,90 @@ va = \relative c {
   e'8( f) a, d c4( h)
   c2 h8( c g e)
   c1 \bar "|."
+
+  \introe
+  c'4( e) g(-. g)-.
+  g2 h,
+  c4 c( h a)
+  g4.( f8) e4 r
+  c'~ c a'( g)
+
+  fis( a)-0-3 c,2
+  h4 d( c) fis,
+  a2( g4) r
+  d'~ d-. cis( e)
+  d( f?) e( g)
+
+  f( a) f d
+  c?2( h4) r
+  e,( g) c e
+  g2~ g8 f e d
+  c4(-. c)-. h8( c d h)
+  c1 \bar "|."
+
+  \introf \clef "tenor"
+  a8. h16 cis8
+  d8. e16 f8
+  e8. f16 g8
+  f4.
+  e8. d16 c?8
+  c8. h16 a8
+  c( d h)
+  a r4
+
+  f8. a16 c8
+  c8. b?16 a8
+  g4.
+  g,
+  g'8. b16 d8
+  d8. c16 b8
+  a4.
+  a8 h cis
+
+  d a f'(
+  e) a, g'(
+  f) a, a'(
+  g) f( e)
+  d4.
+  cis8. d16 e8
+  d4.
+  d,4 r8 \bar "|."
+
+  \introg
+  e4( g) c(~
+  c h8.) a16 g4
+  f( a) d(~
+  d cis8.) h16 a4
+  c!( f) a(~
+  a g8.) f16 e4
+
+  g8 f4 e d8
+  c2( h8) r
+  d,4(\downbow a') c(~
+  c h8.) a16 g4
+  e( h') d(~
+  d c8.) h16 a4
+
+  h( fis') a(~-3-0
+  a g8.) fis16 e4
+  g8 f!4 e dis8
+  e2~ e8 r
+  h4(\downbow fis') a~-3-0
+  a8 g4 fis e8
+
+  h4 fis' a~-3-0
+  a8 g4 fis e8
+  g4 f! e
+  dis2( e4)
+  c( h) dis,
+  e2~ e8 r
+  e4( h') d!(~
+
+  d c8.) h16 a4
+  d,( a') c(~
+  c h8.) a16 g4
+  c, g' b
+  a f'4. e8~
+  e d4 c h?8
+  c2. \bar "|."
 }

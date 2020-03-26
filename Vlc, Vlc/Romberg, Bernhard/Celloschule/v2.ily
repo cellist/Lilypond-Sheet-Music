@@ -121,4 +121,90 @@ vb = \relative c {
   c f g g,
   c1
   c, \bar "|."
+
+  \introe
+  r4 c' e c
+  h d g f
+  e r c r
+  h g c d
+  e2 c
+
+  d e4 fis
+  g h, a d
+  g, d' g g,
+  f'?2 e4 g
+  f d cis e
+
+  d2. f,4
+  g g' g,8 f' e d
+  c2. b4
+  a c a f
+  g r g' r
+  c,1 \bar "|."
+
+  \introf
+  a8 a' g
+  f e d
+  cis h a
+  d b! a
+  gis4 a8
+  d,4 dis8
+  e4.
+  a8( b g?)
+
+  f4 r8
+  d'?4.
+  b8. c16 d8
+  b8. a16 g8
+  b4 r8
+  f'4 d8
+  cis8. d16 e8
+  a, a' g
+
+  f r d(
+  cis) r e(
+  d) r f,
+  b a g
+  a d f
+  a4 a,8
+  d a f
+  d4 r8 \bar "|."
+
+  \introg
+  c'2 e4
+  g2.
+  d2 f4
+  a2.
+  f2 h,4
+  c2.
+
+  a4 a f
+  g g' g,
+  fis2.
+  g
+  gis
+  a
+
+  dis
+  e4 h c
+  a h h
+  c2~ c8 r
+  dis,2 h'4
+  e fis g
+
+  dis2.
+  e4 fis g
+  a, a' a
+  a2 g?4
+  a, h h
+  e h e,
+  gis2.
+
+  a
+  fis
+  g?
+  e
+  f?4 h c
+  f, g g
+  c g c, \bar "|."
 }

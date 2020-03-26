@@ -1,7 +1,7 @@
 \version "2.18.2"
 \include "deutsch.ly"
   
-#(set-global-staff-size 20)
+#(set-global-staff-size 19)
 
 \header {
   title     = \markup \bold \italic "Aus der \"Violoncell-Schule\""
@@ -33,10 +33,13 @@ miba = "cello"
 %miba = "bassoon"
 mikl = "harpsichord"
 
-introa = {        \tempo "Nr. I "       4=80 }
-introb = { \break \tempo "Nr. II "     4.=70 \time 6/8 \key g \major }
-introc = { \break \tempo "Nr. III "     4=80 \time 4/4 \key f \major }
-introd = { \break \tempo "IV. Andante " 4=75 \key c \major }
+introa = {        \tempo "Nr. I "          4=80 }
+introb = { \break \tempo "Nr. II "        4.=70 \time 6/8 \key g \major }
+introc = { \break \tempo "Nr. III "        4=80 \time 4/4 \key f \major }
+introd = { \break \tempo "IV. Andante "    4=80 \key c \major }
+introe = { \break \tempo "Nr. V "          4=80 }
+introf = { \break \tempo "VI. Andantino " 4.=65 \key d \minor \time 3/8 }
+introg = { \break \tempo "VII. Moderato "  4=90 \key c \major \time 3/4 }
 
 \include "v1.ily"
 \include "v2.ily"
@@ -65,7 +68,7 @@ music = \new StaffGroup <<
     oddFooterMarkup = \markup {
       \fill-line {
         \on-the-fly #print-page-number-check-first
-	"Bernard Romberg - Violoncell-Schule" \fromproperty #'page:page-number-string
+	"Bern(h)ard Romberg - Violoncell-Schule" \fromproperty #'page:page-number-string
       }
     }
     evenFooterMarkup = \oddFooterMarkup
