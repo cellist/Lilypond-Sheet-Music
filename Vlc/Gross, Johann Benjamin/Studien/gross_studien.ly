@@ -31,7 +31,21 @@ misx = "tenor sax"
 mist = "string ensemble 1"
 miba = "cello"
 
-introa = { \tempo "1. Allegro " 4=104 }
+introa = {        \tempo "1. Allegro "  4=104 }
+introb = { \break \tempo "2. Adagio "   4=54  \key c \minor }
+introc = { \break \tempo "3. Allegro "  4=132 \key g \major }
+
+accl = \markup \italic "accelerando"
+adli = \markup \italic "ad lib."
+dmdv = \markup \italic "m.v."
+espr = \markup \italic "espress."
+ilte = \markup \italic "il tempo"
+pcrt = \markup \italic "poco riten."
+pile = \markup \italic "più lento"
+ritn = \markup \italic "riten."
+sepp = \markup { \italic "sempre " \dynamic pp }
+tenu = \markup \italic "tenuto"
+tepr = \mark \markup \box \italic "Tempo I."
 
 \include "v1.ily"
 
