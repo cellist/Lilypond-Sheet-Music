@@ -76,7 +76,7 @@ music = \new StaffGroup <<
     oddFooterMarkup = \markup {
       \fill-line {
         \on-the-fly #print-page-number-check-first
-        "John Parry - Cydgan y Morwyr" \fromproperty #'page:page-number-string
+        "Joseph Parry - Cydgan y Morwyr" \fromproperty #'page:page-number-string
       }
     }
     evenFooterMarkup = \oddFooterMarkup
