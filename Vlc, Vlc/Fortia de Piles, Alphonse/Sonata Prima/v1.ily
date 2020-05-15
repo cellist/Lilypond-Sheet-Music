@@ -90,4 +90,55 @@ va = \relative c' {
   h16 d e d e c h a h8 a16 g a4
   h16 a h c d8 g, d4 a'-+
   <d, g> <d g> <d g> r \bar "|."
+
+  \introb
+  \partial 8 f8
+  c'32 h c d c4 f8
+  f32 e d e c8 \tuplet 6/4 4 { r16 d c b! a g }
+  b16. g32 e16. g32 c, d e f g[ a b g]
+  c16. a32 f8 \tuplet 6/4 4 { r16 d' c b! a g }
+  b16. g32 e16. g32 c,16. b'32 a16. g32
+  a g f g f8 r c'
+
+  h8. d32 e f16-. f-. f-. f-.
+  e8. c32 d e16-. e-. e-. e-.
+  \appoggiatura c8 h8. d32 e f16-. f-. f-. f-.
+  e16. g32 f16. a32 \tuplet 6/4 4 { g16 a g f e d }
+  \appoggiatura c h16. a32 g8 r g
+  g32 h d f f[ d h g] g c e g g[ e c g]
+
+  g h d f f[ d h g] g c e g g[ e c g]
+  a' a g f e[ d cis d] a' a g f e[ d cis d]
+  c!16 a' f d c8 d
+  c~ c32 h a g a8~ a32 g f e
+  \tuplet 6/4 4 { f16 c' h a g f } \tuplet 3/2 8 { e d c } d8
+
+  c4 r8 c'
+  c4~ c16 b? a g
+  fis32 d a' fis c'8 r16 es d c
+  c4~ c16 es d c
+  \appoggiatura c b16. a32 g4 b8
+  b4~ b16 a g f?
+  e?32 c g' e b'8~ b16 a g f
+
+  e32 c g' e b'8~ b32 a g f e[ d c b']
+  a16 g f f r8 c
+  d32 b'-. a-. b-. d,[ b'-. a-. b]-. e, c'-. h-. c-. e,[ c'-. h-. c]-.
+  f, d'-. cis-. d-. f,[ d'-. cis-. d]-. g, e'-. d-. e-. g,[ e'-. d-. e]-.
+  f16 a g f~ \tuplet 6/4 4 { f e d c! b? a }
+
+  b d c b~ \tuplet 6/4 4 { b a g d' b g }
+  \appoggiatura f8 e4 \appoggiatura { g16[ a b c] } d4
+  \tuplet 3/2 8 { c16 f, f } f16[ e32 f] \tuplet 3/2 8 { b16 e, e } e16[ d32 e]
+  \tuplet 3/2 8 { c'16 f, f } f16[ e32 f] \tuplet 3/2 8 { b16 e, e } e16[ d32 e]
+  f8 f f f
+  a'~ a32 g f e f8~ f32 d c h
+
+  c8 b! b b
+  \tuplet 3/2 8 { g'16 e f d[ h c] b g a g[ e f] }
+  d'8~ d32 c b a b8( a32) g f e
+  f16 f' e d c b a g
+  a'8 g16 f e d c b
+  \tuplet 3/2 8 { a g f e[ d c] } g'4-+
+  f8[ a a] \bar "|."
 }

@@ -90,4 +90,55 @@ vb = \relative c' {
   g4 c, d8 d d d
   g,4 h8 c d d d, d
   g4 g g r \bar "|."
+
+  \introb
+  \partial 8 r8
+  r f'[ a b]
+  c[ c, c] r
+  c4 e
+  f8[ f f] r
+  c c e e
+  f[ f, f] r
+
+  \repeat tremolo 4 c'
+  \repeat tremolo 4 c
+  \repeat tremolo 4 c
+  c8[ d e f]
+  g d h g
+  h h c c
+
+  h h c c
+  f r f r
+  a a, g' g,
+  a' e f c
+  a f' g g,
+
+  c[ c c] r
+  r c es4
+  d d
+  d8[ fis fis fis]
+  g[ g, g] r
+  r g'[ g, b]
+  c c c c
+
+  c c e? e
+  f a f a,
+  b b c c
+  d d e e
+  f[ e d] r
+
+  g[ g, g b]
+  c4 r8 b'
+  a4 e
+  f e
+  f8[ d c b]
+  f' e d g
+
+  e4 e8 d
+  c4 c
+  b'8 b, c c
+  d r e c
+  f,[ g a b]
+  c c c, c
+  f[ f f] \bar "|."
 }

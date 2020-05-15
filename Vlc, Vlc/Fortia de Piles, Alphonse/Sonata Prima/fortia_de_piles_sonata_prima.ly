@@ -31,7 +31,8 @@ misx = "tenor sax"
 mist = "string ensemble 1"
 miba = "cello"
 
-introa = { \tempo "1. Allegro moderato " 4=90 }
+introa = {        \tempo "1. Allegro moderato " 4=90 }
+introb = { \break \tempo "2. Andantino "        4=50 \time 2/4 \key f \major }
 
 \include "v1.ily"
 \include "v2.ily"
