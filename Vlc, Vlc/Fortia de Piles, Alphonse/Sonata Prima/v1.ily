@@ -19,7 +19,7 @@ va = \relative c' {
   a16 g fis e d c h a h d g d h d g d
 
   cis e a e cis e a e d fis a fis d fis a fis
-  dis a' h a fis h a h g h e h g h e h \clef "tenor"
+  dis a' h a fis h a h g h e h g h e h
   gis h d! h gis h d h c? a c e c a c e
   a g fis e d c h a h g h d h g h d
 
@@ -38,7 +38,7 @@ va = \relative c' {
 
   fis e r a a16 h a8 a16 h a8
   a16 h cis d g, a g a fis8 d' h a16 g
-  fis8 e16 d e4 d r \clef "bass"
+  fis8 e16 d e4 d r
   r2 d4 fis16 e fis g
   a8 a4 h8 g8. fis32 g a8 g
 
@@ -64,7 +64,7 @@ va = \relative c' {
   cis, a' e a cis, a' e a d, a' fis a d, a' fis a
   cis, a' e a cis, a' e a d, a' fis a d, a' fis a
 
-  d, h' g h d, h' g h d, c'! a c d, c' a c \clef "tenor"
+  d, h' g h d, h' g h d, c'! a c d, c' a c
   h8 fis'16 c d h c a h g e' c d h c a
   h g a h c d e fis g fis e d c h a g
   d'4 c16 h a g c8 h4 a8
@@ -141,4 +141,94 @@ va = \relative c' {
   a'8 g16 f e d c b
   \tuplet 3/2 8 { a g f e[ d c] } g'4-+
   f8[ a a] \bar "|."
+
+  \introc
+  \partial 1 r4 d fis d
+  \appoggiatura d8 cis1
+  r4 c! d c
+  \appoggiatura c8 h1
+  r4 d g, h
+  \appoggiatura h8 a1
+  r4 c fis, a
+  g h2 a4
+
+  g2 r
+  r4 f' e d
+  \appoggiatura d8 cis1~
+  cis4 d a fis
+  d2 r
+  g4 a8 h cis d e fis
+  \appoggiatura fis e2. cis4
+  d2 a
+  a r
+
+  h e4 d
+  cis2 d~
+  d cis
+  d d,
+  e a4 g
+  fis2 g
+  g fis
+  g g'~
+  g f~
+  f e
+
+  d1
+  c?2 e
+  d4 e8 fis? g2~
+  g fis
+  g4 g, h a
+  gis1
+  r4 g! a g
+  \appoggiatura g8 fis1
+  r4 a d, fis
+  \appoggiatura fis8 e1
+
+  r4 g cis, e
+  d fis2 e4
+  d2 r
+  r4 b' a g
+  \appoggiatura g8 fis1
+  g4 g'2 g,8 a
+  h? c? d2-+ e4
+  c8 h a h c h a g
+  fis2 r4 c'
+
+  h d2 c4
+  h c8 d e4 e
+  e d8 cis d2
+  d4 e8 fis g4 g
+  g fis8 e fis4 d
+  d8 a h g a fis g e
+  e4. fis8 g2
+  fis4 d' e d
+  \appoggiatura d8 cis1
+
+  r4 c! d c
+  h2 r
+  r4 f' e d
+  \appoggiatura d8 cis1
+  d8 cis d e d c h a
+  h g h d g fis? e d
+  e d c h c h a g
+  fis[ d] d' c d c h a
+
+  h4 g h a
+  gis1
+  r4 g! a g
+  fis2 r
+  r4 b a g
+  \appoggiatura g8 fis1
+  g8 a h c d e fis g
+  e g e c d g d h
+  c a' c, a h d h g
+
+  a h c h c h a g
+  fis d e fis g a h c
+  h2~ \tuplet 3/2 4 { h8 c d e[ fis g] }
+  h,2 a
+  g4 g'2 fis4
+  g h, c d
+  g,8 g' d h <h, g'>4 <h g'>
+  <h g'>1 \bar "|."
 }

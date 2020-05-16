@@ -1,7 +1,7 @@
 \version "2.18.2"
 \include "deutsch.ly"
   
-#(set-global-staff-size 20)
+#(set-global-staff-size 18)
 
 \header {
   title     = \markup \bold \italic "Sonata Prima"
@@ -33,6 +33,7 @@ miba = "cello"
 
 introa = {        \tempo "1. Allegro moderato " 4=90 }
 introb = { \break \tempo "2. Andantino "        4=50 \time 2/4 \key f \major }
+introc = { \break \tempo "3. Presto "           2=90 \time 2/2 \key g \major }
 
 \include "v1.ily"
 \include "v2.ily"

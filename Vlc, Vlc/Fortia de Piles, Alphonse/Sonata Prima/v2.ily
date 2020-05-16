@@ -141,4 +141,93 @@ vb = \relative c' {
   f,[ g a b]
   c c c, c
   f[ f f] \bar "|."
+
+  \introc
+  \partial 1 g'2 gis
+  a4 b a g!
+  fis2 r
+  r4 g d h?
+  g2 r
+  r4 a' fis e
+  d2 r4 d
+  g,2 r
+
+  r4 g' h a
+  \appoggiatura a8 gis1
+  r4 a d, fis
+  \appoggiatura fis8 e1
+  r4 g? cis, e
+  d fis2 e4
+  r g cis, e
+  d fis2 e4
+  d2 a'~
+
+  a g~
+  g fis
+  e1
+  d2 r
+  c? c'~
+  c h
+  a1
+  g2 r4 g
+  a g a f
+  g f g e
+
+  f2 g
+  c, c'~
+  c h
+  a1 g2 r
+  r4 f e d
+  cis1
+  r4 e g fis?
+  e2 r
+  r4 e8 fis e4 d
+
+  cis2 r
+  e r
+  e4 d' e d
+  cis1
+  r4 c! d c
+  h1
+  r4 d g, h
+  \appoggiatura h8 a1
+  r4 c f, a
+
+  g h2 a4
+  g1
+  fis
+  e
+  d
+  d2 r4 g
+  a2 a,
+  d r
+  r4 h' a g
+
+  fis2 r
+  r4 g h a
+  gis1
+  r4 g! a g
+  \appoggiatura a8 g1
+  g2 h,
+  c r4 cis
+  d2 fis
+
+  e r
+  r4 f e d
+  cis2 r
+  r4 d' e d
+  cis1
+  r4 c! d c
+  \appoggiatura c8 h1
+  c4. a8 h4. g8
+  a4. fis8 g2
+
+  c, r4 cis
+  d4. c!8 h4. a8
+  g4 g g c
+  d2 d,
+  g4 h c d
+  g g2 fis4
+  g2 g,4 g
+  g1 \bar "|."
 }
