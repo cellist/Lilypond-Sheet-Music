@@ -1,7 +1,7 @@
-\version "2.14.2"
+\version "2.18.2"
 \include "deutsch.ly"
 
-#(set-global-staff-size 20)
+#(set-global-staff-size 17)
 
 \header {
   title     = \markup \bold \italic "Madrigal"
@@ -20,7 +20,7 @@ voiceconsts = {
 }
 
 mihi = "clarinet"
-milo = "bassoon"
+milo = "cello"
 
 \include "v1.ily"
 \include "v2.ily"
@@ -30,13 +30,13 @@ milo = "bassoon"
 
 music = \new StaffGroup <<
       \new Staff {
-        \set Staff.midiInstrument = \mihi
+        \set Staff.midiInstrument = \milo
         \set Staff.instrumentName = \markup \center-column { "Violon-" "cello I" }
         \transpose a h { \va }
       }
 
       \new Staff {
-        \set Staff.midiInstrument = \mihi
+        \set Staff.midiInstrument = \milo
         \set Staff.instrumentName = \markup \center-column { "Violon-" "cello II" }
         \transpose a h { \vb }
       }
@@ -61,8 +61,21 @@ music = \new StaffGroup <<
 >>
 
 \book {
-  \score {
-   \music
+   \paper {
+    print-page-number = ##t
+    print-first-page-number = ##t
+    ragged-last-bottom = ##f
+    oddHeaderMarkup = \markup \null
+    evenHeaderMarkup = \markup \null
+    oddFooterMarkup = \markup {
+      \fill-line {
+        \on-the-fly #print-page-number-check-first
+        "Claudio Monteverdi - Madrigal" \fromproperty #'page:page-number-string
+      }
+    }
+    evenFooterMarkup = \oddFooterMarkup
+  } \score {
+    \music
     \layout {}
   }
 
