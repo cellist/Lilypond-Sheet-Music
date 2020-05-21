@@ -159,4 +159,98 @@ vc = \relative c' {
     a4\f e' e,
     <a e'>2.
   }
+
+  \introd
+  \repeat volta 2 {
+    a4^\pizz\p a'
+    gis8 e c a
+    e' a h e,
+    a e c h
+    a4 a'
+    gis8 e c a
+    c4 f
+    e8 fis gis e
+    c4\f c'
+
+    h h,
+    c\p c'
+    h h,
+    g?\f g'
+    c c,
+    h' h,
+    c'\p c,
+    h' h,
+    c8^\arco\mf d es d
+    c d es c
+
+    g'4 r
+    c,8\p d es d
+    c d es c
+    g'4 r8 d
+    <h g'>4_\pocr <h g'>
+    <h g'> <h g'>
+    <h g'> <h g'>
+    c8 es f? g
+    c,4\mp h
+    c\pp h
+
+    c8\f e, f g
+    <c, g'>2
+  }
+  \repeat volta 2 {
+    c'4^\pizz\mp c'
+    h8 g e c
+    h c d g,
+    c g' e d
+    c4 c'
+    h8 g e c
+    c4 c'
+
+    g8 a b\cresc cis,
+    d4\mf d'
+    cis8 a f d
+    cis d e cis
+    d a' f e
+    d4 d'\dim
+    cis8 a f e
+    d4 g,8^\arco gis
+
+    a h? cis a
+    fis'\p e fis d
+    g,?4 h
+    c8 c' gis\cresc e
+    a,4 cis
+    d gis
+    a r8 a,
+    d4\f a
+    d8 e f\dim gis,
+
+    a4 a'\p
+    gis8 e c? a
+    gis a h e,
+    a e' c h
+    a4 a
+    a a
+    d8 a'16\upbow\ff g? f e d8
+    d4\p d
+    d d
+
+    e8 h'16 a gis fis e8
+    a,4\mp a
+    gis e
+    a\pp a
+    e gis
+    gis gis\cresc
+    gis gis
+    gis gis
+
+    a8 c d e
+    a, e'16\upbow\ff d c h a8
+    e4 gis\mp
+    gis gis\cresc
+    gis gis
+    gis gis \rall
+    a8 a'\ff d, e
+    a,2
+  }
 }

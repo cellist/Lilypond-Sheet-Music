@@ -163,4 +163,98 @@ vb = \relative c' {
     a4\f a' gis
     c,2.
   }
+
+  \introd
+  \repeat volta 2 {
+    a'4^\pizz\p e'8 c
+    h4 e8 c
+    gis e'4 gis,8
+    a4 e'
+    a, e'8 c
+    h4 e8 c
+    a4 d
+    e e
+    <g,? e'>\f g'
+    <h, g'> <g d'>
+
+    <g e'>\p g'
+    g g
+    h,\f h
+    c8 e, e c'
+    d g, g d'
+    g\p e e g
+    g g, g g'
+    g,4\mf c~^\arco
+    c g
+    h r
+
+    es\upbow\p c~
+    c g
+    h r
+    d\downbow_\pocr d
+    d d
+    d d
+    g,( as8) d
+    es,(\mp g) g4
+    es8(\pp g) g4
+    g8\f g a? f
+
+    e?2
+  }
+  \repeat volta 2 {
+    e'4^\pizz\mp g8 e
+    d4 g8 e
+    g, c g h
+    c g' g4
+    e g8 e
+    d4 g
+    e g8 e
+    g4 r
+
+    f\mf a8 f
+    a4 a,
+    a8 d a4
+    d8 a' a4
+    f a8\dim f
+    a4 a,
+    f8^\arco a b h
+    c4 cis
+    r a8\p fis
+    g4 r
+
+    r h8\cresc gis
+    a4 r
+    r d8 h
+    a4 r8 e
+    f?4\f g?
+    f r
+    r e'\upbow\p
+    r e\upbow
+    e, gis
+    r e
+
+    r c'?8\downbow a
+    e c a4
+    r8 a'16\upbow\ff g? f e d8
+    r4 d'8\downbow\p h
+    gis f d4
+    r8 h'16\upbow\ff a gis fis e8
+    a4\mp c,
+    e gis
+    a\pp c,
+
+    h16 c d4.
+    d16 e f?4.\cresc
+    f16 e d4.
+    h4 d8 f
+    e4 f8 e
+    r e'16\upbow\ff d c h a8
+
+    r4 ais,16\downbow\mp a h8~
+    h4 h16\cresc c d8~
+    d4 d16\downbow e f8~
+    f4 h8\upbow e,\upbow \rall
+    e a\ff d, e
+    a,2
+  }
 }

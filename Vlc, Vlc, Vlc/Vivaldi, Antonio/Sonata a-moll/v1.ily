@@ -166,4 +166,100 @@ va = \relative c' {
     c8 a h4.\trill a8
     a2.
   }
+
+  \introd
+  \repeat volta 2 {
+    a8-.\upbow\p c4 h16 a
+    e'8( gis,) a4
+    h8 c d16( c) d( h)
+    c( a) h( gis) a4~
+    a8-.\upbow c4 h16 a
+    e'8( gis,) a4
+    e'8 f16( e) f( e) d c
+    c4 h
+
+    c8-.\f e4 d16 c
+    d h a g? d' h a g
+    c8-.\p e4 d16 c
+    d h a g d' h a g
+    f'8-.\f f4 e16 d
+    e f g8(~ g16 e) d c
+    d e f8(~ f16 d) c h
+
+    e\p f g8(~ g16 e) d c
+    d e f8(~ f16 d) c h
+    es8-.\f g4 es8~
+    es c4 es8
+    d c16 h a g a h
+    c8-.\p g'4 es8~
+    es c4 es8
+
+    d c16( h) a( g a h)
+    f8_\pocr as4 g8~
+    g d'4 h8~
+    h f'4\upbow d8\upbow
+    es d16 c d8 c16 h
+    c\mf es d c d h a g
+    c\p es d c d h a g
+
+    e'!8\f d16 c d8\upbow h\upbow
+    c2
+  }
+  \repeat volta 2 {
+    c8-.\upbow\mp e4 d16 c
+    g'8( h,) c4
+    d8 e f16( e) f( d)
+    e( c) d( h) c4~
+    c8-.\upbow e4 d16 c
+    g'8( h,) c4
+
+    c8 g' e d16 c
+    c8( d) r4
+    d8-.\upbow\mf f4 e16 d
+    e8( cis) a4
+    e'8 f g16( f) g( e)
+    f( d) e( cis) d4~
+    d8-.\upbow f4 e16\dim d
+    e8( cis) a4
+
+    d8\upbow e16 f g8 f
+    f4 e
+    a,8-.\downbow\p d4 c16 d
+    b8( g4) f8
+    e-. e'4 d16\cresc e
+    cis8( a4) g8
+    f-. f'4 e16 d
+    cis h? a g f e d cis
+
+    d8\f d' a, cis'
+    d4 r
+    a8-.\upbow\p c?4 h16 a
+    e'8( gis,) a4
+    h8\upbow c d16( c) d( h)
+    c( a) h( gis) a4
+    a16 c e8(~ e16 d) c8(~
+
+    c16 h) a8~ a16 g? f e
+    f8 a16\upbow\ff g f e d8
+    h'16\downbow\mp d f8(~ f16 e) d8(~
+    d16 c) h8~ h16 a gis fis
+    gis8 h16\upbow\ff a gis fis e8
+    c'16\mf d e8\(( d16) c\) h a
+
+    h c d8(~ d16 h) a gis
+    c\p d e8(~ e16 c) h a
+    gis8\upbow h4 e,8~
+    e d'4\cresc h8~
+    h f'4 d8
+    d c16 d e( d c h)
+    c8 h16 a h8 a16 gis
+
+    a8 e'16\upbow\ff d c h a8
+    gis16\downbow\mp a h4 e,8(~
+    e16 h') d4 h8(~\cresc
+    h16 d) f4 d8~
+    d c16 d e d c h \rall
+    c8 a\ff d,8 e
+    a,2
+  }
 }

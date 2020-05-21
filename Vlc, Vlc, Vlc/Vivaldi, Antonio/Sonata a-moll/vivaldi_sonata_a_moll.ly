@@ -1,7 +1,7 @@
 \version "2.18.2"
 \include "deutsch.ly"
   
-#(set-global-staff-size 17)
+#(set-global-staff-size 16.25)
 
 \header {
   title     = \markup \bold \italic "Cello Sonata a-moll"
@@ -33,14 +33,17 @@ miba = "cello"
 
 introa = {        \tempo "1. Largo "   4=60 }
 introb = { \break \tempo "2. Allegro " 4=110 \time 4/4 }
-introc = { \break \tempo "3. Largo "   4=60  \time 3/4
+introc = { \pageBreak \tempo "3. Largo "   4=60  \time 3/4
 	   \set Timing.beamExceptions = #'()
 	   \set Timing.baseMoment     = #(ly:make-moment 1 4)
 	   \set Timing.beatStructure  = #'(1 1 1)
 	 }
+introd = { \break \tempo "4. Allegro " 4=100 \time 2/4 }
 
 arco = \markup \italic "arco"
 pizz = \markup \italic "pizz."
+pocr = \markup \italic "poco cresc."
+rall = \mark \markup \box \italic "rall."
 
 \include "v1.ily"
 \include "v2.ily"
