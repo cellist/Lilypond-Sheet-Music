@@ -147,8 +147,8 @@ vb = \relative c {
    cis\!\mp
    d2\cresc e
    f1~
-   f4 g\f f es
-   d2^\dira r4 d'
+   f4 g\f f es \dira
+   d2 r4 d'
    e cis d2~
    d cis
    a1\fermata\p \bar "|."

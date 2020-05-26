@@ -1,7 +1,7 @@
-\version "2.14.2"
+\version "2.18.2"
 \include "deutsch.ly"
 
-#(set-global-staff-size 16.5)
+#(set-global-staff-size 17)
 
 \header {
   title     = \markup \bold \italic "Alla Duodecima"
@@ -20,9 +20,10 @@ voiceconsts = {
 }
 
 mihi = "clarinet"
+miba = "cello"
 milo = "bassoon"
 
-dira = \markup \bold \italic "dim. e rall."
+dira = \mark \markup \box \italic "dim. e rall."
 piuf = \markup { \bold \italic "piú " \dynamic f }
 sost = \markup \italic "sostenuto"
 
@@ -33,33 +34,46 @@ sost = \markup \italic "sostenuto"
 
 music = \new StaffGroup <<
       \new Staff {
-        \set Staff.midiInstrument = \mihi
+        \set Staff.midiInstrument = \miba
         \set Staff.instrumentName = \markup \center-column { "Violon-" "cello I" }
         \transpose d d { \va }
       }
 
       \new Staff {
-        \set Staff.midiInstrument = \milo
+        \set Staff.midiInstrument = \miba
         \set Staff.instrumentName = \markup \center-column { "Violon-" "cello II" }
         \transpose d d { \vb }
       }
 
       \new Staff {
-        \set Staff.midiInstrument = \milo
+        \set Staff.midiInstrument = \miba
         \set Staff.instrumentName = \markup \center-column { "Violon-" "cello III" }
         \transpose d d { \vc }
       }
 
       \new Staff {
-        \set Staff.midiInstrument = \milo
+        \set Staff.midiInstrument = \miba
         \set Staff.instrumentName = \markup \center-column { "Violon-" "cello IV" }
         \transpose d d { \vd }
       }
 >>
 
 \book {
-  \score {
-   \music
+   \paper {
+    print-page-number = ##t
+    print-first-page-number = ##t
+    ragged-last-bottom = ##f
+    oddHeaderMarkup = \markup \null
+    evenHeaderMarkup = \markup \null
+    oddFooterMarkup = \markup {
+      \fill-line {
+        \on-the-fly #print-page-number-check-first
+        "Johann Sebastian Bach - Alla Duodecima" \fromproperty #'page:page-number-string
+      }
+    }
+    evenFooterMarkup = \oddFooterMarkup
+  } \score {
+    \music
     \layout {}
   }
 

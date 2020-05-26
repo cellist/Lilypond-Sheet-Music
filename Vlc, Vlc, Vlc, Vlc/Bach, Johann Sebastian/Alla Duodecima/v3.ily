@@ -119,8 +119,8 @@ vc = \relative c {
    b(\cresc d) c b c b a g
    f( b) g f a g f e
 
-   d2\f r4 a
-   b2^\dira r4 b'
+   d2\f r4 a \dira
+   b2 r4 b'
    cis g( f) b
    a2. g4
    fis1\fermata\p \bar "|."

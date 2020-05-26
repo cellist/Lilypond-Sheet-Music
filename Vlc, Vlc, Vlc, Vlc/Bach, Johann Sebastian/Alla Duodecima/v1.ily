@@ -137,9 +137,9 @@ va = \relative c' {
    g\!\mp
    f2\cresc r4 b
    a2 r4 cis\f
-   d8( c!) b a b a g fis
+   d8( c!) b a b a g fis \dira
 
-   g1~^\dira
+   g1~
    g8 \clef "tenor" b' a g a g f e
    f4.( g8) \appoggiatura f e4.( d8)
    d1\fermata\p \bar "|."

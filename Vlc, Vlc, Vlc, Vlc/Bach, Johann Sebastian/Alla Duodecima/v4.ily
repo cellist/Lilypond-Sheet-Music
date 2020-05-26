@@ -116,9 +116,9 @@ vd = \relative c, {
 
    d2\cresc r4 cis
    d2 r4 a'\f
-   b2 r4 c?
+   b2 r4 c? \dira
 
-   b8(^\dira c) b a b a g f
+   b8( c) b a b a g f
    e4 e( f) g
    a( g) a2
    d,1\fermata\p \bar "|."
