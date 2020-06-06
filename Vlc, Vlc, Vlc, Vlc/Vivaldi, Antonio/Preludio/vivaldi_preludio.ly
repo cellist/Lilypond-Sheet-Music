@@ -1,13 +1,13 @@
-\version "2.12.3"
+\version "2.18.2"
 \include "deutsch.ly"
 
-#(set-global-staff-size 19.2)
+#(set-global-staff-size 19)
 
 \header {
-  title = "Sonata VI"
-  subtitle = "- Preludio -"
-  composer = "Antonio Vivaldi"
-  arranger = "(1678-1741)"
+  title     = \markup \bold \italic "Sonata VI"
+  subtitle  = "- Preludio -"
+  composer  = "Antonio Lucio Vivaldi"
+  arranger  = "(1678-1741)"
   enteredby = "cellist (2010-07-11)"
 }
 
@@ -21,7 +21,7 @@ voiceconsts = {
 }
 
 miba = "cello"
-
+mipi = "pizzicato strings"
 rit  = \mark \markup \box \italic "rit."
 sepi = \markup \italic "sempre pizz."
 
@@ -38,26 +38,39 @@ music = \new StaffGroup <<
       }
 
       \new Staff {
-        \set Staff.midiInstrument = \miba
+        \set Staff.midiInstrument = \mipi
         \set Staff.instrumentName = \markup \center-column { "Violon-" "cello II" }
         \transpose b b { \vb }
       }
 
       \new Staff {
-        \set Staff.midiInstrument = \miba
+        \set Staff.midiInstrument = \mipi
         \set Staff.instrumentName = \markup \center-column { "Violon-" "cello III" }
         \transpose b b { \vc }
       }
 
       \new Staff {
-        \set Staff.midiInstrument = \miba
+        \set Staff.midiInstrument = \mipi
         \set Staff.instrumentName = \markup \center-column { "Violon-" "cello IV" }
         \transpose b b { \vd }
       }
 >>
 
 \book {
-  \score {
+   \paper {
+    print-page-number = ##t
+    print-first-page-number = ##t
+    ragged-last-bottom = ##f
+    oddHeaderMarkup = \markup \null
+    evenHeaderMarkup = \markup \null
+    oddFooterMarkup = \markup {
+      \fill-line {
+        \on-the-fly #print-page-number-check-first
+        "Antonio Vivaldi - Preludio (Sonata VI)" \fromproperty #'page:page-number-string
+      }
+    }
+    evenFooterMarkup = \oddFooterMarkup
+  } \score {
     \music
     \layout {}
   }
