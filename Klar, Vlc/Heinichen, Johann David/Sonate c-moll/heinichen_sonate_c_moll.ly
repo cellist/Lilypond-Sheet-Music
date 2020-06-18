@@ -1,7 +1,7 @@
 \version "2.18.2"
 \include "deutsch.ly"
   
-#(set-global-staff-size 20)
+#(set-global-staff-size 18)
 
 \header {
   title     = \markup \bold \italic "Sonate c-moll"
@@ -32,8 +32,10 @@ mist = "string ensemble 1"
 %miba = "cello"
 miba = "bassoon"
 
-introa = {        \tempo "1. Grave "   4=45 }
-introb = { \break \tempo "2. Allegro " 4=100 }
+introa = {        \tempo "1. Grave "                  4=45 }
+introb = { \break \tempo "2. Allegro "                4=100 }
+introc = { \break \tempo "3. Larghetto e Cantabile " 4.=50 \time 12/8 }
+introd = { \break \tempo "4. Allegro "               4.=60 \time 3/8 }
 
 \include "v1.ily"
 \include "v2.ily"
