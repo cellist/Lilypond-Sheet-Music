@@ -1,15 +1,15 @@
-\version "2.12.1"
+\version "2.18.2"
 \include "deutsch.ly"
 
-#(set-global-staff-size 21)
+#(set-global-staff-size 20)
 
 \header {
-  title = "Sarabande"
+  title    = \markup \bold \italic "Sarabande"
   subtitle = "aus der Cello Suite Nr. VI"
   composer = "Johann Sebastian Bach (1685-1750)"
   arranger = "arr.: Jahwer Matmati"
   enteredby = "cellist (2011-08-27)"
-  opus = "BWV 1012"
+  piece     = "BWV 1012"
 }
 
 voiceconsts = {
@@ -21,12 +21,12 @@ voiceconsts = {
  \tempo "Grave " 2=60
 }
 
-%minstr = "harpsichord"
-%minstr = "clarinet"
-%minstr = "accordion"
-minstr = "bassoon"
+%miba = "harpsichord"
+%miba = "clarinet"
+%miba = "accordion"
+miba = "cello"
 
-modo = \markup \bold \italic "molto dolce"
+modo = \markup \italic "molto dolce"
 
 \include "v1.ily"
 \include "v2.ily"
@@ -35,32 +35,45 @@ modo = \markup \bold \italic "molto dolce"
 
 music = \new StaffGroup <<
       \new Staff {
-        \set Staff.midiInstrument = \minstr
-        \set Staff.instrumentName = #"Vc I"
+        \set Staff.midiInstrument = \miba
+        \set Staff.instrumentName = \markup \center-column { "Violon-" "cello I" }
         \transpose d d { \va }
       }
 
       \new Staff {
-        \set Staff.midiInstrument = \minstr
-        \set Staff.instrumentName = #"Vc II"
+        \set Staff.midiInstrument = \miba
+        \set Staff.instrumentName = \markup \center-column { "Violon-" "cello II" }
         \transpose d d { \vb }
       }
 
       \new Staff {
-        \set Staff.midiInstrument = \minstr
-        \set Staff.instrumentName = #"Vc III"
+        \set Staff.midiInstrument = \miba
+        \set Staff.instrumentName = \markup \center-column { "Violon-" "cello III" }
         \transpose d d { \vc }
       }
 
       \new Staff {
-        \set Staff.midiInstrument = \minstr
-        \set Staff.instrumentName = #"Vc IV"
+        \set Staff.midiInstrument = \miba
+        \set Staff.instrumentName = \markup \center-column { "Violon-" "cello IV" }
         \transpose d d { \vd }
       }
 >>
 
 \book {
-  \score {
+   \paper {
+    print-page-number = ##t
+    print-first-page-number = ##t
+    ragged-last-bottom = ##f
+    oddHeaderMarkup = \markup \null
+    evenHeaderMarkup = \markup \null
+    oddFooterMarkup = \markup {
+      \fill-line {
+        \on-the-fly #print-page-number-check-first
+        "Johann Sebastian Bach - Sarabande aus der 6. Cello-Suite" \fromproperty #'page:page-number-string
+      }
+    }
+    evenFooterMarkup = \oddFooterMarkup
+  } \score {
     \music
     \layout {}
   }
@@ -71,7 +84,6 @@ music = \new StaffGroup <<
     \midi {
       \context {
         \Score
-        tempoWholesPerMinute = #(ly:make-moment 60 2)
       }
     }
   }

@@ -30,7 +30,7 @@ vd = \relative c {
     g2 a a
     cis d1
     g4 g, g2 r
-    r1.
+    R1.
 
     e'2 e, r4 cis''
     d( a) a( fis) fis( e)

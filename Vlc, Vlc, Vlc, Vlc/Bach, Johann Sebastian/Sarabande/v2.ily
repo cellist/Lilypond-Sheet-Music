@@ -32,7 +32,7 @@ vb = \relative c' {
     a( g') a,2 fis'4( gis)
 
     e( a) <cis, a'>2. r4
-    r1.
+    R1.
     a'4( a,) a2 r
     a'4( f) f( d) d( cis)
     cis2 cis1
