@@ -1,12 +1,12 @@
-\version "2.12.3"
+\version "2.18.2"
 \include "deutsch.ly"
 
-#(set-global-staff-size 17)
+#(set-global-staff-size 16.75)
 
 \header {
-  title = "Tico Tico no Fubá"
-  composer = "Zequinha de Abreu (1880-1935)"
-  arranger = "arr.: Sjoerd van der Veen"
+  title     = \markup \bold \italic "Tico Tico no Fubá"
+  composer  = "Zequinha de Abreu (1880-1935)"
+  arranger  = "arr.: Sjoerd van der Veen"
   enteredby = "cellist (2011-02-15)"
 }
 
@@ -22,10 +22,7 @@ voiceconsts = {
 
 cresc = \markup \italic "cresc."
 
-%midilow = "harpsichord"
-%midilow = "clarinet"
-midilow = "accordion"
-%midilow = "bassoon"
+milo = "cello"
 
 \include "v1.ily"
 \include "v2.ily"
@@ -33,46 +30,64 @@ midilow = "accordion"
 \include "v4.ily"
 \include "v5.ily"
 
-\book {
-  \score {
-    \new StaffGroup <<
+
+music = \new StaffGroup <<
       \new Staff {
-	\set Staff.midiInstrument = \midilow
-	\set Staff.instrumentName = #"Vc 1"
+	\set Staff.midiInstrument = \milo
+	\set Staff.instrumentName = \markup \center-column { "Violon-" "cello I" }
 	\transpose c c, { \va }
       }
 
       \new Staff {
-	\set Staff.midiInstrument = \midilow
-	\set Staff.instrumentName = #"Vc 2"
+	\set Staff.midiInstrument = \milo
+	\set Staff.instrumentName = \markup \center-column { "Violon-" "cello II" }
 	\transpose c c, { \vb }
       }
 
       \new Staff {
-	\set Staff.midiInstrument = \midilow
-	\set Staff.instrumentName = #"Vc 3"
+	\set Staff.midiInstrument = \milo
+	\set Staff.instrumentName = \markup \center-column { "Violon-" "cello III" }
 	\transpose c c, { \vc }
       }
 
       \new Staff {
-	\set Staff.midiInstrument = \midilow
-	\set Staff.instrumentName = #"Vc 4"
+	\set Staff.midiInstrument = \milo
+	\set Staff.instrumentName = \markup \center-column { "Violon-" "cello IV" }
 	\transpose c c, { \vd }
       }
 
       \new Staff {
-	\set Staff.midiInstrument = \midilow
-	\set Staff.instrumentName = #"Vc 5"
+	\set Staff.midiInstrument = \milo
+	\set Staff.instrumentName = \markup \center-column { "Violon-" "cello V" }
 	\transpose c c, { \ve }
       }
     >>
 
+\book {
+   \paper {
+    print-page-number = ##t
+    print-first-page-number = ##t
+    ragged-last-bottom = ##f
+    oddHeaderMarkup = \markup \null
+    evenHeaderMarkup = \markup \null
+    oddFooterMarkup = \markup {
+      \fill-line {
+        \on-the-fly #print-page-number-check-first
+        "Zequinha de Abreu - Tico Tico no Fubá" \fromproperty #'page:page-number-string
+      }
+    }
+    evenFooterMarkup = \oddFooterMarkup
+  } \score {
+    \music
     \layout {}
+  }
+
+  \score {
+    \unfoldRepeats \music
 
     \midi {
       \context {
-	\Score
-	tempoWholesPerMinute = #(ly:make-moment 100 4)
+        \Score
       }
     }
   }
