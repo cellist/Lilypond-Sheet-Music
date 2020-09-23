@@ -1,7 +1,7 @@
-\version "2.14.2"
+\version "2.18.2"
 \include "deutsch.ly"
 
-#(set-global-staff-size 19)
+#(set-global-staff-size 20)
 
 \header {
   title     = \markup \bold \italic "Die Macht der Liebe"
@@ -19,8 +19,10 @@ voiceconsts = {
  \tempo "Moderato " 4=80
 }
 
-mihi = "clarinet"
-milo = "bassoon"
+%mihi = "clarinet"
+%milo = "bassoon"
+mihi = "cello"
+milo = "cello"
 
 \include "v1.ily"
 \include "v2.ily"
@@ -61,7 +63,20 @@ music = \new StaffGroup <<
 >>
 
 \book {
-  \score {
+   \paper {
+    print-page-number = ##t
+    print-first-page-number = ##t
+    ragged-last-bottom = ##f
+    oddHeaderMarkup = \markup \null
+    evenHeaderMarkup = \markup \null
+    oddFooterMarkup = \markup {
+      \fill-line {
+        \on-the-fly #print-page-number-check-first
+        "Dmitri Stepanowitsch Bortnjanski - Die Macht der Liebe" \fromproperty #'page:page-number-string
+      }
+    }
+    evenFooterMarkup = \oddFooterMarkup
+  } \score {
     \music
     \layout {}
   }
