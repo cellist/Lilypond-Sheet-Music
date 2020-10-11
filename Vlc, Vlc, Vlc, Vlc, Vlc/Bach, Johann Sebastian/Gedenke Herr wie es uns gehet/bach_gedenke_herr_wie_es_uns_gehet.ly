@@ -17,11 +17,13 @@ voiceconsts = {
  \clef "bass"
 % \numericTimeSignature
  \compressFullBarRests
- \tempo "3. Aria \"Saget mir, wo treff' ich Jesum an?\"" 4=80
+ \tempo "3. Aria \"Saget mir, wo treff' ich Jesum an?\"" 4=95
 }
 
 mihi = "clarinet"
 milo = "cello"
+mimi = "string ensemble 1"
+vcso = "bassoon"
 
 boxa = { \bar "||" \mark \markup \box \italic "A" }
 boxb = {           \mark \markup \box \italic "B" }
@@ -43,7 +45,7 @@ soal = \markup \line { \concat { \italic "solo 8" \super va \italic "ad lib." } 
 
 music = \new StaffGroup <<
       \new Staff {
-        \set Staff.midiInstrument = \milo
+        \set Staff.midiInstrument = \vcso
         \set Staff.instrumentName = \markup \center-column { "Cello I" "Solo" }
         \transpose c c { \va }
       }
