@@ -93,7 +93,7 @@ va = \relative c'' {
   c b a b c4 b8( a)
 
   g4 d' c8( b) a g
-  fis4 g2( fis4)
-  g8^\rall\< a h c\! d(\> c) h a\!
+  fis4 g2( fis4) \rall
+  g8\< a h c\! d(\> c) h a\!
   h1\fermata\sf \bar "|."
 }

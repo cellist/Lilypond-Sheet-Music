@@ -92,7 +92,7 @@ vb = \relative c' {
 
   f2 f
   d es
-  d4( c) d2
-  d1~^\rall
+  d4( c) d2 \rall
+  d1~
   d4 g2.\fermata\sf \bar "|."
 }

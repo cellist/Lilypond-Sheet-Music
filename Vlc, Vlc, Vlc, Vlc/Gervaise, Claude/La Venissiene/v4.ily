@@ -93,7 +93,7 @@ vd = \relative c' {
 
   f2 f
   g c,
-  d4( es) d2
-  g1~^\rall
+  d4( es) d2 \rall
+  g1~
   g2. g4\fermata\sf \bar "|."
 }

@@ -92,7 +92,7 @@ vc = \relative c' {
 
   c,4. b8 a g f4
   b2 c4. b8
-  a4( g) a2
-  h1~^\rall
+  a4( g) a2 \rall
+  h1~
   h2 d\fermata\sf \bar "|."
 }
