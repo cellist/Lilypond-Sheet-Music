@@ -2,6 +2,7 @@ va = \relative c'' {
    \voiceconsts
    \clef "treble"
 
+   \introa
    g1
    as2 as
    g1\fermata \bar "||"
@@ -20,7 +21,7 @@ va = \relative c'' {
    c2 h
    c1\fermata \bar "|."
 
-   \tempo "5. Canzona " 4=120
+   \introb
    \repeat volta 2 {
      r
      c4 c c d

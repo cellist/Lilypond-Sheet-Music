@@ -1,6 +1,7 @@
 vc = \relative c' {
    \voiceconsts
 
+   \introa
    c1
    c2 c
    c1\fermata \bar "||"
@@ -19,7 +20,7 @@ vc = \relative c' {
    d2 d
    c1\fermata \bar "|."
 
-   \tempo "5. Canzona " 4=120
+   \introb
    \repeat volta 2 {
      R1*3
      c4 c c d

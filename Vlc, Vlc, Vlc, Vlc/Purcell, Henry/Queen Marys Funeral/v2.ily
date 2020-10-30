@@ -2,6 +2,7 @@ vb = \relative c' {
    \voiceconsts
    \clef "tenor"
 
+   \introa
    e1
    f2 f
    e1\fermata \bar "||"
@@ -20,7 +21,7 @@ vb = \relative c' {
    as2 g
    e1\fermata \bar "|."
 
-   \tempo "5. Canzona " 4=120
+   \introb
    \repeat volta 2 {
      g4 g g g
      as g as f
