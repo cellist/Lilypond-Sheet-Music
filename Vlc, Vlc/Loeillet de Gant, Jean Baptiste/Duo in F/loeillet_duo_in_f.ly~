@@ -1,7 +1,7 @@
-\version "2.18.2"
+\version "2.14.2"
 \include "deutsch.ly"
 
-#(set-global-staff-size 18)
+#(set-global-staff-size 19)
 
 \header {
   title = "Duo in F"
@@ -14,13 +14,13 @@ voiceconsts = {
  \key f \major
  \clef "bass"
 % \numericTimeSignature
-% \compressFullBarRests
+ \compressFullBarRests
 }
 
 %minstr = "harpsichord"
 mihi = "clarinet"
 %minstr = "accordion"
-milo = "cello"
+milo = "bassoon"
 
 moral = \markup \italic "molto rall."
 
@@ -35,32 +35,19 @@ introd = { \break \tempo "4. Allegro staccato " 8=200  \time 3/4 }
 music = \new StaffGroup <<
       \new Staff {
 	\set Staff.midiInstrument = \milo
-	\set Staff.instrumentName = \markup \center-column { "Violon-" "cello I" }
+	\set Staff.instrumentName = #"Cello I"
 	\transpose f f { \va }
       }
 
       \new Staff {
 	\set Staff.midiInstrument = \milo
-	\set Staff.instrumentName = \markup \center-column { "Violon-" "cello II" }
+	\set Staff.instrumentName = #"Cello II"
 	\transpose f f { \vb }
       }
 >>
 
 \book {
-   \paper {
-    print-page-number = ##t
-    print-first-page-number = ##t
-    ragged-last-bottom = ##f
-    oddHeaderMarkup = \markup \null
-    evenHeaderMarkup = \markup \null
-    oddFooterMarkup = \markup {
-      \fill-line {
-        \on-the-fly #print-page-number-check-first
-        "Jean-Baptiste Loeillet de Gant - Duo in F" \fromproperty #'page:page-number-string
-      }
-    }
-    evenFooterMarkup = \oddFooterMarkup
-  } \score {
+  \score {
     \music
     \layout {}
   }
