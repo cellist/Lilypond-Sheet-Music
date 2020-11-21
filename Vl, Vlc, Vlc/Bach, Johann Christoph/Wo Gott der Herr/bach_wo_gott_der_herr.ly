@@ -6,7 +6,7 @@
 \header {
   title     = \markup \bold \italic "Wo Gott der Herr nicht bei uns hält"
   composer  = "Johann Christoph Bach (1642-1703)"
-  arranger  = "arr.: Galk Abolan"
+  arranger  = "arr.: Gaik Aboian"
   enteredby = "cellist (2020-11-21)"
 %  piece     = ""
 }
