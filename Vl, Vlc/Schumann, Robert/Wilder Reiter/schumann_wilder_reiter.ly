@@ -5,7 +5,7 @@
 
 \header {
   title     = \markup \bold \italic "Wilder Reiter"
-  composer  = "arr.: Robert Schumann (1810-1856)"
+  composer  = "Robert Schumann (1810-1856)"
   arranger  = "arr.: Arseny Donov"
   enteredby = "cellist (2020-11-21)"
   piece     = "Album für die Jugend, op. 68, Nr. 8 (1848)"
