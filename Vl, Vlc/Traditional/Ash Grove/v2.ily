@@ -1,6 +1,6 @@
 vb = \relative c {
   \voiceconsts
-  \clef "tenor"
+  \clef "bass"
 
   \partial 4 r4
   r2 f4\mf

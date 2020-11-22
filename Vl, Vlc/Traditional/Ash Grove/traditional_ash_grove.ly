@@ -1,29 +1,27 @@
-\version "2.14.2"
+\version "2.18.2"
 \include "deutsch.ly"
 
-#(set-global-staff-size 17.5)
+#(set-global-staff-size 19)
 
 \header {
-  title = "The Ash Grove"
-  subtitle = "- Welsh Air -"
-  composer = "aus Wales"
-  arranger = "arr.: Martin Watson"
+  title     = \markup \bold \italic "The Ash Grove"
+  subtitle  = "- Welsh Air -"
+  composer  = "aus Wales"
+  arranger  = "arr.: Martin Watson"
   enteredby = "cellist (2013-03-31)"
 }
 
 voiceconsts = {
   \key b \major
   \time 3/4
-  \tempo "Andante " 4=110
+  \clef "treble"
   %\numericTimeSignature
-  \compressFullBarRests
   %\set tupletSpannerDuration = #(ly:make-moment 1 4)
+  \tempo "Allegro moderato " 4=120
 }
 
-%minstr = "harpsichord"
-mihi = "clarinet"
-%minstr = "accordion"
-milo = "bassoon"
+mivl = "violin"
+miba = "cello"
 
 dim   = \markup \italic "dim."
 mpdol = \markup { \dynamic mp \italic " dolce" }
@@ -35,20 +33,33 @@ mrall = \markup \italic "molto rall."
 
 music = \new StaffGroup <<
       \new Staff {
-	\set Staff.midiInstrument = \mihi
-	\set Staff.instrumentName = #"Geige"
-	\transpose b g { \va }
+        \set Staff.midiInstrument = \mivl
+        \set Staff.instrumentName = \markup \center-column { "Violine" }
+        \transpose b b { \va }
       }
 
       \new Staff {
-	\set Staff.midiInstrument = \milo
-	\set Staff.instrumentName = #"Cello"
-	\transpose b g { \vb }
+        \set Staff.midiInstrument = \miba
+        \set Staff.instrumentName = \markup \center-column { "Violon-" "cello" }
+        \transpose b b, { \vb }
       }
 >>
 
 \book {
-  \score {
+   \paper {
+    print-page-number = ##t
+    print-first-page-number = ##t
+    ragged-last-bottom = ##f
+    oddHeaderMarkup = \markup \null
+    evenHeaderMarkup = \markup \null
+    oddFooterMarkup = \markup {
+      \fill-line {
+        \on-the-fly #print-page-number-check-first
+        "Traditional - The Ash Grove (Welsh Air)" \fromproperty #'page:page-number-string
+      }
+    }
+    evenFooterMarkup = \oddFooterMarkup
+  } \score {
     \music
     \layout {}
   }
