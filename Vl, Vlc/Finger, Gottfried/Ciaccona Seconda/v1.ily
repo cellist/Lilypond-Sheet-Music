@@ -1,6 +1,5 @@
 va = \relative c' {
   \voiceconsts
-  \clef "bass^8"
 
   \repeat volta 2 {
     \partial 2 fis4 g
