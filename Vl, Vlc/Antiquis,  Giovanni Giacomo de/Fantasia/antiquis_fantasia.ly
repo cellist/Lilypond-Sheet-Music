@@ -1,7 +1,7 @@
 \version "2.18.2"
 \include "deutsch.ly"
 
-#(set-global-staff-size 19)
+#(set-global-staff-size 20)
 
 \header {
   title     = \markup \bold \italic "Fantasia"
@@ -14,30 +14,24 @@
 voiceconsts = {
   \key c \major
   \time 2/2
-  \tempo "Moderato " 2=80
   \numericTimeSignature
-%  \compressFullBarRests
   \set tupletSpannerDuration = #(ly:make-moment 1 4)
   % Set default beaming for all staves
   \set Timing.beamExceptions = #'()
   \set Timing.baseMoment     = #(ly:make-moment 1 2)
   \set Timing.beatStructure  = #'(1 1)
+  \tempo "Andante " 2=60
 }
 
-mifl = "flute"
-mist = "string ensemble 1"
-miba = "bassoon"
-%mist = "trumpet"
-%miba = "trombone"
-%mikl = "acoustic grand"
-mikl = "harpsichord"
+mivl = "violin"
+miba = "cello"
 
 \include "v1.ily"
 \include "v2.ily"
 
 music = <<
       \new Staff {
-        \set Staff.midiInstrument = \mist
+        \set Staff.midiInstrument = \mivl
         \set Staff.instrumentName = \markup \center-column { "Violine" }
         \transpose c c { \va }
       }
@@ -50,8 +44,21 @@ music = <<
 >>
 
 \book {
-  \score {
-   \music
+   \paper {
+    print-page-number = ##t
+    print-first-page-number = ##t
+    ragged-last-bottom = ##f
+    oddHeaderMarkup = \markup \null
+    evenHeaderMarkup = \markup \null
+    oddFooterMarkup = \markup {
+      \fill-line {
+        \on-the-fly #print-page-number-check-first
+        "Giovanni Giacomo de Antiquis - Fantasia" \fromproperty #'page:page-number-string
+      }
+    }
+    evenFooterMarkup = \oddFooterMarkup
+  } \score {
+    \music
     \layout {}
   }
 
