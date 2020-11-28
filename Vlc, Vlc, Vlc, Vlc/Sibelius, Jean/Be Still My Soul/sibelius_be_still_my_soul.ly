@@ -1,7 +1,7 @@
 \version "2.18.2"
 \include "deutsch.ly"
 
-#(set-global-staff-size 23)
+#(set-global-staff-size 20)
 
 \header {
   title     = \markup \bold \italic "Be Still, My Soul"
@@ -17,7 +17,6 @@ voiceconsts = {
   \time 4/4
   \clef "bass"
 %  \numericTimeSignature
-  \compressFullBarRests
   % Set default beaming for all staves
 %  \set Timing.beamExceptions = #'()
 %  \set Timing.baseMoment     = #(ly:make-moment 1 4)
@@ -25,12 +24,9 @@ voiceconsts = {
   \tempo "Andantino " 4=80
 }
 
-mifl = "flute"
-mikl = "clarinet"
-mist = "string ensemble 1"
-miba = "bassoon"
-%miba = "harpsichord"
-milo = "drawbar organ"
+mist = "string ensemble 2"
+miba = "string ensemble 1"
+%miba = "cello"
 
 \include "v1.ily"
 \include "v2.ily"
@@ -64,7 +60,20 @@ music = \new StaffGroup <<
 >>
 
 \book {
-  \score {
+   \paper {
+    print-page-number = ##t
+    print-first-page-number = ##t
+    ragged-last-bottom = ##f
+    oddHeaderMarkup = \markup \null
+    evenHeaderMarkup = \markup \null
+    oddFooterMarkup = \markup {
+      \fill-line {
+        \on-the-fly #print-page-number-check-first
+        "Jean Sibelius - Be Still, My Soul" \fromproperty #'page:page-number-string
+      }
+    }
+    evenFooterMarkup = \oddFooterMarkup
+  } \score {
     \music
     \layout {}
   }
