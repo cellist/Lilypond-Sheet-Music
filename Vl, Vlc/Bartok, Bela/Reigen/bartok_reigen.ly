@@ -4,31 +4,27 @@
 #(set-global-staff-size 22)
 
 \header {
-  title     = \markup \bold \italic "Ungarisches Lied"
+  title     = \markup \bold \italic "Reigen"
   composer  = "Béla Bartók"
   arranger  = "(1881-1945)"
   enteredby = "cellist (2020-11-30)"
-  piece     = "44 Duos für zwei Violinen, Sz. 98 (1931), Nr. 6"
+  piece     = "44 Duos für zwei Violinen, Sz. 98 (1931), Nr. 2"
 }
 
 voiceconsts = {
   \key g \major
-  \time 4/4
+  \time 2/2
   \clef "treble"
   \numericTimeSignature
   % Set default beaming for all staves
   \set Timing.beamExceptions = #'()
   \set Timing.baseMoment     = #(ly:make-moment 1 4)
   \set Timing.beatStructure  = #'(1 1 1)
-  \tempo "Moderatamente mosso " 4=116
+  \tempo "Andante " 2=80
 }
 
 mivl = "violin"
 miba = "cello"
-
-marc = \markup \italic "marc."
-pori = \mark \markup \box \italic "poco rit."
-simi = \markup \italic "simile"
 
 \include "v1.ily"
 \include "v2.ily"
@@ -57,7 +53,7 @@ music = \new StaffGroup <<
     oddFooterMarkup = \markup {
       \fill-line {
         \on-the-fly #print-page-number-check-first
-        "Béla Bartók - Ungarisches Lied" \fromproperty #'page:page-number-string
+        "Béla Bartók - Reigen" \fromproperty #'page:page-number-string
       }
     }
     evenFooterMarkup = \oddFooterMarkup
