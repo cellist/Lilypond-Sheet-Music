@@ -4,7 +4,7 @@
 #(set-global-staff-size 22)
 
 \header {
-  title     = \markup \bold \italic "Menuett in d-moll"
+  title     = \markup \bold \italic "Harlequin"
   composer  = "Unbekannt"
   arranger  = "Georg Christoph Wagenseil (Hrsg.)"
   enteredby = "cellist (2020-12-02)"
@@ -12,15 +12,15 @@
 }
 
 voiceconsts = {
-  \key d \minor
-  \time 3/4
+  \key f \major
+  \time 2/4
   \clef "treble"
   \numericTimeSignature
   % Set default beaming for all staves
 %  \set Timing.beamExceptions = #'()
 %  \set Timing.baseMoment     = #(ly:make-moment 1 2)
 %  \set Timing.beatStructure  = #'(1)
-  \tempo "Allegro moderato " 4=110
+  \tempo "Allegretto " 4=90
 }
 
 mivl = "violin"
@@ -34,13 +34,13 @@ music = \new StaffGroup <<
       \new Staff {
 	\set Staff.midiInstrument = \mivl
 	\set Staff.instrumentName = \markup \center-column { "Violine" }
-	\transpose d d { \va }
+	\transpose f f { \va }
       }
 
       \new Staff {
 	\set Staff.midiInstrument = \miba
 	\set Staff.instrumentName = \markup \center-column { "Violon-" "cello" }
-	\transpose d d { \vb }
+	\transpose f f { \vb }
       }
 >>
 
@@ -54,7 +54,7 @@ music = \new StaffGroup <<
     oddFooterMarkup = \markup {
       \fill-line {
         \on-the-fly #print-page-number-check-first
-        "Unbekannt - Menuett in d-moll" \fromproperty #'page:page-number-string
+        "Unbekannt - Harlequin" \fromproperty #'page:page-number-string
       }
     }
     evenFooterMarkup = \oddFooterMarkup
