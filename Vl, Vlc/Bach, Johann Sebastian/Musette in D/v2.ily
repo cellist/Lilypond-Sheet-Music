@@ -11,7 +11,7 @@ vb = \relative c, {
     d,-. d'-. d,-. d'-.
     d,-. d'-. d,-. d'-.
     fis16( g a8)-. g-. fis-.
-    e-. a-. <\parenthesize g, d'>4--
+    e-. a-. <\parenthesize a, d>4--
   }
 
   \repeat volta 2 {
@@ -37,6 +37,6 @@ vb = \relative c, {
     d,-. d'-. d,-. d'-.
     d,-. d'-. d,-. d'-.
     fis16( g a8)-. g-. fis-.
-    e-. a-. <\parenthesize g, d'>4--
+    e-. a-. <\parenthesize a, d>4--
   }
 }
