@@ -1,6 +1,6 @@
 va = \relative c' {
   \voiceconsts
-  \clef "bass^8"
+  \clef "treble"
 
   d2\mp e
   fis h
