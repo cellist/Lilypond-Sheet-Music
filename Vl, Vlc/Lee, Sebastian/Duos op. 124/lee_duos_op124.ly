@@ -1,25 +1,23 @@
-\version "2.14.2"
+\version "2.18.2"
 \include "deutsch.ly"
 
-#(set-global-staff-size 17.5)
+#(set-global-staff-size 18)
 
 \header {
-  title = "Einfache Duos"
-  subtitle = "aus den \"Drei einfachen Duos\", op. 124"
-  composer = "Sebastian Lee"
-  arranger = "(1805-1887)"
+  title     = \markup \bold \italic "Einfache Duos"
+  subtitle  = "aus den \"Drei einfachen Duos\", op. 124"
+  composer  = "Sebastian Lee"
+  arranger  = "(1805-1887)"
   enteredby = "cellist (2013-03-26)"
 }
 
 voiceconsts = {
   %\numericTimeSignature
-  \compressFullBarRests
 }
 
-%minstr = "harpsichord"
-mihi = "clarinet"
-%minstr = "accordion"
-milo = "bassoon"
+mivl = "violin"
+%miba = "pizzicato strings"
+miba = "cello"
 
 attc  = \markup \italic "attaca"
 arco  = \markup \bold \italic "arco"
@@ -50,20 +48,33 @@ introf = { \break \tempo "2b. Rondo - Allegretto " 4.=70 \key g \major }
 
 music = \new StaffGroup <<
       \new Staff {
-	\set Staff.midiInstrument = \mihi
-	\set Staff.instrumentName = #"Geige"
+	\set Staff.midiInstrument = \mivl
+	\set Staff.instrumentName = \markup \center-column { "Violine" }
 	\transpose f f { \va }
       }
 
       \new Staff {
-	\set Staff.midiInstrument = \milo
-	\set Staff.instrumentName = #"Cello"
+	\set Staff.midiInstrument = \miba
+	\set Staff.instrumentName = \markup \center-column { "Violon-" "cello" }
 	\transpose f f { \vb }
       }
 >>
 
 \book {
-  \score {
+   \paper {
+    print-page-number = ##t
+    print-first-page-number = ##t
+    ragged-last-bottom = ##f
+    oddHeaderMarkup = \markup \null
+    evenHeaderMarkup = \markup \null
+    oddFooterMarkup = \markup {
+      \fill-line {
+        \on-the-fly #print-page-number-check-first
+        "Sebastian Lee - Aus den einfachen Duos, op. 124" \fromproperty #'page:page-number-string
+      }
+    }
+    evenFooterMarkup = \oddFooterMarkup
+  } \score {
     \music
     \layout {}
   }
