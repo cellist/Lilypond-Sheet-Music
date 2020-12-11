@@ -1,7 +1,7 @@
 \version "2.14.2"
 \include "deutsch.ly"
   
-#(set-global-staff-size 30)
+#(set-global-staff-size 22)
 
 \header {
   title        = \markup \bold \italic "Gavotta in C-Dur"
@@ -14,14 +14,12 @@ voiceconsts = {
   \key c \major
   \time 2/2
 % \numericTimeSignature
-  \compressFullBarRests
   \tempo "Allegro moderato " 2=72
 }
 
-%minstr = "harpsichord"
-mihi = "clarinet"
-%minstr = "accordion"
-milo = "bassoon"
+mivl = "violin"
+%miba = "pizzicato strings"
+miba = "cello"
 
 fdmf  = \markup { \dynamic f  " / " \dynamic mf }
 fdmp  = \markup { \dynamic f  " / " \dynamic mp }
@@ -33,20 +31,33 @@ pdpp  = \markup { \dynamic p  " / " \dynamic pp }
 
 music = \new StaffGroup <<
       \new Staff {
-	\set Staff.midiInstrument = \mihi
+	\set Staff.midiInstrument = \mivl
 	\set Staff.instrumentName = \markup \center-column { "Violine" }
 	\transpose c c { \va }
       }
 
       \new Staff {
-	\set Staff.midiInstrument = \milo
+	\set Staff.midiInstrument = \miba
 	\set Staff.instrumentName = \markup \center-column { "Violon-" "cello" }
 	\transpose c c { \vb }
       }
 >>
 
 \book {
-  \score {
+   \paper {
+    print-page-number = ##t
+    print-first-page-number = ##t
+    ragged-last-bottom = ##f
+    oddHeaderMarkup = \markup \null
+    evenHeaderMarkup = \markup \null
+    oddFooterMarkup = \markup {
+      \fill-line {
+        \on-the-fly #print-page-number-check-first
+        "James Hook - Gavotta" \fromproperty #'page:page-number-string
+      }
+    }
+    evenFooterMarkup = \oddFooterMarkup
+  } \score {
     \music
     \layout {}
   }
