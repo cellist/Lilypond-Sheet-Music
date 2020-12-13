@@ -85,4 +85,54 @@ va = \relative c' {
     h8( a) f' d c4 h-+
     d( c2.)
   }
+
+  \introd
+  \partial 4 c8.(\mf a16)
+  g4. e8 f8. f16
+  e4 \tuplet 3/2 4 { r8 e' d \appoggiatura d c( h cis) }
+  \afterGrace d4( { e16[ d]) } c!4 h
+  c8.( e16) d4 r
+  g,4. e8 f8. f16
+
+  e4 \tuplet 3/2 4 { r8 e' d \appoggiatura d c( h cis) }
+  \afterGrace d4( { e16[ d]) } c!4 h
+  d8.( c16) c4 r
+  d4~ \tuplet 3/2 4 {
+    d8 f d \appoggiatura e d c h
+    c e, f g a h c d e
+  }
+  d4~ \tuplet 3/2 4 { d8 f d \appoggiatura e d c h }
+  c4 c c8. h16
+
+  h2 g4
+  a8.( c16) g4( fis)
+  a8.( g16) g2
+  g4. e8 f?8. f16
+  e4 \tuplet 3/2 4 { r8 e' d \appoggiatura d c( h cis) }
+  \afterGrace d4( { e16[ d]) } c!4( h)
+  d8.( c16) c4 r
+
+  c4. a8 gis8. h16
+  a8. c16 \tuplet 3/2 4 { e8 d c \appoggiatura d c h c }
+  d4. d8 \tuplet 3/2 4 { \appoggiatura d c h c }
+  h2 r4
+  c4.. a16 gis8. h16
+  a8. c16 \tuplet 3/2 4 { e8 d c \appoggiatura d c h a }
+
+  h8.( c32 d) a4( gis)
+  e'~ \tuplet 3/2 4 { e8 d c \appoggiatura d c h a }
+  h8.( c32 d) a4( gis)
+  a4. r8 r g!8
+  g4. e8 f8. f16
+  e4 \tuplet 3/2 4 { r8 e' d \appoggiatura d c( h cis) }
+  \afterGrace d4( { e16[ d]) } c!4 h
+
+  d8.( c16) c4 r
+  d4~\pp \tuplet 3/2 4 { d8 f d \appoggiatura e d( c h) }
+  c8.( e16) g,4.( cis8)
+  d4~ \tuplet 3/2 4 { d8 f d \appoggiatura e d c? h }
+  c4~ \tuplet 3/2 4 { c8 e( d) a( h) g-! }
+  c4~ \tuplet 3/2 4 { c8 e( d) a( h) g-! }
+  c8.. g32 e8.. c32 g8.. e32
+  c2\fermata r4 \bar "|."
 }

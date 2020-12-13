@@ -33,6 +33,7 @@ miba = "cello"
 introa = {        \tempo "Nr. 1 " 2=50 }
 introb = { \break \tempo "Nr. 2 " 2=50 }
 introc = { \break \tempo "Nr. 3 " 2=50 }
+introd = { \break \tempo "4. Adagio " 4=50 \time 3/4 }
 
 \include "v1.ily"
 \include "v2.ily"
