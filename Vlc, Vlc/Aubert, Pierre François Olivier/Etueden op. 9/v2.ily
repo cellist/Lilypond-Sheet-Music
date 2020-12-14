@@ -217,4 +217,40 @@ vb = \relative c, {
   c16 d e f g a h c
   f,8[ d g g,]
   \partial 4. c[ g c,] \bar "|."
+
+  \introf
+  d1
+  e
+  fis
+  g
+  a
+
+  h
+  cis
+  d
+  e
+  fis
+  g
+
+  a
+  h
+  cis
+  d
+  d
+  cis
+
+  h
+  a
+  g
+  fis
+  e
+  d
+  cis
+
+  h
+  a
+  g
+  fis
+  e
+  d \bar "|."
 }

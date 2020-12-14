@@ -214,4 +214,44 @@ va = \relative c' {
   c4 r
   d8-. d-. c16( h a h)
   \partial 4. c8[ g c,] \bar "|."
+
+  \introf
+  \tuplet 3/2 2 {
+    r4 \clef "bass" d e fis g a
+    g a g g e cis
+    d d' cis d a c
+    h g h d e d
+    cis a cis? e fis e
+
+    d h g d h g \clef "tenor"
+    g'' fis e g fis e
+    eis( fis) fis-! fis2.
+    r4 cis cis cis d e!
+    e2 d4 e2.
+    r4 e e e fis g
+
+    g2( fis4) fis2. \clef "bass"
+    g,,4 h d g h d \clef "tenor"
+    g fis e g fis e
+    eis( fis) fis fis2.
+    fis4 e! d fis gis a
+    e2( cis4) a2 a4
+
+    d cis h d eis fis
+    cis2 cis4 cis2.
+    h4 cis d \appoggiatura e8 d4 cis h
+    a d cis d e fis
+    g \clef "bass" e d \appoggiatura d8 cis4 h cis
+    d a fis d fis gis
+  }
+  a2 a
+
+  \tuplet 3/2 2 {
+    g?4 fis g h a g
+    g eis fis fis2.
+    e!4 dis e g fis e
+    e cis d! d fis a
+    g e d \appoggiatura d8 cis4 h cis
+  }
+  d1 \bar "|."
 }

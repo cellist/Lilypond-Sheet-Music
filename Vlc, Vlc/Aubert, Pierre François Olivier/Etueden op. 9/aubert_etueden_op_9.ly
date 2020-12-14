@@ -1,7 +1,7 @@
 \version "2.18.2"
 \include "deutsch.ly"
   
-#(set-global-staff-size 20)
+#(set-global-staff-size 18)
 
 \header {
   title     = \markup \bold \italic "Etüden für das Violoncello"
@@ -31,10 +31,12 @@ mist = "string ensemble 1"
 miba = "cello"
 
 introa = {        \tempo "Nr. 1 "                     2=50 }
-introb = { \break \tempo "Nr. 2 "                     2=50 }
-introc = { \break \tempo "Nr. 3 "                     2=50 }
+introb = { \break \tempo "2. Lento "                  2=50 }
+introc = { \break \tempo "3. Lento "                  2=50 }
 introd = { \break \tempo "4. Adagio "                 4=50 \time 3/4 }
 introe = { \break \tempo "5. Petit Rondo - Moderato " 4=80 \time 2/4 }
+introf = { \break \tempo "6. Moderato "               2=50 \time 2/2
+	   \key d \major }
 
 \include "v1.ily"
 \include "v2.ily"
