@@ -254,4 +254,64 @@ va = \relative c' {
     g e d \appoggiatura d8 cis4 h cis
   }
   d1 \bar "|."
+
+  \introg
+  \partial 4 a'8.\f a16
+  fis'4\segno d8. a16 fis4 d
+  cis8 d e cis a2
+  g''4 e8. cis16 a4 g
+  fis d8. d16 d8 fis g a
+
+  h4 g8. h16 a4 d,
+  g8(\prall fis g a) fis2
+  h4 g8. h16 a8 fis g a
+  h cis d e fis-. fis-. e-. e-.
+  d-. d-. e16( fis e g) fis8-. fis-. e-. e-.
+
+  d-. d-. fis4 e d
+  cis d8. h16 a4 gis
+  a a8. a16 a4 a
+  fis' d8. a16 fis4 d
+  cis8 d e cis a2
+
+  g''?4 e8. cis16 a4 g
+  fis d8. d16 d8 fis g a
+  h4 g8. h16 a4 d,
+  g8(\prall fis g a) fis2
+  h4 g8. h16 a8 fis g a
+
+  h cis d e fis e g fis
+  e( d) e( d) e( d cis d)
+  e4.( fis16 g) d4 cis
+  e4.( \fine d8) d4 \bar "||" fis,8. fis16
+  h4 h8. h16 h4 cis
+
+  d2 e4 d
+  cis e8. e16 d4 cis
+  h cis8. cis16 d4 h
+  cis cis h8( ais gis ais)
+  h4 h8.( d16) cis4 fis,
+  h h8. h16 h4 cis
+
+  d2 e4 d
+  cis e8. e16 d4 cis
+  h cis8. cis16 d4 h
+  cis cis h8( ais gis ais)
+  h2. cis8.( d16)
+  e4 e8. e16 e4 e
+
+  d2. h4
+  cis cis cis\prall d8( cis)
+  h2. cis8( d)
+  e4 e8. e16 e4 e
+  d2. d4
+  cis h8. h16 e4 d
+
+  cis2. r4
+  h h8. h16 h4 cis
+  d2 e4 d
+  cis e8. e16 d4 cis
+  h cis8. cis16 d4 h
+  cis cis h8 ais( gis ais)
+  \partial 2. h2^\dsaf a!8. a16 \bar "|."
 }

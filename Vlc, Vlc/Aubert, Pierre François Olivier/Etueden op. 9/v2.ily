@@ -253,4 +253,64 @@ vb = \relative c, {
   fis
   e
   d \bar "|."
+
+  \introg
+  \partial 4 r4
+  d'8\f\segno a' fis a d, a' fis a
+  e a g a e a g a
+  e a g a e a cis a
+  d a fis d d,4 r
+
+  g'8 d' g, d' fis, d' fis, d'
+  e, a e a d, a' d, a'
+  g d' g, d' fis, d e fis
+  g a h cis d-. d-. a-. a-.
+  <fis a>-. <fis a>-. a-. a-. d-. d-. a-. a-.
+
+  <fis a>-. <fis a>-. d' a cis a h e,
+  a a, fis' d e cis' e, h'
+  a a e cis a4 r
+  d8 a' fis a d, a' fis a
+  e a g a e a g a
+
+  e a g a e a cis a
+  d a fis d d,4 r
+  g'8 d' g, d' fis, d' fis, d'
+  e, a e a d, a' d, a'
+  g d' g, d' fis, d e fis
+
+  g a h cis d cis h a
+  g( fis) g( fis) g( fis e fis)
+  g e fis g a a a, a
+  d d' a \fine fis d4 \bar "||" r
+  h cis d e
+
+  fis gis ais h
+  a! g! fis e
+  d cis h d
+  e g fis fis,
+  d' h' fis r
+  h, cis d e
+
+  fis gis ais h
+  a! g! fis e
+  d cis h d
+  e g fis fis,
+  h8 h' fis d h4 r
+  \repeat tremolo 2 { ais8 fis' } \repeat tremolo 2 { ais, fis' }
+
+  \repeat tremolo 2 { h, fis' } \repeat tremolo 2 { h, fis' }
+  \repeat tremolo 2 { e fis } \repeat tremolo 2 { e fis }
+  \repeat tremolo 2 { d fis } \repeat tremolo 2 { d fis }
+  \repeat tremolo 2 { ais, fis' } \repeat tremolo 2 { ais, fis' }
+  \repeat tremolo 2 { h, fis' } \repeat tremolo 2 { h, fis' }
+  e fis d fis ais, fis' h, h'
+
+  fis4 fis8. fis16 fis8 e d cis
+  h4 cis d e
+  fis gis ais h
+  a! g! fis e
+  d cis h d
+  e g fis fis,
+  \partial 2. h8[^\dsaf h' fis d] h4 \bar "|."
 }
