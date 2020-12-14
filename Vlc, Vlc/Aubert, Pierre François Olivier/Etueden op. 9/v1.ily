@@ -135,4 +135,83 @@ va = \relative c' {
   c4~ \tuplet 3/2 4 { c8 e( d) a( h) g-! }
   c8.. g32 e8.. c32 g8.. e32
   c2\fermata r4 \bar "|."
+
+  \introe
+  \partial 8 \clef "tenor" g''8
+  e'-. e-. f16( e d e)
+  c4. e8
+  f-. f-. f16(\prall e f g)
+  e4. g,8
+  e'-. e-. g16( f e f)
+
+  c4. e8
+  d-. d-. c16( h a h)
+  d4( c8) d-!
+  d4.( c8)
+  h16( d c) a-. g8 d'-!
+  d4.( c8)
+  h16( d c) a-. g8 d'(
+  e) e( d) d(
+
+  e) e( d) g
+  e c a fis
+  a4( g8) g-!
+  e'-. e-. f?16( e d e)
+  c4. e8
+  f-. f-. f16(\prall e f g)
+  e4. g,8
+  e'-. e-. f16( e d e)
+
+  c4. e8
+  d-. d-. c16( h a h)
+  d4( c8) e,
+  e'-. e-. c-. c-.
+  a4. a8
+  gis a h gis
+  h16( a gis a) e8 e
+  e'-. e-. c-. c-.
+  a4. a8
+
+  gis a h gis
+  a4. a8
+  d-. d-. c-. c-.
+  h4~ h16 d cis( e)
+  d8-. d-. c!-. c-.
+  h4~ h16 d cis( e)
+  d8 c! h a
+  a4( gis8) e-!
+
+  e'-. e-. c-. c-.
+  a4. a8
+  gis a h gis
+  h16( a gis a) e8-. e-.
+  e'-. e-. c-. c-.
+  a4. a8
+  gis a h gis
+  a4. a8
+
+  fis g!\prall a fis
+  g a\prall h g
+  fis g a\prall fis
+  g4 r
+  r r8 f?
+  e f\prall g e
+  d-! r r f-!
+  e f g e
+  d h c d
+
+  g g,4\fermata g'8
+  e'-. e-. f16( e d e)
+  c4. e8
+  f-. f-. f16(\prall e f g)
+  e4. g,8
+  e'-. e-. f16( e d e)
+  c4. e8
+  d-. d-. c16( h a h)
+
+  c4 r
+  d8-. d-. c16( h a h)
+  c4 r
+  d8-. d-. c16( h a h)
+  \partial 4. c8[ g c,] \bar "|."
 }

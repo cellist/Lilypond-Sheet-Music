@@ -138,4 +138,83 @@ vb = \relative c, {
     \repeat tremolo 3 <g e'>-. \repeat tremolo 3 <g e'>-. \repeat tremolo 3 <g e'>-.
   }
   <g e'>2\fermata r4 \bar "|."
+
+  \introe
+  \partial 8 r8
+  c[ g' c g]
+  e[ g c g]
+  h[ g h g]
+  c[ g c,] r
+  c[ g' c g]
+
+  e[ g c g]
+  f[ d g g,]
+  c[ g c,] r
+  r d'[ e fis]
+  g[ a h] r
+  r d,[ e fis]
+  g[ a h] r
+  c[ g h g]
+
+  c[ g h g]
+  c[ a d d,]
+  g[ d g,] r
+  c[ g' c g]
+  e[ g c g]
+  h[ g h g]
+  c[ g c,] r
+  c[ g' c g]
+
+  e[ g c g]
+  f[ d g g,]
+  c[ g c,] r
+  a'[ e' a, e']
+  c[ e c e]
+  d[ e d e]
+  c[ e c e]
+  a,[ e' a, e']
+  c[ e c e]
+
+  d[ e d e]
+  c[ a' a,] r
+  f'[ a e a]
+  d,[ a' e a]
+  f[ a e a]
+  d,[ a' e a]
+  f[ e d dis](-!
+  e)[-! h e,] r
+
+  a[ e' a, e']
+  c[ e c e]
+  d[ e d e]
+  c[ e c e]
+  a,[ e' a, e']
+  c[ e c e]
+  d[ e d e]
+  c[ e c e]
+
+  c[ d c d]
+  h[ d h d]
+  c[ d c d]
+  h[ g' g, d'']
+  h[ c\prall d h]
+  c[ g g c]
+  h[ c\prall d h]
+  c[ g g c]
+  h[ d c a]
+
+  g4.\fermata r8
+  c,[ g' c g]
+  e[ g c g]
+  h[ g h g]
+  c[ g c,] r
+  c[ g' c g]
+  e[ g c g]
+  f[ d g g,]
+
+  c16 d e f g a h c
+  f,8[ d g g,]
+  c16 d e f g a h c
+  f,8[ d g g,]
+  \partial 4. c[ g c,] \bar "|."
 }
