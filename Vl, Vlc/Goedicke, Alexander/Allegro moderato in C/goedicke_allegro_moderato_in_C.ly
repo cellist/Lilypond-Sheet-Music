@@ -65,7 +65,7 @@ music = \new StaffGroup <<
     oddFooterMarkup = \markup {
       \fill-line {
         \on-the-fly #print-page-number-check-first
-        "Alexander Goedicke - Allegro in C-Dur" \fromproperty #'page:page-number-string
+        "Alexander Goedicke - Allegro moderato in C-Dur" \fromproperty #'page:page-number-string
       }
     }
     evenFooterMarkup = \oddFooterMarkup
