@@ -17,18 +17,18 @@ vb = \relative c' {
   g2)
   f(
   g)
-  c,4( e8 g
-  c2) \boxa \clef "treble"
+  c,4( e8 g \clef "tenor"
+  c2) \boxa
 
   c8( g' e g
   h, g' d g)
   a,( e' c e
-  g, e' h e) \clef "bass"
+  g, e' h e)
   f,( a d f)
 
   g,( h d f)
   c( g' e g
-  c,4) r
+  c,4) r \clef "bass"
   e,( c8 e
   d g, g'4)
 
