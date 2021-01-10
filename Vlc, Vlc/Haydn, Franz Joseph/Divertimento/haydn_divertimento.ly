@@ -1,50 +1,69 @@
-\version "2.14.2"
+\version "2.18.2"
 \include "deutsch.ly"
-
-#(set-global-staff-size 18.25)
+  
+#(set-global-staff-size 18)
 
 \header {
-  title     = \markup \bold \italic "Divertimento in D"
+  title     = \markup \bold \italic "Divertimento"
   composer  = "Franz Joseph Haydn (1732-1809)"
   arranger  = "arr.: Ross A. Cohen"
-  enteredby = "cellist (2014-06-04)"
+  enteredby = "cellist (2021-01-10)"
+%  piece     = ""
 }
 
 voiceconsts = {
   \key d \major
   \time 4/4
   \clef "bass"
-  %\numericTimeSignature
-  \set tupletSpannerDuration = #(ly:make-moment 1 8)
-  \compressFullBarRests
-  \tempo "Allegro " 4=80
+%  \numericTimeSignature
+  % Set default beaming for all staves
+%  \set Timing.beamExceptions = #'()
+%  \set Timing.baseMoment     = #(ly:make-moment 1 4)
+%  \set Timing.beatStructure  = #'(1 1 1)
+  \tempo " Allegro " 4=100
 }
 
-%mihi = "clarinet"
-%milo = "bassoon"
-mihi = "church organ"
-milo = "church organ"
+micl = "clarinet"
+mifl = "flute"
+miob = "oboe"
+mifh = "french horn"
+misx = "tenor sax"
+mist = "string ensemble 1"
+miba = "cello"
 
 \include "v1.ily"
 \include "v2.ily"
 
 music = \new StaffGroup <<
       \new Staff {
-        \set Staff.midiInstrument = \mihi
-        \set Staff.instrumentName = \markup \center-column { "Violon-" "cello I" }
-        \transpose d d { \va }
+	\set Staff.midiInstrument = \miba
+	\set Staff.instrumentName = \markup \center-column { "Violon-" "cello I" }
+	\transpose d d { \va }
       }
 
       \new Staff {
-        \set Staff.midiInstrument = \milo
-        \set Staff.instrumentName = \markup \center-column { "Violon-" "cello II" }
-        \transpose d d { \vb }
+	\set Staff.midiInstrument = \miba
+	\set Staff.instrumentName = \markup \center-column { "Violon-" "cello II" }
+	\transpose d d { \vb }
       }
 >>
 
 \book {
-  \score {
-   \music
+   \paper {
+    print-page-number = ##t
+    print-first-page-number = ##t
+    ragged-last-bottom = ##f
+    oddHeaderMarkup = \markup \null
+    evenHeaderMarkup = \markup \null
+    oddFooterMarkup = \markup {
+      \fill-line {
+        \on-the-fly #print-page-number-check-first
+        "Franz Joseph Haydn - Divertimento" \fromproperty #'page:page-number-string
+      }
+    }
+    evenFooterMarkup = \oddFooterMarkup
+  } \score {
+    \music
     \layout {}
   }
 
