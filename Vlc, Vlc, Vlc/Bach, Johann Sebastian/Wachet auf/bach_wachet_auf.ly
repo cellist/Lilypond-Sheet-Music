@@ -1,7 +1,7 @@
-\version "2.14.2"
+\version "2.18.2"
 \include "deutsch.ly"
 
-#(set-global-staff-size 17.8)
+#(set-global-staff-size 18)
 
 \header {
   title     = \markup \bold \italic "Wachet auf, ruft uns die Stimme"
@@ -18,19 +18,15 @@ voiceconsts = {
   \time 4/4
   \tempo "Andante " 4=80
   \numericTimeSignature
-  \compressFullBarRests
   %\set tupletSpannerDuration = #(ly:make-moment 1 4)
 }
 
-mist = "string ensemble 1"
-miba = "drawbar organ"
-%mist = "church organ"
-%miba = "church organ"
+miba = "cello"
 
-boxa = { \bar "||" \mark \markup \box "A" }
-boxb = \mark \markup \box "B"
-boxc = { \bar "||" \mark \markup \box "C" }
-boxd = { \bar "||" \mark \markup \box "D" }
+boxa = { \bar "||" \mark \markup \box \italic "A" }
+boxb = \mark \markup \box \italic "B"
+boxc = { \bar "||" \mark \markup \box \italic "C" }
+boxd = { \bar "||" \mark \markup \box \italic "D" }
 
 \include "v1.ily"
 \include "v2.ily"
@@ -38,13 +34,13 @@ boxd = { \bar "||" \mark \markup \box "D" }
 
 music = <<
       \new Staff {
-        \set Staff.midiInstrument = \mist
+        \set Staff.midiInstrument = \miba
         \set Staff.instrumentName = \markup \center-column { "Violon-" "cello I" }
         \transpose f g, { \va }
       }
 
       \new Staff {
-        \set Staff.midiInstrument = \mist
+        \set Staff.midiInstrument = \miba
         \set Staff.instrumentName = \markup \center-column { "Violon-" "cello II" }
         \transpose f g, { \vb }
       }
@@ -57,8 +53,21 @@ music = <<
 >>
 
 \book {
-  \score {
-   \music
+   \paper {
+    print-page-number = ##t
+    print-first-page-number = ##t
+    ragged-last-bottom = ##f
+    oddHeaderMarkup = \markup \null
+    evenHeaderMarkup = \markup \null
+    oddFooterMarkup = \markup {
+      \fill-line {
+        \on-the-fly #print-page-number-check-first
+        "Johann Sebastian Bach -  Wachet auf, ruft uns die Stimme (BWV 645)"\fromproperty #'page:page-number-string
+      }
+    }
+    evenFooterMarkup = \oddFooterMarkup
+  } \score {
+    \music
     \layout {}
   }
 
