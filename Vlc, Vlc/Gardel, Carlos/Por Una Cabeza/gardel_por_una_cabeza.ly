@@ -1,13 +1,13 @@
-\version "2.14.2"
+\version "2.18.2"
 \include "deutsch.ly"
 
-#(set-global-staff-size 16.55)
+#(set-global-staff-size 19)
 
 \header {
-  title = \markup \bold \italic "Por Una Cabeza"
-  subtitle = "(1935)"
-  composer = "Carlos Gardel (~1890-1935)"
-  arranger = "arr.: Adina Chan"
+  title     = \markup \bold \italic "Por Una Cabeza"
+  subtitle  = "(1935)"
+  composer  = "Carlos Gardel (~1890-1935)"
+  arranger  = "arr.: Adina Chan"
   enteredby = "cellist (2013-08-17)"
 }
 
@@ -16,14 +16,13 @@ voiceconsts = {
  \time 4/4
  \clef "bass"
 % \numericTimeSignature
- \compressFullBarRests
  \tempo "Tempo di Tango " 4=104
 }
 
 %minstr = "harpsichord"
 mihi = "clarinet"
 %minstr = "accordion"
-milo = "bassoon"
+milo = "cello"
 
 rit = \markup \bold \italic "rit."
 sim = \markup \italic "simile"
@@ -46,7 +45,20 @@ music = \new StaffGroup <<
 >>
 
 \book {
-  \score {
+   \paper {
+    print-page-number = ##t
+    print-first-page-number = ##t
+    ragged-last-bottom = ##f
+    oddHeaderMarkup = \markup \null
+    evenHeaderMarkup = \markup \null
+    oddFooterMarkup = \markup {
+      \fill-line {
+        \on-the-fly #print-page-number-check-first
+        "Carlos Gardel - Por Una Cabeza" \fromproperty #'page:page-number-string
+      }
+    }
+    evenFooterMarkup = \oddFooterMarkup
+  } \score {
     \music
     \layout {}
   }
@@ -57,7 +69,6 @@ music = \new StaffGroup <<
     \midi {
       \context {
         \Score
-        tempoWholesPerMinute = #(ly:make-moment 52 2)
       }
     }
   }
