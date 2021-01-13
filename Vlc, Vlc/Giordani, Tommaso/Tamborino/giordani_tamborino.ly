@@ -1,7 +1,7 @@
 \version "2.18.2"
 \include "deutsch.ly"
 
-#(set-global-staff-size 22.5)
+#(set-global-staff-size 20)
 
 \header {
   title     = \markup \italic "Tamborino"
@@ -16,28 +16,19 @@ voiceconsts = {
  \time 2/4
  \clef "bass"
 % \numericTimeSignature
- \compressFullBarRests
  \tempo "Allegro " 8=140
 }
 
 acc  = \markup \italic \bold "accel."
 
-%miba = "harpsichord"
-%minstr = "clarinet"
-%minstr = "accordion"
-%milo = "bassoon"
-%miba = "electric bass (pick)"
-miba = "electric bass (finger)"
-%miba = "trombone"
-milo = "reed organ"
-%miba = "drawbar organ"
+miba = "cello"
 
 \include "v1.ily"
 \include "v2.ily"
 
 music = \new StaffGroup <<
       \new Staff {
-	\set Staff.midiInstrument = \milo
+	\set Staff.midiInstrument = \miba
 	\set Staff.instrumentName = \markup \center-column { "Violon-" "cello I" }
 	\transpose f f { \va }
       }
@@ -50,7 +41,20 @@ music = \new StaffGroup <<
     >>
 
 \book {
-  \score {
+   \paper {
+    print-page-number = ##t
+    print-first-page-number = ##t
+    ragged-last-bottom = ##f
+    oddHeaderMarkup = \markup \null
+    evenHeaderMarkup = \markup \null
+    oddFooterMarkup = \markup {
+      \fill-line {
+        \on-the-fly #print-page-number-check-first
+        "Tommaso Giordani - Tamborino" \fromproperty #'page:page-number-string
+      }
+    }
+    evenFooterMarkup = \oddFooterMarkup
+  } \score {
     \music
     \layout {}
   }
