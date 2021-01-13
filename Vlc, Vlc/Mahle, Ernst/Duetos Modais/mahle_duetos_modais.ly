@@ -1,7 +1,7 @@
-\version "2.14.2"
+\version "2.18.2"
 \include "deutsch.ly"
 
-#(set-global-staff-size 17.7)
+#(set-global-staff-size 19)
 
 \header {
   title     = \markup \bold \italic "Duetos Modais para Fagotes"
@@ -14,11 +14,11 @@
 voiceconsts = {
  \clef "bass"
  %\numericTimeSignature
- \compressFullBarRests
 }
 
 mihi = "clarinet"
 milo = "bassoon"
+mivc = "cello"
 
 rit  = \markup \italic "rit."
 piup = \markup { \italic "più " \dynamic p }
@@ -38,21 +38,34 @@ introc = {
 
 music = \new StaffGroup <<
       \new Staff {
-        \set Staff.midiInstrument = \milo
+        \set Staff.midiInstrument = \mivc
         \set Staff.instrumentName = \markup \center-column { "Violon-" "cello I" }
         \transpose c d { \va }
       }
 
       \new Staff {
-        \set Staff.midiInstrument = \milo
+        \set Staff.midiInstrument = \mivc
         \set Staff.instrumentName = \markup \center-column { "Violon-" "cello II" }
         \transpose c d { \vb }
       }
 >>
 
 \book {
-  \score {
-   \music
+   \paper {
+    print-page-number = ##t
+    print-first-page-number = ##t
+    ragged-last-bottom = ##f
+    oddHeaderMarkup = \markup \null
+    evenHeaderMarkup = \markup \null
+    oddFooterMarkup = \markup {
+      \fill-line {
+        \on-the-fly #print-page-number-check-first
+        "Ernst Mahle - Duetos Modais para Fagotes" \fromproperty #'page:page-number-string
+      }
+    }
+    evenFooterMarkup = \oddFooterMarkup
+  } \score {
+    \music
     \layout {}
   }
 

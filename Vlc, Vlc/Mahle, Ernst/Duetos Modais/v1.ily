@@ -1,6 +1,5 @@
 va = \relative c {
    \voiceconsts
-   \clef "tenor"
 
    \introa
    e8(\p d g) e4.
@@ -18,11 +17,11 @@ va = \relative c {
    e8-. e-. e-. e16[-.\> d]-. c8.( d16)
    a4(\! c8) d16[-. c]-. a8.( g16)
    e8 e e e16 g a g a g
-   c4( a8) g16[\< a] c d8( e16)\!
+   c4( a8) \clef "tenor" g16[\< a] c d8( e16)\!
 
    g8\f g g g16 e d e d e
    g[ e] d c8( d16) e8( c) d
-   a4 r8 r e-.\> a,-.\!
+   a4 \clef "bass" r8 r e-.\> a,-.\!
    c4.(~ c8 d a)
 
    c4.(~ c8 d a)
@@ -71,7 +70,7 @@ va = \relative c {
    b as b4 d8\> cis b as\!
    g\mf as4( g8) as g as4
    g d8\p e g4 d8 e
-   g as g4 d8 e g as
+   g as g4 d8 e g as \clef "tenor"
 
    b\< cis d cis d cis d cis\!
    d4\mf g e8 d4( b8)
@@ -79,14 +78,14 @@ va = \relative c {
    g e b' g~ g e( d b)
 
    d2 b8\cresc d4( g8)
-   e4.d8 e d e4
+   e4. d8 e d e4
    as2~ as8 g( e g)
    as2~ as8 g( e g)
 
    b-.\ff as4( g8) e-. d-. cis-. b-.
    as g e g as b cis d
    cis d4( cis8) d cis d4\>
-   cis cis,8\!\f d cis d4( cis8)\>
+   cis \clef "bass" cis,8\!\f d cis d4( cis8)\>
 
    d4 cis'8\!\mf d cis d4( cis8)\>
    d4 cis,8\!\p d cis d4( e8)
@@ -94,7 +93,7 @@ va = \relative c {
    d4^\rit cis8 d cis d4( e8)
    d2. r4 \bar "|."
 
-   \introc \clef "bass"
+   \introc
    d,2.\f
    fis'4.( e8) fis, gis
    d'4 c4.( b8)
@@ -124,14 +123,14 @@ va = \relative c {
    d' \afterGrace c2( { c16[ h]) }
    b2 as4
    fis e8( fis) gis e
-   fis gis ais4.( c8)
+   fis gis ais4.( c8) \clef "tenor"
 
    d4.(\< e8) d c\!
    d( e) d c d e
    fis4 \afterGrace e2( { fis16[ e]) }
    d2 r4
 
-   R2.
+   R2. \clef "bass"
    d,,2.\f
    fis'4.( e8) fis, gis
    d'4 c4.( b8)
@@ -141,7 +140,7 @@ va = \relative c {
    b' \afterGrace a2( { b16[ as]) }
    fis2 e4
    d c8( d) e c
-   d e fis4.( gis8)
+   d e fis4.( gis8) \clef "tenor"
 
    b4.( c8) b as
    b( c) b as b c
