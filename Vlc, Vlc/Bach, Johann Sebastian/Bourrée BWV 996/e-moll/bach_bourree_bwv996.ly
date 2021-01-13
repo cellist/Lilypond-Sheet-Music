@@ -1,10 +1,10 @@
 \version "2.18.2"
 \include "deutsch.ly"
 
-#(set-global-staff-size 23)
+#(set-global-staff-size 22)
 
 \header {
-  title     = \markup \bold \italic "Bouree"
+  title     = \markup \bold \italic "Bourrée"
   subtitle  = "- aus der Lautensuite in e-moll -"
   composer  = "Johann Sebastian Bach"
   arranger  = "(1685-1750)"
@@ -26,18 +26,18 @@ voiceconsts = {
 }
 
 mist = "string ensemble 1"
-%miba = "trombone"
+miba = "cello"
 mivc = "bassoon"
 %mivc = "trombone"
-mikl = "concertina"
-miba = "electric bass (finger)"
+%mikl = "concertina"
+%miba = "electric bass (finger)"
 
 \include "v1.ily"
 \include "v2.ily"
 
 music = <<
       \new Staff {
-        \set Staff.midiInstrument = \mivc
+        \set Staff.midiInstrument = \miba
         \set Staff.instrumentName = \markup \center-column { "Violon-" "cello I" }
         \transpose e e { \va }
       }
@@ -50,8 +50,21 @@ music = <<
 >>
 
 \book {
-  \score {
-   \music
+   \paper {
+    print-page-number = ##t
+    print-first-page-number = ##t
+    ragged-last-bottom = ##f
+    oddHeaderMarkup = \markup \null
+    evenHeaderMarkup = \markup \null
+    oddFooterMarkup = \markup {
+      \fill-line {
+        \on-the-fly #print-page-number-check-first
+        "Johann Sebastian Bach - Bourrée BWV 996" \fromproperty #'page:page-number-string
+      }
+    }
+    evenFooterMarkup = \oddFooterMarkup
+  } \score {
+    \music
     \layout {}
   }
 
