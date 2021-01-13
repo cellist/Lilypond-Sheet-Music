@@ -3,10 +3,10 @@ va = \relative c'' {
   \clef "treble"
 
   \partial 4. r4.
-  r1.
+  R8*12
   \repeat volta 2 {
     R1.*4
-    r2. g4.~^\cho g4 a8
+    r2. g4.~ \cho g4 a8
 
     h2. c
     d c

@@ -3,7 +3,7 @@ vb = \relative c' {
   \clef "tenor"
 
   \partial 4. r4.
-  r1.
+  R8*12
   \repeat volta 2 {
     r2. r4. r8 d e
     fis cis d g a h a cis, d g fis e
