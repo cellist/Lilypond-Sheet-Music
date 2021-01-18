@@ -193,6 +193,7 @@ format. A similar routine should also work under Windows.
 ## Recommendations for sites with sheet music
 
 * [Another](https://github.com/ma-wallm/musik) github repository with arrangements for various chamber music groups
+* [Choir rehearsal files](http://www.cafe-puccini.dk/) from Cafe Puccini in Denmark
 * The [Choral Public Domain Library](http://www.cpdl.org/)
 * [The Clarinet Institute of Los Angeles](https://www.clarinetinstitute.com/free-music.html)
 * [International Music Score Library Project](https://imslp.org/)
