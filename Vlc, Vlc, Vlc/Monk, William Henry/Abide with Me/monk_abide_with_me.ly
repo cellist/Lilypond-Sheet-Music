@@ -1,28 +1,26 @@
-\version "2.14.2"
+\version "2.18.2"
 \include "deutsch.ly"
 
-#(set-global-staff-size 18.8)
+#(set-global-staff-size 20)
 
 \header {
-  title    = \markup \bold \italic "Abide with Me"
-  composer = "William Henry Monk (1823-1889)"
-  arranger = "arr.: Jordan Grigg"
+  title     = \markup \bold \italic "Abide with Me"
+  composer  = "William Henry Monk (1823-1889)"
+  arranger  = "arr.: Jordan Grigg"
   enteredby = "cellist (2014-02-25)"
 }
 
 voiceconsts = {
- \key b \major
- \time 4/4
- \clef "bass"
- \numericTimeSignature
- \compressFullBarRests
- \tempo "Moderato " 4=84
+  \key b \major
+  \time 4/4
+  \clef "bass"
+  \numericTimeSignature
+  \tempo "Moderato " 4=84
 }
 
-mihi = "clarinet"
-milo = "bassoon"
+milo = "cello"
 
-rit = \markup \bold \italic "rit."
+rit = \mark \markup \box \italic "rit."
 
 \include "v1.ily"
 \include "v2.ily"
@@ -30,7 +28,7 @@ rit = \markup \bold \italic "rit."
 
 music = \new StaffGroup <<
       \new Staff {
-	\set Staff.midiInstrument = \mihi
+	\set Staff.midiInstrument = \milo
 	\set Staff.instrumentName = \markup \center-column { "Violon-" "cello I" }
 	\transpose b b, { \va }
       }
@@ -49,7 +47,20 @@ music = \new StaffGroup <<
 >>
 
 \book {
-  \score {
+   \paper {
+    print-page-number = ##t
+    print-first-page-number = ##t
+    ragged-last-bottom = ##f
+    oddHeaderMarkup = \markup \null
+    evenHeaderMarkup = \markup \null
+    oddFooterMarkup = \markup {
+      \fill-line {
+        \on-the-fly #print-page-number-check-first
+        "William Henry Monk - Abide with Me (Eventide)" \fromproperty #'page:page-number-string
+      }
+    }
+    evenFooterMarkup = \oddFooterMarkup
+  } \score {
     \music
     \layout {}
   }

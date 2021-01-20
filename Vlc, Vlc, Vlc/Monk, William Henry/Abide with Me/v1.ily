@@ -38,7 +38,7 @@ va = \relative c'' {
   d2 c
   d1
 
-  c2(^\rit d4 es)
+  c2( \rit d4 es)
   d( c b es)
   d2 c
   b1 \bar "|."

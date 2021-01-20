@@ -38,7 +38,7 @@ vc = \relative c'' {
   f2 f
   b,2. d4
 
-  es2(^\rit d4 c)
+  es2( \rit d4 c)
   f( fis g es)
   f!2 f
   d4( c b2) \bar "|."

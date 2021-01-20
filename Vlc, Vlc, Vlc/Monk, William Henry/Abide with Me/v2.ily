@@ -38,7 +38,7 @@ vb = \relative c' {
   c b2( a4)
   f( b f2)
 
-  g(^\rit b4 c)
+  g( \rit b4 c)
   b( a) g c~
   c b2( a4)
   f( es d2) \bar "|."
