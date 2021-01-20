@@ -17,7 +17,6 @@ voiceconsts = {
   \clef "bass"
   \tempo "Maestoso " 2=60
 %  \numericTimeSignature
-%  \compressFullBarRests
   \set tupletSpannerDuration = #(ly:make-moment 1 4)
   % Set default beaming cor all staves
 %  \set Timing.beamExceptions = #'()
@@ -25,12 +24,7 @@ voiceconsts = {
 %  \set Timing.beatStructure  = #'(1 1)
 }
 
-mist = "string ensemble 1"
-%miba = "trombone"
-mivc = "bassoon"
-%mivc = "trombone"
-mikl = "concertina"
-miba = "electric bass (finger)"
+mivc = "cello"
 
 \include "v1.ily"
 \include "v2.ily"
@@ -57,8 +51,21 @@ music = <<
 >>
 
 \book {
-  \score {
-   \music
+   \paper {
+    print-page-number = ##t
+    print-first-page-number = ##t
+    ragged-last-bottom = ##f
+    oddHeaderMarkup = \markup \null
+    evenHeaderMarkup = \markup \null
+    oddFooterMarkup = \markup {
+      \fill-line {
+        \on-the-fly #print-page-number-check-first
+        "Johann Sebastian Bach - Choral: \"Wo Gott der Herr nicht bei uns hält\"" \fromproperty #'page:page-number-string
+      }
+    }
+    evenFooterMarkup = \oddFooterMarkup
+  } \score {
+    \music
     \layout {}
   }
 
