@@ -1,64 +1,79 @@
 \version "2.12.3"
 \include "deutsch.ly"
 
-#(set-global-staff-size 24)
+#(set-global-staff-size 22)
 
 \header {
-  title = "Choral"
-  composer = "Robert Schumann"
-  arranger = "(1810-1856)"
+  title     = \markup \bold \italic "Choral: \"Freude Dich, o meine Seele\""
+  composer  = "Robert Alexander Schumann"
+  arranger  = "(1810-1856)"
   enteredby = "cellist (2011-06-04)"
+  piece     = "Album für die Jugend, Op. 68, Nr. 4 (1848)"
 }
 
 voiceconsts = {
- \key c \major
- \time 2/2
- \clef "bass"
+  \key c \major
+  \time 2/2
+  \clef "bass"
 % \numericTimeSignature
- \compressFullBarRests
- \tempo "Adagio " 2=50
+  \tempo "Adagio " 2=50
 }
 
 mfpp  = \markup { \dynamic mf "/" \dynamic pp }
 
-%minstr = "harpsichord"
-%minstr = "clarinet"
-%minstr = "accordion"
-minstr = "bassoon"
+miba = "cello"
 
 \include "v1.ily"
 \include "v2.ily"
 \include "v3.ily"
 
+music = \new StaffGroup <<
+      \new Staff {
+        \set Staff.midiInstrument = \miba
+        \set Staff.instrumentName = \markup \center-column { "Violon-" "cello I" }
+        \transpose c c { \va }
+      }
+
+      \new Staff {
+        \set Staff.midiInstrument = \miba
+        \set Staff.instrumentName = \markup \center-column { "Violon-" "cello II" }
+        \transpose c c { \vb }
+      }
+
+      \new Staff {
+        \set Staff.midiInstrument = \miba
+        \set Staff.instrumentName = \markup \center-column { "Violon-" "cello III" }
+        \transpose c c { \vc }
+      }
+>>
+
 \book {
-  \score {
-    \new StaffGroup <<
-      \new Staff {
-	\set Staff.midiInstrument = \minstr
-	\set Staff.instrumentName = #"Vc 1"
-	\transpose c c { \va }
+   \paper {
+    print-page-number = ##t
+    print-first-page-number = ##t
+    ragged-last-bottom = ##f
+    oddHeaderMarkup = \markup \null
+    evenHeaderMarkup = \markup \null
+    oddFooterMarkup = \markup {
+      \fill-line {
+        \on-the-fly #print-page-number-check-first
+        "Robert Alexander Schumann: Choral (Freue Dich, o meine Seele)" \fromproperty #'page:page-number-string
       }
-
-      \new Staff {
-	\set Staff.midiInstrument = \minstr
-	\set Staff.instrumentName = #"Vc 2"
-	\transpose c c { \vb }
-      }
-
-      \new Staff {
-	\set Staff.midiInstrument = \minstr
-	\set Staff.instrumentName = #"Vc 3"
-	\transpose c c { \vc }
-      }
-    >>
-
+    }
+    evenFooterMarkup = \oddFooterMarkup
+  } \score {
+    \music
     \layout {}
+  }
+
+  \score {
+    \unfoldRepeats \music
 
     \midi {
       \context {
-	\Score
-	tempoWholesPerMinute = #(ly:make-moment 50 2)
+        \Score
       }
     }
   }
 }
+
