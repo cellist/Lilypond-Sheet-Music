@@ -16,7 +16,6 @@ voiceconsts = {
   \time 3/4
   \clef "bass"
 % \numericTimeSignature
-  \compressFullBarRests
   % Set default beaming for all staves
   \set Timing.beamExceptions = #'()
   \set Timing.baseMoment     = #(ly:make-moment 1 4)
@@ -24,11 +23,7 @@ voiceconsts = {
   \tempo "Allegretto " 4=120
 }
 
-%minstr = "harpsichord"
-mist = "string ensemble 1"
-%minstr = "accordion"
-miba = "bassoon"
-milo = "drawbar organ"
+miba = "cello"
 
 \include "v1.ily"
 \include "v2.ily"
@@ -36,13 +31,13 @@ milo = "drawbar organ"
 
 music = \new StaffGroup <<
       \new Staff {
-	\set Staff.midiInstrument = \mist
+	\set Staff.midiInstrument = \miba
 	\set Staff.instrumentName = \markup \center-column { "Violon-" "cello I" }
 	\transpose f f { \va }
       }
       
       \new Staff {
-	\set Staff.midiInstrument = \mist
+	\set Staff.midiInstrument = \miba
 	\set Staff.instrumentName = \markup \center-column { "Violon-" "cello II" }
 	\transpose f f { \vb }
       }
@@ -55,7 +50,20 @@ music = \new StaffGroup <<
 >>
 
 \book {
-  \score {
+   \paper {
+    print-page-number = ##t
+    print-first-page-number = ##t
+    ragged-last-bottom = ##f
+    oddHeaderMarkup = \markup \null
+    evenHeaderMarkup = \markup \null
+    oddFooterMarkup = \markup {
+      \fill-line {
+        \on-the-fly #print-page-number-check-first
+        "Andrea Gabrieli - Sarabande" \fromproperty #'page:page-number-string
+      }
+    }
+    evenFooterMarkup = \oddFooterMarkup
+  } \score {
     \music
     \layout {}
   }
