@@ -1,6 +1,7 @@
 va = \relative c' {
   \voiceconsts
-
+  \clef "tenor"
+  
   \repeat volta 2 {
     \partial 4 c4\mf
     f4.( g8) a4 g a b
@@ -68,10 +69,10 @@ va = \relative c' {
   \repeat volta 2 {
     g'4\mf
     g2 g f4 e
-    f2-| g4-| a2-| f4
+    f2-! g4-! a2-! f4
     f2 f4 f( e) d
 
-    e2-| f4-| g2-| c,4
+    e2-! f4-! g2-! c,4
     f2 c4 a'2 f4
     g2.~ g2 c,4
     g'2 c,4 b'2 g4

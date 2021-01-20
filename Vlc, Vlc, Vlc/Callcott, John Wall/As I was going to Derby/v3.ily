@@ -68,9 +68,9 @@ vc = \relative c' {
   \repeat volta 2 {
     c4\mf
     c2 c4 a2 a4
-    d2-| d4-| d2-| d4
+    d2-! d4-! d2-! d4
     h2 h4 g'2 g4
-    c,2-| c4-| c2-| c4
+    c,2-! c4-! c2-! c4
 
     a'2 a4 f2 a,4
     c2.~ c2 c4

@@ -68,9 +68,9 @@ vb = \relative c' {
   \repeat volta 2 {
     e4\mf
     e2 e4 e( d) cis
-    d2-| e4-| f2-| d4
+    d2-! e4-! f2-! d4
     d2 d4 d( c?) h
-    c2-| d4-| e2-| c4
+    c2-! d4-! e2-! c4
 
     c2 f4 c2 f4
     e2.~ e2 c4
