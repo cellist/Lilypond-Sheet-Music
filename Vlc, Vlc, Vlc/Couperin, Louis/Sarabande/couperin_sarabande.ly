@@ -1,12 +1,12 @@
-\version "2.14.2"
+\version "2.18.2"
 \include "deutsch.ly"
 
-#(set-global-staff-size 25)
+#(set-global-staff-size 22)
 
 \header {
-  title = "Sarabande"
-  composer = "Louis Couperin"
-  arranger = "(1626-1661)"
+  title     = \markup \bold \italic "Sarabande"
+  composer  = "Louis Couperin"
+  arranger  = "(1626-1661)"
   enteredby = "cellist (2012-01-03)"
 }
 
@@ -15,14 +15,10 @@ voiceconsts = {
   \key b \major
   \time 3/4
 % \numericTimeSignature
-  \compressFullBarRests
-  \tempo 4=80
+  \tempo "Andante " 4=80
 }
 
-%minstr = "harpsichord"
-mihi = "clarinet"
-%minstr = "accordion"
-milo = "bassoon"
+miba = "cello"
 
 fine = \markup \bold \italic "Fine"
 
@@ -32,26 +28,39 @@ fine = \markup \bold \italic "Fine"
 
 music = \new StaffGroup <<
       \new Staff {
-	\set Staff.midiInstrument = \mihi
-	\set Staff.instrumentName = #"Vc I"
-	\transpose b g { \va }
+        \set Staff.midiInstrument = \miba
+        \set Staff.instrumentName = \markup \center-column { "Violon-" "cello I" }
+        \transpose b g { \va }
       }
 
       \new Staff {
-	\set Staff.midiInstrument = \mihi
-	\set Staff.instrumentName = #"Vc II"
-	\transpose b g { \vb }
+        \set Staff.midiInstrument = \miba
+        \set Staff.instrumentName = \markup \center-column { "Violon-" "cello II" }
+        \transpose b g { \vb }
       }
 
       \new Staff {
-	\set Staff.midiInstrument = \milo
-	\set Staff.instrumentName = #"Vc III"
-	\transpose b g { \vc }
+        \set Staff.midiInstrument = \miba
+        \set Staff.instrumentName = \markup \center-column { "Violon-" "cello III" }
+        \transpose b g { \vc }
       }
 >>
 
 \book {
-  \score {
+   \paper {
+    print-page-number = ##t
+    print-first-page-number = ##t
+    ragged-last-bottom = ##f
+    oddHeaderMarkup = \markup \null
+    evenHeaderMarkup = \markup \null
+    oddFooterMarkup = \markup {
+      \fill-line {
+        \on-the-fly #print-page-number-check-first
+        "Louis Couperin - Sarabande" \fromproperty #'page:page-number-string
+      }
+    }
+    evenFooterMarkup = \oddFooterMarkup
+  } \score {
     \music
     \layout {}
   }
