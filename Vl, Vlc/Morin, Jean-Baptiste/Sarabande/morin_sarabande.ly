@@ -1,7 +1,7 @@
-\version "2.14.2"
+\version "2.20.2"
 \include "deutsch.ly"
 
-#(set-global-staff-size 24)
+#(set-global-staff-size 22)
 
 \header {
   title     = \markup \bold \italic "Sarabande"
@@ -14,7 +14,7 @@ voiceconsts = {
   \key e \minor
   \time 3/4
   %\numericTimeSignature
-  \compressFullBarRests
+  \compressEmptyMeasures
   % Set default beaming for all staves
   \set Timing.beamExceptions = #'()
   \set Timing.baseMoment = #(ly:make-moment 1 4)
@@ -22,8 +22,8 @@ voiceconsts = {
   \tempo "Moderato " 4=90
 }
 
-mihi = "clarinet"
-milo = "bassoon"
+mihi = "violin"
+milo = "cello"
 
 sepi = \markup \italic "sempre pizz."
 
@@ -45,7 +45,20 @@ music = \new StaffGroup <<
 >>
 
 \book {
-  \score {
+   \paper {
+    print-page-number = ##t
+    print-first-page-number = ##t
+    ragged-last-bottom = ##f
+    oddHeaderMarkup = \markup \null
+    evenHeaderMarkup = \markup \null
+    oddFooterMarkup = \markup {
+      \fill-line {
+        \on-the-fly #print-page-number-check-first
+        "Jean-Baptiste Morin - Sarabande" \fromproperty #'page:page-number-string
+      }
+    }
+    evenFooterMarkup = \oddFooterMarkup
+  } \score {
     \music
     \layout {}
   }
