@@ -30,7 +30,7 @@ vb = \relative c {
     g8. d'16 g8 h,
     c4 d
 
-    e g
+    es g
     d8. b16 d8 g
     d8. fis16 a8 fis
     d8. fis16 a8 fis
