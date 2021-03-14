@@ -38,7 +38,7 @@ vb = \relative c {
   c,-. c'8-. h-. c4(-. g)-.
   a-. c-. h-. g-.
 
-  c-. h-. a-. g-.
+  c-. h-. a-. f-.
   e-. e8-. f-. g4-. g-.
   c-. c,2( g'4)-.
   g-. g'2 f4-.
