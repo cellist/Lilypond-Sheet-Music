@@ -1,6 +1,7 @@
 va = \relative c' {
   \voiceconsts
 
+  \introa
   \repeat volta 2 {
     \partial 4 f4
     b b8 b b4 c
@@ -38,6 +39,25 @@ va = \relative c' {
     d8. es16 d8 es es4. d16 es
     f4 es8 d c b a g
     f es' d c c4. b8
-    b2.
+    \partial 2. b2.
+  }
+
+  \introb
+  \repeat volta 2 {
+    b8 a b c b4 f
+    d'8 c d es d4 c
+    b f' es d
+    c b c2
+  }
+  \repeat volta 2 {
+    f4 es8 d g2
+    es4 d8 c f2
+
+    d4 c8 b es4 d
+    c b a f
+    b8 a b c f,2
+    es'8 d es f d c d es
+    c4 f b,8 a b c
+    c2 b
   }
 }

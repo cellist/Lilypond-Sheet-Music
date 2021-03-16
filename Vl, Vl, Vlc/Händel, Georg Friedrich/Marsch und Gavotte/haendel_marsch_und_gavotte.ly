@@ -1,10 +1,10 @@
 \version "2.20.2"
 \include "deutsch.ly"
 
-#(set-global-staff-size 19)
+#(set-global-staff-size 17)
 
 \header {
-  title     = \markup \bold \italic "Marsch"
+  title     = \markup \bold \italic "Marsch & Gavotte"
   composer  = "Georg Friedrich Händel (1685-1759)"
   arranger  = "arr.: Helmut Kickton"
   enteredby = "cellist (2021-03-15)"
@@ -22,7 +22,6 @@ voiceconsts = {
 %  \set Timing.beamExceptions = #'()
 %  \set Timing.baseMoment     = #(ly:make-moment 1 4)
 %  \set Timing.beatStructure  = #'(1 1 1)
-  \tempo "Maestoso " 4=110
 }
 
 micl = "clarinet"
@@ -35,6 +34,9 @@ mivl = "violin"
 miba = "cello"
 
 boxa = { \bar "||" \mark \markup \box \italic "A" \key c \major }
+
+introa = {        \tempo "1. Marsch - Maestoso " 4=110 }
+introb = { \break \tempo "2. Gavotte " 4=120 }
 
 \include "v1.ily"
 \include "v2.ily"
@@ -70,7 +72,7 @@ music = \new StaffGroup <<
     oddFooterMarkup = \markup {
       \fill-line {
         \on-the-fly #print-page-number-check-first
-        "Georg Friedrich Händel - Marsch" \fromproperty #'page:page-number-string
+        "Georg Friedrich Händel - Marsch & Gavotte" \fromproperty #'page:page-number-string
       }
     }
     evenFooterMarkup = \oddFooterMarkup
