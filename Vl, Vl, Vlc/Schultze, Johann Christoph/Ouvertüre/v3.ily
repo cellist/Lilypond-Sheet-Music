@@ -237,5 +237,138 @@ vc = \relative c {
     b c d e
     f16. g32 a16. b32 c8 c,
     \tuplet 3/2 8 { f16[ c a] } f8 r4
-  }  
+  }
+  
+  \introe
+  \repeat volta 2 {
+    a'2 f4
+    e2 c4
+    f a b
+    g c, f
+    e2 f4
+    e2 f4
+    e8 f g4 g,
+    c c' b
+  }
+
+  \repeat volta 2 {
+    a2 f4
+    b b, b'
+    g b, c
+    d d' c
+    b2 g4
+    fis2 d4
+    g, b d
+
+    g g,8 g' b[ g]
+    e2 c4
+    f2 f,8 g
+    a4 g f
+    c' c' b
+    a2 f4
+    e2 c4
+    f a,8 b c4
+
+    f,\fermata f' g
+  }
+  \repeat volta 2 {
+    f2 e8 c
+    f4 f, f
+    b2 a8 b
+    c4 c c
+    b a g
+    f f r
+    f'2 g4
+    c, d e
+  }
+
+  \repeat volta 2 {
+    fis2 d4
+    g g, g
+    d' e2
+    f4 f, f
+    b2 a4
+    g a r
+    b2 c4 \daca
+    f, f' a
+  }
+  
+  \introf
+  \repeat volta 2 {
+    \partial 4 f8. g16
+    a4 a8. g16 f4 b
+    a4. g8 f4 e
+    f f8 g a4. f8
+    c'4 c, r f8. f16
+    c4 a'8. a16 e8. e16 f8. f16
+
+    c4 a'8. a16 e8. e16 f8. f16
+    g4 e8 f g4 g,
+    c c8. c16 c4 c
+    c g c,
+  }
+  \repeat volta 2 {
+    \partial 4 c'8. d16
+    e4 e8. d16 c4 f
+
+    c c, r f'8. e16
+    f4 f8. e16 d4 g
+    d d, r g'8. g16
+    d4 b'8. b16 f8. f16 g8. g16
+    d4 b'8. b16 f8. f16 d8. d16
+
+    g4 e a a,
+    d a' d8. b16 a8. g16
+    a4 f a b
+    a4. g8 f4 a8. g16
+    a4 a8. g16 f4 b,
+    c c, r b''8. b16
+
+    f4 d'8 d a8. a16 b8. b16
+    f4 d'8. d16 a8. a16 f8. f16
+    b4 g c c,
+    f f8. f16 f4 f
+    \partial 2. f c f,
+  }
+
+  \introg
+  \repeat volta 2 {
+    f'4. a8 g f
+    e4. e8 d c
+    f4. f,
+    c'8 e g g e c
+    f4. f
+    f e4 d8
+
+    c4 e8 f4 g8
+    c,4 d8 e d c
+  }
+  \repeat volta 2 {
+    e4. e8 c e
+    f4. f8 c f
+    e4. cis
+    d f8 g a
+
+    d,4 h8 h4 d8
+    e4 e,8 e'4 d8
+    c4. c'8 h a
+    gis4. gis8 fis e
+    a4 c,8 d4 e8
+
+    a,4 e'8 a b g?
+    fis4. fis
+    g4 r8 r4 f?8
+    e4. e
+    f4 r8 r4 f8
+    f4. f,
+
+    c' c4 b8
+    a4. a'8 g f
+    e4. e8 d c
+    f4 a,8 c4 c8
+  }
+  \alternative {
+    { f,4 f'8 a g f }
+    { f,2. }
+  } \bar "|."
 }

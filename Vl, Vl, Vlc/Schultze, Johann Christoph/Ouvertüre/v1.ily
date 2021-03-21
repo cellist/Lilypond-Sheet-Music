@@ -238,5 +238,138 @@ va = \relative c' {
     \tuplet 3/2 8 { d e? f e[ f g] f g a g[ a b] }
     a16. b32 c16. d32 g,8. f16
     f4 r
-  }  
+  }
+  
+  \introe
+  \repeat volta 2 {
+    f c8 f a[ f]
+    g4 c,8 g' b[ g]
+    a4 c d
+    b2 a4
+    g c8 g a[ f]
+    g4 c8 g a[ f]
+    g c e,4 d
+    c2.
+  }
+
+  \repeat volta 2 {
+    f4 c8 f a[ es]
+    es4 d8 c d4
+    b' d g,
+    fis8 g a2
+    d4 g,8 b a[ g]
+    d'4 a8 c b[ a]
+    b d g,4 fis
+
+    g2.
+    b4 c,8 g' b[ g]
+    a4 f8 g a[ b]
+    c4 b a
+    g2 c,4
+    f c'8 f, a[ f]
+    g4 c8 g b[ g]
+    a c f,4 e?
+
+    f2.\fermata
+  }
+  \repeat volta 2 {
+    c4 b2\trill
+    a4. b8 c4
+    d e f
+    e4. d8 c4
+    d c b
+    c8 b c4 r
+    f e d
+    c2.
+  }
+  
+  \repeat volta 2 {
+    d4 c2\trill
+    b4. c8 d4
+    b c b
+    a4. b8 c4
+    d e f
+    e8 c f4 r
+    g f e \daca
+    f2.
+  }
+  
+  \introf
+  \repeat volta 2 {
+    \partial 4 c'4
+    f c8. b16 a4 d
+    c f,8. e16 f4 g
+    a8. g16 a8 b c4 f,8 a
+    g f e d c4 a'8. a16
+    g8. g16 c8. c16 c,4 a'8. a16
+
+    g8. g16 c8. c16 c,4 a'
+    h8 g c d h4. c8
+    c4 g8. f16 e8 c e g
+    c2.
+  }
+  \repeat volta 2 {
+    \partial 4 g4
+    c g8. f16 e4 a
+
+    g8. f16 e8. d16 c4 a'
+    d a8. g16 f4 b?
+    a8. g16 f8. e16 d4 b'8. b16
+    a8. a16 d8. d16 d,4 b'8. b16
+    a8. a16 d8. d16 d,4 a'
+
+    b8. a16 g8 f e4. d8
+    d2. c4
+    f8 c a' f c'4 d
+    c f,8. e16 f4 c'
+    f c8. b16 a8. c16 b8 a
+    g8. f16 e8. d16 c4 d'8. d16
+
+    c8. c16 f8. f16 f,4 d'8. d16
+    c8. c16 f8. f16 f,4 c'
+    d8. c16 b8 a g4. f8
+    f4 c'8. b16 a8 f a c
+    \partial 2. f2.
+  }
+
+  \introg
+  \repeat volta 2 {
+    f,8 c f f4.
+    g8 c, g' g4.
+    a8 f c' c a f
+    g4 c,8 c4.
+    a'8 f a a f a
+    h a g c4 f8
+
+    e d c d c h
+    c4. r
+  }
+  \repeat volta 2 {
+    g8 c, g' g4.\trill
+    a8 c, a' a4.\trill
+    g8 a b? a b g
+    f e d d4.
+
+    f'8 e d d c h
+    h a gis gis fis e
+    a e a a4.\trill
+    h8 e, h' h4.\trill
+    c8 h a h a gis
+
+    a4. r4 c8~
+    c a c d, a' c
+    b? c a g? a b~
+    b g b c, g' b
+    a b g f? g a~
+    a f a c b a
+
+    g f g c, d e
+    f c f f4.\trill
+    g8 c, g' g4.\trill
+    a8 b c c, f e
+  }
+  \alternative {
+    { f4. r }
+    { f2. }
+  } \bar "|."  
 }

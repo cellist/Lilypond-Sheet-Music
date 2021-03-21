@@ -1,14 +1,14 @@
 \version "2.20.2"
 \include "deutsch.ly"
 
-#(set-global-staff-size 18)
+#(set-global-staff-size 17)
 
 \header {
   title     = \markup \bold \italic "Ouvertüre in F-Dur"
   composer  = "Johann Christoph Schultze (1733-1813)"
   arranger  = "arr.: Helmut Kickton"
   enteredby = "cellist (2021-03-18)"
-%  piece     = ""
+  piece     = "(nach B-Dur transponiert)"
 }
 
 
@@ -35,8 +35,11 @@ miba = "cello"
 
 introa = {        \tempo "1. Ouvertüre "  4=70 }
 introb = { \break \tempo "2. Rigaudon "   2=70 }
-introc = { \break \tempo "3. Passepied " 4.=50 \time 3/8 }
-introd = { \break \tempo "4. Aria "       4=40 \time 2/4 }
+introc = { \break \tempo "3. Passepied " 4.=50  \time 3/8 }
+introd = { \pageBreak \tempo "4. Aria "       4=40  \time 2/4 }
+introe = { \break \tempo "5. Menuett "    4=120 \time 3/4 }
+introf = { \break \tempo "6. Marsch "     4=110 \time 4/4 }
+introg = { \break \tempo "7. Gigue "     4.=80  \time 6/8 }
 
 boxa = { \bar "||" \mark \markup \box \italic "A" \key c \major }
 daca = \mark \markup \box \italic "D.C."
@@ -49,19 +52,19 @@ music = \new StaffGroup <<
       \new Staff {
 	\set Staff.midiInstrument = \mivl
 	\set Staff.instrumentName = \markup \center-column { "Violine" "I" }
-	\transpose f f { \va }
+	\transpose f b { \va }
       }
 
       \new Staff {
 	\set Staff.midiInstrument = \mivl
 	\set Staff.instrumentName = \markup \center-column { "Violine" "II" }
-	\transpose f f { \vb }
+	\transpose f b { \vb }
       }
 
       \new Staff {
 	\set Staff.midiInstrument = \miba
 	\set Staff.instrumentName = \markup \center-column { "Violon-" "cello" }
-	\transpose f f { \vc }
+	\transpose f b { \vc }
       }
 >>
 
@@ -86,6 +89,7 @@ music = \new StaffGroup <<
 
   \score {
     \unfoldRepeats \music
+%    \music
 
     \midi {
       \context {

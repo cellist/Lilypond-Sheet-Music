@@ -238,5 +238,138 @@ vb = \relative c' {
     b16. d32 g,16. e'32 d16. f32 c8
     c16. g'32 f16. f32 e8. f16
     f4 r
-  }  
+  }
+
+  \introe
+  \repeat volta 2 {
+    c2 c4
+    c4. c8 g'[ e]
+    f4 f f
+    f8 d e[ g] f4
+    c2 c4
+    c2 c4
+    c c h
+    c2.
+  }
+
+  \repeat volta 2 {
+    c2 c4
+    c b?8 a b4
+    d g es
+    d8 e? fis2
+    g g4
+    a2 fis4
+    g d8 es a,[ c]
+
+    b2.
+    g'2 e?4
+    c a c
+    f? f8 e f4
+    e2.
+    c2 c4
+    c2 g'8 e
+    f c c[ d] g,4
+
+    a2.\fermata
+  }
+  \repeat volta 2 {
+    a4 g2\trill
+    f4. g8 a4
+    b g c8 d
+    c4 g g
+    f f g
+    a8 g a4 r
+    d c h
+    c2.
+  }
+
+  \repeat volta 2 {
+    a4 a2\trill
+    g4. a8 b4
+    f g2
+    f4. g8 a4
+    f c' c
+    b c r
+    d2 g,4 \daca
+    a2.
+  }
+
+  \introf
+  \repeat volta 2 {
+    \partial 4 a'8. b16
+    c4 f, f f
+    f c c c
+    c f f c8 f
+    e4 c r c8. f16
+    e8. e16 f8. f16 g4 c,8. f16
+
+    e8. e16 f8. f16 g4 f8. e16
+    d8 g g a d,4. e8
+    e4 e8. d16 c8 e g f
+    e2.
+  }
+  \repeat volta 2 {
+    \partial 4 e8. f16
+    g4 c, c c8. f16
+
+    e4 c r d
+    d d d d8. g16
+    f4 d r d8. g16
+    f8. f16 g8. g16 a4 d,8. g16
+    f8. f16 g8. g16 a4 f
+
+    d4. d8 cis4. d8
+    d2. a4
+    c c f f
+    f c a f'
+    c' f, f g8 f
+    e4 c r f8. b16
+
+    a8. a16 b8. b16 c4 f,8. b16
+    a8. a16 b8. b16 c4 a
+    f4. f8 e4. f8
+    f4 a8. g16 f8 c c' b
+    \partial 2. a2.
+  }
+
+  \introg
+  \repeat volta 2 {
+    a,4 c8 c b c
+    c4 c8 c d e
+    c4 a'8 a f c
+    e g e e c c
+    c4 c8 d4 d8
+    d c h g'4 h!8
+
+    c4 g8 a4 d,8
+    e4. r
+  }
+  \repeat volta 2 {
+    c4 c8 c e c
+    c4 c8 c f c
+    c4 d8 e4 e8
+    d4 a8 a4.
+
+    h'4 f8 f4 f8
+    e4 h8 h4 e8
+    e4 e8 e d c
+    e4 e8 e d e
+    e4 e8 f4 h,8
+
+    c4. r4 a'8
+    a4 a8 a4 a8
+    g4 d8 b? c d
+    g4 g8 g4 g8
+    f4 c8 a b c
+    c a c a' g f
+
+    e d e e d c
+    c4 c8 c b a
+    c4 c8 c d e
+    c4 f8 g,4 g8
+  }
+  \alternative {
+    { a4. r }
+    { a2. }
+  } \bar "|."
 }
