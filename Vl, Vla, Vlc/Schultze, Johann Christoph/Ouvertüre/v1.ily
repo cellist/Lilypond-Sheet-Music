@@ -18,7 +18,6 @@ va = \relative c' {
     h4 g c4. c8
     h4 c d,4. c8
   }
-
   \alternative {
     { c1 }
     { \time 3/8 c4 f8 }
@@ -61,7 +60,7 @@ va = \relative c' {
     f e a
     d d d
     cis cis16 h cis a
-    d8 a b?
+    d8 a b!
     f16 e e8. d16
     d4 d8
     e e16 d e c?
@@ -99,7 +98,7 @@ va = \relative c' {
     b4. c8 a4 f
     d'8. d16 d8. d16 d8. c16 b8. a16
     g4 c, c' d
-    e?8. c16 f8. g,16 g4. f8
+    e8. c16 f8. g,16 g4. f8
   }
   \alternative {
     { \time 3/8 f4 f8 }
@@ -122,7 +121,7 @@ va = \relative c' {
     c2.
   }
   \repeat volta 2 {
-    \partial 4 c4
+    c4
     f f8 e f4 c
     d8 c d2 f4
     b b8 a b a g f
@@ -149,7 +148,7 @@ va = \relative c' {
     a4 c f e
     f e8 d c4 b
     a g g4. f8
-    f2.
+    \partial 2. f2.
   }
 
   \introc
@@ -165,7 +164,7 @@ va = \relative c' {
     g4
   }
   \repeat volta 2 {
-    \partial 8 e16 f
+    e16 f
     g8 e a
 
     g4 e8
@@ -180,7 +179,7 @@ va = \relative c' {
     c4 f16 g
     a8 a16 g a g
     f8 f16 e f d
-    b'?8 b16 a b a
+    b'?8 b16 a b g
     g4 a16 b
     c8 a d
     c c16 a b g
@@ -189,7 +188,7 @@ va = \relative c' {
     f4\fermata
   }
   \repeat volta 2 {
-    \partial 8 c16 d
+    c16 d
     c8 a b
     c4 f8
     c16 b a b c d
@@ -198,9 +197,9 @@ va = \relative c' {
     g8 f e
     f d4
     c
-  }
+  }  
   \repeat volta 2 {
-    \partial 8 c8
+    c8
 
     f f16 e f c
     d c b c d es
@@ -208,27 +207,27 @@ va = \relative c' {
     e? c c16 d
     c b a b c d
     c8 d16 e f8
-    g c, e
-    f4_\dc
+    g c, e \daca
+    \partial 4 f4
   }
 
   \introd
   \repeat volta 2 {
-    \partial 2 f16. g32 a16. b32 c8. f16
+    f16. g32 a16. b32 c8. f16
     c16. b32 a16. b32 c8. f16
-    c16. b32 a16. b32 \times 2/3 { c16 d c c[ b a] }
-    \times 2/3 { g a b a[ b g] } a8. c16
+    c16. b32 a16. b32 \tuplet 3/2 8 { c16 d c c[ b a] }
+    \tuplet 3/2 8 { g a b a[ b g] } a8. c16
     g16. f32 e16. f32 g8. c16
 
     g16. f32 e16. f32 g8. a16
-    \times 2/3 { g f e f[ e d] } e16. c'32 d,16. h'32
+    \tuplet 3/2 8 { g f e f[ e d] } e16. c'32 d,16. h'32
     c4 r
   }
   \repeat volta 2 {
     c16. b?32 a16. g32 f8. c'16
     es,16. d32 es16. c32 d8. b'16
 
-    es,16. d32 es16. c32 \times 2/3 { d16 g b g[ a b] }
+    es,16. d32 es16. c32 \tuplet 3/2 8 { d16 g b g[ a b] }
     c8 a b8. d16
     b16. a32 b16. c32 b8. c16
     a16. c32 b16. a32 g4
@@ -236,11 +235,11 @@ va = \relative c' {
 
     c16. b32 a16. b32 c8. f16
     c,16. b32 a16. b32 c8. c16
-    \times 2/3 { d e f e[ f g] f g a g[ a b] }
+    \tuplet 3/2 8 { d e? f e[ f g] f g a g[ a b] }
     a16. b32 c16. d32 g,8. f16
     f4 r
   }
-
+  
   \introe
   \repeat volta 2 {
     f c8 f a[ f]
@@ -283,7 +282,7 @@ va = \relative c' {
     f e d
     c2.
   }
-
+  
   \repeat volta 2 {
     d4 c2\trill
     b4. c8 d4
@@ -291,10 +290,10 @@ va = \relative c' {
     a4. b8 c4
     d e f
     e8 c f4 r
-    g f e
-    f2._\dc
+    g f e \daca
+    f2.
   }
-
+  
   \introf
   \repeat volta 2 {
     \partial 4 c'4
@@ -330,7 +329,7 @@ va = \relative c' {
     c8. c16 f8. f16 f,4 c'
     d8. c16 b8 a g4. f8
     f4 c'8. b16 a8 f a c
-    f2.
+    \partial 2. f2.
   }
 
   \introg
@@ -343,7 +342,7 @@ va = \relative c' {
     h a g c4 f8
 
     e d c d c h
-    c4. r4 r8
+    c4. r
   }
   \repeat volta 2 {
     g8 c, g' g4.\trill
@@ -370,7 +369,7 @@ va = \relative c' {
     a8 b c c, f e
   }
   \alternative {
-    { f4. r4 r8 }
+    { f4. r }
     { f2. }
-  }
+  } \bar "|."  
 }
