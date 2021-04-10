@@ -1,14 +1,17 @@
-\version "2.12.4"
+\version "2.20.2"
 \include "deutsch.ly"
 
-#(set-global-staff-size 16.5)
+#(set-global-staff-size 16.25)
 
 \header {
   title     = \markup { "Sonata " \bold \italic "\"La Follia\"" }
   composer  = "Antonio Vivaldi"
   arranger  = "(1678-1741)"
-  piece     = "op. 1 Nr. 12"
   enteredby = "cellist (2011-08-14)"
+  piece     = \markup \center-column {
+    "Suonate da Camera a tre. Due violini e violone"
+    "o cembalo. op. 1, Nr. 12 (RV 63, Amsterdam c. 1712)"
+  }
 }
 
 voiceconsts = {
@@ -17,7 +20,11 @@ voiceconsts = {
 % \clef "bass"
  \clef "treble"
 % \numericTimeSignature
- \compressFullBarRests
+ \compressEmptyMeasures
+  % Set default beaming for all staves
+%  \set Timing.beamExceptions = #'()
+%  \set Timing.baseMoment     = #(ly:make-moment 1 4)
+%  \set Timing.beatStructure  = #'(1 1 1) 
  \tempo "Largo " 4=70
 }
 
@@ -51,32 +58,48 @@ boxs = { \break \bar "||" \mark \markup \box "S" }
 boxt = { \break \bar "||" \mark \markup \box "T" }
 boxu = { \break \bar "||" \mark \markup \box "U" \tempo "Lento " 4=70 }
 
+mivl = "violin"
+miba = "cello"
+
 \include "v1.ily"
 \include "v2.ily"
 \include "v3.ily"
 
 music = \new StaffGroup <<
       \new Staff {
-	\set Staff.midiInstrument = \mihi
-	\set Staff.instrumentName = \markup \center-column {"Violine" "I" }
-	\transpose d d { \va }
+        \set Staff.midiInstrument = \mivl
+        \set Staff.instrumentName = \markup \center-column { "Violine" "I" }
+        \transpose d d { \va }
       }
-
+      
       \new Staff {
-	\set Staff.midiInstrument = \mihi
-	\set Staff.instrumentName = \markup \center-column {"Violine" "II" }
-	\transpose d d { \vb }
+        \set Staff.midiInstrument = \mivl
+        \set Staff.instrumentName = \markup \center-column { "Violine" "II" }
+        \transpose d d { \vb }
       }
-
+      
       \new Staff {
-	\set Staff.midiInstrument = \milo
-	\set Staff.instrumentName = \markup \center-column {"Violon-" "cello" }
-	\transpose d d { \vc }
+        \set Staff.midiInstrument = \miba
+        \set Staff.instrumentName = \markup \center-column { "Violon-" "cello" }
+        \transpose d d { \vc }
       }
 >>
 
 \book {
-  \score {
+   \paper {
+    print-page-number = ##t
+    print-first-page-number = ##t
+    ragged-last-bottom = ##f
+    oddHeaderMarkup = \markup \null
+    evenHeaderMarkup = \markup \null
+    oddFooterMarkup = \markup {
+      \fill-line {
+        \on-the-fly #print-page-number-check-first
+        "Antonio Vivaldi - Sonate \"La Follia\"" \fromproperty #'page:page-number-string
+      }
+    }
+    evenFooterMarkup = \oddFooterMarkup
+  } \score {
     \music
     \layout {}
   }
@@ -87,7 +110,6 @@ music = \new StaffGroup <<
     \midi {
       \context {
         \Score
-        tempoWholesPerMinute = #(ly:make-moment 70 4)
       }
     }
   }
