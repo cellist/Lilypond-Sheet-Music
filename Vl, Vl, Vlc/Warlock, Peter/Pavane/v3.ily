@@ -20,8 +20,8 @@ vc = \relative c {
   b2
   b4 b
   c d
-  es es
-  b2
+  es f
+  b,2
   b
 
   f4 d
