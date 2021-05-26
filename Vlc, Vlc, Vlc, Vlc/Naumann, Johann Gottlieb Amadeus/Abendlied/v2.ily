@@ -1,10 +1,10 @@
 vb = \relative c' {
   \voiceconsts
-
+  
   \repeat volta 2 {
     a8.\p a16 gis8 gis
-    a\> a gis4\!
-    a8. cis16 cis h d h
+    a\> a gis4
+    a8.\! cis16 cis h d h
     a4\> gis8 r\!
   }
 

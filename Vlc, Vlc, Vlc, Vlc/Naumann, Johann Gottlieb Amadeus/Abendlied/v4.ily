@@ -1,10 +1,10 @@
 vd = \relative c {
   \voiceconsts
-
+  
   \repeat volta 2 {
     a8.\p cis16 e8 d
-    cis\> cis h4\!
-    a8 a d d
+    cis\> cis h4
+    a8\! a d d
     e\> dis e r\!
   }
 
