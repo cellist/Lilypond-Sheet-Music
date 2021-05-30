@@ -40,7 +40,7 @@ music = <<
 
       \new Staff {
         \set Staff.midiInstrument = \miba
-        \set Staff.instrumentName = \markup \center-column { "Violon-" "cello II" }
+        \set Staff.instrumentName = \markup \center-column { "Violon-" "cello" }
         \transpose g g { \vb }
       }
 >>
