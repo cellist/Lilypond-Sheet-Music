@@ -1,6 +1,6 @@
 vb = \relative c {
   \voiceconsts
-  \clef "treble_8"
+  \clef "bass"
   
   \repeat volta 2 {
     d4-. h-. d-. fis-.
