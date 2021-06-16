@@ -1,7 +1,7 @@
 \version "2.18.2"
 \include "deutsch.ly"
   
-#(set-global-staff-size 20)
+#(set-global-staff-size 21)
 
 \header {
   title     = \markup \bold \italic "Zigeunermädchen"
@@ -32,7 +32,10 @@ misx = "tenor sax"
 mist = "string ensemble 1"
 miba = "cello"
 
+boxa = \tempo "Allegro con fuoco " 4=120
 dolc = \markup \italic "dolce"
+fmrc = \markup { \dynamic f \italic " marcato" }
+marc = \markup \italic "marcato"
 mfme = \markup { \dynamic mf \italic " molto espress." }
 pesp = \markup { \dynamic p \italic " espress." }
 

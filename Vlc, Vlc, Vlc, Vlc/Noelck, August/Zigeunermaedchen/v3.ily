@@ -20,5 +20,67 @@ vc = \relative c' {
     <g, cis>( <fis d'>)
     r8 <g d'> r <d c'!>
     <d b'>-.\pp <d c'>-. <d b'>4\fermata
-  }
+  } \boxa
+  <g d'>\f\decresc <g d'>
+  <g d'> <g d'>
+  r8 <g d'>4-> <g d'>8-.
+  r <g d'>4-> <g d'>8
+  r <g d'>\p r <g d'>
+
+  r <g d'> r <g d'>
+  r d' r d
+  r <g, d'> r <g d'>
+  r d'[\<^\marc e fis]\!
+  
+  R2*2
+  r4 \clef "treble" <g d'>8\ff r
+  r \clef "bass" <g, d'>\p r <g d'>
+  r <g d'> r <g d'>
+  r d' r d
+
+  r <g, d'> r <g d'>
+  r d'[\< e fis]\!
+  R2*2
+  r4 \clef "treble" <g d'>8 r
+
+  r \clef "bass" b,\p r b
+  r b r b
+  <a c>\sf r r4
+  R2
+
+  r8 b\p r b
+  r b r b
+  <a c>\sf r r4
+  R2
+
+  r8 <d g>4\p <d g>8
+  r fis4 <a, fis'>8
+  r <d g>4\cresc <d g>8
+  r fis4 <a, fis'>8
+
+  \clef "treble" <g' d'>\sf r r4
+  r8 \clef "bass" <a, d>4\p <a d>8
+  r b4\f r8
+  R2
+  r8 b\p r b
+  r b r b
+  <a c>\sf r r4
+  R2
+
+  r8 b\p r b
+  r b r b
+  <a c>\sf r r4
+  R2
+
+  r8 <d g>4\p <d g>8
+  r fis4 <a, fis'>8
+  r <d g>4\cresc <d g>8
+  r fis4 <a, fis'>8
+
+  \clef "treble" <g' d'>\sf r r4
+  r8 \clef "bass" <a, c>4 <a c>8
+  r b4\f r8
+  R2
+  <a es'?>4->\ff <a d>->
+  b2-> \bar "|."
 }
