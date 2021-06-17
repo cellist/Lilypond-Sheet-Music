@@ -1,6 +1,7 @@
 vc = \relative c' {
   \voiceconsts
-
+  \clef "tenor"
+  
   r8 <g d'>4--\p <g d'>8
   r <fis d'>4-- <fis d'>8
   <d a'> r r <fis c'>
@@ -34,7 +35,7 @@ vc = \relative c' {
   
   R2*2
   r4 \clef "treble" <g d'>8\ff r
-  r \clef "bass" <g, d'>\p r <g d'>
+  r \clef "tenor" <g, d'>\p r <g d'>
   r <g d'> r <g d'>
   r d' r d
 
@@ -43,7 +44,7 @@ vc = \relative c' {
   R2*2
   r4 \clef "treble" <g d'>8 r
 
-  r \clef "bass" b,\p r b
+  r \clef "tenor" b,\p r b
   r b r b
   <a c>\sf r r4
   R2
@@ -59,7 +60,7 @@ vc = \relative c' {
   r fis4 <a, fis'>8
 
   \clef "treble" <g' d'>\sf r r4
-  r8 \clef "bass" <a, d>4\p <a d>8
+  r8 \clef "tenor" <a, d>4\p <a d>8
   r b4\f r8
   R2
   r8 b\p r b
@@ -78,7 +79,7 @@ vc = \relative c' {
   r fis4 <a, fis'>8
 
   \clef "treble" <g' d'>\sf r r4
-  r8 \clef "bass" <a, c>4 <a c>8
+  r8 \clef "tenor" <a, c>4 <a c>8
   r b4\f r8
   R2
   <a es'?>4->\ff <a d>->

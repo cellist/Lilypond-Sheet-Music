@@ -1,7 +1,7 @@
 \version "2.18.2"
 \include "deutsch.ly"
   
-#(set-global-staff-size 21)
+#(set-global-staff-size 18)
 
 \header {
   title     = \markup \bold \italic "Zigeunermädchen"
