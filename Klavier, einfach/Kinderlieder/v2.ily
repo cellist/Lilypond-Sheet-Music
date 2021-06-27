@@ -35,9 +35,9 @@ vb = \relative c {
   <g h d>
 
   <g h fis'>4 <g c e>
-  <a d fis> <h d g>
+  <a d fis> <g h d>
 
-  <h e g> <a c e>
+  <g h e> <a c e>
   <fis c' d> <g h d> \bar "|."
 
   \introd
@@ -181,4 +181,96 @@ vb = \relative c {
   <g h d>
   <fis c' d>
   <g h d>2 r4
+
+  \introk
+  \partial 4 r4
+  <e g c>1
+  <c g' h>
+  <c g' h>
+  <e g c>
+
+  <e g c>
+  <c g' h>
+  <c g' h>
+  <e g c>
+
+  <e a c>
+  <e g h>
+  <f a c>2 <g h d>
+  \partial 2. <g c e> r4 \bar "|."
+
+  \introl
+  \partial 8 r8
+  <f a c>2
+  <e b' c>
+  <f a c>
+  <e b' c>
+
+  <f a c>
+  <e g c>
+  <f a c>4 <e b' c>
+  \partial 4. <f a c> r8 \bar "|."
+
+  \introm
+  \partial 8 r8
+  <g h d>2
+  <g c e>4 <g h d>
+  <g c e> <fis a d>
+  <g h d>2
+
+  <g h d>
+  <g c e>4 <g h d>
+  <g c e> <fis a d>
+  <g h d>2
+
+  <a cis e>
+  <a d fis>
+  <a cis e>
+  <a d fis>
+
+  <g h d>
+  <a c e>
+  <fis a d>
+  <g h d>
+
+  <g h d>
+  <a c e>
+  <fis a d>
+  \partial 4. <g h d>4 r8 \bar "|."
+
+  \intron
+  \partial 4 r4
+  <f a c>2.
+  <e g c>
+  <e g c>
+  <f a c>
+
+  <f a c>
+  <e b' c>
+  <e b' c>
+  <f a c>
+
+  <f a c>
+  <e b' c>
+  <e b' c>
+  \partial 2 <f a c>2 \bar "|."  
+
+  \introo
+  \partial 4 r4
+  <g h d>2.
+  <g h d>2 <g h e>4
+  <a c e>2 <a d fis>4
+  <g h d>2.
+
+  <g h e>
+  <g h d>2 <g h e>4
+  <a c e>2 <a d fis>4
+  \partial 2 <g h d>2 \bar "|."
+
+  \introp
+  <e g c>2 <f a c>
+  <e g c> <f a c>
+
+  <e g c> <f a c>
+  <e g c> <f a c> \bar "|."
 }

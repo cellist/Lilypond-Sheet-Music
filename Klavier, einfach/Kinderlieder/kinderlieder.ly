@@ -43,6 +43,12 @@ introg = { \break \tempo \markup \tiny "7. Grün, grün, grün sind alle meine K
 introh = { \break \tempo \markup \tiny "8. Hänsel und Gretel " 4=90 \key c \major }
 introi = { \break \tempo \markup \tiny "9. Auf der Mauer, auf der Lauer " 4=100 \key d \major }
 introj = { \break \tempo \markup \tiny "10. Ach, du lieber Augustin " 4=140 \key g \major \time 3/4 }
+introk = { \break \tempo \markup \tiny "11. Carl Friedrich Zelter (1758-1832): Der Kuckuck und der Esel " 4=160 \key c \major \time 4/4 }
+introl = { \break \tempo \markup \tiny "12. Die Vogelhochzeit " 4=100 \key f \major \time 2/4 }
+introm = { \break \tempo \markup \tiny "13. Ein Mann, der sich Kolumbus nannt " 4=100 \key g \major }
+intron = { \break \tempo \markup \tiny "14. Es tönen die Lieder " 4=120 \key f \major \time 3/4 }
+introo = { \break \tempo \markup \tiny "15. Es war eine Mutter " 4=140 \key g \major \time 3/4 }
+introp = { \break \tempo \markup \tiny "16. Heinrich Leberecht August Mühling (1786-1847): Froh zu sein, bedarf es wenig " 4=140 \key f \major \time 4/4 }
 
 acca = \markup \box "A"
 accc = \markup \box "C"

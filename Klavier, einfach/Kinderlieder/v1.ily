@@ -180,4 +180,96 @@ va = \relative c' {
   h4^\accg g g
   a^\acds d, d
   g2^\accg r4 \bar "|."
+
+  \introk
+  \partial 4 g4
+  e^\accc g e g
+  f^\acgs f r f
+  d f d f
+  e2^\accc r4 g8( f)
+
+  e4 e e e
+  f^\acgs f r f8( e)
+  d4 d d d
+  e^\accc e r c
+
+  c^\acam d e f
+  g4.(^\acem a8 g4) f
+  e^\accf e d^\accg d
+  \partial 2. c2^\accc r4 \bar "|."
+
+  \introl
+  \partial 8 a'8
+  c^\accf a c a
+  b^\accs g b g
+  a^\accf f c' a
+  g(^\accs c) c c16 a
+
+  f8^\accf f f c'16 a
+  g8^\accc g g c16 b
+  a8^\accf f g^\accs e
+  \partial 4. f4^\accf r8 \bar "|."
+
+  \introm
+  \partial 8 d8
+  g^\accg g d d
+  e^\accc e d4^\accg
+  e16^\accc e e e fis8^\accd fis
+  g4^\accg r8 d
+
+  g g d d
+  e^\accc e d4^\accg
+  e16^\accc e e e fis8^\accd fis
+  g4^\accg r8 h
+
+  a8.^\acca h16 a8 g
+  fis^\accd a d fis,
+  a8.^\acca h16 a8 g
+  fis^\accd e d4
+
+  g8.^\accg g16 g8 g
+  a8.^\acam a16 a4
+  fis16^\accd fis fis fis e8 fis
+  g^\accg h d4
+
+  g,8. g16 g8 g
+  a8.^\acam a16 a4
+  fis16^\accd fis fis fis e8 fis
+  \partial 4. g4^\accg r8 \bar "|."
+
+  \intron
+  \partial 4 c,4
+  f^\accf f f
+  g^\accc c, c
+  g' g g
+  a^\accf f c'
+
+  c a8( c) a( c)
+  b4^\accs g b
+  b g8( b) g( b)
+  a2^\accf c4
+
+  f8 e d c b a
+  c4^\accs b g
+  e8 f g a b g
+  \partial 2 f2^\accf \bar "|."  
+
+  \introo
+  \partial 4 d4
+  g^\accg g a
+  h h g^\acem
+  a^\acam a fis^\accd
+  g^\accg g d
+
+  g^\acem g a
+  h^\accg h g^\acem
+  a^\acam a fis^\accd
+  \partial 2 g^\accg g \bar "|."
+
+  \introp
+  c4.^\accc b8 a4^\accf f
+  e^\accc g f^\accf a
+
+  g^\accc b a^\accf c
+  c,^\accc e f^\accf f \bar "|."
 }
