@@ -1,6 +1,7 @@
 va = \relative c'' {
   \voiceconsts
-
+  \clef "treble"
+  
   R1*4
   \repeat volta 2 {
     c8\mf d e4 e8 d c4

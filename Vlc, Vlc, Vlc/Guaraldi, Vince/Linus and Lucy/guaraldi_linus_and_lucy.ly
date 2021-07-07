@@ -1,4 +1,4 @@
-\version "2.14.2"
+\version "2.20.2"
 \include "deutsch.ly"
 
 #(set-global-staff-size 23.5)
@@ -14,20 +14,14 @@
 
 voiceconsts = {
   \key c \major
-  \clef "tenor"
+  \clef "bass"
   \time 4/4
   \tempo "Moderately fast " 4=150
   % \numericTimeSignature
-  \compressFullBarRests
+  \compressEmptyMeasures
 }
 
-%mihi = "clarinet"
-%milo = "bassoon"
-milo = "electric bass (pick)"
-mihi = "concertina"
-%mihi = "string ensemble 1"
-%milo = "drawbar organ"
-
+mivc = "cello"
 dolc = \markup \italic "dolce"
 
 \include "v1.ily"
@@ -36,27 +30,40 @@ dolc = \markup \italic "dolce"
 
 music = \new StaffGroup <<
       \new Staff {
-        \set Staff.midiInstrument = \mihi
+        \set Staff.midiInstrument = \mivc
         \set Staff.instrumentName = \markup \center-column { "Violon-" "cello I" }
         \transpose c c, { \va }
       }
 
       \new Staff {
-        \set Staff.midiInstrument = \mihi
+        \set Staff.midiInstrument = \mivc
         \set Staff.instrumentName = \markup \center-column { "Violon-" "cello II" }
         \transpose c c, { \vb }
       }
 
       \new Staff {
-        \set Staff.midiInstrument = \milo
+        \set Staff.midiInstrument = \mivc
         \set Staff.instrumentName = \markup \center-column { "Violon-" "cello III" }
         \transpose c c { \vc }
       }
 >>
 
 \book {
-  \score {
-   \music
+   \paper {
+    print-page-number = ##t
+    print-first-page-number = ##t
+    ragged-last-bottom = ##f
+    oddHeaderMarkup = \markup \null
+    evenHeaderMarkup = \markup \null
+    oddFooterMarkup = \markup {
+      \fill-line {
+        \on-the-fly #print-page-number-check-first
+        "Vince Guaraldi - Linus & Lucy" \fromproperty #'page:page-number-string
+      }
+    }
+    evenFooterMarkup = \oddFooterMarkup
+  } \score {
+    \music
     \layout {}
   }
 
