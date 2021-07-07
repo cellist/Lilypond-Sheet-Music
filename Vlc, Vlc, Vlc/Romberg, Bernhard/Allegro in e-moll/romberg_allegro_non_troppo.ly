@@ -1,7 +1,7 @@
-\version "2.18.2"
+\version "2.20.2"
 \include "deutsch.ly"
   
-#(set-global-staff-size 18.25)
+#(set-global-staff-size 16.5)
 
 \header {
   title     = \markup \bold \italic "Allegro in e-moll"
@@ -17,7 +17,7 @@ voiceconsts = {
   \time 4/4
   \clef "bass"
 % \numericTimeSignature
-  \compressFullBarRests
+  \compressEmptyMeasures
   % Set default beaming for all staves
 %  \set Timing.beamExceptions = #'()
 %  \set Timing.baseMoment     = #(ly:make-moment 1 4)
@@ -25,15 +25,7 @@ voiceconsts = {
   \tempo "Allegro, non troppo " 4=100
 }
 
-mifl = "flute"
-mist = "string ensemble 1"
-%minstr = "accordion"
-miba = "bassoon"
-%miba = "electric bass (pick)"
-%miba = "electric bass (finger)"
-%milo = "drawbar organ"
-milo = "harpsichord"
-
+mivc = "cello"
 dolc = \markup \italic "dolce"
 
 \include "v1.ily"
@@ -42,26 +34,38 @@ dolc = \markup \italic "dolce"
 
 music = \new StaffGroup <<
       \new Staff {
-	\set Staff.midiInstrument = \mist
+	\set Staff.midiInstrument = \mivc
 	\set Staff.instrumentName = \markup \center-column { "Violon-" "cello I" }
 	\transpose e e { \va }
       }
 
       \new Staff {
-	\set Staff.midiInstrument = \mist
+	\set Staff.midiInstrument = \mivc
 	\set Staff.instrumentName = \markup \center-column { "Violon-" "cello II" }
 	\transpose e e { \vb }
       }
 
       \new Staff {
-	\set Staff.midiInstrument = \miba
+	\set Staff.midiInstrument = \mivc
 	\set Staff.instrumentName = \markup \center-column { "Violon-" "cello III" }
 	\transpose e e { \vc }
       }
 >>
-
 \book {
-  \score {
+   \paper {
+    print-page-number = ##t
+    print-first-page-number = ##t
+    ragged-last-bottom = ##f
+    oddHeaderMarkup = \markup \null
+    evenHeaderMarkup = \markup \null
+    oddFooterMarkup = \markup {
+      \fill-line {
+        \on-the-fly #print-page-number-check-first
+        "Bernhard Romberg - Allegro in e-moll" \fromproperty #'page:page-number-string
+      }
+    }
+    evenFooterMarkup = \oddFooterMarkup
+  } \score {
     \music
     \layout {}
   }
