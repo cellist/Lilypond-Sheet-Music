@@ -43,9 +43,9 @@ va = \relative c''' {
     e2 r4
     r a8 b a g
     fis2 r4
-    r d'8 e d c
+    r d'8 es? d c
     b\prall a b c d4
-    c8 es? a,4.-+ g8
+    c8 es a,4.-+ g8
 
     g4 es2~
     es4 d8 es d c
