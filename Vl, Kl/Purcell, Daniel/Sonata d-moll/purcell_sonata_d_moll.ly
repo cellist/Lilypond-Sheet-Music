@@ -1,7 +1,7 @@
-\version "2.14.2"
+\version "2.20.2"
 \include "deutsch.ly"
 
-#(set-global-staff-size 19.5)
+#(set-global-staff-size 17.1)
 
 \header {
   title     = \markup \bold \italic "Sonata d-moll"
@@ -13,12 +13,13 @@
 voiceconsts = {
   \key d \minor
   %\numericTimeSignature
-  \compressFullBarRests
+  \compressEmptyMeasures
   \set tupletSpannerDuration = #(ly:make-moment 1 4)
 }
 
 mihi = "string ensemble 1"
-mikl = "drawbar organ"
+%mikl = "drawbar organ"
+mikl = "accordion"
 
 introa = {        \tempo "1. Adagio "  4=50  \time 4/4  }
 introb = { \break \tempo "2. Largo "   4=70  \time 3/4  }
@@ -54,8 +55,21 @@ music = <<
 >>
 
 \book {
-  \score {
-   \music
+   \paper {
+    print-page-number = ##t
+    print-first-page-number = ##t
+    ragged-last-bottom = ##f
+    oddHeaderMarkup = \markup \null
+    evenHeaderMarkup = \markup \null
+    oddFooterMarkup = \markup {
+      \fill-line {
+        \on-the-fly #print-page-number-check-first
+        "Daniel Purcell - Sonate d-moll" \fromproperty #'page:page-number-string
+      }
+    }
+    evenFooterMarkup = \oddFooterMarkup
+  } \score {
+    \music
     \layout {}
   }
 
