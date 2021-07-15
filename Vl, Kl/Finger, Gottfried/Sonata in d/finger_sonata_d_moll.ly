@@ -1,4 +1,4 @@
-\version "2.14.2"
+\version "2.20.2"
 \include "deutsch.ly"
 
 #(set-global-staff-size 17)
@@ -13,14 +13,15 @@
 voiceconsts = {
   \key d \minor
   \numericTimeSignature
-  \compressFullBarRests
+  \compressEmptyMeasures
 %  \set tupletSpannerDuration = #(ly:make-moment 1 4)
 }
 
 mifl = "clarinet"
 mist = "string ensemble 1"
 miba = "bassoon"
-mikl = "drawbar organ"
+%mikl = "drawbar organ"
+mikl = "accordion"
 
 introa = {        \tempo "1. Largo "   4=60  \time 4/4 }
 introb = { \break \tempo "2. Allegro " 4=90 }
@@ -56,8 +57,21 @@ music = <<
 >>
 
 \book {
-  \score {
-   \music
+   \paper {
+    print-page-number = ##t
+    print-first-page-number = ##t
+    ragged-last-bottom = ##f
+    oddHeaderMarkup = \markup \null
+    evenHeaderMarkup = \markup \null
+    oddFooterMarkup = \markup {
+      \fill-line {
+        \on-the-fly #print-page-number-check-first
+        "Gottfried Finger - Sonata d-moll" \fromproperty #'page:page-number-string
+      }
+    }
+    evenFooterMarkup = \oddFooterMarkup
+  } \score {
+    \music
     \layout {}
   }
 
