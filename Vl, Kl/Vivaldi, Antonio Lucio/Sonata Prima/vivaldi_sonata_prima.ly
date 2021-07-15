@@ -1,7 +1,7 @@
-\version "2.14.2"
+\version "2.20.2"
 \include "deutsch.ly"
 
-#(set-global-staff-size 18.5)
+#(set-global-staff-size 17)
 
 \header {
   title     = \markup \bold \italic "Sonata Prima"
@@ -14,7 +14,7 @@
 voiceconsts = {
   \key c \major
   \numericTimeSignature
-  \compressFullBarRests
+  \compressEmptyMeasures
   \set tupletSpannerDuration = #(ly:make-moment 1 8)
 }
 
@@ -31,7 +31,7 @@ introb = { \break \tempo "2. Allegro; Tempo di Gavotta "     4=90
 introc = { \pageBreak \tempo "3. Aria; Affetuoso "          4.=50
            \time 3/8 \key c \major
 }
-introd = {     \break \tempo "4. Allegro "                   4=100 \time 2/4 }
+introd = { \break \tempo "4. Allegro "                   4=100 \time 2/4 }
 introe = { \pageBreak \tempo "5. Giga - Allegro "           4.=70  \time 6/8 }
 
 daca = \mark \markup \box "D.C."
@@ -66,8 +66,21 @@ music = <<
 >>
 
 \book {
-  \score {
-   \music
+   \paper {
+    print-page-number = ##t
+    print-first-page-number = ##t
+    ragged-last-bottom = ##f
+    oddHeaderMarkup = \markup \null
+    evenHeaderMarkup = \markup \null
+    oddFooterMarkup = \markup {
+      \fill-line {
+        \on-the-fly #print-page-number-check-first
+        "Antonio Vivaldi - Sonata Prima" \fromproperty #'page:page-number-string
+      }
+    }
+    evenFooterMarkup = \oddFooterMarkup
+  } \score {
+    \music
     \layout {}
   }
 
