@@ -38,8 +38,8 @@ va = \relative c' {
     e8 c~ c2
     f a,4
     c2 h4
-    g2 g8 f
-    e g g2
+    g2~ g8 f
+    e g~ g2
     g f4
     e8 c~ c2
   }

@@ -1,4 +1,4 @@
-\version "2.18.2"
+\version "2.20.2"
 \include "deutsch.ly"
   
 #(set-global-staff-size 18)
@@ -16,7 +16,7 @@ voiceconsts = {
   \time 3/4
   \clef "bass"
 %  \numericTimeSignature
-  \compressFullBarRests
+  \compressEmptyMeasures
   % Set default beaming for all staves
   \set Timing.beamExceptions = #'()
   \set Timing.baseMoment     = #(ly:make-moment 1 4)
