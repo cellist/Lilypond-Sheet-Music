@@ -1,7 +1,7 @@
-vb = \relative c' {
+vb = \relative c {
   \voiceconsts
-  \clef "tenor"
-  
+  \clef "bass"
+
   \introa
   a16 h c d e fis gis e a g f e d e f d
   e d c h a g' f e d e f d e d c h
@@ -123,7 +123,7 @@ vb = \relative c' {
     c e gis, h a c h d
     c4 d e,8 e'16 d c8 a
 
-    d c h g? c c, r c'
+    d c h g c c, r c'
     h a gis e a a r a
     d h e e, a c h d
 
@@ -151,9 +151,10 @@ vb = \relative c' {
     e, e'16 d cis8 h a4 r8 a
     d, d'16 c! h8 a g4 r8 g
 
-    c, c'16 h a8 g f4 r8 f
+    c, c'16 h a8 g f?4 r8 f
     h h16 a gis8 fis e4 r8 e
-    a4 d e,8 e'16 d c8 a
+    a4 d
+    e,8 e'16 d c8 a
 
     d c h g? c c, r c'
     h a gis e a a16 h c8 a
@@ -163,7 +164,7 @@ vb = \relative c' {
     c e gis, h a a a16 h c d
     c8 d e e, a2
   }
-
+  
   \introe
   \repeat volta 2 {
     a2 h4
@@ -172,7 +173,7 @@ vb = \relative c' {
     a r4
     h2.
     c4. d8 e4
-    f g? g,
+    f4 g? g,
     c2.
   }
   \repeat volta 2 {
@@ -194,11 +195,11 @@ vb = \relative c' {
     d2 c4
     d e e,
     a2.
-  }
+  }  
 
   \introf
   \repeat volta 2 {
-    r2. a4. h
+    r a4. h
     c8 h c d c d e4. d4 c8
     h4. gis a r
 
@@ -212,8 +213,7 @@ vb = \relative c' {
 
     c f g r
     r2. h,8 a h g a h
-    c4 f8 g4 g,8
-    c4. r
+    c4 f8 g4 g,8 c4. r
   }
   \repeat volta 2 {
     r2. c4. d
@@ -229,7 +229,8 @@ vb = \relative c' {
     a r g8 fis g e fis g
 
     a g a h4 h8 e,4 h'8 e4 d8
-    cis4. r d,4 a'8 d4 c8h4. r c,4 g'8 c4 h8
+    cis4. r d,4 a'8 d4 c8
+    h4. r c,4 g'8 c4 h8
 
     a4. r h4 fis8 h4 a8
     gis4. r a r

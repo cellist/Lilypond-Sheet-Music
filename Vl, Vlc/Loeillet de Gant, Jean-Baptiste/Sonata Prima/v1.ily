@@ -125,9 +125,10 @@ va = \relative c''' {
     a8 c h d c e gis, h
     a c h d c a e'4~
     e d e2
+    
   }
   \repeat volta 2 {
-    c8 e d f e g? h, d
+    c8 e d f e g h, d
     c e d f e g h, d
 
     c d16 e d8. c16 h8 g r g'
@@ -138,19 +139,19 @@ va = \relative c''' {
     g f16 e d8 e16 f e8 c r a'
     g f16 e d e f g e8 c r e
 
-    a a, r f' e d16 c h8 c16 d
+    a a, r f' e d16 c h?8 c16 d
     c8 a r f' e d16 c h c d e
     c8 a e'4~ e8 fis16 g fis8.\trill e16
 
     dis8 h e4~ e8 fis16 g fis8.\trill e16
     e4 g~ g8 a16 g a g f! e
-    f8 d?16 e f4~ f8 g16 f g f e d
+    f8 d16 e f4~ f8 g16 f g f e d
 
     e8 c16 d e4~ e8 f16 e f e d c
     d8 h16 c d4~ d8 e16 d e d c h
     c8 d16 c h8.\trill a16 gis8 e r e'
 
-    f16 g! f e d e f d e f e d c8 e
+    f16 g f e d e f d e f e d c8 e
     d16 e d c h c d h c d c h a8 a'16 g
     f e d c h8.\trill a16 a4 r8 f'
 
@@ -177,19 +178,19 @@ va = \relative c''' {
     c8 d d4. c8
     h2 h4
     c c4. h8
-    a2 g4
+    a2 h4
     c8 d d4.-+ c16 d
     e2.
-    a8 g f e d c
+    a8[ g f e d c]
     f4. gis,8 a4~
 
     a8. h16 h4.\trill a8
     a2.
-    a'8 g f e d c
+    a'8[ g f e d c]
     f4. gis,8 a4~
     a8 h h4.\trill a8
     a2.
-  }
+  }  
 
   \introf
   \repeat volta 2 {
@@ -203,7 +204,7 @@ va = \relative c''' {
 
     h c a e a gis\trill a4. h
     c8 h c d c d e d e f e f
-    g4. f4 e8 d e f g d f
+    g?4. f4 e8 d e f g d f
 
     e a g f d c h4 g8 c h a
     d c h e d c f4.~ f8 e d
@@ -220,11 +221,11 @@ va = \relative c''' {
 
     c h a d a c h4 g8 g' fis g
     e fis g fis g e dis4 h8 e d c
-    c h a g fis e h'4.~ h8 a g
+    c h a g! fis e h'4.~ h8 a g
 
     fis g e h' e dis\trill e4. r
     e8 a g a e g f4. r
-    d?8 g f g d f e4. r
+    d8 g f g d f e4. r
 
     c8 f e f c e d4. r
     h8 e d e h d c a h c d e

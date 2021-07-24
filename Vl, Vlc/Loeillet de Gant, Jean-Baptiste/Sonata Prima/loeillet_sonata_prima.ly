@@ -1,4 +1,4 @@
-\version "2.18.2"
+\version "2.20.2"
 \include "deutsch.ly"
   
 #(set-global-staff-size 18)
@@ -15,6 +15,7 @@ voiceconsts = {
   \key c \major
   \time 2/2
   \clef "treble"
+  \compressEmptyMeasures
 %  \numericTimeSignature
 }
 
@@ -46,9 +47,11 @@ introc = { \break \tempo "3. Adagio " 2=30
 		  \set Timing.baseMoment     = #(ly:make-moment 1 4)
 		  \set Timing.beatStructure  = #'(1 1 1 1)
 		}
-introd = { \break \tempo "4. Allegro "           4=100 \time 4/4 }
-introe = { \break \tempo "5. Sarabanda - Largo " 4=60  \time 3/4 }
-introf = { \break \tempo "6. Giga - Allegro "   4.=90  \time 12/8 }
+introd = { \break \tempo "4. Allegro " 4=100 \time 4/4
+	          \autoBeamOn
+		}
+introe = { \break \tempo "5. Sarabanda - Largo " 4=60 \time  3/4 }
+introf = { \break \tempo "6. Giga - Allegro "   4.=80 \time 12/8 }
 
 \include "v1.ily"
 \include "v2.ily"
