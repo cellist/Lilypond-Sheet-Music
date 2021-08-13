@@ -36,5 +36,51 @@ vb = \relative c' {
   e4 d d2
   d2. c4
   h d h2
-  cis1 \bar "|."
+  cis1 \bar "||"
+
+  d
+  e
+  e
+  e
+  d
+  h4 c?2 h4
+  c1
+
+  r2\fermata e
+  e1
+  fis
+  g2. g4
+  e2. fis4
+  g1
+  r2\fermata g~
+
+  g g~
+  g e~
+  e f?~
+  f4 f f2
+  f1
+  d
+  e
+  d2. c4
+  c2 c
+  a1
+  h
+  r2\fermata c
+  c4 c c2
+  c1
+
+  d
+  e
+  e2. d4
+  d1
+  f2. e4
+  d1
+  c4. h8 c[ h] c d
+
+  e2 d
+  h1
+  g4. a8 h4. c8
+  d1
+  e
+  d\fermata \bar "|."
 }
