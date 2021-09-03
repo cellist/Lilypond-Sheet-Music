@@ -1,6 +1,6 @@
 vc = \relative c' {
   \voiceconsts
-  \clef "tenor"
+  \clef "bass"
   
   \introa
   f4\f e

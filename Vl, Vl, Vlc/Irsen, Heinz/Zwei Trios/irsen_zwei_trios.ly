@@ -1,7 +1,7 @@
 \version "2.20.2"
 \include "deutsch.ly"
 
-#(set-global-staff-size 18)
+#(set-global-staff-size 17)
 
 \header {
   title     = \markup \bold \italic "Zwei Trios für Streicher"
@@ -54,7 +54,7 @@ music = \new StaffGroup <<
       \new Staff {
         \set Staff.midiInstrument = \miba
         \set Staff.instrumentName = \markup \center-column { "Violon-" "cello" }
-        \transpose c c { \vc }
+        \transpose c c, { \vc }
       }
 >>
 
