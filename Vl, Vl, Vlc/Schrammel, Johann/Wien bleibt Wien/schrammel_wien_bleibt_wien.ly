@@ -1,7 +1,7 @@
-\version "2.18.2"
+\version "2.20.2"
 \include "deutsch.ly"
   
-#(set-global-staff-size 19.2)
+#(set-global-staff-size 19)
 
 \header {
   title     = \markup \bold \italic "Wien bleibt Wien!"
@@ -16,7 +16,7 @@ voiceconsts = {
   \time 4/4
   \clef "treble"
 %  \numericTimeSignature
-  \compressFullBarRests
+  \compressEmptyMeasures
   % Set default beaming for all staves
 % \set Timing.beamExceptions = #'()
 % \set Timing.baseMoment     = #(ly:make-moment 1 4)
@@ -28,7 +28,8 @@ mifl = "flute"
 miob = "oboe"
 mifh = "french horn"
 misx = "tenor sax"
-mist = "string ensemble 1"
+%mist = "string ensemble 1"
+mist = "violin"
 miba = "cello"
 
 cpap = \markup \italic "cresc. poco a poco"
@@ -63,7 +64,20 @@ music = \new StaffGroup <<
 >>
 
 \book {
-  \score {
+  \paper {
+    print-page-number = ##t
+    print-first-page-number = ##t
+    ragged-last-bottom = ##f
+    oddHeaderMarkup = \markup \null
+    evenHeaderMarkup = \markup \null
+    oddFooterMarkup = \markup {
+      \fill-line {
+        \on-the-fly #print-page-number-check-first
+        "Johann Schrammel - Wien bleibt Wien!" \fromproperty #'page:page-number-string
+      }
+    }
+    evenFooterMarkup = \oddFooterMarkup
+  } \score {
     \music
     \layout {}
   }
