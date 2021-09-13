@@ -1,7 +1,7 @@
-\version "2.18.2"
+\version "2.20.2"
 \include "deutsch.ly"
 
-#(set-global-staff-size 19.55)
+#(set-global-staff-size 19)
 
 \header {
   title     = \markup \bold \italic "Cantiléne"
@@ -25,12 +25,8 @@ voiceconsts = {
 %  \set Timing.beatStructure  = #'(1 1)
 }
 
-mist = "string ensemble 1"
-%miba = "trombone"
-%mivc = "bassoon"
-mivc = "trombone"
-mikl = "concertina"
-miba = "electric bass (finger)"
+mivl = "violin"
+mivc = "pizzicato strings"
 
 arco = \markup \bold \italic "arco"
 atem = \markup \bold \italic "A tempo"
@@ -45,27 +41,40 @@ rit  = \markup \bold \italic "rit."
 
 music = <<
       \new Staff {
-        \set Staff.midiInstrument = \mist
+        \set Staff.midiInstrument = \mivl
         \set Staff.instrumentName = \markup \center-column { "Violine" "I" }
         \transpose f f { \va }
       }
 
       \new Staff {
-        \set Staff.midiInstrument = \mist
+        \set Staff.midiInstrument = \mivl
         \set Staff.instrumentName = \markup \center-column { "Violine" "II" }
         \transpose f f { \vb }
       }
 
       \new Staff {
-        \set Staff.midiInstrument = \miba
+        \set Staff.midiInstrument = \mivc
         \set Staff.instrumentName = \markup \center-column { "Violon-" "cello" }
         \transpose f f { \vc }
       }
 >>
 
 \book {
-  \score {
-   \music
+  \paper {
+    print-page-number = ##t
+    print-first-page-number = ##t
+    ragged-last-bottom = ##f
+    oddHeaderMarkup = \markup \null
+    evenHeaderMarkup = \markup \null
+    oddFooterMarkup = \markup {
+      \fill-line {
+        \on-the-fly #print-page-number-check-first
+        "Josef Gabriel Rheinberger - Cantilene" \fromproperty #'page:page-number-string
+      }
+    }
+    evenFooterMarkup = \oddFooterMarkup
+  } \score {
+    \music
     \layout {}
   }
 
