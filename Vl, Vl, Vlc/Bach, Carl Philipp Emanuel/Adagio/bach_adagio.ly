@@ -1,4 +1,4 @@
-\version "2.18.2"
+\version "2.20.2"
 \include "deutsch.ly"
   
 #(set-global-staff-size 20)
@@ -16,7 +16,7 @@ voiceconsts = {
   \time 3/4
   \clef "treble"
 %  \numericTimeSignature
-  \compressFullBarRests
+  \compressEmptyMeasures
   % Set default beaming for all staves
 % \set Timing.beamExceptions = #'()
 % \set Timing.baseMoment     = #(ly:make-moment 1 4)
@@ -57,7 +57,20 @@ music = \new StaffGroup <<
 >>
 
 \book {
-  \score {
+  \paper {
+    print-page-number = ##t
+    print-first-page-number = ##t
+    ragged-last-bottom = ##f
+    oddHeaderMarkup = \markup \null
+    evenHeaderMarkup = \markup \null
+    oddFooterMarkup = \markup {
+      \fill-line {
+        \on-the-fly #print-page-number-check-first
+        "Carl Philipp Emanuel Bach - Adagio per il Organo" \fromproperty #'page:page-number-string
+      }
+    }
+    evenFooterMarkup = \oddFooterMarkup
+  } \score {
     \music
     \layout {}
   }
