@@ -29,6 +29,7 @@ mihi = "clarinet"
 %minstr = "accordion"
 milo = "bassoon"
 mivl = "violin"
+miva = "viola"
 miba = "cello"
 
 rit = \mark \markup \box \italic "rit."

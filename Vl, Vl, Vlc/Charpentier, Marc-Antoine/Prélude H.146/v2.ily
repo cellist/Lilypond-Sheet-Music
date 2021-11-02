@@ -30,7 +30,7 @@ vb = \relative c'' {
   h4. a8 g d \breathe e f
 
   g4 g c c
-  e h c4. c8
+  d h c4. c8
   c4 c c g8 a
   h a h c h4 \breathe c8 d
   g,4 g c c
