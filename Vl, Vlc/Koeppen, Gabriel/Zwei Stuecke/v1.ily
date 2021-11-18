@@ -1,8 +1,8 @@
 va = \relative c'' {
   \voiceconsts
 
+  \introa
   \partial 4 g4
-  
   \repeat volta 2 {
     d' d c b
     c d8 g,~ g2
@@ -37,5 +37,28 @@ va = \relative c'' {
   r\coda g8 g a( g) f g~
   g2~ g8 d g a
   b4 c8 b a g f4
-  g2. \bar "|."
+  \partial 2. g2. \bar "|."
+
+  \introb
+  \partial 8 d8
+  a'( d,) d d4 d8 c( d) d d4 d8
+  a'( d,) d c'( d,) d a'( d,) d d4 d8
+  d'( d,) d a'( d,) d c'( d,) d g( d) d
+
+  a'( d,) d f( d) d g c, d e f g
+  a( d,) d d4 d8 c( d) d d4 d8
+  a'( d,) d c'( d,) d a'( d,) d d4 d8
+
+  d'( d,) d a'( d,) d c'( d,) d g( d) d
+  a'( f) d g( e) c d4. d4 \breathe e8
+  \repeat volta 2 {
+    f e f d e f g f g e4.
+
+    f8 e f d e f e d e c d e
+    f e f d e f g f g e f g
+  }
+  \alternative {
+    { f e d e d c d4. d4 \breathe e8 }
+    { \partial 8*11 f e d \dccr e d c d4. d4 }
+  } \bar "||"
 }

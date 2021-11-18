@@ -1,10 +1,10 @@
 \version "2.20.2"
 \include "deutsch.ly"
 
-#(set-global-staff-size 22)
+#(set-global-staff-size 24)
 
 \header {
-  title     = \markup \bold \italic "Church Song"
+  title     = \markup \bold \italic "Zwei Stücke"
   composer  = "Gabriel Köppen (*1958)"
   arranger  = "arr.: M. W."
   enteredby = "cellist (2021-11-18)"
@@ -21,14 +21,19 @@ voiceconsts = {
 %  \set Timing.beamExceptions = #'()
 %  \set Timing.baseMoment     = #(ly:make-moment 1 4)
 %  \set Timing.beatStructure  = #'(1 1 1)
-  \tempo "Allegretto " 4=120
+  
 }
 
 mivl = "violin"
 mivc = "cello"
 
 cresc = \markup \italic "cresc."
+dccr  = \mark \markup \box "D.C. con repetitione"
 fmarc = \markup { \dynamic f \bold \italic " marcato" }
+
+introa = {        \tempo "1. Church Song "                   4=120 }
+introb = { \break \tempo "2. Rentierpulli und Korksandale " 4.=90
+	   \time 12/8 \key f \major }
 
 \include "v1.ily"
 \include "v2.ily"
@@ -57,7 +62,7 @@ music = \new StaffGroup <<
     oddFooterMarkup = \markup {
       \fill-line {
         \on-the-fly #print-page-number-check-first
-        "Gabriel Köppen - Church Song" \fromproperty #'page:page-number-string
+        "Gabriel Köppen - Zwei Stücke" \fromproperty #'page:page-number-string
       }
     }
     evenFooterMarkup = \oddFooterMarkup
