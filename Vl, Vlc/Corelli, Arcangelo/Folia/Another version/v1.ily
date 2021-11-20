@@ -133,4 +133,191 @@ va = \relative c'' {
   e g c g e g c g e g( f e)
   f d( cis d) a d( cis d) e, d'( cis d)
   d,2. \boxg
+
+  <d' f>2\downbow\f r4
+  <cis e>\downbow a, r
+  <d' f>2 r4
+
+  <e g> c, r
+  <f' a>2 r4
+  <e g> c, r
+
+  <d' f>2 r4
+  <cis e> a, r
+  <d' f>2 r4
+
+  <cis e> a, r
+  <d' f>2 r4
+  <e g> c, r
+
+  <f' a>2 r4
+  <g b> g,, r
+  <cis' e>2 r4
+  <d f> d,2 \breathe \boxh
+
+  d'8(\mf f) a,( d) f,( a)
+  e'( g) cis,( e) a,( cis)
+  f( a) d,( f) h,( d)
+  e( g) c,?( e) g,( b!)
+  a'( c) f,( a) c,( f)
+  e( g) c,( e) a( e)
+
+  f( a) d,( f) b,( d)
+  cis( e) a,( e) cis( a)
+  f''(\p g16 a) d,8 a f d
+  e'( f16 g) cis,8 e, cis a
+  f''( g16 a) d,8 a f d
+
+  e'( f16 g) c,?8 g e c
+  a''( b16 c) f,8 c a f
+  e'( f16 g) c,8 g e a
+  f(\< a) d16( f, e d) a8\! d'16( cis)
+  d4 d,2 \boxi
+
+  d''16\f a f a d,4 r
+  a'16 e cis e a,4 r
+  d'16 a f a d,4 r
+
+  c'16 g e g c,4 r
+  f16 c a c f,4 r
+  c''16 g e g c,4 r
+
+  d16 a f a d,4 r
+  a'16 e cis e a,4 r
+  f'' r16 d a d a d a d
+
+  cis4 r16 a' e a e a e a
+  f4 r16 f d f d f d f
+  e4 r16 c'? g c g c g c
+
+  a4 r16 d a d a d a d
+  b4. a8( g[ a])
+  f( e)\> \afterGrace e2(\trill d8)\! \boxj
+
+  d\p a d
+  a, e'' g
+  d, f' b
+  e,, g' c
+  f,, f' a
+  c,, e' g
+  d, f' a
+  b, b' d
+
+  a,, cis' e
+  cis, e' g
+  d, f' b
+  e,, g' c
+  f,, f' a
+  c,, e' g
+  d, f' a
+  g,, a cis'
+  d,4.\fermata \boxk
+
+  <d' f>4.\f <d f>8 <cis e>2
+  <d f>4. <d f>8 <e g>2
+  <f a>4. <f a>8 <e g>2
+  <d f>4. <d f>8 <cis e>2
+
+  <d f>4.\p <d f>8 <cis e>2
+  <d f>4. <d f>8 <e g>2
+  <f a>4.( <a, a'>8)-- << g'4 \\ { h,8[( cis)] } >> <d f> e
+  <d f>4 <cis e> <d, a' d>2\arpeggio \boxl
+
+  d'8\downbow\f a d, d' cis e, a, cis'
+  d a d, d' e g, c,! e'
+  f c f, f' e g, c, e'
+  d f, b, d' cis e, a, cis'
+
+  d a d, d' cis e, a, cis'
+  d a d, d' e g, c,! e'
+  f c f, f' e g, c, e'
+  d f, a, cis' d4 d, \boxm
+
+  d'8\f a f d a' d cis e,16( d cis h a8) a' cis
+  d a f d d' f e g,16( f e d c!8) c' e
+  f c a f c' f e g,16( f e d c8) e' f
+
+  d f, d b d' e cis e,16( d cis h a8)\> a' cis
+  d\!\mf a f d a' d cis e,16( d cis h a8) a' cis
+
+  d a f d d' f e g,16( f e d c!8) c' e
+  f c a f c' f e g,16( f e d c8)\< e' f
+  d f, d a\! d' cis d,2. \breathe \boxn
+
+  a'~\pp
+  a
+  c~
+  c
+  d
+
+  b2 a4~
+  a g2
+  a2.
+  a~\p
+  a
+
+  c~
+  c
+  d
+  b4 cis d
+  d,8( e16 f) d4.( cis8)
+  d2. \boxo
+
+  <a f'>4\p <a e'>2
+  <a f'>4 <a e'>2
+  <c a'>4 <c g'>2
+  <c a'>4 <c g'>2
+
+  <d b'>4 <d a'>2
+  <g, d' b'>\arpeggio <cis a'>4~\>
+  <cis a'> d2
+  \appoggiatura { cis16[\! e] } a2.
+
+  <a, f'>4\pp <a e'>2
+  <a f'>4 <a e'>2
+  <c a'>4 <c g'>2
+  <c a'>4 <c g'>2
+
+  <d b'>4 <d a'>2
+  <g, d' b'>4\arpeggio\< cis' d
+  d,8(\!\p e16 f) d4.( cis8)
+  d2. \boxp
+
+  r8 f'\upbow\f a[ a,] d4
+  r8 cis e[ e,] a4
+  r8 f' a[ a,] d4
+  r8 e g[ g,] c?4
+  r8 a' c[ c,] f4
+
+  r8 e g[ e] a4
+  r8 f a[ a,] d4
+  r8 cis e[ e,] a a,
+  f''4. a,8 d4
+  cis4. e8 a4
+
+  f4. a8 d,4
+  e4. g8 c4
+  a4. c,8 f4
+  e4. c8 g'4
+  f4. d8 a[ d16( cis)]
+  d4 d,2 \boxq
+
+  r8 a'4\downbow\f d, d'8(~
+  d cis) a e cis a'
+  f\upbow a'4 d, f8(~
+  f e) c g e c'
+
+  a c'4 f,4 a8(~
+  a g) e c e a
+  f a,4 d( e8)
+  cis( a) e cis a4
+  r8 a'4\downbow\mf d, d'8(~
+  d cis) a e cis a'
+
+  f a'4 d, f8(~
+  f e) c? g e c'
+  a c'4 f, a8(~
+  a g) e c e a
+  f a, r d a, d'16( cis)
+  d4 d,2 \boxr
 }
