@@ -1,7 +1,7 @@
 \version "2.20.2"
 \include "deutsch.ly"
 
-#(set-global-staff-size 17.5)
+#(set-global-staff-size 18)
 
 \header {
   title     = \markup \italic "Kanon: \"Der Frühling liebt das Flötenspiel\""
@@ -14,14 +14,14 @@
 voiceconsts = {
  \key a \major
  \time 4/4
- \clef "bass"
+ \clef "treble"
  \numericTimeSignature
  \compressEmptyMeasures
   % Set default beaming for all staves
   \set Timing.beamExceptions = #'()
   \set Timing.baseMoment     = #(ly:make-moment 1 4)
   \set Timing.beatStructure  = #'(1 1 1 1) 
- \tempo "Allegretto " 4=100
+ \tempo "Allegretto " 4=110
 }
 
 minstr = "harpsichord"
@@ -35,31 +35,24 @@ miba = "cello"
 \include "v1.ily"
 \include "v2.ily"
 \include "v3.ily"
-\include "v4.ily"
 
 music = \new StaffGroup <<
       \new Staff {
-        \set Staff.midiInstrument = \miba
-        \set Staff.instrumentName = \markup \center-column { "Violon-" "cello I" }
-        \transpose a g { \va }
+        \set Staff.midiInstrument = \mivl
+        \set Staff.instrumentName = \markup \center-column { "Violine" " I" }
+        \transpose a d' { \va }
+      }
+      
+      \new Staff {
+        \set Staff.midiInstrument = \mivl
+        \set Staff.instrumentName = \markup \center-column { "Violine" "II" }
+        \transpose a d' { \vb }
       }
       
       \new Staff {
         \set Staff.midiInstrument = \miba
-        \set Staff.instrumentName = \markup \center-column { "Violon-" "cello II" }
-        \transpose a g { \vb }
-      }
-      
-      \new Staff {
-        \set Staff.midiInstrument = \miba
-        \set Staff.instrumentName = \markup \center-column { "Violon-" "cello III" }
-        \transpose a g { \vc }
-      }
-      
-      \new Staff {
-        \set Staff.midiInstrument = \miba
-        \set Staff.instrumentName = \markup \center-column { "Violon-" "cello IV" }
-        \transpose a g { \vd }
+        \set Staff.instrumentName = \markup \center-column { "Violon-" "cello" }
+        \transpose a d' { \vc }
       }
 >>
 
