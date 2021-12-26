@@ -1,7 +1,7 @@
 \version "2.20.2"
 \include "deutsch.ly"
 
-#(set-global-staff-size 20)
+#(set-global-staff-size 17)
 
 \header {
   title     = \markup \italic "Poco Adagio cantabile"
@@ -36,6 +36,7 @@ miba = "cello"
 atem = \mark \markup \box \italic "a tempo"
 dolc = \markup \italic "dolce"
 rall = \mark \markup \box \italic "rall."
+vara = { \bar "||" \mark \markup \box "Var. I" }
 
 \include "v1.ily"
 \include "v2.ily"

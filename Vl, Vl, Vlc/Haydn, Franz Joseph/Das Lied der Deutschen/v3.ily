@@ -24,5 +24,19 @@ vc = \relative c {
   e8.(\! fis16 g4) c,4.(\fz\> g'8)
   d4(\! <g, g'>) <c d>2\p
   h4( c) <h d>( <c d>)
-  <g d'>2 \bar "|."
+  
+  <g d'>2 \vara r
+  R1*7 \bar "||"
+  R1*4
+  r2 g'4.(\fz\> fis8)
+  fis(\! e d4) e4.(\fz\> d8)
+
+  d( c h4) r2\!
+  R1
+  r2 g'4.(\upbow\fz\> fis8)
+
+  fis(\! e d4) e4.(\fz\> d8)
+  d( c h4)\! r2
+  R1
+  r2 \bar "|."
 }
