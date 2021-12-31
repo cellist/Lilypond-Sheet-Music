@@ -1,6 +1,6 @@
 vc = \relative c {
   \voiceconsts
-  \clef "alto"
+  \clef "bass"
   
   \partial 8 r8
   \repeat volta 2 {

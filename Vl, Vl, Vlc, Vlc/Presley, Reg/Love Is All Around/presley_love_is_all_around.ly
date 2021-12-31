@@ -1,7 +1,7 @@
 \version "2.20.2"
 \include "deutsch.ly"
 
-#(set-global-staff-size 18.5)
+#(set-global-staff-size 18)
 
 \header {
   title     = \markup \bold \italic "\"Love Is All Around\""
@@ -55,14 +55,14 @@ music = \new StaffGroup <<
       }
 
       \new Staff {
-	\set Staff.midiInstrument = \miva
-	\set Staff.instrumentName = \markup \center-column { "Viola" }
+	\set Staff.midiInstrument = \miba
+	\set Staff.instrumentName = \markup \center-column { "Violon-" "cello I"}
 	\transpose d d { \vc }
       }
 
       \new Staff {
 	\set Staff.midiInstrument = \miba
-	\set Staff.instrumentName = \markup \center-column { "Violon-" "cello" }
+	\set Staff.instrumentName = \markup \center-column { "Violon-" "cello II" }
 	\transpose d d { \vd }
       }
 >>
