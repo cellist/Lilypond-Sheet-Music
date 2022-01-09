@@ -4,16 +4,16 @@
 #(set-global-staff-size 20)
 
 \header {
-  title     = \markup \bold \italic "Etüde in C-Dur"
+  title     = \markup \bold \italic "Etüde in F-Dur"
   composer  = "Jakob Dont (1815-1888)"
   arranger  = "arr.: Louis Svečenski"
-  enteredby = "cellist (2022-01-08)"
-  piece     = "20 Progressive Etüden, op. 38, Nr. 2"
+  enteredby = "cellist (2022-01-09)"
+  piece     = "20 Progressive Etüden, op. 38, Nr. 1"
 }
 
 voiceconsts = {
-  \key c \major
-  \time 3/4
+  \key f \major
+  \time 4/4
   \clef "bass"
 %  \numericTimeSignature
   \compressEmptyMeasures
@@ -21,7 +21,7 @@ voiceconsts = {
 % \set Timing.beamExceptions = #'()
 % \set Timing.baseMoment     = #(ly:make-moment 1 4)
 % \set Timing.beatStructure  = #'(1 1 1)
-  \tempo "Moderato " 4=70
+  \tempo "Allegro moderato " 4=90
 }
 
 micl = "clarinet"
@@ -41,13 +41,13 @@ music = \new StaffGroup <<
       \new Staff {
 	\set Staff.midiInstrument = \miba
 	\set Staff.instrumentName = \markup \center-column { "Violon-" "cello I" }
-	\transpose c c { \va }
+	\transpose f f { \va }
       }
 
       \new Staff {
 	\set Staff.midiInstrument = \miba
 	\set Staff.instrumentName = \markup \center-column { "Violon-" "cello II" }
-	\transpose c c { \vb }
+	\transpose f f { \vb }
       }
 >>
 
@@ -61,7 +61,7 @@ music = \new StaffGroup <<
     oddFooterMarkup = \markup {
       \fill-line {
 %        \on-the-fly #print-page-number-check-first
-        "Jakob Dont - Etüde in C-Dur" \fromproperty #'page:page-number-string
+        "Jakob Dont - Etüde in F-Dur" \fromproperty #'page:page-number-string
       }
     }
     evenFooterMarkup = \oddFooterMarkup
