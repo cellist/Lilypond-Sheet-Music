@@ -20,7 +20,7 @@ va = \relative c' {
   a( h) c?\!
   d(\cresc g,) a
   h( c d
-  e\f_\rit c8 h)\> a4
+  e\f \rit c8 h)\> a4
   g2\p\fermata \bar "|."
 
   \break \tempo "4. Mäßig langsam " 4=70 \time 4/4 \key c \major
@@ -32,7 +32,7 @@ va = \relative c' {
 
   a4.\cresc h8 c4 e
   d4. c8 h4 c8( h)
-  a4\f f' e c
-  d(\>_\pori c2 h4)
+  a4\f f' e c \pori
+  d(\> c2 h4)
   c\!\p\fermata \bar "|."
 }

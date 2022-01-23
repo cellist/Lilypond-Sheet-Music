@@ -20,7 +20,7 @@ vb = \relative c' {
   c( h) e\!
   fis(\cresc e) d
   d( es d8 a'
-  gis4\f_\rit e?) fis\>
+  gis4\f \rit e?) fis\>
   d2\!\p\fermata \bar "|."
   
   \break \tempo "4. Mäßig langsam " 4=70 \time 4/4 \key c \major
@@ -32,7 +32,7 @@ vb = \relative c' {
 
   f?\cresc f e g
   a a gis e
-  f\f a8( h) c[( h)] a4
-  a2(\>_\pori g)
+  f\f a8( h) c[( h)] a4 \pori
+  a2(\> g)
   g4\!\p\fermata \bar "|."
 }

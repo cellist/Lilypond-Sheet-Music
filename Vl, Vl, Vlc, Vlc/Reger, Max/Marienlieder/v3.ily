@@ -20,7 +20,7 @@ vc = \relative c {
   e2 a4\!
   a(\cresc cis) c
   h( a2
-  h4\f c) d8(\>_\rit c)
+  h4\f \rit c) d8(\> c)
   h2\!\p\fermata \bar "|."
 
   \break \tempo "4. Mäßig langsam " 4=70 \time 4/4 \key c \major
@@ -32,7 +32,7 @@ vc = \relative c {
 
   c\cresc d c c
   f f h, a
-  c\f d g e
-  f4.(\>_\pori e8 d[ e] f4)
+  c\f d g e \pori
+  f4.(\> e8 d[ e] f4)
   e\!\p\fermata \bar "|."
 }
