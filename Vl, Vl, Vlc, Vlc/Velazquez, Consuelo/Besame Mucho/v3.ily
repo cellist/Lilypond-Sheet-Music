@@ -1,6 +1,6 @@
 vc = \relative c'' {
   \voiceconsts
-  \clef "treble_8"
+  \clef "tenor"
 
   g4-.\mf r b-. r
   d,-. r f-. r

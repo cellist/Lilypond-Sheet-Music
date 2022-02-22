@@ -1,7 +1,7 @@
 \version "2.20.2"
 \include "deutsch.ly"
 
-#(set-global-staff-size 18)
+#(set-global-staff-size 18.25)
 
 \header {
   title     = \markup \bold \italic "Bésame mucho"
