@@ -5,8 +5,8 @@
 
 \header {
   title     = \markup \italic "Notturno in D-Dur"
-  composer  = "Antonín Kammel (1730-1784)"
-  arranger  = "()"
+  composer  = "Antonín Kammel"
+  arranger  = "(1730-1784)"
   enteredby = "cellist (2022-04-02)"
   piece     = "6 Notturnos, op. 6 Nr. 1"
 }
