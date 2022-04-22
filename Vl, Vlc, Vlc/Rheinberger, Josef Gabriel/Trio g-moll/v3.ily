@@ -1,6 +1,5 @@
 vc = \relative c {
    \voiceconsts
-   \clef "bass"
 
    g1.~
    g2. fis
@@ -10,8 +9,8 @@ vc = \relative c {
    b h
    c d
    es cis
-   d fis,^\rit
-   g1.~^\atp
+   d \rit fis,
+   g1.~
 
    g2. c
    f, b?

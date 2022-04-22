@@ -10,8 +10,8 @@ va = \relative c'' {
    f4) as2(~ as4 g8[ f es d]
    c d es2~ es4) d8([ c b a?]
    g a b2~ b4) a8([ g fis g]
-   a2 d,4~^\rit d2) d'4~(
-   d^\atp g,2) c4( fis,2)
+   a2 d,4~ \rit d2) d'4~(
+   d g,2) \atem c4( fis,2)
 
    r8 g([ b d g d] f4 es2~
    es4) cis2( es4 d2~

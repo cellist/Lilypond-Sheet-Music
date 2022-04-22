@@ -1,6 +1,5 @@
 vb = \relative c' {
    \voiceconsts
-   \clef "tenor"
 
    b2 es4( a,2) d8( c
    b4 d, b' a4.) c8([ b a]
@@ -10,8 +9,8 @@ vb = \relative c' {
    d2) f4( g,2 f'4
    es4.) c?8([ a g] fis2 c'4
    b2) g4( e2 a4
-   fis) c'( b^\rit a d8[ c b a]
-   b2)^\atp es?4( a,2) d8( c
+   fis) c'( b \rit a d8[ c b a]
+   b2) es?4( \atem a,2) d8( c
 
    b4 d, b'~ b4.) d8([ c b]
    a2) f'4( as,4.) f'8([ b, as]
