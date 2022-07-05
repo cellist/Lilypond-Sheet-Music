@@ -1,18 +1,18 @@
 \version "2.20.2"
 \include "deutsch.ly"
 
-#(set-global-staff-size 20)
+#(set-global-staff-size 19)
 
 \header {
-  title     = \markup \bold \italic "Duetto Primo"
+  title     = \markup \bold \italic "Zwei Duette"
   composer  = "Antonio Caldara"
   arranger  = "(1670-1736)"
   enteredby = "cellist (2022-07-04)"
-  piece     = "44 Cello Lessons, A-Wn EM.69, Nr. 1"
+  piece     = "44 Lektionen für das Violoncello, A-Wn EM.69"
 }
 
 voiceconsts = {
-  \key d \minor
+  \key e \minor
   \time 4/4
   \clef "bass"
 %  \numericTimeSignature
@@ -21,7 +21,6 @@ voiceconsts = {
 %  \set Timing.beamExceptions = #'()
 %  \set Timing.baseMoment     = #(ly:make-moment 1 4)
 %  \set Timing.beatStructure  = #'(1 1 1)
-  \tempo 4=60
 }
 
 micl = "clarinet"
@@ -33,6 +32,9 @@ mist = "string ensemble 1"
 mivl = "violin"
 miba = "cello"
 
+introa = {        \tempo "Nr. 1 " 4=60 }
+introb = { \break \tempo "Nr. 3 " 4=50 \key e \minor }
+
 \include "v1.ily"
 \include "v2.ily"
 
@@ -40,13 +42,13 @@ music = \new StaffGroup <<
       \new Staff {
 	\set Staff.midiInstrument = \miba
 	\set Staff.instrumentName = \markup \center-column { "Violon-" "cello I" }
-	\transpose d d { \va }
+	\transpose e e { \va }
       }
 
       \new Staff {
 	\set Staff.midiInstrument = \miba
 	\set Staff.instrumentName = \markup \center-column { "Violon-" "cello II" }
-	\transpose d d { \vb }
+	\transpose e e { \vb }
       }
 >>
 
@@ -60,7 +62,7 @@ music = \new StaffGroup <<
     oddFooterMarkup = \markup {
       \fill-line {
         \on-the-fly #print-page-number-check-first
-        "Antonio Caldara - Duetto Primo" \fromproperty #'page:page-number-string
+        "Antonio Caldara - Zwei Duette" \fromproperty #'page:page-number-string
       }
     }
     evenFooterMarkup = \oddFooterMarkup
