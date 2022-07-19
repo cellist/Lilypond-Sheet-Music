@@ -1,7 +1,7 @@
 \version "2.20.2"
 \include "deutsch.ly"
 
-#(set-global-staff-size 17.25)
+#(set-global-staff-size 18)
 
 \header {
   title     = \markup \bold \italic "Air con variazioni"
@@ -21,7 +21,7 @@ voiceconsts = {
   \set Timing.beamExceptions = #'()
   \set Timing.baseMoment     = #(ly:make-moment 1 4)
   \set Timing.beatStructure  = #'(1 1 1 1)
-  \tempo "Air - Moderato " 4=75
+  \tempo "Air " 4=70
 }
 
 micl = "clarinet"
@@ -37,6 +37,7 @@ mipz = "pizzicato strings"
 boxa = \mark \markup \box \italic "A"
 boxb = \mark \markup \box \italic "B"
 boxc = \mark \markup \box \italic "C"
+boxd = \mark \markup \box \italic "D"
 
 \include "v1.ily"
 \include "v2.ily"

@@ -73,5 +73,26 @@ vd = \relative c, {
     \tuplet 3/2 8 { c16 d c b c b a c a f a f b d b g b g c e c a c a }
     \tuplet 3/2 8 { d f d g, b g e' g e c e c } f c d b c8 c,
     f4
+  } \boxd
+  
+  f' e f,32( g a b c d e f)
+  c8 r r4 r2
+  r4 f c f,32( g a b c d e f)
+  c8 r r4 r2
+
+  r4 \breathe a b a
+  \repeat volta 2 {
+    b a r8 c[ r f,]
+    c'16 e g b, a4 b c
+    d a b r8 c,
+    f16 g32( a b c d e) f8 a, r2
+
+    R1
+    c16 e g b, a4 b c
+    d a b c8 c,
   }
+  \alternative {
+    { f4 a b a }
+    { f2. r4 }
+  } \bar "|."
 }

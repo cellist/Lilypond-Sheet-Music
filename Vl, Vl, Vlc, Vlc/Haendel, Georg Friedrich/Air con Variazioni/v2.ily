@@ -73,5 +73,27 @@ vb = \relative c' {
     f e c'4. b8 g c~
     c[ b g' e] c16 e f b, a8 g16 f
     f4
+  } \boxd
+  r c'32( b a g f e d c) f4
+
+  e r r2
+  e4 r c'32( b a g f e d c) f4
+  e c16 d32( e f g a h) c( h a g f e d c) d16 f c' h
+  g4 r f'32( e d c b! a g f) r4
+
+  \repeat volta 2 {
+    f'32( e d c b a g f) r4 r r16 c f b
+    g4 r d32( e f g a b c d) e,8-. r
+
+    R1
+    c4 f32( g a b c d e f) d8 b r4
+    f f32( g a b c d e f) d8 r r4
+    r2 d32( c b a g f e d) e8 r
+
+    f'32( e d c b a g f) c'8 r b32( a g f e d c b) a16 c8 c16
   }
+  \alternative {
+    { c4 r f'32( e d c b a g f) r4 }
+    { c2. r4 }
+  } \bar "|."
 }

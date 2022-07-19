@@ -74,5 +74,27 @@ vc = \relative c' {
     c'4 r r2
     R1
     r16 c, f g
+  } \boxd
+
+  a4 g r
+  c,32( d e f g a b c) a8 f c[ f d e]
+  c16 g' c b a4 g r
+
+  c,32( d e f g a b c) a8 f e[ a f g]
+  c,16 g' c b \breathe c4 d c
+  \repeat volta 2 {
+    d c g8[ r f] r
+    r4 r8 f r g[ r a]
+
+    r f[ r f] r d c4
+    a' r b,32( c d e f g a b) a8 f
+    b,32( c d e f g a b) a8 f b[ a g f]
+    r4 r8 f r g[ r a]
+
+    r f[ r f] r g[ a g]
   }
+  \alternative {
+    { a4 c d c }
+    { a2. r4 }
+  } \bar "|."
 }

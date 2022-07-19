@@ -71,5 +71,28 @@ va = \relative c' {
     g4 f8 a d,[ g e a]
     f r b4. a16 g f8 e
     c4
+  } \boxd
+
+  c'32( b a g f e d c) c'8 r a4
+  g c,16 d32( e f g a h) c( h a g f e d c) d16 f c' h
+
+  c4 c32( b! a g f e d c) c'8 r a4
+  g r r2
+  c4 \breathe f32(e d c b a g f) r4 f'32( e d c b a g f)
+
+  \repeat volta 2 {
+    r4 f'32( e d c b a g f) b16 d, e c' a8 r
+    e8. d16 c32( d e f g a b c) d,8-. r e32( f g a b c d e)
+
+    f16 e32( d c b a g) f( a c b a g f e) d16 f b a a g f e
+    f4 r r f32( g a b c d e f)
+    d8 b r4 r16 f c' f, b e, f a
+
+    g c, e g c32( b a g f e d c) d8 r e'32( d c b a g f e)
+    f8 r c''32( b a g f e d c) b( a g f e d c b) a16 f'8 e16
   }
+  \alternative {
+    { f4 f'32( e d c b a g f) r4 f'32( e d c b a g f) }
+    { f2. r4 }
+  } \bar "|."
 }
