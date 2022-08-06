@@ -175,4 +175,110 @@ va = \relative c' {
   g' b, d g d b
   b' \clef "bass" d,, g b g d
   g2 r4 \bar "|."
+
+  \introe \clef "tenor"
+  \partial 8 a8
+  d4 a8 e'4 a,8
+  fis' e fis d4 a8
+  d a d e a, e'
+  fis e fis d e fis
+  g4 d8 a'4 d,8
+  h' a h g4 d8
+  g d g a d, a'
+  h a h g d h'
+
+  a g a fis d fis
+  g4 e8 h'4 g8
+  fis g fis d a d
+  e4 cis8 g'4 e8
+  d a fis d4 fis'8
+  g e cis e cis a
+  g' cis,, e a cis g'
+  fis d h d h g
+  fis' h,, d fis h fis'
+
+  e cis ais e' cis ais
+  fis' g fis e d cis
+  h4 fis8 d'4 h8
+  cis4 ais8 e'4 cis8
+  d h d h' fis d
+  h2 r8 \clef "bass" a,?
+  d4 a8 e'4 a,8
+  fis' e fis d4 a8
+  d a d e a, e'
+  fis e fis d e fis
+
+  g4 d8 a'4 d,8
+  h' a h g4 d8
+  g d g a d, a'
+  h a h g d h'
+  c4 a8 d4 a8
+  h4 g8 c4 g8
+  a4 fis8 h4 h8
+  e h g e4 \breathe h'8
+  c a fis c' a c
+  d a d c a c
+  h g e h' g h
+
+  c e, c' h e, h'
+  a fis es a fis a
+  h es, h' a es a
+  g e! g h g h \clef "tenor"
+  e h e g e g
+  a c a fis d fis
+  g h g e c e \rit
+  fis a fis d a d
+
+  \partial 8*5 g[ d] h g4 \bar "|."
+
+  \introf
+  \partial 8 g8
+  c4 g8 as4 f8
+  g4. r8 f es
+  d es f es4 d8
+  es4 d8 c4 g'8
+  c h c d c d
+  es4 d8 c es c
+  d es d c d h
+  c4 g8 es4 g8
+  c4 g8 as4 f8
+
+  g c es g4 es8
+  f4 g8 as4 f8
+  g es c g g' es
+  f4 g8 f4 d8
+  es4 f8 es4 c8
+  h4 c8 d4 h8
+  c g es c4 \breathe g''8
+  as g as f d f
+  g f g es c es
+
+  f dis f d c h
+  c g es c4 \breathe b'!8
+  es4 b8 f'4 b,8
+  g' f g es4 b8
+  es b es f b, f'
+  g f g es f g
+  f es f d es f
+  es d es c4 g8
+  c4 es8 d4 g,8
+
+  d'4 f8 es4 g8
+  as g as f b, d
+  g f g es as, c
+  f es f d c h \clef "bass"
+  c g es c4 \breathe g'8
+  as g as d, b'? as
+  g f g c, as' g
+  f es f h, g' f
+  es4 g8 c4 g8
+  d'4 g,8 es' d es \clef "tenor"
+
+  c4 c8 es4 c8
+  f4 b,8 g' f g
+  es4 g8 as g as
+  f b as g f g
+  es as g f es f
+  d g d c es g
+  c2. \bar "|."
 }

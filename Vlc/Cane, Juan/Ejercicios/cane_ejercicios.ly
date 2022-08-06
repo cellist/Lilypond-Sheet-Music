@@ -1,7 +1,7 @@
 \version "2.20.2"
 \include "deutsch.ly"
 
-#(set-global-staff-size 20)
+#(set-global-staff-size 19)
 
 \header {
   title     = \markup \bold \italic "Ejercicios"
@@ -41,6 +41,8 @@ introd = { \break \tempo "4. Preludio IV in g-moll "  4=100 \time 3/4
   \set Timing.baseMoment     = #(ly:make-moment 1 4)
   \set Timing.beatStructure  = #'(1 1 1)
 }
+introe = { \break \tempo "5. Gigue I in D-Dur "       2=72  \key d \major }
+introf = { \break \tempo "6. Gigue II in c-moll "     2=80  \key c \minor }
 
 atem = \mark \markup \box \italic "a tempo"
 rit  = \mark \markup \box \italic "rit"
