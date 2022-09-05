@@ -1,7 +1,7 @@
-\version "2.20.2"
+\version "2.22.0"
 \include "deutsch.ly"
   
-#(set-global-staff-size 17.5)
+#(set-global-staff-size 20)
 
 \header {
   title     = \markup \bold \italic "Я встретил вас"
