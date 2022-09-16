@@ -42,7 +42,7 @@ vc = \relative c {
   d8 g, a4 a,
   d2. \boxc
 
-  d'4\mf r d,
+  d'4\mf r \pizz d,
   a' r a,
   d r d'
   c r c,

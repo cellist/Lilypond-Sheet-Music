@@ -41,7 +41,7 @@ va = \relative c'' {
   a g16 f e4. d8
   d2. \boxc
 
-  d,4\mf f' r
+  d,4\mf f' \pizz r
   cis, e' r
   f, f' r
   e, g' r

@@ -1,4 +1,4 @@
-\version "2.20.2"
+\version "2.22.0"
 \include "deutsch.ly"
 
 #(set-global-staff-size 16.25)
@@ -28,13 +28,9 @@ voiceconsts = {
  \tempo "Largo " 4=70
 }
 
-minstr = "harpsichord"
-mihi = "clarinet"
-%minstr = "accordion"
-milo = "bassoon"
-
 cresc = \markup \italic "cresc."
 fmarc = \markup { \dynamic f \bold \italic " marcato" }
+pizz  = \mark \markup \box \bold \italic "pizz"
 
 boxa = {                  \mark \markup \box "A" }
 boxb = { \break \bar "||" \mark \markup \box "B" \tempo 4=80 }

@@ -41,7 +41,7 @@ vb = \relative c' {
   f8 e16 d cis4. d8
   d2. \boxc
 
-  r4 d\mf d,
+  r4 d\mf \pizz d,
   r cis' cis,
   r d' d,
   r e' e,
@@ -334,7 +334,7 @@ vb = \relative c' {
   d'4 d4. d8
   cis4 cis4. cis8
   d4 d4. d8
-  d4 d4. d8
+  e4 e4. e8
 
   f4 f4. f8
   e4 e4. e8
