@@ -80,7 +80,7 @@ vb = \relative c' {
      g[(\< f) r f]\downbow e( f d' f,) f8( e) r8. g16\!\f
      c8\prall c,16(-. c')-. d8\prall d,16(-. d')-. e8\prall e,16(-. e')-. f-. e-. f-. d-.
      e8\prall e16(-. e)-. f e f d e4 r
-     R1
+     \partial 1 r1
 
      \tuplet 3/2 8 { c16( e d c h a) } g4 \tuplet 3/2 8 { f16( e d f e d) } f'4
      \tuplet 3/2 8 { e16( d c a f' d) } \afterGrace d4(\trill { c16[ d]) } c4 r
@@ -90,5 +90,90 @@ vb = \relative c' {
      c c4 h8( c16) g e g f g, h'8\turn
      c16 g e g f g, h'8\turn c4 r8 f,
      \partial 8*7 e[( f) e( f)] e c, r\fermata
+   }
+
+   \introb
+   \repeat volta 2 {
+     R2.
+     r4 r16 g''(\p d' b) fis( g a b)
+     c,4 r2
+     r4 r16 a'( c a) e( f g a)
+     f,4 r16 c''( b a) g( f e f)
+
+     c4 r16 b'( a g) f( e c' b)
+     a4 r2
+     d,16(\upbow g d' c) b( a g fis) g( f e f)
+     f8( e~ e16) f( e d) c( b' a g)
+
+     g( f b a) a4 r
+     a8.(\mf g16 f8) d'( c b)
+     b4( a8) a( h c)
+     d8.( e16 f8) f( e d)
+     d4(\> c8) r4.\!
+
+     c4(\p g8) g16 e' e( d) c h
+     c4( g8) g16 e' e( d) c h
+     \appoggiatura d c( h c d) \appoggiatura f e( d e f) g4~
+     g16 f( e d) c4 \afterGrace h(\trill { a16[ h]) }
+
+     c4 r r16 c(-. c-. c)-.
+     c4\cresc r r16 c(-. c-. c)-.
+     c2\> \afterGrace h4\((\trill { a16[ h]) }
+     c8\)\! c\upbow\p f( e) d( e)
+     d2( c8) r
+   }
+   \repeat volta 2 {
+     c4\p e,8( f) g( a)
+
+     g16( f e f) f2
+     d'4 d,8( e) f( g)
+     f16\(( e) e( d)\) e2
+     e'4. cis16( d) e( cis a g)
+     g( f b? a) a4 r8 d
+     d(\cresc es4) d8[( cis d)]
+
+     cis( f4) e!16( d) e( d cis d)
+     cis8(\p f4) e16( d) e( d cis d)
+     \afterGrace d4(\trill\> { cis16[ d]) } cis4 r\!
+     c!4.\f c8 c c
+     c16( b a c) b4. b8
+
+     b16( a g b) a4. a8
+     a16( g f a) g8 g4 f8\upbow
+     a8.( g32 f e8) e(\> f b)
+     a4\!\p f8( g) a( b)
+     a16( g fis g) r g( d' b) fis( g a b)
+
+     c,4 r8 g'( b a)
+     g16( f? b a) r a( c a) e( f a f)
+     b4 r16 b( d b) e,( f b f)
+     c'4 r16 f,,( a c) f( a c f,)
+
+     b,4 r2
+     g'16(\upbow a b a) b( d c b) c( b a b)
+     a2 f'4
+     g16( fis g fis) g4 r8 e
+     f!4 f \afterGrace e(\trill { d16[ e]) }
+     f4 r2
+
+     a,8.(\mf g16 f8) d'( c b)
+     b4( a8) a\downbow a( b)
+     c8.( d16 es8) es( d c)
+     c4( b8) d,( e! f)
+     g16( a b a) g8 g4 f8
+
+     \afterGrace f4\((\trill\> { e16[ f]) } e8\) e16 d' d( c d b)\!
+     a\((\p c a c) a( c a c)\) b( c b c)
+     a\(( c a c) a( c a c)\) b( c b c)
+     a4 r r16 f(\downbow a c
+     d,) d'( c b) a4 \afterGrace g(\trill { f16[ g]) }
+     \appoggiatura g f( e f g) \appoggiatura b a( g a b) c4
+     \appoggiatura c16 b(\p a b c) \appoggiatura e d(\cresc c d e) f f f f
+
+     f4\> f \afterGrace e(\trill { d16[ e]) }
+     f8\(\!\p a,16( c)\) a( c a c) b( c b c)
+     a( c a c) a( c a c) b( c b c)
+     a8 f\upbow\pp b( a) g( a)
+     g2( f8) r\fermata
    }
 }

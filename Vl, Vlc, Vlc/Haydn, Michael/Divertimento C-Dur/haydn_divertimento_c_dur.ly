@@ -33,7 +33,8 @@ mivl = "violin"
 miba = "cello"
 mipz = "pizzicato strings"
 
-introa = { \tempo "1. Allegro moderato " 4=80 }
+introa = {        \tempo "1. Allegro moderato " 4=80 }
+introb = { \break \tempo "2. Adagio "           4=45 \time 3/4 \key f \major }
 
 atem = \mark \markup \box \italic "a tempo"
 rit  = \mark \markup \box \italic "rit."
