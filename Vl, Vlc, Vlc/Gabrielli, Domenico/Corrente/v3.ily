@@ -8,9 +8,9 @@ vc = \relative c {
     d c2
     f2.
     d4 e2
-    f2.
+    f2( <a, f'>4)
 
-    f4 e4. d8
+    f' e4. d8
     e f e d c4
     R2.
     f4. g8 a4

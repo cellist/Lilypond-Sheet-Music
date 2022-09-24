@@ -7,9 +7,9 @@ vb = \relative c' {
     d d4. d16 e
     f4. f8 c4
     f, g4. g8
-    c,2 <a a'>4
+    c,2 a'4
 
-    c' c4. b8
+    c c4. b8
     c2.
     e4. d8 c4
     c2.
