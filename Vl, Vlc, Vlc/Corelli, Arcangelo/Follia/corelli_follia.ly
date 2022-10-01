@@ -1,12 +1,12 @@
 \version "2.22.0"
 \include "deutsch.ly"
 
-#(set-global-staff-size 17.5)
+#(set-global-staff-size 17.1)
 
 \header {
   title     = \markup \bold \italic "Variationen über \"La Follia\""
   composer  = "Arcangelo Corelli (1653-1713)"
-  arranger  = "arr.: R. D. Tennent"
+  arranger  = "arr.: R. D. Tennent / OW"
   enteredby = "cellist (2022-09-25)"
   piece     = "Sonata für Violine & Cello; op. 5 Nr. 12"
 }
@@ -37,13 +37,19 @@ boxl = { \bar "||" \mark \markup \box \italic "L" }
 boxo = { \bar "||" \mark \markup \box \italic "O" \time 12/8 }
 boxq = { \bar "||" \mark \markup \box \italic "Q" }
 boxs = { \bar "||" \mark \markup \box \italic "S" }
+boxt = { \bar "||" \mark \markup \box \italic "T" }
+boxu = { \bar "||" \mark \markup \box \italic "U" }
+boxv = { \bar "||" \mark \markup \box \italic "V" }
+boxw = {           \mark \markup \box \italic "W" \time 9/8 }
+boxx = {           \mark \markup \box \italic "X" }
+boxy = { \bar "||" \mark \markup \box \italic "Y" }
 
 introa = {           \tempo "[A] Adagio "   4=60  }
 introb = { \bar "||" \tempo "[C] Allegro "  4=100 }
 introc = { \bar "||" \tempo "[J] Adagio "   4=60  }
 introd = { \bar "||" \tempo "[K] Vivace "   4=110 }
 introe = { \bar "||" \tempo "[L] Allegro " 4.=70 \time 3/8 }
-introf = { \bar "||" \tempo "[M] Andante "  4=80 \time 4/4 }
+introf = { \bar "||" \pageBreak \tempo "[M] Andante "  4=80 \time 4/4 }
 introg = { \bar "||" \tempo "[N] Allegro "  4=100 }
 introh = { \bar "||" \tempo "[P] Adagio "   4=60 \time 3/4 }
 introi = { \bar "||" \tempo "[R] Allegro "  4=100 }

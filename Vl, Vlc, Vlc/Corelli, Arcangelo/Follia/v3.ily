@@ -322,7 +322,96 @@ vc = \relative c {
   f a f
   c e cis
   d g a
-  d,2.
-  
-  \bar "|."
+  d,2. \boxt
+
+  d'4 r8 d, f d
+  a'4 r8 a, cis a
+  d4 r8 d f d
+  c?4 r8 c e c
+
+  f4 r8 f a f
+  c'4 r8 c, e c
+  d4. c8 b g
+  a4. h8 cis a
+
+  d4 r8 d f d
+  a'4 r8 a, cis a
+  d4 r8 d f d
+  c?4 r8 c e c
+
+  f4 r8 f a f
+  c'4 r8 e cis a
+  d d, f g, a4
+  d2. \boxu
+
+  R2.*16 \boxw
+
+  \repeat volta 2 {
+    d2. r4.
+    a2. r4.
+    d2. r4.
+    c2. r4.
+    f2. r4.
+
+    b,2. a4.
+    b c c
+    f,2.~ f4 r8
+  }
+
+  \repeat volta 2 {
+    f' c f a c a f a f
+    c' g c e, g e c e c
+
+    g' d g b d b g b g
+    d' a d f, a f d f d
+    g d g b d b g b g \bar "||" \time 3/4
+    a4. a,8 b4
+    g a2
+    d2.
+  } \boxx
+
+  d4 f d
+  a' a,2
+  d4 f a
+
+  c c,2
+  f4 a f
+  c' c,2
+
+  d4 f d
+  a2 r4
+  d f d
+
+  a' a,2
+  d4 f a
+  c c,2
+
+  f4 a f
+  g2 f4
+  g a a,
+  d2. \boxy
+
+  d4 d8 e f d
+  a'4 a8 h cis a
+  d,4 d8 e f d
+  c?4 c8 d e c
+  f4 f8 g a f
+
+  c4 cis'8 b a g
+  f4 b16 a g f g f e d
+  a'8 a, cis' e a,,4
+  d d8 e f d
+
+  a'4 a8 h cis a
+  d,4 d8 e f d
+  c?4 c8 d e c
+  f4 f8 g a f
+  c4 cis'8 b? a g
+
+  f4 g a
+  d, d8 e f d
+  g4 a a,
+  d d8 e f d
+  g4 a a,
+  d2. \bar "|."
 }

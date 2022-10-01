@@ -1,6 +1,5 @@
 vb = \relative c' {
   \voiceconsts
-%  \clef "treble_8"
   \clef "tenor"
   
   a2.~\mf
@@ -77,7 +76,7 @@ vb = \relative c' {
   \tuplet 3/2 4 { a b8 } a2
   a2. \boxf
 
-  d8 d, f a f d
+  d,8 d, f a f d
   cis' a cis e cis a
   d d, f a f d
   e' c,? e g e c
@@ -112,7 +111,7 @@ vb = \relative c' {
   r e' c,?
   r f' f,
   r e' d
-  d, a2
+  d a2
   d2. \boxh
 
   d4 r r
@@ -135,7 +134,7 @@ vb = \relative c' {
   d a2
   a2. \boxi
 
-  d'2 r4
+  d2 r4
   cis a r
   d2 r4
   e c,? r
@@ -153,7 +152,7 @@ vb = \relative c' {
   f2 r4
   g g, r
   cis'2 r4
-  d d,2
+  d d2
 
   \introc
   a'2.~
@@ -175,7 +174,7 @@ vb = \relative c' {
   f2.
 
   \introd
-  d'16 a f a d,4 r
+  d16 a f a d,4 r
   a'16 e cis e a,4 r
   d'16 a f a d,4 r
   c'?16 g e g c,4 r
@@ -187,7 +186,7 @@ vb = \relative c' {
   f'' r16 d a d a d a d
   cis8 a cis e cis a
 
-  r a, d f a4
+  r a d f a4
   r8 c,? e g e c
   r c f a f a
   g4. cis,8 d cis
@@ -213,14 +212,14 @@ vb = \relative c' {
   d4.
 
   \introf
-  d'4. d8 cis2
+  d4. d8 cis2
   d4. d8 e2
   f4. f8 e2
   d4. d8 cis2
 
   d4. d8 cis2
   d4. d8 e2
-  f4. a,8 h cis d4~
+  f4. a8 h cis d4~
   d cis a2
 
   \introg
@@ -283,7 +282,7 @@ vb = \relative c' {
   a2.
 
   \introi
-  d'4 r r
+  d4 r r
   a r r
   d, r r
   c r r
@@ -310,7 +309,97 @@ vb = \relative c' {
 
   d cis a e cis a'
   R2.*5
-  a2.
-  
-  \bar "|."
+  a2. \boxt
+
+  R
+  cis16 e a, cis e, a cis, e a,4
+  R2.*5
+  cis'16 e a, cis e, a cis, e a,4
+
+  R2.
+  cis16 a e' cis a' e cis' a e'4
+  R2.*5
+  a,2. \boxu
+
+  R
+  a4 e g~
+  g f2
+  c'4 g b~
+  b a2
+  e'4 b cis
+  d c! b
+  a a, h
+
+  cis2.
+  d'4 a8 h c!4~
+  c h2
+  c4 g8 a b!4~
+  b a2
+  b4 a8 g f4
+  g a a,
+  d2. \boxw
+
+  \repeat volta 2 {
+    R8*45
+    d'8 d' d, e c' e, a, f' a,
+    b f' b, c f c g' f e
+    f2.~ f4 r8
+  }
+
+  \repeat volta 2 {
+    f2. r4.
+    e2. r4.
+
+    g2. r4.
+    f2. r4.
+    d2. r4. \bar "||" \time 3/4
+    cis2 d8 cis
+    d4 d4. cis8
+    a2.
+  } \boxx
+
+  \repeat tremolo 2 { d16 a } \repeat tremolo 2 { d a } \repeat tremolo 2 { d a }
+  \repeat tremolo 2 { cis a } \repeat tremolo 2 { cis a } \repeat tremolo 2 { cis a }
+  \repeat tremolo 2 { d a } \repeat tremolo 2 { d a } \repeat tremolo 2 { d a }
+
+  \repeat tremolo 2 { e' c? } \repeat tremolo 2 { e c } \repeat tremolo 2 { e c }
+  \repeat tremolo 2 { f c } \repeat tremolo 2 { f c } \repeat tremolo 2 { f c }
+  \repeat tremolo 2 { e c } \repeat tremolo 2 { e c } \repeat tremolo 2 { e c }
+
+  \repeat tremolo 2 { d a } \repeat tremolo 2 { d a } \repeat tremolo 2 { d a }
+  \repeat tremolo 2 { cis a } \repeat tremolo 2 { cis a } \repeat tremolo 2 { cis a }
+  \repeat tremolo 2 { d a } \repeat tremolo 2 { d a } \repeat tremolo 2 { d a }
+
+  \repeat tremolo 2 { cis a } \repeat tremolo 2 { cis a } \repeat tremolo 2 { cis a }
+  \repeat tremolo 2 { d a } \repeat tremolo 2 { d a } \repeat tremolo 2 { d a }
+  \repeat tremolo 2 { e' c? } \repeat tremolo 2 { e c } \repeat tremolo 2 { e c }
+
+  \repeat tremolo 2 { f c } \repeat tremolo 2 { f c } \repeat tremolo 2 { f c }
+  R2.
+  d4 d cis
+  a2. \boxy
+
+  d4 d,2
+  cis' r4
+  d d,2
+  e' r4
+  f f,2
+
+  e' r4
+  d d,2
+  cis' r4
+  d d,2
+
+  cis' r4
+  d d,2
+  e' r4
+  f f,2
+  e' r4
+
+  d d r8 cis
+  d2 r4
+  d a2
+  d r4
+  d a2
+  d2. \bar "|."
 }

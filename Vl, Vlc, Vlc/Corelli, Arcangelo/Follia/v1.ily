@@ -316,7 +316,110 @@ va = \relative c'' {
   a c'4 f, a8~
   a g e c e a
   f a, r d a d16 cis
-  d4 d,2
-  
-  \bar "|."
+  d4 d,2 \boxt
+
+  f'16 a d, f a, d f, a d,4
+  R2.
+  f'16 a d, f a, d f, a d,4
+  e'16 g c, e g, c e, g c,4
+
+  a''16 c f, a c, f a, c f,4
+  e'16 g c, e g, c e, g c,4
+  f'16 a d, f a, d f, a d,4
+  R2.
+
+  f16 d a' f d' a f' d a'4
+  R2.
+  f,16 d a' f d' a f' d a'4
+  e,16 c g' e c' g e' c g'4
+
+  a,16 f c' a f' c a' f c'4
+  e,16 g f g e a g a e a g a
+  f d cis d a d cis d e, d' cis d
+  d,2. \boxu
+  d'4 a d~
+  d cis2
+  a'4 d, f~
+  f e2
+  c'?4 f, a~
+  a g2
+  f4 e4. d8
+  cis2.
+
+  a'4 e8 fis g4~
+  g fis2
+  g4 d8 e f!4~
+  f e2
+  f4 c8 d es4~
+  es cis d~
+  d8 e! e2
+  d2. \boxw
+
+  \repeat volta 2 {
+    d8 a d f a f d f d
+    cis a cis e a e cis a cis
+    d a d f a f d f d
+    e c? e g c g e g e
+    a f a c, f c a c a
+
+    R8*18
+    a2.~ a4 r8
+  }
+
+  \repeat volta 2 {
+    a'2. r4.
+    g2. r4.
+
+    b2. r4.
+    a2. r4.
+    b2. r4. \bar "||" \time 3/4
+    a4. g8 f[ e]
+    f g e4. e8
+    f2.
+  } \boxx
+
+  \repeat tremolo 4 f16 \repeat tremolo 4 f \repeat tremolo 4 f
+  \repeat tremolo 4 e \repeat tremolo 4 e \repeat tremolo 4 e
+  \repeat tremolo 4 f \repeat tremolo 4 f \repeat tremolo 4 f
+
+  \repeat tremolo 4 g \repeat tremolo 4 g \repeat tremolo 4 g
+  \repeat tremolo 4 a \repeat tremolo 4 a \repeat tremolo 4 a
+  \repeat tremolo 4 g \repeat tremolo 4 g \repeat tremolo 4 g
+
+  \repeat tremolo 4 f \repeat tremolo 4 f \repeat tremolo 4 f
+  \repeat tremolo 4 e \repeat tremolo 4 e \repeat tremolo 4 e
+  \repeat tremolo 4 f \repeat tremolo 4 f \repeat tremolo 4 f
+
+  \repeat tremolo 4 e \repeat tremolo 4 e \repeat tremolo 4 e
+  \repeat tremolo 4 f \repeat tremolo 4 f \repeat tremolo 4 f
+  \repeat tremolo 4 g \repeat tremolo 4 g \repeat tremolo 4 g
+
+  \repeat tremolo 4 a \repeat tremolo 4 a \repeat tremolo 4 a
+  h, g' h, g' cis, g' cis, g' d f d f
+  f4 e e
+  f2. \boxy
+
+  f4 d,2
+  e' r4
+  f4 d,2
+  g' r4
+  a f,2
+
+  g' r4
+  f d,2
+  e' r4
+  f d,2
+
+  e' r4
+  f d,2
+  g' r4
+  a f,2
+  g' r4
+
+  f e r8 e
+  f2 r4
+  b, e,2
+  d r4
+  b' e,2
+  d2. \bar "|."
 }
