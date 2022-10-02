@@ -1,7 +1,6 @@
 vd = \relative c {
   \voiceconsts
-  \clef "bass"
-  
+
   a8->\downbow\f a r a-> a r a-> a
   r a-> a r c4 d
   a8_\simi a r a a r a a

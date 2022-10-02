@@ -1,7 +1,6 @@
 vc = \relative c {
   \voiceconsts
-  \clef "bass"
-  
+
   R1*4
   e1~->\downbow\f
   e

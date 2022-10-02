@@ -15,7 +15,7 @@
 voiceconsts = {
   \key c \major
   \time 2/2
-  \clef "treble"
+  \clef "bass"
 %  \numericTimeSignature
   \compressEmptyMeasures
   % Set default beaming for all staves
@@ -45,26 +45,26 @@ simi = \markup \italic "simile"
 
 music = \new StaffGroup <<
       \new Staff {
-	\set Staff.midiInstrument = \mivl
-	\set Staff.instrumentName = \markup \center-column { "Violine" "I" }
-	\transpose  c c { \va }
-      }
-
-      \new Staff {
-	\set Staff.midiInstrument = \mivl
-	\set Staff.instrumentName = \markup \center-column { "Violine" "II" }
-	\transpose  c c { \vb }
-      }
-
-      \new Staff {
 	\set Staff.midiInstrument = \miba
 	\set Staff.instrumentName = \markup \center-column { "Violon-" "cello I" }
-	\transpose  c c { \vc }
+	\transpose  c c { \va }
       }
 
       \new Staff {
 	\set Staff.midiInstrument = \miba
 	\set Staff.instrumentName = \markup \center-column { "Violon-" "cello II" }
+	\transpose  c c { \vb }
+      }
+
+      \new Staff {
+	\set Staff.midiInstrument = \miba
+	\set Staff.instrumentName = \markup \center-column { "Violon-" "cello III" }
+	\transpose  c c { \vc }
+      }
+
+      \new Staff {
+	\set Staff.midiInstrument = \miba
+	\set Staff.instrumentName = \markup \center-column { "Violon-" "cello IV" }
 	\transpose  c c { \vd }
       }
 >>

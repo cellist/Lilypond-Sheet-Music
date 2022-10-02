@@ -1,4 +1,4 @@
-vb = \relative c'' {
+vb = \relative c' {
   \voiceconsts
 
   R1*4
@@ -33,7 +33,7 @@ vb = \relative c'' {
 
   d2 h
   c r
-  r4 e\upbow a h
+  r4 \clef "tenor" e\upbow a h
   a-. a-. r a-.
   g2 d
   h4-. h-. r g'-.\upbow
@@ -47,7 +47,7 @@ vb = \relative c'' {
   g2 d
 
   e r
-  r4 a,\upbow c d
+  r4 \clef "bass" a,\upbow c d
   c-. c-. r c-.\upbow
   d2 h
   c r
