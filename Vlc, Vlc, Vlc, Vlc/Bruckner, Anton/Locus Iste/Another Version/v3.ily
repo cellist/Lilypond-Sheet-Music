@@ -49,7 +49,7 @@ vc = \relative c {
   b2 d~\f
   d c
   R1
-  r4 c\upbow\ppp c c
+  r4 c\upbow\pp c c
   d2 d
   c1~
   c2 c
