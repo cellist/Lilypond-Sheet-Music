@@ -1,7 +1,7 @@
 vc = \relative c {
   \voiceconsts
 
-  f2\upbow\p g4 e
+  f2\upbow\pp g4 e
   f2 g4 a
   g2 f4 e
   f2 f4 e
