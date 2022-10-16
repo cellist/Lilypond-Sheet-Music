@@ -43,7 +43,7 @@ vc = \relative c' {
     a4. g8 f g a b
     c4 d8 es f4 f,
     b b'8 a g2
-    c4 c8 b g2
+    c4 c8 b f2
     d'4 d8 c b4 b8 a
 
     g4 c, d d,
@@ -62,7 +62,7 @@ vc = \relative c' {
 
     g'2. g4
     g f e d
-    c2 c4 a
+    c2 h4 a
     d h c d
     g,2.
   }
