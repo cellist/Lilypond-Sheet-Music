@@ -29,7 +29,7 @@ mivl = "violin"
 miba = "cello"
 mipz = "pizzicato strings"
 
-pizz = \markup \italic "pizz."
+pizz = \markup \italic "(pizz.)"
 pora = \mark \markup \box \italic "poco rall."
 
 \include "v1.ily"

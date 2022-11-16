@@ -2,52 +2,51 @@ vc = \relative c' {
   \voiceconsts
   \clef "bass"
 
-  g4\mp^\pizz g g g
-  e e fis fis
-  g g g g
-  d d fis fis
-
-  e e e e
-  g g g e
-
-  g g d fis
-  g g g fis
-
-  g g g e
-  a a a a
+  h4\mp^\pizz h h h
+  a a fis fis
+  h h h h
   g g fis fis
-  g g g fis
 
   g g g g
-  g g g g
-  fis g g g
-  fis fis e e
+  h h h g
+  h h g fis
+  h h h a
 
-  e g f\cresc f
-  fis! g g g
-  g g g g
-  fis1\mf \bar "||"
+  h h h a
+  h h h h
+  h h a a
+  h h h a
 
-  f4 f e e
-  e e e e
-  fis? fis fis fis
-  g g g g
-
-  e e e e
-  fis fis fis fis
+  h h h h
   a a a a
-  e e e e
+  a h a a
+  a a gis gis
 
-  e e e e
+  a h h\cresc h
+  a h h h
+  a a a a
+  a1\mf \bar "||"
+
+  h4 h gis gis
+  a a a a
   fis fis fis fis
-  g g g fis\mp
+  h h h h
+
+  g? g g g
+  a a a a
+  h h h h
   g g g g
 
-  e e d fis
-  g g\p g g
-  fis e fis\decresc fis
+  a a a a
+  fis fis fis fis
+  h h h a\mp
+  h h h h\mf
 
-  fis e e e \pora
+  g g g fis
+  h h\p a a
+  a g fis\decresc fis
+
+  h a a a \pora
   fis fis g fis
-  g1\fermata\pp \bar "|."
+  h1\fermata\pp \bar "|."
 }
