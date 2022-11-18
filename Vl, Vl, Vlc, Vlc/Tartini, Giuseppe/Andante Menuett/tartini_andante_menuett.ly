@@ -1,14 +1,14 @@
 \version "2.22.0"
 \include "deutsch.ly"
   
-#(set-global-staff-size 17.75)
+#(set-global-staff-size 17.5)
 
 \header {
-  title     = \markup \bold \italic "Andante assai"
+  title     = \markup \bold \italic "Andante & Menuett"
   composer  = "Giuseppe Tartini"
   arranger  = "(1692-1770)"
   enteredby = "cellist (2022-11-17)"
-  piece     = "Streichquartett in A-Dur, 2. Satz, GT 5.A01"
+  piece     = "Streichquartett in A-Dur, 2. + 3. Satz, GT 5.A01"
 }
 
 voiceconsts = {
@@ -21,7 +21,6 @@ voiceconsts = {
 %  \set Timing.beamExceptions = #'()
 %  \set Timing.baseMoment     = #(ly:make-moment 1 4)
 %  \set Timing.beatStructure  = #'(1 1 1 1)
-  \tempo "Andante assai, sempre dolce " 4=75
 }
 
 mifl = "flute"
@@ -29,6 +28,11 @@ mivl = "violin"
 miba = "cello"
 mipz = "pizzicato strings"
 
+introa = {        \tempo "2. Andante assai, sempre dolce " 4=75 }
+introb = { \break \tempo "3. Menuett: Allegro assai " 4=140 \time 3/4 \key a \major }
+
+arco = \markup \italic "arco"
+dolc = \markup \italic "dolce"
 pizz = \markup \italic "(pizz.)"
 pora = \mark \markup \box \italic "poco rall."
 
@@ -72,7 +76,7 @@ music = \new StaffGroup <<
     oddFooterMarkup = \markup {
       \fill-line {
         \on-the-fly #print-page-number-check-first
-        "Giuseppe Tartini - Andante assai" \fromproperty #'page:page-number-string
+        "Giuseppe Tartini - Andante & Menuett" \fromproperty #'page:page-number-string
       }
     }
     evenFooterMarkup = \oddFooterMarkup

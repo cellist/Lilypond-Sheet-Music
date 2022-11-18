@@ -1,7 +1,8 @@
 vd = \relative c {
   \voiceconsts
   \clef "bass"
-  
+
+  \introa
   \repeat volta 2 {
     a4\f a
     a a
@@ -77,5 +78,51 @@ vd = \relative c {
     f?2
     d4 e
     a2
+  }
+
+  \introb
+  \repeat volta 2 {
+    a'4\f a a
+    a2 a,4
+    a' a a
+    a2 a,4
+    a' a, cis
+    d2 d,4
+    d' e fis
+    e2 e,4
+  }
+  \repeat volta 2 {
+    R2.*4
+    a'4\f a, cis
+    d d, d'
+    a8. h16 cis8. d16 e8. e,16
+    a2.
+  }
+  \repeat volta 2 {
+    R2.*8
+    a'4\f a, cis
+    d2 d,4
+    d' h dis
+    e2 e,4
+
+    a a' cis,
+    d2 d,4
+    a' d e
+    a,2.
+    R2.*8
+    a'4\f a a
+    a2 a,4
+    a' a a
+    a2 a,4
+    a' a, cis
+    d2 d,4
+
+    d' e fis
+    e2 e,4
+    R2.*4
+    a'4\f a, cis
+    d d, d'
+    a8. h16 cis8. d16 e8. e,16
+    a2.
   }
 }
