@@ -1,6 +1,5 @@
 vc = \relative c {
   \voiceconsts
-  \clef "bass"
 
   d2 d4 a2 a4
   h2 g a
@@ -8,13 +7,13 @@ vc = \relative c {
   h2 g a
   d, d4 a'2 a4
   h2 g a
-  d, d4 a'2 a4
+  d,2 d4 a'2 a4
   h2 h4 a a2
   d, d4 a' a2
 
-  h2 g4 a a2
+  h g4 a a2
   d, d4 a' a2
-  h2 h4 a a2
+  h h4 a a2
   d, d'4 h h2
   c4 g2 d'4 d2
   g, g4 d'2 d4
@@ -26,7 +25,7 @@ vc = \relative c {
   e h c d d2
   g, g4 d'2 d4
   e h c d d2
-  g, g4 fis2 fis4
+  g,2 g4 fis2 fis4
   e2 e4 d d2
   g g4 fis2 fis4
   e2 e4 d d2
@@ -43,13 +42,13 @@ vc = \relative c {
   g, g4 d2 d4
   e2 fis4 g a2
   d, d'4 a2 a4
-  h fis g a a2 \andante
+  h fis g a a2 \bar "||" \time 4/4 \tempo 4=60
   d, r4 d'
   h fis g a
   h cis d e
   fis g d h
-
   c? a e' e,
+
   h' fis g d
   a'2 fis4 d
   a'2 a

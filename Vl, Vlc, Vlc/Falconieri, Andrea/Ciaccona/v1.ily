@@ -2,7 +2,7 @@ va = \relative c'' {
   \voiceconsts
   \clef "treble"
 
-  a4 fis8[ g a h] cis[ h cis d] cis4
+  a4 fis8 g a h cis h cis d cis4
   d2 d cis
   d2. r4 r2
   R1.
@@ -40,13 +40,13 @@ va = \relative c'' {
   g4 g8 a h4 e,2 a8 g
 
   fis4 g fis fis2 e4
-  e8 d e fis g a h c d c h a
+  e8 dis e fis g a h c d! c h a
   g2 h4 h a2
   g4 d8 c d e fis2 d'8 c
   h a h cis d4 d cis2
 
   d4 fis, fis e r a8 g
-  fis4 a h e,8 d e fis e4 \andante
+  fis4 a h e,8 d e fis e4 \bar "||" \time 4/4 \tempo 4=60
   d2 r4 fis
   fis16 e fis g a4 d,16 g fis g e a g a
   fis e fis g a8 g fis4 g8 fis16 g
