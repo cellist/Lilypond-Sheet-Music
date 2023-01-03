@@ -82,7 +82,7 @@ music = <<
     oddFooterMarkup = \markup {
       \fill-line {
         \on-the-fly #print-page-number-check-first
-        "Tielman Sousato - La Mourisque" \fromproperty #'page:page-number-string
+        "Tielman Susato - La Mourisque" \fromproperty #'page:page-number-string
       }
     }
     evenFooterMarkup = \oddFooterMarkup
