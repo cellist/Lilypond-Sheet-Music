@@ -217,4 +217,62 @@ vb = \relative c'' {
     d,4. g8 es4 d
     \partial 2. d2.
   }  
+  
+  \introk
+  \repeat volta 2 {
+    d4 d4. d8
+    d2 es4
+    d d e
+    a, d d
+    d f4. e8
+    d4. d8 f4
+    d f2
+    d2.
+  }
+  
+  \repeat volta 2 {
+    d4 c d
+    b4. d8 es?4
+    d c b
+    d2.
+    b4 d d
+    d4. d8 d4
+    es d d
+    d2 d4
+  }
+  
+  \introl
+  \repeat volta 2 {
+    g8 e fis d es c b b
+    g d' d d d8. c16 d4
+  }
+  
+  \repeat volta 2 {
+    f8 f f f g f f d
+
+    d g f f f8. f16 f4
+    f8 d g, a d d d d
+    d c d d d4 d
+  }
+  
+  \introm
+  \repeat volta 2 {
+    \partial 4 d
+    d2 d4 d2 d4
+    d2 c4 d2 d4
+    d2 f4 f2 f4
+    g2 f4 f2
+  }
+  
+  \repeat volta 2 {
+    d4 c2 c4 b2 d4
+    d2 c4 d2 d4
+    d2 a4 a2 d4
+    d2 cis4 d2 fis4
+
+    g2 a4 g2 fis4
+    h,2 a4 a2 fis4
+    g2 a4 g2 g4
+    \partial 4*5 g2 fis4 g2
+  }
 }

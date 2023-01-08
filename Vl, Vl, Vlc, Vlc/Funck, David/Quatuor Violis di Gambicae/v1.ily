@@ -217,4 +217,63 @@ va = \relative c'' {
     g a b4 a4. g8
     \partial 2. g2.
   }  
+  
+  \introk
+  \repeat volta 2 {
+    d'4 c4. d8
+    b4. a8 g4
+    a b c8 b
+    a2 g4
+    b a4. g8
+    f4. d'8 c4
+    b b4. a8
+    b2.
+  }
+  
+  \repeat volta 2 {
+    f4 f d
+    g4. b8 a4
+    g fis g
+    a2.
+    d,8 e fis4 g
+    a4. a8 b4
+    g fis g
+    a2 g4
+  }
+  
+  \introl
+  \repeat volta 2 {
+    b8 c d b b8. a16 b4
+    c8 d b fis g8. f16 f4
+  }
+  
+  \repeat volta 2 {
+    d'8 d c d es c d b
+
+    f' b, a d c8. b16 b4
+    c8 f, e fis g a b a
+    d g, fis b a8. g16 g4
+  }
+  
+  \introm
+  \repeat volta 2 {
+    \partial 4 g
+    b4. a8 g4 d'2 a4
+    g4. a8 g4 fis2 a4
+    b2 c4 d4. es8 d4
+    c2. b2
+  }
+  
+  \repeat volta 2 {
+    f4
+    es4. d8 es4 d2 d'4
+    g,4. a8 g4 fis2 a4
+    b2 cis,4 d4. e8 f!4
+    e2. d2 d'4
+
+    c4. b8 a4 b2 a4
+    g4. a8 g4 fis2 d4
+    e2 fis4 g4. a8 b4
+    \partial 4*5 a2. g2
+  }
 }

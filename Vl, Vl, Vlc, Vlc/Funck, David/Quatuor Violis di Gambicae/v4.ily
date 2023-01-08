@@ -216,4 +216,63 @@ vd = \relative c {
     g2 c!4 d
     \partial 2. g,2.
   }  
+  
+  \introk
+  \repeat volta 2 {
+    g4 g' fis
+    g2 c,4
+    c b a
+    d2 g,4
+    g a2
+    b f'?4
+    g f2
+    b,2.
+  }
+  
+  \repeat volta 2 {
+    b4 a b
+    es4. d8 c4
+    b a g
+    fis2.
+    g4 d' g
+    fis4. fis8 g4
+    c, d b8 g
+    d'2 g,4
+  }
+  
+  \introl
+  \repeat volta 2 {
+    g'8 a fis g c, f,! b d
+    f fis g d es4 d
+  }
+  
+  \repeat volta 2 {
+    b'8 b a b g a b b,
+
+    d es f? b, f4 b
+    a8 d c a g fis g d'
+    b es d g, d'4 g,
+  }
+  
+  \introm
+  \repeat volta 2 {
+    \partial 4 g'
+    g2 g4 f2 f4
+    es2 es4 d2 d4
+    g2 f4 d2 b4
+    es2 f4 b,2
+  }
+  
+  \repeat volta 2 {
+    b4
+    b2 a4 b2 b4
+    es2 es4 d2 fis,4
+    g2 a4 f!2 d4
+    g2 a4 d2 d4
+
+    e2 fis4 g2 d4
+    d2 cis4 d2 d4
+    c!2 c4 b4. a8 g4
+    \partial 4*5 d'2. g,2
+  }
 }

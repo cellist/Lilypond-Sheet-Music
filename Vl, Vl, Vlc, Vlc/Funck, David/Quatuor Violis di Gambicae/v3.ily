@@ -218,4 +218,65 @@ vc = \relative c' {
     b a g4 g4. fis8
     \partial 2. g2.
   }  
+  
+  \introk
+  \repeat volta 2 {
+    b4 a a
+    g2 g4
+    fis g g
+    g4. fis8 g4
+    g c4. c8
+    f,?4. f8 b4
+    b c2
+    b2.
+    
+  }
+  
+  \repeat volta 2 {
+    b4 c b
+    b4. b8 c4
+    g a b
+    a2.
+    g4 a b
+    a4. a8 g4~
+    g8 c a4 g
+    a2 h4
+  }
+  
+  \introl
+  \repeat volta 2 {
+    d8 c a g g f f f
+    a a g a
+    g4 a
+  }
+  
+  \repeat volta 2 {
+    b8 b c b b c b b
+
+    b8. es16 c8 b c4 d
+    c8 b c c b a g fis
+    f! g a g a4 h
+  }
+  
+  \introm
+  \repeat volta 2 {
+    \partial 4 b!
+    g2 b4 a2 f4
+    g2 c4 a2 f4
+    g2 a4 b2 b4
+    b2 a4 b2
+  }
+  
+  \repeat volta 2 {
+    f4
+    f2 f4 f2 f4
+    g2 g4 a2 a4
+    g2 e4 f2 a4
+    b2 a4 a2 a4
+
+    e'4. g,8 d'4 d2 d4
+    e2 e4 d2 a4
+    c2 c4 d2 d4
+    \partial 4*5 d2. h2
+  }
 }

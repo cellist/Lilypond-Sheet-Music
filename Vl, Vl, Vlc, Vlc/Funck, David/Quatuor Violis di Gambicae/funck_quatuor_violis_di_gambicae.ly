@@ -33,6 +33,9 @@ introg = { \break \tempo  "7. Sarabande " 4=90  \time 3/4 }
 introh = { \break \tempo  "8. Lamento "   2=40  \time 2/2 }
 introi = { \break \tempo  "9. Sarabande " 4=90  \time 3/4 }
 introj = { \break \tempo "10. Air "       2=55  \time 2/2 }
+introk = { \break \tempo "11. Sarabande " 4=90  \time 3/4 }
+introl = { \break \tempo "12. Gavotte "   2=50  \time 2/2 }
+introm = { \break \tempo "13. Sarabande " 2=40  \time 3/2 }
 
 mist = "string ensemble 1"
 mivl = "violin"
