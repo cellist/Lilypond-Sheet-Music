@@ -39,7 +39,7 @@ va = \relative c {
   es(-4 d cis d) d(-4 c h c) c( a fis) e! d a h c
 
   d,( a' d) fis a h c a h( g d) c h g a h
-  d,( g h) d g-1 a h g cis(-4 h a b) b(-3 a gis-| a)
+  d,( g h) d g-1 a h g cis(-4 h a b) b(-3 a gis-! a)
 
   a(-4 g? fis g) g(-4 e cis h?) a( cis e) g a cis d cis
   d( a fis) e fis-1 a d, fis-3 a, d cis h a g fis e
@@ -159,7 +159,7 @@ va = \relative c {
     e8-. c-. c,-. c'16\upbow d\downbow e( fis? g e)
 
     cis(-3 g' a g a g) cis, g' cis,( g' a g)
-    c,?(-3 fis-2 a-0 fis a fis) c fis c( f a f)
+    c,?(-3 fis-2 a-0 fis a fis) c fis c( fis a fis)
     h,-1 d(-0 e f) g, f'( e d) e d'( c h)
     fis? a( h c) d, c'( h a) h8-. g,-.
 
@@ -182,7 +182,7 @@ va = \relative c {
     << { s4 fis\trill e8( d) } \\ { fis?16 c'( h g) <d, a'>4 s } >>
 
     a''16(-4 fis d-4 c) h8. g16-0 h(-1 d-4 g-1 a)
-    h(-4 g e-4 d) cis8.(\trill a32-1( h cis16 d e fis)
+    h(-4 g e-4 d) cis8.\trill a32(-1 h cis16 d e fis)
     g(-2 cis d cis) d a( g fis)-2 e( g) fis( d)
 
     a( d)-2 e( cis) d4 d,
