@@ -5,7 +5,6 @@
 
 \header {
   title     = \markup \bold \italic "Andante in F-Dur"
-  subtitle  = "(für Streichquartett nach c-moll transponiert)"
   composer  = "Peter Piel"
   arranger  = "(1835-1904)"
   enteredby = "cellist (2023-03-04)"
