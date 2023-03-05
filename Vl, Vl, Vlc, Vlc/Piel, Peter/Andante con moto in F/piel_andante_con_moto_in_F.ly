@@ -1,19 +1,19 @@
 \version "2.22.0"
 \include "deutsch.ly"
   
-#(set-global-staff-size 20)
+#(set-global-staff-size 18)
 
 \header {
-  title     = \markup \bold \italic "Largo in F-Dur"
+  title     = \markup \bold \italic "Andante con moto in F-Dur"
   composer  = "Peter Piel"
   arranger  = "(1835-1904)"
   enteredby = "cellist (2023-03-04)"
-  piece     = "op. 85, Nr. 34 (1898)"
+  piece     = "op. 85, Nr. 36 (1898)"
 }
 
 voiceconsts = {
   \key f \major
-  \time 4/4
+  \time 6/4
   \clef "treble"
 %  \numericTimeSignature
   \compressEmptyMeasures
@@ -21,7 +21,7 @@ voiceconsts = {
 %  \set Timing.beamExceptions = #'()
 %  \set Timing.baseMoment     = #(ly:make-moment 1 4)
 %  \set Timing.beatStructure  = #'(1 1 1)
-  \tempo "Largo " 4=40
+  \tempo "Andante con moto " 4=80
 }
 
 mifl = "flute"
@@ -73,7 +73,7 @@ music = \new StaffGroup <<
     oddFooterMarkup = \markup {
       \fill-line {
         \on-the-fly #print-page-number-check-first
-        "Peter Piel - Largo in F-Dur" \fromproperty #'page:page-number-string
+        "Peter Piel - Andante con moto in F-Dur" \fromproperty #'page:page-number-string
       }
     }
     evenFooterMarkup = \oddFooterMarkup
