@@ -13,7 +13,7 @@ va = \relative c'' {
   g2 a4 h
   a4. g8 g4 g
   e g a a
-  h h c2
+  h h c2~
   c h4 a
   g2 fis4. g8
   g1

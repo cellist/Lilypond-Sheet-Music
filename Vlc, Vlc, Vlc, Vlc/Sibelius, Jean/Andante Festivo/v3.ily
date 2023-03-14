@@ -12,7 +12,7 @@ vc = \relative c' {
   h2 d4 d
   d4. h8 h4 h
   g g c d
-  d e e2
+  d e e2~
   e d4 c
   h2 h
   h1

@@ -13,7 +13,7 @@ vb = \relative c' {
   d?2 g4 g
   fis4. e8 e4 e
   c4 d e fis
-  fis g g2
+  fis g g2~
   g g4 fis
   e2 dis4. e8
   e1
@@ -21,16 +21,16 @@ vb = \relative c' {
   fis
   d?2\f d4 d
   d2 d
-  d\mp d4 d
-  d2 d4 c
-  d2 c4. h8
+  h\mp h4 h
+  h2 h4 a
+  h2 a4. g8
   g2 fis
 
   d'\f d4 d
   d2 d
-  d\mp d4 d
-  d2 d4 c
-  d2 c4. h8
+  h\mp h4 h
+  h2 h4 a
+  h2 a4. g8
   g2 fis
   d\f d
 
@@ -76,10 +76,10 @@ vb = \relative c' {
   h4 h h d!
   d2 d4 d
   d2 d
-  d\mp d4 d
+  h\mp h4 h
 
-  d2 d4 c
-  d2 c4. h8
+  h2 h4 a
+  h2 a4. g8
   h2\mf e4 g
   a2 gis4 e
   d2 c4. h8

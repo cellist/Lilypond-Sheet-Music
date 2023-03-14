@@ -12,7 +12,7 @@ vd = \relative c' {
   g
   d4. e8 e4 e
   c h a d
-  h e c2
+  h e c2~
   c g4 a
   h2 h4. e8
   e1
@@ -31,10 +31,10 @@ vd = \relative c' {
   fis4. f8 f4 e
   d2 dis4. e8
   e2 d!
-  g4\f g2 g4
+  g4\f g2 g4~
 
   \repeat unfold 6 {
-    g g2 g4
+    g g2 g4~
   }
   g d g a
   h c d c
@@ -55,9 +55,9 @@ vd = \relative c' {
   fis4. f8 f4 e
   d2 dis4. e8
   e2 d!
-  g4\f g2 g4
+  g4\f g2 g4~
   \repeat unfold 6 {
-    g g2 g4
+    g g2 g4~
   }
   g d g a
   h c d c
