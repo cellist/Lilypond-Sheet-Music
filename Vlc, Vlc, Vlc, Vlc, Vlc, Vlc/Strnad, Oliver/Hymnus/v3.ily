@@ -6,17 +6,17 @@ vc = \relative c {
   r4 b8\upbow r r4 a8\< g
   f2 f4.( b8)
 
-  b2\!\f r \clef "tenor"
+  b2\!\f r
   d4 f8.( b,16) b4( a8) b
-  c d es f es4( d) \clef "bass"
+  c d es f es4( d)
   r2 r4 g,
   f1
 
   es2. es8 as
-  g2.\cresc g8 b\cresc \clef "tenor"
+  g2.\cresc g8 b\cresc
   a?2~ a8 a cis e?
   g\f r g4~\downbow g8 e d cis \time 2/4
-  h?4( cis8) r \time 4/4 \clef "bass"
+  h?4( cis8) r \time 4/4
 
   h4 d8.( g,16) g4( fis8) r
   h( d) d( g,)\< g4( gis8) r
@@ -24,26 +24,26 @@ vc = \relative c {
   cis1~
   cis2 r
 
-  e, r8 eis4 eis8
+  e, r8 f4 f8
   fis2 r
   fis r8 f4 f8
-  e?2 r8 c? d es
+  e2 r8 c? d es
   f fis2 a8->\f a-> h->
-  a2~ a8 a d fis \clef "tenor"
+  a2~ a8 a d fis
 
   d\f r d4~ d8 d a fis
-  h r \tuplet 3/2 4 { h h h } d h d e
-  g r g4~ g8 e d cis \clef "bass"
+  h r \tuplet 3/2 4 { h h h } \clef "tenor" d h d e
+  g r g4~ g8 e d cis
   d4(\f a2~ a8) r
   a2~ a4. r8
 
   r4 d8\upbow r r4 cis8\< h
   a2 a4.( d8)
-  d2\!\f r \clef "tenor"
+  d2\!\f r
   fis4 a8.( d,16) d4( cis8) d
-  e fis g a g4( fis) \clef "bass"
+  e fis g a g4( fis)
 
-  r2 r4 h,
+  r2 r4 \clef "bass" h,
   a1
   g2. g8 c?
   h2. h4

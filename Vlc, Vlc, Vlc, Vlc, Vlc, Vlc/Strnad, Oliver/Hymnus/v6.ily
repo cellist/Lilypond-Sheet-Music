@@ -23,8 +23,8 @@ vf = \relative c {
   g,2( a4.) r8
   h?2( c?4.) r8
   cis2\f\> r8 cis4 cis8\!
-  fis,2 r8 eis4 eis8
-  e!2. e'4
+  fis,2 r8 f4 f8
+  e2. e'4
 
   a,2 gis
   fis1~

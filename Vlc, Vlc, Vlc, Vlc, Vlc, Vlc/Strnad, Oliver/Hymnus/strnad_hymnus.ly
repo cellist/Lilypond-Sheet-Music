@@ -1,7 +1,7 @@
 \version "2.22.0"
 \include "deutsch.ly"
   
-#(set-global-staff-size 18)
+#(set-global-staff-size 18.5)
 
 \header {
   title     = \markup \bold \italic "Hymnus für 6 Celli"
