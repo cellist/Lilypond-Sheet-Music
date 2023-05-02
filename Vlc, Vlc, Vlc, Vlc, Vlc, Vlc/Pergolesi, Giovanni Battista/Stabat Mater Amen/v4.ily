@@ -66,9 +66,9 @@ vd = \relative c'' {
   g f
 
   g g
-  f f'-|
-  r e-|
-  r f-|
-  r c-|
+  f f'-!
+  r e-!
+  r f-!
+  r c-!
   c r\fermata \bar "|."
 }

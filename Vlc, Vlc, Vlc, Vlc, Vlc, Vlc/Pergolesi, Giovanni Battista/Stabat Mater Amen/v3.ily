@@ -23,9 +23,9 @@ vc = \relative c'' {
   f e
   f as~
   as g4 f
-  e as-| f-| as-|
+  e as-! f-! as-!
 
-  des,?4-| f-| h,-| d-|
+  des,?4-! f-! h,-! d-!
   c2. f4
   e d c h
   c2. f4
@@ -58,10 +58,10 @@ vc = \relative c'' {
   as2 f'4 as,
 
   g1
-  f4 as'-| g-| as-|
-  f-| as-| c, es
-  des b'-| as-| b-|
-  g-| b-| d, f
+  f4 as'-! g-! as-!
+  f-! as-! c, es
+  des b'-! as-! b-!
+  g-! b-! d, f
   e c f as,
   g f' g, e'
 
@@ -72,9 +72,9 @@ vc = \relative c'' {
   e c f as,
 
   g f' g, e'
-  f2 as-|
-  r g-|
-  r as-|
-  r e-|
+  f2 as-!
+  r g-!
+  r as-!
+  r e-!
   f r\fermata \bar "|."
 }

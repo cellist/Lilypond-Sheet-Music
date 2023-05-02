@@ -66,9 +66,9 @@ ve = \relative c'' {
   c) as
 
   des c
-  f c'-|
-  c, c'-|
-  f c-|
-  c, g'-|
+  f c'-!
+  c, c'-!
+  f c-!
+  c, g'-!
   as r\fermata \bar "|."
 }

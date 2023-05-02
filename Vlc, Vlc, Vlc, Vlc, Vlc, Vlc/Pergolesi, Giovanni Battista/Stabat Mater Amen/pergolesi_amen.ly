@@ -1,29 +1,26 @@
-\version "2.14.2"
+\version "2.22.0"
 \include "deutsch.ly"
 
 #(set-global-staff-size 18)
 
 \header {
-  title = "Amen"
-  subtitle = "aus dem \"Stabat Mater\" in f-moll (1736)"
-  composer = "Giovanni Battista Pergolesi (1710-1736)"
-  arranger = "arr.: Fiona Murray"
+  title     = \markup \bold \italic "Amen"
+  composer  = "Giovanni Battista Pergolesi (1710-1736)"
+  arranger  = "arr.: Fiona Murray"
   enteredby = "cellist (2012-09-04)"
+  piece     = "aus dem \"Stabat Mater\" in f-moll (1736)"
 }
 
 voiceconsts = {
  \key f \minor
  \time 4/4
  \clef "bass"
-% \numericTimeSignature
- \compressFullBarRests
+%  \numericTimeSignature
+ \compressEmptyMeasures
  \tempo "Presto " 4=160
 }
 
-%minstr = "harpsichord"
-mihi = "clarinet"
-%minstr = "accordion"
-milo = "bassoon"
+miba = "cello"
 
 moral = \markup \italic "molto rall."
 
@@ -36,44 +33,57 @@ moral = \markup \italic "molto rall."
 
 music = \new StaffGroup <<
       \new Staff {
-	\set Staff.midiInstrument = \milo
-	\set Staff.instrumentName = #"Cello I"
+	\set Staff.midiInstrument = \miba
+	\set Staff.instrumentName = \markup \center-column { "Violon-" "cello I" }
 	\transpose f c, { \va }
       }
 
       \new Staff {
-	\set Staff.midiInstrument = \milo
-	\set Staff.instrumentName = #"Cello II"
+	\set Staff.midiInstrument = \miba
+	\set Staff.instrumentName = \markup \center-column { "Violon-" "cello II" }
 	\transpose f c, { \vb }
       }
 
       \new Staff {
-	\set Staff.midiInstrument = \milo
-	\set Staff.instrumentName = #"Cello III"
+	\set Staff.midiInstrument = \miba
+	\set Staff.instrumentName = \markup \center-column { "Violon-" "cello III" }
 	\transpose f c, { \vc }
       }
 
       \new Staff {
-	\set Staff.midiInstrument = \milo
-	\set Staff.instrumentName = #"Cello IV"
+	\set Staff.midiInstrument = \miba
+	\set Staff.instrumentName = \markup \center-column { "Violon-" "cello IV" }
 	\transpose f c, { \vd }
       }
 
       \new Staff {
-	\set Staff.midiInstrument = \milo
-	\set Staff.instrumentName = #"Cello V"
+	\set Staff.midiInstrument = \miba
+	\set Staff.instrumentName = \markup \center-column { "Violon-" "cello V" }
 	\transpose f c, { \ve }
       }
 
       \new Staff {
-	\set Staff.midiInstrument = \milo
-	\set Staff.instrumentName = #"Cello VI"
+	\set Staff.midiInstrument = \miba
+	\set Staff.instrumentName = \markup \center-column { "Violon-" "cello VI" }
 	\transpose f c, { \vf }
       }
 >>
 
 \book {
-  \score {
+   \paper {
+    print-page-number = ##t
+    print-first-page-number = ##t
+    ragged-last-bottom = ##f
+    oddHeaderMarkup = \markup \null
+    evenHeaderMarkup = \markup \null
+    oddFooterMarkup = \markup {
+      \fill-line {
+        \on-the-fly #print-page-number-check-first
+        "Giovanni Battista Pergolesi - \"Amen\" (Stabat Mater)" \fromproperty #'page:page-number-string
+      }
+    }
+    evenFooterMarkup = \oddFooterMarkup
+  } \score {
     \music
     \layout {}
   }

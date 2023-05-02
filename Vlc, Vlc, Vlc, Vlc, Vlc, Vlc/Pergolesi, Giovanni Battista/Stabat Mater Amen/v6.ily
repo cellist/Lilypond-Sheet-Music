@@ -62,9 +62,9 @@ vf = \relative c'' {
   c) as
 
   b c
-  f, as'-|
-  c,, g''-|
-  f as-|
+  f, as'-!
+  c,, g''-!
+  f as-!
   c,, r
   f r\fermata \bar "|."
 }
