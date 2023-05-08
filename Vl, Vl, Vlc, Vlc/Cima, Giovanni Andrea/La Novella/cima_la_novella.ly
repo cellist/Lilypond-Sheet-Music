@@ -6,9 +6,9 @@
 \header {
   title     = \markup \bold \italic "La Novella"
   composer  = "Giovanni Andrea Cima"
-  arranger  = "(ca. 1606-1627)"
+  arranger  = "(ca. 1580-1627)"
   enteredby = "cellist (2023-05-05)"
-  piece     = "Canzon XVI"
+  piece     = "Canzon XVI (1606)"
 }
 
 voiceconsts = {
