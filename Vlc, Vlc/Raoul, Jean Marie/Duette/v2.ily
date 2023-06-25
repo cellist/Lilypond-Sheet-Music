@@ -76,4 +76,74 @@ vb = \relative c {
   a2 fis
   g4 c, d d'
   g,2 r \bar "|."
+
+  \introd
+  e'4 r e r
+  h' a g fis
+  e d cis c
+  h4. a'8 g fis e dis
+  e4 r e r
+  fis h d? d,
+
+  e e fis fis,
+  h8 d fis h h,4 r
+  r a' fis d
+  g h, d g
+  r fis dis h
+  e2 r
+  fis4 a g e
+  dis fis e r
+
+  r8 a g fis e4 c
+  h8 cis dis e fis a g fis
+  e4 h g' e
+  dis fis h8 c? h a
+  g4 a h h,
+  e h e, r \bar "|."
+
+  \introe
+  d'1~
+  d2 cis
+  d c
+  h a
+
+  d8 cis? d a fis' e fis d
+  e d e a, g' fis g e
+  fis e fis d a' g a fis
+  g fis g d cis h a g
+  cis2 e
+
+  fis a4 d
+  a,2 g'
+  fis d
+  g4-! fis-! e-! d-!
+  h-! a-! g-! gis
+
+  a2 a4 a
+  a2. r4
+  fis'1
+  g?2 a
+  g r
+  r8 g, h d g h d g
+
+  gis,1
+  a2 h
+  a r
+  r8 a, cis e a cis e a,
+  a,4 cis e g?
+
+  fis4. a8 g fis e d
+  a4 cis e g
+  fis4. a8 g fis e d
+  cis2 a
+  d r
+  g4 g a a,
+
+  d8 cis d a fis' d a' fis
+  d'4 r r2
+  d,8 cis d a fis' d a' fis
+  d4 r r2
+  r4 d a fis
+  d2 d
+  d2. r4 \bar "|."
 }

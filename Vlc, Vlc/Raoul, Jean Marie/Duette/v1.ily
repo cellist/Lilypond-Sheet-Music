@@ -76,4 +76,74 @@ va = \relative c {
   d4 cis-1 a'8-4 fis-1 d-4 c-2
   h-4 h c a \afterGrace a2(\trill { g16[ a]) }
   g2 r \bar "|."
+
+  \introd
+  e4\downbow h'\upbow g e'
+  dis fis h,2
+  e4 fis g a
+  h4. c8 h a g fis
+  e4\upbow h\downbow g' e
+  d? fis h2
+
+  cis4 d8 cis h4 ais
+  h2 r
+  c?4 c c d8 c
+  h4 h h2
+  a?4 a a h8 a
+  g4 g g h
+  dis, fis e h'
+  fis a g8 a g fis
+
+  \appoggiatura fis e dis e fis \appoggiatura a g fis g a
+  h2 r
+  r r4 e~\downbow
+  e dis\upbow fis2\downbow
+  e8 g, fis c' c( h) dis,-! fis-!
+  e2. r4 \bar "|."
+
+  \introe
+  d8\downbow cis\upbow d a fis' e fis d
+  e d e a, g' fis g e
+  fis e fis d a' g a fis
+  g fis e fis g a h cis
+  
+  d1~\downbow
+  d2 cis\upbow
+  c1\downbow
+  h\upbow
+  a8\downbow a, cis? e a cis e cis
+
+  d cis d a g fis e d
+  cis a cis e a cis e cis
+  d cis d a g fis e d\upbow
+  h'\upbow d\downbow a d g, d' fis, d'
+  g, d' fis, d' e, d' d, d'
+  
+  cis a gis a e a cis, e
+  a,2. r4
+  d8\upbow d' cis d cis d cis d
+  e,\upbow d' cis d fis,\upbow c' h c\downbow
+  h\downbow g fis g d g h, d
+  g,2 r
+
+  e'8 e' dis e dis e dis e
+  fis, e' dis e gis, d' cis d
+  cis a gis a e a cis, e
+  a,2. r4
+  g''?4. e8 d( cis h a)
+
+  d4.( a8) a4 r
+  g'4. e8 d( cis h a)
+  d2( a4) r
+  g'4. e8 d cis a' g
+  fis4 d8( cis) h a g fis
+  e4 h'( a) cis,
+
+  d r r2
+  d8\downbow cis d a fis' d a' fis
+  d4 r r2
+  r4 d'\upbow a\downbow fis
+  d2 d
+  d d
+  d2. r4 \bar "|."
 }

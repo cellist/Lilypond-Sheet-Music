@@ -31,11 +31,13 @@ mipz = "pizzicato strings"
 dcaf = \mark \markup \box \italic "D.C. al Fine"
 fine = \mark \markup \box \italic "Fine"
 
-introa = {        \tempo "1. Moderato (Nr. 10) "  2=50 }
-introb = { \break \tempo "2. Andante (Nr. 11) "   4=90
+introa = {        \tempo "1. Moderato (Nr. 10) "     2=50 }
+introb = { \break \tempo "2. Andante (Nr. 11) "      4=90
 	   \time 3/4 \key a \minor }
-introc = { \break \tempo "3. Sostenuto (Nr. 12) " 4=70
+introc = { \break \tempo "3. Sostenuto (Nr. 12) "    4=110
 	   \time 4/4 \key g \major }
+introd = { \break \tempo "4. Andantino (Nr. 13) "    4=100 \key e \minor }
+introe = { \break \tempo "5. Poco Allegro (Nr. 14) " 4=120 \key d \major }
 
 \include "v1.ily"
 \include "v2.ily"
