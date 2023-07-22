@@ -34,6 +34,4 @@ va = \relative c, {
     e8[ c f,-2 d'] g,[ c16( h)]
     c4 <c, g' e' c'>2
   }
-  
-  \bar ":|"
 }

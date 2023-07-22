@@ -1,7 +1,7 @@
-\version "2.12.1"
+\version "2.24.1"
 \include "deutsch.ly"
 
-#(set-global-staff-size 22)
+#(set-global-staff-size 20)
 
 \header {
   title = "Sarabande"
@@ -17,29 +17,51 @@ voiceconsts = {
 % \clef "treble"
  \clef "bass"
  %\numericTimeSignature
- \compressFullBarRests
+ \compressEmptyMeasures
  \time 3/4
- \tempo "Sarabande"
+ \tempo "Sarabande " 4=60
 }
+
+mist = "string ensemble 1"
+mivl = "violin"
+miba = "cello"
+mipz = "pizzicato strings"
 
 \include "v1.ily"
 
+music = \new StaffGroup <<
+      \new Staff {
+	\set Staff.midiInstrument = \miba
+	\set Staff.instrumentName = \markup \center-column { "Violon-" "cello" }
+	\transpose c c { \va }
+      }
+>>
+
 \book {
-  \score {
-
-    <<
-      \new Staff <<
-	\set Staff.instrumentName = "Vc "
-	\va
-      >>
-    >>
-
+   \paper {
+    print-page-number = ##t
+    print-first-page-number = ##t
+    ragged-last-bottom = ##f
+    oddHeaderMarkup = \markup \null
+    evenHeaderMarkup = \markup \null
+    oddFooterMarkup = \markup {
+      \fill-line {
+        \if \should-print-page-number
+        "Johann Sebastian Bach - Sarabande BWV 1009" \fromproperty #'page:page-number-string
+      }
+    }
+    evenFooterMarkup = \oddFooterMarkup
+  } \score {
+    \music
     \layout {}
+  }
+
+  \score {
+    \unfoldRepeats \music
 
     \midi {
       \context {
-	\Score
-	tempoWholesPerMinute = #(ly:make-moment 60 4)
+        \Score
       }
     }
   }
