@@ -1,10 +1,10 @@
 \version "2.24.1"
 \include "deutsch.ly"
 
-#(set-global-staff-size 20)
+#(set-global-staff-size 21)
 
 \header {
-  title     = \markup \bold \italic "Grave in G-Dur"
+  title     = \markup \bold \italic "Maestoso und Grave in G-Dur"
   composer  = "Konstanty Paschalski"
   arranger  = "(1862-1921)"
   enteredby = "cellist (2023-08-25)"
@@ -21,13 +21,15 @@ voiceconsts = {
 %  \set Timing.beamExceptions = #'()
 %  \set Timing.baseMoment     = #(ly:make-moment 1 4)
 %  \set Timing.beatStructure  = #'(1 1 1)
-  \tempo "Grave. Con grandezza " 4=30
 }
 
 mist = "string ensemble 1"
 mivl = "violin"
 miba = "cello"
 mipz = "pizzicato strings"
+
+introa = {        \tempo "1. Maestoso " 4=60 }
+introb = { \break \tempo "2. Grave. Con grandezza " 4=30 }
 
 arco = \markup \italic "arco"
 atem = \mark \markup \box \italic "a tempo"
@@ -55,7 +57,7 @@ music = \new StaffGroup <<
     oddFooterMarkup = \markup {
       \fill-line {
         \if \should-print-page-number
-        "Konstanty Paschalski - Grave in G-Dur" \fromproperty #'page:page-number-string
+        "Konstanty Paschalski - Maestoso und Grave in G-Dur" \fromproperty #'page:page-number-string
       }
     }
     evenFooterMarkup = \oddFooterMarkup
