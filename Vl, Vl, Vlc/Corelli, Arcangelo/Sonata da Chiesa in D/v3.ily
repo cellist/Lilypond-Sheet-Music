@@ -14,7 +14,7 @@ vc = \relative c' {
   e2 e8 fis gis e
   a h cis a d? d, fis d
   g? a h g a4 r8 h
-  g e r a fis e r g
+  g e r a fis d r g
   e cis fis fis, h4 r8 fis'
 
   g e fis a, d e fis d
