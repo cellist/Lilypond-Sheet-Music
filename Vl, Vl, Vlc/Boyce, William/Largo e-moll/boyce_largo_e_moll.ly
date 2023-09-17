@@ -4,8 +4,7 @@
 #(set-global-staff-size 18)
 
 \header {
-  title     = \markup \italic "Largo in E-Dur"
-  subtitle  = "(transponiert nach G-Dur)"
+  title     = \markup \italic "Largo e-moll"
   composer  = "William Boyce (1711-1779)"
   arranger  = "arr.: Felix Scharpf"
   enteredby = "cellist (2023-09-16)"
@@ -13,7 +12,7 @@
 }
 
 voiceconsts = {
- \key e \major
+ \key cis \minor
  \time 3/2
  \clef "treble"
 % \numericTimeSignature
@@ -45,19 +44,19 @@ music = \new StaffGroup <<
       \new Staff {
         \set Staff.midiInstrument = \mivl
         \set Staff.instrumentName = \markup \center-column { "Violine" " I" }
-        \transpose e g { \va }
+        \transpose cis e { \va }
       }
       
       \new Staff {
         \set Staff.midiInstrument = \mivl
         \set Staff.instrumentName = \markup \center-column { "Violine" "II" }
-        \transpose e g { \vb }
+        \transpose cis e { \vb }
       }
       
       \new Staff {
         \set Staff.midiInstrument = \miba
         \set Staff.instrumentName = \markup \center-column { "Violon-" "cello" }
-        \transpose e g { \vc }
+        \transpose cis e { \vc }
       }
 >>
 
@@ -71,7 +70,7 @@ music = \new StaffGroup <<
     oddFooterMarkup = \markup {
       \fill-line {
 %        \on-the-fly #print-page-number-check-first
-        "William Boyce - Largo in E-Dur" \fromproperty #'page:page-number-string
+        "William Boyce - Largo e-moll" \fromproperty #'page:page-number-string
       }
     }
     evenFooterMarkup = \oddFooterMarkup
