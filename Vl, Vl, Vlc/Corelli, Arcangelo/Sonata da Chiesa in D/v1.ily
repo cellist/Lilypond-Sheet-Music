@@ -9,7 +9,7 @@ va = \relative c'' {
   a'1
   h2 cis
   h a
-  g e4. d8
+  gis e4. d8
   cis d e2 d8 cis
 
   h cis d h cis a d4
@@ -17,7 +17,7 @@ va = \relative c'' {
   h ais h8 cis d4
   d cis fis2
   fis4 e8 d cis a a'4~
-  a8 d, g2 fis4
+  a8 d, g?2 fis4
   h,8 cis d2 cis4
 
   d4. c8 h4. e8
