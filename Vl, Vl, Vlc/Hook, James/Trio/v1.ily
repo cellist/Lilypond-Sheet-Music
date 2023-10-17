@@ -69,7 +69,7 @@ va = \relative c {
     c c c c
 
     c c' h a
-    g e g f
+    g e a g
     g( f) e4
     d8 d h( c)
     f f f( e)
