@@ -1,13 +1,13 @@
 \version "2.24.1"
 \include "deutsch.ly"
 
-#(set-global-staff-size 21)
+#(set-global-staff-size 19)
 
 \header {
-  title     = \markup \bold \italic "Sarabande"
-  composer  = "Johann Georg Leopold Mozart (1719-1787)"
-  arranger  = "arr.: Steve Heim"
-  enteredby = "cellist (2023-08-30)"
+  title     = \markup \bold \italic "Menuett C-Dur"
+  composer  = "Johann Georg Leopold Mozart"
+  arranger  = "(1719-1787)"
+  enteredby = "cellist (2023-10-22)"
   piece     = "\"Trios pour flutes\""
 }
 
@@ -21,7 +21,7 @@ voiceconsts = {
   \set Timing.beamExceptions = #'()
   \set Timing.baseMoment     = #(ly:make-moment 1 4)
   \set Timing.beatStructure  = #'(1 1 1)
- \tempo "Lento " 4=80
+ \tempo "Allegretto " 4=110
 }
 
 mivl = "violin"
@@ -61,7 +61,7 @@ music = \new StaffGroup <<
     oddFooterMarkup = \markup {
       \fill-line {
         \if \should-print-page-number
-        "Leopold Mozart - Sarabande" \fromproperty #'page:page-number-string
+        "Leopold Mozart - Menuett C-Dur" \fromproperty #'page:page-number-string
       }
     }
     evenFooterMarkup = \oddFooterMarkup
