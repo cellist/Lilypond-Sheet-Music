@@ -1,6 +1,6 @@
 vc = \relative c' {
   \voiceconsts
-  \clef "treble_8"
+  \clef "bass"
 
   R1.*2
   des1\pp b2

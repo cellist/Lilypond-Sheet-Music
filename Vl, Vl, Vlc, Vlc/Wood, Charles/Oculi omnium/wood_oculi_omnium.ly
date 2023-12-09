@@ -1,7 +1,7 @@
 \version "2.24.1"
 \include "deutsch.ly"
 
-#(set-global-staff-size 19)
+#(set-global-staff-size 18)
 
 \header {
   title     = \markup \bold \italic "Oculi omnium in te sperant, domine"

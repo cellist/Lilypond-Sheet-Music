@@ -2,7 +2,7 @@ vb = \relative c'' {
   \voiceconsts
 
   R1.
-  as1\p f2
+  as1\pp f2
   des1.
   es2. es4 es2~
   es es( c)
