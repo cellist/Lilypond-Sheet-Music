@@ -1,13 +1,13 @@
-\version "2.20.2"
+\version "2.24.1"
 \include "deutsch.ly"
 
-#(set-global-staff-size 20)
+#(set-global-staff-size 21)
 
 \header {
   title     = \markup \bold \italic "\"Die beste Zeit im Jahr ist mein\""
-  composer  = "Arnold Mendelssohn"
-  arranger  = "(1855-1933)"
-  enteredby = "cellist (2022-08-21)"
+  composer  = "Arnold Mendelssohn (1855-1933)"
+  arranger  = "arr.: André Van Ryckeghem"
+  enteredby = "cellist (2023-12-21)"
   piece     = "Martin Luther (1483-1546)"
 }
 
@@ -15,24 +15,22 @@ voiceconsts = {
   \key a \major
   \time 6/8
   \clef "treble"
-  \numericTimeSignature
+%  \numericTimeSignature
   \compressEmptyMeasures
   % Set default beaming for all staves
 %  \set Timing.beamExceptions = #'()
 %  \set Timing.baseMoment     = #(ly:make-moment 1 4)
 %  \set Timing.beatStructure  = #'(1 1 1)
-  \tempo "Sanft " 4=70
+  \tempo "Sanft " 4.=50
 }
 
-micl = "clarinet"
-mifl = "flute"
-miob = "oboe"
-mifh = "french horn"
-misx = "tenor sax"
 mist = "string ensemble 1"
 mivl = "violin"
 miba = "cello"
 mipz = "pizzicato strings"
+
+dsaf = \mark \markup \box \italic "Dal Segno al Fine"
+fine = \mark \markup \box \italic "Fine"
 
 \include "v1.ily"
 \include "v2.ily"
@@ -63,11 +61,10 @@ music = \new StaffGroup <<
 	\set Staff.instrumentName = \markup \center-column { "Violon-" "cello II" }
 	\transpose a a { \vd }
       }
-    >>
-
+>>
 
 \book {
-   \paper {
+  \paper {
     print-page-number = ##t
     print-first-page-number = ##t
     ragged-last-bottom = ##f
@@ -75,7 +72,7 @@ music = \new StaffGroup <<
     evenHeaderMarkup = \markup \null
     oddFooterMarkup = \markup {
       \fill-line {
-        \on-the-fly #print-page-number-check-first
+        \if \should-print-page-number
         "Arnold Mendelssohn - \"Die beste Zeit im Jahr ist mein\"" \fromproperty #'page:page-number-string
       }
     }
