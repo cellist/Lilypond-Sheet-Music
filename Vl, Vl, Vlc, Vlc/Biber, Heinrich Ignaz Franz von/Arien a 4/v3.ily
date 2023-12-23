@@ -1,6 +1,5 @@
 vc = \relative c' {
   \voiceconsts
-%  \clef "alto"
   \clef "tenor"
   
   \introa
@@ -91,4 +90,53 @@ vc = \relative c' {
     a2 gis4
     a2.
   }
+
+  \introd
+  \repeat volta 2 {
+    R1*2
+    a8\mf cis e h cis a cis d
+    e4 d2 cis4
+    dis e2 dis4
+    e h2 cis4
+    a h cis r
+
+    e cis e2
+    r8 cis e a, gis4 fis
+    e2 e'
+  }
+  \repeat volta 2 {
+    R1
+    r2 e8 h e8. e16
+    cis4 a8 cis d?4 r8 d
+
+    h4 r8 h cis cis e8. fis16
+    h,8 h h4 h r8 e
+    cis a d4 e2
+    R1
+    e8 h e8. e16 cis4 a8 cis
+
+    d4 r8 d h a e'4
+    cis4. a8 d4 r8 d
+    e h e8. e16 cis4 a8 cis
+    d4 r8 d h a e'4
+    cis4. cis8 cis2
+  }
+
+  \introe
+  cis\mf h4 e
+  d4. h8 e,2
+  e'4 gis h gis
+  e dis h fis'
+  dis h h2
+  h r4 cis8( e)
+  a,4 gis e' fis
+
+  h, cis d?8 h e4
+  e r r2
+  fis8( a) d,4 r gis,~
+
+  gis a8( cis) fis,4 h
+  e,4. e'8 d2
+  h cis4 h8 a
+  a4 gis a2 \bar "|."
 }

@@ -2,7 +2,6 @@ vb = \relative c'' {
   \voiceconsts
 
   \introa
-
   r8 a\f a a a2
   cis,4\p cis cis8 e a e
   cis4 a e' e
@@ -91,4 +90,54 @@ vb = \relative c'' {
     e4 e2
     cis2.
   }
+
+  \introd
+  \repeat volta 2 {
+    a'8\mf cis e h cis a cis d
+    e, gis h fis gis e a4~
+    a gis a e8 fis
+    h,4 r8 a' h gis a cis
+    h4. cis8 h fis h8. a16
+
+    gis4 fis e e
+    fis e2 gis4
+    a8 cis e h cis4 h
+    e, r e8 gis h fis
+    gis e cis'4 h2
+  }
+  \repeat volta 2 {
+    r a8 e a8. a16
+    fis4 d8 fis gis4 r8 h
+    cis4 r8 e, fis d a'8. a16
+    gis4 e a8 e a8. a16
+    fis8 gis fis4 gis2
+
+    r8 cis a d gis,4 r8 gis
+    a e a8. a16 fis4 d8 fis
+    gis4 r8 gis a16 h cis h a4
+    r8 a d4 r8 a\trill a gis
+
+    a e a8. a16 fis4 d8 fis
+    gis4 r8 gis a16 h cis h a4
+    r8 a d4 r8 a\trill a gis
+    a4. e8 e2
+  }
+
+  \introe
+  a\mf gis4 a
+  fis gis a2
+  gis4 e'8( h) gis4 e
+  a fis e a
+  fis gis fis h8( fis)
+  gis2 a~
+
+  a4 h cis8( e) d( fis,)
+  gis4 a fis8 gis a4
+  gis gis8( h) e,2
+  d h~
+
+  h4 cis d fis8( gis)
+  a2. fis4
+  e4. gis8 a4 fis
+  h, e cis2 \bar "|."
 }

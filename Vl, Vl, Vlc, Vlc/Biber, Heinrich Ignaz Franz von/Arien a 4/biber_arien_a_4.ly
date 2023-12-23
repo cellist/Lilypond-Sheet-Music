@@ -1,14 +1,14 @@
 \version "2.24.1"
 \include "deutsch.ly"
 
-#(set-global-staff-size 18.5)
+#(set-global-staff-size 17.5)
 
 \header {
   title     = \markup \bold \italic "Arien á 4"
   composer  = "Heinrich Ignaz Franz von Biber"
   arranger  = "(1644-1704)"
   enteredby = "cellist (2023-12-21)"
-%  piece     = ""
+  piece     = "(Original in A-Dur)"
 }
 
 voiceconsts = {
@@ -32,9 +32,11 @@ adag = \tempo "Adagio " 2=30
 dsaf = \mark \markup \box \italic "Dal Segno al Fine"
 fine = \mark \markup \box \italic "Fine"
 
-introa = {        \tempo "1. Allegro "   2=50 }
-introb = { \break \tempo "2. Allamande " 2=45 }
-introc = { \break \tempo "3. Amoresca "  4=70 \time 3/4 }
+introa = {        \tempo "1. Allegro "           2=50 }
+introb = { \break \tempo "2. Allamande "         2=45 }
+introc = { \break \tempo "3. Amoresca "          4=70 \time 3/4 }
+introd = { \break \tempo "4. Gigue "             2=60 \time 2/2 }
+introe = { \break \tempo "5. Sonatina - Adagio " 2=40 }
 
 \include "v1.ily"
 \include "v2.ily"
