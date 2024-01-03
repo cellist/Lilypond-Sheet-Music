@@ -1,4 +1,4 @@
-\version "2.18.2"
+\version "2.24.1"
 \include "deutsch.ly"
   
 #(set-global-staff-size 24)
@@ -17,15 +17,14 @@ voiceconsts = {
   \time 3/4
   \clef "bass"
   %\numericTimeSignature
-  \compressFullBarRests
+  \compressEmptyMeasures
   \tempo "Allegretto " 4=110
 }
 
-%minstr = "harpsichord"
-mihi = "string ensemble 1"
-%minstr = "accordion"
-miba = "bassoon"
-milo = "drawbar organ"
+mist = "string ensemble 1"
+mivl = "violin"
+miba = "cello"
+mipz = "pizzicato strings"
 
 dac = \mark \markup \italic "D.C."
 mfp = \markup { "1x: " \dynamic mf ", 2x: " \dynamic p }
@@ -55,7 +54,20 @@ music = \new StaffGroup <<
 >>
 
 \book {
-  \score {
+   \paper {
+    print-page-number = ##t
+    print-first-page-number = ##t
+    ragged-last-bottom = ##f
+    oddHeaderMarkup = \markup \null
+    evenHeaderMarkup = \markup \null
+    oddFooterMarkup = \markup {
+      \fill-line {
+        \if \should-print-page-number
+        "Traditional - Norwegisches Lied, \"Olas Hochzeit\"" \fromproperty #'page:page-number-string
+      }
+    }
+    evenFooterMarkup = \oddFooterMarkup
+  } \score {
     \music
     \layout {}
   }
