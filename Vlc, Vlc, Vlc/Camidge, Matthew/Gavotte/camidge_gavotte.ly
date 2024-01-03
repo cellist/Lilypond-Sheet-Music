@@ -1,4 +1,4 @@
-\version "2.14.2"
+\version "2.24.1"
 \include "deutsch.ly"
 
 #(set-global-staff-size 20)
@@ -16,15 +16,15 @@ voiceconsts = {
 %  \clef "treble"
   \clef "bass"
   \numericTimeSignature
-  \compressFullBarRests
+  \compressEmptyMeasures
   \set tupletSpannerDuration = #(ly:make-moment 1 4)
   \tempo "Allegro " 4=120
 }
 
-%minstr = "harpsichord"
-mihi = "clarinet"
-%minstr = "accordion"
-milo = "bassoon"
+mist = "string ensemble 1"
+mivl = "violin"
+miba = "cello"
+mipz = "pizzicato strings"
 
 boxa = { \bar "||" \mark \markup \box "A" }
 boxb = { \bar "||" \mark \markup \box "B" }
@@ -39,26 +39,39 @@ rit  = \markup \bold \italic "rit."
 
 music = \new StaffGroup <<
       \new Staff {
-	\set Staff.midiInstrument = \milo
+	\set Staff.midiInstrument = \miba
 	\set Staff.instrumentName = \markup \center-column { "Violon-" "cello I" }
 	\transpose d c, { \va }
       }
 
       \new Staff {
-	\set Staff.midiInstrument = \milo
+	\set Staff.midiInstrument = \miba
 	\set Staff.instrumentName = \markup \center-column { "Violon-" "cello II" }
 	\transpose d c, { \vb }
       }
 
       \new Staff {
-	\set Staff.midiInstrument = \milo
+	\set Staff.midiInstrument = \miba
 	\set Staff.instrumentName = \markup \center-column { "Violon-" "cello III" }
 	\transpose d c, { \vc }
       }
 >>
 
 \book {
-  \score {
+   \paper {
+    print-page-number = ##t
+    print-first-page-number = ##t
+    ragged-last-bottom = ##f
+    oddHeaderMarkup = \markup \null
+    evenHeaderMarkup = \markup \null
+    oddFooterMarkup = \markup {
+      \fill-line {
+        \if \should-print-page-number
+        "Matthew Camidge - Gavotte" \fromproperty #'page:page-number-string
+      }
+    }
+    evenFooterMarkup = \oddFooterMarkup
+  } \score {
     \music
     \layout {}
   }
