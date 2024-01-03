@@ -1,7 +1,7 @@
-\version "2.18.2"
+\version "2.24.1"
 \include "deutsch.ly"
 
-#(set-global-staff-size 26)
+#(set-global-staff-size 22)
 
 \header {
   title     = \markup \bold \italic "Adje Jano"
@@ -17,7 +17,7 @@ voiceconsts = {
   \clef "bass"
   \tempo "Allegretto " 4=130
   \numericTimeSignature
-%  \compressFullBarRests
+  \compressEmptyMeasures
   \set tupletSpannerDuration = #(ly:make-moment 1 4)
   % Set default beaming for all staves
   \set Timing.beamExceptions = #'()
@@ -26,16 +26,9 @@ voiceconsts = {
 }
 
 mist = "string ensemble 1"
-%miba = "trombone"
-miba = "bassoon"
-mivc = "trombone"
-mikl = "concertina"
-%miba = "electric bass (finger)"
-
-boxa = { \bar "||" \mark \markup \box \bold "A" }
-boxb = { \bar "||" \mark \markup \box \bold "B" }
-boxc = { \bar "||" \mark \markup \box \bold "C" }
-boxd = { \bar "||" \mark \markup \box \bold "D" }
+mivl = "violin"
+miba = "cello"
+mipz = "pizzicato strings"
 
 \include "v1.ily"
 \include "v2.ily"
@@ -43,7 +36,7 @@ boxd = { \bar "||" \mark \markup \box \bold "D" }
 
 music = <<
       \new Staff {
-        \set Staff.midiInstrument = \mist
+        \set Staff.midiInstrument = \miba
         \set Staff.instrumentName = \markup \center-column { "Violon-" "cello I" }
         \transpose e d { \va }
       }
@@ -62,8 +55,21 @@ music = <<
 >>
 
 \book {
-  \score {
-   \music
+   \paper {
+    print-page-number = ##t
+    print-first-page-number = ##t
+    ragged-last-bottom = ##f
+    oddHeaderMarkup = \markup \null
+    evenHeaderMarkup = \markup \null
+    oddFooterMarkup = \markup {
+      \fill-line {
+        \if \should-print-page-number
+        "Traditional - \"Adje Jano\"" \fromproperty #'page:page-number-string
+      }
+    }
+    evenFooterMarkup = \oddFooterMarkup
+  } \score {
+    \music
     \layout {}
   }
 
