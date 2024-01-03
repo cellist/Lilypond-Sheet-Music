@@ -1,57 +1,79 @@
-\version "2.12.2"
+\version "2.24.1"
 %\include "deutsch.ly"
 
 #(set-global-staff-size 20)
-%#(set-global-staff-size 16)
 
 \header {
-  title = "Hebe Deine Augen auf"
-  subtitle = "Elias, Lied Nr. 28"
+  title = \markup \bold \italic "\"Hebe Deine Augen auf\""
   composer = "Felix Mendelssohn-Bartholdy"
   arranger = "(1809-1847)"
-  enteredby = "Olaf Wasmuth (2009-12-25)"
-%  piece = "Andante"
+  enteredby = "cellist (2009-12-25)"
+  piece = "\"Elias\", Lied Nr. 28"
 }
 
 voiceconsts = {
  \key d \major
-% \clef "treble"
  \clef "bass"
  %\numericTimeSignature
- \compressFullBarRests
+ \compressEmptyMeasures
  \time 2/4
- \tempo "Andante"
+ \tempo "Andante" 4=60
 }
+
+mist = "string ensemble 1"
+mivl = "violin"
+miba = "cello"
+mipz = "pizzicato strings"
 
 \include "v1.ily"
 \include "v2.ily"
 \include "v3.ily"
 
+music = \new StaffGroup <<
+      \new Staff {
+	\set Staff.midiInstrument = \miba
+	\set Staff.instrumentName = \markup \center-column { "Violon-" "cello I" }
+	\transpose d d, { \va }
+      }
+
+      \new Staff {
+	\set Staff.midiInstrument = \miba
+	\set Staff.instrumentName = \markup \center-column { "Violon-" "cello II" }
+	\transpose d d, { \vb }
+      }
+
+      \new Staff {
+	\set Staff.midiInstrument = \miba
+	\set Staff.instrumentName = \markup \center-column { "Violon-" "cello III" }
+	\transpose d d, { \vc }
+      }
+>>
+
 \book {
+   \paper {
+    print-page-number = ##t
+    print-first-page-number = ##t
+    ragged-last-bottom = ##f
+    oddHeaderMarkup = \markup \null
+    evenHeaderMarkup = \markup \null
+    oddFooterMarkup = \markup {
+      \fill-line {
+        \if \should-print-page-number
+        "Felix Mendelssohn-Bartholdy - aus dem \"Elias\": \"Hebe Deine Augen auf\"" \fromproperty #'page:page-number-string
+      }
+    }
+    evenFooterMarkup = \oddFooterMarkup
+  } \score {
+    \music
+    \layout {}
+  }
 
   \score {
-
-    <<
-      \new Staff <<
-	\set Staff.instrumentName = "Vc 1 "
-	\transpose d d, { \va }
-      >>
-      \new Staff <<
-	\set Staff.instrumentName = "Vc 2 "
-	\transpose d d, { \vb }
-      >>
-      \new Staff <<
-	\set Staff.instrumentName = "Vc 3 "
-	\transpose d d, { \vc }
-      >>
-    >>
-
-    \layout {}
+    \unfoldRepeats \music
 
     \midi {
       \context {
-	\Score
-	tempoWholesPerMinute = #(ly:make-moment 80 4)
+        \Score
       }
     }
   }
