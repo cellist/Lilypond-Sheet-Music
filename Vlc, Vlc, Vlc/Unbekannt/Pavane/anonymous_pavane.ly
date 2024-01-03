@@ -1,7 +1,7 @@
-\version "2.18.2"
+\version "2.24.1"
 \include "deutsch.ly"
 
-#(set-global-staff-size 18.75)
+#(set-global-staff-size 19)
 
 \header {
   title     = \markup \bold \italic "Pavane"
@@ -15,22 +15,20 @@ voiceconsts = {
   \key f \major
   \time 4/2
   \clef "bass"
-  \tempo "Lento " 2=60
   \numericTimeSignature
-%  \compressFullBarRests
+  \compressEmptyMeasures
   \set tupletSpannerDuration = #(ly:make-moment 1 4)
   % Set default beaming for all staves
 %  \set Timing.beamExceptions = #'()
 %  \set Timing.baseMoment     = #(ly:make-moment 1 4)
 %  \set Timing.beatStructure  = #'(1 1 1)
+  \tempo 2=70
 }
 
 mist = "string ensemble 1"
-%miba = "trombone"
-miba = "bassoon"
-mivc = "trombone"
-mikl = "concertina"
-mipz = "electric bass (finger)"
+mivl = "violin"
+miba = "cello"
+mipz = "pizzicato strings"
 
 \include "v1.ily"
 \include "v2.ily"
@@ -38,13 +36,13 @@ mipz = "electric bass (finger)"
 
 music = <<
       \new Staff {
-        \set Staff.midiInstrument = \mist
+        \set Staff.midiInstrument = \miba
         \set Staff.instrumentName = \markup \center-column { "Violon-" "cello I" }
         \transpose f f { \va }
       }
 
       \new Staff {
-        \set Staff.midiInstrument = \mist
+        \set Staff.midiInstrument = \miba
         \set Staff.instrumentName = \markup \center-column { "Violon-" "cello II" }
         \transpose f f { \vb }
       }
@@ -57,8 +55,21 @@ music = <<
 >>
 
 \book {
-  \score {
-   \music
+   \paper {
+    print-page-number = ##t
+    print-first-page-number = ##t
+    ragged-last-bottom = ##f
+    oddHeaderMarkup = \markup \null
+    evenHeaderMarkup = \markup \null
+    oddFooterMarkup = \markup {
+      \fill-line {
+        \if \should-print-page-number
+        "Unbekannt - Pavane" \fromproperty #'page:page-number-string
+      }
+    }
+    evenFooterMarkup = \oddFooterMarkup
+  } \score {
+    \music
     \layout {}
   }
 

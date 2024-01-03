@@ -1,6 +1,6 @@
 va = \relative c' {
   \voiceconsts
-  \clef "tenor"
+  \clef "treble"
   
   c2\mf f1 g2
   a c1 b2
