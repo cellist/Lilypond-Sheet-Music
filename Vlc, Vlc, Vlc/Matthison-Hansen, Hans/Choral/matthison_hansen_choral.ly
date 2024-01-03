@@ -1,7 +1,7 @@
-\version "2.18.2"
+\version "2.24.1"
 \include "deutsch.ly"
   
-#(set-global-staff-size 24)
+#(set-global-staff-size 22)
 
 \header {
   title     = \markup \bold \italic "Choral"
@@ -17,7 +17,7 @@ voiceconsts = {
   \time 3/4
   \clef "bass"
 % \numericTimeSignature
-  \compressFullBarRests
+  \compressEmptyMeasures
   % Set default beaming for all staves
   \set Timing.beamExceptions = #'()
   \set Timing.baseMoment     = #(ly:make-moment 1 4)
@@ -25,14 +25,10 @@ voiceconsts = {
   \tempo "Lento " 4=80
 }
 
-mifl = "flute"
 mist = "string ensemble 1"
-%minstr = "accordion"
-miba = "bassoon"
-%miba = "electric bass (pick)"
-%miba = "electric bass (finger)"
-%milo = "drawbar organ"
-milo = "harpsichord"
+mivl = "violin"
+miba = "cello"
+mipz = "pizzicato strings"
 
 rit = \mark \markup "rit."
 
@@ -42,26 +38,39 @@ rit = \mark \markup "rit."
 
 music = \new StaffGroup <<
       \new Staff {
-	\set Staff.midiInstrument = \mist
+	\set Staff.midiInstrument = \miba
 	\set Staff.instrumentName = \markup \center-column { "Violon-" "cello I" }
-	\transpose e a, { \va }
+	\transpose e c { \va }
       }
 
       \new Staff {
-	\set Staff.midiInstrument = \mist
+	\set Staff.midiInstrument = \miba
 	\set Staff.instrumentName = \markup \center-column { "Violon-" "cello II" }
-	\transpose e a, { \vb }
+	\transpose e c { \vb }
       }
 
       \new Staff {
 	\set Staff.midiInstrument = \miba
 	\set Staff.instrumentName = \markup \center-column { "Violon-" "cello III" }
-	\transpose e a, { \vc }
+	\transpose e c { \vc }
       }
 >>
 
 \book {
-  \score {
+   \paper {
+    print-page-number = ##t
+    print-first-page-number = ##t
+    ragged-last-bottom = ##f
+    oddHeaderMarkup = \markup \null
+    evenHeaderMarkup = \markup \null
+    oddFooterMarkup = \markup {
+      \fill-line {
+        \if \should-print-page-number
+        "Hans Matthison Hansen - Choral: \"Trods længselens smerte\"" \fromproperty #'page:page-number-string
+      }
+    }
+    evenFooterMarkup = \oddFooterMarkup
+  } \score {
     \music
     \layout {}
   }
