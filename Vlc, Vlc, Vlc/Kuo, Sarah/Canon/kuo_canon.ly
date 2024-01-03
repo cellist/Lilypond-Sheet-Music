@@ -1,10 +1,10 @@
-\version "2.18.2"
+\version "2.24.1"
 \include "deutsch.ly"
 
-#(set-global-staff-size 18.3)
+#(set-global-staff-size 19)
 
 \header {
-  title     = \markup \bold \italic "Canon a Tre"
+  title     = \markup \bold \italic "Canon á Tre"
   composer  = "Sarah Kuo"
   arranger  = "(*1997)"
   enteredby = "cellist (2016-09-19)"
@@ -15,23 +15,20 @@ voiceconsts = {
   \key c \major
   \time 4/4
   \clef "bass"
-  \tempo "Moderato " 4=110
   \numericTimeSignature
-%  \compressFullBarRests
+  \compressEmptyMeasures
   \set tupletSpannerDuration = #(ly:make-moment 1 4)
   % Set default beaming for all staves
   \set Timing.beamExceptions = #'()
   \set Timing.baseMoment     = #(ly:make-moment 1 2)
   \set Timing.beatStructure  = #'(1 1)
+  \tempo "Moderato " 4=110
 }
 
-mifl = "flute"
 mist = "string ensemble 1"
-miba = "bassoon"
-%mist = "trumpet"
-%miba = "trombone"
-%mikl = "acoustic grand"
-mikl = "harpsichord"
+mivl = "violin"
+miba = "cello"
+mipz = "pizzicato strings"
 
 \include "v1.ily"
 \include "v2.ily"
@@ -58,8 +55,21 @@ music = <<
 >>
 
 \book {
-  \score {
-   \music
+   \paper {
+    print-page-number = ##t
+    print-first-page-number = ##t
+    ragged-last-bottom = ##f
+    oddHeaderMarkup = \markup \null
+    evenHeaderMarkup = \markup \null
+    oddFooterMarkup = \markup {
+      \fill-line {
+        \if \should-print-page-number
+        "Sarah Kuo - Canon á Tre" \fromproperty #'page:page-number-string
+      }
+    }
+    evenFooterMarkup = \oddFooterMarkup
+  } \score {
+    \music
     \layout {}
   }
 
