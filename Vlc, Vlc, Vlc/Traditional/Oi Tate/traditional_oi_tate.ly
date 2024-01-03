@@ -1,7 +1,7 @@
-\version "2.18.2"
+\version "2.24.1"
 \include "deutsch.ly"
   
-#(set-global-staff-size 24)
+#(set-global-staff-size 22)
 
 \header {
   title     = \markup \bold \italic "Oi, Tate!"
@@ -17,7 +17,7 @@ voiceconsts = {
   \time 2/4
   \clef "bass"
 %  \numericTimeSignature
-  \compressFullBarRests
+  \compressEmptyMeasures
   % Set default beaming for all staves
   \set Timing.beamExceptions = #'()
   \set Timing.baseMoment     = #(ly:make-moment 1 4)
@@ -25,17 +25,14 @@ voiceconsts = {
   \tempo "Andante " 4=70
 }
 
-micl = "clarinet"
-mifl = "flute"
-miob = "oboe"
-mifh = "french horn"
-misx = "tenor sax"
 mist = "string ensemble 1"
+mivl = "violin"
 miba = "cello"
+mipz = "pizzicato strings"
 
-boxa =  \mark \markup \box "A"
-boxb =  \mark \markup \box "B"
-boxc =  \mark \markup \box "C"
+boxa =  \mark \markup \box \italic "A"
+boxb =  \mark \markup \box \italic "B"
+boxc =  \mark \markup \box \italic "C"
 
 \include "v1.ily"
 \include "v2.ily"
@@ -62,7 +59,20 @@ music = \new StaffGroup <<
 >>
 
 \book {
-  \score {
+   \paper {
+    print-page-number = ##t
+    print-first-page-number = ##t
+    ragged-last-bottom = ##f
+    oddHeaderMarkup = \markup \null
+    evenHeaderMarkup = \markup \null
+    oddFooterMarkup = \markup {
+      \fill-line {
+        \if \should-print-page-number
+        "Traditional - \"Oi, Tate!\"" \fromproperty #'page:page-number-string
+      }
+    }
+    evenFooterMarkup = \oddFooterMarkup
+  } \score {
     \music
     \layout {}
   }
