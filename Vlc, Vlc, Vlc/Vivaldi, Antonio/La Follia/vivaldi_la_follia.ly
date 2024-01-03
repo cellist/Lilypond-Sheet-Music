@@ -1,10 +1,10 @@
-\version "2.18.2"
+\version "2.24.1"
 \include "deutsch.ly"
   
-#(set-global-staff-size 18)
+#(set-global-staff-size 17)
 
 \header {
-  title     = \markup \bold \italic "La Follia"
+  title     = \markup \bold \italic "\"La Follia\""
   composer  = "Antonio Vivaldi (1678-1741)"
   arranger  = "arr.: Wilfried Wachter"
   enteredby = "cellist (2017-01-01)"
@@ -16,7 +16,7 @@ voiceconsts = {
   \time 3/4
   \clef "bass"
 % \numericTimeSignature
-  \compressFullBarRests
+  \compressEmptyMeasures
   % Set default beaming for all staves
   \set Timing.beamExceptions = #'()
   \set Timing.baseMoment     = #(ly:make-moment 1 4)
@@ -24,14 +24,10 @@ voiceconsts = {
   \tempo "Moderato " 4=80
 }
 
-mifl = "flute"
 mist = "string ensemble 1"
-%minstr = "accordion"
-%miba = "bassoon"
-miba = "electric bass (pick)"
-%miba = "electric bass (finger)"
-%milo = "drawbar organ"
-milo = "harpsichord"
+mivl = "violin"
+miba = "cello"
+mipz = "pizzicato strings"
 
 boxa = { \bar "||" \mark \markup \box "A" }
 boxb = { \bar "||" \mark \markup \box "B" }
@@ -64,26 +60,39 @@ boxt = { \bar "||" \mark \markup \box "T" }
 
 music = \new StaffGroup <<
       \new Staff {
-	\set Staff.midiInstrument = \mist
+	\set Staff.midiInstrument = \miba
 	\set Staff.instrumentName = \markup \center-column { "Violon-" "cello I" }
 	\transpose a a { \va }
       }
 
       \new Staff {
-	\set Staff.midiInstrument = \mist
+	\set Staff.midiInstrument = \miba
 	\set Staff.instrumentName = \markup \center-column { "Violon-" "cello II" }
 	\transpose a a { \vb }
       }
 
       \new Staff {
-	\set Staff.midiInstrument = \milo
+	\set Staff.midiInstrument = \miba
 	\set Staff.instrumentName = \markup \center-column { "Violon-" "cello III" }
 	\transpose a a { \vc }
       }
 >>
 
 \book {
-  \score {
+   \paper {
+    print-page-number = ##t
+    print-first-page-number = ##t
+    ragged-last-bottom = ##f
+    oddHeaderMarkup = \markup \null
+    evenHeaderMarkup = \markup \null
+    oddFooterMarkup = \markup {
+      \fill-line {
+        \if \should-print-page-number
+        "Antonio Vivaldi - \"La Follia\"" \fromproperty #'page:page-number-string
+      }
+    }
+    evenFooterMarkup = \oddFooterMarkup
+  } \score {
     \music
     \layout {}
   }
