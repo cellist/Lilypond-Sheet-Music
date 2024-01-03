@@ -1,7 +1,7 @@
-\version "2.18.2"
+\version "2.24.1"
 \include "deutsch.ly"
   
-#(set-global-staff-size 19.8)
+#(set-global-staff-size 20)
 
 \header {
   title     = \markup \bold \italic "Zwei Trios"
@@ -16,21 +16,17 @@ voiceconsts = {
   \time 2/4
   \clef "bass"
 % \numericTimeSignature
-  \compressFullBarRests
+  \compressEmptyMeasures
   % Set default beaming for all staves
 %  \set Timing.beamExceptions = #'()
 %  \set Timing.baseMoment     = #(ly:make-moment 1 4)
 %  \set Timing.beatStructure  = #'(1 1 1)
 }
 
-mifl = "flute"
 mist = "string ensemble 1"
-%minstr = "accordion"
-miba = "bassoon"
-%miba = "electric bass (pick)"
-%miba = "electric bass (finger)"
-%milo = "drawbar organ"
-milo = "harpsichord"
+mivl = "violin"
+miba = "cello"
+mipz = "pizzicato strings"
 
 introa = {        \tempo "1. Allegretto melancolico (Nr. 2) " 4=80 }
 introb = { \break \tempo "2. Largo serioso (Nr. 6) " 4=70
@@ -65,7 +61,20 @@ music = \new StaffGroup <<
 >>
 
 \book {
-  \score {
+   \paper {
+    print-page-number = ##t
+    print-first-page-number = ##t
+    ragged-last-bottom = ##f
+    oddHeaderMarkup = \markup \null
+    evenHeaderMarkup = \markup \null
+    oddFooterMarkup = \markup {
+      \fill-line {
+        \if \should-print-page-number
+        "Friedrich August Kummer - Zwei Trios" \fromproperty #'page:page-number-string
+      }
+    }
+    evenFooterMarkup = \oddFooterMarkup
+  } \score {
     \music
     \layout {}
   }
