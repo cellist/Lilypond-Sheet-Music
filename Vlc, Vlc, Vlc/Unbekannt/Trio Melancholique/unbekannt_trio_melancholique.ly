@@ -1,10 +1,10 @@
-\version "2.18.2"
+\version "2.24.1"
 \include "deutsch.ly"
   
-#(set-global-staff-size 21.75)
+#(set-global-staff-size 21)
 
 \header {
-  title     = \markup \bold \italic "Trio Melancholique"
+  title     = \markup \bold \italic "\"Trio Melancholique\""
   composer  = "Unbekannt"
 %  arranger  = ""
   enteredby = "cellist (2016-10-14)"
@@ -16,7 +16,7 @@ voiceconsts = {
   \time 4/4
   \clef "bass"
   \numericTimeSignature
-  \compressFullBarRests
+  \compressEmptyMeasures
   \tempo "Andantino " 4=80
   % Set default beaming for all staves
 %  \set Timing.beamExceptions = #'()
@@ -24,11 +24,10 @@ voiceconsts = {
 %  \set Timing.beatStructure  = #'(1 1 1)
 }
 
-%minstr = "harpsichord"
 mist = "string ensemble 1"
-%minstr = "accordion"
-miba = "bassoon"
-milo = "drawbar organ"
+mivl = "violin"
+miba = "cello"
+mipz = "pizzicato strings"
 
 \include "v1.ily"
 \include "v2.ily"
@@ -36,7 +35,7 @@ milo = "drawbar organ"
 
 music = \new StaffGroup <<
       \new Staff {
-	\set Staff.midiInstrument = \mist
+	\set Staff.midiInstrument = \miba
 	\set Staff.instrumentName = \markup \center-column { "Violon-" "cello I" }
 	\transpose a a { \va }
       }
@@ -48,14 +47,27 @@ music = \new StaffGroup <<
       }
 
       \new Staff {
-	\set Staff.midiInstrument = \milo
+	\set Staff.midiInstrument = \miba
 	\set Staff.instrumentName = \markup \center-column { "Violon-" "cello III" }
 	\transpose a a { \vc }
       }
 >>
 
 \book {
-  \score {
+   \paper {
+    print-page-number = ##t
+    print-first-page-number = ##t
+    ragged-last-bottom = ##f
+    oddHeaderMarkup = \markup \null
+    evenHeaderMarkup = \markup \null
+    oddFooterMarkup = \markup {
+      \fill-line {
+        \if \should-print-page-number
+        "Unbekannt - \"Trio Melancholique\"" \fromproperty #'page:page-number-string
+      }
+    }
+    evenFooterMarkup = \oddFooterMarkup
+  } \score {
     \music
     \layout {}
   }
