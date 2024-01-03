@@ -1,4 +1,4 @@
-\version "2.18.2"
+\version "2.24.1"
 \include "deutsch.ly"
   
 #(set-global-staff-size 20)
@@ -16,17 +16,16 @@ voiceconsts = {
   \time 4/4
   \clef "bass"
   %\numericTimeSignature
-  \compressFullBarRests
+  \compressEmptyMeasures
   \tempo "Allegro " 4=110
 }
 
-%minstr = "harpsichord"
-mihi = "string ensemble 1"
-%minstr = "accordion"
-miba = "bassoon"
-milo = "drawbar organ"
+mist = "string ensemble 1"
+mivl = "violin"
+miba = "cello"
+mipz = "pizzicato strings"
 
-daca = \mark \markup \italic "D.C."
+daca = \mark \markup \box \italic "D.C."
 
 \include "v1.ily"
 \include "v2.ily"
@@ -53,7 +52,20 @@ music = \new StaffGroup <<
 >>
 
 \book {
-  \score {
+   \paper {
+    print-page-number = ##t
+    print-first-page-number = ##t
+    ragged-last-bottom = ##f
+    oddHeaderMarkup = \markup \null
+    evenHeaderMarkup = \markup \null
+    oddFooterMarkup = \markup {
+      \fill-line {
+        \if \should-print-page-number
+        "Traditional - Ballo Ongaro" \fromproperty #'page:page-number-string
+      }
+    }
+    evenFooterMarkup = \oddFooterMarkup
+  } \score {
     \music
     \layout {}
   }
