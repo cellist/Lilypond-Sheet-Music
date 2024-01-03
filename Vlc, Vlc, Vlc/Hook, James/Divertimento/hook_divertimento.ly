@@ -1,7 +1,7 @@
-\version "2.14.2"
+\version "2.24.1"
 \include "deutsch.ly"
 
-#(set-global-staff-size 19)
+#(set-global-staff-size 20)
 
 \header {
   title = "Divertimento in B-Dur"
@@ -15,14 +15,14 @@ voiceconsts = {
  \time 2/4
  \clef "bass"
 % \numericTimeSignature
- \compressFullBarRests
- \tempo "Allegro con spirito " 4=120
+ \compressEmptyMeasures
+ \tempo "Allegro con spirito " 4=110
 }
 
-%minstr = "harpsichord"
-mihi = "clarinet"
-%minstr = "accordion"
-milo = "bassoon"
+mist = "string ensemble 1"
+mivl = "violin"
+miba = "cello"
+mipz = "pizzicato strings"
 
 moral = \markup \italic "molto rall."
 
@@ -32,26 +32,39 @@ moral = \markup \italic "molto rall."
 
 music = \new StaffGroup <<
       \new Staff {
-	\set Staff.midiInstrument = \mihi
-	\set Staff.instrumentName = #"Cello I"
+	\set Staff.midiInstrument = \miba
+	\set Staff.instrumentName = \markup \center-column { "Violon-" "cello I" }
 	\transpose b b, { \va }
       }
 
       \new Staff {
-	\set Staff.midiInstrument = \milo
-	\set Staff.instrumentName = #"Cello II"
+	\set Staff.midiInstrument = \miba
+	\set Staff.instrumentName = \markup \center-column { "Violon-" "cello II" }
 	\transpose b b, { \vb }
       }
 
       \new Staff {
-	\set Staff.midiInstrument = \milo
-	\set Staff.instrumentName = #"Cello III"
+	\set Staff.midiInstrument = \miba
+	\set Staff.instrumentName = \markup \center-column { "Violon-" "cello III" }
 	\transpose b b, { \vc }
       }
 >>
 
 \book {
-  \score {
+   \paper {
+    print-page-number = ##t
+    print-first-page-number = ##t
+    ragged-last-bottom = ##f
+    oddHeaderMarkup = \markup \null
+    evenHeaderMarkup = \markup \null
+    oddFooterMarkup = \markup {
+      \fill-line {
+        \if \should-print-page-number
+        "James Hook - Divertimento in B-Dur" \fromproperty #'page:page-number-string
+      }
+    }
+    evenFooterMarkup = \oddFooterMarkup
+  } \score {
     \music
     \layout {}
   }
