@@ -1,7 +1,7 @@
-\version "2.18.2"
+\version "2.24.1"
 \include "deutsch.ly"
   
-#(set-global-staff-size 19.75)
+#(set-global-staff-size 20)
 
 \header {
   title     = \markup \bold \italic "Ciaccona"
@@ -16,12 +16,11 @@ voiceconsts = {
   \time 3/4
   \clef "bass"
   \numericTimeSignature
-  \compressFullBarRests
+  \compressEmptyMeasures
   % Set default beaming for all staves
   \set Timing.beamExceptions = #'()
   \set Timing.baseMoment     = #(ly:make-moment 1 4)
   \set Timing.beatStructure  = #'(1 1 1)
-
   \tempo "Andantino " 4=72
 }
 
@@ -52,7 +51,20 @@ music = \new StaffGroup <<
 >>
 
 \book {
-  \score {
+   \paper {
+    print-page-number = ##t
+    print-first-page-number = ##t
+    ragged-last-bottom = ##f
+    oddHeaderMarkup = \markup \null
+    evenHeaderMarkup = \markup \null
+    oddFooterMarkup = \markup {
+      \fill-line {
+        \if \should-print-page-number
+        "Tarquinio Merula - Ciaccona" \fromproperty #'page:page-number-string
+      }
+    }
+    evenFooterMarkup = \oddFooterMarkup
+  } \score {
     \music
     \layout {}
   }
