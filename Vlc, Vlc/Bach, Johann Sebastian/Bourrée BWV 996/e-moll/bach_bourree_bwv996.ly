@@ -1,4 +1,4 @@
-\version "2.18.2"
+\version "2.24.1"
 \include "deutsch.ly"
 
 #(set-global-staff-size 22)
@@ -17,7 +17,7 @@ voiceconsts = {
   \time 2/2
   \tempo "Lento " 2=50
 %  \numericTimeSignature
-%  \compressFullBarRests
+  \compressEmptyMeasures
   \set tupletSpannerDuration = #(ly:make-moment 1 4)
   % Set default beaming cor all staves
 %  \set Timing.beamExceptions = #'()
@@ -58,7 +58,7 @@ music = <<
     evenHeaderMarkup = \markup \null
     oddFooterMarkup = \markup {
       \fill-line {
-        \on-the-fly #print-page-number-check-first
+        \if \should-print-page-number
         "Johann Sebastian Bach - Bourrée BWV 996" \fromproperty #'page:page-number-string
       }
     }

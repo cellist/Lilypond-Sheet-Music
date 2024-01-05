@@ -19,9 +19,9 @@ vb = \relative c {
     g4
     fis d g h
 
-    c eis, fis d'
+    c gis a d
     e! a, e' e,
-    a8 h a g fis4 d
+    a8 h a g? fis4 d
     g h c gis
     a cis d ais
 
