@@ -28,7 +28,7 @@ va = \relative c'' {
 
   e' e fis
   g4. d8 d4
-  r8 e d4. h8
+  r8 e c4. h8
   h2 g4~
   g fis e8. d16
   d2.
@@ -55,7 +55,7 @@ va = \relative c'' {
   g2.
   g'4 g fis
   e4. d8 d4
-  d8 c c4. c8
+  d8 cis cis4. cis8
   d4. e8 d4
   c8 h a4.\trill g8
   g2. \bar "|."
