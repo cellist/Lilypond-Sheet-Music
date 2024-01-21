@@ -1,7 +1,7 @@
-\version "2.18.2"
+\version "2.24.1"
 \include "deutsch.ly"
 
-#(set-global-staff-size 22)
+#(set-global-staff-size 18)
 
 \header {
   title     = \markup \bold \italic "As I was going to Derby"
@@ -15,6 +15,7 @@ voiceconsts = {
  \time 6/4
  \clef "bass"
  %\numericTimeSignature
+ \compressEmptyMeasures
  \tempo "Fröhlich " 2.=88
 }
 
@@ -63,7 +64,7 @@ music = \new StaffGroup <<
     evenHeaderMarkup = \markup \null
     oddFooterMarkup = \markup {
       \fill-line {
-        \on-the-fly #print-page-number-check-first
+        \if \should-print-page-number
         "John Wall Callcott - As I was going to Derby" \fromproperty #'page:page-number-string
       }
     }
