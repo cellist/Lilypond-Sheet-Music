@@ -99,21 +99,21 @@ va = \relative c''' {
   r8 b r d r f, g4
   R1*3
 
-  r4 r8 d'~\f d c b4 \boxg
+  r4 r8 d'~\f d c b4 \boxh
   g r r2
   r4 r8 d'~ d c b4
   c r r2
   r4 r8 d~-> d c b4
   g8 f r d'~-> d c b4
 
-  g8 f r d'~-> d c b4 \boxh
+  g8 f r d'~-> d c b4 \boxi
   b2 r
-  R1*3 \boxi
+  R1*3 \boxj
 
   e,8\mf g c e r e r c
   d r f r e r c r
   c4. e8~ e4 g
-  r8 c, c4 c r \boxj
+  r8 c, c4 c r \boxk
   r f,8\mf f~ f f f4
   r f8 r f r f r
 

@@ -99,22 +99,22 @@ vc = \relative c' {
   f8 a r f r b4 f8
   f a4 f8~ f c'4 b8
 
-  R1 \boxg
+  R1 \boxh
   r4 c8\mf b~ b b b4
   r b8 b~ b b b4
   r b8 a~ a a a4
   r a8 a~ a a a4
   r r8 b~-> b4 r
 
-  r r8 a~-> a4 r \boxh
+  r r8 a~-> a4 r \boxi
   b8\mf d f b r b r f
   a r c r b r f r
   f, b d f r f r d
-  c r f r d r r4 \boxi
+  c r f r d r r4 \boxj
 
   R1*2
   c4. e8~ e4 g
-  r8 c, c4 c r \boxj
+  r8 c, c4 c r \boxk
   a1\mf
   g
 

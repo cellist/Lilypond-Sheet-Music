@@ -37,8 +37,9 @@ boxe = { \bar "||" \mark \markup \box \italic "E" }
 boxf = { \bar "||" \mark \markup \box \italic "F" }
 boxg = { \bar "||" \mark \markup \box \italic "G" }
 boxh = { \bar "||" \mark \markup \box \italic "H" }
-boxi = { \bar "||" \mark \markup \box \italic "I" \key c \major }
-boxj = { \bar "||" \mark \markup \box \italic "J" }
+boxi = { \bar "||" \mark \markup \box \italic "I" }
+boxj = { \bar "||" \mark \markup \box \italic "J" \key c \major }
+boxk = { \bar "||" \mark \markup \box \italic "K" }
 
 arco = \markup \italic "arco"
 pizz = \markup \italic "pizz"

@@ -109,23 +109,23 @@ vd = \relative c {
   d, r8 b' r4 d
   f, r8 f g r r b
 
-  b1\sfz \boxg
+  b1\sfz \boxh
   es,4.\mf g8~ g4 b
   r b d f
   f,4. a8~ a4 c
   r8 b b b g4 f
   es4. g8~-> g4 b
 
-  r f8 f a4 c \boxh
+  r f8 f a4 c \boxi
   b8\glissando f r4 r2
   r r4 f
   b8\glissando f r4 r2
-  R1 \boxi
+  R1 \boxj
 
   c'8\glissando g r4 r2
   r r4 g
   c4. e8~ e4 g
-  r8 c, c4 c r \boxj
+  r8 c, c4 c r \boxk
   f,4.\mf a8~ a4 c
   r c e g
 

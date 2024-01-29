@@ -106,23 +106,23 @@ vb = \relative c' {
   f f4 f8 b4 r8 f
   a4 a c a8 b~
 
-  b4 r r2 \boxg
+  b4 r r2 \boxh
   r4 es,8\mf es~ es es es4
   r es8 es~ es es es4
   r es8 es~ es es f4
   r f8 f~ f f f4
   r r8 es~-> es4 r
 
-  r r8 f~-> f4 r \boxh
+  r r8 f~-> f4 r \boxi
   d8\mf f b d r d r b
   c r es r d r b r
   b, d f b r b r f
-  a r c r b r r4 \boxi
+  a r c r b r r4 \boxj
 
   c,8\mf e g c r c r g
   h r d r c r g r
   R1
-  r4 r8 e'~\f e d4 c8 \boxj
+  r4 r8 e'~\f e d4 c8 \boxk
   a4 r r2
   r4 r8 e'~ e d c4
 
