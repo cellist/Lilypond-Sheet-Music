@@ -1,6 +1,5 @@
 vb = \relative c'  {
   \voiceconsts
-  \clef "bass"
   
   \partial 4 r4
   \repeat volta 2 {
