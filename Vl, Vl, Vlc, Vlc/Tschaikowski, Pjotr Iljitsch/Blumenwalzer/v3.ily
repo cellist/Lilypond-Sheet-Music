@@ -1,6 +1,6 @@
 vc = \relative c {
   \voiceconsts
-  \clef "bass"
+  \clef "tenor"
 
   R2.*4
   d4--\p fis-- a--
@@ -99,7 +99,7 @@ vc = \relative c {
   h2(\!\ff fis4)
   g( fis4. cis8)
   e2 d4(~
-  d8\> cis h a g fis)\!
+  d8\> cis h a g fis)\! \boxe
   e'2.(\p
   d)
 

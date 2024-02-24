@@ -1,7 +1,7 @@
 \version "2.24.1"
 \include "deutsch.ly"
 
-#(set-global-staff-size 17.75)
+#(set-global-staff-size 18.5)
 
 \header {
   title     = \markup \bold \italic "Blumenwalzer"
