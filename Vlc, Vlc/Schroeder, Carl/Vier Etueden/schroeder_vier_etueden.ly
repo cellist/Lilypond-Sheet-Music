@@ -4,16 +4,16 @@
 #(set-global-staff-size 20)
 
 \header {
-  title     = \markup \bold \italic "Etüde in G-Dur"
+  title     = \markup \bold \italic "Vier Etüden"
   composer  = "Carl Schröder"
   arranger  = "(1848-1935)"
   enteredby = "cellist (2024-03-02)"
-  piece     = "\"Practischer Lehrgang des Violoncellspiels\", Nr. 63"
+  piece     = "\"Practischer Lehrgang des Violoncellspiels\""
 }
 
 voiceconsts = {
   \key g \major
-  \time 6/8
+  \time 2/4
   \clef "bass"
 %  \numericTimeSignature
   \compressEmptyMeasures
@@ -21,7 +21,6 @@ voiceconsts = {
 %  \set Timing.beamExceptions = #'()
 %  \set Timing.baseMoment     = #(ly:make-moment 1 4)
 %  \set Timing.beatStructure  = #'(1 1 1)
-  \tempo 4.=60
 }
 
 mist = "string ensemble 1"
@@ -30,6 +29,11 @@ miba = "cello"
 mipz = "pizzicato strings"
 
 rit = \mark \markup \box \italic "rit."
+
+introa = {        \tempo "Nr. 62 "  4=80 }
+introb = { \break \tempo "Nr. 63 " 4.=60 \time 6/8 }
+introc = { \break \tempo "Nr. 64 "  4=80 \time 4/4 \key f \major }
+introd = { \break \tempo "Andante (Nr. 65) " 4=80 \key c \major }
 
 \include "v1.ily"
 \include "v2.ily"
@@ -58,7 +62,7 @@ music = \new StaffGroup <<
     oddFooterMarkup = \markup {
       \fill-line {
         \if \should-print-page-number
-        "Carl Schröder - Etüde in G-Dur" \fromproperty #'page:page-number-string
+        "Carl Schröder - Vier Etüden" \fromproperty #'page:page-number-string
       }
     }
     evenFooterMarkup = \oddFooterMarkup
