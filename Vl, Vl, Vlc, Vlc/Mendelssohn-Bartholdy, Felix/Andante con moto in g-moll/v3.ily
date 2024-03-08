@@ -1,12 +1,13 @@
 vc = \relative c' {
   \voiceconsts
-
+  \clef "bass"
+  
   \partial 4. r4.
   R2
   r8 g( as d)
   c4 h~
   h8 h c es
-  r f, f[ b]
+  r f, f b?
   b4. b8
 
   b4. a?8
@@ -21,21 +22,21 @@ vc = \relative c' {
   r8 h c f
   es des c4
   b? r
-  r8 g( a d?
+  r8 g( a d
   c4) h
 
   g c
   r a~
   a g8 d'
   d c g a
-  b4 a
-  b4 r8 <fis c'>
-  <g b>4 r8 <fis c'>
+  b?4 a
+  r4. <fis c'>8
+  <g \parenthesize b>4 r8 <fis \parenthesize c'>
 
-  g es' d a
-  b4 e
+  g es'( d a)
+  b4( e)
   r d
   r a
-  b a
+  b( a)
   g r\fermata \bar "|."
 }

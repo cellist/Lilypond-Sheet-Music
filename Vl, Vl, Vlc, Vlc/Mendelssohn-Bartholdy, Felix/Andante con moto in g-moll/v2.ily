@@ -1,6 +1,5 @@
 vb = \relative c' {
   \voiceconsts
-  \clef "treble"
 
   \partial 4. d8( es a)
   g4 fis
@@ -14,12 +13,12 @@ vb = \relative c' {
   b4 c
   es d
   r8 fis g4~
-  g8 g4 f16 e
+  g8 g4 fis16 e
   a8 fis d c
   b a d4~
 
   d r8 es?
-  f d g4~
+  f? d g4~
   g r8 h
   c g a4
   g g8 a
@@ -31,13 +30,13 @@ vb = \relative c' {
   d g
   g c,
   d4. c8
-  b(-! g a d)
-  b(-! d es a)
-
-  b, fis' g c
+  b? g( a d)
+  b4 r8 c
+  
+  b fis'( g c)
   b4( a)
   r g
   r4. e8
-  d4 c
+  d4( c)
   b r\fermata \bar "|."
 }

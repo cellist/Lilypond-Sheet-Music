@@ -1,42 +1,33 @@
-\version "2.20.2"
+\version "2.24.1"
 \include "deutsch.ly"
-  
-#(set-global-staff-size 18)
+
+#(set-global-staff-size 19)
 
 \header {
-  title     = \markup \bold \italic "Andante con moto in g-moll"
+  title     = \markup \bold \italic "Andante con moto"
   composer  = "Felix Mendelssohn-Bartholdy"
   arranger  = "(1809-1847)"
-  enteredby = "cellist (2021-12-12)"
-  piece     = "MWV W15 (1833)"
+  enteredby = "cellist (2024-03-08)"
+  piece     = "(1833)"
 }
 
 voiceconsts = {
   \key g \minor
   \time 2/4
-  \clef "bass"
+  \clef "treble"
 %  \numericTimeSignature
   \compressEmptyMeasures
   % Set default beaming for all staves
-  \set Timing.beamExceptions = #'()
-  \set Timing.baseMoment     = #(ly:make-moment 1 2)
-  \set Timing.beatStructure  = #'(1)
-  \tempo "Andante con moto " 4=50
+%  \set Timing.beamExceptions = #'()
+%  \set Timing.baseMoment     = #(ly:make-moment 1 4)
+%  \set Timing.beatStructure  = #'(1 1 1)
+  \tempo "Andante con moto " 4=70
 }
 
-micl = "clarinet"
-mifl = "flute"
-miob = "oboe"
-mifh = "french horn"
-misx = "tenor sax"
 mist = "string ensemble 1"
-misz = "string ensemble 2"
 mivl = "violin"
 miba = "cello"
 mipz = "pizzicato strings"
-
-dolc = \markup \italic "dolce"
-rit  = \mark \markup \box \italic "rit."
 
 \include "v1.ily"
 \include "v2.ily"
@@ -78,8 +69,8 @@ music = \new StaffGroup <<
     evenHeaderMarkup = \markup \null
     oddFooterMarkup = \markup {
       \fill-line {
-%        \on-the-fly #print-page-number-check-first
-        "Felix Mendelssohn-Bartholdy - Andante con moto in g-moll" \fromproperty #'page:page-number-string
+        \if \should-print-page-number
+        "Felix Mendelssohn-Bartholdy - Andante con moto" \fromproperty #'page:page-number-string
       }
     }
     evenFooterMarkup = \oddFooterMarkup

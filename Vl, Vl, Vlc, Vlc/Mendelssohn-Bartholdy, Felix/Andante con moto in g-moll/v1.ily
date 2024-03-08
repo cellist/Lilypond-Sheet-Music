@@ -1,6 +1,5 @@
 va = \relative c'' {
   \voiceconsts
-  \clef "treble"
 
   \partial 4. r4.
   r8 a( d c)
@@ -19,11 +18,11 @@ va = \relative c'' {
   e fis g a
 
   b4 r8 g
-  as h c? d
-  es4 r8 d
+  as h c d
+  es?4 r8 d
   es e f fis
-  g d es c
-  b4 a~
+  g d es! c
+  b4 a?~
   a g8 d'
 
   d( c) g a

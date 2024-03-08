@@ -1,5 +1,6 @@
 vd = \relative c {
   \voiceconsts
+  \clef "bass"
 
   \partial 4. r4.
   R2*2
@@ -13,13 +14,13 @@ vd = \relative c {
   g4 fis
   g r
   r8 e a g
-  fis[ a] d r
+  fis a d r
   r c( b fis
 
   g) r4.
   r8 f'?( es? h)
   c r4.
-  r8 b'( a d,)
+  r8 b'?( a d,)
   es4 c
   d2
   g,
@@ -32,7 +33,7 @@ vd = \relative c {
   g,4 r
   g r
 
-  g8 c' b fis
+  g8 c'( b fis)
   g4( a)
   r b
   r cis,
