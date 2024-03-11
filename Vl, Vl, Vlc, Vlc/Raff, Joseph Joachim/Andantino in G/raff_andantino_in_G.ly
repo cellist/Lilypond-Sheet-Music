@@ -5,7 +5,7 @@
 
 \header {
   title     = \markup \bold \italic "Andantino G-Dur"
-  composer  = "Johann Joachim Raff (1822-1882)"
+  composer  = "Joseph Joachim Raff (1822-1882)"
   arranger  = "arr.: Mike Magatagan"
   enteredby = "cellist (2024-03-11)"
   piece     = "\"30 Progressive Etüden\", Nr. 6 (WoO 36)"
@@ -73,7 +73,7 @@ music = \new StaffGroup <<
     oddFooterMarkup = \markup {
       \fill-line {
         \if \should-print-page-number
-        "Johann Joachim Raff - Andantino G-Dur" \fromproperty #'page:page-number-string
+        "Joseph Joachim Raff - Andantino G-Dur" \fromproperty #'page:page-number-string
       }
     }
     evenFooterMarkup = \oddFooterMarkup
