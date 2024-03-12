@@ -1,7 +1,7 @@
 va = \relative c''' {
   \voiceconsts
 
-  \partial 4 g8. fis16
+  \partial 4 g8.\mf fis16
   fis4( e~
   e8) h( d8. c16
   h4 a~
@@ -16,6 +16,7 @@ va = \relative c''' {
   e8) h( d8. c16
   h4 a~
   a) h8( a
+
   g2~
   g8) a( e a
   fis2)
@@ -28,7 +29,7 @@ va = \relative c''' {
   g?) fis8( e
   fis2 \rit
   h~
-  h4) r \pian
+  h4) r \boxa
   r8 e,( fis g)
   h4( a8.) g16
   g4( fis8.) g16
@@ -50,7 +51,7 @@ va = \relative c''' {
   g fis8.) g16 \rit
   h4( a
   g fis8) r
-  R2
+  R2 \boxb
 
   r8 e' g8. fis16
   fis4( e~

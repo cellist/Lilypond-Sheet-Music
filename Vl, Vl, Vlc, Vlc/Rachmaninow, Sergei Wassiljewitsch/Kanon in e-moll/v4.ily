@@ -1,7 +1,7 @@
 vd = \relative c' {
   \voiceconsts
   \clef "bass"
-
+  
   \partial 4 r4
   r c8. h16
   h4( a~
@@ -32,7 +32,7 @@ vd = \relative c' {
   e4 d!
   c?) h8( a \rit
   h2
-  e,~ \pian
+  e,~ \boxa
   e4) r
   d2
   d'
@@ -54,7 +54,7 @@ vd = \relative c' {
   h \rit
   h~
   h
-  h
+  h \boxb
 
   e4 r
   r8 a( c8.) h16
