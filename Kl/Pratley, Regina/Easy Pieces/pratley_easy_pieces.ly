@@ -1,7 +1,7 @@
 \version "2.24.1"
 \include "deutsch.ly"
 
-#(set-global-staff-size 21)
+#(set-global-staff-size 20)
 
 \header {
   title       = \markup \bold \italic "Easy Pieces for the Piano"
@@ -32,6 +32,9 @@ introd = { \break \tempo \markup \center-column { "4. Diary" "Cantabile " } 4=80
 introe = { \break \tempo \markup \center-column { "5. Fishing" "Moderato con spirito " } 4=100 \key f \major }
 introf = { \break \tempo \markup \center-column { "6. Lullaby" "Moderato" } 4=90 \key c \minor \time 3/4 }
 introg = { \break \tempo \markup \center-column { "7. Riverside" "Moderato" } 4=110 \key c \major }
+introh = { \break \tempo \markup \center-column { "8. Sandglass" "Moderato" } 4=90 \key e \minor \time 4/4 }
+introi = { \break \tempo \markup \center-column { "9. Sunset Walk" "Andante comodo" } 4.=60 \key g \major \time 3/8 }
+introj = { \break \tempo \markup \center-column { "10. Waltz" "Moderato con grazia" } 4=130 \key f \major \time 3/4 }
 
 cope = \markup \italic "con ped."
 rit  = \mark \markup \box \italic "rit."

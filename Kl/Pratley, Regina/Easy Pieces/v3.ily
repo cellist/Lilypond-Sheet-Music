@@ -59,4 +59,34 @@ vdy = {
   s2.*5\mp
   s8\> s4*5 s8\!
   s2.\p
+
+  s1*8\p
+  s1*8\mp
+  s1*6\mf
+  s1*2\dim
+  s1*4\mp
+
+  s8\mp
+  s4.*16
+  s4.*4\mf
+  s4.*4\f
+  s4.\mf
+  s8\> s2 s8\!
+  s4.*3\mp
+  s8\> s4 s4\!\p
+
+  s4\mp
+  s2.*7
+  s2 s4\p
+  s2.*4
+  s8\< s4*5 s8\!
+  s4\> s1 s4\!\mp
+  s2.*2\cresc
+  s2.*4\mf
+  s8\> s2 s8\!
+  s2.
+  s8\< s4*5 s8\!
+  s2.*2\f
+  s8\> s4*5 s8\!
+  s2.*2\mp
 }

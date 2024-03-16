@@ -231,4 +231,119 @@ va = \relative c' {
   a g f
   e d e
   c2. \bar "|."
+
+  \introh
+  e2 g4 h
+  a2 fis
+  r8 fis a[ fis] dis4 h
+  g'2 e
+
+  e g4 h
+  a2 e
+  r8 fis g[ a] h4 fis
+  e1
+  e'
+
+  r8 e d?[ c] c h4 a8
+  h1~
+  h
+  a
+
+  r8 fis g[ a] c h4 ais8
+  h1~
+  h
+  e
+
+  r8 e d[ c] c h4 a?8
+  h1~
+  h
+  fis
+
+  r8 fis g[ a] c h4 fis16 g
+  e1~
+  e
+
+  r8 e fis[ e] g e g h
+  h4 a2. \rit
+  r8 fis g[ a] c h a g
+  fis4 e2. \bar "|."
+
+  \introi
+  \partial 8 h'16 c
+  d8. d16 d8
+  g g h,
+  c8. h16 a8
+  c4 a16 h
+  c8. d16 e8
+  fis e d
+  c8. h16 a8
+
+  d4 d8
+  h'8. a16 g8
+  h8. a16 g8
+  fis8. e16 dis8
+  e4 d!16 c
+  h8. c16 h c
+  a8. h16 a h
+  g4.~
+
+  g
+  g'8-. g-. g-.
+  e-. e-. e-.
+  c-. h8.( a16)
+  c4.
+  a'8-. a-. a-.
+  fis-. fis-. fis-.
+  d-. cis8.( c16)
+
+  h4.
+  h'8-. h-. h-.
+  gis-. gis-. gis-.
+  a-. h8.( a16)
+  c4.
+
+  fis,8-. fis-. fis-.
+  e8.( fis16 d a')
+  g8 g8. h16
+  \partial 4 <h, g'>4\fermata \bar "|."
+
+  \introj
+  \partial 4 c,
+  f2 e4
+  f2 c4
+  b'2 g4
+  e2 d8 e
+
+  c2 d8 e
+  c4 e b'
+  a2 g4
+  f2 c'4
+  d,2 c'4
+  b2 c8 d
+
+  c2 f4
+  a,2.
+  d,4 e f
+  g b d
+  a2.
+  g2 c,4
+
+  a' f a
+  c2.
+  d4 e f
+  c2.
+  b4 c d
+  d, e f
+
+  a2 b8 a
+  g2 f4
+  d' e f
+  c2.
+  a'4 g a
+
+  f2.
+  d4 c b
+  a b4. g8
+  f2.~
+  f \bar "|."
 }
