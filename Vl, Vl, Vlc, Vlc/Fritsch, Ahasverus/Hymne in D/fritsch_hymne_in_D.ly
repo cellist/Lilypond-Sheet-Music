@@ -5,7 +5,7 @@
 
 \header {
   title     = \markup \bold \italic "Hymne in D-Dur"
-  composer  = "Ahasverus Frisch (1629-1701)"
+  composer  = "Ahasverus Fritsch (1629-1701)"
   arranger  = "arr.: Jérémie Brenner"
   enteredby = "cellist (2024-03-16)"
   piece     = "Hymnen und Gesänge, Nr. 178"
@@ -74,7 +74,7 @@ music = \new StaffGroup <<
     oddFooterMarkup = \markup {
       \fill-line {
         \if \should-print-page-number
-        "Ahasverus Frisch - Hymne in D-Dur" \fromproperty #'page:page-number-string
+        "Ahasverus Fritsch - Hymne in D-Dur" \fromproperty #'page:page-number-string
       }
     }
     evenFooterMarkup = \oddFooterMarkup
