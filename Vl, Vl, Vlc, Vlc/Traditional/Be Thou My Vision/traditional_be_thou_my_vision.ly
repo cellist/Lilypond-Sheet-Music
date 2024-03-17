@@ -1,7 +1,7 @@
 \version "2.24.1"
 \include "deutsch.ly"
 
-#(set-global-staff-size 18.25)
+#(set-global-staff-size 20.5)
 
 \header {
   title     = \markup \bold \italic "\"Be Thou My Vision\""
