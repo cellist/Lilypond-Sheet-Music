@@ -4,7 +4,7 @@
 #(set-global-staff-size 19)
 
 \header {
-  title     = \markup \bold \italic "Zwei Kinderlieder"
+  title     = \markup \bold \italic "Drei Kinderlieder"
   composer  = "Johannes Brahms (1833-1897)"
   arranger  = "arr.: Pierre Montreuille"
   enteredby = "cellist (2024-04-10)"
@@ -28,11 +28,14 @@ mivl = "violin"
 miba = "cello"
 mipz = "pizzicato strings"
 
+arco = \markup \italic "arco"
 dcaf = \mark \markup \box \italic "D.C. al Fine"
 fine = \mark \markup \box \italic "Fine"
+pizz = \markup \italic "pizz."
 
-introa = {        \tempo "\"Dornröschen\" - Andante "     4=70 }
-introb = { \break \tempo "\"Dem Schutzengel\" - Andante " 4=90 \time 3/4 \key g \major }
+introa = {        \tempo "\"Dornröschen\" - Andante "       4=70 }
+introb = { \break \tempo "\"Dem Schutzengel\" - Andante "   4=90  \time 3/4 \key g \major }
+introc = { \break \tempo "\"Die Nachtigall\" - Allegretto " 8=120 \time 3/8 }
 
 \include "v1.ily"
 \include "v2.ily"
@@ -75,7 +78,7 @@ music = \new StaffGroup <<
     oddFooterMarkup = \markup {
       \fill-line {
         \if \should-print-page-number
-        "Johannes Brahms - Zwei Kinderlieder" \fromproperty #'page:page-number-string
+        "Johannes Brahms - Drei Kinderlieder" \fromproperty #'page:page-number-string
       }
     }
     evenFooterMarkup = \oddFooterMarkup

@@ -41,4 +41,30 @@ va = \relative c'' {
     a4.( h8) g( fis)
     e( fis) g4 r
   }
+
+  \introc
+  \repeat volta 2 {
+    h8^\arco h h
+    c( h) c
+    d( h g) \breathe
+    h h h
+    c( h) c
+    d4 r8
+    h h16 h h8
+    \acciaccatura d c h c
+
+    d( h) g \breathe
+    h h h
+    \acciaccatura d c c16( h) c( a)
+    g4 r8
+    \acciaccatura g' f f16( e) f( d)
+    \acciaccatura d8 c c16( h) c( a)
+    \acciaccatura g8 fis? fis16( e) fis( d)
+  }
+
+  f8 f16[ e f d]
+  c8 r4
+  \set Staff.midiInstrument = \mipz
+  d'8^\pizz r d
+  h' r4 \bar "|."
 }

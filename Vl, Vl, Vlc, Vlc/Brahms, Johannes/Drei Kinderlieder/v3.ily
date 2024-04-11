@@ -42,4 +42,32 @@ vc = \relative c' {
     c2 h8 a
     a4 g r
   }
+
+  \introc
+  \set Staff.midiInstrument = \mipz
+  \repeat volta 2 {
+    h8^\pizz r h
+    a r a
+    h r4
+    d8 r d
+    c r c
+    d r4
+    g8 r g
+    g r g
+
+    d r4
+    g,8 r g
+    a r fis
+    g r4
+    h8 r h
+    c r c
+    d r d
+  }
+
+  a r4
+  \set Staff.midiInstrument = \miba
+  r8 c16^\arco h c a
+  fis8 r4
+  \set Staff.midiInstrument = \mipz
+  g8^\pizz r4 \bar "|."
 }

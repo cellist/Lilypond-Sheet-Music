@@ -41,4 +41,33 @@ vd = \relative c {
     c2.
     d4 g, r
   }
+
+  \introc
+  \set Staff.midiInstrument = \mipz
+  \repeat volta 2 {
+    g'8^\pizz r g
+    g r g
+    g r4
+    g8 r g
+    g r g
+    g r4
+    g8 r g
+    c r c
+
+    g r4
+    e8 r e
+    c r d
+    g, r4
+    g8 r g
+    g r g
+    g r g
+  }
+
+  g r4
+  R4.
+  g8
+  \set Staff.midiInstrument = \miba
+  fis'16[^\arco e fis d]
+  \set Staff.midiInstrument = \mipz
+  g,8^\pizz r4 \bar "|."
 }

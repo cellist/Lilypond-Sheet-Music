@@ -40,5 +40,31 @@ vb = \relative c' {
     h, c h
     e2.
     c4 h r
-  }  
+  }
+
+  \introc
+  \set Staff.midiInstrument = \mipz
+  \repeat volta 2 {
+    <g' h>8^\pizz r <g h>
+    <c, g'> r <c g'>
+    <d g> r4
+    <h' d>8 r <h d>
+    <g e'> r <g e'>
+    <c fis> r4
+    <d g>8 r <d g>
+    <e g> r <e g>
+
+    <h g'> r4
+    e,8 r e
+    e r d
+    h r4
+    g'8 r g
+    e r e
+    c r c
+  }
+
+  <g' h> r <g h>
+  <e c'> r <e c'>
+  <a c> r <a c>
+  <g h> r4 \bar "|."
 }
