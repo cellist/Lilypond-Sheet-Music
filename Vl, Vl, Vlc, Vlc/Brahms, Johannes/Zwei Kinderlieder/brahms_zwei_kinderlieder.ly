@@ -4,11 +4,11 @@
 #(set-global-staff-size 19)
 
 \header {
-  title     = \markup \bold \italic "Dornröschen"
+  title     = \markup \bold \italic "Zwei Kinderlieder"
   composer  = "Johannes Brahms (1833-1897)"
   arranger  = "arr.: Pierre Montreuille"
   enteredby = "cellist (2024-04-10)"
-  piece     = "6 Kinderlieder"
+  piece     = "aus: \"6 Kinderlieder\""
 }
 
 voiceconsts = {
@@ -21,7 +21,6 @@ voiceconsts = {
 %  \set Timing.beamExceptions = #'()
 %  \set Timing.baseMoment     = #(ly:make-moment 1 4)
 %  \set Timing.beatStructure  = #'(1 1 1)
-  \tempo "Andante " 4=70
 }
 
 mist = "string ensemble 1"
@@ -31,6 +30,9 @@ mipz = "pizzicato strings"
 
 dcaf = \mark \markup \box \italic "D.C. al Fine"
 fine = \mark \markup \box \italic "Fine"
+
+introa = {        \tempo "\"Dornröschen\" - Andante "     4=70 }
+introb = { \break \tempo "\"Dem Schutzengel\" - Andante " 4=90 \time 3/4 \key g \major }
 
 \include "v1.ily"
 \include "v2.ily"
@@ -73,7 +75,7 @@ music = \new StaffGroup <<
     oddFooterMarkup = \markup {
       \fill-line {
         \if \should-print-page-number
-        "Johannes Brahms - Dornröschen" \fromproperty #'page:page-number-string
+        "Johannes Brahms - Zwei Kinderlieder" \fromproperty #'page:page-number-string
       }
     }
     evenFooterMarkup = \oddFooterMarkup
