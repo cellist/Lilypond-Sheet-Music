@@ -1,10 +1,10 @@
 \version "2.24.3"
 \include "deutsch.ly"
 
-#(set-global-staff-size 24)
+#(set-global-staff-size 20)
 
 \header {
-  title     = \markup \bold \italic "Jigg in a-moll"
+  title     = \markup \bold \italic "Menuett und Jigg in a-moll"
   composer  = "Unbekannt"
 %  arranger  = ""
   enteredby = "cellist (2024-06-21)"
@@ -13,7 +13,7 @@
 
 voiceconsts = {
   \key a \minor
-  \time 6/8
+  \time 3/4
   \clef "bass"
 %  \numericTimeSignature
   \compressEmptyMeasures
@@ -21,13 +21,15 @@ voiceconsts = {
 %  \set Timing.beamExceptions = #'()
 %  \set Timing.baseMoment     = #(ly:make-moment 1 4)
 %  \set Timing.beatStructure  = #'(1 1 1)
-  \tempo 4.=80
 }
 
 mist = "string ensemble 1"
 mivl = "violin"
 miba = "cello"
 mipz = "pizzicato strings"
+
+introa = {        \tempo "1. Menuett " 4=120 }
+introb = { \break \tempo "2. Jigg "   4.=80 \time 6/8 }
 
 \include "v1.ily"
 
@@ -49,7 +51,7 @@ music = \new StaffGroup <<
     oddFooterMarkup = \markup {
       \fill-line {
         \if \should-print-page-number
-        "Unbekannt - Jigg in a-moll" \fromproperty #'page:page-number-string
+        "Unbekannt - Menuett und Jigg in a-moll" \fromproperty #'page:page-number-string
       }
     }
     evenFooterMarkup = \oddFooterMarkup
