@@ -30,9 +30,9 @@ miba = "cello"
 % mikl = "church organ"
 mikl = "concertina"
 
-boxaa = \mark \markup \box \italic { A \super 0 }
-boxab = { \bar "||" \mark \markup \box \italic { A \super 1 } }
-boxac = { \bar "||" \mark \markup \box \italic { A \super 2 } }
+boxaa = \mark \markup \box \italic "A"
+boxab = { \bar "||" \mark \markup \box \italic "A'" }
+boxac = { \bar "||" \mark \markup \box \italic "A''" }
 boxb  = \mark \markup \box \italic "B"
 boxc  = { \bar "||" \mark \markup \box \italic "C" }
 
