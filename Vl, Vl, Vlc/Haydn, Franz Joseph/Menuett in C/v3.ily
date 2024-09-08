@@ -7,11 +7,11 @@ vc = \relative c {
   e f e
   d g c,
   g r h'\<
-  a g f\!
+  a g fis\!
   g e c\sf
   d d8 d d4
   g r c,8\p r
-  h r c r f r
+  h r c r f? r
 
   e r f r e r
   d r g r c, r

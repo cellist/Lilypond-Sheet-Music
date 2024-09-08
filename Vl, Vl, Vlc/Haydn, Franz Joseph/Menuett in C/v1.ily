@@ -6,8 +6,8 @@ va = \relative c'' {
   c a' g
   f d \acciaccatura f8 e4
   d r g\<
-  fis g a
-  h\! g c\sf
+  fis g a\!
+  h g c\sf
   h2 a4
   g r e8\p r
   f? r e r d r

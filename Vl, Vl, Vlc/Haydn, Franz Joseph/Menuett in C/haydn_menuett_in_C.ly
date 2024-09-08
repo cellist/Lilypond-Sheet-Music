@@ -1,4 +1,4 @@
-\version "2.20.2"
+\version "2.24.4"
 \include "deutsch.ly"
 
 #(set-global-staff-size 19.5)
@@ -65,7 +65,7 @@ music = \new StaffGroup <<
     evenHeaderMarkup = \markup \null
     oddFooterMarkup = \markup {
       \fill-line {
-        \on-the-fly #print-page-number-check-first
+	\if \should-print-page-number
         "Franz Joseph Haydn - Menuett in C-Dur" \fromproperty #'page:page-number-string
       }
     }

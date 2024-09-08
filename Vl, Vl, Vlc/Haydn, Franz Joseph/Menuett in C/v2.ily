@@ -7,8 +7,8 @@ vb = \relative c'' {
   c2 cis4
   d h c!
   h r d\<
-  d2 c4
-  h2\! e4\sf
+  d2 c4\!
+  h2 e4\sf
   d2 c4
   h r c8\p r
   d r c r h r
