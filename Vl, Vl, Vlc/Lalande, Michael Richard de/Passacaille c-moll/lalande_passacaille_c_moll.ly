@@ -4,8 +4,8 @@
 #(set-global-staff-size 18)
 
 \header {
-  title     = \markup \bold \italic "Passacaille"
-  composer  = "Michel de Lalande (1657-1726)"
+  title     = \markup \bold \italic "Passacaille c-moll"
+  composer  = "Michel Richard de Lalande (1657-1726)"
   arranger  = "arr.: Carol Olson"
   enteredby = "cellist (2024-09-22)"
 %  piece     = ""
@@ -44,19 +44,19 @@ music = \new StaffGroup <<
       \new Staff {
 	\set Staff.midiInstrument = \mivl
 	\set Staff.instrumentName = \markup \center-column { "Violine" "I" }
-	\transpose c d { \va }
+	\transpose c c { \va }
       }
 
       \new Staff {
 	\set Staff.midiInstrument = \mivl
 	\set Staff.instrumentName = \markup \center-column { "Violine" "II" }
-	\transpose c d { \vb }
+	\transpose c c { \vb }
       }
 
       \new Staff {
 	\set Staff.midiInstrument = \mivc
 	\set Staff.instrumentName = \markup \center-column { "Violon-" "cello" }
-	\transpose c d, { \vc }
+	\transpose c c { \vc }
       }
 >>
 
@@ -70,7 +70,7 @@ music = \new StaffGroup <<
     oddFooterMarkup = \markup {
       \fill-line {
         \if \should-print-page-number
-        "Michel de Lalande - Passacaille" \fromproperty #'page:page-number-string
+        "Michel Richard de Lalande - Passacaille c-moll" \fromproperty #'page:page-number-string
       }
     }
     evenFooterMarkup = \oddFooterMarkup
