@@ -29,6 +29,6 @@ va = \relative c'' {
   e8 dis16 cis dis e fis8 fis4~
   fis16 e fis g a8 g fis e
   dis16 h c?8~ c h16 a g8 fis
-  h a16 h c8 h a g \rit
+  h a16 h \rit c8 h a g
   fis16\prall e fis g \dc e2 \bar "|."
 }

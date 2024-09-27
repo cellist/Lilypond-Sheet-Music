@@ -29,6 +29,6 @@ vb = \relative c'' {
   fis,4 r8 c'! h a
   g a16 h c8 h a g
   fis e dis4 r
-  g16 e fis g a8 g fis e \rit
+  g16 e fis g \rit a8 g fis e
   dis4 \dc r8 h' g4\turn \bar "|."
 }

@@ -30,6 +30,6 @@ vc = \relative c' {
   h8 h, h' a g! a!16 h
   c8 h a h c a
   h4 h,8 c h a
-  g e a h c a \rit
+  g e \rit a h c a
   h4 \dc e, h' \bar "|."
 }
