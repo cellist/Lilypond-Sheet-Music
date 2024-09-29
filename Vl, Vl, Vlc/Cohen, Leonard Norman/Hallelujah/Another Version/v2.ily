@@ -25,8 +25,8 @@ vb = \relative c' {
 
     h
     a4. a
-    R2.
-    f4. f4 e8
+    << R2. \\ { s4. \third s } >>
+    f f4 e8
     f4. r
     c c8 h c
     e4. r

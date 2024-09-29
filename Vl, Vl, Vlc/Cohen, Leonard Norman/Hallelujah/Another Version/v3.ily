@@ -1,4 +1,4 @@
-vc = \relative c' {
+vc = \relative c {
   \voiceconsts
   \clef "bass"
 
@@ -11,7 +11,7 @@ vc = \relative c' {
     c4.~ c4 h8
     a4.~ a4 h8
     c4.~ c4 h8
-    a4.~ a4 g8
+    a4.~ a4 g'8
 
     f4.~ f4 f8
     g4.~ g4 g8
@@ -26,7 +26,7 @@ vc = \relative c' {
 
     gis4. gis'
     a~ a4 d,8
-    a4. r
+    a4. \third r
     f2.
     f
     c'

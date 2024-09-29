@@ -1,7 +1,7 @@
 vb = \relative c' {
   \voiceconsts
 
-  f4 f g8( f)
+  f4\mp f g8( f)
   d4 c d
   f f g
   a2 r4

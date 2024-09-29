@@ -24,7 +24,7 @@ va = \relative c' {
 
     e4. e4 d8
     d4. c~
-    c e,4 g8
+    c \third e,4 g8
     a4. a~
     a a4 g8
     e4. e~

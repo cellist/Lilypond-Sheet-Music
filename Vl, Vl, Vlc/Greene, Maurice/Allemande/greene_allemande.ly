@@ -1,33 +1,39 @@
 \version "2.24.4"
 \include "deutsch.ly"
   
-#(set-global-staff-size 19)
+#(set-global-staff-size 18.5)
 
 \header {
-  title     = \markup \bold \italic "Hallelujah"
-  composer  = "Leonard Norman Cohen (1934-2016)"
-  arranger  = "arr.: Jhonata Lino"
-  enteredby = "cellist (2021-03-11)"
+  title     = \markup \bold \italic "Allemande"
+  subtitle  = "(Original in c-moll)"
+  composer  = "Maurice Greene (1695-1755)"
+  arranger  = "arr.: Harry Wall"
+  enteredby = "cellist (2024-09-28)"
 %  piece     = ""
 }
 
 voiceconsts = {
-  \key c \major
-  \time 6/8
+  \key c \minor
+  \time 4/4
   \clef "treble"
-% \numericTimeSignature
+  \numericTimeSignature
   \compressEmptyMeasures
-  % Set default beaming for all staves
+% Set default beaming for all staves
 %  \set Timing.beamExceptions = #'()
 %  \set Timing.baseMoment     = #(ly:make-moment 1 4)
 %  \set Timing.beatStructure  = #'(1 1 1)
-  \tempo "Andantino " 4.=63
+  \tempo "Gay " 4=116
 }
 
 mivl = "violin"
-miba = "cello"
+miva = "viola"
+mipz = "pizzicato strings"
+mivc = "cello"
 
-third = \mark \markup \box \italic "3. ==>"
+boxa = { \bar "||" \mark \markup \box \italic "A" \key c \major }
+boxb = { \bar "||" \mark \markup \box \italic "B" \key c \minor }
+
+rit = \mark \markup \box \italic "rit."
 
 \include "v1.ily"
 \include "v2.ily"
@@ -37,19 +43,19 @@ music = \new StaffGroup <<
       \new Staff {
 	\set Staff.midiInstrument = \mivl
 	\set Staff.instrumentName = \markup \center-column { "Violine" "I" }
-	\transpose c f { \va }
+	\transpose c d { \va }
       }
-      
+
       \new Staff {
 	\set Staff.midiInstrument = \mivl
 	\set Staff.instrumentName = \markup \center-column { "Violine" "II" }
-	\transpose c f { \vb }
+	\transpose c d { \vb }
       }
-      
+
       \new Staff {
-	\set Staff.midiInstrument = \miba
+	\set Staff.midiInstrument = \mivc
 	\set Staff.instrumentName = \markup \center-column { "Violon-" "cello" }
-	\transpose c f { \vc }
+	\transpose c d { \vc }
       }
 >>
 
@@ -63,7 +69,7 @@ music = \new StaffGroup <<
     oddFooterMarkup = \markup {
       \fill-line {
         \if \should-print-page-number
-        "Leonard Norman Cohen - Hallelujah" \fromproperty #'page:page-number-string
+        "Maurice Greene - Allemande" \fromproperty #'page:page-number-string
       }
     }
     evenFooterMarkup = \oddFooterMarkup
