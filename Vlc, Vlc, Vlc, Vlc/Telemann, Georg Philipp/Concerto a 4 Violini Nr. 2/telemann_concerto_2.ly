@@ -1,7 +1,7 @@
-\version "2.18.2"
+\version "2.24.4"
 \include "deutsch.ly"
 
-#(set-global-staff-size 16.5)
+#(set-global-staff-size 18.5)
 
 \header {
   title     = \markup \bold \italic "Concerto à 4 Violini"
@@ -17,15 +17,15 @@ voiceconsts = {
  \time 4/4
  \clef "bass"
 % \numericTimeSignature
- \compressFullBarRests
+ \compressEmptyMeasures
 }
 
 mivc = "cello"
 
-introa = {        \tempo "1. Adagio "  4=60 }
-introb = { \break \tempo "2. Allegro " 4=90 }
-introc = { \break \tempo "3. Grave "   2=60  \time 3/2 }
-introd = { \break \tempo "4. Allegro " 4=100 \time 2/2 }
+introa = {            \tempo "1. Adagio "  4=60 }
+introb = { \break     \tempo "2. Allegro " 4=90 }
+introc = { \break     \tempo "3. Grave "   2=60  \time 3/2 }
+introd = { \pageBreak     \tempo "4. Allegro " 4=100 \time 2/2 }
 
 \include "v1.ily"
 \include "v2.ily"
@@ -67,7 +67,7 @@ music = \new StaffGroup <<
     evenHeaderMarkup = \markup \null
     oddFooterMarkup = \markup {
       \fill-line {
-        \on-the-fly #print-page-number-check-first
+        \if \should-print-page-number
         "Georg Philipp Telemann: Concerto à 4 Violini" \fromproperty #'page:page-number-string
       }
     }
