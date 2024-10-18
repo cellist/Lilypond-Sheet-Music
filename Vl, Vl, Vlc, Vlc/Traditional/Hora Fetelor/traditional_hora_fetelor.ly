@@ -1,13 +1,13 @@
-\version "2.22.0"
+\version "2.24.4"
 \include "deutsch.ly"
   
-#(set-global-staff-size 17)
+#(set-global-staff-size 18)
 
 \header {
   title     = \markup \bold \italic "Hora Fetelor"
-  composer  = "(rumänischer Tanz)"
+  composer  = "Rumänischer Tanz"
   arranger  = "arr.: Heinz Christian"
-  enteredby = "cellist (2022-11-07)"
+  enteredby = "cellist (2024-10-18)"
 %  piece     = ""
 }
 
@@ -17,21 +17,20 @@ voiceconsts = {
   \clef "treble"
 %  \numericTimeSignature
   \compressEmptyMeasures
-  % Set default beaming for all staves
+% Set default beaming for all staves
 %  \set Timing.beamExceptions = #'()
 %  \set Timing.baseMoment     = #(ly:make-moment 1 4)
 %  \set Timing.beatStructure  = #'(1 1 1)
-  \tempo "Allegro " 4.=100
+  \tempo 4.=100
 }
 
-mifl = "flute"
 mivl = "violin"
-miba = "cello"
-mipz = "pizzicato strings"
+miva = "viola"
+mivc = "cello"
 
-dcaf = \mark \markup \box \italic "D.C. al Fine"
-fine = \mark \markup \box \italic "Fine"
-rit  = \mark \markup \box \italic "rit."
+das = \mark \markup \box \italic "D.S."
+fin = \mark \markup \box \italic "Fine"
+rit = \mark \markup \box \italic "rit."
 
 \include "v1.ily"
 \include "v2.ily"
@@ -42,29 +41,30 @@ music = \new StaffGroup <<
       \new Staff {
 	\set Staff.midiInstrument = \mivl
 	\set Staff.instrumentName = \markup \center-column { "Violine" "I" }
-	\transpose g g { \va }
+	\transpose a a { \va }
       }
 
       \new Staff {
 	\set Staff.midiInstrument = \mivl
 	\set Staff.instrumentName = \markup \center-column { "Violine" "II" }
-	\transpose g g { \vb }
+	\transpose a a { \vb }
       }
 
       \new Staff {
-	\set Staff.midiInstrument = \miba
+	\set Staff.midiInstrument = \mivc
 	\set Staff.instrumentName = \markup \center-column { "Violon-" "cello I" }
-	\transpose g g { \vc }
+	\transpose a a { \vc }
       }
 
       \new Staff {
-	\set Staff.midiInstrument = \miba
+	\set Staff.midiInstrument = \mivc
 	\set Staff.instrumentName = \markup \center-column { "Violon-" "cello II" }
-	\transpose g g { \vd }
+	\transpose a a { \vd }
       }
 >>
+
 \book {
-   \paper {
+  \paper {
     print-page-number = ##t
     print-first-page-number = ##t
     ragged-last-bottom = ##f
@@ -72,7 +72,7 @@ music = \new StaffGroup <<
     evenHeaderMarkup = \markup \null
     oddFooterMarkup = \markup {
       \fill-line {
-        \on-the-fly #print-page-number-check-first
+        \if \should-print-page-number
         "Traditional - Hora Fetelor" \fromproperty #'page:page-number-string
       }
     }

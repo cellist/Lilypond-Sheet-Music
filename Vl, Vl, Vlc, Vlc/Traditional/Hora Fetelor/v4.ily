@@ -4,21 +4,22 @@ vd = \relative c {
   
   \partial 8 r8
   \repeat volta 2 {
-    g2.
-    f e4. gis
+    g2.\f\segno
+    f
+    e4. gis
     a2.
     es
     a
-    g?
+    g
 
     d
-    g
+    g?
     f
     e?4. gis
     a2.
     es
-    a \fine
-    g \bar "||"
+    a \fin
+    g?
   }
   \alternative {
     { g }
@@ -31,21 +32,23 @@ vd = \relative c {
     e?
     a
     es
-
     a
+
     d,4. fis?
     g2.
     c
     g
-    e?
+    e
     a
     es
-
     a
-    g4. d
+
+
+    g4.
+    d
   }
   \alternative {
     { g2. }
-    { g4.~ \dcaf g }
-  } \bar "||"
+    { g4. \das g }
+  } \bar "|."
 }
