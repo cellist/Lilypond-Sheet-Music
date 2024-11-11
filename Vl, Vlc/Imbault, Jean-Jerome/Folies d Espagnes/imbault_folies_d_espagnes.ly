@@ -47,6 +47,12 @@ boxo = { \bar "||" \mark \markup \box \italic "O" }
 boxp = { \bar "||" \mark \markup \box \italic "P" }
 boxq = { \bar "||" \mark \markup \box \italic "Q" }
 boxr = { \bar "||" \mark \markup \box \italic "R" }
+boxs = { \bar "||" \mark \markup \box \italic "S" }
+boxt = { \bar "||" \mark \markup \box \italic "T" }
+boxu = { \bar "||" \mark \markup \box \italic "U" }
+boxv = { \bar "||" \mark \markup \box \italic "V" }
+boxw = { \bar "||" \mark \markup \box \italic "W" }
+boxx = { \bar "||" \mark \markup \box \italic "X" }
 
 \include "v1.ily"
 \include "v2.ily"

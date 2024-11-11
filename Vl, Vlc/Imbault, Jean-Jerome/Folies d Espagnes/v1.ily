@@ -307,7 +307,123 @@ va = \relative c'' {
   f16( e f) g f8 a f c
   e16( d e) f e8 g e cis
   d16( cis d) e d8 f a, cis
-  d4 d,2
+  d4 d,2 \boxq
+
+  d'4 a16( g f e) d8 d'
+  cis4 e,16( d cis h) a8 cis'
+  d4 a16( g f e) d8 d'
+  e4 g,16( f e d) c8 e'
+  f4 c?16( b? a g) f8 f'
+
+  e4 g,16( f e d) cis8 e'
+  d4 a16( g f e) d8 d'
+  cis4 e,16( d cis h) a8 cis'
+  d4 a16( g f e) d8 d'
+  cis4 e,16( d cis h) a8 cis'
+
+  d4 a16( g f e) d8 d'
+  e4 g,16( f e d) c8 e'
+  f4 c16( b? a g) f8 f'
+  e4 g,16( f e d) cis8 g''
+  f e f d cis4\trill
+  d2. \boxr
+
+  \repeat unfold 3 { f16( e f) d-! }
+  \repeat percent 3 { e( d e) cis-! }
+  \repeat percent 3 { f( e f) d-! }
+  \repeat percent 3 { g( f g) e-! }
+  \repeat percent 3 { a( g a) f-! }
+  
+  \repeat percent 3 { g( f g) e-! }
+  \repeat percent 3 { f( e f) d-! }
+  \repeat percent 3 { cis( h cis) a-! }
+  \repeat percent 3 { f'( e f) d-! }
+  \repeat percent 3 { cis( h cis) a-! }
+  
+  \repeat percent 3 { f'( e f) d-! }
+  \repeat percent 3 { g( f g) e-! }
+  \repeat percent 3 { a( g a) f-! }
+  \repeat percent 3 { g( f g) e-! }
+  f8 d cis4.\trill d8
+  d2. \boxs
+  
+  \tuplet 3/2 4 {
+    d8 cis d f e d a' f d
+    cis h a e' d cis a' e cis
+    d cis d f e d a' g f
+    e d c! g' f e c' g e
+    f e f a g f c' a f
+
+    e d c c' g e g f e
+    d cis d b' a g f e d
+    cis h a e' d cis a' e cis
+    d cis d f e d a' f d
+    cis h a e' d cis a' e cis
+
+    d cis d f e d a' g f
+    e d c? g' f e c' g e
+    f e f a g f c' a f
+    e d c b' a g f e cis
+    d a g f e d a' e' cis
+    d a' f d a f
+  } d4 \boxt
+
+  d'16( cis d) e d8 f d f
+  e cis <a, e'>4 r
+  d'16( cis d) e d8 f d f
+  e c! <c, e>4 r
+  f'16( e f) g f8 a f a
+  g e <cis, e>4 r
+
+  d'16( cis d) e d8 f d f
+  e cis <a, e'>4 r
+  d'16( cis d) e d8 f d f
+  e cis <a, e'>4 r
+  d'16( cis d) e d8 f d f
+  e c! <c, e>4 r
+
+  f'16( e f) g f8 a f a
+  g e <cis, e>4 r
+  d'16( cis d) e d8 f cis e
+  d a <a, f' d'>4 r \boxu
+
+  d'16( cis d) e f8 d d, d'
+  cis16( h cis d) e8 cis a, cis'
+  d16( cis d e) f8 d d, d'
+  e16( d e f) g8 e c,! e'
+  f16( e f g) a8 f c, f'
+
+  e16( d e f) g8 e cis, e'
+  d16( cis d e) f8 d d, d'
+  cis16( h cis d) e8 cis a, cis'
+  d16( cis d e) f8 d d, d'
+  cis16( h cis d) e8 cis a, cis'
+
+  d16( cis d e) f8 d d, d'
+  e16( d e f) g8 e c,! e'
+  f16( e f g) a8 f c, f'
+  e16( d e f) g8 e cis, e'
+  d16( cis d e) f8 d a, cis'
+  d a d,4 r \boxv
+
+  \repeat unfold 3 { d'16 f a f }
+  \repeat percent 3 { cis e g e }
+  \repeat percent 3 { d f a f }
+  \repeat percent 3 { e g b g }
+  \repeat percent 3 { f a c a }
+  
+  \repeat percent 3 { e g b g }
+  \repeat percent 3 { d f a f }
+  \repeat percent 3 { cis e g e }
+  \repeat percent 3 { d f a f }
+  \repeat percent 3 { cis e g e }
+  
+  \repeat percent 3 { d f a f }
+  \repeat percent 3 { e g b g }
+  \repeat percent 3 { f a c a }
+  \repeat percent 3 { e g b g }
+  f8 d cis4.\trill d8
+  d2.
   
   \bar "|."
 }
