@@ -199,22 +199,20 @@ va = \relative c'' {
   d4 \tuplet 3/2 4 { d8 a d cis a cis }
   \tuplet 3/2 4 { d a f } d2 \boxk
 
-  \tuplet 3/2 4 {
-    d'8 e f d e f d e f
-    \repeat percent 3 { cis d e }
-    \repeat percent 3 { d e f }
-    \repeat percent 3 { e f g }
-    \repeat percent 3 { f g a }
-    \repeat percent 3 { e f g }
-    \repeat percent 3 { d e f }
-
-    \repeat percent 3 { cis d e }
-    \repeat percent 3 { d e f }
-    \repeat percent 3 { cis d e }
-    \repeat percent 3 { d e f }
-    \repeat percent 3 { e f g }
-    \repeat percent 3 { f g a }
-  }
+  \repeat unfold 3 \tuplet 3/2 4 { d'8 e f }
+  \repeat percent 3 \tuplet 3/2 4 { cis d e }
+  \repeat percent 3 \tuplet 3/2 4 { d e f }
+  \repeat percent 3 \tuplet 3/2 4 { e f g }
+  \repeat percent 3 \tuplet 3/2 4 { f g a }
+  \repeat percent 3 \tuplet 3/2 4 { e f g }
+  \repeat percent 3 \tuplet 3/2 4 { d e f }
+  
+  \repeat percent 3 \tuplet 3/2 4 { cis d e }
+  \repeat percent 3 \tuplet 3/2 4 { d e f }
+  \repeat percent 3 \tuplet 3/2 4 { cis d e }
+  \repeat percent 3 \tuplet 3/2 4 { d e f }
+  \repeat percent 3 \tuplet 3/2 4 { e f g }
+  \repeat percent 3 \tuplet 3/2 4 { f g a }
   g4. a8 b a
   g f e4.\trill d8
   d2. \boxl
@@ -253,7 +251,63 @@ va = \relative c'' {
   f f, a c f a
   e c, e g cis e
   \tuplet 3/2 4 { f e d } cis4.\trill d8
-  d2.
+  d2. \boxn
+
+  d8 d16 e f8 e f d
+  cis cis16 d e8 d e cis
+  d d16 e f8 e f d
+  e e16 f g8 f g e
+  f f16 g a8 g a f
+  e e16 f g8 f g e
+  d d16 e f8 e f d
+
+  a a16 h cis8 h cis a
+  d d16 e f8 e f d
+  cis8 cis16 d e8 d e cis
+  d d16 e f8 e f d
+  e e16 f g8 f g e
+  f f16 g a8 g a f
+  e4. g8 f e
+  f d cis4.\trill d8
+  d2. \boxo
+
+  \repeat unfold 3 \tuplet 3/2 4 { f8 d f }
+  \repeat percent 3 \tuplet 3/2 4 { e cis e }
+  \repeat percent 3 \tuplet 3/2 4 { f d f }
+  \repeat percent 3 \tuplet 3/2 4 { g e g }
+  \repeat percent 3 \tuplet 3/2 4 { a f a }
+  
+  \repeat percent 3 \tuplet 3/2 4 { g e g }
+  \repeat percent 3 \tuplet 3/2 4 { f d f }
+  \repeat percent 3 \tuplet 3/2 4 { e cis e }
+  \repeat percent 3 \tuplet 3/2 4 { f d f }
+  \repeat percent 3 \tuplet 3/2 4 { e cis e }
+  \repeat percent 3 \tuplet 3/2 4 { f d f }
+  
+  \repeat percent 3 \tuplet 3/2 4 { g e g }
+  \repeat percent 3 \tuplet 3/2 4 { a f a }
+  \repeat percent 3 \tuplet 3/2 4 { g e g }
+  \tuplet 3/2 4 { f d f h, d d cis e e }
+  \tuplet 3/2 4 { d f d a d a } d,4 \boxp
+
+  d'16( cis d) e d8( f d) a
+  cis16( h cis) d cis8( e cis) a
+  d16( cis d ) e d8( f d) a
+  e'16( d e) f e8( g e) c!
+  f16( e f) g f8( a f) c
+
+  e16( d e) f e8( g e) cis
+  d16( cis d) e d8 f e d
+  cis16( h cis) d cis8 e cis a
+  d16( cis d) e d8 f d a
+  cis16( h cis) d cis8 e cis a
+
+  d16( cis d) e d8 f d a
+  e'16( d e) f e8 g e c!
+  f16( e f) g f8 a f c
+  e16( d e) f e8 g e cis
+  d16( cis d) e d8 f a, cis
+  d4 d,2
   
   \bar "|."
 }

@@ -238,6 +238,57 @@ vb = \relative c {
   f a f
   c e cis
   d f a
+  d,2. \boxn
+  
+  d4 f d
+  a cis a
+  d f d
+  c? e c
+  f a f
+  c e cis
+  d f d
+  a cis a
+  d f d
+  a cis a
+  d f d
+  c? e c
+  f a f
+  c e cis
+  d f a
+  d,2. \boxo
+  
+  d4 f d
+  a cis a
+  d f d
+  c? e c
+  f a f
+  c e cis
+  d f d
+  a cis a
+  d f d
+  a cis a
+  d f d
+  c? e c
+  f a f
+  c e cis
+  d f a
+  d,2. \boxp
+  
+  d4 f d
+  a cis a
+  d f d
+  c? e c
+  f a f
+  c e cis
+  d f d
+  a cis a
+  d f d
+  a cis a
+  d f d
+  c? e c
+  f a f
+  c e cis
+  d f a
   d,2.
   
   \bar "|."

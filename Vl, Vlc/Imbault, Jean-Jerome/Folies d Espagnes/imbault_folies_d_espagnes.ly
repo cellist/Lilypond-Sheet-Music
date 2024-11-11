@@ -1,7 +1,7 @@
 \version "2.24.4"
 \include "deutsch.ly"
   
-#(set-global-staff-size 19)
+#(set-global-staff-size 18)
 
 \header {
   title     = \markup \bold \italic "Les Folies d'Espagnes"
@@ -44,6 +44,9 @@ boxl = { \bar "||" \mark \markup \box \italic "L" }
 boxm = { \bar "||" \mark \markup \box \italic "M" }
 boxn = { \bar "||" \mark \markup \box \italic "N" }
 boxo = { \bar "||" \mark \markup \box \italic "O" }
+boxp = { \bar "||" \mark \markup \box \italic "P" }
+boxq = { \bar "||" \mark \markup \box \italic "Q" }
+boxr = { \bar "||" \mark \markup \box \italic "R" }
 
 \include "v1.ily"
 \include "v2.ily"
