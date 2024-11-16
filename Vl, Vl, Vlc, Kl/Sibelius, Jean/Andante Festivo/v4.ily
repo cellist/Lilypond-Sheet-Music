@@ -79,7 +79,7 @@ vd = \relative c'' {
 
   e_\meno e4 e
   dis4.( d8) d4 c
-  d2 d4.( h8)
+  d2 c4.( h8)
   h2 \papc \acciaccatura e8 c'4 d
   e2 d4 c
   h2 a4.( g8)
