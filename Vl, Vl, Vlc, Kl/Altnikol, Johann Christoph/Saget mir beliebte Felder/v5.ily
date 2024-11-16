@@ -91,7 +91,7 @@ ve = \relative c {
   f(-. f)-. e(-. e)-.
   d(-. d-. d-. d)-.
   d(-. d-. d-. d)-.
-  d c h a
+  d c b a
 
   e' fis gis e
   a,(-. a-. a-. a)-.
