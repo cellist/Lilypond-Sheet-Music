@@ -1,7 +1,7 @@
 \version "2.24.4"
 \include "deutsch.ly"
   
-#(set-global-staff-size 19)
+#(set-global-staff-size 17.5)
 
 \header {
   title     = \markup \bold \italic "London Trio Nr. 1"
@@ -41,9 +41,15 @@ boxi = { \bar "||" \mark \markup \box \italic "I" }
 boxj = { \bar "||" \mark \markup \box \italic "J" }
 boxk = { \bar "||" \mark \markup \box \italic "K" }
 boxl = { \bar "||" \mark \markup \box \italic "L" }
+boxm = { \bar "||" \mark \markup \box \italic "M" }
+boxn = { \bar "||" \mark \markup \box \italic "N" }
+boxo = { \bar "||" \mark \markup \box \italic "O" }
+boxp = { \bar "||" \mark \markup \box \italic "P" }
+boxq = { \bar "||" \mark \markup \box \italic "Q" }
 
 introa = {        \tempo "1. Allegro moderato " 4=100 }
 introb = { \break \tempo "2. Andante " 4.=40 \time 6/8 \key g \major }
+introc = { \break \tempo "3. Vivace "  4=120 \time 2/4 \key c \major }
 
 \include "v1.ily"
 \include "v2.ily"

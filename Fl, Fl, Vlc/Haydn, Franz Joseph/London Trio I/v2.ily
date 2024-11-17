@@ -170,4 +170,126 @@ vb = \relative c' {
   fis a c, h c a h8 r d(
   h) r d h-. h-. h-.
   \partial 8*5 h r4 r \bar "|."
+
+  \introc
+  \repeat volta 2 {
+    \partial 8 r8
+    c-.\p e-. h-. d-.
+    a-. c-. g-. h-.
+    f-. a-. e-. g-.
+    d h'16 c d8 c
+    h4 r \boxm
+    c8-. e-. h-. d-.
+    a-. c-. g-. h-.
+
+    f-. a-. e-. g-.
+    a-. f-. d-. h'-.
+    c4 r8
+  }
+  \repeat volta 2 {
+    e\f
+    d-. d-. d-. c16 h
+    a8-. a-. a-. h-.
+    e,-. e'4 e8
+    a,4 r
+
+    r8 g' g( c,)
+    r fis fis( h,)
+    e c \acciaccatura h a g16 a
+    h4 r8 h16 c
+    d8-. d-. d-. d16 e
+    f?8-. f-. f-. g,16 a \boxn
+    h8-. h-. h-. h16 c
+    d8-. d-. d-. d,16 e
+
+    f8-. f-. f-. r
+    r d'16 e f8 r
+    c-.\p e-. h-. d-.
+    a-. c-. g-. h-.
+    f-. a-. e-. g-.
+    d h'16 c d8 c
+    h4 r
+    e8-. e'-. d-. d,-.
+
+    c-. c'-. h-. h,-.
+    a-. a'-. g-. e,-.
+    a-. f-. d-. h'-.
+    c4 r8
+  }
+  \repeat volta 2 {
+    r
+    c2~\f
+    c
+    d
+    es4 r
+    r8 d d( g,)
+
+    r c c( f,)
+    r h c( fis,)
+    g4 r \boxo
+    g'4. g,8
+    as4. f?8
+    d4. as'8
+    g4 b'~
+    b8 c, as' as
+
+    as b, g' es
+    g f es d
+    es4 r
+    r8 d es( d)
+    r d es( d)
+    c2(
+    h?8) h16 c d8 r
+    r d,16 e? f8 r
+
+    r h16 c d8 r
+    r d16 e f8 r \boxp
+    c-.\p e-. h-. d-.
+    a?-. c-. g-. h-.
+    f-. a-. e-. g-.
+    d h'16 c d8 c
+    h4 r
+
+    c8-. e-. h-. d-.
+    a-. c-. g-. h-.
+    f-. a-. e-. g-.
+    a-. f-. d-. h'-.
+    c4 r8 e\f
+    d-. d-. d-. c16 h
+    a8-. a-. a-. h-.
+    e, e'4 e8
+
+    a,4 r
+    r8 g' g( c,)
+    r fis fis( h,)
+    e c \acciaccatura h a g16 a
+    h4 r8 h16 c
+    d8-. d-. d-. d16 e
+    f?8-. f-. f-. g,16 a
+
+    h8-. h-. h-. h16 c
+    d8-. d-. d-. d,16 e
+    f8-. f-. f-. r
+    r d'16 e f8 r \boxq
+    c16\p e d c h d c h
+    a c h a g h a g
+
+    f a g f e g f e
+    d8 h'16 c d8 c
+    h4 r
+    e8-. e'-. d-. d,-.
+    c-. c'-. h-. h,-.
+    a-. a'-. g-. e,-.
+    a-. f-. d-. h'-.
+
+    c4 r8 c-.\f
+    d-. f-. h,-. d-.
+    c4 r8 c'-.
+    d-. f-. h,-. d-.
+    c4 r8 e16 d
+    c4 r8 g16 f
+    e4 r8 e16 d
+    c4 e
+    \partial 4. e4 r8
+  }
 }

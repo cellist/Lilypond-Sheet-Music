@@ -187,4 +187,117 @@ vc = \relative c' {
   <g g'> <g g'> <g g'> g16 h d g g, g'
   g, h d g g, g' g, h d g d h
   \partial 8*5 g8 r4 r \bar "|."
+
+  \introc
+  \repeat volta 2 {
+    \partial 8 r8
+    R2*3
+    r8 g'\p h, c
+    g g' g, r \boxm
+    R2*2
+    r4. e'8-.
+    f-. d-. g-. g,-.
+
+    c g c,
+  }
+  \repeat volta 2 {
+    c''\f
+    h-. h-. h-. a16 g
+    fis8-. fis-. fis-. g-.
+    c-. c-. c-. cis-.
+    d4 r
+    r8 e e( a,)
+    r d d( g,)
+
+    c? a d d,
+    g g, g g'16 a
+    h8-. h-. h-. h16 c
+    d8-. d-. d-. r \boxn
+    g,,4 r
+    g r8 h'16 c
+    d8-. d-. d-. r
+
+    r h16 c d8 r
+    c,,4\p r
+    R2*2
+    r8 g'' h, c
+    g g' g, r
+    c-. c'-. h-. h,-.
+    a-. a'-. g-. g,-.
+
+    f-. f'-. e-. a-.
+    f-. d-. g-. g,-.
+    c g c,
+  }
+  \repeat volta 2 {
+    c'16\f d
+    es8-. es-. es-. f16 g
+    as8-. as-. as-. g-.
+    f d g f
+    es g c4(
+
+    h b
+    a as
+    g2)
+    g,8 as g f \boxo
+    es es' es es
+    es, es' es es
+    es, es' es es
+
+    es f g f16 g
+    as8 g f es
+    d4 es
+    as, b
+    es,8 es' es, r
+    r h''? c( h)
+    r h c( b)
+
+    as2(
+    g8) g,16 a! h?8 r
+    r h'16 c d8 r
+    r g,16 a h8 r
+    r h16 c d8 r \boxp
+    c,,4\p r
+    R2*2
+
+    r8 g'' h, c
+    g g' g, r
+    R2*2
+    r4. e'8-.
+    f-. d-. g-. g,-.
+    c g c,\f c''
+    h-. h-. h-. a16 g
+
+    fis8-. fis-. fis-. g-.
+    c-. c-. c-. cis-.
+    d4 r
+    r8 e e( a,)
+    r d d( g,)
+    c a d d,
+    g g, g g'16 a
+    h8-. h-. h-. h16 c
+
+    d8-. d-. d-. r
+    g,,4 r
+    g r8 h'16 c
+    d8-. d-. d-. r
+    r h16 c d8 r \boxq
+    c,,4\p r
+    R2*2
+    r8 g'' h, c
+
+    g g' g, r
+    c-. c'-. h-. h,-.
+    a-. a'-. g-. g,-.
+    f-. f'-. e-. a-.
+    f-. d-. g-. d-.
+    c,16 c' c, c' \repeat tremolo 2 { c, c' }
+    \repeat tremolo 4 { c,\f c' }
+    
+    \repeat tremolo 4 { c, c' }
+    \repeat tremolo 4 { c, c' }
+    \repeat percent 3 { c,8 c' e c }
+    c,4 <c c'>
+    \partial 4. <c c'> r8
+  }
 }

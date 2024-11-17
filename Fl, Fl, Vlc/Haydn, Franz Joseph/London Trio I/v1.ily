@@ -173,4 +173,126 @@ va = \relative c'' {
   c( a) fis g r h(
   g) r h g-. g-. g-.
   \partial 8*5 g r4 r \bar "|."
+
+  \introc
+  \repeat volta 2 {
+    \partial 8 e16\p f
+    g8-. g-. g-. g-.
+    c( f,) r e
+    a( d,) r c
+    h16 c d e f8 e
+    d4 r8 e16 f \boxm
+    g8-. g-. g-. g-.
+    c( f,) r e
+
+    a( d,) r c-.
+    d-. f-. h,-. d-.
+    c4 r8
+  }
+  \repeat volta 2 {
+    e16\f fis
+    g8-. g-. g-. a16 h
+    c8-. c-. c-. h-.
+    a-. a-. a-. g-.
+    fis16 g fis e d8 d'
+
+    d( g,) r c
+    c( fis,) r g
+    e a \acciaccatura g fis e16 fis
+    g2~
+    g~
+    g4. h,16 c \boxn
+    d8-. d-. d-. d16 e
+    f?8-. f-. f-. r
+
+    r4. d16 e
+    f4 r8 e16\p f
+    g8-. g-. g-. g-.
+    c( f,) r e
+    a( d,) r c
+    h16 c d e f8 e
+    d4 r8 e16 f
+    
+    g8-. g-. g-. g-.
+    c( f,) r e
+    a( d,) r c
+    d( f) h,-. d-.
+    c4 r8
+  }
+  \repeat volta 2 {
+    r
+    R2
+    c'2~\f
+    c4 h
+
+    c r8 as
+    as( d,) r g
+    g( c,) r f
+    f( d) es( c)
+    g4 r \boxo
+    b'4. es,8
+    d4. f8
+    as4. d,8
+
+    es4 r
+    c'2
+    b4. g8
+    b as g f
+    es4 r8 g
+    as( g) r g
+    as( g) r g
+    c as g fis
+
+    g4 r8 d16 e?
+    f?4 r8 d16 e
+    f4 r8 h?16 c
+    d4 r8 e,16\p f \boxp
+    g8-. g-. g-. g-.
+    c( f,) r e
+    a?( d,) r c
+    h16 c d e f8 e
+
+    d4 r8 e16 f
+    g8-. g-. g-. g-.
+    c( f,) r e
+    a( d,) r c-.
+    d( f) h,-. d-.
+    c4 r8 e16\f fis
+    g8-. g-. g-. a16 h
+
+    c8-. c-. c-. h-.
+    a-. a-. a-. g-.
+    fis16 g fis e d8 d'
+    d( g,) r c
+    c( fis,) r h
+    e,( a) \acciaccatura g fis e16 fis
+    g2~
+    g~
+
+    g4. h,16 c
+    d8-. d-. d-. d16 e
+    f8-. f-. f-. r
+    r4. d16 e
+    f4 r8 e16\p f \boxq
+    g8-. g-. g-. g-.
+    c( f,) r e
+    a( d,) r c
+
+    h16 c d e f8 e
+    d4 r8 e16 f
+    g8-. g-. g-. g-.
+    c( f,) r e
+    a( d,) r c
+    d( f) h, d
+    c4 r8 e\f
+
+    f( a) d,-. f-.
+    e4 r8 e
+    f( a) d,-. f-.
+    e4 r8 g16 f
+    e4 r8 e16 d
+    c4 r8 g'16 f
+    e4 c'
+    \partial 4. c r8
+  }
 }
