@@ -12,6 +12,7 @@ va = \relative c' {
   a4 fis8 d?8. e16 fis8
   g8. fis16 e8 d8. h16 d8
   e4.~ e4 h8
+  \set Staff.midiInstrument = \mipz
   h4._\pizz g
   fis \clef "treble" d''-0 \clef "bass"
   e,, g
@@ -20,7 +21,9 @@ va = \relative c' {
   h g
   d?4 fis8 a4.
   h g8 fis4
-  a fis8 g \clef "treble" g'16_\arco a h c
+  a fis8 g
+  \set Staff.midiInstrument = \mivc  
+  \clef "treble" g'16_\arco a h c
 
   d4. d8. cis16 h8
   a4 fis8 d8. e16 fis8
@@ -30,7 +33,9 @@ va = \relative c' {
   a8 d,4 h'8 fis4
 
   g8 h g a fis d
-  e g a g r fis_\pizz
+  e g a g r
+  \set Staff.midiInstrument = \mipz
+  fis_\pizz
   g4 a8 h8. c?16 h8
   a4 fis8 d8. e16 fis8
   g4 e8 e8. dis16 e8
@@ -41,6 +46,7 @@ va = \relative c' {
   g8. fis16 e8 d8. fis16 d8
   e r4 r4.
 
+  \set Staff.midiInstrument = \mivc
   g4_\arco r8 a4 r8
   a4. gis\fermata \bar "|."
 }

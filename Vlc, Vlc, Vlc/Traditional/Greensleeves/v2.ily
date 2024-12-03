@@ -11,6 +11,7 @@ vb = \relative c' {
   fis4 d?8 a4 d8
   e4 c8 fis,4 a8
   a4 fis8 g4 r8
+  \set Staff.midiInstrument = \mipz
   e,_\pizz h' e g e h
   d, a' d fis d a
   e h' g h g h
@@ -21,6 +22,7 @@ vb = \relative c' {
   c, g' c d, a' d
   e, h' d e4 r8
 
+  \set Staff.midiInstrument = \mivc
   h'4._\arco h8. a16 g8
   fis4 d8 h4 d8
   e4 h'8 g4.
@@ -29,7 +31,9 @@ vb = \relative c' {
   fis4. h
 
   c, d
-  e~ e4 h''8_\pizz
+  e~ e4
+  \set Staff.midiInstrument = \mipz
+  h''8_\pizz
   e, h e e, h' e
   d a fis' d, d' a
   g h g e g h
@@ -38,7 +42,9 @@ vb = \relative c' {
   g h g e h' e
   fis, a fis d? fis d
   e g e a fis a
-  a e' a e4 e8_\arco
+  a e' a e4
+  \set Staff.midiInstrument = \mivc
+  e8_\arco
 
   g8. fis16 e8 d8. fis16 d8
   e2.\fermata \bar "|."

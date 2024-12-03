@@ -26,6 +26,7 @@ vc = \relative c, {
 
   g8. fis16 e8 d8. fis16 d8
   e4. g4 r8
+  \set Staff.midiInstrument = \mipz
   e,4_\pizz e8 g4 g8
   d4 d8 fis4 fis8
   e4 e8 g4 g8
@@ -36,6 +37,7 @@ vc = \relative c, {
   c?4 c8 d4 d8
   a'4 a8 a r4
 
+  \set Staff.midiInstrument = \mivc
   c,4_\arco r8 d4 r8
   <e h'>2.\fermata \bar "|."
 }

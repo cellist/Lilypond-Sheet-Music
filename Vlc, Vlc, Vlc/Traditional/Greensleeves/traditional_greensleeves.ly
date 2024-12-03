@@ -1,31 +1,38 @@
-\version "2.14.2"
+\version "2.24.4"
 \include "deutsch.ly"
-
-#(set-global-staff-size 22)
+  
+#(set-global-staff-size 21)
 
 \header {
-  title = "Greensleeves"
-  composer = "aus England"
-  arranger = "arr.: K. Kato"
-  enteredby = "cellist (2013-06-18)"
+  title     = \markup \bold \italic "Greensleeves"
+  composer  = "aus England"
+  arranger  = "arr.: Kohei Kato"
+  enteredby = "cellist (2024-12-03)"
+%  piece     = ""
 }
 
 voiceconsts = {
-  \key g \major
+  \key e \minor
   \time 6/8
   \clef "bass"
-  \tempo "Andante sostenuto " 4.=60
-  %\numericTimeSignature
-  \compressFullBarRests
+%  \numericTimeSignature
+  \compressEmptyMeasures
+% Set default beaming for all staves
+%  \set Timing.beamExceptions = #'()
+%  \set Timing.baseMoment     = #(ly:make-moment 1 4)
+%  \set Timing.beatStructure  = #'(1 1 1)
+  \tempo "Andante sostenuto " 4.=40
 }
 
-%minstr = "harpsichord"
-mihi = "clarinet"
-%minstr = "accordion"
-milo = "bassoon"
+mivl = "violin"
+miva = "viola"
+mipz = "pizzicato strings"
+mivc = "cello"
 
 arco = \markup \italic "arco"
+atem = \mark \markup \box \italic "a tempo"
 pizz = \markup \italic "pizz."
+rit  = \mark \markup \box \italic "rit."
 
 \include "v1.ily"
 \include "v2.ily"
@@ -33,26 +40,39 @@ pizz = \markup \italic "pizz."
 
 music = \new StaffGroup <<
       \new Staff {
-	\set Staff.midiInstrument = \milo
+	\set Staff.midiInstrument = \mivc
 	\set Staff.instrumentName = \markup \center-column { "Violon-" "cello I" }
-	\transpose g g  { \va }
+	\transpose e e { \va }
       }
 
       \new Staff {
-	\set Staff.midiInstrument = \milo
+	\set Staff.midiInstrument = \mivc
 	\set Staff.instrumentName = \markup \center-column { "Violon-" "cello II" }
-	\transpose g g  { \vb }
+	\transpose e e { \vb }
       }
 
       \new Staff {
-	\set Staff.midiInstrument = \milo
+	\set Staff.midiInstrument = \mivc
 	\set Staff.instrumentName = \markup \center-column { "Violon-" "cello III" }
-	\transpose g g  { \vc }
+	\transpose e e { \vc }
       }
 >>
 
 \book {
-  \score {
+  \paper {
+    print-page-number = ##t
+    print-first-page-number = ##t
+    ragged-last-bottom = ##f
+    oddHeaderMarkup = \markup \null
+    evenHeaderMarkup = \markup \null
+    oddFooterMarkup = \markup {
+      \fill-line {
+        \if \should-print-page-number
+        "Traditional - Greensleeves" \fromproperty #'page:page-number-string
+      }
+    }
+    evenFooterMarkup = \oddFooterMarkup
+  } \score {
     \music
     \layout {}
   }
