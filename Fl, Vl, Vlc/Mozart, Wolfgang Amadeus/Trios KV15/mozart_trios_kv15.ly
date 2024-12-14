@@ -1,7 +1,7 @@
 \version "2.24.4"
 \include "deutsch.ly"
 
-#(set-global-staff-size 18)
+#(set-global-staff-size 17.5)
 
 \header {
   title     = \markup \bold \italic "Verschiedene Trios"
@@ -29,12 +29,17 @@ mivl = "violin"
 miba = "cello"
 mipz = "pizzicato strings"
 
+atem = \mark \markup \box \italic "a tempo"
 dcaf = \mark \markup \box \italic "D.C. al Fine"
 fine = \mark \markup \box \italic "Fine"
+rit  = \mark \markup \box \italic "rit."
 
 introa = {        \tempo "1. Kontratanz " 4=130 }
 introb = { \break \tempo "2. Andante "    4=65  \key f \major }
 introc = { \break \tempo "3. Menuett "    4=110 \time 3/4 }
+introd = { \break \tempo "4. Kontratanz " 4=100 \time 2/4 \key g \major }
+introe = { \break \tempo "5. Allegretto " 8=130 \time 3/8 \key f \major }
+introf = { \break \tempo "6. Allegretto " 4=70  \time 2/4 \key c \major }
 
 \include "v1.ily"
 \include "v2.ily"
