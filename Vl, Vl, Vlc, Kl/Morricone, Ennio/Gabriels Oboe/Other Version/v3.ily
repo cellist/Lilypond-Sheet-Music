@@ -21,7 +21,6 @@ vc = \relative c' {
     d1
     d2 h4 d
     d1
-    d
     d2 cis
     d2. cis4
     d2 h4 cis8 d

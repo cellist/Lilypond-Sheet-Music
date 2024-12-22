@@ -14,7 +14,6 @@ va = \relative c'' {
     h2 h8 h d g
     g fis fis2 d8 h'
     h2. a4
-    a1
     a2. r4
     a,16 h a g a4 a4. a8
 

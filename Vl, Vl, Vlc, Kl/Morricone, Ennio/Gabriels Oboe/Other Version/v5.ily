@@ -23,7 +23,6 @@ ve = \relative c {
     d'4 cis h a
     g1
     a
-    a
     d,2 e
     fis g
     a4 g fis2

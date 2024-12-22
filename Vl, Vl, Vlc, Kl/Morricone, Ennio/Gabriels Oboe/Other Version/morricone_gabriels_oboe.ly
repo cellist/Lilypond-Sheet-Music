@@ -1,4 +1,4 @@
-\version "2.22.0"
+\version "2.24.4"
 \include "deutsch.ly"
 
 #(set-global-staff-size 19)
@@ -73,7 +73,7 @@ music = <<
 >>
 
 \book {
-   \paper {
+  \paper {
     print-page-number = ##t
     print-first-page-number = ##t
     ragged-last-bottom = ##f
@@ -81,7 +81,7 @@ music = <<
     evenHeaderMarkup = \markup \null
     oddFooterMarkup = \markup {
       \fill-line {
-        \on-the-fly #print-page-number-check-first
+        \if \should-print-page-number
         "Ennio Morricone - Gabriel's Oboe" \fromproperty #'page:page-number-string
       }
     }

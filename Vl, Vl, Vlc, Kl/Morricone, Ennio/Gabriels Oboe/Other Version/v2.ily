@@ -22,7 +22,6 @@ vb = \relative c' {
     fis4 e d fis
     a g2 fis4
     e1
-    e
     fis2 g
     fis d
     e fis

@@ -23,7 +23,6 @@ vd = \relative c' {
     a2 g4 h
     h2. a4
     a1
-    a
     a2 g
     a g
     g fis
