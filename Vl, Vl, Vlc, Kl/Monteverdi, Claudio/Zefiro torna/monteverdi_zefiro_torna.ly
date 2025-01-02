@@ -5,6 +5,7 @@
 
 \header {
   title       = \markup \bold \italic "Zefiro torna e di soavi accenti"
+  subtitle    = "- Ciaccona -"
   composer    = "Claudio Monteverdi (1567-1643)"
   arranger    = "arr.: Elaine Fine"
   enteredby   = "cellist (2025-01-02)"
@@ -64,7 +65,7 @@ music = \new StaffGroup <<
       \new Staff {
 	\transpose g g { \vd }
       }
-      
+
       %    \new Dynamics \vdy
       
       \new Staff {
