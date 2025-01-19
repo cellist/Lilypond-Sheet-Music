@@ -1,10 +1,10 @@
-\version "2.18.2"
+\version "2.24.4"
 \include "deutsch.ly"
 
-#(set-global-staff-size 24)
+#(set-global-staff-size 20)
 
 \header {
-  title     = \markup \bold \italic "Die Macht der Liebe"
+  title     = \markup \bold \italic "\"Die Macht der Liebe\""
   subtitle  = "- \"Kol slawen\" -"
   composer  = "Dmitri Stepanowitsch Bortnjanski"
   arranger  = "(1751-1825)"
@@ -17,7 +17,7 @@ voiceconsts = {
   \time 3/4
   \tempo "Lento " 4=80
   \numericTimeSignature
-%  \compressFullBarRests
+  \compressEmptyMeasures
   \set tupletSpannerDuration = #(ly:make-moment 1 4)
   % Set default beaming for all staves
 %  \set Timing.beamExceptions = #'()
@@ -25,8 +25,8 @@ voiceconsts = {
 %  \set Timing.beatStructure  = #'(1 1 1)
 }
 
-miba = "trombone"
-mikl = "concertina"
+miba = "cello"
+mikl = "acoustic grand"
 
 \include "v1.ily"
 \include "v2.ily"
@@ -41,7 +41,7 @@ music = <<
       }
 
       \new PianoStaff <<
-        \set PianoStaff.instrumentName = \markup \center-column { "Akkor-" "deon" }
+        \set PianoStaff.instrumentName = \markup \center-column { "Klavier" }
         \set PianoStaff.midiInstrument = \mikl
         \new Staff {
           \transpose c c { \vb }
@@ -56,8 +56,21 @@ music = <<
 >>
 
 \book {
-  \score {
-   \music
+  \paper {
+    print-page-number = ##t
+    print-first-page-number = ##t
+    ragged-last-bottom = ##f
+    oddHeaderMarkup = \markup \null
+    evenHeaderMarkup = \markup \null
+    oddFooterMarkup = \markup {
+      \fill-line {
+        \if \should-print-page-number
+        "Dmitri Bortniansky - \"Die Macht der Liebe\"" \fromproperty #'page:page-number-string
+      }
+    }
+    evenFooterMarkup = \oddFooterMarkup
+  } \score {
+    \music
     \layout {}
   }
 
