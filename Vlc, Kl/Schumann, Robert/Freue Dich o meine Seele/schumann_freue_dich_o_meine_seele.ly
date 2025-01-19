@@ -50,13 +50,13 @@ music = <<
         \set PianoStaff.instrumentName = \markup \center-column { "Klavier" }
         <<
           \new Staff {
-            \transpose g g { << \vb \\ \vc >> }
+            \transpose g g { \vb }
           }
 	  
           \new Dynamics \vdy
 
           \new Staff {
-            \transpose g g { \vd }
+            \transpose g g { << \vc \\ \vd >> }
           }
         >>
   >>

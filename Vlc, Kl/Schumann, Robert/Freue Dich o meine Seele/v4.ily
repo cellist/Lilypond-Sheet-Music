@@ -3,33 +3,33 @@ vd = \relative c' {
   \clef "bass"
 
   \repeat volta 2 {
-    h2 a
-    g a
-    a a
-    a fis\fermata
-
-    e fis
-    g g
+    g2 fis
     g fis
-    g1\fermata
+    e d
+    a d\fermata
+
+    e d
+    g e
+    d d
+    g,1\fermata
   }
 
-  d'2 c
-  h c
-  d e4( d)
-  d1\fermata
-  h2 d
+  g'2 a
+  h a
+  g c4( d)
+  g,1\fermata
+  g2 h
 
-  c d
-  d d
+  c h
+  a g
   d1\fermata
-  d2 d
-  e d
-  c c
+  g4( a h2)
+  c g
+  c a
 
-  d\fermata c\fermata
-  d d
-  d d
-  c c
-  h1\fermata \bar "|."
+  g\fermata c,\fermata
+  g'4( a h2)
+  a g
+  c, d
+  g1\fermata \bar "|."
 }

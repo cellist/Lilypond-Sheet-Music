@@ -1,35 +1,35 @@
-vb = \relative c'' {
+vb = \relative c' {
   \voiceconsts
   \clef "treble"
 
   \repeat volta 2 {
-    g2 a
-    h a
-    g fis
-    e d\fermata
+    d2 d
+    d d
+    cis d
+    cis d\fermata
 
-    g a
-    h c
-    h a
-    g1\fermata
+    h d
+    d g
+    d~ d4 c?
+    h1\fermata
   }
 
-  h2 c
-  d c
-  h a
-  h1\fermata
-  d2 d
+  g'2 fis
+  g fis
+  g g4( fis)
+  g1\fermata
+  g2 g
 
-  e d
-  c h
-  a1\fermata
-  h4( c d2)
-  c h
-  g a
+  g g
+  fis g
+  fis1\fermata
+  g2 g
+  g g
+  e fis
 
-  h\fermata g\fermata
-  h4( c d2)
-  c h
-  a a
-  g1\fermata \bar "|."
+  g\fermata e\fermata
+  g g
+  fis g
+  e fis
+  s1 \bar "|."
 }
