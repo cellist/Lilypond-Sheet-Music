@@ -38,7 +38,7 @@ music = <<
   \new Staff {
     \set Staff.midiInstrument = \mivc
     \set Staff.instrumentName = \markup \center-column { "Violon-" "cello" }
-    \transpose h h { \va }
+    \transpose h a { \va }
   }
 
   \new PianoStaff <<
@@ -46,13 +46,13 @@ music = <<
         \set PianoStaff.instrumentName = \markup \center-column { "Klavier" }
         <<
           \new Staff {
-            \transpose h h { << \vb \\ \vc >> }
+            \transpose h a { \vb }
           }
 	  
 %          \new Dynamics \vdy
 
           \new Staff {
-            \transpose h h { \vd }
+            \transpose h a { << \vc \\ \vd >> }
           }
         >>
   >>

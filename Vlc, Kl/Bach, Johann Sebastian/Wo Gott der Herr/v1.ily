@@ -4,17 +4,17 @@ va = \relative c' {
 
   \repeat volta 2 {
     \partial 4 d4
-    d d d d
-    d cis a\fermata h
-    e e d8 cis h4
-    h ais8 e' d4\fermata
+    d h8 cis d e fis4
+    e e d\fermata d
+    cis h8 cis d4 e8 d
+    cis2 h4\fermata
   }
-  a!
-  a a8 h cis4 cis
+  e
+  fis fis cis8 d e4
 
-  d8 cis h4 fis'\fermata fis
-  h, e a,8 h cis4
-  fis e8 d cis4\fermata d
-  e e fis h,
-  \partial 2. h ais fis\fermata \bar "|."
+  d d cis\fermata d
+  e h8 cis d4 cis
+  h h a\fermata d
+  cis h8 cis d4 e8 d
+  \partial 2. cis2 h4\fermata \bar "|."
 }
