@@ -1,7 +1,7 @@
-\version "2.18.2"
+\version "2.24.4"
 \include "deutsch.ly"
 
-#(set-global-staff-size 18)
+#(set-global-staff-size 19)
 
 \header {
   title     = \markup \bold \italic "Morgenspaziergang"
@@ -27,8 +27,9 @@ voiceconsts = {
 }
 
 miba = "cello"
-% mikl = "acoustic grand"
-mikl = "harpsichord"
+mipz = "pizzicato strings"
+mikl = "acoustic grand"
+%mikl = "harpsichord"
 
 arco = \markup \italic "arco"
 dier = \markup \italic "dim. e rall."
@@ -64,8 +65,21 @@ music = <<
 >>
 
 \book {
-  \score {
-   \music
+  \paper {
+    print-page-number = ##t
+    print-first-page-number = ##t
+    ragged-last-bottom = ##f
+    oddHeaderMarkup = \markup \null
+    evenHeaderMarkup = \markup \null
+    oddFooterMarkup = \markup {
+      \fill-line {
+        \if \should-print-page-number
+        "Alexander Gretschaninow - Morgenspaziergang" \fromproperty #'page:page-number-string
+      }
+    }
+    evenFooterMarkup = \oddFooterMarkup
+  } \score {
+    \music
     \layout {}
   }
 
