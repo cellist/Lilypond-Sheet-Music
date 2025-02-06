@@ -1,15 +1,15 @@
-\version "2.24.1"
+\version "2.24.4"
 \include "deutsch.ly"
 
-#(set-global-staff-size 21)
+#(set-global-staff-size 20)
 
 \header {
-  title     = \markup \bold \italic "Ye Banks And Braes"
+  title     = \markup \bold \italic "\"Ye Banks And Braes\""
   subtitle  = "(The Banks o' Doon)"
   composer  = "Robert Burns (1759-1796)"
   arranger  = "arr.: Jordan Grigg"
   enteredby = "cellist (2024-03-26)"
-  piece     = "1791"
+  piece     = "(1791)"
 }
 
 voiceconsts = {
@@ -78,7 +78,7 @@ music = \new StaffGroup <<
     oddFooterMarkup = \markup {
       \fill-line {
         \if \should-print-page-number
-        "Robert Burns - Ye Banks And Braes" \fromproperty #'page:page-number-string
+        "Robert Burns - \"Ye Banks And Braes\" (The Banks o' Doon)" \fromproperty #'page:page-number-string
       }
     }
     evenFooterMarkup = \oddFooterMarkup

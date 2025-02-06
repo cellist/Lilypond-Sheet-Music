@@ -1,6 +1,6 @@
 vc = \relative c' {
   \voiceconsts
-  \clef "bass"
+  \clef "tenor"
   
   \partial 4 r4
   fis2.
