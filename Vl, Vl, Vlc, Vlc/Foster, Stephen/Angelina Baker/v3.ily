@@ -1,10 +1,10 @@
-vc = \relative c' {
+vc = \relative c {
   \voiceconsts
-  \clef "tenor"
+  \clef "bass"
 
   \repeat volta 2 {
     \partial 8 r
-    r d-.\mf r g,-.
+    r d-.^\arcs\mf r g,-.
     r h-. r c-.
     r fis,-. r g-.
     d'-. d-. d,-. d'-.

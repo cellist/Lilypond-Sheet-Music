@@ -4,7 +4,7 @@ vb = \relative c'' {
 
   \repeat volta 2 {
     \partial 8 r8
-    r g-.\mf r d-.
+    r g-.^\arco\mf r d-.
     r e-. r e-.
     r c-. r d-.
     fis-. fis-. g-. d-.

@@ -3,7 +3,7 @@ va = \relative c' {
   \clef "treble"
 
   \repeat volta 2 {
-    \partial 8 d8\mf
+    \partial 8 d8^\arco\mf
     h' h a8. g16
     h8 g e g
     a d, c'8. h16

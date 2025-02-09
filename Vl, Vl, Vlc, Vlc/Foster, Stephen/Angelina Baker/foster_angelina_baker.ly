@@ -30,6 +30,7 @@ miva = "viola"
 mivc = "cello"
 
 arco = \markup \italic "arco"
+arcs = \markup \italic "arco sempre"
 atem = \mark \markup \box \italic "a tempo"
 pizz = \markup \italic "pizz."
 prit = \mark \markup \box \italic "poco rit."
@@ -76,7 +77,7 @@ music = \new StaffGroup <<
     oddFooterMarkup = \markup {
       \fill-line {
         \if \should-print-page-number
-        "Stephen Foster - \"Angelina Baker\")" \fromproperty #'page:page-number-string
+        "Stephen Foster - \"Angelina Baker\"" \fromproperty #'page:page-number-string
       }
     }
     evenFooterMarkup = \oddFooterMarkup

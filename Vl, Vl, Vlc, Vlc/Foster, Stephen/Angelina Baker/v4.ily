@@ -4,7 +4,7 @@ vd = \relative c {
 
   \repeat volta 2 {
     \partial 8 r8
-    g-.\mf r h-. r
+    g-.^\arco\mf r h-. r
     e,-. r c-. r
     d-. r fis-. g-.
     d'-. d-. e-. fis-.
