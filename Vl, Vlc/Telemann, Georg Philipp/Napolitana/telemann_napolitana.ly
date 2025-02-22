@@ -1,14 +1,14 @@
-\version "2.18.2"
+\version "2.24.4"
 \include "deutsch.ly"
   
-#(set-global-staff-size 22)
+#(set-global-staff-size 19)
 
 \header {
   title     = \markup \bold \italic "Napolitana"
   composer  = "Georg Philipp Telemann (1681-1767)"
-  arranger  = "arr.: Hans Thomas Müller-Schmidt"
-  enteredby = "cellist (2021-01-18)"
-  piece     = "\"Der getreue Musik-Meister\" TWV 41:B4"
+  arranger  = "arr.: Hans-Thomas Müller-Schmidt"
+  enteredby = "cellist (2025-02-22)"
+  piece     = "\"Der getreue Musik-Meister\", TWV 41:B4"
 }
 
 voiceconsts = {
@@ -16,16 +16,20 @@ voiceconsts = {
   \time 4/4
   \clef "treble"
 %  \numericTimeSignature
-  % Set default beaming for all staves
+  \compressEmptyMeasures
+% Set default beaming for all staves
 %  \set Timing.beamExceptions = #'()
 %  \set Timing.baseMoment     = #(ly:make-moment 1 4)
 %  \set Timing.beatStructure  = #'(1 1 1)
-  \tempo "Allegro " 4=150
+  \tempo 4=140
 }
 
+mipz = "pizzicato strings"
 mivl = "violin"
-%miba = "pizzicato strings"
-miba = "cello"
+miva = "viola"
+mivc = "cello"
+
+rall = \mark \markup \box \italic "rall."
 
 \include "v1.ily"
 \include "v2.ily"
@@ -38,14 +42,14 @@ music = \new StaffGroup <<
       }
 
       \new Staff {
-	\set Staff.midiInstrument = \miba
+	\set Staff.midiInstrument = \mivc
 	\set Staff.instrumentName = \markup \center-column { "Violon-" "cello" }
 	\transpose b b { \vb }
       }
 >>
 
 \book {
-   \paper {
+  \paper {
     print-page-number = ##t
     print-first-page-number = ##t
     ragged-last-bottom = ##f
@@ -53,7 +57,7 @@ music = \new StaffGroup <<
     evenHeaderMarkup = \markup \null
     oddFooterMarkup = \markup {
       \fill-line {
-        \on-the-fly #print-page-number-check-first
+        \if \should-print-page-number
         "Georg Philipp Telemann - Napolitana" \fromproperty #'page:page-number-string
       }
     }

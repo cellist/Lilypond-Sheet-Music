@@ -16,8 +16,7 @@ va = \relative c'' {
     d'2 c
     b16( a g4.) e'16( d c4.)
     g'4 f2 e4
-    f4. e16 d
-    c2
+    f4. e16 d c2
     r4 b a g
 
     f1~
@@ -31,14 +30,14 @@ va = \relative c'' {
 
   \repeat volta 2 {
     f'4( es?) es( d)
-    es2 \grace { es16[ f] } g2
+    es2 \appoggiatura { es16[ f] } g2
     b,4 c8( d) es4 f8( d)
-    es2 \grace { es16[ f] } g2
+    es2 \appoggiatura { es16[ f] } g2
     r4 f( es d)
     r g,8( a) h( c) d4
     r es( d c)
 
-    r f,8( g) a( b?) c4
+    r f,8( g) a( b) c4
     r d( c b)
     f'-! d( c b)
     g'4. f8 es( d) c( b)
@@ -55,7 +54,7 @@ va = \relative c'' {
     d( f) c( f)
   }
   \alternative {
-    { b,1 }
+    { b1 }
     { b }
   } \bar "|."
 }

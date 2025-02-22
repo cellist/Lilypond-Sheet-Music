@@ -4,10 +4,10 @@ vb = \relative c {
   
   \repeat volta 2 {
     b1~
-    b~-!
-    b~-!
-    b~-!
-    b4-! b'(-. b-. b)-.
+    b~-^
+    b~-^
+    b~-^
+    b4-^ b'(-. b-. b)-.
     r a(-. a-. a)-.
     r g(-. g-. g)-.
     r f a f
@@ -43,7 +43,7 @@ vb = \relative c {
     d
     es
     f2. es4
-    d-! d(-. d-. d)-.
+    d-^ d(-. d-. d)-.
     r d(-. d-. d)-.
 
     r es f d
