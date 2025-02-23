@@ -105,13 +105,15 @@ va = \relative c'' {
 
   c4.( d8) c4
   c4. e8( a,[ c]
-  \times 2/3 { h c d e[ d c] h a g) }
+  \tuplet 3/2 4 { h c d e[ d c] h a g) }
   g4( fis?2)
-  \times 2/3 { d'8 g h d[ h g] h g d }
-  \times 2/3 { c' a fis a[ fis c] h d g }
+  \tuplet 3/2 4 {
+    d'8 g h d[ h g] h g d
+    c' a fis a[ fis c] h d g
 
-  \times 2/3 { a, c d e[ d c] h a g }
-  \times 2/3 { fis a g fis[ e d] c h a }
+    a, c d e[ d c] h a g
+    fis a g fis[ e d] c h a
+  }
   h8. e'16( d4 d)
   d4.( c8 h4)
   a16( h c8 h4 a)
