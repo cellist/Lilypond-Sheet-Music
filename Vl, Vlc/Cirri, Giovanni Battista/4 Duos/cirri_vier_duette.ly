@@ -4,7 +4,7 @@
 #(set-global-staff-size 19)
 
 \header {
-  title     = \markup \bold \italic "Duos für Geige und Cello"
+  title     = \markup \bold \italic "4 Duos für Geige und Cello"
   composer  = "Giovanni Battista Cirri"
   arranger  = "(1724-1808)"
   enteredby = "cellist (2025-02-23)"
@@ -28,8 +28,12 @@ mivl = "violin"
 miva = "viola"
 mivc = "cello"
 
-introa = {        \tempo "1. Allegretto " 4=120 }
-introb = { \break \tempo "2. Giga "      4.=90 \time 6/8 \key b \major }
+introa = {        \tempo "1. Allegretto "  4=120 }
+introb = { \break \tempo "2. Giga "       4.=90  \time 6/8 \key b \major }
+introc = { \break \tempo "3. Minuetto I "  4=120 \time 3/4 \key c \major }
+introd = { \break \tempo "4. Minuetto II " 4=130 \key f \major }
+
+midc = \mark \markup \box \italic "Minuetto I D.C."
 
 \include "v1.ily"
 \include "v2.ily"
@@ -58,7 +62,7 @@ music = \new StaffGroup <<
     oddFooterMarkup = \markup {
       \fill-line {
         \if \should-print-page-number
-        "Giovanni Battista Cirri - Duos für Geige und Cello" \fromproperty #'page:page-number-string
+        "Giovanni Battista Cirri - 4 Duos für Geige und Cello" \fromproperty #'page:page-number-string
       }
     }
     evenFooterMarkup = \oddFooterMarkup

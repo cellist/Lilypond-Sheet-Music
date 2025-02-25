@@ -140,4 +140,51 @@ vb = \relative c {
     b4. es,4 f8
     b2.
   }
+
+  \introc
+  \repeat volta 2 {
+    c4\mf e c
+    h a g
+    c2 c4
+    d g, c
+    fis, f'! f
+    e fis g
+    c, d d,
+    g2.
+  }
+  \repeat volta 2 {
+    g'2 h4
+    c2 fis,4
+
+    g a a
+    g f? e
+    f r r
+    e r r
+    f g g,
+    c2.\fermata
+  }
+
+  \introd
+  \repeat volta 2 {
+    f'\mf
+    g
+    a4 e f
+    c8 d c4 b
+    \grace b8 a2.
+    g8 a b c d[ f,]
+    f4( e) f
+    c b' a
+    \grace a8 g2.
+  }
+  \repeat volta 2 {
+    g'2 f4
+
+    f e d
+    c8 e c4 b
+    b( a) g
+    d'8 b a g d'[ f,]
+    f4 e f \midc
+    g8 b a g c[ e,]
+    \grace e f2.
+  }
 }

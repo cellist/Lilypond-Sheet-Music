@@ -104,6 +104,7 @@ va = \relative c'' {
     f4. c
     f b,
 
+
     a b
     c e
     f4 b,8 c4 c8
@@ -138,5 +139,52 @@ va = \relative c'' {
     b,8 d f es c a
     b d f es c a
     \grace a b2.
+  }
+
+  \introc
+  \repeat volta 2 {
+    c'2.\mf
+    d
+    e4 e8 f g a
+    g4( f) e
+    d2 e8 d
+    d4( c) h
+    a8 e' d e fis,[ a]
+    \grace a g4 g,2
+  }
+  \repeat volta 2 {
+    g'4 g' f?
+    e g8 e d c
+
+    h4 c8 a g fis
+    \grace f!8 g2.
+    a'4 cis,( d)
+    g h,( c!)
+    d8 f e g h,[ d]
+    \grace d c2.\fermata
+  }
+
+  \introd
+  \repeat volta 2 {
+    f,4\mf a f
+    e d c
+    f g a
+    e e c
+    f8 a g f e f
+    b,2 b4
+    c b a
+    r e' f
+    c c c
+  }
+  \repeat volta 2 {
+    e e d
+
+    c c h
+    c d e
+    f b,? c
+    b2 b4
+    c b a \midc
+    b c c
+    f2.
   }
 }
