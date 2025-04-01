@@ -15,22 +15,22 @@ va = \relative c' {
   h4.( cis8) a4
   d2-1 e8(-2 fis)
   fis4 e4.( d8)-1
-  d4-1 \breathe d8([-4\mf cis h a])
+  d4-1 \breathe d8[(-4\mf cis h a)]
 
   a4(-4 g)-2 fis8(-1 g)
   g4( fis) a-0
-  d-4 h8([ cis d h])
+  d-4 h8[( cis d h)]
   e4(-4 cis) d8(-1 e)-2
   fis2-4\< fis8(-1 gis)-2
-  a2-3\! d,4-4\>
+  a2-3\! \breathe d,4-4\>
   cis h4.( a8)
-  a4\! r fis'\p
+  a4\! r fis'-3\p
 
-  fis4.( e8) g( fis)-3
+  fis4.( e8) g?( fis)-3
   fis4.(-4 e8) fis( d)-1
   d4(-2 cis) \breathe a
-  h4.( cis8) a4
+  h4.( cis8) \rall a4
   d2-1 e8(-2 fis)
   fis4 e4.( d8)
-  d2\fermata \bar "|."
+  \partial 2 d2\fermata \bar "|."
 }

@@ -1,18 +1,18 @@
 vb = \relative c {
   \voiceconsts
 
-  \partial 4 d4
+  \partial 4 d4\mf
   <g h>2.
   gis
   a2 r4
-  g?( e) a
+  g?4( e) a
   fis2 e8( d)
-  a2 d4\p
+  a2 \breathe d4\p
 
   <g h>2.
   gis
   a2 r4
-  g?( e) a
+  g( e) a
   fis2 e8( d)
   a'2 a,4
   d2.\mf
@@ -29,8 +29,8 @@ vb = \relative c {
   <g h>2.
   gis
   a2 r4
-  g?( e) a
+  g( e) \rall a
   fis2 e8( d)
   a'2 a,4
-  d,2\fermata \bar "|."
+  \partial 2 d,2\fermata \bar "|."
 }
