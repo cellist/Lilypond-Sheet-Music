@@ -56,7 +56,7 @@ va = \relative c {
   <d, g'>2(\> <d fis'>4) r\!
   d,2(\downbow fis4-4 a)
   d(-0\< fis-3 a c)-3\!
-  <dis, c'>2(-1-3\< <dis h'-2>4) r\!
+  <dis, c'>2(-1-3\> <dis h'-2>4) r\!
   g'(\downbow-4 e h-1 g)
   e?( h g e)
   a2 c'
