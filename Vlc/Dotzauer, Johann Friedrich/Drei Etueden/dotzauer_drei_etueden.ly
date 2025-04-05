@@ -1,13 +1,13 @@
-\version "2.24.4"
+\version "2.24.3"
 \include "deutsch.ly"
 
-#(set-global-staff-size 22)
+#(set-global-staff-size 20)
 
 \header {
-  title     = \markup \bold \italic "Moderato e-moll"
-  composer  = "Justus Johann Friedrich Dotzauer"
-  arranger  = "(1783-1860)"
-  enteredby = "cellist (2025-04-01)"
+  title     = \markup \bold \italic "Drei Etüden"
+  composer  = "Justus Johann Friedrich Dotzauer (1783-1860)"
+  arranger  = "arr.: Louis R. Feuillard"
+  enteredby = "cellist (2025-04-05)"
 %  piece     = ""
 }
 
@@ -21,19 +21,22 @@ voiceconsts = {
   \set Timing.beamExceptions = #'()
   \set Timing.baseMoment     = #(ly:make-moment 1 8)
   \set Timing.beatStructure  = #'(3 3)
-  \tempo "Moderato " 4.=60
 }
 
 mist = "string ensemble 1"
 mivl = "violin"
-miba = "cello"
+mivc = "cello"
 mipz = "pizzicato strings"
+
+introa = {        \tempo "1. Moderato " 4.=60 }
+introb = { \break \tempo "2. Andante "   2=60 \key c \major \time 4/4 }
+introc = { \break \tempo "3. Moderato " 4=90  \key g \major }
 
 \include "v1.ily"
 
 music = \new StaffGroup <<
       \new Staff {
-	\set Staff.midiInstrument = \miba
+	\set Staff.midiInstrument = \mivc
 	\set Staff.instrumentName = \markup \center-column { "Violon-" "cello" }
 	\transpose e e { \va }
       }
@@ -49,7 +52,7 @@ music = \new StaffGroup <<
     oddFooterMarkup = \markup {
       \fill-line {
         \if \should-print-page-number
-        "Friedrich Dotzauer - Moderato e-moll" \fromproperty #'page:page-number-string
+        "Friedrich Dotzauer - Drei Etüden" \fromproperty #'page:page-number-string
       }
     }
     evenFooterMarkup = \oddFooterMarkup
