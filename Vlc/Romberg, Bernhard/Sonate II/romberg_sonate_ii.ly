@@ -1,10 +1,10 @@
 \version "2.24.3"
 \include "deutsch.ly"
 
-#(set-global-staff-size 19)
+#(set-global-staff-size 18)
 
 \header {
-  title     = \markup \bold \italic "Sonate I (Studie)"
+  title     = \markup \bold \italic "Sonate II (Studie)"
   composer  = "Bernhard Romberg (1767-1841)"
   arranger  = "arr.: Louis R. Feuillard"
   enteredby = "cellist (2025-04-06)"
@@ -12,7 +12,7 @@
 }
 
 voiceconsts = {
-  \key b \major
+  \key c \major
   \time 4/4
   \clef "bass"
 %  \numericTimeSignature
@@ -21,7 +21,7 @@ voiceconsts = {
 %  \set Timing.beamExceptions = #'()
 %  \set Timing.baseMoment     = #(ly:make-moment 1 4)
 %  \set Timing.beatStructure  = #'(1 1 1)
-  \tempo "Moderato " 4=90
+  \tempo "1. Allegro " 4=110
 }
 
 mist = "string ensemble 1"
@@ -40,7 +40,7 @@ music = \new StaffGroup <<
       \new Staff {
 	\set Staff.midiInstrument = \mivc
 	\set Staff.instrumentName = \markup \center-column { "Violon-" "cello" }
-	\transpose b b { \va }
+	\transpose c c { \va }
       }
 >>
 
@@ -54,7 +54,7 @@ music = \new StaffGroup <<
     oddFooterMarkup = \markup {
       \fill-line {
         \if \should-print-page-number
-        "Berndhard Romberg - Studie Sonate I op. 43" \fromproperty #'page:page-number-string
+        "Berndhard Romberg - Studie Sonate II op. 43" \fromproperty #'page:page-number-string
       }
     }
     evenFooterMarkup = \oddFooterMarkup
