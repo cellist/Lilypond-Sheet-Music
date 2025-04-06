@@ -1,19 +1,19 @@
 \version "2.24.3"
 \include "deutsch.ly"
 
-#(set-global-staff-size 18)
+#(set-global-staff-size 22)
 
 \header {
-  title     = \markup \bold \italic "Sonate II (Studie)"
-  composer  = "Bernhard Romberg (1767-1841)"
+  title     = \markup \bold \italic "\"Ombra mai fu\""
+  composer  = "Georg Friedrich Händel (1685-1759)"
   arranger  = "arr.: Louis R. Feuillard"
   enteredby = "cellist (2025-04-06)"
-  piece     = "op. 43 (1825)"
+  piece     = "Arie aus: \"Xerxes\", HWV 40"
 }
 
 voiceconsts = {
-  \key c \major
-  \time 4/4
+  \key g \major
+  \time 3/4
   \clef "bass"
 %  \numericTimeSignature
   \compressEmptyMeasures
@@ -21,7 +21,7 @@ voiceconsts = {
 %  \set Timing.beamExceptions = #'()
 %  \set Timing.baseMoment     = #(ly:make-moment 1 4)
 %  \set Timing.beatStructure  = #'(1 1 1)
-  \tempo "Allegro " 4=110
+  \tempo "Largo " 4=70
 }
 
 mist = "string ensemble 1"
@@ -40,7 +40,7 @@ music = \new StaffGroup <<
       \new Staff {
 	\set Staff.midiInstrument = \mivc
 	\set Staff.instrumentName = \markup \center-column { "Violon-" "cello" }
-	\transpose c c { \va }
+	\transpose g g { \va }
       }
 >>
 
@@ -54,7 +54,7 @@ music = \new StaffGroup <<
     oddFooterMarkup = \markup {
       \fill-line {
         \if \should-print-page-number
-        "Bernhard Romberg - Studie Sonate II op. 43" \fromproperty #'page:page-number-string
+        "Georg Friedrich Händel - \"Ombra mai fu\" (Xerxes)" \fromproperty #'page:page-number-string
       }
     }
     evenFooterMarkup = \oddFooterMarkup

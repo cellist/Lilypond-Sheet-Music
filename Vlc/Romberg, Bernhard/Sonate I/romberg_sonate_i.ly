@@ -54,7 +54,7 @@ music = \new StaffGroup <<
     oddFooterMarkup = \markup {
       \fill-line {
         \if \should-print-page-number
-        "Berndhard Romberg - Studie Sonate I op. 43" \fromproperty #'page:page-number-string
+        "Bernhard Romberg - Studie Sonate I op. 43" \fromproperty #'page:page-number-string
       }
     }
     evenFooterMarkup = \oddFooterMarkup
