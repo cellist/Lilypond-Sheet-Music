@@ -1,6 +1,6 @@
 vd = \relative c' {
   \voiceconsts
-  \clef "alto"
+  \clef "tenor"
 
   \repeat volta 2 {
     fis2\mf e
