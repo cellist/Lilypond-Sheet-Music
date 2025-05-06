@@ -1,7 +1,7 @@
-\version "2.18.2"
+\version "2.24.4"
 \include "deutsch.ly"
   
-#(set-global-staff-size 19)
+#(set-global-staff-size 17.5)
 
 \header {
   title     = \markup \bold \italic "Serenade"
@@ -16,7 +16,7 @@ voiceconsts = {
   \time 4/4
   \clef "bass"
 %  \numericTimeSignature
-  \compressFullBarRests
+  \compressEmptyMeasures
   % Set default beaming for all staves
 %  \set Timing.beamExceptions = #'()
 %  \set Timing.baseMoment     = #(ly:make-moment 1 4)
@@ -24,15 +24,7 @@ voiceconsts = {
   \tempo "Poco sostenuto " 4=80
 }
 
-micl = "clarinet"
-mifl = "flute"
-miob = "oboe"
-mifh = "french horn"
-misx = "tenor sax"
-mist = "string ensemble 1"
 miba = "cello"
-%miba = "bassoon"
-%miba = "pizzicato strings"
 
 boxa = { \bar "||" \mark \markup \box \italic "A" }
 boxb = { \bar "||" \mark \markup \box \italic "B" }
@@ -76,7 +68,7 @@ music = \new StaffGroup <<
 >>
 
 \book {
-   \paper {
+  \paper {
     print-page-number = ##t
     print-first-page-number = ##t
     ragged-last-bottom = ##f
@@ -84,8 +76,8 @@ music = \new StaffGroup <<
     evenHeaderMarkup = \markup \null
     oddFooterMarkup = \markup {
       \fill-line {
-        \on-the-fly #print-page-number-check-first
-        "Georg Eduard Goltermann - Serenade" \fromproperty #'page:page-number-string
+        \if \should-print-page-number
+        "Georg Goltermann - Serenade" \fromproperty #'page:page-number-string
       }
     }
     evenFooterMarkup = \oddFooterMarkup
