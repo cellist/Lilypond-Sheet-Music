@@ -1,7 +1,7 @@
-\version "2.14.2"
+\version "2.24.4"
 \include "deutsch.ly"
   
-#(set-global-staff-size 16.95)
+#(set-global-staff-size 17)
 
 \header {
   title    = "Lenzverjüngung"
@@ -16,14 +16,11 @@ voiceconsts = {
   \clef "bass"
   \time 2/4
 % \numericTimeSignature
-  \compressFullBarRests
+  \compressEmptyMeasures
   \tempo "Allegretto non troppo " 4=90
 }
 
-%minstr = "harpsichord"
-mihi = "clarinet"
-%minstr = "accordion"
-milo = "bassoon"
+mivc = "cello"
 
 dolc = \markup \italic "dolce"
 fat  = \markup { \dynamic f \italic " a tempo" }
@@ -36,32 +33,45 @@ pplp = \markup { \italic "poco più lento " \dynamic p }
 
 music = \new StaffGroup <<
       \new Staff {
-	\set Staff.midiInstrument = \mihi
+	\set Staff.midiInstrument = \mivc
 	\set Staff.instrumentName = \markup \center-column { "Violon-" "cello I" }
 	\transpose e g, { \va }
       }
 
       \new Staff {
-	\set Staff.midiInstrument = \mihi
+	\set Staff.midiInstrument = \mivc
 	\set Staff.instrumentName = \markup \center-column { "Violon-" "cello II" }
 	\transpose e g, { \vb }
       }
 
       \new Staff {
-	\set Staff.midiInstrument = \milo
+	\set Staff.midiInstrument = \mivc
 	\set Staff.instrumentName = \markup \center-column { "Violon-" "cello III" }
 	\transpose e g, { \vc }
       }
 
       \new Staff {
-	\set Staff.midiInstrument = \milo
+	\set Staff.midiInstrument = \mivc
 	\set Staff.instrumentName = \markup \center-column { "Violon-" "cello IV" }
 	\transpose e g, { \vd }
       }
 >>
 
 \book {
-  \score {
+  \paper {
+    print-page-number = ##t
+    print-first-page-number = ##t
+    ragged-last-bottom = ##f
+    oddHeaderMarkup = \markup \null
+    evenHeaderMarkup = \markup \null
+    oddFooterMarkup = \markup {
+      \fill-line {
+        \if \should-print-page-number
+        "Johann Wenzel Kalliwoda - Lenzverjüngung" \fromproperty #'page:page-number-string
+      }
+    }
+    evenFooterMarkup = \oddFooterMarkup
+  } \score {
     \music
     \layout {}
   }
