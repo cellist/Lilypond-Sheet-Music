@@ -1,7 +1,7 @@
-\version "2.14.2"
+\version "2.24.4"
 \include "deutsch.ly"
   
-#(set-global-staff-size 22.4)
+#(set-global-staff-size 18)
 
 \header {
   title    = \markup \italic "MacPherson's Lament"
@@ -15,14 +15,11 @@ voiceconsts = {
   \clef "bass"
   \time 4/4
 % \numericTimeSignature
-  \compressFullBarRests
+  \compressEmptyMeasures
   \tempo "Lento " 4=72
 }
 
-%minstr = "harpsichord"
-mihi = "clarinet"
-%minstr = "accordion"
-milo = "bassoon"
+milo = "cello"
 
 rit = \markup \bold \italic "rit."
 
@@ -58,7 +55,20 @@ music = \new StaffGroup <<
 >>
 
 \book {
-  \score {
+  \paper {
+    print-page-number = ##t
+    print-first-page-number = ##t
+    ragged-last-bottom = ##f
+    oddHeaderMarkup = \markup \null
+    evenHeaderMarkup = \markup \null
+    oddFooterMarkup = \markup {
+      \fill-line {
+        \if \should-print-page-number
+        "Jamie Macpherson - MacPherson's Lament" \fromproperty #'page:page-number-string
+      }
+    }
+    evenFooterMarkup = \oddFooterMarkup
+  } \score {
     \music
     \layout {}
   }
