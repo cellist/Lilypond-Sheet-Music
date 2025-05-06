@@ -1,7 +1,7 @@
-\version "2.14.2"
+\version "2.24.4"
 \include "deutsch.ly"
 
-#(set-global-staff-size 20.5)
+#(set-global-staff-size 21)
 
 \header {
   title = "My Love is but a Lassie yet"
@@ -15,14 +15,11 @@ voiceconsts = {
  \time 2/4
  \clef "bass"
 % \numericTimeSignature
- \compressFullBarRests
+ \compressEmptyMeasures
  \tempo "Fast " 8=240
 }
 
-%minstr = "harpsichord"
-mihi = "clarinet"
-%minstr = "accordion"
-milo = "bassoon"
+milo = "cello"
 
 moral = \markup \italic "molto rall."
 
@@ -34,31 +31,43 @@ moral = \markup \italic "molto rall."
 music = \new StaffGroup <<
       \new Staff {
 	\set Staff.midiInstrument = \milo
-	\set Staff.instrumentName = #"Cello I"
+	\set Staff.instrumentName = \markup \center-column { "Violon-" "cello I" }
 	\transpose d d { \va }
       }
 
       \new Staff {
 	\set Staff.midiInstrument = \milo
-	\set Staff.instrumentName = #"Cello II"
+	\set Staff.instrumentName = \markup \center-column { "Violon-" "cello II" }
 	\transpose d d { \vb }
       }
 
       \new Staff {
 	\set Staff.midiInstrument = \milo
-	\set Staff.instrumentName = #"Cello III"
+	\set Staff.instrumentName = \markup \center-column { "Violon-" "cello III" }
 	\transpose d d { \vc }
       }
 
       \new Staff {
 	\set Staff.midiInstrument = \milo
-	\set Staff.instrumentName = #"Cello IV"
+	\set Staff.instrumentName = \markup \center-column { "Violon-" "cello IV" }
 	\transpose d d { \vd }
       }
 >>
-
 \book {
-  \score {
+  \paper {
+    print-page-number = ##t
+    print-first-page-number = ##t
+    ragged-last-bottom = ##f
+    oddHeaderMarkup = \markup \null
+    evenHeaderMarkup = \markup \null
+    oddFooterMarkup = \markup {
+      \fill-line {
+        \if \should-print-page-number
+        "Traditional - My Love is but a Lassie yet" \fromproperty #'page:page-number-string
+      }
+    }
+    evenFooterMarkup = \oddFooterMarkup
+  } \score {
     \music
     \layout {}
   }

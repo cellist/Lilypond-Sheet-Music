@@ -1,7 +1,7 @@
-\version "2.14.2"
+\version "2.24.4"
 \include "deutsch.ly"
 
-#(set-global-staff-size 17.8)
+#(set-global-staff-size 19)
 
 \header {
   title     = \markup \bold \italic "I Will"
@@ -14,13 +14,12 @@ voiceconsts = {
  \key f \major
  \clef "bass"
  \numericTimeSignature
- \compressFullBarRests
+ \compressEmptyMeasures
  \time 4/4
  \tempo "Moderatissimo " 4=110
 }
 
-mihi = "clarinet"
-milo = "bassoon"
+mivc = "cello"
 
 \include "v1.ily"
 \include "v2.ily"
@@ -29,33 +28,45 @@ milo = "bassoon"
 
 music = \new StaffGroup <<
       \new Staff {
-        \set Staff.midiInstrument = \mihi
+        \set Staff.midiInstrument = \mivc
         \set Staff.instrumentName = \markup \center-column { "Violon-" "cello I" }
         \transpose f g { \va }
       }
 
       \new Staff {
-        \set Staff.midiInstrument = \mihi
+        \set Staff.midiInstrument = \mivc
         \set Staff.instrumentName = \markup \center-column { "Violon-" "cello II" }
         \transpose f g { \vb }
       }
 
       \new Staff {
-        \set Staff.midiInstrument = \milo
+        \set Staff.midiInstrument = \mivc
         \set Staff.instrumentName = \markup \center-column { "Violon-" "cello III" }
         \transpose f g { \vc }
       }
 
       \new Staff {
-        \set Staff.midiInstrument = \milo
+        \set Staff.midiInstrument = \mivc
         \set Staff.instrumentName = \markup \center-column { "Violon-" "cello IV" }
         \transpose f g { \vd }
       }
 >>
-
 \book {
-  \score {
-   \music
+  \paper {
+    print-page-number = ##t
+    print-first-page-number = ##t
+    ragged-last-bottom = ##f
+    oddHeaderMarkup = \markup \null
+    evenHeaderMarkup = \markup \null
+    oddFooterMarkup = \markup {
+      \fill-line {
+        \if \should-print-page-number
+        "Paul McCartney - I Will" \fromproperty #'page:page-number-string
+      }
+    }
+    evenFooterMarkup = \oddFooterMarkup
+  } \score {
+    \music
     \layout {}
   }
 

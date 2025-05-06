@@ -1,4 +1,4 @@
-\version "2.14.2"
+\version "2.24.4"
 \include "deutsch.ly"
 
 #(set-global-staff-size 17)
@@ -16,15 +16,12 @@ voiceconsts = {
   \time 3/4
   \clef "bass"
   %\numericTimeSignature
-  \compressFullBarRests
+  \compressEmptyMeasures
   \set tupletSpannerDuration = #(ly:make-moment 1 4)
   \tempo "Allegretto maestoso " 4=140
 }
 
-%minstr = "harpsichord"
-mihi = "clarinet"
-%minstr = "accordion"
-milo = "bassoon"
+milo = "cello"
 
 \include "v1.ily"
 \include "v2.ily"
@@ -56,9 +53,21 @@ music = \new StaffGroup <<
 	\transpose g g, { \vd }
       }
 >>
-
 \book {
-  \score {
+  \paper {
+    print-page-number = ##t
+    print-first-page-number = ##t
+    ragged-last-bottom = ##f
+    oddHeaderMarkup = \markup \null
+    evenHeaderMarkup = \markup \null
+    oddFooterMarkup = \markup {
+      \fill-line {
+        \if \should-print-page-number
+        "Peter Warlock - Basse Danse" \fromproperty #'page:page-number-string
+      }
+    }
+    evenFooterMarkup = \oddFooterMarkup
+  } \score {
     \music
     \layout {}
   }

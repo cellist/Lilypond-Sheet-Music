@@ -1,4 +1,4 @@
-\version "2.14.2"
+\version "2.24.4"
 \include "deutsch.ly"
 
 #(set-global-staff-size 20)
@@ -14,17 +14,16 @@ voiceconsts = {
   \key c \major
   \time 3/4
   \clef "bass"
-  \tempo "Vivace " 4=130
   %\numericTimeSignature
-  \compressFullBarRests
+  \compressEmptyMeasures
   % Set default beaming for all staves
   \set Timing.beamExceptions = #'()
   \set Timing.baseMoment     = #(ly:make-moment 1 4)
   \set Timing.beatStructure  = #'(1 1 1)
+  \tempo 4=120
 }
 
-mihi = "clarinet"
-milo = "bassoon"
+mivc = "cello"
 
 \include "v1.ily"
 \include "v2.ily"
@@ -33,33 +32,46 @@ milo = "bassoon"
 
 music = \new StaffGroup <<
       \new Staff {
-        \set Staff.midiInstrument = \mihi
+        \set Staff.midiInstrument = \mivc
         \set Staff.instrumentName = \markup \center-column { "Violon-" "cello I" }
         \transpose c g, { \va }
       }
 
       \new Staff {
-        \set Staff.midiInstrument = \milo
+        \set Staff.midiInstrument = \mivc
         \set Staff.instrumentName = \markup \center-column { "Violon-" "cello II" }
         \transpose c g, { \vb }
       }
 
       \new Staff {
-        \set Staff.midiInstrument = \milo
+        \set Staff.midiInstrument = \mivc
         \set Staff.instrumentName = \markup \center-column { "Violon-" "cello III" }
         \transpose c g, { \vc }
       }
 
       \new Staff {
-        \set Staff.midiInstrument = \milo
+        \set Staff.midiInstrument = \mivc
         \set Staff.instrumentName = \markup \center-column { "Violon-" "cello IV" }
         \transpose c g, { \vd }
       }
->>
+    >>
 
 \book {
-  \score {
-   \music
+  \paper {
+    print-page-number = ##t
+    print-first-page-number = ##t
+    ragged-last-bottom = ##f
+    oddHeaderMarkup = \markup \null
+    evenHeaderMarkup = \markup \null
+    oddFooterMarkup = \markup {
+      \fill-line {
+        \if \should-print-page-number
+        "John Dowland - Can She Excuse?" \fromproperty #'page:page-number-string
+      }
+    }
+    evenFooterMarkup = \oddFooterMarkup
+  } \score {
+    \music
     \layout {}
   }
 
