@@ -1,4 +1,4 @@
-\version "2.18.2"
+\version "2.24.4"
 \include "deutsch.ly"
 
 #(set-global-staff-size 19)
@@ -15,7 +15,7 @@ voiceconsts = {
  \clef "bass"
  \key b \major
  %\numericTimeSignature
- \compressFullBarRests
+ \compressEmptyMeasures
  \time 3/4
  \tempo "Largo " 4=40
 }
@@ -57,7 +57,7 @@ music = \new StaffGroup <<
 >>
 
 \book {
-   \paper {
+  \paper {
     print-page-number = ##t
     print-first-page-number = ##t
     ragged-last-bottom = ##f
@@ -65,8 +65,8 @@ music = \new StaffGroup <<
     evenHeaderMarkup = \markup \null
     oddFooterMarkup = \markup {
       \fill-line {
-        \on-the-fly #print-page-number-check-first
-        "Antonio Vivaldi - Preludio (Sonata VI)" \fromproperty #'page:page-number-string
+        \if \should-print-page-number
+        "Antonio Vivaldi - Preludio Sonata VI" \fromproperty #'page:page-number-string
       }
     }
     evenFooterMarkup = \oddFooterMarkup
