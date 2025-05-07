@@ -1,7 +1,7 @@
-\version "2.14.2"
+\version "2.24.4"
 \include "deutsch.ly"
   
-#(set-global-staff-size 19.25)
+#(set-global-staff-size 18.25)
 
 \header {
   title     = "Fields of Gold"
@@ -16,14 +16,11 @@ voiceconsts = {
   \clef "bass"
   \time 4/4
 % \numericTimeSignature
-  \compressFullBarRests
+  \compressEmptyMeasures
   \tempo "Tempo rubato " 4=80
 }
 
-%minstr = "harpsichord"
-mihi = "clarinet"
-%minstr = "accordion"
-milo = "bassoon"
+mivc = "cello"
 
 frl = \markup \italic "freely"
 rit = \markup \bold \italic "rit."
@@ -48,32 +45,45 @@ boxl = { \bar "||" \mark \markup \box "L" }
 
 music = \new StaffGroup <<
       \new Staff {
-	\set Staff.midiInstrument = \mihi
+	\set Staff.midiInstrument = \mivc
 	\set Staff.instrumentName = \markup \center-column { "Violon-" "cello I" }
 	\transpose es c { \va }
       }
 
       \new Staff {
-	\set Staff.midiInstrument = \mihi
+	\set Staff.midiInstrument = \mivc
 	\set Staff.instrumentName = \markup \center-column { "Violon-" "cello II" }
 	\transpose es c { \vb }
       }
 
       \new Staff {
-	\set Staff.midiInstrument = \milo
+	\set Staff.midiInstrument = \mivc
 	\set Staff.instrumentName = \markup \center-column { "Violon-" "cello III" }
 	\transpose es c { \vc }
       }
 
       \new Staff {
-	\set Staff.midiInstrument = \milo
+	\set Staff.midiInstrument = \mivc
 	\set Staff.instrumentName = \markup \center-column { "Violon-" "cello IV" }
 	\transpose es c { \vd }
       }
 >>
 
 \book {
-  \score {
+  \paper {
+    print-page-number = ##t
+    print-first-page-number = ##t
+    ragged-last-bottom = ##f
+    oddHeaderMarkup = \markup \null
+    evenHeaderMarkup = \markup \null
+    oddFooterMarkup = \markup {
+      \fill-line {
+        \if \should-print-page-number
+        "Sting - Fields of Gold" \fromproperty #'page:page-number-string
+      }
+    }
+    evenFooterMarkup = \oddFooterMarkup
+  } \score {
     \music
     \layout {}
   }
