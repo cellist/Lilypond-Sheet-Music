@@ -1,7 +1,7 @@
-\version "2.14.2"
+\version "2.24.4"
 \include "deutsch.ly"
 
-#(set-global-staff-size 17.25)
+#(set-global-staff-size 16.5)
 
 \header {
   title     = \markup \bold \italic "Tafelmusik"
@@ -16,11 +16,10 @@ voiceconsts = {
  \key f \major
  \clef "bass"
  %\numericTimeSignature
- \compressFullBarRests
+ \compressEmptyMeasures
 }
 
-mihi = "clarinet"
-milo = "bassoon"
+mivc = "cello"
 
 daca = \mark \markup \bold "D.C."
 dcaf = \mark \markup \bold "D.C. al Fine"
@@ -51,33 +50,46 @@ introe = { \break
 
 music = \new StaffGroup <<
       \new Staff {
-        \set Staff.midiInstrument = \milo
+        \set Staff.midiInstrument = \mivc
         \set Staff.instrumentName = \markup \center-column { "Violon-" "cello I" }
         \transpose f f, { \va }
       }
 
       \new Staff {
-        \set Staff.midiInstrument = \milo
+        \set Staff.midiInstrument = \mivc
         \set Staff.instrumentName = \markup \center-column { "Violon-" "cello II" }
         \transpose f f, { \vb }
       }
 
       \new Staff {
-        \set Staff.midiInstrument = \milo
+        \set Staff.midiInstrument = \mivc
         \set Staff.instrumentName = \markup \center-column { "Violon-" "cello III" }
         \transpose f f, { \vc }
       }
 
       \new Staff {
-        \set Staff.midiInstrument = \milo
+        \set Staff.midiInstrument = \mivc
         \set Staff.instrumentName = \markup \center-column { "Violon-" "cello IV" }
         \transpose f f, { \vd }
       }
 >>
 
 \book {
-  \score {
-   \music
+  \paper {
+    print-page-number = ##t
+    print-first-page-number = ##t
+    ragged-last-bottom = ##f
+    oddHeaderMarkup = \markup \null
+    evenHeaderMarkup = \markup \null
+    oddFooterMarkup = \markup {
+      \fill-line {
+        \if \should-print-page-number
+        "Georg Philipp Telemann - Tafelmusik (aus TWV 55:B1)" \fromproperty #'page:page-number-string
+      }
+    }
+    evenFooterMarkup = \oddFooterMarkup
+  } \score {
+    \music
     \layout {}
   }
 
