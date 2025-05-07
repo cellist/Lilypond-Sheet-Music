@@ -1,7 +1,7 @@
-\version "2.14.2"
+\version "2.24.4"
 \include "deutsch.ly"
   
-#(set-global-staff-size 22.5)
+#(set-global-staff-size 20)
 
 \header {
   title     = \markup \bold \italic "Larghetto in F"
@@ -16,15 +16,11 @@ voiceconsts = {
   \time 3/4
   \clef "bass"
   \numericTimeSignature
-  \compressFullBarRests
+  \compressEmptyMeasures
   \tempo "Larghetto " 4=66
 }
 
-%minstr = "harpsichord"
-mihi = "clarinet"
-%minstr = "accordion"
-%milo = "bassoon"
-milo = "cello"
+mivc = "cello"
 
 rall = \mark \markup \box \italic "rall."
 
@@ -35,32 +31,32 @@ rall = \mark \markup \box \italic "rall."
 
 music = \new StaffGroup <<
       \new Staff {
-	\set Staff.midiInstrument = \milo
+	\set Staff.midiInstrument = \mivc
 	\set Staff.instrumentName = \markup \center-column { "Violon-" "cello I" }
 	\transpose f f { \va }
       }
 
       \new Staff {
-	\set Staff.midiInstrument = \milo
+	\set Staff.midiInstrument = \mivc
 	\set Staff.instrumentName = \markup \center-column { "Violon-" "cello II" }
 	\transpose f f { \vb }
       }
 
       \new Staff {
-	\set Staff.midiInstrument = \milo
+	\set Staff.midiInstrument = \mivc
 	\set Staff.instrumentName = \markup \center-column { "Violon-" "cello III" }
 	\transpose f f { \vc }
       }
 
       \new Staff {
-	\set Staff.midiInstrument = \milo
+	\set Staff.midiInstrument = \mivc
 	\set Staff.instrumentName = \markup \center-column { "Violon-" "cello IV" }
 	\transpose f f { \vd }
       }
 >>
 
 \book {
-   \paper {
+  \paper {
     print-page-number = ##t
     print-first-page-number = ##t
     ragged-last-bottom = ##f
@@ -68,7 +64,7 @@ music = \new StaffGroup <<
     evenHeaderMarkup = \markup \null
     oddFooterMarkup = \markup {
       \fill-line {
-        \on-the-fly #print-page-number-check-first
+        \if \should-print-page-number
         "Georg Friedrich Händel - Larghetto in F-Dur" \fromproperty #'page:page-number-string
       }
     }
