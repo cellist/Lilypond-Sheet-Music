@@ -133,4 +133,135 @@ vc = \relative c {
     f2 f,4\p f
     f2( b4) r
   }
+
+  \introe
+  f'4(\p f,) r
+  c'4. c8(-. c-. c)-.
+  c2 r4
+  c4( f,8) f(-. f-. f)-.
+  fis4 fis fis
+  f!8 g'4( fis8 g f)
+
+  e4 e e
+  f4. f8(\f g a)
+  b4 r8 e,( f g)
+  a4 r8 f,8( g a)
+  b4 c c
+  f f, r
+  r8 c'(\p es ges f es)
+
+  des4( b) r
+  r8 as'( g? as g f)
+  f8.( e?16) e8 c( e g)
+  c2.~
+  c8 des(\mp c b) as4~
+
+  as8 as( g f) e4~
+  e8 des( c b) a!4~
+  a8 a( b c) des4
+  r \rit d! des
+  c4 r2 \atem
+
+  f4(\p f,) r
+  c'4. c8(-. c-. c)-.
+  c2 r4
+  c( f,8) f(-. f-. f)-.
+  fis4\f fis fis
+  f!8 g'4( fis8 g f)
+  e4 e e
+
+  f4. f8( g a)
+  b4 r8 e,( f g)
+  a4 r8 f,( g a)
+  b4 c c
+  f f, r
+
+  c'2.\p
+  c4( f8) r4.
+  c2.
+  c4( f8) c(-.\pp c-. c)-.
+  c2( f,8) r \bar "|."
+
+  \introf
+  g'4\p g g
+  g4. g8(-. g-. g)-.
+  g4 g,8 g'( h g)
+  d2 d8(-. d)-.
+  dis4( e) r
+  e e e
+  d? d d
+
+  d( g,) r
+  d'\f r e8. e16
+  c4( h) r8. g'16
+  h4( c8) r4.
+  c,2.
+  d2 r4
+  r8 e(-.\p e-. e)-. r4
+  r8 fis(-. fis-. fis)-. r4
+
+  g g gis
+  a2 a,4
+  d r8 a' fis d
+  cis16 a( h cis d\cresc e fis g? a gis g e)
+  d4 r8 a' fis d
+
+  cis16 a( h cis d e fis g a gis g e)
+  \repeat tremolo 4 { d\f a } e'8 a,
+  d fis a4. a,8
+  d2 r8. d16
+  es4( d) r
+
+  fis(\p g d)
+  cis( d) r8. d16\f
+  es4( d) r
+  c?\p c c
+  f b,8 d f b
+  a a, c f a a,
+
+  g g h? d g g,
+  f f' a d f f,
+  es es g c es es,\mp
+  d d f h d d,
+
+  c4 r h
+  c r d
+  es2 es8(-. es)-.
+  d4.(\> c'8\!\p h a)
+  g4 g g
+  g4. g8(-. g-. g)-.
+  g4 g,8 g'( h g)
+
+  d2.
+  dis4( e?) r
+  c c c
+  d? d d
+  d( g,) r
+  d'\f r e8. e16
+  c4( h) r8. g'16
+  h4( c8) r4.
+
+  c,2.
+  d4. d8\p d( g)
+  g( fis?) r d( g h)
+  a( g) r d( g h)
+  c2.~
+  c2~ c8. h16
+  fis4 r r8 g\f
+
+  c, c d4 d
+  g r8 d\p h' g
+  c16 d,( e fis g a\cresc h c d cis c a)
+  g4 r8 d h' g
+
+  c16 d,( e fis g a h c d cis c a)
+  \repeat tremolo 4 { g\f d } fis8 d
+  g h d4. d,8
+  e2 r8 e
+
+  c c d4( c)
+  h8\p h( d g fis f)
+  e2 r8 e
+  c(-. c)-. d4.\> d8
+  d4(\!\pp g,8) r4. \bar "|."
 }

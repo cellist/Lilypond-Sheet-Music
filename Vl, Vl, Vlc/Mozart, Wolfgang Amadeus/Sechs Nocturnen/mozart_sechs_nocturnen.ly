@@ -33,10 +33,12 @@ apbf = \markup { \italic "1." \dynamic p ", 2." \dynamic f }
 atem = \mark \markup \box \italic "a tempo"
 rit  = \mark \markup \box \italic "rit."
 
-introa = {        \tempo "1. Allegretto " 4=100 }
-introb = { \break \tempo "2. Adagio "     4=66 \key es \major }
-introc = { \break \tempo "3. Andante "    4=88 \key f \major }
-introd = { \break \tempo "4. Andante "    4=94 \key b \major }
+introa = {        \tempo "1. Allegretto "  4=100 }
+introb = { \break \tempo "2. Adagio "      4=66 \key es \major }
+introc = { \break \tempo "3. Andante "     4=88 \key f \major }
+introd = { \break \tempo "4. Andante "     4=94 \key b \major }
+introe = { \break \tempo "5. Andante "     4=74 \key f \major \time 3/4 }
+introf = { \break \tempo "6. Poco Adagio " 4=62 \key g \major }
 
 \include "v1.ily"
 \include "v2.ily"

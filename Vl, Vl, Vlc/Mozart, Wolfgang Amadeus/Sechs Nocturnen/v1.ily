@@ -134,4 +134,136 @@ va = \relative c'' {
     f2 a,8(\p b c d)
     c2( b4) r
   }
+
+  \introe
+  f(\p c8) a'( g f)
+  f( fis g4) r
+  g( c,8) b'( a g)
+  g( as a4) r
+  d4.( es8 d c)
+  c4( b8 a b h)
+
+  c4.( cis8 d b!)
+  b4( a8) r4.
+  f'4(\f d8) r4.
+  f4( c?8) r r c
+  \tuplet 3/2 4 { d( b g) } f4 a8.( g16)
+  f4 r c'8.(\p b16)
+
+  a4 es'4.( a,8)
+  c8.( b16) b4 des8.( c16)
+  h8( f'4 d! h8)
+  h8.( c16) c4 r
+  r16 c b! as g( c) b as g( c) b as
+
+  g4 r8 e'?(\mp f h,
+  c4) r8 c( des a?
+  b?4) r8 des c4~
+  c8 es( des c b f')
+  es( d) \rit h4. h8
+
+  c4. d8(\p b!8 g) \atem
+  f4( c8) a'( g f)
+  f( fis g4) r
+  g( c,8) b'( a g)
+  g( as a4) r
+  d4.(\f es8 d c)
+
+  c4( b8 a b h)
+  c4.( cis8 d b)
+  b4( a8) r4.
+  f'?4( d8) r4.
+  f4( c8) r r c
+  \tuplet 3/2 4 { d( b g) } f4 a8.( g16)
+
+  f4 r8 a(\p b h)
+  c2~ c16 cis( d b!)
+  b4( a8) a( b h)
+  c?2~ c16 cis( d e)
+  e4( f8) e,(-.\pp e-. e)-.
+  e2( f8) r \bar "|."
+
+  \introf
+  d'4(\p h) d16( c h c)
+  cis4( d8) g( fis e)
+  e16( d c! h) h4 r
+  a h8( c d c)
+  c4( h) e~
+  e8 fis16( g fis8 e d c)
+
+  h4.( e16 d) d( c h a)
+  a8.( h16 g8) g(\f a h)
+  c4 r h8. h16
+  e4( d) r8. g,16
+  f'4( e8) r g4~
+  g fis!8( e d c)
+
+  h4( a8) a\p a( d)
+  d( cis) r a( cis e)
+  e( d) r a( d fis)
+  e2 f4
+  fis!( g4.) cis,8
+  d16 a( h cis d e fis g a fis h a)
+
+  g4 r8 g\cresc e cis
+  d16 a( h cis d e fis g a fis h a)
+  g4 r8 g\f e cis
+  d a d fis g cis,
+  d a d fis g cis,
+
+  cis4( d) r8. d16
+  cis4( d8) c16.(\p d32 es8) es-.
+  es4( d4. c8)
+  c( b a4) r8. d16\f
+  cis4( d8) c16.(\p d32 es8) es-.
+
+  es4 es4. es8
+  es4( d) r8 d
+  c( f4) es8( d c)
+  c( b) b4 r8 b
+  a( d4) d8( es f)
+  g( h,?) c4 r8 c\mp
+
+  h4. h8( c d)
+  es( g,) c( es) g8.( f16)
+  f8( es) r4 es8.( d16)
+  c4 cis2
+  d8 fis,?(\p g a h c!)
+
+  d4( h) d16( c h c)
+  cis4( d8) g( fis e)
+  e16( d c h) h4 r
+  a h8( c d c)
+  c4( h) e~
+
+  e8 fis16( g fis8 e d c)
+  h4.( e16 d) d( c h a)
+  a8.( h16 g8) g(\f a h)
+  c4 r h8. h16
+  e4( d) r8. g,16
+
+  f'4( e8) r g4~
+  g fis!8( e d c)
+  h4( a) r
+  r8 c(\p a fis) r4
+  r8 d'( h g) r4
+  r2 r8 fis(
+
+  a d) fis4.. g16
+  c,4 r r8 h\f
+  c16( d e c) h4( a)
+  g16 g(\p a h c d e fis g fis e d)
+  c4 r8 a\cresc c fis
+
+  g16 g,( fis g a h c a h d c h)
+  c4 r8 a c fis
+  g\f g, h d c fis
+  g g, h d c fis
+  fis4( g) r8 h,
+
+  c16( d e c) h4( a)
+  d r2
+  h8\p h( d f e d)
+  c16( d e c) h8 a(\> c fis!)\!
+  a4(\pp g8) r4. \bar "|."
 }
