@@ -67,7 +67,7 @@ music = \new StaffGroup <<
     oddFooterMarkup = \markup {
       \fill-line {
         \if \should-print-page-number
-        "Allegro G-Dur" \fromproperty #'page:page-number-string
+        "Carl Ditters von Dittersdorf - Allegro G-Dur" \fromproperty #'page:page-number-string
       }
     }
     evenFooterMarkup = \oddFooterMarkup
