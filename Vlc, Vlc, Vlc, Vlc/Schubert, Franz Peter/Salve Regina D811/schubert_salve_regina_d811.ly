@@ -1,7 +1,7 @@
-\version "2.14.2"
+\version "2.24.4"
 \include "deutsch.ly"
 
-#(set-global-staff-size 17.5)
+#(set-global-staff-size 18)
 
 \header {
   title       = \markup \bold \italic "Salve Regina"
@@ -19,17 +19,14 @@ voiceconsts = {
   \tempo "Andantino " 4=80
   \clef "bass"
   %\numericTimeSignature
-  \compressFullBarRests
+  \compressEmptyMeasures
   % Set default beaming for all staves
   \set Timing.beamExceptions = #'()
   \set Timing.baseMoment     = #(ly:make-moment 1 4)
   \set Timing.beatStructure  = #'(1 1 1)  
 }
 
-mihi = "clarinet"
-milo = "bassoon"
-%mihi = "church organ"
-%milo = "church organ"
+mivc = "cello"
 
 rit = \markup \bold \italic "rit."
 
@@ -40,33 +37,46 @@ rit = \markup \bold \italic "rit."
 
 music = \new StaffGroup <<
       \new Staff {
-        \set Staff.midiInstrument = \mihi
+        \set Staff.midiInstrument = \mivc
         \set Staff.instrumentName = \markup \center-column { "Violon-" "cello I" }
         \transpose c c { \va }
       }
 
       \new Staff {
-        \set Staff.midiInstrument = \mihi
+        \set Staff.midiInstrument = \mivc
         \set Staff.instrumentName = \markup \center-column { "Violon-" "cello II" }
         \transpose c c { \vb }
       }
 
       \new Staff {
-        \set Staff.midiInstrument = \milo
+        \set Staff.midiInstrument = \mivc
         \set Staff.instrumentName = \markup \center-column { "Violon-" "cello III" }
         \transpose c c { \vc }
       }
 
       \new Staff {
-        \set Staff.midiInstrument = \milo
+        \set Staff.midiInstrument = \mivc
         \set Staff.instrumentName = \markup \center-column { "Violon-" "cello IV" }
         \transpose c c { \vd }
       }
 >>
 
 \book {
-  \score {
-   \music
+  \paper {
+    print-page-number = ##t
+    print-first-page-number = ##t
+    ragged-last-bottom = ##f
+    oddHeaderMarkup = \markup \null
+    evenHeaderMarkup = \markup \null
+    oddFooterMarkup = \markup {
+      \fill-line {
+        \if \should-print-page-number
+        "Franz Schubert - Salve Regina (D.811)" \fromproperty #'page:page-number-string
+      }
+    }
+    evenFooterMarkup = \oddFooterMarkup
+  } \score {
+    \music
     \layout {}
   }
 
