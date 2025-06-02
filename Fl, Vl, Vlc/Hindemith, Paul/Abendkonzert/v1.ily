@@ -1,7 +1,7 @@
 va = \relative c''' {
   \voiceconsts
-%  \clef "treble^8"
-
+  \clef "treble^8"
+  
   \introa
   c4~\f c16 a-. f-. g-. as8-- g-- f-- g--
   c, r c'2.~
@@ -238,4 +238,43 @@ va = \relative c''' {
   g2.\! r4
   R1*3
   e1\fermata \bar "|."
+
+  \introf
+  \partial 4. a8\p b8.--_\lesp as16
+  g4. f8 e8. d'16
+  cis4-- h-- r8 gis\<
+  g! c4\! b8 d,8.\> g16
+  as4 f4.\! \breathe g8\pp
+  as4 b c
+  r8 a!\< b4 c
+
+  d2.~\!
+  d8 c b(\> g4) a8
+  r fis g8. f16 e4~\!
+  e2 r8 h'?\mf
+  c8.-> b16 \post a8-- d-- cis4~\<
+  cis8 ais h!2~
+
+  h8 d b2~
+  b8 c cis dis\! e4~
+  e \rita r8 a,? b8. as16\>
+  g4. f8 e8. d'?16
+  cis4 h r8 a
+  gis cis4 h8 d,8.\! e16
+
+  fis4.\p \atem r
+  as4(\p f!4.) r8
+  e2( d8) r
+  cis'2.~\<
+  cis8 h gis fis a4
+  gis2.~\!\mf \rita
+  gis8 a\f b8.-> as16 g4~\>
+
+  g2~ g8 as\!\p
+  f r r gis\pp \adag a!8. g16
+  fis4. f8 e8. d'16
+  cis4-- h--\< r8 gis
+  g! c!4\! b8\> d,8. g16
+  as4 f4.\! g8
+  e2.\fermata\pp \bar "|."
 }

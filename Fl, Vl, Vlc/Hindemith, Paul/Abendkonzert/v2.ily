@@ -1,6 +1,5 @@
 vb = \relative c'' {
   \voiceconsts
-  \clef "treble"
 
   \introa
   r4 c\f b2
@@ -239,4 +238,41 @@ vb = \relative c'' {
   d2.\! r4
   R1*3
   cis1\fermata \bar "|."
+
+  \introf
+  \partial 4. r4.
+  R2.*3
+  r4. d8\p es8.--_\lesp des16
+  c4. b8 a8. g'16
+  fis4-- e?--\< r8 es
+
+  d g4 f8 a,8. d16
+  es4\! c4.\> d8
+  h?2 r4\!
+  r8 gis'\mf a8.-> g16 fis4
+  e \post r8 e f!8.->\< es16
+  d4. c8 h8. a'16
+
+  as4 g-- r8 ges
+  f b4\! as8 c,8.\f f16
+  ges4 \rita es4. f8\>
+  d2 r4
+  f2 r4
+  fis2 a4\!
+
+  as4.\p \atem r8 r4
+  b,(\p g4.) r8
+  h!2( a8) r
+  b4 f2~\<
+  f4 r2\!
+  r8 g\mf\< f'4 e~ \rita
+  e8 r\! r4. dis8\f
+
+  e8.-> d!16\> cis2~
+  cis8\!\p r r4 \adag f~\pp
+  f d h~
+  h8 r4. f'4~\<
+  f d\!\> h~
+  h8 r\! r2
+  cis2.\fermata\pp \bar "|."
 }

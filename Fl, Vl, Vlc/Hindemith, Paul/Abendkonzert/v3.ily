@@ -1,8 +1,7 @@
 vc = \relative c {
   \voiceconsts
-%  \clef "treble_8"
-  \clef "tenor"
-
+  \clef "bass"
+  
   f1~\f
   f8 f16-. g-. b8 r a r c r
   h! r d2 c8-- h--
@@ -121,7 +120,7 @@ vc = \relative c {
     a4-.\f h-. c-. b-.
     a-. h!-. c-. b-.
     a-. h!-. c-. b-.
-    a-. h-. c-. b-.
+    a-. h!-. c-. b-.
     a-. h!-. c-. a-.
     d-. e-. f-. d-.
     g,-. a-. b-. g-.
@@ -242,4 +241,44 @@ vc = \relative c {
   c\! es(\> c b)
   a1~
   a\fermata\! \bar "|."
+
+  \introf
+  \partial 4. r4.
+  r4 c2~\p
+  c8^\lega\< b es4 des\!
+  r h!2~\>
+  h4 r2\!
+  r8 b(\pp g4.) r8
+  r4. d'8(\< h!4)
+
+  r8 c( a2)
+  r4\! f2\>
+  g r8\! c\mf
+  cis8.-> h16 b2~
+  b4 \post r2
+  r r8 fis'~
+
+  fis\< dis e h c?4~
+  c2
+  b4~\!\f
+  b2 r8 c\>
+  a4( g) r8 c
+  h?( a4) r8 d4
+  cis2 r4\!
+
+  es\p r8 \atem f^\espr\mf fis8.-- e16
+  es4. des8 c8. b'16
+  a4-- g-- r8 e!\<
+  es as4 ges8 b,8. es16
+  e!4 cis4.\! dis8
+  c4 r8 cis\f d!8.-> c16 \rita
+  h?2.\>
+
+  b4. g8\! a4~\p
+  a8 r r2
+  r r8 a(\pp
+  g) r r2
+  r r8 a(
+  g) r r2
+  a2.\fermata\pp \bar "|."
 }
