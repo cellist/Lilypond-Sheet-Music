@@ -115,4 +115,131 @@ vc = \relative c {
   a g r2
   r4 f r f
   r a2. \bar "|."
+
+  \introe
+  \repeat volta 2 {
+    a4-.\f h-. c-. b-.
+    a-. h!-. c-. b-.
+    a-. h!-. c-. b-.
+    a-. h-. c-. b-.
+    a-. h!-. c-. a-.
+    d-. e-. f-. d-.
+    g,-. a-. b-. g-.
+
+    c-.\> d-. es-. c-.
+    f,--\!\mf g-- a-- g8-. a-.
+    b4(->\< a8) r b4(-> a8) r
+    g4-. c2-. b4-.\!
+    es1~\f
+    es4 r g,-. r
+  }
+  \alternative {
+    { c es8-. d-. c4-. b-. }
+    { c4. r8 r2 }
+  }
+  r c\p
+  r h?
+  r b
+  r a
+  r g
+  r4 g'2->\< fis4~->
+
+  fis e2-> a,4\!
+  r b8(\mf es) d2~->
+  d c4(\< b)
+  g1
+  a4-.\!\f h?-. c-. b-.
+  a-. h!-. c-. b-.
+  a-. h!-. c-. a-.
+
+  b g2-> f4-.
+  b es2-> des4-.
+  c r b2~\>
+  b g
+  a\mf d4-._\marc h!-.
+  e?2. c8 b
+  a2\< d?4 h!
+
+  e2. c8 b\!
+  a2 d4 h!
+  e2(\f d)
+  cis1~
+  cis4 r r2
+  d4.\p r8 cis4. r8
+  h4. r8 a4. r8
+  d4. r8 cis4. r8
+
+  h4. r8 a4. r8
+  d4.\< r8 cis4. r8
+  h4. r8 a4. r8\!
+  r2 g~\mf
+  g4 b des( c?)
+  b r es( des)
+  c r f( es)
+
+  d?4.\> r8 cis4. r8\!
+  h4.\p r8 a4. r8
+  d4. r8 cis4. r8
+  h4.\< r8 a4. r8
+  d4. r8\! cis4.\f r8
+  h4. r8 a4. r8
+  d4. r8 cis4. r8
+
+  h4. r8 a4. r8
+  d4. r8 cis4. r8
+  h4. r8 a4. r8
+  d4. r8 cis4. r8
+  h4. r8 a4. r8
+  d2. r4
+  a-.\f h-. c-. b-.
+  a-. h!-. c-. b-.
+  
+  a-. h!-. c-. b-.
+  a-. h!-. c-. b-.
+  a-. h!-. c-. a-.
+  d-. e-. f-. d-.
+  g,-. a-. b-. g-.
+  c-.\> d-. es-. c-.
+
+  f,--\!\mf g-- a-- g8-. a-.
+  b4( a8) r b4( a8) r
+  g4 c2->\< b4-.
+  es1->
+  d->
+  cis4-.\!\f dis-. e?-. d!-.
+  cis-. dis-. e-. d-.
+  
+  cis-. dis-. e-. d-.
+  cis-. dis-. e-. cis-.
+  d!4. r8 cis4. r8
+  h4. r8 a4. r8
+  g4. r8 f4. r8
+  g4. r8 a4. r8
+
+  g2 r4 f-.
+  b-. es2 des4
+  c-. h-. g-. a-.
+  c-. h-. g-. a-.
+  c-. h-. g-. a-.
+  c-. h-. g-. a-.
+
+  c-. h-. g-. a-.
+  c-. h-. g-. a-.
+  e'? r r b~->
+  b\< es2-> c4->
+  f1~-> \rita
+  f2 dis
+  cis2.\! r4
+  b2.\pp r4
+
+  a2 d?4 \atem h!
+  e1\<
+  a,2 d4\! h
+  e1\>
+  a,2 d4 h
+  e1~\!
+  e4\< g( e d)
+  c\! es(\> c b)
+  a1~
+  a\fermata\! \bar "|."
 }

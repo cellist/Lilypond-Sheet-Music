@@ -30,12 +30,15 @@ mivl = "violin"
 miba = "cello"
 mipz = "pizzicato strings"
 
-introa = {           \tempo "1. Allegro "       4=100 }
+introa = {           \tempo "1. Allegro "    4=100 }
 introb = { \bar "||" \tempo "Poco moderato " 4=90 }
-introc = { \bar "||" \tempo "Tempo primo " 4=100 }
-introd = { \bar "||" \tempo "Tempo primo " 4=100 }
+introc = { \bar "||" \tempo "Tempo primo "   4=100 }
+introd = { \bar "||" \tempo "Tempo primo "   4=100 }
+introe = { \break    \tempo "2. Vivace "     2=92 \time 2/2 }
 
+atem = \mark \markup \box \italic "a tempo"
 espr = \markup \italic "(espr.)"
+marc = \markup \italic "marcato"
 pori = \mark \markup \box \italic "Poco ritenuto"
 rita = \mark \markup \box \italic "ritardando"
 

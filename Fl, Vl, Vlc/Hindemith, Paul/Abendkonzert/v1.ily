@@ -114,4 +114,128 @@ va = \relative c''' {
   fis4 gis\> ais h8. r16\!
   r4 f! r f
   r f2. \bar "|."
+
+  \introe
+  \repeat volta 2 {
+    a2\f d4-. h-.
+    e2. c8 a
+    g fis e4 a g8 f
+    a2 r4 a8 h
+    c4. b8 a4 c
+    f4. es8 d c b a
+    b4 d8 c b4 d8 c
+
+    b4\> d8 c b4 c8 g\!
+    as2->\mf \acciaccatura g8 as2->
+    as->\< \acciaccatura des8 as2->
+    \acciaccatura g8 as2-> b->
+    ces2.->\!\f b8 as
+    g( c!) g4-. f-. c'-.
+  } \alternative {
+    { c,2. r4 }
+    { c4. r8 r2 }
+  }
+  r4 a'2\p h?4-.
+  c8( h) a4-. e-. r
+  r b'2 c4-.
+  des8( c) b4-. f-. es8-. f-.
+  ges4. es8-. ges4-. as-.
+  des2->\< \acciaccatura c8 des2->
+
+  \acciaccatura ces8 des2-> \acciaccatura b8 des2->
+  \acciaccatura a8 d!1~->\!\mf
+  d~\<
+  d4 c-- b-- c--\!
+  a2\f d4-. h!-.
+  e2. c8 a
+  g? fis e4 a g8 f
+
+  b2~ b8 c b c
+  b2~ b8 c b c
+  b4-- des--\> c-- b--
+  as-- b-- g-- f--\!
+  e2\mf fis
+  g\< a
+  h? cis
+
+  d? c!\!
+  h c4 g
+  a2\f a
+  a1~
+  a4 r r a-.\p
+  a( h) r g-.
+  g8( c) a4 r d-.
+  b8( a) g f a4-. g-.
+
+  e( f) d r
+  r d'\< d( e)
+  r c-. c8( f) d4\!
+  r es\mf des8( c) b as
+  c4-. b-. a!2~
+  a1~
+  a~\>
+
+  a2 r4\! a-.\p
+  a( h?) r g-.
+  g8( c) a4 r d?\<
+  b8( a) g f a4-. g-.
+  e( f)\! b2(~\f
+  b4 a b g)
+  as1(~\>
+
+  as4 g as f)\!
+  fis1~\p
+  fis2 e~
+  e1~
+  e2 c
+  d2. r4
+  a'?2\f d4 h?
+  e2. c8 a
+
+  g fis e4 a g8 f
+  a2 r4 a8 h
+  c4. b8 a4 c
+  f4. es8 d c b a
+  b4 d8 c b4 d8 c
+  b4\> d8 c b4 c8 g\!
+
+  as2->\mf \acciaccatura g8 as2->
+  as-> \acciaccatura des8 as2->
+  \acciaccatura g8 as2-> b->\<
+  h!2.-> b8 as
+  c2.-> b8 as\!
+  des2\f r4 es
+  e!2 r4 cis
+
+  a?2 r4 h
+  cis2 r4 a
+  fis4. e8 fis4 a
+  d?4. c?8 h a g fis
+  g4 b8 a g4 b8 a
+  g4 b8 a g4 b
+
+  es1~
+  es4 d( h? c)
+  a2 d4-. h-.
+  e?2. c8 a
+  g fis e4 a g8 f
+  a2 d4-. h-.
+
+  e2. c8 a
+  g fis e4 a g8 f
+  a4 r r2
+  r g->\<
+  c4-> a-> d2~ \rita
+  d dis
+  e2.\! r4
+  as,2.\pp r4
+
+  a!2. \atem r4
+  h2.\< r4
+  c2. r4\!
+  h2.\> r4
+  a2. r4
+  g2.\! r4
+  R1*3
+  e1\fermata \bar "|."
 }

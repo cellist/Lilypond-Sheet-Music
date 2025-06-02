@@ -114,4 +114,129 @@ vb = \relative c'' {
   c2 r
   r4 f, r f
   r c'2. \bar "|."
+
+  \introe
+  \repeat volta 2 {
+    e1~\f
+    e~
+    e
+    e8 fis g fis e4 r
+    f!1~
+    f2. g4-.
+    es1~
+
+    es2.\> f4
+    des--\!\mf es-- f-- es8-. f-.
+    g4(->\< f8) r g4(-> f8) r
+    e?4-. as2-> g4-.\!
+    f1~\f
+    f4 r d?-. r
+  }
+  \alternative {
+    { c2. r4 }
+    { c4. r8 es4-.\p f-. }
+  }
+  ges4. es8-. ges4-. as-.
+  a!-- fis-- cis-. es8-. f-.
+  ges4. es8 ges4-. as-.
+  a!-- fis-- cis2~
+  cis4 d-. cis-. h-.
+  b\< r h'!2
+
+  g?4. a?8 b a g f?\!
+  d2.->\mf c'?4--
+  b--\< a-- g-- f--
+  e?-- d-- c-- d--\!
+  e1~\f
+  e~
+  e2. e4
+
+  f8 g as g f4-. es-.
+  f8 g as g f4-. as-.
+  g r f2~\>
+  f d
+  a4-.\!\mf h2 d4
+  a-.\< h2 d4
+  a-. fis'2 e4
+
+  a,-. fis'2 e4\!
+  a,-. g'2 f!4-.
+  a,-.\f g'2 f4-.
+  e1~
+  e4 r r2
+  r4 e\p e( fis)
+  r d-. d8( g) e4
+  r g-. fis8( e) d cis
+
+  d4 r d8-. e-. fis-. g-.
+  a4(\< h) r g-.
+  g8( c) a4 r b-.\!
+  g4.\mf r8 f?4. r8
+  es4. r8 r4 d
+  cis4. e!8 gis4. fis8
+  f!4. as8 c4. b8
+
+  g?4(\> f e) r\!
+  r e-.\p e( fis)
+  r d-. d8( g) e4
+  r g\< fis8( e) d cis
+  d4\! r g\f as8 f
+  ges2.( f4)
+  e ges8 es f2(~\>
+
+  f2. es4)\!
+  r a?-.\p a( h?)
+  r g-. g8( c) a4
+  r d b8( a) g f
+  a4-. g-. e( f)
+  d2. r4
+  e1~\f
+  e~
+
+  e
+  e8 fis g fis e4 r
+  f!1~
+  f2. g4
+  es1~
+  es2.\> f4
+
+  des--\!\mf es-- f-- es8-. f-.
+  g4( f8) r g4( f8) r
+  e?4-. as2->\< g4-.
+  f1->
+  f->
+  fis2\!\f h4 gis
+  cis2. a?8 fis
+
+  e4. fis8 g4 a8 e
+  fis2. e4
+  r d2 d4~
+  d d2 d4~
+  d e( d c?)
+  f( g f d)
+
+  es ces'( b as)
+  g2( f)
+  e?1
+  fis
+  d
+  e
+
+  fis
+  d
+  c?2-> f4-> d->
+  g1~->\<
+  g~ \rita
+  g2 gis
+  a2.\! r4
+  es2.\pp r4
+
+  e!2. \atem r4
+  fis2\< cis4 fis
+  g2. r4\!
+  fis2\> a4 fis
+  e2. r4
+  d2.\! r4
+  R1*3
+  cis1\fermata \bar "|."
 }
