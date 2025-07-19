@@ -1,27 +1,27 @@
 \version "2.24.4"
 \include "deutsch.ly"
 
-#(set-global-staff-size 17)
+#(set-global-staff-size 17.5)
 
 \header {
-  title     = \markup \bold \italic "\"As Steals The Mourn Upon The Night\""
-  composer  = "Georg Friedrich Händel (1685-1759)"
-  arranger  = "arr.: R. D. Tennent"
-  enteredby = "cellist (2025-07-14)"
-  piece     = "aus: \"l’Allegro, il Penseroso, ed il Moderato\" (HWV 55)"
+  title     = \markup \bold \italic "Trio g-moll"
+  composer  = "Pierre Legrand"
+%  arranger  = ""
+  enteredby = "cellist (2025-07-19)"
+  piece     = "Für Flöte, Geige und Cello (2009)"
 }
 
 voiceconsts = {
-  \key b \major
-  \time 4/4
+  \key g \minor
+  \time 3/4
   \clef "treble"
 %  \numericTimeSignature
   \compressEmptyMeasures
   % Set default beaming for all staves
-%  \set Timing.beamExceptions = #'()
-%  \set Timing.baseMoment     = #(ly:make-moment 1 4)
-%  \set Timing.beatStructure  = #'(1 1 1)
-  \tempo 4=60
+  \set Timing.beamExceptions = #'()
+  \set Timing.baseMoment     = #(ly:make-moment 1 4)
+  \set Timing.beatStructure  = #'(1 1 1)
+  \tempo 4=90
 }
 
 mifl = "flute"
@@ -29,6 +29,8 @@ mist = "string ensemble 1"
 mivl = "violin"
 mivc = "cello"
 mipz = "pizzicato strings"
+
+psub = \markup { \dynamic p \italic "subito" }
 
 \include "v1.ily"
 \include "v2.ily"
@@ -38,19 +40,19 @@ music = \new StaffGroup <<
       \new Staff {
 	\set Staff.midiInstrument = \mifl
 	\set Staff.instrumentName = \markup \center-column { "Flöte" }
-	\transpose b b { \va }
+	\transpose g g { \va }
       }
 
       \new Staff {
 	\set Staff.midiInstrument = \mivl
 	\set Staff.instrumentName = \markup \center-column { "Violine" }
-	\transpose b b { \vb }
+	\transpose g g { \vb }
       }
 
       \new Staff {
 	\set Staff.midiInstrument = \mivc
 	\set Staff.instrumentName = \markup \center-column { "Violon-" "cello" }
-	\transpose b b { \vc }
+	\transpose g g { \vc }
       }
 >>
 
@@ -64,7 +66,7 @@ music = \new StaffGroup <<
     oddFooterMarkup = \markup {
       \fill-line {
         \if \should-print-page-number
-        "Georg Friedrich Händel - \"As Steals The Mourn Upon The Night\"" \fromproperty #'page:page-number-string
+        "Pierre Legrand - Trio g-moll" \fromproperty #'page:page-number-string
       }
     }
     evenFooterMarkup = \oddFooterMarkup
