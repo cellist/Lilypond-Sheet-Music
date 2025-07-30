@@ -1,6 +1,7 @@
 vb = \relative c'' {
   \voiceconsts
 
+  \introa
   \repeat volta 2 {
     r2 r4 b
     b a b b~
@@ -25,6 +26,32 @@ vb = \relative c'' {
     g fis
     r4 a b c
     b a8 g a2
-    h1
+    h r
   }  
+
+  \introb
+  r4 f f b?
+  a4. d8 c4 d
+  d b c2
+  d4
+  \repeat volta 2 {
+    b b a
+    g g fis b
+
+    a g fis2
+    g g
+    a4 f? g8 a b c
+    d4 a b g
+    a f g b
+    a2 g
+
+    fis g
+    r r4 b~
+    b a2 g4
+    fis g a2
+  }
+  \alternative {
+    { h4 }
+    { b!2.\fermata }
+  } \bar "|."
 }
