@@ -113,16 +113,15 @@ vc = \relative c {
   r g r g g r g r
   c, r c r c r c a
   r a r a a r a r
+  c'(->\downbow\mf h) c(-> h) c(-> h) c\upbow c(->
+  h) c(-> h) c\upbow c(-> h) c(-> h)
+  c(->\downbow h) c(-> h) c(-> h) c\upbow c(->
+  h) c(-> h) c\upbow c(-> h) c(-> h)
+  c(->\downbow h) c(-> h) c(-> h) c\upbow c(
 
-  f' r f r f r f a
-  r a r a a r a r
-  f r f r f r f a
-  r a r a a r a r
-  f r f r f r f a
-  r a r a a r a r
-
-  r g r g g r g r
-  r e\f g c~ c4 h8 a~
+  h) c(-> h) c\upbow c(-> h) c(-> h)
+  d d-> r d\upbow d-> r d-> r
+  r e,\f g c~ c4 h8 a~
   a2.~ a8 g~
   g e g c~ c4 h8 g~
   g2. g8 e~
@@ -142,8 +141,8 @@ vc = \relative c {
   e e g c~ c4 h8 a~
   a2.~ a8 g~
   g e g c~ c4 h8 g~
-  g2.~ g8 e~
-  e2.\mf r4
+  g2.~ g8 <e c'>~
+  <e c'>2.\mf r4
 
   \repeat volta 2 {
     c'1\dim

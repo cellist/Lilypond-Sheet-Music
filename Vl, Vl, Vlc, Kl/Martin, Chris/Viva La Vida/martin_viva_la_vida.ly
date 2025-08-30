@@ -1,7 +1,7 @@
 \version "2.24.4"
 \include "deutsch.ly"
 
-#(set-global-staff-size 17)
+#(set-global-staff-size 17.25)
 
 \header {
   title       = \markup \bold \italic "Viva La Vida"
