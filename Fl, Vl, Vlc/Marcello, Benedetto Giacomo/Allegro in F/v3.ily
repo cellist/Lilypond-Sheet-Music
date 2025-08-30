@@ -4,7 +4,7 @@ vc = \relative c {
 
   f4.\mp e
   d a
-  h c
+  b c
   f r4 f8
   e4. d
   c4 d8 e( d c)
@@ -22,7 +22,7 @@ vc = \relative c {
 
   f4. e
   d a
-  h c
+  b? c
   f r4 f8
   e4. d
   c4( d8) e( d c)
