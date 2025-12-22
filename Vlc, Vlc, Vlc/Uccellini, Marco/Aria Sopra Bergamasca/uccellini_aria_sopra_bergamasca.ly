@@ -1,7 +1,7 @@
-\version "2.18.2"
+\version "2.24.4"
 \include "deutsch.ly"
 
-#(set-global-staff-size 17.85)
+#(set-global-staff-size 18)
 
 \header {
   title     = \markup \bold \italic "Aria sopra la Bergamasca"
@@ -16,7 +16,7 @@ voiceconsts = {
   \time 4/4
   \clef "tenor"
 %  \numericTimeSignature
-%  \compressFullBarRests
+  \compressEmptyMeasures
 %  \set tupletSpannerDuration = #(ly:make-moment 1 4)
   \tempo "Moderato " 4=80
 }
@@ -48,8 +48,21 @@ music = <<
 >>
 
 \book {
-  \score {
-   \music
+  \paper {
+    print-page-number = ##t
+    print-first-page-number = ##t
+    ragged-last-bottom = ##f
+    oddHeaderMarkup = \markup \null
+    evenHeaderMarkup = \markup \null
+    oddFooterMarkup = \markup {
+      \fill-line {
+        \if \should-print-page-number
+        "Marco Uccellini - Aria Sopra la Bergamasca" \fromproperty #'page:page-number-string
+      }
+    }
+    evenFooterMarkup = \oddFooterMarkup
+  } \score {
+    \music
     \layout {}
   }
 
