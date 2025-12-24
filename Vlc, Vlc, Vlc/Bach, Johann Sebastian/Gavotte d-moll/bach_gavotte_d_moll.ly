@@ -4,37 +4,30 @@
 #(set-global-staff-size 18)
 
 \header {
-  title     = \markup \bold \italic "Moderato"
-  composer  = "Hans Sitt (1850-1929)"
-  arranger  = "arr.: Paul M. M. Colinet"
+  title     = \markup \bold \italic "Gavotte d-moll"
+  composer  = "Johann Sebastian Bach (1685-1750)"
+  arranger  = "arr.: Suzanne Dicker"
   enteredby = "cellist (2025-12-24)"
-  piece     = "\"6 Albumblätter\", op. 39, Nr. 1"
+  piece     = "\"Ouvertüre nach französischer Art\" (BWV 831, 1733)"
 }
 
 voiceconsts = {
-  \key g \major
+  \key d \minor
   \time 2/2
   \clef "bass"
-  \numericTimeSignature
+%  \numericTimeSignature
   \compressEmptyMeasures
 % Set default beaming for all staves
 %  \set Timing.beamExceptions = #'()
 %  \set Timing.baseMoment     = #(ly:make-moment 1 4)
 %  \set Timing.beatStructure  = #'(1 1 1)
-  \tempo "Moderato " 2=40
+  \tempo 2=50
 }
 
 mivl = "violin"
 miva = "viola"
 mivc = "cello"
 mipz = "pizzicato strings"
-
-atem = \mark \markup \box \italic "a tempo"
-pizz = \markup \box \italic "pizz"
-ritn = \mark \markup \box \italic "riten."
-pori = \mark \markup \box \italic "pop riten."
-pprf = \mark \markup \box \italic "poco a poco rit. al fine"
-uptq = \mark \markup \box \italic "un poco tranquillo"
 
 \include "v1.ily"
 \include "v2.ily"
@@ -44,19 +37,19 @@ music = \new StaffGroup <<
       \new Staff {
 	\set Staff.midiInstrument = \mivc
 	\set Staff.instrumentName = \markup \center-column { "Violon-" "cello I" }
-	\transpose g g { \va }
+	\transpose d d { \va }
       }
 
       \new Staff {
 	\set Staff.midiInstrument = \mivc
 	\set Staff.instrumentName = \markup \center-column { "Violon-" "cello II" }
-	\transpose g g { \vb }
+	\transpose d d { \vb }
       }
 
       \new Staff {
 	\set Staff.midiInstrument = \mivc
 	\set Staff.instrumentName = \markup \center-column { "Violon-" "cello III" }
-	\transpose g g { \vc }
+	\transpose d d { \vc }
       }
 >>
 
@@ -70,7 +63,7 @@ music = \new StaffGroup <<
     oddFooterMarkup = \markup {
       \fill-line {
         \if \should-print-page-number
-        "Hans Sitt - Moderato" \fromproperty #'page:page-number-string
+        "Johann Sebastian Bach - Gavotte d-moll BWV 831" \fromproperty #'page:page-number-string
       }
     }
     evenFooterMarkup = \oddFooterMarkup
