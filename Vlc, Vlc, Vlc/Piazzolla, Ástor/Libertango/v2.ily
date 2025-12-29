@@ -19,6 +19,7 @@ vb = \relative c' {
   r8 gis4 gis8 gis4 h
 
   r8 gis4 gis8 h r r4 \boxa
+  \set Staff.midiInstrument = \mivc
   r8 e(^\arco f) e f( e) c'( a)
   r e( f) e c'( a) e( f)
   r dis( e) dis e( dis) h'( fis)

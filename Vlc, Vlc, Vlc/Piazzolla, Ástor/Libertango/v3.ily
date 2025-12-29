@@ -11,6 +11,7 @@ vc = \relative c' {
   f4. f f4
   e4. e e4
 
+  \set Staff.midiInstrument = \mivc
   e4. e4 e8(^\arco\upbow\< gis h)\! \boxa
   e1~\mf
   e4. e,8( d' c h a)

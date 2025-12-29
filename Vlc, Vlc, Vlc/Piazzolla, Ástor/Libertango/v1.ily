@@ -34,6 +34,7 @@ va = \relative c' {
   e?4.\< f e4
   e4. f e4\! \boxb
 
+  \set Staff.midiInstrument = \mivc
   e'1~^\arco\f
   e4. e,8( d' c h a)
   h1~
