@@ -4,24 +4,24 @@
 #(set-global-staff-size 19)
 
 \header {
-  title     = \markup \bold \italic "Marienwürmchen"
-  composer  = "Robert Alexander Schumann (1810-1856)"
-  arranger  = "arr.: John Michael Diack"
+  title     = \markup \bold \italic "\"Irgendwo auf der Welt\""
+  composer  = "Werner Richard Heymann (1896-1961)"
+  arranger  = "arr.: Marcel Müther"
   enteredby = "cellist (2025-12-30)"
-  piece     = "\"Liederalbum für die Jugend\", op. 79, Nr. 14 (1849)"
+  piece     = "\"Ein blonder Traum\" (1932)"
 }
 
 voiceconsts = {
   \key g \major
-  \time 2/4
+  \time 4/4
   \clef "bass"
   \numericTimeSignature
   \compressEmptyMeasures
 % Set default beaming for all staves
-  \set Timing.beamExceptions = #'()
-  \set Timing.baseMoment     = #(ly:make-moment 1 4)
-  \set Timing.beatStructure  = #'(1 1 1)
-  \tempo 4=76
+%  \set Timing.beamExceptions = #'()
+%  \set Timing.baseMoment     = #(ly:make-moment 1 4)
+%  \set Timing.beatStructure  = #'(1 1 1)
+  \tempo 4=75
 }
 
 mivl = "violin"
@@ -66,7 +66,7 @@ music = \new StaffGroup <<
     oddFooterMarkup = \markup {
       \fill-line {
         \if \should-print-page-number
-        "Robert Schumann - Marienwürmchen" \fromproperty #'page:page-number-string
+        "Werner Richard Heymann - \"Irgendwo auf der Welt\"" \fromproperty #'page:page-number-string
       }
     }
     evenFooterMarkup = \oddFooterMarkup
