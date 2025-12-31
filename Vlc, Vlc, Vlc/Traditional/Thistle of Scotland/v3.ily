@@ -39,7 +39,7 @@ vc = \relative c'' {
   f1
   c
   b2 g
-  f_\rit c'
+  f \rit c'
 
   f,1
   c'2 c,

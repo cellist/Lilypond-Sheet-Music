@@ -1,17 +1,18 @@
 \version "2.24.4"
 \include "deutsch.ly"
-
+  
 #(set-global-staff-size 19)
 
 \header {
-  title = "Thistle of Scotland"
-  composer = "aus Schottland"
-  arranger = "arr.: Jordan Grigg"
-  enteredby = "cellist (2013-05-02)"
+  title     = \markup \bold \italic "Thistle of Scotland"
+  composer  = "- aus Schottland -"
+  arranger  = "arr.: Jordan Grigg"
+  enteredby = "cellist (2025-12-31)"
+%  piece     = ""
 }
 
 voiceconsts = {
-  \key f \major
+  \key g \major
   \time 4/4
   \clef "bass"
   \numericTimeSignature
@@ -28,7 +29,8 @@ miva = "viola"
 mivc = "cello"
 mipz = "pizzicato strings"
 
-rit = \mark \markup \box \italic "rit."
+atem = \mark \markup \box \italic "a tempo"
+rit  = \mark \markup \box \italic "rit."
 
 \include "v1.ily"
 \include "v2.ily"
@@ -38,19 +40,19 @@ music = \new StaffGroup <<
       \new Staff {
 	\set Staff.midiInstrument = \mivc
 	\set Staff.instrumentName = \markup \center-column { "Violon-" "cello I" }
-	\transpose f f,, { \va }
+	\transpose g c { \va }
       }
 
       \new Staff {
 	\set Staff.midiInstrument = \mivc
 	\set Staff.instrumentName = \markup \center-column { "Violon-" "cello II" }
-	\transpose f f,, { \vb }
+	\transpose g c { \vb }
       }
 
       \new Staff {
 	\set Staff.midiInstrument = \mivc
 	\set Staff.instrumentName = \markup \center-column { "Violon-" "cello III" }
-	\transpose f f,, { \vc }
+	\transpose g c { \vc }
       }
 >>
 

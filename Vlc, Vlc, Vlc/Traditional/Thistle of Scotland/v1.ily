@@ -40,7 +40,7 @@ va = \relative c'' {
   e2 c4( b)
 
   d2 d4( b)
-  a2_\rit f'4( g)
+  a2 \rit f'4( g)
   a( c,) a'( c,)
   c2 a'4( g)
   f2 f4( g)

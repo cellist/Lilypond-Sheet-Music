@@ -40,7 +40,7 @@ vb = \relative c'' {
   c,2 a'4( g)
 
   f2 f4( g)
-  f2_\rit a4( c)
+  f2 \rit a4( c)
   c( f,) c'( f,)
   a( f) e( c')
   a2 d4( b)
