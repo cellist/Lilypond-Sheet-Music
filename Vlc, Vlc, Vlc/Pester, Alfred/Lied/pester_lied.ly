@@ -1,7 +1,7 @@
 \version "2.24.4"
 \include "deutsch.ly"
   
-#(set-global-staff-size 17.25)
+#(set-global-staff-size 20)
 
 \header {
   title     = \markup \bold \italic "\"Lied\""
