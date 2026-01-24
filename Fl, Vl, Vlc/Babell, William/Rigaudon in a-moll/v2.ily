@@ -2,7 +2,7 @@ vb = \relative c' {
   \voiceconsts
 
   \partial 4 r4
-  r2 e4( h
+  r2 e4(^\coso h
   e f d h
   f') a,2 h4~
   h2. e4

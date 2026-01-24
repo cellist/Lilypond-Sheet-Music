@@ -3,7 +3,7 @@ vc = \relative c {
   \clef "bass"
 
   \partial 4 r4
-  r e( a h
+  r e(_\coso a h
   c) r d2~
   d4 r dis2(
   e4) e,-. e-. r

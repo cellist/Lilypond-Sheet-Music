@@ -33,6 +33,7 @@ mipz = "pizzicato strings"
 
 accl = \mark \markup \box \italic "accel."
 atem = \mark \markup \box \italic "a tempo"
+coso = \markup \box \italic "con sordino"
 
 \include "v1.ily"
 \include "v2.ily"

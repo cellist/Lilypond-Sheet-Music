@@ -31,7 +31,7 @@ vb = \relative c''' {
 
   fis4. fis8 e4 r8 e'-!\p
   r a, g fis g e'-! r e-!
-  r a,(\pp g fis) d4 r
+  r a,(\pp g fis) g4 r
   fis2.\p e4
   a2. g4
   c2. h8( a)

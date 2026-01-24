@@ -48,9 +48,9 @@ vc = \relative c {
     h8-. fis-. d-. h-.
     e[-. g16 e h8]-. e,[-.
 
-    e]-. e'16[ h g8]-. e-.
-    e-. e'[-. g]-. e,[-.
-    e']-. e'16 cis ais8-. cis16 ais
+    e]-. e'16[ h g8]-. e[-.
+    e]-. e'[-. g-. e,]-.
+    e'-. e'16 cis ais8-. cis16 ais
     h8-. fis-. ais-. fis-.
     h-. d16 h fis8-. h16 fis
     d8-. h16 d fis8-. fis,-.
