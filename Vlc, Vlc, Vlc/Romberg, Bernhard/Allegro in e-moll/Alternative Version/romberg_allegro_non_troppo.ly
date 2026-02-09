@@ -4,24 +4,24 @@
 #(set-global-staff-size 17)
 
 \header {
-  title     = \markup \bold \italic "Alla Polacca"
+  title     = \markup \bold \italic "Allegro, non troppo"
   composer  = "Bernhard Romberg"
   arranger  = "(1767-1841)"
-  enteredby = "cellist (2026-02-03)"
-  piece     = "\"3 Trios d'une difficulté progressive\", op.38, Nr. 3, 3. Satz"
+  enteredby = "cellist (2026-02-09)"
+  piece     = "\"3 Trios d'une difficulté progressive\", op.38, Nr. 1, 1. Satz"
 }
 
 voiceconsts = {
-  \key b \major
-  \time 3/4
+  \key e \minor
+  \time 4/4
   \clef "bass"
-  \numericTimeSignature
+%  \numericTimeSignature
   \compressEmptyMeasures
 % Set default beaming for all staves
-  \set Timing.beamExceptions = #'()
-  \set Timing.baseMoment     = #(ly:make-moment 1 4)
-  \set Timing.beatStructure  = #'(1 1 1)
-  \tempo 4=80
+%  \set Timing.beamExceptions = #'()
+%  \set Timing.baseMoment     = #(ly:make-moment 1 4)
+%  \set Timing.beatStructure  = #'(1 1 1)
+  \tempo "Allegro, non troppo " 4=100
 }
 
 mivl = "violin"
@@ -33,14 +33,6 @@ boxa = { \bar "||" \mark \markup \box \italic "A" }
 boxb = { \bar "||" \mark \markup \box \italic "B" }
 boxc = { \bar "||" \mark \markup \box \italic "C" }
 boxd = { \bar "||" \mark \markup \box \italic "D" }
-boxe = { \bar "||" \mark \markup \box \italic "E" \key es \major }
-boxf = { \bar "||" \mark \markup \box \italic "F" }
-boxg = { \bar "||" \mark \markup \box \italic "G" }
-boxh = { \bar "||" \mark \markup \box \italic "H" }
-boxi = { \bar "||" \mark \markup \box \italic "I" }
-boxj = { \bar "||" \mark \markup \box \italic "J" \key b \major }
-boxk = { \bar "||" \mark \markup \box \italic "K" }
-boxl = { \bar "||" \mark \markup \box \italic "L" }
 
 dolc = \markup \box \italic "dolce"
 
@@ -52,19 +44,19 @@ music = \new StaffGroup <<
       \new Staff {
 	\set Staff.midiInstrument = \mivc
 	\set Staff.instrumentName = \markup \center-column { "Violon-" "cello I" }
-	\transpose b b { \va }
+	\transpose e e { \va }
       }
 
       \new Staff {
 	\set Staff.midiInstrument = \mivc
 	\set Staff.instrumentName = \markup \center-column { "Violon-" "cello II" }
-	\transpose b b { \vb }
+	\transpose e e { \vb }
       }
 
       \new Staff {
 	\set Staff.midiInstrument = \mivc
 	\set Staff.instrumentName = \markup \center-column { "Violon-" "cello III" }
-	\transpose b b { \vc }
+	\transpose e e { \vc }
       }
 >>
 
@@ -78,7 +70,7 @@ music = \new StaffGroup <<
     oddFooterMarkup = \markup {
       \fill-line {
         \if \should-print-page-number
-        "Bernhard Romberg - Alla Polacca" \fromproperty #'page:page-number-string
+        "Bernhard Romberg - Allegro, non troppo" \fromproperty #'page:page-number-string
       }
     }
     evenFooterMarkup = \oddFooterMarkup
