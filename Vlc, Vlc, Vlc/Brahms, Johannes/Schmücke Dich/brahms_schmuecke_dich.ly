@@ -1,7 +1,7 @@
-\version "2.14.2"
+\version "2.24.4"
 \include "deutsch.ly"
 
-#(set-global-staff-size 19.75)
+#(set-global-staff-size 18)
 
 \header {
   title     = \markup \bold \italic "Schmücke Dich, o liebe Seele"
@@ -17,15 +17,12 @@ voiceconsts = {
   \time 4/4
   \clef "bass"
   \numericTimeSignature
-  \compressFullBarRests
+  \compressEmptyMeasures
   \set tupletSpannerDuration = #(ly:make-moment 1 4)
   \tempo "Andante " 4=50
 }
 
-%minstr = "harpsichord"
-mihi = "clarinet"
-%minstr = "accordion"
-milo = "bassoon"
+mivc = "cello"
 
 leg = \markup \italic "legato"
 
@@ -35,26 +32,39 @@ leg = \markup \italic "legato"
 
 music = \new StaffGroup <<
       \new Staff {
-	\set Staff.midiInstrument = \mihi
+	\set Staff.midiInstrument = \mivc
 	\set Staff.instrumentName = \markup \center-column { "Violon-" "cello I" }
-	\transpose c g,, { \va }
+	\transpose c b,, { \va }
       }
 
       \new Staff {
-	\set Staff.midiInstrument = \milo
+	\set Staff.midiInstrument = \mivc
 	\set Staff.instrumentName = \markup \center-column { "Violon-" "cello II" }
-	\transpose c g,, { \vb }
+	\transpose c b,, { \vb }
       }
 
       \new Staff {
-	\set Staff.midiInstrument = \milo
+	\set Staff.midiInstrument = \mivc
 	\set Staff.instrumentName = \markup \center-column { "Violon-" "cello III" }
-	\transpose c g,, { \vc }
+	\transpose c b,, { \vc }
       }
 >>
 
 \book {
-  \score {
+  \paper {
+    print-page-number = ##t
+    print-first-page-number = ##t
+    ragged-last-bottom = ##f
+    oddHeaderMarkup = \markup \null
+    evenHeaderMarkup = \markup \null
+    oddFooterMarkup = \markup {
+      \fill-line {
+        \if \should-print-page-number
+        "Johannes Brahms - Choral-Vorspiel: \"Schmücke Dich, o liebe Seele\"" \fromproperty #'page:page-number-string
+      }
+    }
+    evenFooterMarkup = \oddFooterMarkup
+  } \score {
     \music
     \layout {}
   }

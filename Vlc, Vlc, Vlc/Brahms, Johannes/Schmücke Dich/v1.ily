@@ -1,6 +1,7 @@
 va = \relative c'' {
   \voiceconsts
-
+  \clef "treble"
+  
   \partial 2 e4 d
   c d e g
   f2 e
