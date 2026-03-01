@@ -8,7 +8,7 @@ vc = \relative c' {
   f b c c, f4 a,8 c
 
   f f es? es d d g g
-  c, c f f b4 g,
+  c, c f f b4 b,
   b'8 b b b a a a a
   g g g g f f f f
   es es es es d d d d
