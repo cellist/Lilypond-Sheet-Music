@@ -1,4 +1,4 @@
-\version "2.18.2"
+\version "2.24.4"
 \include "deutsch.ly"
   
 #(set-global-staff-size 18)
@@ -16,19 +16,16 @@ voiceconsts = {
   \key g \major
   \time 3/2
   \numericTimeSignature
-  \compressFullBarRests
+  \compressEmptyMeasures
   \set Timing.beamExceptions = #'()
   \set Timing.baseMoment     = #(ly:make-moment 1 2)
   \set Timing.beatStructure  = #'(1 1 1)
   \tempo "Moderato " 2=60
 }
 
-%minstr = "harpsichord"
 mifl = "flute"
-mist = "string ensemble 1"
-%minstr = "accordion"
-miba = "bassoon"
-milo = "drawbar organ"
+mivl = "violin"
+mivc = "cello"
 
 andante = { \bar "||" \tempo "Andante " 4=70 \time 4/4 }
 
@@ -44,20 +41,33 @@ music = \new StaffGroup <<
       }
 
       \new Staff {
-	\set Staff.midiInstrument = \mist
+	\set Staff.midiInstrument = \mivl
 	\set Staff.instrumentName = \markup \center-column { "Violine" }
 	\transpose g c' { \vb }
       }
 
       \new Staff {
-	\set Staff.midiInstrument = \miba
+	\set Staff.midiInstrument = \mivc
 	\set Staff.instrumentName = \markup \center-column { "Violon-" "cello" }
 	\transpose g c' { \vc }
       }
 >>
 
 \book {
-  \score {
+   \paper {
+    print-page-number = ##t
+    print-first-page-number = ##t
+    ragged-last-bottom = ##f
+    oddHeaderMarkup = \markup \null
+    evenHeaderMarkup = \markup \null
+    oddFooterMarkup = \markup {
+      \fill-line {
+        \if \should-print-page-number
+        "Tarquinio Merula - Ciaccona" \fromproperty #'page:page-number-string
+      }
+    }
+    evenFooterMarkup = \oddFooterMarkup
+  } \score {
     \music
     \layout {}
   }
