@@ -1,26 +1,27 @@
 \version "2.24.4"
 \include "deutsch.ly"
 
-#(set-global-staff-size 17.5)
+#(set-global-staff-size 17)
 
 \header {
-  title     = \markup \bold \italic "Canzon in G-Dur"
-  composer  = "Tarquinio Merula (1595-1665)"
+  title     = \markup \bold \italic "Air in d-moll"
+  composer  = "François Campion (1686-1746)"
   arranger  = "arr.: Michel Rondeau"
   enteredby = "cellist (2026-03-13)"
-%  piece     = ""
+  piece     = "\"Nouvelles découvertes sur la Guitarre\", Nr. 17 (1705)"
 }
 
 voiceconsts = {
-  \key c \major
-  \time 6/8
+  \key e \minor
+  \time 3/4
   \clef "treble"
   \numericTimeSignature
   \compressEmptyMeasures
   % Set default beaming for all staves
-%  \set Timing.beamExceptions = #'()
-%  \set Timing.baseMoment     = #(ly:make-moment 1 4)
-%  \set Timing.beatStructure  = #'(1 1 1)
+  \set Timing.beamExceptions = #'()
+  \set Timing.baseMoment     = #(ly:make-moment 1 4)
+  \set Timing.beatStructure  = #'(1 1 1)
+  \tempo "Allegro " 4=130
 }
 
 mifl = "flute"
@@ -31,9 +32,6 @@ mipz = "pizzicato strings"
 
 fine = \mark \markup \box \italic "Fine"
 
-introa = { \tempo "1. Presto " 4.=100 }
-introb = { \tempo "2. Allegro " 4=100 }
-
 \include "v1.ily"
 \include "v2.ily"
 \include "v3.ily"
@@ -42,19 +40,19 @@ music = \new StaffGroup <<
       \new Staff {
 	\set Staff.midiInstrument = \mifl
 	\set Staff.instrumentName = \markup \center-column { "Flöte" }
-	\transpose c g { \va }
+	\transpose e g { \va }
       }
 
       \new Staff {
 	\set Staff.midiInstrument = \mivl
 	\set Staff.instrumentName = \markup \center-column { "Violine" }
-	\transpose c g { \vb }
+	\transpose e g { \vb }
       }
 
       \new Staff {
 	\set Staff.midiInstrument = \mivc
 	\set Staff.instrumentName = \markup \center-column { "Violon-" "cello" }
-	\transpose c g { \vc }
+	\transpose e g { \vc }
       }
 >>
 
@@ -68,7 +66,7 @@ music = \new StaffGroup <<
     oddFooterMarkup = \markup {
       \fill-line {
         \if \should-print-page-number
-        "Tarquinio Merula - Canzon in G-Dur" \fromproperty #'page:page-number-string
+        "François Campion - Air in d-moll" \fromproperty #'page:page-number-string
       }
     }
     evenFooterMarkup = \oddFooterMarkup
