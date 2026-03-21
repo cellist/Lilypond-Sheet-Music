@@ -4,7 +4,12 @@ This repo contains sheet music typeset with the Lilypond typesetter.
 The music chosen is in favour of cello music (mostly chamber music)
 since I am very enthusiastic about this instrument ;-).
 
-Olaf. 2009/12/23
+Please feel free to use and share the sheet music in this repo.
+I stand on the shoulders of many other arrangers, and I enjoy
+thinking that people all over the world might (and hopefully will!!)
+have fun together trying this out ;-)
+
+cellist. 2009/12/23
 
 ## My computer's setup
 
