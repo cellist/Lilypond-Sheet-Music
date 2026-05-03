@@ -1,7 +1,7 @@
 vc = \relative c {
   \voiceconsts
   \clef "bass"
-  
+
   \introa
   \repeat volta 2 {
     \partial 4 r4
@@ -155,4 +155,65 @@ vc = \relative c {
     g,4-! d'8\f d g4-! d8 d
     \partial 2. g4-! <g, g'>-! <g g'>-!
   }
+
+  \introb
+  \repeat volta 2 {
+    \partial 8 r8
+    g'4.-!\p a4( g8)
+    fis4 g8 d'( d,) r
+    g4.-! a4( g8)
+    fis4( g8) c4.~\fp
+    c a4 g8
+    r d d g g, r
+    R2.*2
+
+    b'8-!\f b-! b-! a16( b c a) f8-!
+    b4.( f
+    b f)
+    b,8 r4 b8\p r4
+    b r8 d'4.(\f
+    es4)-! r8 f,4 f,8
+    b r4 b8\p r4
+    b r8 d'4.(\f
+    es4)-! r8 f,4 f,8
+
+    b\f b b b b f
+    b b b b b f
+    b r  b-! b4-!
+  }
+  d'8\f
+  \repeat tremolo 3 d,-! d( fis a)
+  c( a fis) es4( d8)
+  c'(\p a fis) es4( d8)
+
+  c'( a fis) es4.(-!
+  d8) r d[-! d]-! r4 \boxa
+  g,8\p g' r8 r4.
+  fis8( d) g-! a( c) h-!
+  c,( c' h) a( d,) g-!
+  r fis( g) d d'16( c h a)
+
+  g8 g, r r4.
+  fis'8( d) g-! a( c) h-!
+  c,( c' h) a( d,) g-!
+  fis( d) g-! d4( g8)
+  d4( g8) d4( g8)
+  r d' d, g[ g,] \boxb r
+  g\p c cis d d, r
+
+
+  fis'4.( g8) g, es''(\pp
+  d) r es([ d])-! r4
+  R2.*2
+  \repeat tremolo 3 g,8-!\f fis16( g a fis) d8-!
+  g4.( d
+  g d)
+  g4 h8 c4 c8
+
+  d r4 d,4 g8
+  r d d, g-! g' r
+  g4.-! a4(\p g8)-!
+  fis4 g8 d' d, r
+  g4.-! a4( g8)-!
+  \partial 8*5 c, r d-!\f <g, g'>4-! \bar "|."
 }

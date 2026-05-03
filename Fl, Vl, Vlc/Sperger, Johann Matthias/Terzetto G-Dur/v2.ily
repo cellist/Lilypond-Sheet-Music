@@ -154,4 +154,66 @@ vb = \relative c' {
     h4-! <a' c>8\f <a c> <g h>4-! <a c>8 <a c>
     \partial 2. <g h>4-! <g, d' h' g'>-! <g d' h' g'>-!
   }
+
+  \introb
+  \repeat volta 2 {
+    \partial 8 r8
+    b4.\p c4( b8)
+    d-! a'( g) g( fis) r
+    b,4. c4( b8)
+    d a' g es4.~\fp
+    es <a, d>4 <g d'>8
+    b4 c16( a) b4 r8
+
+    R2.
+    b'8-!\f b-! b-! a16( b c a) f8-!
+    d'-! d-! d-! c16( d es c) a8-!
+    <b, d>4.( <c es>
+    <b d> <c es>)
+    <b d>8\p g'16( fis g es) d8-! g16( fis g es)
+    d4 r8 b'4.~\f
+
+    b4 r8 d,16( f d f) es( c)
+    d8 g16(\p fis g es) d8 g16( fis g es)
+    d4 r8 b'4.~
+    b4 r8 d,16( f? d f es c)
+    d(\f f d f d f) d( f d f es c)
+    
+    d( f d f d f) d( f d f es c)
+    d8 r d-! d4-!
+  }
+  d'8\f
+  \repeat tremolo 3 d,-! d( fis a)
+  c( a fis) es4( d8)
+  c'(\p a fis) es4( d8)
+  c'(\f a fis) es4.(-!
+  d8) r d[-! d]-! r4 \boxa
+
+  d\p e16( c) \repeat tremolo 3 h8
+  d2.
+  g4. c4 h8
+  c-! a( g) g4( fis8)
+  d'4-! e16( c) \repeat tremolo 3 h8
+  <d, d'>2.
+  g4. <d c'>4 <d h'>8
+  d16( c' a fis g h) a8 c, h16( g')
+
+  fis( c' a fis g h) a8 c, h16( g')
+  r8 <d h'> <d c'> <d h'> r \boxb b'!
+  b( a g) fis r8 c'(~
+  c b a) g r g(\pp
+  fis) r8 g([ fis])-! r4
+  R2.
+  \repeat tremolo 3 g8-!\f fis16( g a fis) d8-!
+  \repeat tremolo 3 b'-! a16( b c a) fis8
+  <g b>4.( <a c>
+  <g b> <a c>)
+  <g b>8-! d([ g]) g-! es( a)
+  a4 r8 r <d, c'> <d b'>
+  b4-! c16( a) b8-! r4
+  b4.\p c4 b8-!
+
+  d-! a'( g) g( fis) r
+  b,4. c4 b8-!
+  \partial 8*5 es r <d a'>-!\f <d b'>4-! \bar "|."
 }

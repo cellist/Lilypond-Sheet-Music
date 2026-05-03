@@ -162,4 +162,68 @@ va = \relative c'' {
     g4-! d16(\f e) fis-! d-! g4-! d16( e) fis-! d-!
     \partial 2. g4-! g-! g-!
   }
+
+  \introb
+  \repeat volta 2 {
+    \partial 8 d8-!\mf
+    d(^\dolc b') g-! g( fis) g-!
+    a-! c,( b) b( a) d-!
+    d( b') g-! g( fis) g-!
+    a-! c,( b) r16 a( c a es' c)
+    a-! fis'( a fis c' a) fis( a d, fis) g8-!
+
+    g,4( a16 fis g4) r8
+    b-!\f b-! b-! a16( b c a) f?8-!
+    d'-! d-! d-! c16( d es c) a8-!
+    \repeat tremolo 6 f'
+    f16( g f g f g) f( g f c' a f)
+    b8-! f16( g f g) f( g f c' a f)
+    
+    b8-!\p b16( a b g) f8-! b16( a b g)
+    f4-! r8 f(^\dolc f b)
+    fis[ \acciaccatura a g es16( c)] b8. d16 c a
+    b8-!\p b'16( a b g) f!8-! b16( a b g)
+    f4-! r8 f-!^\dolc f( b)
+
+    fis[ \acciaccatura a g es16 c] b8.( d16 c a)
+    b8 r \tuplet 3/2 8 { f'!16( g f) } b8[ f] \tuplet 3/2 8 { c'16( a f) }
+    b8 r \tuplet 3/2 8 { f16( g f) } b8[ f] \tuplet 3/2 8 { c'16( a f) }
+    b8 r b,-! b4-!
+  }
+  d8\f
+  \repeat tremolo 3 d,-! d fis a
+  c( a fis) es4( d8)
+
+  R2.
+  c''8(\f a fis) es4.(-!
+  d8) r d,[-! d]-! r4 \boxa
+  h'4^\dolc\mf c16( a) \repeat tremolo 3 g8
+  c4( h8) h16( a fis d) g8-!
+  e'4( d8) fis16( g a fis g h)
+  a8-! c,( h) h4( a8)
+  h'4-! c16( a) \repeat tremolo 3 g8
+
+  c4-! h8-! h16( a fis d) g8-!
+  e4( d8) fis16( g a fis g h)
+  a8 c, h16( g') fis( c' a fis g h)
+  a8 c, h16 g' fis( c' a fis g h)
+  d( h g h a fis)  g8 r \boxb d\p
+
+  d( c b) a r es'
+  es( d c) b r cis(\pp
+  d)-! r cis([ d])-! r4
+  \repeat tremolo 3 g,8-!\f fis16( g a fis) d8-!
+  \repeat tremolo 3 b'-! a16( b c a) fis8-!
+
+  \repeat tremolo 3 d'-! \repeat tremolo 3 d-!
+  d16( es d es d es) d( es d a' fis d)
+  g8-! d16( es d es) d( es d a' fis d)
+  g8-! g16( fis g d) es8-! a16( g a g)
+
+  fis d, fis a c es fis( a c fis,) g8-!
+  g,4-! a16( fis) g8-! r d'-!^\dolc
+  d( b') g-! g( fis) g-!
+  a-! c,( b) b( a) d-!
+  d( b') g-! g( fis) g-!
+  \partial 8*5 a r fis-!\f g4-! \bar "|."
 }

@@ -12,7 +12,7 @@
 }
 
 voiceconsts = {
-  \key g \major
+%  \key g \major
   \time 2/2
   \clef "treble"
 %  \numericTimeSignature
@@ -29,7 +29,11 @@ mivl = "violin"
 mivc = "cello"
 mipz = "pizzicato strings"
 
-introa = { \tempo "1. Allegro " 4=100 }
+introa = {        \tempo "1. Allegro "  4=100 }
+introb = { \break \tempo "2. Andante " 4.=50 \time 6/8 \key g \minor }
+
+boxa = { \bar "||" \mark \markup \box \italic "A" \key g \major }
+boxb = { \bar "||" \mark \markup \box \italic "B" \key g \minor }
 
 dolc = \markup \box \italic "dolce"
 
