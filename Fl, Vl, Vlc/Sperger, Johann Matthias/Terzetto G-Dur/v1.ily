@@ -226,4 +226,186 @@ va = \relative c'' {
   a-! c,( b) b( a) d-!
   d( b') g-! g( fis) g-!
   \partial 8*5 a r fis-!\f g4-! \bar "|."
+
+  \introc
+  \repeat volta 2 {
+    \partial 8 d8-!\p
+    d( h) h( c)
+    d( h) r g-!\f
+    g'-! g-! \acciaccatura a g( fis16 e)
+    d4-! r8 d-!\p
+    d( h) h( c)
+    d( h) r g\f
+    e'-! e-! \acciaccatura fis e( d16 c)
+    h4-! r8 d-!^\dolc
+
+    g-! g-! h( g)
+    dis4( e8) c-!
+    a-! a-! d!( c)
+    c4( h8) d-!
+    g-! g-! h( g)
+    dis4( e8) c-!\f
+    a-! a-! d!-! d-!
+    g,4 r
+    R2
+    r4. d'8\f
+    g-! g-! fis16( g a fis)
+    g4 r
+
+    R2
+    r4. d8
+    g-! g-! fis16( g a fis)
+    g4-! r8 d-!\f
+    h'-! h-! a-! a-!
+    g-! g-! fis-! fis-!
+    e-! e-! d-! d-!
+    cis( a') a-! a-!
+    \repeat unfold 7 \repeat tremolo 4 a
+
+    a4 d
+    ais2(
+    h4) g8( e)
+    d( cis h a?)
+    a'4. g8
+    \acciaccatura g fis2
+    d16( c) d-! e-! fis( e) fis-! g-!
+    a4-! a-!
+    a( d)
+    ais2(
+    h4) g-!
+
+    fis8( a?) d-! d,-!
+    e( g) cis,-! e-!
+    d4-! r
+    cis-! r
+    d8 e16 fis g a h cis
+    d8 a d a
+    h cis16 d \acciaccatura cis8 h a16 g
+    fis4 e\trill
+    d r
+    cis r
+
+    d8 e16 fis g a h cis
+    d8 a d a
+    h cis16 d \acciaccatura cis8 h a16 g
+    fis4 e\trill
+    d r8 cis'
+    d4 r8 cis
+    d4 d
+    d r8
+  }
+  \repeat volta 2 {
+    a
+    a( fis) fis( g)
+
+    a( fis) r4
+    R2
+    r4. a8-!
+    a( fis) fis( g)
+    a( fis) r4
+    R2
+    r4. a8^\dolc
+    d-! d-! d( a)
+    ais4( h8) g-!
+    e-! e-! a!( g)
+    g4( fis8) a-!
+    d-! d-! d( a)
+    ais4(^\dolc h8) g-!
+
+    e-! e-! a!-! a-!
+    d,4-! r
+    fis,8(\p a fis a)
+    g( a e a)
+    e( fis a g)
+    fis4 r
+    h2~
+    h
+    d
+    a4 d
+    h2
+    fis8 fis g g
+    fis4 r
+    R2
+    r8 d'16(\f e) fis( g) a-! h-!
+    c8-! c-! a-! fis-!
+
+    d4 r
+    R2*2
+    r8 c'[-! a-! fis]-!
+    d4 r
+    r8 c'[-! a-! fis]-!
+    d c'-! a-! fis-!
+    d4-! r
+    r4. g8-!
+    fis4( a8) c-!
+    h4-! r8 g
+    fis4 a8( c)
+    h4-! r8 g-!
+    fis4-! a8( c)
+    h4 d,~
+    d g
+
+    dis2(
+    e4)-! c'8( a)
+    g( fis e d?)
+    d'4 c
+    \acciaccatura c8 h2
+    g,8-! a-! h-! c-!
+    d4-! d-!
+    d( g)
+    dis2(
+    e4)-! c-!
+    h8( d) g-! g,-!
+    a( c) fis,-! a-!
+    g4-! r
+    a r
+    d8(\f e16 fis) g a h c
+
+    d8 h g d
+    e g \acciaccatura fis e d16 c
+    h4 \grace { g16[ a] } a4\trill
+    g r
+    a r
+    d8 e16 fis g a h c
+    d8 h g d
+    e g \acciaccatura fis e d16 c
+    h4 \grace { g16[ a] } a4\trill
+    g r8 fis'
+    g4 r8 fis
+
+    g4-! g-!
+  }
+  \alternative {
+    { g r8 }
+    { g4 r8 d\p }
+  }
+  d( h) h( c)
+  d( h) r g-!\f
+  g'-! g-! g( fis16 e)
+  d4-! r8 d-!\p
+  d( h) h( c)
+  d( h) r g-!\f
+  e'-! e-! \acciaccatura fis e( d16 c)
+  h4-! r8 d-!^\dolc
+  g-! g-! h( g)
+
+  dis4( e8) c-!
+  a-! a-! d!( c)
+  c4( h8) d-!
+  g-! g-! h( g)
+  dis4( e8) c-!\f
+  a-! a-! d-! d-!
+  g,4 r
+  R2
+  r4. d'8\f
+  g-! g-! fis16( g a fis)
+  g4-! r
+  R2
+
+  r4. d8\f
+  g-! g-! fis16( g a fis)
+  g4-! fis16( g a fis)
+  g4-! fis16( g a fis)
+  g4 g
+  \partial 4. g r8 \bar "|."
 }

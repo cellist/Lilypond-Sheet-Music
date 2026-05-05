@@ -216,4 +216,187 @@ vc = \relative c {
   fis4 g8 d' d, r
   g4.-! a4( g8)-!
   \partial 8*5 c, r d-!\f <g, g'>4-! \bar "|."
+  
+  \introc
+  \repeat volta 2 {
+    \partial 8 r8
+    g4\p g'
+    g, r
+    R2*2
+    g4 g'
+    g, r
+    R2*2
+    h'2(\p
+    c
+    fis,
+    g4.) r8
+    h2(
+    c4.) c8-!\f
+    a-! a-! d-! d-!
+    <g,, g'>4 r8 h'\p
+
+    h( g) g( a)
+    h g r4
+    g\f d
+    g, r8 h'\p
+    h( g) g( a)
+    h( g) r4
+    g\f d
+    g, r
+    g''8-!\f g-! fis-! fis-!
+    e-! e-! d-! d-!
+    g,-! g-! gis-! gis-!
+
+    a4 r
+    r4. fis8(
+    g) e-! cis-! a-!
+    d4-! r8 fis(
+    g) e-! cis-! a-!
+    d4 r8 fis(
+    g) e-! cis-! a-!
+    d4-! r
+    \repeat tremolo 4 fis8
+    \repeat tremolo 4 g
+    g4 r
+    \repeat tremolo 4 a8
+    \repeat tremolo 4 cis
+
+    d d a fis
+    d4 r
+    \repeat tremolo 4 fis8
+    \repeat tremolo 4 fis
+    \repeat tremolo 4 g
+    g4 r
+    \repeat tremolo 4 a8
+    \repeat tremolo 4 a,
+    d4 r
+    a r
+    d r
+    \repeat tremolo 4 fis8
+    \repeat tremolo 4 g
+    a a a, a
+    d4 r
+
+    a r
+    d r
+    \repeat tremolo 4 fis8
+    \repeat tremolo 4 g
+    a a a, a
+    d fis a a,
+    d fis a a,
+    d d' a fis
+    d4 r8
+  }
+  \repeat volta 2 {
+    r
+    d4\p d'
+    d, r
+    h'8-!\f h-! \acciaccatura cis h( a16 g)
+
+    fis4 r
+    d\p d'
+    d, r
+    g8-!\f g-! \acciaccatura a g( fis16 e)
+    d4 r
+    fis2(
+    g cis,
+    d4) d8 r
+    fis2(
+    g4.) g8-!\f
+    e-! e-! a-! a-!
+    d, a16 fis d8 r
+
+    d4\p d'
+    a a'
+    a,8 d fis e
+    d4 r
+    g8( d g d)
+    g( d g d)
+    fis( d fis d)
+    \repeat tremolo 4 fis
+    \repeat tremolo 4 g
+    a-! a-! a,-! a-!
+    d-!\f d16( e) fis( g a h)
+
+    c?8-! c-! a-! fis-!
+    d4 r
+    R2
+    r8 d16( e) fis( g) a-! h-!
+    c8-! c-! a-! fis-!
+    d a' fis es
+    d c' a fis
+    d a' fis es
+    d c' a fis
+    d c' a fis
+
+    d4-! r
+    r4. h'8(
+    c) a-! fis-! d-!
+    g4-! r8 h(
+    c) a-! fis-! d-!
+    g4 r8 h(
+    c)-! a-! fis-! d-!
+    g h h h
+    \repeat tremolo 4 h
+    \repeat tremolo 4 c
+    c4 r
+    \repeat tremolo 4 d,8
+
+    \repeat tremolo 4 fis
+    g g d h
+    g4 r
+    \repeat tremolo 4 h'8
+    \repeat tremolo 4 h
+    \repeat tremolo 4 c
+    c4 r
+    g,8 g h h
+    c c d d
+    g,4 r
+    d' r
+    g r
+    \repeat tremolo 4 h8
+    \repeat tremolo 4 c
+
+    d d d, d
+    g4 r
+    d r
+    g, r
+    \repeat tremolo 4 h'8
+    \repeat tremolo 4 c
+    d d d, d
+    g h d d,
+    g h d d,
+    g g d h
+  }
+  \alternative {
+    { g4 r8 }
+    { g4 r }
+  }
+
+  g\p g'
+  g, r
+  R2*2
+  g4 g'
+  g, r
+  R2*2
+  h'2(\p
+  c
+  fis,
+  g4)-! r
+  h2(
+  c4.) c8-!\f
+  a-! a-! d-! d-!
+  g,4-! r8 h\p
+  h( g) g( a)
+  h( g) r4
+
+  g\f d
+  g, r8 h'\p
+  h( g) g( a)
+  h( g) r4
+  g\f d
+  g,8 g' d d,
+  g g' d d,
+  g g' d h
+  \partial 4. g4 r8 \bar "|."
 }
