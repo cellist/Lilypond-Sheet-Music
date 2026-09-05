@@ -1,6 +1,5 @@
 va = \relative c' {
   \voiceconsts
-  \clef "soprano"
   
   \repeat volta 2 {
     <e g>4 <fis a> <e g>
