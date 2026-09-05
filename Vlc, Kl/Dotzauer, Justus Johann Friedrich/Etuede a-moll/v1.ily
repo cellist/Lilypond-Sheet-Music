@@ -9,7 +9,7 @@ va = \relative c' {
   a c
   h a
 
-  h d
+  h e
   c h \rall
-  a1 \bar "|."
+  a2 a, \bar "|."
 }
