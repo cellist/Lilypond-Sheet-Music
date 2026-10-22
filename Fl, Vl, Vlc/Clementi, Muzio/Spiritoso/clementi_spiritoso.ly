@@ -1,7 +1,7 @@
 \version "2.24.3"
 \include "deutsch.ly"
 
-#(set-global-staff-size 18)
+#(set-global-staff-size 20)
 
 \header {
   title     = \markup \bold \italic "Spiritoso"
