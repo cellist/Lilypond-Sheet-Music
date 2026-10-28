@@ -8,7 +8,7 @@
   composer  = "Edward William Elgar"
   arranger  = "(1857-1934)"
   enteredby = "cellist (2026-10-28)"
-  piece     = "op. 12 (1988)"
+  piece     = "op. 12 (1888)"
 }
 
 voiceconsts = {
