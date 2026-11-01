@@ -8,7 +8,7 @@
   composer  = "Philipp Nicolai (1556-1608)"
   arranger  = "arr.: Karl Bamberg"
   enteredby = "cellist (2026-11-01)"
-  piece     = "(1597)"
+  piece     = "\"Freudenspiegel deß ewigen Lebens\" (1597)"
 }
 
 voiceconsts = {
